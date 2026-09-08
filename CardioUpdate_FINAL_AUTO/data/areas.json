@@ -1,0 +1,68 @@
+[
+  [
+    "Prevención y aterosclerosis",
+    "#11a36a",
+    "PREV",
+    "Prevención"
+  ],
+  [
+    "Lípidos y Lp(a)",
+    "#f28c28",
+    "LIP",
+    "Lípidos"
+  ],
+  [
+    "Hipertensión",
+    "#d8a400",
+    "HTA",
+    "Hipertensión"
+  ],
+  [
+    "Cardiopatía isquémica",
+    "#d92332",
+    "COR",
+    "Coronaria"
+  ],
+  [
+    "Insuficiencia cardíaca",
+    "#2469d8",
+    "IC",
+    "Insuficiencia cardíaca"
+  ],
+  [
+    "Arritmias y electrofisiología",
+    "#7a49d8",
+    "ARR",
+    "Arritmias"
+  ],
+  [
+    "Miocardiopatías",
+    "#c23bb8",
+    "MCP",
+    "Miocardiopatías"
+  ],
+  [
+    "Valvulopatías",
+    "#0f96a8",
+    "VAL",
+    "Valvulopatías"
+  ],
+  [
+    "Patología aórtica",
+    "#087d72",
+    "AOR",
+    "Aorta"
+  ],
+  [
+    "Enfermedad vascular periférica",
+    "#4b9b3e",
+    "VASC",
+    "Vascular"
+  ],
+  [
+    "Pericardiopatías",
+    "#9558c7",
+    "PER",
+    "Pericardio"
+  ]
+]

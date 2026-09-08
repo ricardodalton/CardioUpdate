@@ -1,0 +1,20 @@
+{
+  "resultList": {
+    "result": [
+      {
+        "pmid": "12345678",
+        "doi": "10.1234/test.2026.1",
+        "title": "Randomized cardiovascular trial in heart failure",
+        "abstractText": "Background: Heart failure remains common. Methods: We randomized 100 patients. Results: Events were reduced. Conclusions: Treatment improved the primary endpoint.",
+        "journalTitle": "European Heart Journal",
+        "firstPublicationDate": "2026-09-08",
+        "pubTypeList": {
+          "pubType": [
+            "Randomized Controlled Trial"
+          ]
+        },
+        "authorString": "Example A, Example B"
+      }
+    ]
+  }
+}

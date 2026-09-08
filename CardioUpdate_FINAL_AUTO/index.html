@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f3ee"><link rel="icon" href="cardioupdate-icon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.json"><title>CardioUpdate</title>
+<style>
+:root{--paper:#f6f1ea;--ink:#15202b;--muted:#6f7881;--line:#d9d2c9;--red:#d51f32;--navy:#17324a;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);font-family:Arial,Helvetica,sans-serif;color:var(--ink)}button,input{font:inherit}a{color:inherit}
+.app{min-height:100vh;display:grid;grid-template-columns:235px minmax(0,1fr)}
+.sidebar{position:sticky;top:0;height:100vh;background:#152b3f;color:#fff;padding:26px 18px;display:flex;flex-direction:column;z-index:20}
+.logoRow{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+.logoMark{width:52px;height:52px;border-radius:15px;background:#fff;display:grid;place-items:center;box-shadow:0 5px 18px rgba(0,0,0,.18);overflow:hidden}
+.logoMark img{width:100%;height:100%;display:block}
+.logoText b{display:block;font-size:22px;letter-spacing:-.8px}.logoText small{color:#b9c6d2;font-size:10px}
+.sideLabel{font-size:10px;color:#8fa5b7;text-transform:uppercase;letter-spacing:1.4px;margin:12px 10px 8px}.sideNav{display:grid;gap:5px}.sideNav button{border:0;background:transparent;color:#d5e0e9;text-align:left;padding:11px 12px;border-radius:10px;cursor:pointer;font-weight:700;font-size:13px}.sideNav button:hover,.sideNav button.active{background:#fff;color:#152b3f}.sideNav i{display:inline-block;width:24px;font-style:normal}
+.sideFooter{margin-top:auto;padding:12px;border-top:1px solid rgba(255,255,255,.12);font-size:11px;color:#9fb0bf;line-height:1.4}
+.main{min-width:0}.mast{padding:18px 30px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:15px;background:rgba(246,241,234,.93);backdrop-filter:blur(10px);position:sticky;top:0;z-index:15}
+.dateBox{font-size:12px;color:var(--muted)}.dateBox b{color:var(--ink)}.mastActions{display:flex;align-items:center;gap:10px}.searchMini{width:280px;border:1px solid #cfc7bd;background:#fff;padding:10px 13px;border-radius:3px;outline:none}.searchMini:focus{border-color:#5f7487}.favCount{background:#fff;border:1px solid #cfc7bd;padding:10px 12px;font-weight:800;font-size:12px}
+.page{display:none;padding:28px 30px 70px}.page.active{display:block}
+.homeTop{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(300px,.65fr);gap:28px;align-items:start}
+.issueTag{display:inline-block;font-size:11px;font-weight:900;letter-spacing:1.3px;color:#fff;background:#d51f32;padding:7px 9px}
+.heroTitle{font-family:Georgia,"Times New Roman",serif;font-size:54px;line-height:.98;letter-spacing:-2px;margin:16px 0 15px;max-width:850px}.dek{font-family:Georgia,"Times New Roman",serif;font-size:20px;line-height:1.45;color:#4a5662;max-width:790px;margin:0}
+.heroMeta{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0 20px;color:#68727b;font-size:12px}.heroMeta b{color:#17212b}
+.readLead{border:0;background:#17324a;color:#fff;padding:13px 17px;font-weight:900;cursor:pointer}.readLead:hover{background:#d51f32}
+.issuePanel{background:#fff;border:1px solid var(--line);padding:22px 22px 18px;box-shadow:8px 8px 0 #e1d8cd}.issuePanel h2{font-family:Georgia,serif;font-size:25px;margin:0 0 12px}.number{font-size:74px;font-weight:900;line-height:.9;color:#17324a;letter-spacing:-5px}.issuePanel .caption{font-size:12px;color:#7b838b;margin:4px 0 18px}.meter{display:grid;gap:9px}.meterRow{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;font-size:12px}.meterRow b{font-size:15px}.bar{height:7px;background:#ece6df;overflow:hidden;margin-top:4px}.bar>span{display:block;height:100%;width:var(--w);background:var(--c)}
+.ruleTitle{display:flex;align-items:center;gap:12px;margin:38px 0 16px}.ruleTitle h2{font-family:Georgia,serif;font-size:29px;margin:0;white-space:nowrap}.ruleTitle span{height:1px;background:#aeb3b8;flex:1}.ruleTitle small{font-size:11px;text-transform:uppercase;letter-spacing:1.3px;color:#6b747c}
+.storyGrid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:0;border-top:3px solid #17212b;border-bottom:1px solid #17212b;background:#fff}
+.story{padding:20px;min-height:218px;border-right:1px solid var(--line);cursor:pointer;position:relative}.story:last-child{border-right:0}.story:hover{background:#fbf8f4}.story .area{font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:1.1px;color:var(--c)}.story h3{font-family:Georgia,serif;font-size:25px;line-height:1.08;margin:9px 0 10px}.story p{font-size:13px;line-height:1.5;color:#66717a}.story:first-child h3{font-size:32px}.story .stripe{position:absolute;left:0;right:0;bottom:0;height:6px;background:var(--c)}
+.areaStrip{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}.areaTile{min-height:115px;padding:14px;background:var(--c);color:#fff;cursor:pointer;display:flex;flex-direction:column;justify-content:space-between;transition:.15s}.areaTile:hover{transform:translateY(-3px)}.areaTile b{font-family:Georgia,serif;font-size:16px;line-height:1.05}.areaTile span{font-size:29px;font-weight:900;opacity:.92}.areaTile small{font-size:10px;opacity:.8}
+.sectionHeader{display:flex;align-items:end;justify-content:space-between;border-bottom:3px solid #17212b;padding-bottom:8px;margin-bottom:16px}.sectionHeader h1,.sectionHeader h2{font-family:Georgia,serif;font-size:36px;margin:0}.sectionHeader p{font-size:12px;color:#6c747d;margin:0}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0 18px}.filter{border:1px solid #bdb5ac;background:transparent;padding:8px 10px;font-size:11px;font-weight:900;cursor:pointer}.filter.active{background:#17212b;color:#fff;border-color:#17212b}
+.feed{background:#fff;border-top:3px solid #17212b}.feedItem{display:grid;grid-template-columns:150px 1fr 46px;border-bottom:1px solid var(--line);min-height:150px;cursor:pointer}.feedItem:hover{background:#fbf8f4}.feedMeta{padding:18px 14px;border-right:1px solid var(--line)}.feedMeta .area{font-size:10px;font-weight:900;text-transform:uppercase;color:var(--c)}.feedMeta .journal{font-size:11px;color:#7a8288;margin-top:8px;line-height:1.4}.feedBody{padding:18px 22px}.feedBody h3{font-family:Georgia,serif;font-size:24px;line-height:1.15;margin:0 0 8px}.feedBody p{font-size:13px;color:#5d6872;line-height:1.5;margin:0}.feedFav{border:0;background:transparent;font-size:24px;color:#a9a29a;cursor:pointer}.feedFav.on{color:#e0a314}
+.topicHero{background:#fff;border-top:12px solid var(--topic);padding:26px 28px;margin-bottom:18px;display:grid;grid-template-columns:90px 1fr;gap:18px;align-items:center}.topicCode{width:84px;height:84px;display:grid;place-items:center;background:var(--topic);color:#fff;font-size:27px;font-weight:900}.topicHero h1{font-family:Georgia,serif;font-size:39px;margin:0}.topicHero p{color:#6a7279;margin:7px 0 0}
+.detailWrap{max-width:980px;margin:auto}.back{border:0;background:none;padding:0 0 14px;font-weight:900;color:#d51f32;cursor:pointer}.articleHead{background:#fff;border-top:12px solid var(--c);padding:28px 32px}.articleHead h1{font-family:Georgia,serif;font-size:44px;line-height:1.05;margin:10px 0 15px}.articleHead .summary{font-family:Georgia,serif;font-size:19px;line-height:1.5;color:#4d5a65}.articleByline{font-size:11px;color:#7a838b;border-top:1px solid var(--line);padding-top:12px;margin-top:18px}.articleGrid{display:grid;grid-template-columns:1fr 1fr;gap:0;background:#fff;border-top:1px solid var(--line)}.articleBlock{padding:25px 30px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.articleBlock:nth-child(2n){border-right:0}.articleBlock h2{font-family:Georgia,serif;font-size:23px;margin:0 0 10px}.articleBlock p{font-size:14px;line-height:1.6;color:#59656e}.impact{grid-column:1/-1;background:#fff6ed;border-left:8px solid var(--c)}
+.sourceBar{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}.sourceBar a{text-decoration:none;padding:11px 13px;background:#17324a;color:#fff;font-size:12px;font-weight:900}.sourceBar a.alt{background:#e8e2da;color:#243544}
+.guideLayout{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.guide{background:#fff;border-left:9px solid #17809a;padding:21px}.guide h3{font-family:Georgia,serif;font-size:24px;margin:4px 0 9px}.guide p{font-size:13px;line-height:1.5;color:#63707a}.guide a{font-weight:900;color:#d51f32;text-decoration:none;font-size:12px}
+.searchStage{background:#17324a;color:#fff;padding:32px;margin-bottom:20px}.searchStage h1{font-family:Georgia,serif;font-size:42px;margin:0 0 8px}.searchStage p{color:#c8d6e2;margin:0 0 18px}.searchBox{display:flex;max-width:760px}.searchBox input{flex:1;padding:15px;border:0;outline:none}.searchBox button{border:0;background:#d51f32;color:#fff;font-weight:900;padding:0 20px;cursor:pointer}
+.empty{background:#fff;border:1px dashed #bdb5ac;padding:34px;text-align:center;color:#737b82}
+.mobileNav{display:none}
+@media(max-width:1050px){.app{grid-template-columns:190px 1fr}.sidebar{padding:22px 12px}.areaStrip{grid-template-columns:repeat(4,1fr)}.homeTop{grid-template-columns:1fr}.issuePanel{max-width:520px}}
+@media(max-width:760px){.app{display:block}.sidebar{display:none}.mast{padding:12px 14px;top:0}.searchMini{display:none}.page{padding:18px 14px 85px}.heroTitle{font-size:42px}.dek{font-size:18px}.storyGrid{grid-template-columns:1fr}.story{border-right:0;border-bottom:1px solid var(--line)}.areaStrip{grid-template-columns:repeat(2,1fr)}.feedItem{grid-template-columns:96px 1fr 38px}.feedBody{padding:15px}.feedBody h3{font-size:20px}.articleGrid{grid-template-columns:1fr}.articleBlock{border-right:0}.guideLayout{grid-template-columns:1fr}.topicHero{grid-template-columns:65px 1fr;padding:18px}.topicCode{width:60px;height:60px;font-size:19px}.topicHero h1{font-size:30px}.articleHead h1{font-size:34px}.mobileNav{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #d2cbc2;z-index:50}.mobileNav button{border:0;background:#fff;padding:9px 2px 8px;color:#68717a;font-size:10px}.mobileNav button b{display:block;font-size:17px;margin-bottom:2px}.mobileNav button.active{color:#d51f32}}
+
+.abstractFull{grid-column:1/-1;background:#fff;padding:28px 32px;border-bottom:1px solid var(--line)}
+.abstractFull h2{font-family:Georgia,serif;font-size:27px;margin:0 0 5px}
+.abstractFull .abstractNote{font-size:11px;color:#7b838a;margin:0 0 20px}
+.abstractSection{padding:17px 0;border-top:1px solid #e5dfd7}
+.abstractSection:first-of-type{border-top:3px solid var(--c)}
+.abstractSection h3{font-size:12px;text-transform:uppercase;letter-spacing:1.2px;color:var(--c);margin:0 0 7px}
+.abstractSection p{font-size:15px;line-height:1.66;color:#45535e;margin:0}
+.limits{grid-column:1/-1;background:#fff;padding:24px 30px;border-bottom:1px solid var(--line)}
+.limits h2{font-family:Georgia,serif;font-size:23px;margin:0 0 9px}
+.limits p{font-size:14px;line-height:1.6;color:#59656e;margin:0}
+
+
+.autoBadge{display:inline-block;margin-left:6px;padding:3px 6px;font-size:9px;font-weight:900;letter-spacing:.5px;background:#eef3f6;color:#52616d;border:1px solid #d8e0e6}
+.updateError{background:#fff1f2;border:1px solid #fecdd3;color:#9f1239;padding:12px 14px;margin:12px 0;font-size:12px}
+
+</style>
+
+<script>
+(function(){
+  const VERSION='CardioUpdate-3.0-final-auto';
+  try {
+    localStorage.setItem('cardioupdate_version', VERSION);
+  } catch(e) {}
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(regs){
+      regs.forEach(function(reg){ reg.unregister(); });
+    }).catch(function(){});
+  }
+
+  if ('caches' in window) {
+    caches.keys().then(function(keys){
+      return Promise.all(keys.map(function(k){ return caches.delete(k); }));
+    }).catch(function(){});
+  }
+})();
+</script>
+
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+ <div class="logoRow"><div class="logoMark"><img src="cardioupdate-icon.svg" alt="CardioUpdate"></div><div class="logoText"><b>CardioUpdate</b><small>EVIDENCE • CONTEXT • PRACTICE</small></div></div>
+ <div class="sideLabel">Navegación</div>
+ <nav class="sideNav">
+  <button data-page="home" class="active" onclick="go('home')"><i>⌂</i>Portada</button>
+  <button data-page="week" onclick="go('week')"><i>▤</i>Esta semana</button>
+  <button data-page="topics" onclick="go('topics')"><i>▦</i>Especialidades</button>
+  <button data-page="guides" onclick="go('guides')"><i>§</i>Guías</button>
+  <button data-page="favorites" onclick="go('favorites')"><i>★</i>Favoritos</button>
+  <button data-page="search" onclick="go('search')"><i>⌕</i>Buscar</button>
+ </nav>
+ <div class="sideLabel">Edición</div>
+ <div class="sideFooter">Revisión semanal de evidencia cardiológica seleccionada por relevancia clínica. Los enlaces originales se abren fuera de la app.</div>
+</aside>
+<div class="main">
+<header class="mast">
+ <div class="dateBox"><b>CardioUpdate</b> <span style="display:inline-block;margin-left:8px;background:#15936b;color:#fff;padding:3px 6px;font-size:9px;font-weight:900;letter-spacing:.7px">AUTO</span><br><span id="dbUpdated">Cargando base científica…</span></div>
+ <div class="mastActions"><button class="favCount" onclick="reloadDatabase()" title="Recargar base científica">↻ Actualizar</button><input id="headerQ" class="searchMini" placeholder="Buscar estudio, tema o revista…" onkeydown="if(event.key==='Enter')searchHeader()"><div id="favBadge" class="favCount">★ 0</div></div>
+</header>
+
+<main>
+<section id="home" class="page active">
+ <div id="homeTop"></div>
+ <div class="ruleTitle"><h2>Selección editorial</h2><span></span><small>Lo que merece lectura</small></div>
+ <div id="storyGrid" class="storyGrid"></div>
+ <div class="ruleTitle"><h2>Especialidades</h2><span></span><small>Explorar por área</small></div>
+ <div id="areaStrip" class="areaStrip"></div>
+ <div class="ruleTitle"><h2>Últimas incorporaciones</h2><span></span><small>Revisión semanal</small></div>
+ <div id="homeFeed" class="feed"></div>
+</section>
+
+<section id="week" class="page">
+ <div class="sectionHeader"><div><h1>Esta semana</h1><p id="weekCount"></p></div></div>
+ <div id="filters" class="filters"></div><div id="weekFeed" class="feed"></div>
+</section>
+
+<section id="topics" class="page">
+ <div class="sectionHeader"><div><h1>Especialidades</h1><p>Todos los núcleos temáticos de CardioUpdate.</p></div></div>
+ <div id="allAreas" class="areaStrip"></div>
+</section>
+
+<section id="topic" class="page"><div id="topicBody"></div></section>
+
+<section id="guides" class="page">
+ <div class="sectionHeader"><div><h1>Guías y consensos</h1><p>Fuentes oficiales y documentos recientes.</p></div></div>
+ <div id="guideLayout" class="guideLayout"></div>
+</section>
+
+<section id="favorites" class="page">
+ <div class="sectionHeader"><div><h1>Favoritos</h1><p>Los trabajos que guardaste en este dispositivo.</p></div><button class="filter" onclick="clearFavs()">Vaciar</button></div>
+ <div id="favFeed" class="feed"></div>
+</section>
+
+<section id="search" class="page">
+ <div class="searchStage"><h1>Buscar en CardioUpdate</h1><p>Buscá por enfermedad, tratamiento, ensayo, revista o palabra clave.</p><div class="searchBox"><input id="searchQ" placeholder="Ej.: HFpEF, amiloidosis, NEJM, revascularización…" onkeydown="if(event.key==='Enter')runSearch()"><button onclick="runSearch()">Buscar</button></div></div>
+ <div id="searchFeed"></div>
+</section>
+
+<section id="detail" class="page"><div id="detailBody"></div></section>
+</main>
+</div>
+</div>
+
+<nav class="mobileNav">
+<button data-page="home" class="active" onclick="go('home')"><b>⌂</b>Portada</button>
+<button data-page="week" onclick="go('week')"><b>▤</b>Semana</button>
+<button data-page="topics" onclick="go('topics')"><b>▦</b>Temas</button>
+<button data-page="favorites" onclick="go('favorites')"><b>★</b>Favoritos</button>
+<button data-page="search" onclick="go('search')"><b>⌕</b>Buscar</button>
+</nav>
+
+<script>
+let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={};
+async function loadDatabase(){
+  const bust='?v='+Date.now();
+  const [s,g,a,meta]=await Promise.all([
+    fetch('data/studies.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('studies.json');return r.json()}),
+    fetch('data/guides.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('guides.json');return r.json()}),
+    fetch('data/areas.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('areas.json');return r.json()}),
+    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({}))
+  ]);
+  STUDIES=s; GUIDES=g; AREAS=a; META=meta; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
+  applyMeta();
+}
+function applyMeta(){
+  const u=document.getElementById('dbUpdated');
+  if(u && META.updated_at){
+    try{
+      const d=new Date(META.updated_at);
+      u.textContent='Base actualizada: '+d.toLocaleString('es-AR',{dateStyle:'short',timeStyle:'short'});
+    }catch{u.textContent='Base actualizada'}
+  }
+}
+DATA.studies, GUIDES=DATA.guides, AREAS=DATA.areas;
+let filter='Todos', previous='week';
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+function favs(){try{return JSON.parse(localStorage.getItem('cu_re_favs')||'[]')}catch{return[]}}
+function isFav(id){return favs().includes(id)}
+function saveFavs(x){localStorage.setItem('cu_re_favs',JSON.stringify(x));updateFavBadge()}
+function toggleFav(id,e){if(e)e.stopPropagation();let f=favs();f=f.includes(id)?f.filter(x=>x!==id):[...f,id];saveFavs(f);refresh()}
+function updateFavBadge(){document.getElementById('favBadge').textContent='★ '+favs().length}
+function areaOf(name){return AM[name]||[name,'#667085','GEN',name]}
+function countArea(name){return STUDIES.filter(s=>s.area===name).length}
+function levelColor(l){return l==='Practice Changer'?'#d51f32':l==='Relevante'?'#e58b1e':'#3375d1'}
+function feedItem(s){let a=areaOf(s.area);return `<article class="feedItem" onclick="openStudy('${s.id}')"><div class="feedMeta"><div class="area" style="--c:${a[1]}">${esc(a[3])}</div><div class="journal">${esc(s.journal)}<br>${esc(s.date)}<br><b style="color:${levelColor(s.level)}">${esc(s.level)}</b>${s.review_status==='Revisión pendiente'?'<span class="autoBadge">AUTO</span>':''}</div></div><div class="feedBody"><h3>${esc(s.short)}</h3><p>${esc(s.summary)}</p></div><button class="feedFav ${isFav(s.id)?'on':''}" onclick="toggleFav('${s.id}',event)">${isFav(s.id)?'★':'☆'}</button></article>`}
+function areaTile(a){let n=countArea(a[0]);return `<div class="areaTile" style="--c:${a[1]};background:${a[1]}" onclick="openTopic('${esc(a[0])}')"><span>${a[2]}</span><b>${esc(a[3])}</b><small>${n? n+' trabajo'+(n>1?'s':''):'sin selección esta semana'}</small></div>`}
+function renderHome(){
+ let lead=STUDIES[0]; let a=areaOf(lead.area);
+ document.getElementById('homeTop').innerHTML=`<div class="homeTop"><div><span class="issueTag">PRINCIPAL DE LA SEMANA</span><h1 class="heroTitle">${esc(lead.short)}</h1><p class="dek">${esc(lead.why||lead.summary)}</p><div class="heroMeta"><span><b>${esc(lead.journal)}</b></span><span>${esc(lead.date)}</span><span style="color:${a[1]};font-weight:900">${esc(a[3])}</span></div><button class="readLead" onclick="openStudy('${lead.id}')">Leer análisis completo →</button></div><aside class="issuePanel"><h2>Esta edición</h2><div class="number">${STUDIES.length}</div><div class="caption">trabajos seleccionados</div><div class="meter"><div class="meterRow"><div>Practice Changers<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Practice Changer').length/STUDIES.length*100)}%;--c:#d51f32"></span></div></div><b>${STUDIES.filter(x=>x.level==='Practice Changer').length}</b></div><div class="meterRow"><div>Clínicamente relevantes<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Relevante').length/STUDIES.length*100)}%;--c:#e58b1e"></span></div></div><b>${STUDIES.filter(x=>x.level==='Relevante').length}</b></div><div class="meterRow"><div>Para seguimiento<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Seguimiento').length/STUDIES.length*100)}%;--c:#3375d1"></span></div></div><b>${STUDIES.filter(x=>x.level==='Seguimiento').length}</b></div><div class="meterRow"><div>Guías / consensos<div class="bar"><span style="--w:${Math.max(8,GUIDES.length/Math.max(1,STUDIES.length)*100)}%;--c:#0f96a8"></span></div></div><b>${GUIDES.length}</b></div></div></aside></div>`;
+ let picks=STUDIES.slice(1,4);
+ document.getElementById('storyGrid').innerHTML=picks.map((s,i)=>{let x=areaOf(s.area);return `<article class="story" style="--c:${x[1]}" onclick="openStudy('${s.id}')"><div class="area">${esc(x[3])}</div><h3>${esc(s.short)}</h3><p>${esc(s.summary)}</p><div class="stripe"></div></article>`}).join('');
+ document.getElementById('areaStrip').innerHTML=AREAS.slice(0,6).map(areaTile).join('');
+ document.getElementById('homeFeed').innerHTML=STUDIES.slice(4,10).map(feedItem).join('');
+}
+function filtered(){if(filter==='Todos')return STUDIES;if(['Practice Changer','Relevante','Seguimiento'].includes(filter))return STUDIES.filter(s=>s.level===filter);if(filter==='RCT')return STUDIES.filter(s=>(s.type||'').toUpperCase().includes('RCT'));if(filter==='NEJM')return STUDIES.filter(s=>(s.journal||'').includes('NEJM'));if(filter==='JACC')return STUDIES.filter(s=>(s.journal||'').includes('JACC'));return STUDIES}
+function renderWeek(){let opts=['Todos','Practice Changer','Relevante','Seguimiento','RCT','NEJM','JACC'];document.getElementById('filters').innerHTML=opts.map(x=>`<button class="filter ${filter===x?'active':''}" onclick="setFilter('${x}')">${x}</button>`).join('');let arr=filtered();document.getElementById('weekCount').textContent=`${arr.length} de ${STUDIES.length} trabajos`;document.getElementById('weekFeed').innerHTML=arr.length?arr.map(feedItem).join(''):'<div class="empty">No hay resultados con este filtro.</div>'}
+function setFilter(x){filter=x;renderWeek()}
+function renderTopics(){document.getElementById('allAreas').innerHTML=AREAS.map(areaTile).join('')}
+function openTopic(name){let a=areaOf(name), arr=STUDIES.filter(s=>s.area===name);document.getElementById('topicBody').innerHTML=`<button class="back" onclick="go('topics')">← Todas las especialidades</button><div class="topicHero" style="--topic:${a[1]}"><div class="topicCode">${a[2]}</div><div><h1>${esc(a[3])}</h1><p>${arr.length?arr.length+' trabajo'+(arr.length>1?'s':'')+' seleccionado'+(arr.length>1?'s':''):'Sin trabajos seleccionados esta semana.'}</p></div></div><div class="feed">${arr.length?arr.map(feedItem).join(''):'<div class="empty">Esta área queda activa para próximas incorporaciones.</div>'}</div>`;go('topic')}
+function renderGuides(){document.getElementById('guideLayout').innerHTML=GUIDES.map(g=>`<article class="guide"><div class="issueTag" style="background:#17809a">${esc(g.area)}</div><h3>${esc(g.title)}</h3><p>${esc(g.summary)}</p><a href="${g.url}" target="_blank" rel="noopener">Abrir fuente oficial ↗</a></article>`).join('')}
+function renderFavs(){let a=STUDIES.filter(s=>favs().includes(s.id));document.getElementById('favFeed').innerHTML=a.length?a.map(feedItem).join(''):'<div class="empty">Todavía no guardaste ningún trabajo.</div>'}
+function clearFavs(){saveFavs([]);renderFavs()}
+function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=(s.abstract_es||[]).map(x=>`<section class="abstractSection"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></section>`).join('');let auto=s.review_status==='Revisión pendiente'?`<div class="updateError"><b>Importación automática.</b> El artículo y su abstract fueron incorporados por la búsqueda diaria. La traducción es automática y la interpretación editorial está pendiente de revisión.</div>`:'';document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><p class="summary">${esc(s.summary)}</p>${auto}<div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid"><section class="articleBlock impact" style="--c:${a[1]}"><h2>Resumen CardioUpdate</h2><p>${esc(s.why||s.summary||'Relevancia clínica pendiente de síntesis editorial.')}</p></section>${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract en español</h2><p class="abstractNote">${s.review_status==='Revisión pendiente'?'Traducción automática del abstract indexado, preservando cifras y estructura en la medida de lo posible.':'Síntesis fiel y extensa del abstract original, preservando diseño, cifras y conclusiones; redactada en español para CardioUpdate.'}</p>${abs}</section>`:''}${s.limitations_es?`<section class="limits"><h2>Limitaciones y cautelas</h2><p>${esc(s.limitations_es)}</p></section>`:''}<section class="articleBlock impact" style="--c:${a[1]}"><h2>Interpretación clínica CardioUpdate</h2><p>${s.review_status==='Revisión pendiente'?'Este trabajo fue seleccionado automáticamente por criterios de fuente, diseño y relevancia temática. La interpretación clínica definitiva requiere revisión editorial; hasta entonces, basá la lectura en el abstract y en el artículo original.':`<b>${esc(s.level)}.</b> La clasificación prioriza la lectura según potencial impacto clínico. Revisá el artículo original para detalles metodológicos, subgrupos y material suplementario antes de aplicar sus hallazgos a un paciente individual.`}</p></section></div></div>`;go('detail')}
+function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
+function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
+function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
+function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home')renderHome();if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runSearch('');updateFavBadge();window.scrollTo(0,0)}
+async function reloadDatabase(){
+  const active=document.querySelector('.page.active')?.id||'home';
+  try{
+    await loadDatabase();
+    go(active==='detail'?'home':active);
+  }catch(e){
+    alert('No se pudo recargar la base científica. Se mantiene la versión ya cargada.');
+  }
+}
+async function boot(){
+  try{
+    await loadDatabase();
+    renderHome();renderWeek();renderTopics();renderGuides();renderFavs();runSearch('');updateFavBadge();
+  }catch(e){
+    document.getElementById('home').innerHTML='<div class="updateError"><b>Error al cargar la base de CardioUpdate.</b> Verifique que la carpeta data esté publicada junto con index.html.</div>';
+  }
+}
+boot();
+</script>
+</body></html>

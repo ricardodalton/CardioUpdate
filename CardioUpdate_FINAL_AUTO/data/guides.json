@@ -1,0 +1,34 @@
+[
+  {
+    "id": "esc-hf-2026",
+    "title": "2026 ESC Guidelines for the management of heart failure",
+    "area": "Insuficiencia cardíaca",
+    "date": "2026",
+    "summary": "Refinan la clasificación por fracción de eyección e introducen un marco por estadios orientado a prevención, detección temprana e intervención oportuna.",
+    "url": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines"
+  },
+  {
+    "id": "mi-definition",
+    "title": "Fifth Universal Definition of Myocardial Infarction (2026)",
+    "area": "Cardiopatía isquémica",
+    "date": "2026",
+    "summary": "Documento conjunto ESC/ACC/AHA/WHF que actualiza categorías diagnósticas de infarto y lesión miocárdica.",
+    "url": "https://www.jacc.org/doi/full/10.1016/j.jacc.2026.07.025"
+  },
+  {
+    "id": "cardiac-rehab",
+    "title": "2026 ESC Guidelines on Cardiac Rehabilitation",
+    "area": "Prevención y rehabilitación",
+    "date": "2026",
+    "summary": "Primera guía ESC dedicada específicamente a rehabilitación cardíaca.",
+    "url": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines"
+  },
+  {
+    "id": "cvd-ckd",
+    "title": "2026 ESC Guidelines for cardiovascular disease and chronic kidney disease",
+    "area": "Prevención y riesgo",
+    "date": "2026",
+    "summary": "Primera guía ESC dedicada específicamente a la interacción entre enfermedad cardiovascular y enfermedad renal crónica.",
+    "url": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines"
+  }
+]

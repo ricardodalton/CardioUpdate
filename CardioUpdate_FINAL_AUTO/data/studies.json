@@ -1,0 +1,474 @@
+[
+  {
+    "id": "tricuspid-nejm-2026",
+    "title": "Tricuspid-Valve Intervention in Heart Failure",
+    "short": "Reparación tricuspídea transcatéter en insuficiencia cardíaca",
+    "area": "Valvulopatías",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "30 Ago 2026",
+    "level": "Practice Changer",
+    "color": "#E63946",
+    "icon": "V",
+    "summary": "Ensayo aleatorizado en pacientes con insuficiencia tricuspídea grave sintomática y alto riesgo de eventos de insuficiencia cardíaca, comparando reparación transcatéter más tratamiento médico frente a tratamiento médico solo.",
+    "why": "Aborda si la corrección transcatéter de la insuficiencia tricuspídea puede traducirse en beneficio clínico más allá de la mejoría sintomática.",
+    "detail": "El primer endpoint fue un compuesto jerárquico de muerte, hospitalización por insuficiencia cardíaca y mejoría de calidad de vida al año. El estudio incluyó además un segundo endpoint de muerte u hospitalización por insuficiencia cardíaca hasta 3 años.",
+    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2606934",
+    "doi": "10.1056/NEJMoa2606934",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "En la insuficiencia tricuspídea grave sintomática persiste incertidumbre sobre si la reparación transcatéter mejora resultados clínicos duros, además de los síntomas y la calidad de vida."
+      ],
+      [
+        "Métodos",
+        "Ensayo aleatorizado en pacientes con insuficiencia tricuspídea grave sintomática y riesgo elevado de futuros eventos de insuficiencia cardíaca. La asignación fue 2:1 a reparación tricuspídea transcatéter más tratamiento médico o tratamiento médico solo. El primer endpoint primario fue un compuesto jerárquico de muerte por cualquier causa, hospitalización por insuficiencia cardíaca y mejoría de calidad de vida al año, analizado mediante win ratio. Si resultaba significativo, se evaluaba un segundo endpoint: muerte por cualquier causa u hospitalización por insuficiencia cardíaca hasta 3 años."
+      ],
+      [
+        "Resultados",
+        "Se aleatorizaron 360 pacientes: 237 a reparación y 123 a tratamiento médico. Edad media 80,3±6,4 años; 56,4% mujeres. El primer endpoint favoreció la reparación, con win ratio 2,42 (IC95% 1,76–3,33; p<0,001). A 3 años, la estimación de supervivencia libre de muerte u hospitalización por insuficiencia cardíaca fue 52,4% con reparación frente a 21,0% con tratamiento médico; HR 0,40 (IC95% 0,29–0,55; p<0,001). Hubo eventos adversos mayores a 30 días en 14 pacientes del grupo reparación (5,9%)."
+      ],
+      [
+        "Conclusión",
+        "En pacientes con insuficiencia tricuspídea grave sintomática, la reparación transcatéter añadida al tratamiento médico fue superior al tratamiento médico solo tanto en el endpoint jerárquico al año como en muerte u hospitalización por insuficiencia cardíaca hasta 3 años."
+      ]
+    ],
+    "limitations_es": "Población de edad avanzada y seleccionada; la generalización debe considerar anatomía, riesgo del procedimiento, experiencia del centro y elegibilidad para reparación transcatéter.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "single-af-2026",
+    "title": "Anticoagulation for Atrial Fibrillation with Intermediate Stroke Risk",
+    "short": "SINGLE-AF: anticoagulación en FA con riesgo embólico intermedio",
+    "area": "Arritmias y electrofisiología",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "28 Ago 2026",
+    "level": "Practice Changer",
+    "color": "#7C3AED",
+    "icon": "A",
+    "summary": "Ensayo aleatorizado que evaluó anticoagulación oral directa frente a no anticoagular en pacientes con fibrilación auricular y riesgo intermedio de ACV.",
+    "why": "Aporta evidencia randomizada en un escenario donde las guías recomendaban anticoagulación como IIa pero existía incertidumbre clínica.",
+    "detail": "A 24 meses, la terapia con DOAC redujo el desenlace compuesto de ACV, embolia sistémica, sangrado mayor o muerte cardiovascular. El ACV ocurrió en 0,3% con DOAC frente a 1,1% sin anticoagulación.",
+    "url": "https://www.nejm.org/doi/10.1056/NEJMoa2607978",
+    "doi": "10.1056/NEJMoa2607978",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "Las guías estadounidenses y europeas consideraban razonable anticoagular a pacientes con fibrilación auricular y riesgo embólico intermedio, pero faltaba evidencia de ensayos aleatorizados."
+      ],
+      [
+        "Métodos",
+        "Ensayo multicéntrico, abierto, de superioridad, con adjudicación de eventos enmascarada, realizado en Corea del Sur. Incluyó pacientes con fibrilación auricular y CHA₂DS₂-VASc de 1 en varones o 2 en mujeres. Se asignaron 1:1 a anticoagulante oral directo o a no anticoagulación. El endpoint primario a 24 meses combinó ACV, embolia sistémica, sangrado mayor o muerte cardiovascular."
+      ],
+      [
+        "Resultados",
+        "Se aleatorizaron 1.803 pacientes: 902 a DOAC y 901 a no anticoagulación. Edad media 60,4 años; 23,7% mujeres. El endpoint primario ocurrió en 0,5% con DOAC y 1,5% sin anticoagulación: diferencia absoluta −1,0 punto porcentual (IC95% −2,0 a −0,1), HR 0,31 (IC95% 0,10–0,94; p=0,03). El ACV ocurrió en 0,3% vs 1,1%. La embolia sistémica y el sangrado mayor fueron similares; no hubo muertes cardiovasculares. Eventos adversos graves: 8,9% vs 9,3%."
+      ],
+      [
+        "Conclusión",
+        "En fibrilación auricular con riesgo embólico intermedio, la anticoagulación con DOAC redujo el compuesto de eventos a 24 meses frente a no anticoagular, sin señal aparente de incremento de sangrado mayor."
+      ]
+    ],
+    "limitations_es": "El número absoluto de eventos fue bajo y la población fue coreana; la precisión del efecto y su extrapolación a otras poblaciones requieren cautela.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "functional-revasc-stemi-2026",
+    "title": "Complete Revascularization Guided by Functional Coronary Angiography in STEMI",
+    "short": "Revascularización completa guiada por fisiología en STEMI multivaso",
+    "area": "Cardiopatía isquémica",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "29 Ago 2026",
+    "level": "Practice Changer",
+    "color": "#D62828",
+    "icon": "C",
+    "summary": "Ensayo internacional randomizado en STEMI con enfermedad multivaso que comparó revascularización completa guiada por angiografía funcional frente a angiografía convencional para lesiones no culpables.",
+    "why": "Evalúa directamente cuál estrategia debe seleccionar las lesiones no culpables que merecen tratamiento durante una estrategia de revascularización completa.",
+    "detail": "El endpoint primario fue un compuesto de muerte, infarto, ACV/AIT o revascularización inducida por isquemia.",
+    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2605373",
+    "doi": "10.1056/NEJMoa2605373",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "La revascularización completa está recomendada en STEMI con enfermedad multivaso, pero no estaba definido cuál era la mejor estrategia para decidir qué lesiones no culpables debían tratarse."
+      ],
+      [
+        "Métodos",
+        "Ensayo internacional aleatorizado. Después de tratar con éxito la lesión culpable, pacientes con STEMI y enfermedad multivaso fueron asignados a revascularización completa guiada por angiografía coronaria funcional o por angiografía convencional. El endpoint primario combinó muerte por cualquier causa, infarto, ACV/AIT o revascularización inducida por isquemia. El endpoint principal de seguridad combinó lesión renal aguda asociada a contraste o sangrado mayor."
+      ],
+      [
+        "Resultados",
+        "Se aleatorizaron 1.823 pacientes: 913 a estrategia funcional y 910 a angiográfica. Mediana de edad 66 años; 24% mujeres. A una mediana de 17,9 meses, el endpoint primario ocurrió en 8,9% vs 13,7%, HR 0,62 (IC95% 0,47–0,83; p<0,001). El endpoint de seguridad ocurrió en 4,6% vs 7,1%, HR 0,63 (IC95% 0,43–0,93; p=0,02)."
+      ],
+      [
+        "Conclusión",
+        "En STEMI multivaso, la revascularización completa guiada por angiografía funcional redujo eventos clínicos frente a la selección de lesiones basada en angiografía convencional y también mostró una mejor señal de seguridad compuesta."
+      ]
+    ],
+    "limitations_es": "La aplicabilidad depende de la técnica de fisiología angiográfica utilizada, la experiencia del centro y el contexto de revascularización completa.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "target-ctca-2026",
+    "title": "Targeted Use of Computed Tomographic Coronary Angiography in Acute Chest Pain",
+    "short": "TARGET-CTCA: angio-TC luego de descartar infarto en dolor torácico",
+    "area": "Cardiopatía isquémica",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "29 Ago 2026",
+    "level": "Relevante",
+    "color": "#D62828",
+    "icon": "C",
+    "summary": "En 3170 pacientes con sospecha de síndrome coronario agudo, infarto descartado y troponina de alta sensibilidad en rango de riesgo intermedio, se comparó atención guiada por angio-TC coronaria ambulatoria frente a atención estándar.",
+    "why": "Ayuda a definir si una estrategia rutinaria de angio-TC luego de descartar infarto mejora eventos clínicos.",
+    "detail": "Tras una mediana de 3 años, el endpoint de infarto o muerte cardíaca ocurrió en 7,1% con angio-TC y 7,3% con atención estándar; HR ajustado 0,95 (IC95% 0,73–1,23; p=0,71). No demostró reducción del endpoint primario.",
+    "url": "https://www.nejm.org/doi/10.1056/NEJMoa2608903",
+    "doi": "10.1056/NEJMoa2608903",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "Después de descartar infarto en urgencias, algunos pacientes con dolor torácico y troponina de alta sensibilidad en rango intermedio continúan con riesgo cardiovascular. Se desconocía si estudiar rutinariamente la anatomía coronaria con angio-TC podía reducir eventos."
+      ],
+      [
+        "Métodos",
+        "Ensayo multicéntrico aleatorizado en 14 hospitales del Reino Unido. Incluyó pacientes con sospecha de síndrome coronario agudo, infarto descartado y troponina I o T ultrasensible máxima >5 ng/L. Se asignaron 1:1 a una estrategia de atención ambulatoria guiada por angio-TC coronaria o a atención estándar. Endpoint primario: infarto o muerte de causa cardíaca."
+      ],
+      [
+        "Resultados",
+        "Se incluyeron 3.170 participantes: 1.587 a angio-TC y 1.583 a atención estándar. Mediana de edad 61 años; 30,2% mujeres. A 90 días se realizó angio-TC en 92,1% del grupo intervención y 2,2% del control. Eventos adversos relacionados con la TC: 0,4%. Tras mediana de 3,0 años, el endpoint ocurrió en 7,1% vs 7,3%; HR ajustado 0,95 (IC95% 0,73–1,23; p=0,71)."
+      ],
+      [
+        "Conclusión",
+        "La estrategia rutinaria de angio-TC coronaria en este escenario no redujo infarto posterior ni muerte cardíaca frente al manejo estándar."
+      ]
+    ],
+    "limitations_es": "El ensayo evalúa una estrategia rutinaria; no excluye que subgrupos seleccionados o una respuesta terapéutica distinta a los hallazgos anatómicos puedan beneficiarse.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "cardio-ttransform-2026",
+    "title": "Eplontersen for Transthyretin Amyloid Cardiomyopathy",
+    "short": "CARDIO-TTRansform: eplontersen en amiloidosis ATTR-CM",
+    "area": "Miocardiopatías",
+    "type": "Fase 3 RCT",
+    "journal": "NEJM",
+    "date": "28 Ago 2026",
+    "level": "Relevante",
+    "color": "#C026D3",
+    "icon": "M",
+    "summary": "Ensayo fase 3 internacional, doble ciego, con 1432 pacientes con ATTR-CM, comparando eplontersen subcutáneo cada 4 semanas frente a placebo además del tratamiento estándar.",
+    "why": "Prueba una estrategia de silenciamiento de TTR en un campo terapéutico de rápida expansión.",
+    "detail": "El endpoint primario de muerte cardiovascular y eventos cardiovasculares recurrentes no se redujo significativamente: rate ratio 0,89 (IC95% 0,73–1,09; p=0,28).",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2608510",
+    "doi": "10.1056/NEJMoa2608510",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "La ATTR-CM es progresiva y potencialmente mortal. Eplontersen es un oligonucleótido antisentido que reduce la producción hepática de transtiretina, pero su efecto sobre eventos clínicos en cardiomiopatía amiloide no estaba establecido."
+      ],
+      [
+        "Métodos",
+        "Ensayo fase 3, internacional, doble ciego. Pacientes con ATTR-CM fueron asignados 1:1 a eplontersen subcutáneo 45 mg cada 4 semanas o placebo durante 140 semanas, además del tratamiento estándar. Endpoint primario: compuesto acumulativo de muerte cardiovascular y eventos cardiovasculares clínicos recurrentes hasta la semana 140."
+      ],
+      [
+        "Resultados",
+        "Se trataron 1.432 pacientes: 715 con eplontersen y 717 con placebo. Edad media 76,4 años; 90,6% varones. Hubo 381 eventos primarios en 210 pacientes (29,4%) con eplontersen y 392 en 231 (32,2%) con placebo; rate ratio 0,89 (IC95% 0,73–1,09; p=0,28). Muertes cardiovasculares: 74 vs 70. Eventos cardiovasculares clínicos: 307 vs 322. Para muerte por cualquier causa más eventos cardiovasculares, rate ratio 0,86 (IC95% 0,71–1,04). Eventos adversos graves: 57,8% vs 59,4%."
+      ],
+      [
+        "Conclusión",
+        "Eplontersen no redujo significativamente el compuesto de muerte cardiovascular y eventos cardiovasculares recurrentes frente a placebo hasta 140 semanas."
+      ]
+    ],
+    "limitations_es": "Ensayo negativo para el endpoint primario; cualquier interpretación de variables secundarias debe evitar sobrevalorar señales exploratorias.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "finearts-score-2026",
+    "title": "HFpEF-ABA Score and Finerenone in HFmrEF/HFpEF: Insights From FINEARTS-HF",
+    "short": "FINEARTS-HF: score HFpEF-ABA y respuesta a finerenona",
+    "area": "Insuficiencia cardíaca",
+    "type": "Análisis de ensayo",
+    "journal": "JACC: Heart Failure",
+    "date": "1 Sep 2026",
+    "level": "Relevante",
+    "color": "#1976D2",
+    "icon": "I",
+    "summary": "Análisis del ensayo FINEARTS-HF que explora el score HFpEF-ABA y finerenona en insuficiencia cardíaca con fracción de eyección levemente reducida o preservada.",
+    "why": "Puede ayudar a comprender fenotipos y heterogeneidad de riesgo dentro de HFmrEF/HFpEF.",
+    "detail": "Publicación aceptada el 1 de septiembre de 2026. CardioUpdate la clasifica como análisis relevante y no como un nuevo ensayo de eficacia independiente.",
+    "url": "https://www.jacc.org/doi/10.1016/j.jchf.2026.103297",
+    "doi": "10.1016/j.jchf.2026.103297",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "HFpEF-ABA estima probabilidad de HFpEF mediante edad, índice de masa corporal y antecedente de fibrilación auricular. Se estudió su valor pronóstico y si modificaba el efecto de finerenona en FINEARTS-HF."
+      ],
+      [
+        "Métodos",
+        "Análisis de FINEARTS-HF, ensayo aleatorizado con FEVI ≥40%. Se calculó HFpEF-ABA al inicio y se clasificó en <75%, 75–90% y >90%. Se examinó su asociación con eventos y la consistencia del efecto de finerenona a través del rango del score."
+      ],
+      [
+        "Resultados",
+        "Hubo 5.988 pacientes con score disponible. El 32,4% tuvo score <75%, 20,7% entre 75–90% y 46,9% >90%. Las tasas de eventos de insuficiencia cardíaca aumentaron con scores más altos; la relación fue no lineal, con incremento pronunciado por encima de aproximadamente 75%. Finerenona redujo eventos de manera consistente a lo largo del espectro del score."
+      ],
+      [
+        "Conclusión",
+        "Incluso entre pacientes con diagnóstico establecido de HFmrEF/HFpEF, aproximadamente un tercio presentó HFpEF-ABA <75%. El score tuvo valor pronóstico, pero no identificó heterogeneidad relevante del beneficio de finerenona."
+      ]
+    ],
+    "limitations_es": "Es un análisis secundario de un ensayo, no una validación diagnóstica independiente del score en población no seleccionada.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "hf-meaningful-change-2026",
+    "title": "Defining Clinically Meaningful Within-Patient Changes in Heart Failure",
+    "short": "Qué significa un cambio clínicamente relevante en insuficiencia cardíaca",
+    "area": "Insuficiencia cardíaca",
+    "type": "Position Statement",
+    "journal": "JACC: Heart Failure",
+    "date": "3 Sep 2026",
+    "level": "Relevante",
+    "color": "#1976D2",
+    "icon": "I",
+    "summary": "Position statement que propone un marco pragmático para definir cambios clínicamente significativos dentro de cada paciente en endpoints de insuficiencia cardíaca.",
+    "why": "Distingue significación estadística de relevancia clínica y enfatiza interpretar tanto reducciones relativas como absolutas del riesgo.",
+    "detail": "Incluye eventos clínicos, imagen, hemodinamia, biomarcadores, capacidad funcional y resultados reportados por pacientes, considerando variabilidad de medición y contexto fisiológico.",
+    "url": "https://www.jacc.org/doi/10.1016/j.jchf.2026.103310",
+    "doi": "10.1016/j.jchf.2026.103310",
+    "abstract_es": [
+      [
+        "Contexto",
+        "Los ensayos de insuficiencia cardíaca utilizan endpoints que van más allá de mortalidad y hospitalización: imagen, hemodinamia, biomarcadores, capacidad funcional y resultados reportados por pacientes. Una diferencia estadística entre grupos no garantiza que el cambio sea clínicamente importante para una persona."
+      ],
+      [
+        "Propuesta",
+        "El documento propone un marco pragmático para definir cambios clínicamente significativos dentro del paciente. Integra variabilidad de medición, asociación pronóstica y evidencia anclada en la percepción o experiencia del paciente cuando está disponible."
+      ],
+      [
+        "Principios de interpretación",
+        "Para eventos clínicos recomienda interpretar conjuntamente reducción relativa y absoluta del riesgo. Para imagen, hemodinamia, biomarcadores y capacidad funcional, el cambio debería superar la variabilidad de la medición y evaluarse dentro del contexto fisiológico."
+      ],
+      [
+        "Conclusión práctica",
+        "El documento busca estandarizar qué magnitud de cambio merece ser considerada clínicamente relevante y evitar equiparar significación estadística con beneficio perceptible o pronósticamente importante."
+      ]
+    ],
+    "limitations_es": "No es un ensayo terapéutico ni una guía de tratamiento; constituye un marco metodológico para interpretar cambios dentro del paciente.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "bp-rural-china-2026",
+    "title": "A Coordinated Community- and Family-Based Intervention to Control Blood Pressure in Rural China",
+    "short": "Intervención comunitaria y familiar para control de presión arterial",
+    "area": "Hipertensión",
+    "type": "Cluster RCT",
+    "journal": "JACC",
+    "date": "26 Ago 2026",
+    "level": "Relevante",
+    "color": "#F59E0B",
+    "icon": "H",
+    "summary": "Ensayo randomizado por clusters sobre una intervención coordinada comunitaria y familiar para mejorar el control de presión arterial en China rural.",
+    "why": "Refuerza que el control tensional depende no solo del fármaco sino también de sistemas de atención, implementación y adherencia.",
+    "detail": "Publicado online el 26 de agosto de 2026 en JACC.",
+    "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.07.045",
+    "doi": "10.1016/j.jacc.2026.07.045",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "La prevención de hipertensión suele enfocarse en individuos ya hipertensos. Se evaluó si una intervención coordinada a nivel comunitario y familiar podía desplazar la distribución poblacional de presión sistólica hacia valores más bajos."
+      ],
+      [
+        "Métodos",
+        "Ensayo aleatorizado por clusters en China rural. Aldeas con adultos de 40–80 años, independientemente de su presión basal, fueron asignadas 1:1 a intervención multifactorial o atención habitual. La intervención incluyó instructores comunitarios, sustituto de sal bajo en sodio enriquecido con potasio, automonitoreo de presión y peso, promoción de actividad física y facilitación de tratamiento antihipertensivo durante 6 meses, con apoyo digital hasta 12 meses. Endpoint primario: diferencia entre grupos en el cambio de PAS a 6 meses."
+      ],
+      [
+        "Resultados",
+        "Se aleatorizaron 80 clusters con 8.001 participantes. PAS basal media: 133,1 mmHg intervención y 131,4 control. A 6 meses, la PAS bajó 6,0 mmHg con intervención y aumentó 5,1 mmHg en control; diferencia ajustada −10,7 mmHg (IC95% −11,8 a −9,6). Alcanzaron <130/80 mmHg 46,2% vs 23,6%; OR ajustado 5,3 (IC95% 4,3–6,6). A 12 meses la diferencia de PAS fue −3,7 mmHg. Eventos adversos graves: 2,8% vs 2,3%."
+      ],
+      [
+        "Conclusión",
+        "Una estrategia comunitaria y familiar intensiva desplazó de forma marcada la presión sistólica poblacional a 6 meses. La atenuación a 12 meses sugiere que el efecto requiere infraestructura y soporte sostenidos."
+      ]
+    ],
+    "limitations_es": "Intervención multifactorial y contextualizada en China rural; no permite aislar el efecto de cada componente ni asumir igual magnitud en otros sistemas sanitarios.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "spyral-affirm-2026",
+    "title": "Reduced Blood Pressure Following Radiofrequency Renal Denervation in High Cardiovascular Risk Patients",
+    "short": "SPYRAL AFFIRM: denervación renal en pacientes de alto riesgo",
+    "area": "Hipertensión",
+    "type": "Estudio clínico",
+    "journal": "JACC: Cardiovascular Interventions",
+    "date": "24 Ago 2026",
+    "level": "Seguimiento",
+    "color": "#F59E0B",
+    "icon": "H",
+    "summary": "SPYRAL AFFIRM estudió la reducción de presión arterial tras denervación renal por radiofrecuencia en pacientes con alto riesgo cardiovascular.",
+    "why": "Aporta información a la discusión contemporánea sobre terapias intervencionistas de hipertensión en pacientes seleccionados.",
+    "detail": "Publicado el 24 de agosto de 2026; incluyó pacientes de alto riesgo cardiovascular, con especial interés en diabetes y enfermedad renal crónica.",
+    "url": "https://www.jacc.org/doi/10.1016/j.jcin.2026.05.033",
+    "doi": "10.1016/j.jcin.2026.05.033",
+    "abstract_es": [
+      [
+        "Contexto",
+        "La denervación renal reduce presión de manera independiente de la adherencia farmacológica. SPYRAL AFFIRM exploró su uso en grupos de alto riesgo poco representados en ensayos previos: diabetes, ERC estadio 3b e hipertensión sistólica aislada."
+      ],
+      [
+        "Métodos",
+        "Estudio prospectivo de un solo brazo. El análisis prespecificado incluyó pacientes con PAS de consultorio ≥140 mmHg y PAS domiciliaria no controlada ≥135 mmHg, con diabetes, eGFR 30–45 mL/min/1,73 m² y/o hipertensión sistólica aislada. Endpoint principal de eficacia: cambio en PAS de consultorio a 6 meses."
+      ],
+      [
+        "Resultados",
+        "De 987 pacientes tratados, 210 integraron la cohorte de alto riesgo. Edad 65±11 años; 42% mujeres; PAS/PAD de consultorio 162±19/88±14 mmHg; 3,8±1,8 fármacos. A 6 meses, la PAS de consultorio disminuyó −13,3 mmHg en diabetes, −19,3 en ERC 3b y −10,6 en hipertensión sistólica aislada. La PAS domiciliaria bajó −5,9, −5,4 y −4,6 mmHg respectivamente. Aproximadamente un tercio alcanzó PAS de consultorio <140 mmHg. El número de fármacos permaneció estable; la función renal se mantuvo estable en el grupo ERC."
+      ],
+      [
+        "Conclusión",
+        "La denervación renal se asoció con reducción de presión a 6 meses en estos subgrupos de alto riesgo y no mostró una señal renal adversa importante, aunque la ausencia de control limita inferencias causales."
+      ]
+    ],
+    "limitations_es": "Sin grupo control ni procedimiento sham; posible regresión a la media y otros factores concomitantes. No se realizó testeo farmacológico de adherencia.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "universal-mi-2026",
+    "title": "Fifth Universal Definition of Myocardial Infarction (2026)",
+    "short": "Quinta Definición Universal de Infarto de Miocardio",
+    "area": "Cardiopatía isquémica",
+    "type": "Consenso",
+    "journal": "JACC / ESC-ACC-AHA-WHF",
+    "date": "27 Ago 2026",
+    "level": "Practice Changer",
+    "color": "#D62828",
+    "icon": "C",
+    "summary": "Nueva definición universal conjunta ESC/ACC/AHA/WHF, publicada en 2026, que actualiza la clasificación y evaluación de infarto, lesión miocárdica y escenarios relacionados.",
+    "why": "Las definiciones universales impactan diagnóstico, investigación, codificación y decisiones clínicas; por eso se trata como documento de referencia mayor.",
+    "detail": "Incluye infarto primario, secundario y relacionado con procedimientos; integra troponina de alta sensibilidad, imagen y entidades diferenciales como Takotsubo.",
+    "url": "https://www.jacc.org/doi/full/10.1016/j.jacc.2026.07.025",
+    "doi": "10.1016/j.jacc.2026.07.025",
+    "abstract_es": [
+      [
+        "Objetivo",
+        "Actualizar la definición y clasificación del infarto para alinearla mejor con la fisiopatología, la evaluación clínica y criterios diagnósticos objetivos."
+      ],
+      [
+        "Cambio central",
+        "Se abandona la clasificación numérica tradicional como eje principal y se propone una clasificación clínica en tres escenarios: infarto primario por patología coronaria aguda; infarto secundario por desequilibrio aporte-demanda debido a otra condición aguda; e infarto relacionado con procedimientos cardíacos."
+      ],
+      [
+        "Novedades diagnósticas",
+        "Se refina la distinción entre lesión miocárdica aguda y crónica, se enfatiza el uso de percentiles 99 específicos por sexo para troponina y se integran síntomas, ECG, biomarcadores e imagen. El infarto primario incluye no solo aterotrombosis, sino también disección coronaria espontánea, embolia, vasoespasmo y determinados fallos tardíos de stent o injerto."
+      ],
+      [
+        "Procedimientos",
+        "El infarto relacionado con procedimientos adopta criterios comparables para intervenciones percutáneas y cirugía. La definición prioriza evidencia objetiva de complicación coronaria y nueva alteración regional o pérdida de viabilidad, en lugar de depender principalmente de umbrales aislados de biomarcadores."
+      ],
+      [
+        "Implicación",
+        "La nueva taxonomía busca que el diagnóstico tenga significado clínico consistente para decisiones asistenciales, investigación y codificación, y que se diferencie con claridad de la lesión miocárdica."
+      ]
+    ],
+    "limitations_es": "Es un documento de consenso/definición, no un ensayo de resultados. Su impacto dependerá de la implementación y de la validación de consistencia diagnóstica en distintos entornos.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "prasugrel-ticagrelor-2026",
+    "title": "Prasugrel versus Ticagrelor in Acute Coronary Syndromes",
+    "short": "Prasugrel versus ticagrelor en síndromes coronarios agudos",
+    "area": "Cardiopatía isquémica",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "29 Ago 2026",
+    "level": "Relevante",
+    "color": "#D62828",
+    "icon": "C",
+    "summary": "Ensayo que compara directamente prasugrel y ticagrelor en pacientes con síndrome coronario agudo.",
+    "why": "La elección del inhibidor P2Y12 continúa siendo una decisión frecuente y clínicamente relevante en SCA.",
+    "detail": "Publicado el 29 de agosto de 2026 en NEJM. La ficha completa enlaza al artículo original para revisar resultados y subgrupos.",
+    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2609057",
+    "doi": "10.1056/NEJMoa2609057",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "Persistía incertidumbre sobre cuál inhibidor P2Y12 debería preferirse en pacientes con síndrome coronario agudo sometidos a PCI."
+      ],
+      [
+        "Métodos",
+        "Ensayo pragmático, abierto, basado en el registro SWEDEHEART y aleatorizado por clusters con diseño escalonado. Regiones sanitarias suecas cambiaron de una política de ticagrelor a una política de prasugrel en momentos determinados por aleatorización. Se incluyeron aproximadamente 17.095 pacientes consecutivos con SCA tratados con PCI. Endpoint primario a un año: muerte, infarto o ACV."
+      ],
+      [
+        "Resultados",
+        "El endpoint primario ocurrió en 11,1% bajo la política de prasugrel y 11,8% bajo ticagrelor; OR ajustado 0,90 (IC95% 0,77–1,06), sin superioridad de prasugrel. Mortalidad total 6,7% vs 7,1%; infarto 3,9% vs 4,4%; ACV 0,9% vs 0,9%; trombosis de stent 0,3% vs 0,3%. Sangrado mayor: 4,2% vs 4,4%, con OR ajustado 0,80 (IC95% 0,64–0,99)."
+      ],
+      [
+        "Conclusión",
+        "En una población no seleccionada de SCA sometida a PCI, una política por defecto de prasugrel no redujo los eventos isquémicos a un año frente a una política de ticagrelor. La diferencia en sangrado fue pequeña y el diseño pragmático debe considerarse al interpretar el resultado."
+      ]
+    ],
+    "limitations_es": "Aleatorización por región y diseño escalonado, no por paciente; posibles efectos temporales/regionales y cambios de tratamiento. Algunas sensibilidades estadísticas no fueron totalmente concordantes.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "aspirin-omission-stemi-2026",
+    "title": "Aspirin Omission at the Time of Primary PCI in STEMI",
+    "short": "Omisión de aspirina durante angioplastia primaria en STEMI",
+    "area": "Cardiopatía isquémica",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "29 Ago 2026",
+    "level": "Relevante",
+    "color": "#D62828",
+    "icon": "C",
+    "summary": "Estudio contemporáneo sobre la estrategia de omitir aspirina en el contexto de angioplastia primaria por STEMI.",
+    "why": "Interroga uno de los componentes históricos del tratamiento antitrombótico del infarto, con potencial impacto en balance isquemia-sangrado.",
+    "detail": "Publicado online el 29 de agosto de 2026 en NEJM.",
+    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2606997",
+    "doi": "10.1056/NEJMoa2606997",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "No estaba establecida la seguridad de omitir aspirina desde el inicio de la angioplastia primaria en STEMI."
+      ],
+      [
+        "Métodos",
+        "Ensayo multicéntrico, abierto y aleatorizado en Japón. Pacientes con STEMI sometidos a PCI primaria fueron asignados antes de la intervención a monoterapia con prasugrel en dosis baja o a doble antiagregación con aspirina más prasugrel durante 12 meses. Endpoint primario: muerte por cualquier causa, ACV o infarto a 12 meses, con diseño de no inferioridad y margen preespecificado de 1,50 para el límite superior del IC95% del HR. Si se demostraba no inferioridad, el sangrado mayor BARC 3 o 5 se evaluaría por superioridad."
+      ],
+      [
+        "Resultados",
+        "Población de análisis: 2.216 pacientes, 1.109 monoterapia y 1.107 DAPT. A 12 meses, muerte/ACV/infarto ocurrió en 11,0% con monoterapia y 8,5% con DAPT; HR 1,34 (IC95% 1,02–1,75); no se alcanzó no inferioridad. Sangrado mayor: 5,6% vs 8,4%; HR 0,66 (IC95% 0,47–0,91). Trombosis definitiva o probable del stent y eventos adversos graves parecieron similares."
+      ],
+      [
+        "Conclusión",
+        "Omitir aspirina desde la PCI primaria y continuar con prasugrel solo no demostró no inferioridad frente a DAPT para muerte, ACV o infarto a 12 meses, aunque redujo sangrado mayor."
+      ]
+    ],
+    "limitations_es": "Estudio abierto, realizado en Japón y con prasugrel en dosis baja; la extrapolación a otras dosis, poblaciones y estrategias antitrombóticas debe ser prudente.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  }
+]
