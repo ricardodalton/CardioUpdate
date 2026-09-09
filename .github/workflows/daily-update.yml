@@ -27,6 +27,9 @@ jobs:
 
       - name: Update cardiology evidence
         working-directory: CardioUpdate_FINAL_AUTO
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CARDIOUPDATE_AI_MODEL: gpt-5.6-terra
         run: python scripts/update_studies.py
 
       - name: Validate database
