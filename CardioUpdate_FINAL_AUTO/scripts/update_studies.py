@@ -325,8 +325,13 @@ def find_related_evidence(main: dict):
     q1 = f'({phrase}) AND HAS_ABSTRACT:Y sort_cited:y'
     q2 = f'({" OR ".join(keywords[:6])}) AND HAS_ABSTRACT:Y sort_cited:y'
     pool = epmc_search(q1, 40)
+
     if len(pool) < 8:
-        pool += epmc_search(q2, 50)
+    pool += epmc_search(q2, 50)
+
+    if len(pool) < 5:
+    broad = " OR ".join(keywords[:3])
+    pool += epmc_search(f'({broad}) sort_cited:y', 60)
 
     main_doi = norm(main.get("doi", ""))
     main_pmid = norm(main.get("pmid", ""))
