@@ -174,7 +174,6 @@ function applyMeta(){
     }catch{u.textContent='Base actualizada'}
   }
 }
-DATA.studies, GUIDES=DATA.guides, AREAS=DATA.areas;
 let filter='Todos', previous='week';
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 function favs(){try{return JSON.parse(localStorage.getItem('cu_re_favs')||'[]')}catch{return[]}}
