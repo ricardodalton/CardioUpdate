@@ -39,40 +39,40 @@
     "authors": ""
   },
   {
-    "id": "single-af-2026",
-    "title": "Anticoagulation for Atrial Fibrillation with Intermediate Stroke Risk",
-    "short": "SINGLE-AF: anticoagulación en FA con riesgo embólico intermedio",
-    "area": "Arritmias y electrofisiología",
-    "type": "RCT",
-    "journal": "NEJM",
-    "date": "28 Ago 2026",
-    "level": "Practice Changer",
-    "color": "#7C3AED",
-    "icon": "A",
-    "summary": "Ensayo aleatorizado que evaluó anticoagulación oral directa frente a no anticoagular en pacientes con fibrilación auricular y riesgo intermedio de ACV.",
-    "why": "Aporta evidencia randomizada en un escenario donde las guías recomendaban anticoagulación como IIa pero existía incertidumbre clínica.",
-    "detail": "A 24 meses, la terapia con DOAC redujo el desenlace compuesto de ACV, embolia sistémica, sangrado mayor o muerte cardiovascular. El ACV ocurrió en 0,3% con DOAC frente a 1,1% sin anticoagulación.",
-    "url": "https://www.nejm.org/doi/10.1056/NEJMoa2607978",
-    "doi": "10.1056/NEJMoa2607978",
+    "id": "hf-meaningful-change-2026",
+    "title": "Defining Clinically Meaningful Within-Patient Changes in Heart Failure",
+    "short": "Qué significa un cambio clínicamente relevante en insuficiencia cardíaca",
+    "area": "Insuficiencia cardíaca",
+    "type": "Position Statement",
+    "journal": "JACC: Heart Failure",
+    "date": "3 Sep 2026",
+    "level": "Relevante",
+    "color": "#1976D2",
+    "icon": "I",
+    "summary": "Position statement que propone un marco pragmático para definir cambios clínicamente significativos dentro de cada paciente en endpoints de insuficiencia cardíaca.",
+    "why": "Distingue significación estadística de relevancia clínica y enfatiza interpretar tanto reducciones relativas como absolutas del riesgo.",
+    "detail": "Incluye eventos clínicos, imagen, hemodinamia, biomarcadores, capacidad funcional y resultados reportados por pacientes, considerando variabilidad de medición y contexto fisiológico.",
+    "url": "https://www.jacc.org/doi/10.1016/j.jchf.2026.103310",
+    "doi": "10.1016/j.jchf.2026.103310",
     "abstract_es": [
       [
-        "Antecedentes",
-        "Las guías estadounidenses y europeas consideraban razonable anticoagular a pacientes con fibrilación auricular y riesgo embólico intermedio, pero faltaba evidencia de ensayos aleatorizados."
+        "Contexto",
+        "Los ensayos de insuficiencia cardíaca utilizan endpoints que van más allá de mortalidad y hospitalización: imagen, hemodinamia, biomarcadores, capacidad funcional y resultados reportados por pacientes. Una diferencia estadística entre grupos no garantiza que el cambio sea clínicamente importante para una persona."
       ],
       [
-        "Métodos",
-        "Ensayo multicéntrico, abierto, de superioridad, con adjudicación de eventos enmascarada, realizado en Corea del Sur. Incluyó pacientes con fibrilación auricular y CHA₂DS₂-VASc de 1 en varones o 2 en mujeres. Se asignaron 1:1 a anticoagulante oral directo o a no anticoagulación. El endpoint primario a 24 meses combinó ACV, embolia sistémica, sangrado mayor o muerte cardiovascular."
+        "Propuesta",
+        "El documento propone un marco pragmático para definir cambios clínicamente significativos dentro del paciente. Integra variabilidad de medición, asociación pronóstica y evidencia anclada en la percepción o experiencia del paciente cuando está disponible."
       ],
       [
-        "Resultados",
-        "Se aleatorizaron 1.803 pacientes: 902 a DOAC y 901 a no anticoagulación. Edad media 60,4 años; 23,7% mujeres. El endpoint primario ocurrió en 0,5% con DOAC y 1,5% sin anticoagulación: diferencia absoluta −1,0 punto porcentual (IC95% −2,0 a −0,1), HR 0,31 (IC95% 0,10–0,94; p=0,03). El ACV ocurrió en 0,3% vs 1,1%. La embolia sistémica y el sangrado mayor fueron similares; no hubo muertes cardiovasculares. Eventos adversos graves: 8,9% vs 9,3%."
+        "Principios de interpretación",
+        "Para eventos clínicos recomienda interpretar conjuntamente reducción relativa y absoluta del riesgo. Para imagen, hemodinamia, biomarcadores y capacidad funcional, el cambio debería superar la variabilidad de la medición y evaluarse dentro del contexto fisiológico."
       ],
       [
-        "Conclusión",
-        "En fibrilación auricular con riesgo embólico intermedio, la anticoagulación con DOAC redujo el compuesto de eventos a 24 meses frente a no anticoagular, sin señal aparente de incremento de sangrado mayor."
+        "Conclusión práctica",
+        "El documento busca estandarizar qué magnitud de cambio merece ser considerada clínicamente relevante y evitar equiparar significación estadística con beneficio perceptible o pronósticamente importante."
       ]
     ],
-    "limitations_es": "El número absoluto de eventos fue bajo y la población fue coreana; la precisión del efecto y su extrapolación a otras poblaciones requieren cautela.",
+    "limitations_es": "No es un ensayo terapéutico ni una guía de tratamiento; constituye un marco metodológico para interpretar cambios dentro del paciente.",
     "source_mode": "editorial",
     "review_status": "Revisado",
     "authors": ""
@@ -156,6 +156,123 @@
     "authors": ""
   },
   {
+    "id": "prasugrel-ticagrelor-2026",
+    "title": "Prasugrel versus Ticagrelor in Acute Coronary Syndromes",
+    "short": "Prasugrel versus ticagrelor en síndromes coronarios agudos",
+    "area": "Cardiopatía isquémica",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "29 Ago 2026",
+    "level": "Relevante",
+    "color": "#D62828",
+    "icon": "C",
+    "summary": "Ensayo que compara directamente prasugrel y ticagrelor en pacientes con síndrome coronario agudo.",
+    "why": "La elección del inhibidor P2Y12 continúa siendo una decisión frecuente y clínicamente relevante en SCA.",
+    "detail": "Publicado el 29 de agosto de 2026 en NEJM. La ficha completa enlaza al artículo original para revisar resultados y subgrupos.",
+    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2609057",
+    "doi": "10.1056/NEJMoa2609057",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "Persistía incertidumbre sobre cuál inhibidor P2Y12 debería preferirse en pacientes con síndrome coronario agudo sometidos a PCI."
+      ],
+      [
+        "Métodos",
+        "Ensayo pragmático, abierto, basado en el registro SWEDEHEART y aleatorizado por clusters con diseño escalonado. Regiones sanitarias suecas cambiaron de una política de ticagrelor a una política de prasugrel en momentos determinados por aleatorización. Se incluyeron aproximadamente 17.095 pacientes consecutivos con SCA tratados con PCI. Endpoint primario a un año: muerte, infarto o ACV."
+      ],
+      [
+        "Resultados",
+        "El endpoint primario ocurrió en 11,1% bajo la política de prasugrel y 11,8% bajo ticagrelor; OR ajustado 0,90 (IC95% 0,77–1,06), sin superioridad de prasugrel. Mortalidad total 6,7% vs 7,1%; infarto 3,9% vs 4,4%; ACV 0,9% vs 0,9%; trombosis de stent 0,3% vs 0,3%. Sangrado mayor: 4,2% vs 4,4%, con OR ajustado 0,80 (IC95% 0,64–0,99)."
+      ],
+      [
+        "Conclusión",
+        "En una población no seleccionada de SCA sometida a PCI, una política por defecto de prasugrel no redujo los eventos isquémicos a un año frente a una política de ticagrelor. La diferencia en sangrado fue pequeña y el diseño pragmático debe considerarse al interpretar el resultado."
+      ]
+    ],
+    "limitations_es": "Aleatorización por región y diseño escalonado, no por paciente; posibles efectos temporales/regionales y cambios de tratamiento. Algunas sensibilidades estadísticas no fueron totalmente concordantes.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "aspirin-omission-stemi-2026",
+    "title": "Aspirin Omission at the Time of Primary PCI in STEMI",
+    "short": "Omisión de aspirina durante angioplastia primaria en STEMI",
+    "area": "Cardiopatía isquémica",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "29 Ago 2026",
+    "level": "Relevante",
+    "color": "#D62828",
+    "icon": "C",
+    "summary": "Estudio contemporáneo sobre la estrategia de omitir aspirina en el contexto de angioplastia primaria por STEMI.",
+    "why": "Interroga uno de los componentes históricos del tratamiento antitrombótico del infarto, con potencial impacto en balance isquemia-sangrado.",
+    "detail": "Publicado online el 29 de agosto de 2026 en NEJM.",
+    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2606997",
+    "doi": "10.1056/NEJMoa2606997",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "No estaba establecida la seguridad de omitir aspirina desde el inicio de la angioplastia primaria en STEMI."
+      ],
+      [
+        "Métodos",
+        "Ensayo multicéntrico, abierto y aleatorizado en Japón. Pacientes con STEMI sometidos a PCI primaria fueron asignados antes de la intervención a monoterapia con prasugrel en dosis baja o a doble antiagregación con aspirina más prasugrel durante 12 meses. Endpoint primario: muerte por cualquier causa, ACV o infarto a 12 meses, con diseño de no inferioridad y margen preespecificado de 1,50 para el límite superior del IC95% del HR. Si se demostraba no inferioridad, el sangrado mayor BARC 3 o 5 se evaluaría por superioridad."
+      ],
+      [
+        "Resultados",
+        "Población de análisis: 2.216 pacientes, 1.109 monoterapia y 1.107 DAPT. A 12 meses, muerte/ACV/infarto ocurrió en 11,0% con monoterapia y 8,5% con DAPT; HR 1,34 (IC95% 1,02–1,75); no se alcanzó no inferioridad. Sangrado mayor: 5,6% vs 8,4%; HR 0,66 (IC95% 0,47–0,91). Trombosis definitiva o probable del stent y eventos adversos graves parecieron similares."
+      ],
+      [
+        "Conclusión",
+        "Omitir aspirina desde la PCI primaria y continuar con prasugrel solo no demostró no inferioridad frente a DAPT para muerte, ACV o infarto a 12 meses, aunque redujo sangrado mayor."
+      ]
+    ],
+    "limitations_es": "Estudio abierto, realizado en Japón y con prasugrel en dosis baja; la extrapolación a otras dosis, poblaciones y estrategias antitrombóticas debe ser prudente.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
+    "id": "single-af-2026",
+    "title": "Anticoagulation for Atrial Fibrillation with Intermediate Stroke Risk",
+    "short": "SINGLE-AF: anticoagulación en FA con riesgo embólico intermedio",
+    "area": "Arritmias y electrofisiología",
+    "type": "RCT",
+    "journal": "NEJM",
+    "date": "28 Ago 2026",
+    "level": "Practice Changer",
+    "color": "#7C3AED",
+    "icon": "A",
+    "summary": "Ensayo aleatorizado que evaluó anticoagulación oral directa frente a no anticoagular en pacientes con fibrilación auricular y riesgo intermedio de ACV.",
+    "why": "Aporta evidencia randomizada en un escenario donde las guías recomendaban anticoagulación como IIa pero existía incertidumbre clínica.",
+    "detail": "A 24 meses, la terapia con DOAC redujo el desenlace compuesto de ACV, embolia sistémica, sangrado mayor o muerte cardiovascular. El ACV ocurrió en 0,3% con DOAC frente a 1,1% sin anticoagulación.",
+    "url": "https://www.nejm.org/doi/10.1056/NEJMoa2607978",
+    "doi": "10.1056/NEJMoa2607978",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "Las guías estadounidenses y europeas consideraban razonable anticoagular a pacientes con fibrilación auricular y riesgo embólico intermedio, pero faltaba evidencia de ensayos aleatorizados."
+      ],
+      [
+        "Métodos",
+        "Ensayo multicéntrico, abierto, de superioridad, con adjudicación de eventos enmascarada, realizado en Corea del Sur. Incluyó pacientes con fibrilación auricular y CHA₂DS₂-VASc de 1 en varones o 2 en mujeres. Se asignaron 1:1 a anticoagulante oral directo o a no anticoagulación. El endpoint primario a 24 meses combinó ACV, embolia sistémica, sangrado mayor o muerte cardiovascular."
+      ],
+      [
+        "Resultados",
+        "Se aleatorizaron 1.803 pacientes: 902 a DOAC y 901 a no anticoagulación. Edad media 60,4 años; 23,7% mujeres. El endpoint primario ocurrió en 0,5% con DOAC y 1,5% sin anticoagulación: diferencia absoluta −1,0 punto porcentual (IC95% −2,0 a −0,1), HR 0,31 (IC95% 0,10–0,94; p=0,03). El ACV ocurrió en 0,3% vs 1,1%. La embolia sistémica y el sangrado mayor fueron similares; no hubo muertes cardiovasculares. Eventos adversos graves: 8,9% vs 9,3%."
+      ],
+      [
+        "Conclusión",
+        "En fibrilación auricular con riesgo embólico intermedio, la anticoagulación con DOAC redujo el compuesto de eventos a 24 meses frente a no anticoagular, sin señal aparente de incremento de sangrado mayor."
+      ]
+    ],
+    "limitations_es": "El número absoluto de eventos fue bajo y la población fue coreana; la precisión del efecto y su extrapolación a otras poblaciones requieren cautela.",
+    "source_mode": "editorial",
+    "review_status": "Revisado",
+    "authors": ""
+  },
+  {
     "id": "cardio-ttransform-2026",
     "title": "Eplontersen for Transthyretin Amyloid Cardiomyopathy",
     "short": "CARDIO-TTRansform: eplontersen en amiloidosis ATTR-CM",
@@ -195,79 +312,44 @@
     "authors": ""
   },
   {
-    "id": "finearts-score-2026",
-    "title": "HFpEF-ABA Score and Finerenone in HFmrEF/HFpEF: Insights From FINEARTS-HF",
-    "short": "FINEARTS-HF: score HFpEF-ABA y respuesta a finerenona",
-    "area": "Insuficiencia cardíaca",
-    "type": "Análisis de ensayo",
-    "journal": "JACC: Heart Failure",
-    "date": "1 Sep 2026",
-    "level": "Relevante",
-    "color": "#1976D2",
-    "icon": "I",
-    "summary": "Análisis del ensayo FINEARTS-HF que explora el score HFpEF-ABA y finerenona en insuficiencia cardíaca con fracción de eyección levemente reducida o preservada.",
-    "why": "Puede ayudar a comprender fenotipos y heterogeneidad de riesgo dentro de HFmrEF/HFpEF.",
-    "detail": "Publicación aceptada el 1 de septiembre de 2026. CardioUpdate la clasifica como análisis relevante y no como un nuevo ensayo de eficacia independiente.",
-    "url": "https://www.jacc.org/doi/10.1016/j.jchf.2026.103297",
-    "doi": "10.1016/j.jchf.2026.103297",
+    "id": "universal-mi-2026",
+    "title": "Fifth Universal Definition of Myocardial Infarction (2026)",
+    "short": "Quinta Definición Universal de Infarto de Miocardio",
+    "area": "Cardiopatía isquémica",
+    "type": "Consenso",
+    "journal": "JACC / ESC-ACC-AHA-WHF",
+    "date": "27 Ago 2026",
+    "level": "Practice Changer",
+    "color": "#D62828",
+    "icon": "C",
+    "summary": "Nueva definición universal conjunta ESC/ACC/AHA/WHF, publicada en 2026, que actualiza la clasificación y evaluación de infarto, lesión miocárdica y escenarios relacionados.",
+    "why": "Las definiciones universales impactan diagnóstico, investigación, codificación y decisiones clínicas; por eso se trata como documento de referencia mayor.",
+    "detail": "Incluye infarto primario, secundario y relacionado con procedimientos; integra troponina de alta sensibilidad, imagen y entidades diferenciales como Takotsubo.",
+    "url": "https://www.jacc.org/doi/full/10.1016/j.jacc.2026.07.025",
+    "doi": "10.1016/j.jacc.2026.07.025",
     "abstract_es": [
       [
-        "Antecedentes",
-        "HFpEF-ABA estima probabilidad de HFpEF mediante edad, índice de masa corporal y antecedente de fibrilación auricular. Se estudió su valor pronóstico y si modificaba el efecto de finerenona en FINEARTS-HF."
+        "Objetivo",
+        "Actualizar la definición y clasificación del infarto para alinearla mejor con la fisiopatología, la evaluación clínica y criterios diagnósticos objetivos."
       ],
       [
-        "Métodos",
-        "Análisis de FINEARTS-HF, ensayo aleatorizado con FEVI ≥40%. Se calculó HFpEF-ABA al inicio y se clasificó en <75%, 75–90% y >90%. Se examinó su asociación con eventos y la consistencia del efecto de finerenona a través del rango del score."
+        "Cambio central",
+        "Se abandona la clasificación numérica tradicional como eje principal y se propone una clasificación clínica en tres escenarios: infarto primario por patología coronaria aguda; infarto secundario por desequilibrio aporte-demanda debido a otra condición aguda; e infarto relacionado con procedimientos cardíacos."
       ],
       [
-        "Resultados",
-        "Hubo 5.988 pacientes con score disponible. El 32,4% tuvo score <75%, 20,7% entre 75–90% y 46,9% >90%. Las tasas de eventos de insuficiencia cardíaca aumentaron con scores más altos; la relación fue no lineal, con incremento pronunciado por encima de aproximadamente 75%. Finerenona redujo eventos de manera consistente a lo largo del espectro del score."
+        "Novedades diagnósticas",
+        "Se refina la distinción entre lesión miocárdica aguda y crónica, se enfatiza el uso de percentiles 99 específicos por sexo para troponina y se integran síntomas, ECG, biomarcadores e imagen. El infarto primario incluye no solo aterotrombosis, sino también disección coronaria espontánea, embolia, vasoespasmo y determinados fallos tardíos de stent o injerto."
       ],
       [
-        "Conclusión",
-        "Incluso entre pacientes con diagnóstico establecido de HFmrEF/HFpEF, aproximadamente un tercio presentó HFpEF-ABA <75%. El score tuvo valor pronóstico, pero no identificó heterogeneidad relevante del beneficio de finerenona."
+        "Procedimientos",
+        "El infarto relacionado con procedimientos adopta criterios comparables para intervenciones percutáneas y cirugía. La definición prioriza evidencia objetiva de complicación coronaria y nueva alteración regional o pérdida de viabilidad, en lugar de depender principalmente de umbrales aislados de biomarcadores."
+      ],
+      [
+        "Implicación",
+        "La nueva taxonomía busca que el diagnóstico tenga significado clínico consistente para decisiones asistenciales, investigación y codificación, y que se diferencie con claridad de la lesión miocárdica."
       ]
     ],
-    "limitations_es": "Es un análisis secundario de un ensayo, no una validación diagnóstica independiente del score en población no seleccionada.",
-    "source_mode": "editorial",
-    "review_status": "Revisado",
-    "authors": ""
-  },
-  {
-    "id": "hf-meaningful-change-2026",
-    "title": "Defining Clinically Meaningful Within-Patient Changes in Heart Failure",
-    "short": "Qué significa un cambio clínicamente relevante en insuficiencia cardíaca",
-    "area": "Insuficiencia cardíaca",
-    "type": "Position Statement",
-    "journal": "JACC: Heart Failure",
-    "date": "3 Sep 2026",
-    "level": "Relevante",
-    "color": "#1976D2",
-    "icon": "I",
-    "summary": "Position statement que propone un marco pragmático para definir cambios clínicamente significativos dentro de cada paciente en endpoints de insuficiencia cardíaca.",
-    "why": "Distingue significación estadística de relevancia clínica y enfatiza interpretar tanto reducciones relativas como absolutas del riesgo.",
-    "detail": "Incluye eventos clínicos, imagen, hemodinamia, biomarcadores, capacidad funcional y resultados reportados por pacientes, considerando variabilidad de medición y contexto fisiológico.",
-    "url": "https://www.jacc.org/doi/10.1016/j.jchf.2026.103310",
-    "doi": "10.1016/j.jchf.2026.103310",
-    "abstract_es": [
-      [
-        "Contexto",
-        "Los ensayos de insuficiencia cardíaca utilizan endpoints que van más allá de mortalidad y hospitalización: imagen, hemodinamia, biomarcadores, capacidad funcional y resultados reportados por pacientes. Una diferencia estadística entre grupos no garantiza que el cambio sea clínicamente importante para una persona."
-      ],
-      [
-        "Propuesta",
-        "El documento propone un marco pragmático para definir cambios clínicamente significativos dentro del paciente. Integra variabilidad de medición, asociación pronóstica y evidencia anclada en la percepción o experiencia del paciente cuando está disponible."
-      ],
-      [
-        "Principios de interpretación",
-        "Para eventos clínicos recomienda interpretar conjuntamente reducción relativa y absoluta del riesgo. Para imagen, hemodinamia, biomarcadores y capacidad funcional, el cambio debería superar la variabilidad de la medición y evaluarse dentro del contexto fisiológico."
-      ],
-      [
-        "Conclusión práctica",
-        "El documento busca estandarizar qué magnitud de cambio merece ser considerada clínicamente relevante y evitar equiparar significación estadística con beneficio perceptible o pronósticamente importante."
-      ]
-    ],
-    "limitations_es": "No es un ensayo terapéutico ni una guía de tratamiento; constituye un marco metodológico para interpretar cambios dentro del paciente.",
+    "limitations_es": "Es un documento de consenso/definición, no un ensayo de resultados. Su impacto dependerá de la implementación y de la validación de consistencia diagnóstica en distintos entornos.",
     "source_mode": "editorial",
     "review_status": "Revisado",
     "authors": ""
@@ -351,122 +433,376 @@
     "authors": ""
   },
   {
-    "id": "universal-mi-2026",
-    "title": "Fifth Universal Definition of Myocardial Infarction (2026)",
-    "short": "Quinta Definición Universal de Infarto de Miocardio",
-    "area": "Cardiopatía isquémica",
-    "type": "Consenso",
-    "journal": "JACC / ESC-ACC-AHA-WHF",
-    "date": "27 Ago 2026",
-    "level": "Practice Changer",
-    "color": "#D62828",
-    "icon": "C",
-    "summary": "Nueva definición universal conjunta ESC/ACC/AHA/WHF, publicada en 2026, que actualiza la clasificación y evaluación de infarto, lesión miocárdica y escenarios relacionados.",
-    "why": "Las definiciones universales impactan diagnóstico, investigación, codificación y decisiones clínicas; por eso se trata como documento de referencia mayor.",
-    "detail": "Incluye infarto primario, secundario y relacionado con procedimientos; integra troponina de alta sensibilidad, imagen y entidades diferenciales como Takotsubo.",
-    "url": "https://www.jacc.org/doi/full/10.1016/j.jacc.2026.07.025",
-    "doi": "10.1016/j.jacc.2026.07.025",
-    "abstract_es": [
-      [
-        "Objetivo",
-        "Actualizar la definición y clasificación del infarto para alinearla mejor con la fisiopatología, la evaluación clínica y criterios diagnósticos objetivos."
-      ],
-      [
-        "Cambio central",
-        "Se abandona la clasificación numérica tradicional como eje principal y se propone una clasificación clínica en tres escenarios: infarto primario por patología coronaria aguda; infarto secundario por desequilibrio aporte-demanda debido a otra condición aguda; e infarto relacionado con procedimientos cardíacos."
-      ],
-      [
-        "Novedades diagnósticas",
-        "Se refina la distinción entre lesión miocárdica aguda y crónica, se enfatiza el uso de percentiles 99 específicos por sexo para troponina y se integran síntomas, ECG, biomarcadores e imagen. El infarto primario incluye no solo aterotrombosis, sino también disección coronaria espontánea, embolia, vasoespasmo y determinados fallos tardíos de stent o injerto."
-      ],
-      [
-        "Procedimientos",
-        "El infarto relacionado con procedimientos adopta criterios comparables para intervenciones percutáneas y cirugía. La definición prioriza evidencia objetiva de complicación coronaria y nueva alteración regional o pérdida de viabilidad, en lugar de depender principalmente de umbrales aislados de biomarcadores."
-      ],
-      [
-        "Implicación",
-        "La nueva taxonomía busca que el diagnóstico tenga significado clínico consistente para decisiones asistenciales, investigación y codificación, y que se diferencie con claridad de la lesión miocárdica."
-      ]
-    ],
-    "limitations_es": "Es un documento de consenso/definición, no un ensayo de resultados. Su impacto dependerá de la implementación y de la validación de consistencia diagnóstica en distintos entornos.",
-    "source_mode": "editorial",
-    "review_status": "Revisado",
-    "authors": ""
-  },
-  {
-    "id": "prasugrel-ticagrelor-2026",
-    "title": "Prasugrel versus Ticagrelor in Acute Coronary Syndromes",
-    "short": "Prasugrel versus ticagrelor en síndromes coronarios agudos",
-    "area": "Cardiopatía isquémica",
-    "type": "RCT",
-    "journal": "NEJM",
-    "date": "29 Ago 2026",
+    "id": "10-5492-wjccm-122062",
+    "title": "Characterizing the molecular landscape of venous congestion.",
+    "short": "Characterizing the molecular landscape of venous congestion.",
+    "area": "Prevención y aterosclerosis",
     "level": "Relevante",
-    "color": "#D62828",
-    "icon": "C",
-    "summary": "Ensayo que compara directamente prasugrel y ticagrelor en pacientes con síndrome coronario agudo.",
-    "why": "La elección del inhibidor P2Y12 continúa siendo una decisión frecuente y clínicamente relevante en SCA.",
-    "detail": "Publicado el 29 de agosto de 2026 en NEJM. La ficha completa enlaza al artículo original para revisar resultados y subgrupos.",
-    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2609057",
-    "doi": "10.1056/NEJMoa2609057",
+    "type": "Artículo científico",
+    "journal": "World journal of critical care medicine",
+    "date": "2026-09-09",
+    "summary": "La congestión venosa es un estado patológico causado por la reducción de los gradientes arteriovenosos que promueven el edema tisular perjudicial. La congestión venosa puede deberse a etiologías tales como enfermedad cardíaca descompensada, insuficiencia renal o administración de fluidos iatrogénicos.",
+    "why": "Trabajo nuevo en prevención y aterosclerosis seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.5492/wjccm.122062",
+    "doi": "10.5492/wjccm.122062",
+    "pmid": "42707838",
+    "authors": "Van Nynatten LR, Nabieva K, Barber G, Moroniti JJ, Iansavitchene A, Prager R, Slessarev M, Basmaji J, Leligdowicz A.",
     "abstract_es": [
       [
         "Antecedentes",
-        "Persistía incertidumbre sobre cuál inhibidor P2Y12 debería preferirse en pacientes con síndrome coronario agudo sometidos a PCI."
-      ],
-      [
-        "Métodos",
-        "Ensayo pragmático, abierto, basado en el registro SWEDEHEART y aleatorizado por clusters con diseño escalonado. Regiones sanitarias suecas cambiaron de una política de ticagrelor a una política de prasugrel en momentos determinados por aleatorización. Se incluyeron aproximadamente 17.095 pacientes consecutivos con SCA tratados con PCI. Endpoint primario a un año: muerte, infarto o ACV."
-      ],
-      [
-        "Resultados",
-        "El endpoint primario ocurrió en 11,1% bajo la política de prasugrel y 11,8% bajo ticagrelor; OR ajustado 0,90 (IC95% 0,77–1,06), sin superioridad de prasugrel. Mortalidad total 6,7% vs 7,1%; infarto 3,9% vs 4,4%; ACV 0,9% vs 0,9%; trombosis de stent 0,3% vs 0,3%. Sangrado mayor: 4,2% vs 4,4%, con OR ajustado 0,80 (IC95% 0,64–0,99)."
-      ],
-      [
-        "Conclusión",
-        "En una población no seleccionada de SCA sometida a PCI, una política por defecto de prasugrel no redujo los eventos isquémicos a un año frente a una política de ticagrelor. La diferencia en sangrado fue pequeña y el diseño pragmático debe considerarse al interpretar el resultado."
+        "La congestión venosa es un estado patológico causado por la reducción de los gradientes arteriovenosos que promueven el edema tisular perjudicial. La congestión venosa puede deberse a etiologías tales como enfermedad cardíaca descompensada, insuficiencia renal o administración de fluidos iatrogénicos. Sin embargo, la patobiología subyacente de la congestión venosa es poco investigada, particularmente en enfermedades críticas.Se realizó una revisión del alcance para identificar posibles proteínas circulantes potencialmente asociadas a la patobiología de la congestión venosa.Objetivo Identificar proteínas circulantes asociadas a la patobiología de la congestión venosa.Métodos Las bases de datos MEDLINE y EMBASE fueron buscadas en busca de artículos relevantes para la congestión venosa.Se incluyeron estudios si: (1) se investigaron sujetos adultos humanos ≥ 18 años de edad; (2) se midieron proteínas plasmáticas o séricas en estados de enfermedad con medidas reportadas de congestión venosa; y (3) se notificaron medidas clínicas o ecográficas para evaluar la congestión venosa. Se utilizaron ítems de notificación preferidos para revisiones sistemáticas y extensión de metaanálisis para revisiones de alcance.Resultados Se seleccionaron 3860 resúmenes, de los cuales 171 manuscritos se sometieron a revisión de texto completo, y 145 textos cumplieron criterios de inclusión.La mediana del número de proteínas circulantes medidas fue 2 (rango intercuartil: 1-3).La mayoría de los estudios (116, 80%) reportaron medidas de congestión venosa en el contexto de enfermedad cardiaca. Cinco estudios (3%) se realizaron en un entorno de cuidados críticos.Se observó variabilidad significativa en las medidas reportadas de congestión venosa, con exámenes físicos frecuentemente utilizados para suponer la presencia de congestión venosa (45% de los estudios). Menos del 30% de los estudios tuvieron como objetivo investigar proteínas circulantes, y menos del 15% de los estudios tenían como objetivo caracterizar la biología de congestión venosa. Las proteínas plasmáticas circulantes candidatas medidas incluyeron proteínas relacionadas con la función miocárdica, la función endotelial y la inflamación.Conclusión Presentamos la primera revisión del alcance identificando proteínas circulantes con un posible papel en la mediación de la congestión venosa a nivel molecular.Hasta la fecha, ningún estudio sólido ha investigado exhaustivamente la biología de la congestión venosa.Estos datos proporcionan una base para estudios adicionales de los mecanismos biológicos de la congestión venosa.Entender estos mecanismos puede ayudar en la medición de las respuestas a la reanimación de volumen, estratificación en ensayos clínicos enfocados en la administración y remoción de volumen apropiada, y la identificación de terapias novedosas que se dirigen a vías implicadas en esta condición deletérgica."
       ]
     ],
-    "limitations_es": "Aleatorización por región y diseño escalonado, no por paciente; posibles efectos temporales/regionales y cambios de tratamiento. Algunas sensibilidades estadísticas no fueron totalmente concordantes.",
-    "source_mode": "editorial",
-    "review_status": "Revisado",
-    "authors": ""
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 23,
+    "imported_at": "2026-09-09T10:55:49.294752+00:00"
   },
   {
-    "id": "aspirin-omission-stemi-2026",
-    "title": "Aspirin Omission at the Time of Primary PCI in STEMI",
-    "short": "Omisión de aspirina durante angioplastia primaria en STEMI",
+    "id": "10-1097-aln-0000000000006216",
+    "title": "Effectiveness of Selective Cyclooxygenase-2 Inhibitors for Postoperative Pain Management Using Multidimensional Pain Assessment: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
+    "short": "Effectiveness of Selective Cyclooxygenase-2 Inhibitors for Postoperative Pain Management Using Multidimensional Pain Assessment: A Systematic Review and Meta-analysis of Randomized Controlled Trials.",
     "area": "Cardiopatía isquémica",
-    "type": "RCT",
-    "journal": "NEJM",
-    "date": "29 Ago 2026",
     "level": "Relevante",
-    "color": "#D62828",
-    "icon": "C",
-    "summary": "Estudio contemporáneo sobre la estrategia de omitir aspirina en el contexto de angioplastia primaria por STEMI.",
-    "why": "Interroga uno de los componentes históricos del tratamiento antitrombótico del infarto, con potencial impacto en balance isquemia-sangrado.",
-    "detail": "Publicado online el 29 de agosto de 2026 en NEJM.",
-    "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2606997",
-    "doi": "10.1056/NEJMoa2606997",
+    "type": "Artículo científico",
+    "journal": "Anesthesiology",
+    "date": "2026-09-09",
+    "summary": "Aunque los inhibidores selectivos de la ciclooxigenasa-2 (COX-2) se usan comúnmente en el manejo del dolor perioperatorio, no se sabe si estos agentes antiinflamatorios mejoran significativamente la recuperación postoperatoria, incluyendo el impacto del dolor en el funcionamiento diario.Métodos Este estudio buscó sistemáticamente MEDLINE, Embase y Cochrane CENTRAL para ensayos controlados aleatorizados comparando inhibidores selectivos sistémicos de la COX-2 perioperatorios con placebo, opioides o cuidados habituales en adultos.El resultado principal fue dolor agudo postoperatorio, evaluado utilizando cualquier instrumento multidimensional validado que evaluara la interferencia relacionada con el dolor en la vida diaria (por ejemplo, Breve Inventario del Dolor; escala 0 a 10, diferencia mínima clínicamente importante = 1,0) dentro de un mes después de la cirugía.Los resultados secundario",
+    "why": "Trabajo nuevo en cardiopatía isquémica seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.1097/aln.0000000000006216",
+    "doi": "10.1097/aln.0000000000006216",
+    "pmid": "42708838",
+    "authors": "Kahloon U, Le JBP, Tierney S, Fergusson DA, Lalu MM, McIsaac DI, Turgeon AF, Patel S, Musa S, Verret M.",
     "abstract_es": [
       [
         "Antecedentes",
-        "No estaba establecida la seguridad de omitir aspirina desde el inicio de la angioplastia primaria en STEMI."
+        "Aunque los inhibidores selectivos de la ciclooxigenasa-2 (COX-2) se usan comúnmente en el manejo del dolor perioperatorio, no se sabe si estos agentes antiinflamatorios mejoran significativamente la recuperación postoperatoria, incluyendo el impacto del dolor en el funcionamiento diario.Métodos Este estudio buscó sistemáticamente MEDLINE, Embase y Cochrane CENTRAL para ensayos controlados aleatorizados comparando inhibidores selectivos sistémicos de la COX-2 perioperatorios con placebo, opioides o cuidados habituales en adultos.El resultado principal fue dolor agudo postoperatorio, evaluado utilizando cualquier instrumento multidimensional validado que evaluara la interferencia relacionada con el dolor en la vida diaria (por ejemplo, Breve Inventario del Dolor; escala 0 a 10, diferencia mínima clínicamente importante = 1,0) dentro de un mes después de la cirugía.Los resultados secundarios incluyeron dolor crónico, calidad de recuperación y eventos adversos. Se evaluó la significación clínica estimando la diferencia entre los grupos en la proporción de participantes que alcanzaron la diferencia mínima importante.Resultados Un total de 9.071 citas fueron examinadas, y 38 ensayos controlados aleatorizados (5.424 participantes) cumplieron los criterios de elegibilidad.Los inhibidores selectivos de COX-2 se asociaron con una reducción de la interferencia relacionada con el dolor agudo (Inventario Breve de Dolor Diferencia Media [DME], -1,1; IC 95%, -1,4 a -0.8; n = 7; seguridad moderada) y en la incidencia de dolor crónico (proporción de promedios, 0,44; IC 95%, 0,21 a 0,93; n = 5; baja certeza), pero no se encontró ningún efecto significativo en la intensidad del dolor crónico (DME, -1,0; IC 95%, -2,7 a 0,7; n = 1; muy baja certeza).La diferencia de riesgo modelada para lograr un efecto analgésico clínicamente importante mostró un beneficio sustancial de inhibidores de COX-2 para el dolor agudo.La calidad de recuperación mejoró con la intervención (Calidad de Recuperación-9, [0 a 18 escala] MD, 0,84; IC 95%, 0,33 a 1,35; n = 7; n = 7; baja certeza). La pérdida sanguínea intraoperatoria fue menor (MD, -22 ml; IC 95%, -40 a -4; n = 3; baja certeza), y no se observaron diferencias en otros eventos adversos (es decir, insuficiencia renal aguda, hemorragia gastrointestinal, alteración de la cicatrización ósea, infarto de miocardio, accidente cerebrovascular y muerte).Conclusiones Los inhibidores selectivos perioperatorios de COX-2 probablemente proporcionan una reducción clínicamente significativa de la interferencia aguda relacionada con el dolor en la función diaria y pueden mejorar el dolor crónico y la calidad de recuperación."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 18,
+    "imported_at": "2026-09-09T10:56:45.244733+00:00"
+  },
+  {
+    "id": "10-5409-wjcp-118862",
+    "title": "Vardenafil efficacy for the treatment of persistent pulmonary hypertension of the newborn.",
+    "short": "Vardenafil efficacy for the treatment of persistent pulmonary hypertension of the newborn.",
+    "area": "Hipertensión",
+    "level": "Seguimiento",
+    "type": "Artículo científico",
+    "journal": "World journal of clinical pediatrics",
+    "date": "2026-09-09",
+    "summary": "La hipertensión pulmonar persistente del recién nacido (PPHN) sigue siendo una condición difícil con alta morbilidad y mortalidad a pesar de los avances en el manejo, lo que implica la necesidad de investigar nuevas terapias.Si bien el sildenafilo es el fármaco de elección en centros limitados por recursos y para pacientes que no responden al óxido nítrico inhalado, los inhibidores alternativos de la fosfodiesterasa-5 como vardenafilo pueden ofrecer una eficacia superior.Aim Para evaluar la eficacia del vardenafilo en el manejo de la hipertensión pulmonar persistente en recién nacidos.Métodos Este ensayo clínico aleatorizado, doble ciego, controlado y paralelo se llevó a cabo en el Hospital Infantil de la Universidad de Damasco.Cincuenta y cinco recién nacidos (32 mujeres y 23 hombres, n = 18) o 0,4 mg/kg/día vardenafilo oral (n = 37).El reclutamiento duró desde mayo de 2023 hasta septie",
+    "why": "Trabajo nuevo en hipertensión seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.5409/wjcp.118862",
+    "doi": "10.5409/wjcp.118862",
+    "pmid": "42626250",
+    "authors": "El-Hindi S.",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "La hipertensión pulmonar persistente del recién nacido (PPHN) sigue siendo una condición difícil con alta morbilidad y mortalidad a pesar de los avances en el manejo, lo que implica la necesidad de investigar nuevas terapias.Si bien el sildenafilo es el fármaco de elección en centros limitados por recursos y para pacientes que no responden al óxido nítrico inhalado, los inhibidores alternativos de la fosfodiesterasa-5 como vardenafilo pueden ofrecer una eficacia superior.Aim Para evaluar la eficacia del vardenafilo en el manejo de la hipertensión pulmonar persistente en recién nacidos.Métodos Este ensayo clínico aleatorizado, doble ciego, controlado y paralelo se llevó a cabo en el Hospital Infantil de la Universidad de Damasco.Cincuenta y cinco recién nacidos (32 mujeres y 23 hombres, n = 18) o 0,4 mg/kg/día vardenafilo oral (n = 37).El reclutamiento duró desde mayo de 2023 hasta septiembre de 2024.Los hallazgos clínicos y ecocardiográficos fueron monitoreados diariamente desde el diagnóstico hasta la normalización de la presión pulmonar. Además, la velocidad de flujo de la arteria pulmonar aumentó más en el grupo de vardenafilo después de 1 día y 2 días (P = 0,046 y P = 0,048 respectivamente) y los puntajes de dificultad respiratoria mejoraron más en el grupo de vardenafilo después de 2 días y 3 días de tratamiento (P = 0,048 y P = 0,004 respectivamente).No se notificaron efectos adversos en ninguno de los dos grupos de tratamiento.Conclusión Vardenafilo a 0,4 mg/kg/día tiene una eficacia superior en comparación con sildenafilo a 2 mg/kg/día en la mejora de los resultados ecocardiográficos y clínicos en pacientes con NPP, con perfiles de seguridad comparables."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 13,
+    "imported_at": "2026-09-09T10:58:30.122609+00:00"
+  },
+  {
+    "id": "10-1007-s10143-026-04479-4",
+    "title": "Presentation, management, and outcomes of anterior inferior cerebellar artery dissecting and fusiform aneurysms: a systematic review and institutional case series.",
+    "short": "Presentation, management, and outcomes of anterior inferior cerebellar artery dissecting and fusiform aneurysms: a systematic review and institutional case series.",
+    "area": "Prevención y aterosclerosis",
+    "level": "Relevante",
+    "type": "Revisión / meta-análisis",
+    "journal": "Neurosurgical review",
+    "date": "2026-09-08",
+    "summary": "Los aneurismas diseccionantes y fusiformes de la arteria cerebelosa anterior inferior (AICA) son lesiones raras y mal caracterizadas, siendo este estudio una síntesis integral a nivel de paciente hasta la fecha, combinando una revisión sistemática con datos institucionales para describir su presentación clínica, análisis diagnóstico, estrategias de manejo y resultados; se realizó una revisión sistemática de acuerdo con las directrices PRISMA; se incluyeron estudios si se reportaban sobre aneurismas de AICA diseccionante o fusiforme; se extrajeron datos individuales de pacientes y se suplementaron con una serie de casos de una sola institución; se analizaron resultados, complicaciones y evolución radiológica de manera descriptiva; se incluyeron cuarenta y nueve pacientes de 36 estudios y seis pacientes de nuestra institución; en la cohorte de revisión sistemática, la mayoría de los aneuri",
+    "why": "Trabajo nuevo en prevención y aterosclerosis seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.1007/s10143-026-04479-4",
+    "doi": "10.1007/s10143-026-04479-4",
+    "pmid": "42706345",
+    "authors": "Bektas D, Hagan M, Graepel S, Lanzino G, Keser Z.",
+    "abstract_es": [
+      [
+        "Abstract",
+        "Los aneurismas diseccionantes y fusiformes de la arteria cerebelosa anterior inferior (AICA) son lesiones raras y mal caracterizadas, siendo este estudio una síntesis integral a nivel de paciente hasta la fecha, combinando una revisión sistemática con datos institucionales para describir su presentación clínica, análisis diagnóstico, estrategias de manejo y resultados; se realizó una revisión sistemática de acuerdo con las directrices PRISMA; se incluyeron estudios si se reportaban sobre aneurismas de AICA diseccionante o fusiforme; se extrajeron datos individuales de pacientes y se suplementaron con una serie de casos de una sola institución; se analizaron resultados, complicaciones y evolución radiológica de manera descriptiva; se incluyeron cuarenta y nueve pacientes de 36 estudios y seis pacientes de nuestra institución; en la cohorte de revisión sistemática, la mayoría de los aneurismas presentados con hemorragia subaracnoidea (n = 38/49, 77,6%). El tratamiento endovascular, con mayor frecuencia oclusión de la arteria parenteral, fue empleado en 61,2% (n = 30/49), sin embargo, se presentaron complicaciones isquémicas en 23,3% (n = 7/30), especialmente en lesiones proximales (A1-A2); la cirugía de bypass fue reportada selectivamente para aneurismas proximales con flujo colateral inadecuado; como abordaje quirúrgico alternativo, se realizó descompresión o captura en base a morfología aneurismática o contexto clínico; el manejo conservador fue reservado típicamente para pacientes selectos con HAS de bajo grado, alto riesgo procesal o rechazo de intervención del paciente; en general, 81,4% (n = 35/43) de los pacientes con seguimiento disponible logró buenos resultados funcionales; el manejo de diseccionamiento y aneurismas fusiformes de AICA es altamente individualizado; los abordajes endovasculares fueron frecuentemente utilizados para asegurar lesiones o lesiones rotas consideradas de alto riesgo, pero el riesgo isquémico periprocedimiento en segmentos perforator-ricos fue reservado altamente accesible. Registro de ensayos clínicos: Este estudio no es un ensayo clínico."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 23,
+    "imported_at": "2026-09-09T10:56:08.693497+00:00"
+  },
+  {
+    "id": "10-64898-2026-09-04-26362027",
+    "title": "Coronary revascularisation in people with multiple long-term conditions: a systematic review and meta-analysis",
+    "short": "Coronary revascularisation in people with multiple long-term conditions: a systematic review and meta-analysis",
+    "area": "Cardiopatía isquémica",
+    "level": "Relevante",
+    "type": "Artículo científico",
+    "journal": "",
+    "date": "2026-09-08",
+    "summary": "Introducción: Las personas que presentan revascularización coronaria multivaso suelen tener múltiples condiciones a largo plazo que influyen en el pronóstico; el objetivo de este estudio fue revisar la evidencia de las opciones de revascularización en estos grupos. Métodos Ensayos aleatorios de injerto de arteria coronaria bypass (CABG) versus resultados de la notificación de la intervención coronaria percutánea (IPC) por comorbilidades preespecificadas; se estimaron los efectos del tratamiento utilizando modelos de efectos aleatorios de varianza inversa y se presentaron como Ratios de Riesgo (intervalos de confianza 95%).",
+    "why": "Trabajo nuevo en cardiopatía isquémica seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.64898/2026.09.04.26362027",
+    "doi": "10.64898/2026.09.04.26362027",
+    "pmid": "",
+    "authors": "Cheng A, Alhashimi A, Lim CJ, Cheong SC, Shahbaz H, Abbasciano R, Pufulete M, Murphy GJ.",
+    "abstract_es": [
+      [
+        "Abstract",
+        "Introducción: Las personas que presentan revascularización coronaria multivaso suelen tener múltiples condiciones a largo plazo que influyen en el pronóstico; el objetivo de este estudio fue revisar la evidencia de las opciones de revascularización en estos grupos. Métodos Ensayos aleatorios de injerto de arteria coronaria bypass (CABG) versus resultados de la notificación de la intervención coronaria percutánea (IPC) por comorbilidades preespecificadas; se estimaron los efectos del tratamiento utilizando modelos de efectos aleatorios de varianza inversa y se presentaron como Ratios de Riesgo (intervalos de confianza 95%). La certeza de la evidencia de los resultados se evaluó utilizando la evaluación de la clasificación de recomendaciones, desarrollo y evaluación (GRADE); se incluyeron los resultados 19 estudios de nueve ECR con 10.594 participantes; las comorbilidades basales reportadas incluyeron diabetes (49%), ECK (25%), TEVI (9%), sexo femenino (14%) y edad mayor (40%). Los ensayos fueron no cegados, resultando en algunas preocupaciones de sesgo. No hubo diferencia en mortalidad o accidente cerebrovascular para sexo femenino o edad avanzada. No se reportaron datos para personas con enfermedad vascular periférica o fragilidad. Los resultados reportados favorecieron al CABG en personas con diabetes. GRADE mostró que la certeza de la evidencia fue generalmente baja a muy baja con la excepción de personas con diabetes (certeza moderada). Conclusión Existe una brecha de conocimiento con respecto a los riesgos y beneficios del CABG frente al PCI en personas con comorbilidades comunes. Registro PROSPERO CRD420251032665"
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 18,
+    "imported_at": "2026-09-09T10:56:59.733343+00:00"
+  },
+  {
+    "id": "10-1080-14656566-2026-2732054",
+    "title": "Evaluating enlicitide decanoate: first oral PCSK9 inhibitor for the treatment of adults with hypercholesterolemia.",
+    "short": "Evaluating enlicitide decanoate: first oral PCSK9 inhibitor for the treatment of adults with hypercholesterolemia.",
+    "area": "Lípidos y Lp(a)",
+    "level": "Seguimiento",
+    "type": "Revisión / meta-análisis",
+    "journal": "Expert opinion on pharmacotherapy",
+    "date": "2026-09-08",
+    "summary": "Introducción La enfermedad cardiovascular aterosclerótica (ASCVD) sigue siendo la principal causa global de morbilidad y mortalidad, con colesterol lipoproteína de baja densidad elevado (LDL-C) como factor de riesgo modificable importante.A pesar de la terapia intensiva con estatinas, muchos pacientes de alto riesgo no alcanzan metas cada vez más estrictas de LDL-C, destacando la necesidad de estrategias adicionales de reducción de lípidos.El desarrollo de inhibidores de la proproteína convertasa subtilisina/kexina tipo 9 (PCSK9) tiene un manejo de lípidos significativamente avanzado, aunque actualmente los agentes disponibles requieren administración subcutánea y pueden estar limitados por adherencia, accesibilidad y costo.Áreas cubiertas Esta revisión discute el perfil farmacológico, la eficacia clínica, la seguridad y el potencial posicionamiento terapéutico del decanoato de enlicitid",
+    "why": "Trabajo nuevo en lípidos y lp(a) seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.1080/14656566.2026.2732054",
+    "doi": "10.1080/14656566.2026.2732054",
+    "pmid": "42709041",
+    "authors": "Ballantyne CM, Pirillo A, Catapano AL.",
+    "abstract_es": [
+      [
+        "Abstract",
+        "Introducción La enfermedad cardiovascular aterosclerótica (ASCVD) sigue siendo la principal causa global de morbilidad y mortalidad, con colesterol lipoproteína de baja densidad elevado (LDL-C) como factor de riesgo modificable importante.A pesar de la terapia intensiva con estatinas, muchos pacientes de alto riesgo no alcanzan metas cada vez más estrictas de LDL-C, destacando la necesidad de estrategias adicionales de reducción de lípidos.El desarrollo de inhibidores de la proproteína convertasa subtilisina/kexina tipo 9 (PCSK9) tiene un manejo de lípidos significativamente avanzado, aunque actualmente los agentes disponibles requieren administración subcutánea y pueden estar limitados por adherencia, accesibilidad y costo.Áreas cubiertas Esta revisión discute el perfil farmacológico, la eficacia clínica, la seguridad y el potencial posicionamiento terapéutico del decanoato de enlicitide, el primer inhibidor oral de PCSK9. Los datos disponibles sobre la enlicitida también se comparan con las terapias de reducción de lípidos existentes, incluyendo estatinas, ezetimibe y terapias aprobadas dirigidas a PCSK9.Opinión de expertos El decanoato de licitida es una adición prometedora a la terapia de reducción de lípidos, potencialmente ampliando el acceso a la inhibición de PCSK9 mediante administración oral.Sin embargo, su papel clínico definitivo dependerá de los datos de resultados cardiovasculares, seguridad a largo plazo, adherencia en la práctica real y rentabilidad en comparación con las terapias inyectables establecidas."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 17,
+    "imported_at": "2026-09-09T10:57:12.807736+00:00"
+  },
+  {
+    "id": "10-21203-rs-3-rs-10755284-v1",
+    "title": "Safety, quality of life, and efficiency of hospital at home admission compared with conventional hospitalization in acute heart failure A systematic review and meta-analysis",
+    "short": "Safety, quality of life, and efficiency of hospital at home admission compared with conventional hospitalization in acute heart failure A systematic review and meta-analysis",
+    "area": "Insuficiencia cardíaca",
+    "level": "Seguimiento",
+    "type": "Artículo científico",
+    "journal": "",
+    "date": "2026-09-08",
+    "summary": "Resumen Antecedentes: La insuficiencia cardíaca aguda (ICA) representa una proporción importante de los ingresos del departamento de urgencias (DE) que contribuyen a una grave aglomeración hospitalaria. El hospital en casa (HAH) directamente desde la DE (\"evitar la admisión\") ha surgido como una alternativa a la hospitalización convencional (CH).",
+    "why": "Trabajo nuevo en insuficiencia cardíaca seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.21203/rs.3.rs-10755284/v1",
+    "doi": "10.21203/rs.3.rs-10755284/v1",
+    "pmid": "",
+    "authors": "Fortuny MJ, Llorens P, Espinosa B, Sánchez C, Patel H, Tibaldi V, Martyn T, Helberg J, Bosman J, Mueller C, Miró Ò.",
+    "abstract_es": [
+      [
+        "Abstract",
+        "Resumen Antecedentes: La insuficiencia cardíaca aguda (ICA) representa una proporción importante de los ingresos del departamento de urgencias (DE) que contribuyen a una grave aglomeración hospitalaria. El hospital en casa (HAH) directamente desde la DE (\"evitar la admisión\") ha surgido como una alternativa a la hospitalización convencional (CH). Realizamos una revisión sistemática y un metaanálisis para evaluar la seguridad, eficacia clínica y rentabilidad de la gestión directa de la DE-a-HAH en la AHF. Métodos: Siguiendo las directrices PRISMA y MOOSE, buscamos PubMed, Web of Science, Cochrane y Scopus para estudios longitudinales (RCTs y cohortes observacionales) publicados hasta el 31 de diciembre de 2025. Estudios elegibles compararon la HAH directa (evitación de la admisión (≥ 48h) frente a CH en pacientes adultos con ICA que presentaban a la ED. El criterio principal fue la mortalidad por cualquier causa a largo plazo. Las variables secundarias incluyeron resultados del episodio índice (mortalidad en el hospital, duración de la estancia [LoS], escalada de la atención) y resultados de 30 días después de la bajadación (rehospitalización, costos directos). Resultados: En cuanto a la seguridad, no se encontraron diferencias en la mortalidad hospitalaria (OR: 0,66; IC 95%: 0,24–1,80) o mortalidad a largo plazo (7 estudios: OR: 0,94; IC 95%: 0,70–1,26; I^2 = 0%; 3 ECA: OR: 0,90; IC 95%: 0,38–2,13). En el 10,2% de los casos (IC 95%: 5,7–15,6%), se produjo una escalada de la atención (tras la descarga favoreció la eficacia HAH, mostrando una reducción del 40% en la rehospitalización por todas las causas de 30 días (OR: 0,60; IC 95%: 0,44–0,82), aunque LoS fue más larga en HAH (MDS: 0,42; IC 95%: 0,18–0,66), los costos de episodio índice fueron significativamente más bajos (SMD: 2,42; IC 95%: 0,44–0,72), aunque LoS fue más largo en HAH (SMD: 0,42; IC 95%: 0,18–0,66), los costes de la ingesta directa de los pacientes de alta calidad de la HAH, es importante."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 17,
+    "imported_at": "2026-09-09T10:57:35.715510+00:00"
+  },
+  {
+    "id": "10-1080-09273948-2026-2730451",
+    "title": "Suprachoroidal Triamcinolone Acetonide in Noninfectious Uveitic Macular Edema: A Systematic Review of Evolving Clinical Evidence.",
+    "short": "Suprachoroidal Triamcinolone Acetonide in Noninfectious Uveitic Macular Edema: A Systematic Review of Evolving Clinical Evidence.",
+    "area": "Hipertensión",
+    "level": "Seguimiento",
+    "type": "Revisión / meta-análisis",
+    "journal": "Ocular immunology and inflammation",
+    "date": "2026-09-08",
+    "summary": "Propósito: El edema macular es una de las principales causas de pérdida de la visión en la uveítis no infecciosa (UIN).La acetonida triamcinolona supracoroidal (CLS-TA) ha surgido como una estrategia de administración de corticosteroides dirigida con un perfil anatómico y funcional favorable.Esta revisión sistemática tuvo como objetivo evaluar la eficacia y seguridad de CLS-TA en el edema macular asociado a NIU mediante la síntesis de evidencia de ensayos clínicos y estudios en el mundo real.Métodos: Una búsqueda exhaustiva de PubMed, Scopus y el Registro Central de Ensayos Controlados de Cochrane (CENTRAL), complementado por una selección manual de listas de referencia, se realizó desde el inicio de la base de datos hasta el 1 de marzo de 2026.Se incluyeron 14 estudios, que incluyeron ensayos controlados aleatorizados, análisis post hoc y extensión, y cohortes observacionales en el mund",
+    "why": "Trabajo nuevo en hipertensión seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.1080/09273948.2026.2730451",
+    "doi": "10.1080/09273948.2026.2730451",
+    "pmid": "42708385",
+    "authors": "Dal A, Erdağ M, Çitirik M.",
+    "abstract_es": [
+      [
+        "Abstract",
+        "Propósito: El edema macular es una de las principales causas de pérdida de la visión en la uveítis no infecciosa (UIN).La acetonida triamcinolona supracoroidal (CLS-TA) ha surgido como una estrategia de administración de corticosteroides dirigida con un perfil anatómico y funcional favorable.Esta revisión sistemática tuvo como objetivo evaluar la eficacia y seguridad de CLS-TA en el edema macular asociado a NIU mediante la síntesis de evidencia de ensayos clínicos y estudios en el mundo real.Métodos: Una búsqueda exhaustiva de PubMed, Scopus y el Registro Central de Ensayos Controlados de Cochrane (CENTRAL), complementado por una selección manual de listas de referencia, se realizó desde el inicio de la base de datos hasta el 1 de marzo de 2026.Se incluyeron 14 estudios, que incluyeron ensayos controlados aleatorizados, análisis post hoc y extensión, y cohortes observacionales en el mundo real.Debido a la superposición de poblaciones de pacientes, se realizó una síntesis descriptival.Resultados: Estudios a través, CLS-TA demostraron mejoras consistentes en la a la mejor precisión visual (BCVA), desde +7 hasta +16 cartas ETDRS, junto con reducciones significativas en aproximadamente 152 en el espesor macular). La elevación de la presión intraocular (IPO) clínicamente significativa (≥30 mmHg) ocurrió en menos del 10% de los pacientes en ensayos controlados y 11,8% en cohortes del mundo real, con glaucoma previo o hipertensión ocular identificado como factor clave de riesgo.La progresión de cataratas durante 24 a 48 semanas de seguimiento fue poco frecuente y comparable a los grupos control.La evidencia emergente apoya la eficacia del CLS-TA en contextos clínicos más amplios, incluyendo uveítis pediátrica, edema macular cistoide de etiología mixta y casos refractarios a la terapia con corticosteroides sub-teno.Conclusiones: El CLS-TA supracoroidal representa una opción de tratamiento eficaz y bien tolerada para el edema macular asociado al NIU, con un perfil de seguridad favorable y la ampliación de la aplicabilidad clínica."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 16,
+    "imported_at": "2026-09-09T10:57:56.839439+00:00"
+  },
+  {
+    "id": "10-1093-europace-euag252",
+    "title": "Patient-reported outcome measures for atrial fibrillation: a systematic review and evaluation of psychometric properties of symptom severity measures.",
+    "short": "Patient-reported outcome measures for atrial fibrillation: a systematic review and evaluation of psychometric properties of symptom severity measures.",
+    "area": "Arritmias y electrofisiología",
+    "level": "Seguimiento",
+    "type": "Artículo científico",
+    "journal": "Europace : European pacing, arrhythmias, and cardiac electrophysiology : journal of the working groups on cardiac pacing, arrhythmias, and cardiac cellular electrophysiology of the European Society of Cardiology",
+    "date": "2026-09-08",
+    "summary": "Sin embargo, para evaluar la calidad de la vida, la función física, emocional y cognitiva relacionada con la salud, la severidad de los síntomas, la tolerancia al ejercicio y la capacidad para trabajar y evaluar las propiedades de medición de la severidad de los síntomas, se buscaron seis bases de datos bibliográficas desde el principio hasta el 11 de enero de 2025. Fueron elegibles las publicaciones de texto completo en todos los idiomas que investigaban la propiedad de la medición de los síntomas en pacientes con AF de ≥ 18 años de edad.",
+    "why": "Trabajo nuevo en arritmias y electrofisiología seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.1093/europace/euag252",
+    "doi": "10.1093/europace/euag252",
+    "pmid": "42706219",
+    "authors": "Ogendo JJ, Darma A, Mihajlovic M, Arbelo E, Lane DA.",
+    "abstract_es": [
+      [
+        "Abstract",
+        "Sin embargo, para evaluar la calidad de la vida, la función física, emocional y cognitiva relacionada con la salud, la severidad de los síntomas, la tolerancia al ejercicio y la capacidad para trabajar y evaluar las propiedades de medición de la severidad de los síntomas, se buscaron seis bases de datos bibliográficas desde el principio hasta el 11 de enero de 2025. Fueron elegibles las publicaciones de texto completo en todos los idiomas que investigaban la propiedad de la medición de los síntomas en pacientes con AF de ≥ 18 años de edad. Las normas basadas en el consenso para la selección de los instrumentos de medición de la salud (COSMIN) recomendaciones sobre las propiedades de medición evaluadas y sintetizadas y el riesgo-de-bias de la gravedad de los síntomas, PROM (PROSPERO ID: CRD42024523340). 709 publicaciones elegibles identificaron 101 PROM: seis PROM de gravedad sintomática (AFSymp, AFS/B, AFSS, ASTA, AF6 y SCL) sometidas a evaluación de la propiedad psicométrica. ASTA, AFSymp y SCL indicaron evidencia de suficiente validez de contenido y al menos evidencia de baja calidad para suficiente consistencia interna. ASTA fue la PROM más validada y mostró el mayor nivel de certeza en la calidad de la evidencia en las propiedades psicométricas evaluadas. Las evaluaciones de COSMIN revelaron lagunas críticas en la capacidad de respuesta y validez transcultural. ASTA surgió como la severidad de síntomas más robusta PROM. Se recomienda la validación adicional de los PROM identificados para otros PROs por las directrices de COSMIN antes de su integración rutinaria en la atención de FA y estudios futuros deben abordar la capacidad de respuesta, interpretabilidad, viabilidad y validez transcultural para asegurar que las PROM reflejen de manera confiable las experiencias de los pacientes y detectar cambios clínicos significativos en diversas poblaciones."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 15,
+    "imported_at": "2026-09-09T10:58:12.947625+00:00"
+  },
+  {
+    "id": "10-21203-rs-3-rs-10597642-v1",
+    "title": "SGLT2 Inhibitors Reduce Urinary Tract Infection Risk in Heart Failure Patients in a Real World Propensity Matched Study",
+    "short": "SGLT2 Inhibitors Reduce Urinary Tract Infection Risk in Heart Failure Patients in a Real World Propensity Matched Study",
+    "area": "Insuficiencia cardíaca",
+    "level": "Seguimiento",
+    "type": "Artículo científico",
+    "journal": "",
+    "date": "2026-09-08",
+    "summary": "Abstract Objetivos: Aunque los inhibidores del cotransportador de sodio-glucosa-2 (SGLT2) se han convertido en un factor central de la insuficiencia cardíaca moderna, la renuencia clínica se mantiene sobre si la glucosuria inducida por medicamentos aumenta el riesgo de infecciones del tracto urinario (UTI). Esta preocupación es especialmente relevante en el manejo de la IC, donde las restricciones de líquidos pueden limitar el rubor urinario natural.",
+    "why": "Trabajo nuevo en insuficiencia cardíaca seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.21203/rs.3.rs-10597642/v1",
+    "doi": "10.21203/rs.3.rs-10597642/v1",
+    "pmid": "",
+    "authors": "Lee Y, Kor C.",
+    "abstract_es": [
+      [
+        "Abstract",
+        "Abstract Objetivos: Aunque los inhibidores del cotransportador de sodio-glucosa-2 (SGLT2) se han convertido en un factor central de la insuficiencia cardíaca moderna, la renuencia clínica se mantiene sobre si la glucosuria inducida por medicamentos aumenta el riesgo de infecciones del tracto urinario (UTI). Esta preocupación es especialmente relevante en el manejo de la IC, donde las restricciones de líquidos pueden limitar el rubor urinario natural. Para abordar esto, examinamos el riesgo real de hospitalizaciones por ITU tanto iniciales como recurrentes en pacientes con IC crónica. Métodos: Se realizó un estudio retrospectivo de cohortes utilizando datos de registros médicos electrónicos (EMR) (2021–2024) de un centro médico académico terciario en Taiwán. Los pacientes con IC crónica en terapia médica dirigida por guía continua (GDMT) durante al menos 28 días fueron examinados. Para el control riguroso de la confusión, realizamos una coincidencia de la puntuación de propensión 1:1 (PSM) basada en datos demográficos basales, comoridades clínicas, medicamentos y parámetros clave del laboratorio (NT-proBNP, eGFR y HbA1c). Los resultados primarios fueron hospitalizaciones por ITU incidente (sin ITU previa durante un lavado basal de 12 meses) y ITU recurrente (al menos una hospitalización basal relacionada con ITU).Los resultados secundarios incluyeron hospitalización por IC y eventos cardiovasculares adversos mayores de 3 puntos (MACE).Los resultados de 7 094 pacientes elegibles, 1:1 PSM produjo cohortes bien equilibradas consistentes en 550 pares de usuarios de inhibidores SGLT2 y controles no expuestos.El seguimiento longitudinal reveló que el inicio del inhibidor SGLT2 se asoció con un riesgo significativamente reducido de ambas hospitalizaciones por ITU incidente (HR, 0,64; P = 0,021) y hospitalizaciones recurrentes por ITU (HR, 0,46; P = 0,047).Las hospitalizaciones por IC mostraron una tendencia similar a la baja (HR, 0,78; P = 0,059), y la MACE de 3 puntos fue significativamente inferior en modelos multivariables ajustados (aHR, 0,72; P = 0,036)."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 12,
+    "imported_at": "2026-09-09T10:59:01.447053+00:00"
+  },
+  {
+    "id": "10-1186-s12947-026-00381-7",
+    "title": "Moderate aortic stenosis: diagnostic pitfalls and the role of multimodality imaging in risk stratification and clinical management.",
+    "short": "Moderate aortic stenosis: diagnostic pitfalls and the role of multimodality imaging in risk stratification and clinical management.",
+    "area": "Insuficiencia cardíaca",
+    "level": "Relevante",
+    "type": "Revisión / meta-análisis",
+    "journal": "Cardiovascular ultrasound",
+    "date": "2026-09-07",
+    "summary": "La estenosis aórtica moderada (SA) se ha considerado tradicionalmente una etapa transitoria y relativamente benigna de la enfermedad valvular. Sin embargo, la evidencia contemporánea muestra que está asociada con una morbilidad y mortalidad sustanciales incluso antes de la progresión a la EA grave.",
+    "why": "Trabajo nuevo en insuficiencia cardíaca seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.1186/s12947-026-00381-7",
+    "doi": "10.1186/s12947-026-00381-7",
+    "pmid": "42702716",
+    "authors": "Santangelo G, Maloberti A, Tognola C, Monticelli M, Montalto C, Barbieri A, Moreo A, Giannattasio C, Carugo S, Faggiano P.",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "La estenosis aórtica moderada (SA) se ha considerado tradicionalmente una etapa transitoria y relativamente benigna de la enfermedad valvular. Sin embargo, la evidencia contemporánea muestra que está asociada con una morbilidad y mortalidad sustanciales incluso antes de la progresión a la EA grave. Este artículo sintetiza la evidencia actual sobre las limitaciones de la ecocardiografía estándar, destaca el papel de la imagen avanzada y la inteligencia artificial, y esboza estrategias en evolución para la estratificación de riesgo y el manejo clínico. La imagen de multimodalidad proporciona una evaluación más precisa de la gravedad de la enfermedad más allá de los parámetros ecocardiográficos convencionales: tomografía computarizada puntuación de calcio valvular aórtica, resonancia magnética cardiaca y tomografía de emisión de fluoruros de F-sodio 18 revelan lesiones miocárdicas tempranas e identifican progresistas rápidos. La IA aumenta aún más la reproducibilidad y apoya el desarrollo de modelos pronósticos emergentes. Aunque la vigilancia dirigida por directrices sigue siendo la estrategia estándar para la mayoría de los pacientes, los individuos seleccionados de alto riesgo, especialmente aquellos con remodelación adversa, biomarcadores elevados o admisiones recurrentes de insuficiencia cardíaca, pueden beneficiarse de una intervención más temprana.Conclusión corta Mientras espera los resultados de los ensayos aleatorizados en curso, el cardiólogo debe implementar todas las herramientas de multimodalidad por imágenes disponibles para individuar a los pacientes en los que un tratamiento previo de la EA moderada probablemente mejorará los resultados a largo plazo."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 20,
+    "imported_at": "2026-09-09T10:56:20.888706+00:00"
+  },
+  {
+    "id": "10-1080-14779072-2026-2729316",
+    "title": "TAVI in low‑risk severe aortic stenosis: evidence, controversies, and lifetime treatment strategy.",
+    "short": "TAVI in low‑risk severe aortic stenosis: evidence, controversies, and lifetime treatment strategy.",
+    "area": "Arritmias y electrofisiología",
+    "level": "Seguimiento",
+    "type": "Revisión / meta-análisis",
+    "journal": "Expert review of cardiovascular therapy",
+    "date": "2026-09-06",
+    "summary": "El implante de válvula aórtica transcatéter (TAVI) se ha expandido de un tratamiento para la estenosis aórtica inoperable y de alto riesgo a una opción terapéutica establecida para pacientes seleccionados de bajo riesgo quirúrgico. Esta revisión se centra en los resultados de ensayos importantes que comparan la TAVI con el reemplazo de válvula aórtica quirúrgica tradicional (SAVR), destacando los resultados y las posibles complicaciones al considerar el manejo de la válvula de por vida a medida que nos movemos hacia la población más joven.",
+    "why": "Trabajo nuevo en arritmias y electrofisiología seleccionado automáticamente por fuente, diseño y relevancia temática. Revisión editorial pendiente.",
+    "detail": "Consultar el abstract ampliado y el artículo original.",
+    "url": "https://doi.org/10.1080/14779072.2026.2729316",
+    "doi": "10.1080/14779072.2026.2729316",
+    "pmid": "42695434",
+    "authors": "Wright K, Rahman A, Penny G, Mohanarajan M, Philip AS, Harky A.",
+    "abstract_es": [
+      [
+        "Abstract",
+        "El implante de válvula aórtica transcatéter (TAVI) se ha expandido de un tratamiento para la estenosis aórtica inoperable y de alto riesgo a una opción terapéutica establecida para pacientes seleccionados de bajo riesgo quirúrgico. Esta revisión se centra en los resultados de ensayos importantes que comparan la TAVI con el reemplazo de válvula aórtica quirúrgica tradicional (SAVR), destacando los resultados y las posibles complicaciones al considerar el manejo de la válvula de por vida a medida que nos movemos hacia la población más joven. Una búsqueda en la literatura de PubMed utilizando términos como \"remplazo de válvula aórtica transcatéter\" y \"bajo riesgo quirúrgico\" se utilizó para identificar publicaciones relevantes de los últimos 10 años. Los ensayos y estudios de seguimiento recientes al azar sugieren que, en pacientes de bajo riesgo adecuadamente seleccionados, TAVI y SAVR proporcionan resultados a medio plazo ampliamente comparables para la mortalidad cardiovascular, accidente cerebrovascular y reintervención valvular. A medida que TAVI se traslada a poblaciones más jóvenes y asintomáticas, quedan cuestiones sin resolver en torno a la durabilidad de las válvulas, el acceso coronario, las estrategias redo y el manejo de las válvulas de por vida, destacando el papel central de la evaluación multidisciplinaria del equipo cardíaco en la selección de la estrategia terapéutica óptima para toda la vida."
+      ]
+    ],
+    "limitations_es": "Importación automática. Antes de modificar conducta clínica, revisar el texto completo, metodología, población, endpoints, análisis estadístico y aplicabilidad.",
+    "source_mode": "europe_pmc_daily",
+    "review_status": "Revisión pendiente",
+    "auto_score": 13,
+    "imported_at": "2026-09-09T10:58:41.905582+00:00"
+  },
+  {
+    "id": "finearts-score-2026",
+    "title": "HFpEF-ABA Score and Finerenone in HFmrEF/HFpEF: Insights From FINEARTS-HF",
+    "short": "FINEARTS-HF: score HFpEF-ABA y respuesta a finerenona",
+    "area": "Insuficiencia cardíaca",
+    "type": "Análisis de ensayo",
+    "journal": "JACC: Heart Failure",
+    "date": "1 Sep 2026",
+    "level": "Relevante",
+    "color": "#1976D2",
+    "icon": "I",
+    "summary": "Análisis del ensayo FINEARTS-HF que explora el score HFpEF-ABA y finerenona en insuficiencia cardíaca con fracción de eyección levemente reducida o preservada.",
+    "why": "Puede ayudar a comprender fenotipos y heterogeneidad de riesgo dentro de HFmrEF/HFpEF.",
+    "detail": "Publicación aceptada el 1 de septiembre de 2026. CardioUpdate la clasifica como análisis relevante y no como un nuevo ensayo de eficacia independiente.",
+    "url": "https://www.jacc.org/doi/10.1016/j.jchf.2026.103297",
+    "doi": "10.1016/j.jchf.2026.103297",
+    "abstract_es": [
+      [
+        "Antecedentes",
+        "HFpEF-ABA estima probabilidad de HFpEF mediante edad, índice de masa corporal y antecedente de fibrilación auricular. Se estudió su valor pronóstico y si modificaba el efecto de finerenona en FINEARTS-HF."
       ],
       [
         "Métodos",
-        "Ensayo multicéntrico, abierto y aleatorizado en Japón. Pacientes con STEMI sometidos a PCI primaria fueron asignados antes de la intervención a monoterapia con prasugrel en dosis baja o a doble antiagregación con aspirina más prasugrel durante 12 meses. Endpoint primario: muerte por cualquier causa, ACV o infarto a 12 meses, con diseño de no inferioridad y margen preespecificado de 1,50 para el límite superior del IC95% del HR. Si se demostraba no inferioridad, el sangrado mayor BARC 3 o 5 se evaluaría por superioridad."
+        "Análisis de FINEARTS-HF, ensayo aleatorizado con FEVI ≥40%. Se calculó HFpEF-ABA al inicio y se clasificó en <75%, 75–90% y >90%. Se examinó su asociación con eventos y la consistencia del efecto de finerenona a través del rango del score."
       ],
       [
         "Resultados",
-        "Población de análisis: 2.216 pacientes, 1.109 monoterapia y 1.107 DAPT. A 12 meses, muerte/ACV/infarto ocurrió en 11,0% con monoterapia y 8,5% con DAPT; HR 1,34 (IC95% 1,02–1,75); no se alcanzó no inferioridad. Sangrado mayor: 5,6% vs 8,4%; HR 0,66 (IC95% 0,47–0,91). Trombosis definitiva o probable del stent y eventos adversos graves parecieron similares."
+        "Hubo 5.988 pacientes con score disponible. El 32,4% tuvo score <75%, 20,7% entre 75–90% y 46,9% >90%. Las tasas de eventos de insuficiencia cardíaca aumentaron con scores más altos; la relación fue no lineal, con incremento pronunciado por encima de aproximadamente 75%. Finerenona redujo eventos de manera consistente a lo largo del espectro del score."
       ],
       [
         "Conclusión",
-        "Omitir aspirina desde la PCI primaria y continuar con prasugrel solo no demostró no inferioridad frente a DAPT para muerte, ACV o infarto a 12 meses, aunque redujo sangrado mayor."
+        "Incluso entre pacientes con diagnóstico establecido de HFmrEF/HFpEF, aproximadamente un tercio presentó HFpEF-ABA <75%. El score tuvo valor pronóstico, pero no identificó heterogeneidad relevante del beneficio de finerenona."
       ]
     ],
-    "limitations_es": "Estudio abierto, realizado en Japón y con prasugrel en dosis baja; la extrapolación a otras dosis, poblaciones y estrategias antitrombóticas debe ser prudente.",
+    "limitations_es": "Es un análisis secundario de un ensayo, no una validación diagnóstica independiente del score en población no seleccionada.",
     "source_mode": "editorial",
     "review_status": "Revisado",
     "authors": ""
