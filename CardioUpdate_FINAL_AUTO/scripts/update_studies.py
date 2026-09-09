@@ -225,7 +225,7 @@ def fetch_recent():
 
         time.sleep(1)
 
-     if not results:
+    if not results:
         raise RuntimeError("Europe PMC no respondió después de los reintentos.")
 
     return list(results.values())
