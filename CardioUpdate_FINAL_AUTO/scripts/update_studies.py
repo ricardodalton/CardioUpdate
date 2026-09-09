@@ -157,15 +157,46 @@ def translator():
 def translate_es(text: str) -> str:
     if not text:
         return ""
+
     if not TRANSLATE:
         return text
-    tok, mod = translator()
-    out = []
-    for chunk in split_sentences(text):
-        batch = tok([chunk], return_tensors="pt", padding=True, truncation=True, max_length=512)
-        gen = mod.generate(**batch, max_length=640, num_beams=4)
-        out.append(tok.batch_decode(gen, skip_special_tokens=True)[0])
-    return " ".join(out).strip()
+
+    try:
+        tok, mod = translator()
+        out = []
+
+        for chunk in split_sentences(text, max_chars=700):
+            try:
+                batch = tok(
+                    [chunk],
+                    return_tensors="pt",
+                    padding=True,
+                    truncation=True,
+                    max_length=400
+                )
+
+                gen = mod.generate(
+                    **batch,
+                    max_new_tokens=400,
+                    num_beams=2
+                )
+
+                translated = tok.batch_decode(
+                    gen,
+                    skip_special_tokens=True
+                )[0]
+
+                out.append(translated)
+
+            except Exception as e:
+                print(f"Traducción omitida para un fragmento: {e}")
+                out.append(chunk)
+
+        return " ".join(out).strip()
+
+    except Exception as e:
+        print(f"Traducción completa omitida: {e}")
+        return text
 
 
 def structured_abstract_es(abstract: str):
