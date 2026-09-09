@@ -449,20 +449,20 @@ def main():
         }
         ai_analysis = build_ai_analysis(s, related)
 
-if ai_analysis:
-    s["ai_analysis"] = ai_analysis
-    s["analysis_es"] = (
-        f"{ai_analysis['main_finding']}\n\n"
-        f"{ai_analysis['magnitude_and_results']}\n\n"
-        f"{ai_analysis['prior_evidence']}\n\n"
-        f"{ai_analysis['novelty']}\n\n"
-        f"{ai_analysis['clinical_implications']}\n\n"
-        f"{ai_analysis['uncertainties']}"
-    )
-    s["analysis_mode"] = "ai_grounded_verified_sources"
-    s["analysis_status"] = ai_analysis["analysis_status"]
-else:
-    s["analysis_status"] = "AUTO · Contexto bibliográfico"
+        if ai_analysis:
+            s["ai_analysis"] = ai_analysis
+            s["analysis_es"] = (
+                f"{ai_analysis['main_finding']}\n\n"
+                f"{ai_analysis['magnitude_and_results']}\n\n"
+                f"{ai_analysis['prior_evidence']}\n\n"
+                f"{ai_analysis['novelty']}\n\n"
+                f"{ai_analysis['clinical_implications']}\n\n"
+                f"{ai_analysis['uncertainties']}"
+            )
+            s["analysis_mode"] = "ai_grounded_verified_sources"
+            s["analysis_status"] = ai_analysis["analysis_status"]
+        else:
+            s["analysis_status"] = "AUTO · Contexto bibliográfico"
         existing.append(s)
         added.append(s)
         keys.add(k)
