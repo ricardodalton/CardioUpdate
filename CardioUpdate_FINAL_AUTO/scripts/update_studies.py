@@ -24,7 +24,7 @@ from pathlib import Path
 from datetime import date, datetime, timedelta, timezone
 from urllib.parse import quote
 import requests
-
+from ai_analysis import build_ai_analysis
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "studies.json"
 META = ROOT / "data" / "meta.json"
@@ -421,6 +421,7 @@ def main():
         summary = first_sentences_es(abstract_es)
         related = find_related_evidence(x)
         analysis_es = build_context_analysis(area, summary, related)
+        ai_analysis = None
         s = {
             "id": make_id(x),
             "title": clean_markup(x["title"]),
@@ -446,6 +447,22 @@ def main():
             "auto_score": sc,
             "imported_at": datetime.now(timezone.utc).isoformat()
         }
+        ai_analysis = build_ai_analysis(s, related)
+
+if ai_analysis:
+    s["ai_analysis"] = ai_analysis
+    s["analysis_es"] = (
+        f"{ai_analysis['main_finding']}\n\n"
+        f"{ai_analysis['magnitude_and_results']}\n\n"
+        f"{ai_analysis['prior_evidence']}\n\n"
+        f"{ai_analysis['novelty']}\n\n"
+        f"{ai_analysis['clinical_implications']}\n\n"
+        f"{ai_analysis['uncertainties']}"
+    )
+    s["analysis_mode"] = "ai_grounded_verified_sources"
+    s["analysis_status"] = ai_analysis["analysis_status"]
+else:
+    s["analysis_status"] = "AUTO · Contexto bibliográfico"
         existing.append(s)
         added.append(s)
         keys.add(k)
