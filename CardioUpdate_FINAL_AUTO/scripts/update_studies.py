@@ -177,17 +177,63 @@ def first_sentences_es(sections, n=2):
     return " ".join(ss[:n]).strip()[:900]
 
 def fetch_recent():
-    today=date.today()
-    start=today-timedelta(days=3)
-    q=f'FIRST_PDATE:[{start.isoformat()} TO {today.isoformat()}] AND ({CARDIO_TERMS}) sort_date:y'
-    params={"query":q,"format":"json","resultType":"core","pageSize":"250"}
-    r=requests.get(API,params=params,timeout=45,headers={"User-Agent":"CardioUpdate/3.0 evidence updater"})
-    r.raise_for_status()
-    return (r.json().get("resultList") or {}).get("result") or []
+    today = date.today()
+    start = today - timedelta(days=3)
+
+    groups = [
+        "cardiovascular OR cardiac OR coronary OR myocardial",
+        '"heart failure" OR "atrial fibrillation" OR hypertension',
+        "atherosclerosis OR valvular OR cardiomyopathy",
+        '"peripheral artery" OR pericarditis OR aortic'
+    ]
+
+    results = {}
+
+    for terms in groups:
+        q = f'FIRST_PDATE:[{start.isoformat()} TO {today.isoformat()}] AND ({terms}) sort_date:y'
+        params = {
+            "query": q,
+            "format": "json",
+            "resultType": "core",
+            "pageSize": "75"
+        }
+
+        for attempt in range(4):
+            try:
+                r = requests.get(
+                    API,
+                    params=params,
+                    timeout=60,
+                    headers={"User-Agent": "CardioUpdate/3.1 evidence updater"}
+                )
+                r.raise_for_status()
+
+                items = (r.json().get("resultList") or {}).get("result") or []
+
+                for item in items:
+                    key = item.get("doi") or item.get("pmid") or item.get("pmcid") or item.get("title")
+                    if key:
+                        results[str(key).lower()] = item
+
+                break
+
+            except requests.RequestException as e:
+                if attempt == 3:
+                    print(f"Europe PMC: consulta omitida tras reintentos: {e}")
+                else:
+                    time.sleep(2 ** attempt)
+
+        time.sleep(1)
+
+        if not results:
+        raise RuntimeError("Europe PMC no respondió después de los reintentos.")
+
+    return list(results.values())
+
 
 def make_id(item):
-    base=item.get("doi") or item.get("pmid") or item.get("pmcid") or item.get("title","study")
-    return re.sub(r"[^a-z0-9]+","-",base.lower()).strip("-")[:110]
+    base = item.get("doi") or item.get("pmid") or item.get("pmcid") or item.get("title") or "study"
+    return re.sub(r"[^a-z0-9]+", "-", base.lower()).strip("-")[:110]
 
 def original_url(item):
     if item.get("doi"): return "https://doi.org/"+item["doi"]
