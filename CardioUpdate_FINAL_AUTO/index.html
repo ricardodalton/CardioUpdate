@@ -194,7 +194,45 @@ function renderHome(){
  document.getElementById('areaStrip').innerHTML=AREAS.slice(0,6).map(areaTile).join('');
  document.getElementById('homeFeed').innerHTML=STUDIES.slice(4,10).map(feedItem).join('');
 }
-function filtered(){if(filter==='Todos')return STUDIES;if(['Practice Changer','Relevante','Seguimiento'].includes(filter))return STUDIES.filter(s=>s.level===filter);if(filter==='RCT')return STUDIES.filter(s=>(s.type||'').toUpperCase().includes('RCT'));if(filter==='NEJM')return STUDIES.filter(s=>(s.journal||'').includes('NEJM'));if(filter==='JACC')return STUDIES.filter(s=>(s.journal||'').includes('JACC'));return STUDIES}
+function weeklyStudies(){
+  const now=new Date();
+  const day=now.getDay(); // 0 domingo ... 6 sábado
+
+  const start=new Date(now);
+  const daysSinceSaturday=(day+1)%7;
+  start.setDate(now.getDate()-daysSinceSaturday);
+  start.setHours(0,0,0,0);
+
+  const end=new Date(start);
+  end.setDate(start.getDate()+7);
+
+  return STUDIES
+    .filter(s=>{
+      const d=new Date((s.date||'')+'T00:00:00');
+      return !isNaN(d) && d>=start && d<end;
+    })
+    .sort((a,b)=>
+      (b.auto_score||0)-(a.auto_score||0) ||
+      String(b.date||'').localeCompare(String(a.date||''))
+    )
+    .slice(0,20);
+}
+
+function filtered(){
+  const weekly=weeklyStudies();
+
+  if(filter==='Todos') return weekly;
+  if(['Practice Changer','Relevante','Seguimiento'].includes(filter))
+    return weekly.filter(s=>s.level===filter);
+  if(filter==='RCT')
+    return weekly.filter(s=>(s.type||'').toUpperCase().includes('RCT'));
+  if(filter==='NEJM')
+    return weekly.filter(s=>(s.journal||'').includes('NEJM'));
+  if(filter==='JACC')
+    return weekly.filter(s=>(s.journal||'').includes('JACC'));
+
+  return weekly;
+}
 function renderWeek(){let opts=['Todos','Practice Changer','Relevante','Seguimiento','RCT','NEJM','JACC'];document.getElementById('filters').innerHTML=opts.map(x=>`<button class="filter ${filter===x?'active':''}" onclick="setFilter('${x}')">${x}</button>`).join('');let arr=filtered();document.getElementById('weekCount').textContent=`${arr.length} de ${STUDIES.length} trabajos`;document.getElementById('weekFeed').innerHTML=arr.length?arr.map(feedItem).join(''):'<div class="empty">No hay resultados con este filtro.</div>'}
 function setFilter(x){filter=x;renderWeek()}
 function renderTopics(){document.getElementById('allAreas').innerHTML=AREAS.map(areaTile).join('')}
