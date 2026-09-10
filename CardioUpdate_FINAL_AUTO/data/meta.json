@@ -1,11 +1,11 @@
 {
   "app_version": "3.0-final-auto",
-  "updated_at": "2026-09-09T21:53:45.571813+00:00",
+  "updated_at": "2026-09-10T14:00:40.297917+00:00",
   "update_mode": "Base externa + búsqueda diaria",
   "next_source": "Europe PMC",
   "review_note": "Los trabajos importados automáticamente se identifican como 'Revisión pendiente'.",
-  "last_run_added": 7,
-  "total_studies": 43,
+  "last_run_added": 12,
+  "total_studies": 55,
   "source": "Europe PMC + Crossref",
   "related_evidence_enabled": true,
   "related_evidence_max_sources": 6
