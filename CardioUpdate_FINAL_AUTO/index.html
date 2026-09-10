@@ -38,7 +38,7 @@
 .empty{background:#fff;border:1px dashed #bdb5ac;padding:34px;text-align:center;color:#737b82}
 .mobileNav{display:none}
 @media(max-width:1050px){.app{grid-template-columns:190px 1fr}.sidebar{padding:22px 12px}.areaStrip{grid-template-columns:repeat(4,1fr)}.homeTop{grid-template-columns:1fr}.issuePanel{max-width:520px}}
-@media(max-width:760px){.app{display:block}.sidebar{display:none}.mast{padding:12px 14px;top:0}.searchMini{display:none}.page{padding:18px 14px 85px}.heroTitle{font-size:42px}.dek{font-size:18px}.storyGrid{grid-template-columns:1fr}.story{border-right:0;border-bottom:1px solid var(--line)}.areaStrip{grid-template-columns:repeat(2,1fr)}.feedItem{grid-template-columns:96px 1fr 38px}.feedBody{padding:15px}.feedBody h3{font-size:20px}.articleGrid{grid-template-columns:1fr}.articleBlock{border-right:0}.guideLayout{grid-template-columns:1fr}.topicHero{grid-template-columns:65px 1fr;padding:18px}.topicCode{width:60px;height:60px;font-size:19px}.topicHero h1{font-size:30px}.articleHead h1{font-size:34px}.mobileNav{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #d2cbc2;z-index:50}.mobileNav button{border:0;background:#fff;padding:9px 2px 8px;color:#68717a;font-size:10px}.mobileNav button b{display:block;font-size:17px;margin-bottom:2px}.mobileNav button.active{color:#d51f32}}
+@media(max-width:760px){.app{display:block}.sidebar{display:none}.mast{padding:12px 14px;top:0}.searchMini{display:none}.page{padding:18px 14px 85px}.heroTitle{font-size:42px}.dek{font-size:18px}.storyGrid{grid-template-columns:1fr}.story{border-right:0;border-bottom:1px solid var(--line)}.areaStrip{grid-template-columns:repeat(2,1fr)}.feedItem{grid-template-columns:96px 1fr 38px}.feedBody{padding:15px}.feedBody h3{font-size:20px}.articleGrid{grid-template-columns:1fr}.articleBlock{border-right:0}.guideLayout{grid-template-columns:1fr}.topicHero{grid-template-columns:65px 1fr;padding:18px}.topicCode{width:60px;height:60px;font-size:19px}.topicHero h1{font-size:30px}.articleHead h1{font-size:34px}.mobileNav{display:grid;grid-template-columns:repeat(6,1fr);position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #d2cbc2;z-index:50}.mobileNav button{border:0;background:#fff;padding:9px 2px 8px;color:#68717a;font-size:10px}.mobileNav button b{display:block;font-size:17px;margin-bottom:2px}.mobileNav button.active{color:#d51f32}}
 
 .abstractFull{grid-column:1/-1;background:#fff;padding:28px 32px;border-bottom:1px solid var(--line)}
 .abstractFull h2{font-family:Georgia,serif;font-size:27px;margin:0 0 5px}
@@ -57,7 +57,7 @@
 
 <script>
 (function(){
-  const VERSION='CardioUpdate-3.3-no-related-evidence';
+  const VERSION='CardioUpdate-3.4-mobile-guides-all-specialties';
   try { localStorage.setItem('cardioupdate_version', VERSION); } catch(e) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(regs){
@@ -141,6 +141,7 @@
 <button data-page="home" class="active" onclick="go('home')"><b>⌂</b>Portada</button>
 <button data-page="week" onclick="go('week')"><b>▤</b>Semana</button>
 <button data-page="topics" onclick="go('topics')"><b>▦</b>Temas</button>
+<button data-page="guides" onclick="go('guides')"><b>§</b>Guías</button>
 <button data-page="favorites" onclick="go('favorites')"><b>★</b>Favoritos</button>
 <button data-page="search" onclick="go('search')"><b>⌕</b>Buscar</button>
 </nav>
@@ -184,7 +185,7 @@ function renderHome(){
  document.getElementById('homeTop').innerHTML=`<div class="homeTop"><div><span class="issueTag">PRINCIPAL DE LA SEMANA</span><h1 class="heroTitle">${esc(lead.short)}</h1><p class="dek">${esc(lead.why||lead.summary)}</p><div class="heroMeta"><span><b>${esc(lead.journal)}</b></span><span>${esc(lead.date)}</span><span style="color:${a[1]};font-weight:900">${esc(a[3])}</span></div><button class="readLead" onclick="openStudy('${lead.id}')">Leer análisis completo →</button></div><aside class="issuePanel"><h2>Esta edición</h2><div class="number">${STUDIES.length}</div><div class="caption">trabajos seleccionados</div><div class="meter"><div class="meterRow"><div>Practice Changers<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Practice Changer').length/STUDIES.length*100)}%;--c:#d51f32"></span></div></div><b>${STUDIES.filter(x=>x.level==='Practice Changer').length}</b></div><div class="meterRow"><div>Clínicamente relevantes<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Relevante').length/STUDIES.length*100)}%;--c:#e58b1e"></span></div></div><b>${STUDIES.filter(x=>x.level==='Relevante').length}</b></div><div class="meterRow"><div>Para seguimiento<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Seguimiento').length/STUDIES.length*100)}%;--c:#3375d1"></span></div></div><b>${STUDIES.filter(x=>x.level==='Seguimiento').length}</b></div><div class="meterRow"><div>Guías / consensos<div class="bar"><span style="--w:${Math.max(8,GUIDES.length/Math.max(1,STUDIES.length)*100)}%;--c:#0f96a8"></span></div></div><b>${GUIDES.length}</b></div></div></aside></div>`;
  let picks=STUDIES.slice(1,4);
  document.getElementById('storyGrid').innerHTML=picks.map((s,i)=>{let x=areaOf(s.area);return `<article class="story" style="--c:${x[1]}" onclick="openStudy('${s.id}')"><div class="area">${esc(x[3])}</div><h3>${esc(s.short)}</h3><p>${esc(s.summary)}</p><div class="stripe"></div></article>`}).join('');
- document.getElementById('areaStrip').innerHTML=AREAS.slice(0,6).map(areaTile).join('');
+ document.getElementById('areaStrip').innerHTML=AREAS.map(areaTile).join('');
  document.getElementById('homeFeed').innerHTML=STUDIES.slice(4,10).map(feedItem).join('');
 }
 function weeklyStudies(){
