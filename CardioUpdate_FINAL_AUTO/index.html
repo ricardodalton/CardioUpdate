@@ -57,7 +57,7 @@
 
 <script>
 (function(){
-  const VERSION='CardioUpdate-3.4-mobile-guides-all-specialties';
+  const VERSION='CardioUpdate-3.5-guides-permanent-outside-weekly20';
   try { localStorage.setItem('cardioupdate_version', VERSION); } catch(e) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(regs){
@@ -200,7 +200,9 @@ function weeklyStudies(){
   return STUDIES
     .filter(s=>{
       const d=new Date((s.date||'')+'T00:00:00');
-      return !isNaN(d) && d>=start && d<end;
+      const guideText=((s.type||'')+' '+(s.title||'')+' '+(s.short||'')).toLowerCase();
+      const isGuide=/guideline|guidelines|consensus|scientific statement|position statement|guía|guías|consenso/.test(guideText);
+      return !isGuide && !isNaN(d) && d>=start && d<end;
     })
     .sort((a,b)=>
       (b.auto_score||0)-(a.auto_score||0) ||
