@@ -55,3 +55,5 @@ if s != original:
     print("CardioUpdate UI migrada a edición semanal congelada.")
 else:
     print("CardioUpdate UI ya estaba migrada.")
+
+# This file is intentionally kept as an idempotent migration so future deploys remain consistent.
