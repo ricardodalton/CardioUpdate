@@ -1,8 +1,9 @@
-name: CardioUpdate Daily Evidence
+name: CardioUpdate Weekly Evidence
 
 on:
   schedule:
-    - cron: '35 9 * * *'
+    # Friday 09:35 UTC = 06:35 Argentina (UTC-3)
+    - cron: '35 9 * * 5'
   workflow_dispatch:
 
 permissions:
@@ -25,22 +26,26 @@ jobs:
         working-directory: CardioUpdate_FINAL_AUTO
         run: pip install -r requirements-updater.txt
 
-      - name: Update cardiology evidence
+      - name: Publish weekly cardiology edition
         working-directory: CardioUpdate_FINAL_AUTO
+        env:
+          CARDIOUPDATE_WEEKLY: '1'
+          CARDIOUPDATE_MIN_WEEKLY: '20'
+          CARDIOUPDATE_MAX_WEEKLY: '30'
         run: python scripts/update_studies.py
 
       - name: Validate database
         working-directory: CardioUpdate_FINAL_AUTO
         run: python tests/test_database.py
 
-      - name: Commit database update
+      - name: Commit weekly edition
         run: |
           git config user.name "CardioUpdate Bot"
           git config user.email "actions@github.com"
           git add CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json
           if git diff --cached --quiet; then
-            echo "No new evidence to commit."
+            echo "No weekly changes to commit."
           else
-            git commit -m "CardioUpdate: daily evidence update"
+            git commit -m "CardioUpdate: weekly evidence edition"
             git push
           fi
