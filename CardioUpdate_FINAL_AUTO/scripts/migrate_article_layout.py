@@ -9,7 +9,8 @@ original = s
 
 # Version marker.
 s = s.replace("CardioUpdate-4.0-frozen-weekly-edition", "CardioUpdate-4.1-title-abstract-analysis")
-s = s.replace("CardioUpdate-4.1-title-abstract-analysis", "CardioUpdate-4.7-english-abstract-spanish-analysis")
+s = s.replace("CardioUpdate-4.1-title-abstract-analysis", "CardioUpdate-4.8-english-abstract-spanish-analysis")
+s = s.replace("CardioUpdate-4.7-manual-edition-counts", "CardioUpdate-4.8-english-abstract-spanish-analysis")
 
 # Always show the original indexed English title instead of abbreviated/edited short titles.
 s = s.replace("${esc(lead.short)}", "${esc(lead.title)}")
@@ -40,12 +41,12 @@ function originalAbstractFor(s){
     if(Array.isArray(s.abstract_en)) return s.abstract_en.map(x=>Array.isArray(x)?x[1]:x).filter(Boolean).join(' ');
     return String(s.abstract_en);
   }
-  const key=x=>String((x&&x.pmid)||(x&&x.doi)||(x&&x.title)||'').trim().toLowerCase();
-  const c=(CANDIDATES||[]).find(x=>key(x)===key(s));
+  const same=(a,b)=>String(a||'').trim().toLowerCase()===String(b||'').trim().toLowerCase();
+  const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
   return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
 }
 function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=originalAbstractFor(s);document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract</h2><p class="abstractNote">Original English abstract from the indexed scientific source.</p><section class="abstractSection"><p>${esc(abs)}</p></section></section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}'''
-s = re.sub(r"function openStudy\(id\)\{.*?\}\nfunction runSearch", new_open + "\nfunction runSearch", s, count=1, flags=re.S)
+s = re.sub(r"function openStudy\(id\)\{.*?\}\nfunction runSearch", lambda m: new_open + "\nfunction runSearch", s, count=1, flags=re.S)
 
 # Keep the embedded manual consistent with the new language policy.
 s = s.replace("<h3>Abstract</h3><p>Permite revisar el contenido científico esencial del trabajo: objetivos, metodología, resultados y conclusiones cuando están disponibles.</p>",
