@@ -63,7 +63,7 @@
 
 <script>
 (function(){
-  const VERSION='CardioUpdate-4.7-manual-edition-counts';
+  const VERSION='CardioUpdate-4.8-english-abstract-spanish-analysis';
   try { localStorage.setItem('cardioupdate_version', VERSION); } catch(e) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(regs){
@@ -276,7 +276,20 @@ function openTopic(name){let a=areaOf(name), arr=STUDIES.filter(s=>s.area===name
 function renderGuides(){document.getElementById('guideLayout').innerHTML=GUIDES.map(g=>`<article class="guide"><div class="issueTag" style="background:#17809a">${esc(g.area)}</div><h3>${esc(g.title)}</h3><p>${esc(g.summary)}</p><a href="${g.url}" target="_blank" rel="noopener">Abrir fuente oficial ↗</a></article>`).join('')}
 function renderFavs(){let a=STUDIES.filter(s=>favs().includes(s.id));document.getElementById('favFeed').innerHTML=a.length?a.map(feedItem).join(''):'<div class="empty">Todavía no guardaste ningún trabajo.</div>'}
 function clearFavs(){saveFavs([]);renderFavs()}
-function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=(s.abstract_es||[]).map(x=>`<section class="abstractSection"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></section>`).join('');let auto=s.review_status==='Revisión pendiente'?`<div class="updateError"><b>Importación automática.</b> El artículo y su abstract fueron incorporados por la selección semanal. La traducción es automática y la interpretación editorial está pendiente de revisión.</div>`:'';document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1>${auto}<div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract en español</h2><p class="abstractNote">${s.review_status==='Revisión pendiente'?'Traducción automática del abstract indexado, preservando cifras y estructura en la medida de lo posible.':'Síntesis fiel y extensa del abstract original, preservando diseño, cifras y conclusiones; redactada en español para CardioUpdate.'}</p>${abs}</section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}
+function cleanAbstractHtml(v){
+  const d=document.createElement('div'); d.innerHTML=String(v||'');
+  return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();
+}
+function originalAbstractFor(s){
+  if(s.abstract_en){
+    if(Array.isArray(s.abstract_en)) return s.abstract_en.map(x=>Array.isArray(x)?x[1]:x).filter(Boolean).join(' ');
+    return String(s.abstract_en);
+  }
+  const same=(a,b)=>String(a||'').trim().toLowerCase()===String(b||'').trim().toLowerCase();
+  const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
+  return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
+}
+function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=originalAbstractFor(s);document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract</h2><p class="abstractNote">Original English abstract from the indexed scientific source.</p><section class="abstractSection"><p>${esc(abs)}</p></section></section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}
 function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
 function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
 function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
@@ -318,13 +331,13 @@ boot();
   <h2>Cómo leer un trabajo</h2>
   <p>Al tocar el título se abre la ficha del estudio. CardioUpdate conserva como referencia principal el <b>título original en inglés</b>.</p>
   <div class="manualSequence">Título original → Abstract → Análisis CardioUpdate</div>
-  <h3>Abstract</h3><p>Permite revisar el contenido científico esencial del trabajo: objetivos, metodología, resultados y conclusiones cuando están disponibles.</p>
+  <h3>Abstract</h3><p>Se presenta en su <b>idioma original en inglés</b>, sin traducción automática, para preservar con máxima fidelidad objetivos, metodología, resultados, cifras y conclusiones.</p>
   <h3>Análisis CardioUpdate</h3><p>Interpreta qué aporta el estudio, la magnitud del efecto, sus limitaciones, relevancia clínica y potencial para modificar la conducta.</p>
   <h2>Practice Changers</h2><p>Identifica trabajos que merecen especial atención por su posible impacto sobre la práctica. Es una señal de prioridad y no sustituye la lectura crítica del artículo original.</p>
   <h2>Esta edición</h2><p>Las barras muestran la composición de la edición semanal. El número junto a cada barra indica cuántos trabajos fueron clasificados como <b>Practice Changers</b>, <b>Clínicamente relevantes</b>, <b>Para seguimiento</b> y cuántas <b>Guías/consensos</b> están disponibles.</p>
   <h2>Resto de estudios publicados en la última semana</h2><p>Incluye publicaciones detectadas en el mismo período que no integraron la selección principal. Se presentan como bibliografía simple con el título original enlazado a la fuente.</p>
   <h2>Rutina sugerida</h2>
-  <ol><li>Abrir <b>Semana</b> una vez por semana y recorrer la selección.</li><li>Revisar Abstract + Análisis CardioUpdate de los trabajos relevantes.</li><li>Guardar con ★ los estudios para una lectura posterior.</li><li>Usar <b>Temas</b> para las áreas de interés personal.</li><li>Recorrer el <b>Resto de estudios</b> para detectar publicaciones adicionales.</li><li>Consultar <b>Guías</b> y utilizar <b>Buscar</b> cuando se necesite un tema concreto.</li></ol>
+  <ol><li>Abrir <b>Semana</b> una vez por semana y recorrer la selección.</li><li>Revisar el Abstract original en inglés + el Análisis CardioUpdate en español de los trabajos relevantes.</li><li>Guardar con ★ los estudios para una lectura posterior.</li><li>Usar <b>Temas</b> para las áreas de interés personal.</li><li>Recorrer el <b>Resto de estudios</b> para detectar publicaciones adicionales.</li><li>Consultar <b>Guías</b> y utilizar <b>Buscar</b> cuando se necesite un tema concreto.</li></ol>
   <div class="manualNote"><b>Importante.</b> CardioUpdate es una herramienta de selección, organización y apoyo a la actualización profesional. No sustituye la lectura crítica de las publicaciones originales, las bases bibliográficas ni las recomendaciones de las guías de práctica clínica.</div>
  </article>
 </div>
