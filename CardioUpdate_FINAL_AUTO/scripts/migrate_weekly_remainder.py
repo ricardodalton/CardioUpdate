@@ -16,25 +16,22 @@ if ".remainderList{" not in s:
 if "CANDIDATES=[]" not in s:
     s = s.replace("let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={};", "let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={}, CANDIDATES=[];")
 
-# Repair loadDatabase regardless of which prior migration version is present.
 s = s.replace("const [s,g,a,meta]=await Promise.all([", "const [s,g,a,meta,candidates]=await Promise.all([")
 meta_line = "    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({}))\n"
 if meta_line in s and "fetch('data/candidates.json'+bust" not in s:
     s = s.replace(meta_line, "    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({})),\n    fetch('data/candidates.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))\n")
-
-s = s.replace("STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];", "STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];")
 
 marker = "function weeklyStudies(){ return STUDIES; }\n"
 helper = r'''function weeklyRemainder(){
   const {start,end}=editionBounds();
   const selectedKeys=new Set(STUDIES.map(x=>String(x.pmid||x.doi||x.url||x.title||'').toLowerCase()));
   return (CANDIDATES||[]).filter(s=>{
-    const d=new Date((s.date||'')+'T00:00:00');
+    const d=new Date((s.date||s.firstPublicationDate||'')+'T00:00:00');
     const key=String(s.pmid||s.doi||s.url||s.title||'').toLowerCase();
     const text=((s.type||'')+' '+(s.title||'')+' '+(s.short||'')).toLowerCase();
     const isGuide=/guideline|guidelines|consensus|scientific statement|position statement|guía|guías|consenso/.test(text);
     return !isGuide && !selectedKeys.has(key) && !isNaN(d) && d>=start && d<end && s.title && (s.url||s.doi||s.pmid);
-  }).sort((a,b)=>String(b.date||'').localeCompare(String(a.date||''))||String(a.title||'').localeCompare(String(b.title||'')));
+  }).sort((a,b)=>String(b.date||b.firstPublicationDate||'').localeCompare(String(a.date||a.firstPublicationDate||''))||String(a.title||'').localeCompare(String(b.title||'')));
 }
 function studySourceUrl(s){
   if(s.url) return s.url;
@@ -52,17 +49,18 @@ function renderWeeklyRemainder(){
 if "function weeklyRemainder(){" not in s:
     s = s.replace(marker, marker + helper)
 
+# Correct insertion point: homeFeed is class="feed" in the actual app.
 if 'id="weeklyRemainder"' not in s:
-    for anchor in ['<div id="homeFeed" class="storyGrid"></div>','<div id="latestFeed" class="storyGrid"></div>','<div id="homeStories" class="storyGrid"></div>']:
-        if anchor in s:
-            s = s.replace(anchor, anchor + '<div id="weeklyRemainder"></div>', 1)
-            break
+    anchor = '<div id="homeFeed" class="feed"></div>'
+    if anchor in s:
+        s = s.replace(anchor, anchor + '\n <div id="weeklyRemainder"></div>', 1)
 
-# Render remainder whenever home is rendered.
+# Ensure bibliography renders on initial boot and whenever home is opened.
+s = s.replace("renderHome();renderWeek();", "renderHome();renderWeeklyRemainder();renderWeek();")
 s = s.replace("if(id==='home')renderHome();if(id==='week')", "if(id==='home'){renderHome();renderWeeklyRemainder();}if(id==='week')")
 
 if s != original:
     p.write_text(s, encoding="utf-8")
-    print("CardioUpdate: carga de candidatos y listado semanal corregidos.")
+    print("CardioUpdate: listado bibliográfico semanal corregido e insertado.")
 else:
     print("CardioUpdate: corrección ya aplicada.")
