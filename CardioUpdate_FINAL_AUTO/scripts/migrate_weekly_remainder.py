@@ -11,8 +11,15 @@ for old in [
     "CardioUpdate-4.2-weekly-remainder",
     "CardioUpdate-4.3-weekly-remainder-fixed",
     "CardioUpdate-4.4-stable-weekly-remainder",
+    "CardioUpdate-4.5-stable-remainder-functions",
 ]:
-    s = s.replace(old, "CardioUpdate-4.5-stable-remainder-functions")
+    s = s.replace(old, "CardioUpdate-4.6-mobile-remainder-title")
+
+# Keep the bibliography heading inside the phone viewport. The generic ruleTitle heading
+# is nowrap on desktop, but this specific long heading must wrap on small screens.
+mobile_css = "\n@media(max-width:760px){#weeklyRemainder .ruleTitle{align-items:flex-start;gap:8px}#weeklyRemainder .ruleTitle h2{white-space:normal;overflow-wrap:anywhere;word-break:normal;font-size:25px;line-height:1.08;max-width:100%;flex:1}#weeklyRemainder .ruleTitle span{display:none}.remainderList{padding-left:18px;padding-right:18px}.remainderList ol{padding-left:26px}.remainderList li{font-size:15px;line-height:1.4}}\n"
+if "#weeklyRemainder .ruleTitle h2" not in s:
+    s = s.replace("</style>", mobile_css + "</style>", 1)
 
 # Ensure full source pool exists.
 s = s.replace(
@@ -104,6 +111,6 @@ s = s.replace("if(id==='home'){renderHome();renderWeeklyRemainder();}", "if(id==
 
 if s != original:
     p.write_text(s, encoding="utf-8")
-    print("CardioUpdate: funciones de bibliografía semanal restauradas y estabilizadas.")
+    print("CardioUpdate: título del listado semanal adaptado a móvil.")
 else:
     print("CardioUpdate: sin cambios pendientes.")
