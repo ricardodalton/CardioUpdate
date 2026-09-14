@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add a bibliography-style list of non-selected studies from the weekly candidate pool."""
+"""Add/fix bibliography-style list of non-selected weekly studies."""
 from pathlib import Path
 
 p = Path(__file__).resolve().parents[1] / "index.html"
@@ -13,10 +13,16 @@ style = needle + ".remainderList{background:#fff;border-top:3px solid #17212b;pa
 if ".remainderList{" not in s:
     s = s.replace(needle, style)
 
-s = s.replace("let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={};", "let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={}, CANDIDATES=[];")
-s = s.replace("fetch('data/meta.json').then(r=>r.json()).catch(()=>({}))", "fetch('data/meta.json').then(r=>r.json()).catch(()=>({})), fetch('data/candidates.json').then(r=>r.json()).catch(()=>([]))")
-s = s.replace(".then(([s,g,a,meta])=>{", ".then(([s,g,a,meta,candidates])=>{")
-s = s.replace("STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta;", "STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];")
+if "CANDIDATES=[]" not in s:
+    s = s.replace("let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={};", "let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={}, CANDIDATES=[];")
+
+# Repair loadDatabase regardless of which prior migration version is present.
+s = s.replace("const [s,g,a,meta]=await Promise.all([", "const [s,g,a,meta,candidates]=await Promise.all([")
+meta_line = "    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({}))\n"
+if meta_line in s and "fetch('data/candidates.json'+bust" not in s:
+    s = s.replace(meta_line, "    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({})),\n    fetch('data/candidates.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))\n")
+
+s = s.replace("STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];", "STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];")
 
 marker = "function weeklyStudies(){ return STUDIES; }\n"
 helper = r'''function weeklyRemainder(){
@@ -52,15 +58,11 @@ if 'id="weeklyRemainder"' not in s:
             s = s.replace(anchor, anchor + '<div id="weeklyRemainder"></div>', 1)
             break
 
-for call in ["renderHome();", "renderLatest();"]:
-    if call in s and "renderWeeklyRemainder();" not in s[s.find(call):s.find(call)+100]:
-        s = s.replace(call, call + " renderWeeklyRemainder();", 1)
-        break
+# Render remainder whenever home is rendered.
+s = s.replace("if(id==='home')renderHome();if(id==='week')", "if(id==='home'){renderHome();renderWeeklyRemainder();}if(id==='week')")
 
 if s != original:
     p.write_text(s, encoding="utf-8")
-    print("CardioUpdate: agregado resto bibliográfico de estudios semanales.")
+    print("CardioUpdate: carga de candidatos y listado semanal corregidos.")
 else:
-    print("CardioUpdate: resto bibliográfico ya estaba configurado.")
-
-# migration trigger v2
+    print("CardioUpdate: corrección ya aplicada.")
