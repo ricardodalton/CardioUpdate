@@ -2,9 +2,15 @@ name: CardioUpdate Weekly Journal Pipeline
 
 on:
   schedule:
-    # Daily search/accumulation. The Python pipeline only publishes studies on Friday.
-    - cron: '35 9 * * *'
+    # Candidate collection Saturday-Thursday at 09:35 UTC.
+    - cron: '35 9 * * 0-4,6'
+    # Friday publication at 21:35 UTC (18:35 Argentina).
+    - cron: '35 21 * * 5'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'CardioUpdate_FINAL_AUTO/scripts/migrate_weekly_ui.py'
 
 permissions:
   contents: write
@@ -26,6 +32,10 @@ jobs:
         working-directory: CardioUpdate_FINAL_AUTO
         run: pip install -r requirements-updater.txt
 
+      - name: Apply weekly UI migration
+        working-directory: CardioUpdate_FINAL_AUTO
+        run: python scripts/migrate_weekly_ui.py
+
       - name: Accumulate candidates and publish Friday issue
         working-directory: CardioUpdate_FINAL_AUTO
         env:
@@ -43,7 +53,7 @@ jobs:
         run: |
           git config user.name "CardioUpdate Bot"
           git config user.email "actions@github.com"
-          git add CardioUpdate_FINAL_AUTO/data/candidates.json CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json
+          git add CardioUpdate_FINAL_AUTO/index.html CardioUpdate_FINAL_AUTO/data/candidates.json CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
