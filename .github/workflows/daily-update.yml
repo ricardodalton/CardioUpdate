@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_weekly_ui.py'
+      - 'CardioUpdate_FINAL_AUTO/scripts/migrate_article_layout.py'
 
 permissions:
   contents: write
@@ -35,6 +36,10 @@ jobs:
       - name: Apply weekly UI migration
         working-directory: CardioUpdate_FINAL_AUTO
         run: python scripts/migrate_weekly_ui.py
+
+      - name: Apply article layout migration
+        working-directory: CardioUpdate_FINAL_AUTO
+        run: python scripts/migrate_article_layout.py
 
       - name: Accumulate candidates and publish Friday issue
         working-directory: CardioUpdate_FINAL_AUTO
