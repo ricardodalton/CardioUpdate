@@ -169,11 +169,12 @@ function selectPublishedEdition(items){
 }
 async function loadDatabase(){
   const bust='?v='+Date.now();
-  const [s,g,a,meta]=await Promise.all([
+  const [s,g,a,meta,candidates]=await Promise.all([
     fetch('data/studies.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('studies.json');return r.json()}),
     fetch('data/guides.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('guides.json');return r.json()}),
     fetch('data/areas.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('areas.json');return r.json()}),
-    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({}))
+    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({})),
+    fetch('data/candidates.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))
   ]);
   STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[]; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
   applyMeta();
@@ -255,7 +256,7 @@ function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=do
 function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
 function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
 function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome(); renderWeeklyRemainder();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
-function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home')renderHome();if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runSearch('');updateFavBadge();window.scrollTo(0,0)}
+function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home'){renderHome();renderWeeklyRemainder();}if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runSearch('');updateFavBadge();window.scrollTo(0,0)}
 async function reloadDatabase(){
   const active=document.querySelector('.page.active')?.id||'home';
   try{
