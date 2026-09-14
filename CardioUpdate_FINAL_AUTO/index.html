@@ -104,6 +104,7 @@
  <div id="areaStrip" class="areaStrip"></div>
  <div class="ruleTitle"><h2>Últimas incorporaciones</h2><span></span><small>Revisión semanal</small></div>
  <div id="homeFeed" class="feed"></div>
+ <div id="weeklyRemainder"></div>
 </section>
 
 <section id="week" class="page">
@@ -213,12 +214,12 @@ function weeklyRemainder(){
   const {start,end}=editionBounds();
   const selectedKeys=new Set(STUDIES.map(x=>String(x.pmid||x.doi||x.url||x.title||'').toLowerCase()));
   return (CANDIDATES||[]).filter(s=>{
-    const d=new Date((s.date||'')+'T00:00:00');
+    const d=new Date((s.date||s.firstPublicationDate||'')+'T00:00:00');
     const key=String(s.pmid||s.doi||s.url||s.title||'').toLowerCase();
     const text=((s.type||'')+' '+(s.title||'')+' '+(s.short||'')).toLowerCase();
     const isGuide=/guideline|guidelines|consensus|scientific statement|position statement|guía|guías|consenso/.test(text);
     return !isGuide && !selectedKeys.has(key) && !isNaN(d) && d>=start && d<end && s.title && (s.url||s.doi||s.pmid);
-  }).sort((a,b)=>String(b.date||'').localeCompare(String(a.date||''))||String(a.title||'').localeCompare(String(b.title||'')));
+  }).sort((a,b)=>String(b.date||b.firstPublicationDate||'').localeCompare(String(a.date||a.firstPublicationDate||''))||String(a.title||'').localeCompare(String(b.title||'')));
 }
 function studySourceUrl(s){
   if(s.url) return s.url;
@@ -269,7 +270,7 @@ async function reloadDatabase(){
 async function boot(){
   try{
     await loadDatabase();
-    renderHome();renderWeek();renderTopics();renderGuides();renderFavs();runSearch('');updateFavBadge();
+    renderHome();renderWeeklyRemainder();renderWeek();renderTopics();renderGuides();renderFavs();runSearch('');updateFavBadge();
   }catch(e){
     document.getElementById('home').innerHTML='<div class="updateError"><b>Error al cargar la base de CardioUpdate.</b> Verifique que la carpeta data esté publicada junto con index.html.</div>';
   }
