@@ -54,11 +54,13 @@
 
 .autoBadge{display:inline-block;margin-left:6px;padding:3px 6px;font-size:9px;font-weight:900;letter-spacing:.5px;background:#eef3f6;color:#52616d;border:1px solid #d8e0e6}
 .updateError{background:#fff1f2;border:1px solid #fecdd3;color:#9f1239;padding:12px 14px;margin:12px 0;font-size:12px}
+
+@media(max-width:760px){#weeklyRemainder .ruleTitle{align-items:flex-start;gap:8px}#weeklyRemainder .ruleTitle h2{white-space:normal;overflow-wrap:anywhere;word-break:normal;font-size:25px;line-height:1.08;max-width:100%;flex:1}#weeklyRemainder .ruleTitle span{display:none}.remainderList{padding-left:18px;padding-right:18px}.remainderList ol{padding-left:26px}.remainderList li{font-size:15px;line-height:1.4}}
 </style>
 
 <script>
 (function(){
-  const VERSION='CardioUpdate-4.5-stable-remainder-functions';
+  const VERSION='CardioUpdate-4.6-mobile-remainder-title';
   try { localStorage.setItem('cardioupdate_version', VERSION); } catch(e) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(regs){
