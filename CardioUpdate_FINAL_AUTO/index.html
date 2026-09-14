@@ -58,7 +58,7 @@
 
 <script>
 (function(){
-  const VERSION='CardioUpdate-4.4-stable-weekly-remainder';
+  const VERSION='CardioUpdate-4.5-stable-remainder-functions';
   try { localStorage.setItem('cardioupdate_version', VERSION); } catch(e) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(regs){
@@ -211,6 +211,46 @@ function renderHome(){
  renderWeeklyRemainder();
 }
 function weeklyStudies(){ return STUDIES; }
+function weeklyRemainder(){
+  const {start,end}=editionBounds();
+  const keyOf=x=>String((x&&x.pmid)||(x&&x.doi)||(x&&x.url)||(x&&x.title)||'').trim().toLowerCase();
+  const dateValue=x=>(x&&x.date)||(x&&x.firstPublicationDate)||(x&&x.firstIndexDate)||'';
+  const selectedKeys=new Set((STUDIES||[]).map(keyOf));
+  const byKey=new Map();
+
+  [...(ALL_STUDIES||[]), ...(CANDIDATES||[])].forEach(x=>{
+    if(!x || !x.title) return;
+    const key=keyOf(x);
+    if(!key || selectedKeys.has(key)) return;
+    const raw=String(dateValue(x)).slice(0,10);
+    const d=new Date(raw+'T00:00:00');
+    if(isNaN(d) || d<start || d>=end) return;
+    const pubTypes=Array.isArray(x.pubTypeList?.pubType) ? x.pubTypeList.pubType.join(' ') : (x.pubTypeList?.pubType||'');
+    const text=((x.type||'')+' '+(x.title||'')+' '+(x.short||'')+' '+pubTypes).toLowerCase();
+    if(/guideline|guidelines|consensus|scientific statement|position statement|guía|guías|consenso/.test(text)) return;
+    if(!(x.url||x.doi||x.pmid)) return;
+    if(!byKey.has(key)) byKey.set(key,x);
+  });
+
+  return [...byKey.values()].sort((a,b)=>
+    String(dateValue(b)).localeCompare(String(dateValue(a))) ||
+    String(a.title||'').localeCompare(String(b.title||''))
+  );
+}
+function studySourceUrl(x){
+  if(x.url) return x.url;
+  if(x.doi) return 'https://doi.org/'+String(x.doi).replace(/^https?:\/\/(dx\.)?doi\.org\//i,'');
+  if(x.pmid) return 'https://pubmed.ncbi.nlm.nih.gov/'+x.pmid+'/';
+  return '#';
+}
+function renderWeeklyRemainder(){
+  const box=document.getElementById('weeklyRemainder');
+  if(!box) return;
+  const items=weeklyRemainder();
+  box.innerHTML=items.length
+    ? `<div class="ruleTitle"><h2>Resto de estudios publicados en la última semana</h2><span></span></div><div class="remainderList"><ol>${items.map(x=>`<li><a href="${esc(studySourceUrl(x))}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ol></div>`
+    : '';
+}
 function filtered(){
   const weekly=weeklyStudies();
   if(filter==='Todos') return weekly;
