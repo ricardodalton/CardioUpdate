@@ -58,7 +58,7 @@
 
 <script>
 (function(){
-  const VERSION='CardioUpdate-4.3-weekly-remainder-fixed';
+  const VERSION='CardioUpdate-4.4-stable-weekly-remainder';
   try { localStorage.setItem('cardioupdate_version', VERSION); } catch(e) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(regs){
@@ -177,7 +177,7 @@ async function loadDatabase(){
     fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({})),
     fetch('data/candidates.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))
   ]);
-  ALL_STUDIES=Array.isArray(s)?s:[]; STUDIES=selectPublishedEdition(ALL_STUDIES); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[]; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
+  ALL_STUDIES=Array.isArray(s)?s:[]; const weekly=selectPublishedEdition(ALL_STUDIES); STUDIES=weekly.length?weekly:ALL_STUDIES.slice(0,30); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[]; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
   applyMeta();
 }
 function applyMeta(){
@@ -234,8 +234,8 @@ function clearFavs(){saveFavs([]);renderFavs()}
 function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=(s.abstract_es||[]).map(x=>`<section class="abstractSection"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></section>`).join('');let auto=s.review_status==='Revisión pendiente'?`<div class="updateError"><b>Importación automática.</b> El artículo y su abstract fueron incorporados por la selección semanal. La traducción es automática y la interpretación editorial está pendiente de revisión.</div>`:'';document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1>${auto}<div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract en español</h2><p class="abstractNote">${s.review_status==='Revisión pendiente'?'Traducción automática del abstract indexado, preservando cifras y estructura en la medida de lo posible.':'Síntesis fiel y extensa del abstract original, preservando diseño, cifras y conclusiones; redactada en español para CardioUpdate.'}</p>${abs}</section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}
 function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
 function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
-function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome(); renderWeeklyRemainder();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
-function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home'){renderHome();renderWeeklyRemainder();}if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runSearch('');updateFavBadge();window.scrollTo(0,0)}
+function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
+function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home')renderHome();if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runSearch('');updateFavBadge();window.scrollTo(0,0)}
 async function reloadDatabase(){
   const active=document.querySelector('.page.active')?.id||'home';
   try{
@@ -248,7 +248,7 @@ async function reloadDatabase(){
 async function boot(){
   try{
     await loadDatabase();
-    renderHome();renderWeeklyRemainder();renderWeek();renderTopics();renderGuides();renderFavs();runSearch('');updateFavBadge();
+    renderHome();renderWeek();renderTopics();renderGuides();renderFavs();runSearch('');updateFavBadge();
   }catch(e){
     document.getElementById('home').innerHTML='<div class="updateError"><b>Error al cargar la base de CardioUpdate.</b> Verifique que la carpeta data esté publicada junto con index.html.</div>';
   }
