@@ -1,7 +1,8 @@
-name: CardioUpdate Daily Evidence
+name: CardioUpdate Weekly Journal Pipeline
 
 on:
   schedule:
+    # Daily search/accumulation. The Python pipeline only publishes studies on Friday.
     - cron: '35 9 * * *'
   workflow_dispatch:
 
@@ -25,25 +26,27 @@ jobs:
         working-directory: CardioUpdate_FINAL_AUTO
         run: pip install -r requirements-updater.txt
 
-      - name: Update cardiology evidence
+      - name: Accumulate candidates and publish Friday issue
         working-directory: CardioUpdate_FINAL_AUTO
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CARDIOUPDATE_AI_MODEL: gpt-5.6-terra
+          CARDIOUPDATE_MIN_WEEKLY: '20'
+          CARDIOUPDATE_MAX_WEEKLY: '30'
         run: python scripts/update_studies.py
 
       - name: Validate database
         working-directory: CardioUpdate_FINAL_AUTO
         run: python tests/test_database.py
 
-      - name: Commit database update
+      - name: Commit pipeline state
         run: |
           git config user.name "CardioUpdate Bot"
           git config user.email "actions@github.com"
-          git add CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json
+          git add CardioUpdate_FINAL_AUTO/data/candidates.json CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json
           if git diff --cached --quiet; then
-            echo "No new evidence to commit."
+            echo "No changes to commit."
           else
-            git commit -m "CardioUpdate: daily evidence update"
+            git commit -m "CardioUpdate: weekly journal pipeline"
             git push
           fi
