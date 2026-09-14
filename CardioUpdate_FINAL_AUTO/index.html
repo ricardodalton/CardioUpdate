@@ -22,7 +22,7 @@
 .heroTitle{font-family:Georgia,"Times New Roman",serif;font-size:54px;line-height:.98;letter-spacing:-2px;margin:16px 0 15px;max-width:850px}.dek{font-family:Georgia,"Times New Roman",serif;font-size:20px;line-height:1.45;color:#4a5662;max-width:790px;margin:0}
 .heroMeta{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0 20px;color:#68727b;font-size:12px}.heroMeta b{color:#17212b}
 .readLead{border:0;background:#17324a;color:#fff;padding:13px 17px;font-weight:900;cursor:pointer}.readLead:hover{background:#d51f32}
-.issuePanel{background:#fff;border:1px solid var(--line);padding:22px 22px 18px;box-shadow:8px 8px 0 #e1d8cd}.issuePanel h2{font-family:Georgia,serif;font-size:25px;margin:0 0 12px}.number{font-size:74px;font-weight:900;line-height:.9;color:#17324a;letter-spacing:-5px}.issuePanel .caption{font-size:12px;color:#7b838b;margin:4px 0 18px}.meter{display:grid;gap:9px}.meterRow{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;font-size:12px}.meterRow b{font-size:15px}.bar{height:7px;background:#ece6df;overflow:hidden;margin-top:4px}.bar>span{display:block;height:100%;width:var(--w);background:var(--c)}
+.issuePanel{background:#fff;border:1px solid var(--line);padding:22px 22px 18px;box-shadow:8px 8px 0 #e1d8cd}.issuePanel h2{font-family:Georgia,serif;font-size:25px;margin:0 0 12px}.number{font-size:74px;font-weight:900;line-height:.9;color:#17324a;letter-spacing:-5px}.issuePanel .caption{font-size:12px;color:#7b838b;margin:4px 0 18px}.meter{display:grid;gap:9px}.meterRow{display:grid;grid-template-columns:1fr;gap:12px;align-items:center;font-size:12px}.meterRow b{font-size:15px}.bar{height:7px;background:#ece6df;overflow:hidden;margin-top:4px}.bar>span{display:block;height:100%;width:var(--w);background:var(--c)}
 .ruleTitle{display:flex;align-items:center;gap:12px;margin:38px 0 16px}.ruleTitle h2{font-family:Georgia,serif;font-size:29px;margin:0;white-space:nowrap}.ruleTitle span{height:1px;background:#aeb3b8;flex:1}.ruleTitle small{font-size:11px;text-transform:uppercase;letter-spacing:1.3px;color:#6b747c}
 .storyGrid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:0;border-top:3px solid #17212b;border-bottom:1px solid #17212b;background:#fff}
 .story{padding:20px;min-height:218px;border-right:1px solid var(--line);cursor:pointer;position:relative}.story:last-child{border-right:0}.story:hover{background:#fbf8f4}.story .area{font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:1.1px;color:var(--c)}.story h3{font-family:Georgia,serif;font-size:25px;line-height:1.08;margin:9px 0 10px}.story p{font-size:13px;line-height:1.5;color:#66717a}.story:first-child h3{font-size:32px}.story .stripe{position:absolute;left:0;right:0;bottom:0;height:6px;background:var(--c)}
@@ -57,7 +57,7 @@
 
 <script>
 (function(){
-  const VERSION='CardioUpdate-3.5-guides-permanent-outside-weekly20';
+  const VERSION='CardioUpdate-4.0-frozen-weekly-edition';
   try { localStorage.setItem('cardioupdate_version', VERSION); } catch(e) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(regs){
@@ -148,6 +148,24 @@
 
 <script>
 let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={};
+function editionBounds(now=new Date()){
+  const d=new Date(now); d.setHours(0,0,0,0);
+  const daysSinceFriday=(d.getDay()+2)%7;
+  const friday=new Date(d); friday.setDate(d.getDate()-daysSinceFriday);
+  const start=new Date(friday); start.setDate(friday.getDate()-6);
+  const end=new Date(friday); end.setDate(friday.getDate()+1);
+  return {start,end};
+}
+function selectPublishedEdition(items){
+  const {start,end}=editionBounds();
+  const selected=(items||[]).filter(s=>{
+    const d=new Date((s.date||'')+'T00:00:00');
+    const text=((s.type||'')+' '+(s.title||'')+' '+(s.short||'')).toLowerCase();
+    const isGuide=/guideline|guidelines|consensus|scientific statement|position statement|guía|guías|consenso/.test(text);
+    return !isGuide && !isNaN(d) && d>=start && d<end;
+  }).sort((a,b)=>(b.auto_score||0)-(a.auto_score||0)||String(b.date||'').localeCompare(String(a.date||'')));
+  return selected.slice(0,30);
+}
 async function loadDatabase(){
   const bust='?v='+Date.now();
   const [s,g,a,meta]=await Promise.all([
@@ -156,7 +174,7 @@ async function loadDatabase(){
     fetch('data/areas.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('areas.json');return r.json()}),
     fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({}))
   ]);
-  STUDIES=s; GUIDES=g; AREAS=a; META=meta; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
+  STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
   applyMeta();
 }
 function applyMeta(){
@@ -182,34 +200,13 @@ function feedItem(s){let a=areaOf(s.area);return `<article class="feedItem" oncl
 function areaTile(a){let n=countArea(a[0]);return `<div class="areaTile" style="--c:${a[1]};background:${a[1]}" onclick="openTopic('${esc(a[0])}')"><span>${a[2]}</span><b>${esc(a[3])}</b><small>${n? n+' trabajo'+(n>1?'s':''):'sin selección esta semana'}</small></div>`}
 function renderHome(){
  let lead=STUDIES[0]; let a=areaOf(lead.area);
- document.getElementById('homeTop').innerHTML=`<div class="homeTop"><div><span class="issueTag">PRINCIPAL DE LA SEMANA</span><h1 class="heroTitle">${esc(lead.short)}</h1><p class="dek">${esc(lead.why||lead.summary)}</p><div class="heroMeta"><span><b>${esc(lead.journal)}</b></span><span>${esc(lead.date)}</span><span style="color:${a[1]};font-weight:900">${esc(a[3])}</span></div><button class="readLead" onclick="openStudy('${lead.id}')">Leer análisis completo →</button></div><aside class="issuePanel"><h2>Esta edición</h2><div class="number">${STUDIES.length}</div><div class="caption">trabajos seleccionados</div><div class="meter"><div class="meterRow"><div>Practice Changers<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Practice Changer').length/STUDIES.length*100)}%;--c:#d51f32"></span></div></div><b>${STUDIES.filter(x=>x.level==='Practice Changer').length}</b></div><div class="meterRow"><div>Clínicamente relevantes<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Relevante').length/STUDIES.length*100)}%;--c:#e58b1e"></span></div></div><b>${STUDIES.filter(x=>x.level==='Relevante').length}</b></div><div class="meterRow"><div>Para seguimiento<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Seguimiento').length/STUDIES.length*100)}%;--c:#3375d1"></span></div></div><b>${STUDIES.filter(x=>x.level==='Seguimiento').length}</b></div><div class="meterRow"><div>Guías / consensos<div class="bar"><span style="--w:${Math.max(8,GUIDES.length/Math.max(1,STUDIES.length)*100)}%;--c:#0f96a8"></span></div></div><b>${GUIDES.length}</b></div></div></aside></div>`;
+ document.getElementById('homeTop').innerHTML=`<div class="homeTop"><div><span class="issueTag">PRINCIPAL DE LA SEMANA</span><h1 class="heroTitle">${esc(lead.short)}</h1><p class="dek">${esc(lead.why||lead.summary)}</p><div class="heroMeta"><span><b>${esc(lead.journal)}</b></span><span>${esc(lead.date)}</span><span style="color:${a[1]};font-weight:900">${esc(a[3])}</span></div><button class="readLead" onclick="openStudy('${lead.id}')">Leer análisis completo →</button></div><aside class="issuePanel"><h2>Esta edición</h2><div class="meter"><div class="meterRow"><div>Practice Changers<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Practice Changer').length/STUDIES.length*100)}%;--c:#d51f32"></span></div></div></div><div class="meterRow"><div>Clínicamente relevantes<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Relevante').length/STUDIES.length*100)}%;--c:#e58b1e"></span></div></div></div><div class="meterRow"><div>Para seguimiento<div class="bar"><span style="--w:${Math.max(8,STUDIES.filter(x=>x.level==='Seguimiento').length/STUDIES.length*100)}%;--c:#3375d1"></span></div></div></div><div class="meterRow"><div>Guías / consensos<div class="bar"><span style="--w:${Math.max(8,GUIDES.length/Math.max(1,STUDIES.length)*100)}%;--c:#0f96a8"></span></div></div></div></div></aside></div>`;
  let picks=STUDIES.slice(1,4);
  document.getElementById('storyGrid').innerHTML=picks.map((s,i)=>{let x=areaOf(s.area);return `<article class="story" style="--c:${x[1]}" onclick="openStudy('${s.id}')"><div class="area">${esc(x[3])}</div><h3>${esc(s.short)}</h3><p>${esc(s.summary)}</p><div class="stripe"></div></article>`}).join('');
  document.getElementById('areaStrip').innerHTML=AREAS.map(areaTile).join('');
  document.getElementById('homeFeed').innerHTML=STUDIES.slice(4,10).map(feedItem).join('');
 }
-function weeklyStudies(){
-  const now=new Date();
-  const day=now.getDay();
-  const start=new Date(now);
-  const daysSinceSaturday=(day+1)%7;
-  start.setDate(now.getDate()-daysSinceSaturday);
-  start.setHours(0,0,0,0);
-  const end=new Date(start);
-  end.setDate(start.getDate()+7);
-  return STUDIES
-    .filter(s=>{
-      const d=new Date((s.date||'')+'T00:00:00');
-      const guideText=((s.type||'')+' '+(s.title||'')+' '+(s.short||'')).toLowerCase();
-      const isGuide=/guideline|guidelines|consensus|scientific statement|position statement|guía|guías|consenso/.test(guideText);
-      return !isGuide && !isNaN(d) && d>=start && d<end;
-    })
-    .sort((a,b)=>
-      (b.auto_score||0)-(a.auto_score||0) ||
-      String(b.date||'').localeCompare(String(a.date||''))
-    )
-    .slice(0,20);
-}
+function weeklyStudies(){ return STUDIES; }
 function filtered(){
   const weekly=weeklyStudies();
   if(filter==='Todos') return weekly;
@@ -230,7 +227,7 @@ function openTopic(name){let a=areaOf(name), arr=STUDIES.filter(s=>s.area===name
 function renderGuides(){document.getElementById('guideLayout').innerHTML=GUIDES.map(g=>`<article class="guide"><div class="issueTag" style="background:#17809a">${esc(g.area)}</div><h3>${esc(g.title)}</h3><p>${esc(g.summary)}</p><a href="${g.url}" target="_blank" rel="noopener">Abrir fuente oficial ↗</a></article>`).join('')}
 function renderFavs(){let a=STUDIES.filter(s=>favs().includes(s.id));document.getElementById('favFeed').innerHTML=a.length?a.map(feedItem).join(''):'<div class="empty">Todavía no guardaste ningún trabajo.</div>'}
 function clearFavs(){saveFavs([]);renderFavs()}
-function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=(s.abstract_es||[]).map(x=>`<section class="abstractSection"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></section>`).join('');let auto=s.review_status==='Revisión pendiente'?`<div class="updateError"><b>Importación automática.</b> El artículo y su abstract fueron incorporados por la búsqueda diaria. La traducción es automática y la interpretación editorial está pendiente de revisión.</div>`:'';document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><p class="summary">${esc(s.summary)}</p>${auto}<div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid"><section class="articleBlock impact" style="--c:${a[1]}"><h2>Resumen CardioUpdate</h2><p>${esc(s.why||s.summary||'Relevancia clínica pendiente de síntesis editorial.')}</p></section>${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract en español</h2><p class="abstractNote">${s.review_status==='Revisión pendiente'?'Traducción automática del abstract indexado, preservando cifras y estructura en la medida de lo posible.':'Síntesis fiel y extensa del abstract original, preservando diseño, cifras y conclusiones; redactada en español para CardioUpdate.'}</p>${abs}</section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}
+function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=(s.abstract_es||[]).map(x=>`<section class="abstractSection"><h3>${esc(x[0])}</h3><p>${esc(x[1])}</p></section>`).join('');let auto=s.review_status==='Revisión pendiente'?`<div class="updateError"><b>Importación automática.</b> El artículo y su abstract fueron incorporados por la selección semanal. La traducción es automática y la interpretación editorial está pendiente de revisión.</div>`:'';document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><p class="summary">${esc(s.summary)}</p>${auto}<div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid"><section class="articleBlock impact" style="--c:${a[1]}"><h2>Resumen CardioUpdate</h2><p>${esc(s.why||s.summary||'Relevancia clínica pendiente de síntesis editorial.')}</p></section>${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract en español</h2><p class="abstractNote">${s.review_status==='Revisión pendiente'?'Traducción automática del abstract indexado, preservando cifras y estructura en la medida de lo posible.':'Síntesis fiel y extensa del abstract original, preservando diseño, cifras y conclusiones; redactada en español para CardioUpdate.'}</p>${abs}</section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}
 function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
 function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
 function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
