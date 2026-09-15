@@ -1,9 +1,9 @@
-name: CardioUpdate Weekly Journal Pipeline
+name: CardioUpdate Weekly Journal + Daily Briefing
 
 on:
   schedule:
-    # Candidate collection Saturday-Thursday at 09:35 UTC.
-    - cron: '35 9 * * 0-4,6'
+    # Daily briefing + candidate collection at 09:35 UTC (06:35 Argentina).
+    - cron: '35 9 * * *'
     # Friday publication at 21:35 UTC (18:35 Argentina).
     - cron: '35 21 * * 5'
   workflow_dispatch:
@@ -13,6 +13,8 @@ on:
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_weekly_ui.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_article_layout.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_weekly_remainder.py'
+      - 'CardioUpdate_FINAL_AUTO/scripts/migrate_daily_briefing.py'
+      - 'CardioUpdate_FINAL_AUTO/scripts/update_briefing.py'
 
 permissions:
   contents: write
@@ -20,32 +22,34 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         working-directory: CardioUpdate_FINAL_AUTO
         run: pip install -r requirements-updater.txt
-
       - name: Apply weekly UI migration
         working-directory: CardioUpdate_FINAL_AUTO
         run: python scripts/migrate_weekly_ui.py
-
       - name: Apply article layout migration
         working-directory: CardioUpdate_FINAL_AUTO
         run: python scripts/migrate_article_layout.py
-
       - name: Apply weekly remainder bibliography
         working-directory: CardioUpdate_FINAL_AUTO
         run: python scripts/migrate_weekly_remainder.py
-
+      - name: Apply daily briefing UI
+        working-directory: CardioUpdate_FINAL_AUTO
+        run: python scripts/migrate_daily_briefing.py
+      - name: Generate daily briefing
+        working-directory: CardioUpdate_FINAL_AUTO
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CARDIOUPDATE_AI_MODEL: gpt-5.6-terra
+        run: python scripts/update_briefing.py
       - name: Accumulate candidates and publish Friday issue
         working-directory: CardioUpdate_FINAL_AUTO
         env:
@@ -54,19 +58,17 @@ jobs:
           CARDIOUPDATE_MIN_WEEKLY: '20'
           CARDIOUPDATE_MAX_WEEKLY: '30'
         run: python scripts/update_studies.py
-
       - name: Validate database
         working-directory: CardioUpdate_FINAL_AUTO
         run: python tests/test_database.py
-
       - name: Commit pipeline state
         run: |
           git config user.name "CardioUpdate Bot"
           git config user.email "actions@github.com"
-          git add CardioUpdate_FINAL_AUTO/index.html CardioUpdate_FINAL_AUTO/data/candidates.json CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json
+          git add CardioUpdate_FINAL_AUTO/index.html CardioUpdate_FINAL_AUTO/data/candidates.json CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json CardioUpdate_FINAL_AUTO/data/briefings.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "CardioUpdate: weekly journal pipeline"
+            git commit -m "CardioUpdate: daily briefing and weekly journal pipeline"
             git push
           fi
