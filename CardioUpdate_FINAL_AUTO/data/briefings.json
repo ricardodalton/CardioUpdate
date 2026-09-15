@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "date": "2026-09-15",
+    "generated_at": "2026-09-15T15:34:22.011067+00:00",
+    "items": [
+      {
+        "title": "Inhibidores de SGLT2 en enfermedad renal crónica: metaanálisis sobre progresión y mortalidad",
+        "what_happened": "Se publicó un metaanálisis que evalúa la efectividad de los inhibidores de SGLT2 para ralentizar la progresión de la enfermedad renal crónica y reducir la mortalidad.",
+        "why_relevant": "La enfermedad renal crónica incrementa de forma sustancial el riesgo cardiovascular. Los inhibidores de SGLT2 son una clase terapéutica de especial interés en la intersección cardiorrenal.",
+        "practical_implication": "La publicación refuerza la necesidad de considerar la evidencia cardiorrenal disponible al integrar inhibidores de SGLT2 en el abordaje de pacientes con enfermedad renal crónica, dentro de sus indicaciones y contraindicaciones clínicas.",
+        "source_title": "Effectiveness of SGLT2 inhibitors in slowing chronic kidney disease progression and reducing mortality: a meta-analysis",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      },
+      {
+        "title": "Cardiotoxicidad de los inhibidores de puntos de control inmunitario: revisión sistemática con metaanálisis en red y farmacovigilancia",
+        "what_happened": "Se publicó una revisión sistemática de seguridad que combina un metaanálisis en red y un estudio de farmacovigilancia para abordar la prevención de toxicidad cardíaca durante el uso de inhibidores de puntos de control inmunitario.",
+        "why_relevant": "La inmunoterapia oncológica puede asociarse a complicaciones cardiovasculares, por lo que la cardio-oncología requiere estrategias de detección, estratificación y manejo de riesgo.",
+        "practical_implication": "El trabajo respalda la vigilancia clínica de toxicidad cardiovascular en pacientes tratados con inhibidores de puntos de control inmunitario y la coordinación entre oncología y cardiología cuando existan factores de riesgo o sospecha de complicaciones.",
+        "source_title": "Avoidance of cardiac toxicity during the application of immune checkpoint inhibitors: a safety systematic review combining network meta-analysis and pharmacovigilance study",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      },
+      {
+        "title": "Flutter auricular de nueva detección tras escalada de dosis de enclomifeno: reporte de caso",
+        "what_happened": "Se comunicó un caso de flutter auricular detectado tras el aumento de dosis de enclomifeno en un paciente con reparación mitral previa y trombocitopenia inmune crónica.",
+        "why_relevant": "El caso plantea una posible señal de seguridad arrítmica en un contexto de cardiopatía estructural previa, aunque un reporte individual no permite establecer causalidad ni frecuencia.",
+        "practical_implication": "Ante síntomas compatibles con arritmia o cambios clínicos después de modificar tratamientos hormonales, puede ser pertinente valorar el ritmo cardíaco y revisar antecedentes estructurales y farmacológicos.",
+        "source_title": "Newly Detected Atrial Flutter After Enclomiphene Dose Escalation in a Patient With Prior Mitral Valve Repair and Chronic Immune Thrombocytopenia: A Case Report",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      },
+      {
+        "title": "Vida reproductiva y salud cardiovascular en mujeres posmenopáusicas",
+        "what_happened": "Se publicó un estudio que analiza una asociación no lineal, influida por conductas, entre la duración de la vida reproductiva y la salud cardiovascular en mujeres posmenopáusicas, con validación en distintas poblaciones.",
+        "why_relevant": "La historia reproductiva forma parte de los determinantes específicos de sexo que pueden contribuir a una prevención cardiovascular más individualizada en mujeres.",
+        "practical_implication": "La evaluación del riesgo cardiovascular en mujeres posmenopáusicas puede incorporar la historia reproductiva junto con los factores de riesgo convencionales y los hábitos de vida, sin sustituir las herramientas de valoración establecidas.",
+        "source_title": "Reproductive lifespan and cardiovascular health in postmenopausal women: a non-linear, behavior-driven association with cross-population validation",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      },
+      {
+        "title": "Hígado graso como modificador de la asociación entre índice triglicéridos-glucosa e hipertensión incidente",
+        "what_happened": "Se publicó un estudio de cohorte basado en exámenes de salud que evalúa si el hígado graso modifica la asociación entre el índice triglicéridos-glucosa y la aparición de hipertensión.",
+        "why_relevant": "El índice triglicéridos-glucosa y el hígado graso se relacionan con alteraciones metabólicas relevantes para la prevención de hipertensión y enfermedad cardiovascular.",
+        "practical_implication": "En la valoración preventiva de personas con riesgo metabólico, la presencia de hígado graso puede considerarse como un elemento clínico contextual al interpretar marcadores relacionados con resistencia a la insulina y riesgo de hipertensión.",
+        "source_title": "Effect modification by fatty liver in the association between triglyceride-Glucose index and new-onset hypertension: a large health-examination cohort study",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      }
+    ]
+  }
+]

@@ -37,7 +37,7 @@
 .searchStage{background:#17324a;color:#fff;padding:32px;margin-bottom:20px}.searchStage h1{font-family:Georgia,serif;font-size:42px;margin:0 0 8px}.searchStage p{color:#c8d6e2;margin:0 0 18px}.searchBox{display:flex;max-width:760px}.searchBox input{flex:1;padding:15px;border:0;outline:none}.searchBox button{border:0;background:#d51f32;color:#fff;font-weight:900;padding:0 20px;cursor:pointer}
 .empty{background:#fff;border:1px dashed #bdb5ac;padding:34px;text-align:center;color:#737b82}
 .remainderList{background:#fff;border-top:3px solid #17212b;padding:8px 26px 20px}.remainderList ol{margin:0;padding-left:28px}.remainderList li{padding:10px 4px;border-bottom:1px solid var(--line);font-family:Georgia,serif;font-size:16px;line-height:1.35}.remainderList li:last-child{border-bottom:0}.remainderList a{text-decoration:none}.remainderList a:hover{text-decoration:underline;color:#d51f32}
-.mobileNav{display:none}
+.briefingDay{background:#fff;border-top:4px solid #17324a;padding:22px 25px;margin-bottom:18px}.briefingDay h2{font-family:Georgia,serif;font-size:28px;margin:0 0 18px}.briefItem{padding:17px 0;border-top:1px solid var(--line)}.briefItem h3{font-family:Georgia,serif;font-size:22px;line-height:1.15;margin:0 0 9px}.briefItem p{font-size:14px;line-height:1.55;color:#53616c;margin:6px 0}.briefItem strong{color:#17212b}.briefItem a{display:inline-block;margin-top:5px;color:#d51f32;font-weight:900;text-decoration:none;font-size:12px}.briefArchive{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}.briefArchive button{border:1px solid #bdb5ac;background:#fff;padding:8px 10px;font-weight:800;cursor:pointer}.briefArchive button.active{background:#17324a;color:#fff}.mobileNav{display:none}
 @media(max-width:1050px){.app{grid-template-columns:190px 1fr}.sidebar{padding:22px 12px}.areaStrip{grid-template-columns:repeat(4,1fr)}.homeTop{grid-template-columns:1fr}.issuePanel{max-width:520px}}
 @media(max-width:760px){.app{display:block}.sidebar{display:none}.mast{padding:12px 14px;top:0}.searchMini{display:none}.page{padding:18px 14px 85px}.heroTitle{font-size:42px}.dek{font-size:18px}.storyGrid{grid-template-columns:1fr}.story{border-right:0;border-bottom:1px solid var(--line)}.areaStrip{grid-template-columns:repeat(2,1fr)}.feedItem{grid-template-columns:96px 1fr 38px}.feedBody{padding:15px}.feedBody h3{font-size:20px}.articleGrid{grid-template-columns:1fr}.articleBlock{border-right:0}.guideLayout{grid-template-columns:1fr}.topicHero{grid-template-columns:65px 1fr;padding:18px}.topicCode{width:60px;height:60px;font-size:19px}.topicHero h1{font-size:30px}.articleHead h1{font-size:34px}.mobileNav{display:grid;grid-template-columns:repeat(6,1fr);position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #d2cbc2;z-index:50}.mobileNav button{border:0;background:#fff;padding:9px 2px 8px;color:#68717a;font-size:10px}.mobileNav button b{display:block;font-size:17px;margin-bottom:2px}.mobileNav button.active{color:#d51f32}}
 
@@ -84,7 +84,7 @@
  <div class="logoRow"><div class="logoMark"><img src="cardioupdate-icon.svg" alt="CardioUpdate"></div><div class="logoText"><b>CardioUpdate</b><small>EVIDENCE • CONTEXT • PRACTICE</small></div></div>
  <div class="sideLabel">Navegación</div>
  <nav class="sideNav">
-  <button data-page="home" class="active" onclick="go('home')"><i>⌂</i>Portada</button>
+  <button data-page="home" class="active" onclick="go('home')"><i>⌂</i>Portada</button><button data-page="briefing" onclick="go('briefing')"><i>◉</i> Briefing diario</button>
   <button data-page="week" onclick="go('week')"><i>▤</i>Esta semana</button>
   <button data-page="topics" onclick="go('topics')"><i>▦</i>Especialidades</button>
   <button data-page="guides" onclick="go('guides')"><i>§</i>Guías</button>
@@ -175,14 +175,14 @@ function selectPublishedEdition(items){
 }
 async function loadDatabase(){
   const bust='?v='+Date.now();
-  const [s,g,a,meta,candidates]=await Promise.all([
+  const [s,g,a,meta,candidates,briefings]=await Promise.all([
     fetch('data/studies.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('studies.json');return r.json()}),
     fetch('data/guides.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('guides.json');return r.json()}),
     fetch('data/areas.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('areas.json');return r.json()}),
     fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({})),
     fetch('data/candidates.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))
   ]);
-  ALL_STUDIES=Array.isArray(s)?s:[]; const weekly=selectPublishedEdition(ALL_STUDIES); STUDIES=weekly.length?weekly:ALL_STUDIES.slice(0,30); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[]; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
+  ALL_STUDIES=Array.isArray(s)?s:[]; const weekly=selectPublishedEdition(ALL_STUDIES); STUDIES=weekly.length?weekly:ALL_STUDIES.slice(0,30); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];BRIEFINGS=Array.isArray(briefings)?briefings:[]; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
   applyMeta();
 }
 function applyMeta(){
@@ -289,11 +289,25 @@ function originalAbstractFor(s){
   const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
   return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
 }
+function cleanAbstractHtml(v){
+  const d=document.createElement('div'); d.innerHTML=String(v||'');
+  return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();
+}
+function originalAbstractFor(s){
+  if(s.abstract_en){
+    if(Array.isArray(s.abstract_en)) return s.abstract_en.map(x=>Array.isArray(x)?x[1]:x).filter(Boolean).join(' ');
+    return String(s.abstract_en);
+  }
+  const same=(a,b)=>String(a||'').trim().toLowerCase()===String(b||'').trim().toLowerCase();
+  const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
+  return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
+}
 function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=originalAbstractFor(s);document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract</h2><p class="abstractNote">Original English abstract from the indexed scientific source.</p><section class="abstractSection"><p>${esc(abs)}</p></section></section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}
+function renderBriefing(idx=0){let b=BRIEFINGS[idx];let tabs=document.getElementById('briefArchive'),box=document.getElementById('briefBody');if(!tabs||!box)return;if(!BRIEFINGS.length){tabs.innerHTML='';box.innerHTML='<div class="empty">El briefing diario se generará en la próxima actualización automática.</div>';return}tabs.innerHTML=BRIEFINGS.map((x,i)=>`<button class="${i===idx?'active':''}" onclick="renderBriefing(${i})">${esc(x.date)}</button>`).join('');box.innerHTML=`<div class="briefingDay"><h2>${esc(b.date)}</h2>${(b.items||[]).map((x,i)=>`<article class="briefItem"><h3>${i+1}. ${esc(x.title)}</h3><p><strong>Qué ocurrió.</strong> ${esc(x.what_happened)}</p><p><strong>Por qué es relevante.</strong> ${esc(x.why_relevant)}</p><p><strong>Implicación práctica.</strong> ${esc(x.practical_implication)}</p><a href="${x.url}" target="_blank" rel="noopener">Fuente original ↗</a></article>`).join('')}</div>`}
 function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
 function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
 function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
-function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home')renderHome();if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runSearch('');updateFavBadge();window.scrollTo(0,0)}
+function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home')renderHome();if(id==='briefing')renderBriefing();if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runSearch('');updateFavBadge();window.scrollTo(0,0)}
 async function reloadDatabase(){
   const active=document.querySelector('.page.active')?.id||'home';
   try{
