@@ -10,11 +10,13 @@ on:
   push:
     branches: [main]
     paths:
+      - '.github/workflows/daily-update.yml'
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_weekly_ui.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_article_layout.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_weekly_remainder.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_daily_briefing.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/update_briefing.py'
+      - 'CardioUpdate_FINAL_AUTO/scripts/update_studies.py'
 
 permissions:
   contents: write
