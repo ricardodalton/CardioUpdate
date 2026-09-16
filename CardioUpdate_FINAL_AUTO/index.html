@@ -338,6 +338,19 @@ function originalAbstractFor(s){
   const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
   return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
 }
+function cleanAbstractHtml(v){
+  const d=document.createElement('div'); d.innerHTML=String(v||'');
+  return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();
+}
+function originalAbstractFor(s){
+  if(s.abstract_en){
+    if(Array.isArray(s.abstract_en)) return s.abstract_en.map(x=>Array.isArray(x)?x[1]:x).filter(Boolean).join(' ');
+    return String(s.abstract_en);
+  }
+  const same=(a,b)=>String(a||'').trim().toLowerCase()===String(b||'').trim().toLowerCase();
+  const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
+  return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
+}
 function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=originalAbstractFor(s);document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract</h2><p class="abstractNote">Original English abstract from the indexed scientific source.</p><section class="abstractSection"><p>${esc(abs)}</p></section></section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}
 function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
 function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
@@ -366,27 +379,34 @@ boot();
 <div id="manualOverlay" class="manualOverlay" onclick="if(event.target===this)this.classList.remove('open')">
  <article class="manualCard">
   <button class="manualClose" onclick="document.getElementById('manualOverlay').classList.remove('open')" aria-label="Cerrar">×</button>
-  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía breve para la actualización semanal en cardiología</p>
-  <p>CardioUpdate está diseñada para facilitar la revisión de literatura cardiológica reciente. Funciona como una <b>revista cardiológica semanal</b>: durante la semana reúne nueva evidencia y cada viernes publica una selección de aproximadamente <b>20–30 trabajos de mayor relevancia</b>, que permanece estable hasta la edición siguiente.</p>
-  <h2>Menú inferior</h2>
+  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía de la actualización diaria y la revista semanal de cardiología</p>
+  <p>CardioUpdate combina dos formatos complementarios: un <b>Briefing diario</b> para conocer novedades recientes y una <b>edición científica semanal</b> para revisar con mayor profundidad los estudios seleccionados. Son contenidos diferentes: el briefing puede renovarse cada mañana, mientras que la selección semanal se publica los viernes y permanece estable hasta la siguiente edición.</p>
+  <h2>Portada: qué aparece y en qué orden</h2>
+  <p>La portada comienza con el <b>trabajo principal de la semana</b> y la composición de la edición; continúa con la selección editorial, las especialidades y las últimas incorporaciones. A continuación aparece el <b>Briefing diario</b>, situado inmediatamente antes de <b>Resto de estudios publicados en la última semana</b>.</p>
+  <h2>Briefing diario: cómo utilizarlo</h2>
+  <p>Reúne hasta <b>cinco novedades</b> de cardiología, medicina e inteligencia artificial aplicada a la salud. Cada noticia está redactada en tercera persona y se organiza en <b>Qué ocurrió</b>, <b>Por qué es relevante</b> e <b>Implicación práctica</b>. El enlace <b>Fuente original ↗</b> permite consultar la publicación de origen.</p>
+  <p>Los botones con fechas permiten consultar el <b>archivo de los últimos siete briefings disponibles</b>. La fecha de cada briefing indica a qué actualización corresponde; si la generación automática falla o no encuentra material verificable, puede mantenerse una edición anterior. El briefing informa novedades: <b>no reemplaza</b> la evaluación metodológica del artículo ni la selección semanal.</p>
+  <h2>Menú inferior del teléfono</h2>
+  <p>El menú conserva seis accesos. El briefing se lee directamente en <b>Portada</b>; no se agregó un séptimo botón.</p>
   <div class="manualMenu">
-   <div><b>⌂ Portada</b>Entrada principal. Muestra el trabajo destacado, la composición de la edición, últimas incorporaciones y el resto de estudios publicados en la semana.</div>
-   <div><b>▣ Semana</b>Permite recorrer ordenadamente los trabajos seleccionados para la edición vigente y filtrarlos por relevancia, tipo o revista.</div>
-   <div><b>▦ Temas</b>Organiza la selección por áreas de cardiología para concentrarse en las subespecialidades de interés.</div>
-   <div><b>▤ Guías</b>Reúne guías, consensos y documentos de referencia. Se mantienen como biblioteca y no dependen del recambio semanal.</div>
-   <div><b>★ Favoritos</b>La estrella junto a cada publicación permite guardarla. Los favoritos quedan almacenados localmente en ese dispositivo y navegador.</div>
-   <div><b>⌕ Buscar</b>Localiza estudios por enfermedad, intervención, fármaco, tema o revista: por ejemplo CAC, Lp(a), TAVI, HFpEF o mavacamten.</div>
+   <div><b>⌂ Portada</b>Trabajo principal, selección editorial, especialidades, últimas incorporaciones, briefing diario y bibliografía adicional.</div>
+   <div><b>▤ Semana</b>Selección científica vigente, con filtros para recorrer los estudios de la edición.</div>
+   <div><b>▦ Temas</b>Acceso por especialidad, incluida cardiología congénita (CONG).</div>
+   <div><b>§ Guías</b>Biblioteca de guías y consensos, conservada independientemente del recambio semanal.</div>
+   <div><b>★ Favoritos</b>La estrella guarda estudios en el navegador y dispositivo donde se marca; no implica sincronización entre equipos.</div>
+   <div><b>⌕ Buscar</b>Búsqueda por enfermedad, intervención, fármaco, tema o revista; por ejemplo CAC, Lp(a), TAVI o mavacamten.</div>
   </div>
-  <h2>Cómo leer un trabajo</h2>
-  <p>Al tocar el título se abre la ficha del estudio. CardioUpdate conserva como referencia principal el <b>título original en inglés</b>.</p>
-  <div class="manualSequence">Título original → Abstract → Análisis CardioUpdate</div>
-  <h3>Abstract</h3><p>Se presenta en su <b>idioma original en inglés</b>, sin traducción automática, para preservar con máxima fidelidad objetivos, metodología, resultados, cifras y conclusiones.</p>
-  <h3>Análisis CardioUpdate</h3><p>Interpreta qué aporta el estudio, la magnitud del efecto, sus limitaciones, relevancia clínica y potencial para modificar la conducta.</p>
-  <h2>Practice Changers</h2><p>Identifica trabajos que merecen especial atención por su posible impacto sobre la práctica. Es una señal de prioridad y no sustituye la lectura crítica del artículo original.</p>
-  <h2>Esta edición</h2><p>Las barras muestran la composición de la edición semanal. El número junto a cada barra indica cuántos trabajos fueron clasificados como <b>Practice Changers</b>, <b>Clínicamente relevantes</b>, <b>Para seguimiento</b> y cuántas <b>Guías/consensos</b> están disponibles.</p>
-  <h2>Resto de estudios publicados en la última semana</h2><p>Incluye publicaciones detectadas en el mismo período que no integraron la selección principal. Se presentan como bibliografía simple con el título original enlazado a la fuente.</p>
+  <h2>Cómo leer un estudio de la edición semanal</h2>
+  <p>Al abrir un trabajo se presenta el <b>título original en inglés</b>, seguido del <b>abstract original en inglés</b> cuando está disponible en la fuente, y del <b>análisis CardioUpdate en español</b>. Conviene comprobar los resultados, las cifras, el diseño y las limitaciones directamente en el artículo original.</p>
+  <div class="manualSequence">Título original → Abstract original → Análisis CardioUpdate → Fuente</div>
+  <h3>Abstract y análisis</h3><p>El abstract conserva el idioma original; no debe confundirse con la interpretación editorial. El análisis explica los aportes, la magnitud de los efectos, las limitaciones y las posibles implicaciones clínicas. Si la fuente no facilita el abstract, corresponde consultar el artículo original y no asumir que está completo.</p>
+  <h2>Selección semanal y categorías</h2>
+  <p>La edición reúne aproximadamente <b>20–30 trabajos</b> y se renueva los viernes. Las categorías <b>Practice Changer</b>, <b>Relevante</b> y <b>Seguimiento</b> ayudan a organizar la lectura; son criterios editoriales, no una sustitución de la evaluación crítica. Las barras de <b>Esta edición</b> indican la cantidad de trabajos en cada categoría y el número de guías/consensos disponibles.</p>
+  <h2>Resto de estudios publicados en la última semana</h2><p>Esta sección, ubicada <b>debajo del briefing diario</b>, contiene bibliografía adicional detectada durante el período que no integra la selección principal. Los títulos enlazan a sus fuentes originales.</p>
+  <h2>Actualización y solución de problemas</h2>
+  <p>El botón <b>↻ Actualizar</b> recarga la base científica. Si no aparece una nueva edición, comprobá la fecha mostrada y volvé a cargar la página. La publicación depende de que finalicen correctamente la actualización automática y el despliegue del sitio; la instalación de la app no garantiza por sí sola que el contenido ya esté publicado.</p>
   <h2>Rutina sugerida</h2>
-  <ol><li>Abrir <b>Semana</b> una vez por semana y recorrer la selección.</li><li>Revisar el Abstract original en inglés + el Análisis CardioUpdate en español de los trabajos relevantes.</li><li>Guardar con ★ los estudios para una lectura posterior.</li><li>Usar <b>Temas</b> para las áreas de interés personal.</li><li>Recorrer el <b>Resto de estudios</b> para detectar publicaciones adicionales.</li><li>Consultar <b>Guías</b> y utilizar <b>Buscar</b> cuando se necesite un tema concreto.</li></ol>
+  <ol><li>Consultar el <b>Briefing diario</b> en Portada y abrir las fuentes de las novedades de interés.</li><li>Los viernes, revisar <b>Semana</b> y leer los estudios seleccionados.</li><li>Contrastar el abstract en inglés con el análisis en español y con la fuente original.</li><li>Guardar con ★ los trabajos que requieran una lectura posterior.</li><li>Explorar <b>Temas</b>, la biblioteca de <b>Guías</b> y el <b>Resto de estudios</b> según la necesidad clínica.</li></ol>
   <div class="manualNote"><b>Importante.</b> CardioUpdate es una herramienta de selección, organización y apoyo a la actualización profesional. No sustituye la lectura crítica de las publicaciones originales, las bases bibliográficas ni las recomendaciones de las guías de práctica clínica.</div>
  </article>
 </div>
