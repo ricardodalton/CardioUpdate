@@ -1,49 +1,49 @@
 [
   {
     "date": "2026-09-16",
-    "generated_at": "2026-09-16T12:59:51.691001+00:00",
+    "generated_at": "2026-09-16T14:22:59.220121+00:00",
     "items": [
       {
-        "title": "Microbioma y aterosclerosis: ¿expectativa o futura diana terapéutica?",
-        "what_happened": "Una revisión narrativa examinó evidencia publicada entre 2010 y marzo de 2025 sobre microbiota intestinal y aterosclerosis. Incluyó 103 estudios primarios y 10 ensayos clínicos en curso. La revisión asocia comunidades microbianas productoras de TMA con formación de placa en modelos experimentales, mientras que las productoras de ácidos grasos de cadena corta se vinculan con menor inflamación y aterogénesis. En humanos, concentraciones elevadas de TMAO se asociaron con mayor riesgo de eventos cardiovasculares mayores, aunque la causalidad sigue siendo limitada.",
-        "why_relevant": "El eje microbiota-metabolitos-aterosclerosis representa una línea emergente de prevención cardiovascular. Sin embargo, la evidencia disponible no demuestra todavía que modular la microbiota reduzca eventos cardiovasculares.",
-        "practical_implication": "La información no respalda incorporar probióticos, simbióticos, trasplante de microbiota fecal u otras intervenciones dirigidas al microbioma con el objetivo de reducir eventos cardiovasculares. Estas estrategias permanecen en investigación y requieren ensayos grandes y diversos con desenlaces clínicos.",
+        "title": "Microbiota intestinal y aterosclerosis: una diana terapéutica prometedora, aún sin beneficio clínico demostrado",
+        "what_happened": "Una revisión narrativa de estudios publicados entre 2010 y marzo de 2025 evaluó la relación entre microbiota intestinal, disbiosis, TMAO, ácidos grasos de cadena corta y aterosclerosis. La evidencia preclínica apoya un papel de comunidades microbianas productoras de TMA en la formación de placa, mientras que las productoras de ácidos grasos de cadena corta parecen atenuar la inflamación y la aterogénesis. En humanos, concentraciones elevadas de TMAO se asociaron con mayor riesgo de eventos cardiovasculares mayores, aunque la causalidad continúa siendo incierta.",
+        "why_relevant": "El eje microbiota-metabolismo-inflamación representa una posible vía adicional para la prevención cardiovascular. Sin embargo, los biomarcadores y las intervenciones sobre microbiota todavía no disponen de evidencia definitiva de reducción de eventos cardiovasculares.",
+        "practical_implication": "La microbiota no debe considerarse por ahora una diana terapéutica establecida para prevenir eventos ateroscleróticos. Las intervenciones con probióticos, simbióticos, dieta o trasplante de microbiota requieren ensayos amplios y diversos que demuestren beneficio clínico antes de incorporarse a la práctica cardiovascular rutinaria.",
         "source_title": "Microbiome and atherosclerosis: hype or future therapeutic target?",
         "journal": "",
         "url": "https://doi.org/10.1515/jbcpp-2025-0190"
       },
       {
-        "title": "Modelo multimodal de inteligencia artificial para predecir mortalidad hospitalaria en pacientes críticos",
-        "what_happened": "Se desarrolló y validó externamente un modelo de aprendizaje profundo que integra variables clínicas estructuradas, series temporales, notas clínicas y radiografías de tórax obtenidas durante las primeras 24 horas de ingreso en UCI. El estudio incluyó 203.434 ingresos de más de 200 hospitales. En validaciones externas realizadas en instituciones del conjunto eICU, el modelo mostró valores de AUROC entre 0,84 y 0,92. La incorporación de notas e imágenes mejoró el rendimiento en el subgrupo con estos datos disponibles.",
-        "why_relevant": "La estratificación temprana del riesgo en cuidados críticos puede ser relevante para pacientes cardiovasculares complejos, especialmente en contextos de insuficiencia cardiaca aguda, shock o posoperatorio cardiovascular. El trabajo destaca además la importancia de la validación externa de herramientas de IA.",
-        "practical_implication": "El modelo podría apoyar la priorización y vigilancia clínica en UCI, pero el estudio evalúa predicción de mortalidad y no demuestra beneficio sobre decisiones terapéuticas ni desenlaces clínicos. Su adopción requeriría validación local, evaluación de sesgos e integración supervisada en el flujo asistencial.",
+        "title": "Modelo de inteligencia artificial multimodal para predecir mortalidad hospitalaria en pacientes críticos",
+        "what_happened": "Un estudio desarrolló y validó externamente un modelo de aprendizaje profundo para estimar, tras las primeras 24 horas de ingreso en cuidados intensivos, el riesgo de mortalidad hospitalaria. El modelo integró variables clínicas estructuradas, series temporales, notas clínicas y radiografías de tórax. Incluyó 203.434 ingresos en unidades de cuidados intensivos de más de 200 hospitales y obtuvo validación externa en poblaciones temporalmente separadas y en múltiples instituciones.",
+        "why_relevant": "La estratificación precoz del riesgo en pacientes críticos puede ser relevante para la cardiología hospitalaria y las unidades de cuidados intensivos cardiovasculares. El estudio destaca además la importancia de validar los modelos de IA fuera de la cohorte de desarrollo.",
+        "practical_implication": "Los resultados respaldan el potencial de herramientas multimodales de IA como apoyo a la evaluación pronóstica, pero no sustituyen el juicio clínico. Su adopción exige valorar calibración, desempeño local, integración en los flujos asistenciales y consecuencias de las decisiones generadas a partir de sus predicciones.",
         "source_title": "Development and External Validation of a Multimodal Artificial Intelligence Mortality Prediction Model of Critically Ill Patients Using Multicenter Data.",
         "journal": "",
         "url": "https://doi.org/10.1097/aln.0000000000006294"
       },
       {
-        "title": "Efectividad de los inhibidores de SGLT2 para ralentizar la progresión de la enfermedad renal crónica y reducir la mortalidad: metaanálisis",
-        "what_happened": "Se comunica un metaanálisis centrado en la eficacia de los inhibidores de SGLT2 para frenar la progresión de la enfermedad renal crónica y reducir la mortalidad. La evidencia proporcionada no incluye resumen, métodos, población analizada, estimaciones de efecto ni resultados del estudio.",
-        "why_relevant": "Los inhibidores de SGLT2 ocupan un lugar central en el manejo cardiorrenal, particularmente en insuficiencia cardiaca y enfermedad renal crónica. Una síntesis de su evidencia puede tener repercusión directa en prevención de progresión renal y riesgo cardiovascular.",
-        "practical_implication": "La ausencia de datos metodológicos y resultados impide extraer conclusiones cuantitativas o modificar la práctica a partir de esta publicación. La interpretación clínica debe mantenerse alineada con la evidencia y recomendaciones vigentes hasta disponer del informe completo.",
+        "title": "Inhibidores de SGLT2: nueva revisión sobre progresión de enfermedad renal crónica y mortalidad",
+        "what_happened": "Se identificó un metaanálisis centrado en la efectividad de los inhibidores de SGLT2 para enlentecer la progresión de la enfermedad renal crónica y reducir la mortalidad. La evidencia proporcionada no incluye resultados numéricos, población analizada, comparadores ni conclusiones del metaanálisis.",
+        "why_relevant": "La enfermedad renal crónica, la insuficiencia cardiaca y la enfermedad cardiovascular aterosclerótica comparten un riesgo elevado y una trayectoria fisiopatológica estrechamente relacionada. Los inhibidores de SGLT2 constituyen una clase terapéutica de especial interés cardio-renal-metabólico.",
+        "practical_implication": "El título refuerza la relevancia de revisar la función renal y las indicaciones cardio-renales al valorar tratamiento con inhibidores de SGLT2. No obstante, la información disponible no permite extraer estimaciones de efecto ni modificar recomendaciones clínicas específicas.",
         "source_title": "Effectiveness of SGLT2 inhibitors in slowing chronic kidney disease progression and reducing mortality: a meta-analysis",
         "journal": "",
         "url": "https://europepmc.org/"
       },
       {
-        "title": "Prevención de toxicidad cardiaca durante el uso de inhibidores de puntos de control inmunitario: revisión sistemática de seguridad con metaanálisis en red y farmacovigilancia",
-        "what_happened": "Se comunica una revisión sistemática de seguridad que combina metaanálisis en red y datos de farmacovigilancia para abordar la prevención de toxicidad cardiaca asociada a inhibidores de puntos de control inmunitario. La evidencia facilitada no aporta el resumen ni resultados específicos sobre fármacos, eventos o estrategias preventivas.",
-        "why_relevant": "La cardiotoxicidad inmunomediada es un problema creciente en cardio-oncología. La evaluación comparativa de seguridad entre tratamientos oncológicos puede contribuir a identificar escenarios que requieran una vigilancia cardiovascular más estrecha.",
-        "practical_implication": "El título no permite establecer comparaciones de riesgo ni recomendar medidas preventivas concretas. La práctica clínica debe continuar basándose en evaluación basal, reconocimiento precoz de síntomas y coordinación entre oncología y cardiología conforme a protocolos locales y guías disponibles.",
+        "title": "Prevención de cardiotoxicidad por inhibidores de puntos de control inmunitario",
+        "what_happened": "Se identificó una revisión sistemática de seguridad que combina un metaanálisis en red y un estudio de farmacovigilancia sobre la evitación de toxicidad cardiaca durante el uso de inhibidores de puntos de control inmunitario. La evidencia facilitada no aporta los fármacos comparados, los desenlaces evaluados ni los resultados de seguridad.",
+        "why_relevant": "La inmunoterapia oncológica puede asociarse a complicaciones cardiovasculares potencialmente graves, por lo que la prevención, detección precoz y coordinación entre oncología y cardiología son componentes centrales de la cardio-oncología.",
+        "practical_implication": "La publicación señala la necesidad de una evaluación basal del riesgo cardiovascular y de vigilancia clínica dirigida durante la inmunoterapia, especialmente en personas con enfermedad cardiovascular previa. Sin datos adicionales, no permite establecer una estrategia preventiva ni una jerarquía de seguridad entre tratamientos.",
         "source_title": "Avoidance of cardiac toxicity during the application of immune checkpoint inhibitors: a safety systematic review combining network meta-analysis and pharmacovigilance study",
         "journal": "",
         "url": "https://europepmc.org/"
       },
       {
-        "title": "Vida reproductiva y salud cardiovascular en mujeres posmenopáusicas: asociación no lineal condicionada por conductas y validada en distintas poblaciones",
-        "what_happened": "Se comunica un estudio sobre la relación entre duración de la vida reproductiva y salud cardiovascular en mujeres posmenopáusicas, descrita como no lineal, influida por conductas y validada en distintas poblaciones. La evidencia entregada no incluye diseño, variables de exposición y desenlace, resultados ni magnitud de las asociaciones.",
-        "why_relevant": "Los factores reproductivos y la menopausia forman parte de una evaluación cardiovascular más individualizada en la mujer. El posible papel modificador de conductas de salud refuerza el interés de integrar prevención cardiovascular y antecedentes reproductivos.",
-        "practical_implication": "La información disponible no permite definir umbrales de riesgo ni intervenciones específicas según la duración de la vida reproductiva. Resulta razonable mantener la valoración integral de factores de riesgo cardiovasculares, antecedentes reproductivos y hábitos de vida en mujeres posmenopáusicas.",
+        "title": "Vida reproductiva y salud cardiovascular en mujeres posmenopáusicas",
+        "what_happened": "Se identificó un estudio sobre la asociación no lineal entre duración de la vida reproductiva y salud cardiovascular en mujeres posmenopáusicas, con validación entre poblaciones y atención a factores conductuales. La evidencia proporcionada no detalla el diseño, las poblaciones, los desenlaces cardiovasculares ni la magnitud de las asociaciones.",
+        "why_relevant": "Los factores específicos de la salud reproductiva femenina pueden contribuir a una valoración más precisa del riesgo cardiovascular a lo largo de la vida. La posible influencia de conductas modificables añade interés preventivo.",
+        "practical_implication": "La historia reproductiva puede formar parte de la valoración cardiovascular integral en mujeres posmenopáusicas. Los resultados disponibles en el título no permiten definir umbrales de riesgo ni intervenciones concretas, por lo que la interpretación debe esperar a la evaluación completa del estudio.",
         "source_title": "Reproductive lifespan and cardiovascular health in postmenopausal women: a non-linear, behavior-driven association with cross-population validation",
         "journal": "",
         "url": "https://europepmc.org/"
