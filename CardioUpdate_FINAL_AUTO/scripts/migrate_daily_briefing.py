@@ -1,32 +1,47 @@
 #!/usr/bin/env python3
+"""Idempotently place the daily briefing immediately before weekly remainder."""
 from pathlib import Path
-p=Path(__file__).resolve().parents[1]/'index.html';s=p.read_text(encoding='utf-8');o=s
-# CSS
+p=Path(__file__).resolve().parents[1]/'index.html'
+s=p.read_text(encoding='utf-8'); old=s
+# The daily briefing belongs on the homepage, immediately before the remainder.
+if 'id="briefingHome"' not in s:
+    assert '<div id="weeklyRemainder"></div>' in s
+    s=s.replace('<div id="weeklyRemainder"></div>', '<div id="briefingHome"></div>\n <div id="weeklyRemainder"></div>',1)
+# Do not add a seventh mobile navigation button or a separate page.
+if 'BRIEFINGS=[]' not in s:
+    assert 'META={}, CANDIDATES=[];' in s
+    s=s.replace('META={}, CANDIDATES=[];', 'META={}, CANDIDATES=[], BRIEFINGS=[];',1)
+# Fix prior migration's broken Promise.all: six destructured results but only five fetches.
+fetch="fetch('data/briefings.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))"
+if fetch not in s:
+    needle="fetch('data/candidates.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))"
+    assert needle in s
+    s=s.replace(needle,needle+',\n    '+fetch,1)
+if 'const [s,g,a,meta,candidates,briefings]' not in s:
+    assert 'const [s,g,a,meta,candidates]' in s
+    s=s.replace('const [s,g,a,meta,candidates]','const [s,g,a,meta,candidates,briefings]',1)
+if 'BRIEFINGS=Array.isArray(briefings)?briefings:[];' not in s:
+    assert 'CANDIDATES=Array.isArray(candidates)?candidates:[];' in s
+    s=s.replace('CANDIDATES=Array.isArray(candidates)?candidates:[];', 'CANDIDATES=Array.isArray(candidates)?candidates:[];BRIEFINGS=Array.isArray(briefings)?briefings:[];',1)
+# Always render before the bibliography in the same homepage.
+if 'renderBriefingHome();' not in s:
+    assert ' renderWeeklyRemainder();' in s
+    s=s.replace(' renderWeeklyRemainder();',' renderBriefingHome();\n renderWeeklyRemainder();',1)
+if 'function renderBriefingHome(' not in s:
+    anchor='function renderWeeklyRemainder(){'
+    assert anchor in s
+    fn='''function renderBriefingHome(idx=0){
+ const box=document.getElementById('briefingHome');if(!box)return;
+ const valid=(BRIEFINGS||[]).filter(x=>Array.isArray(x.items)&&x.items.length);
+ if(!valid.length){box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Actualización diaria</small></div><div class="empty">El briefing de hoy aún no está disponible.</div>`;return;}
+ const b=valid[idx]||valid[0];
+ box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Cardiología · Medicina · IA</small></div><div class="briefArchive">${valid.map((x,i)=>`<button class="${x===b?'active':''}" onclick="renderBriefingHome(${i})">${esc(x.date)}</button>`).join('')}</div><div class="briefingDay"><h2>${esc(b.date)}</h2>${b.items.map((x,i)=>`<article class="briefItem"><h3>${i+1}. ${esc(x.title)}</h3><p><strong>Qué ocurrió.</strong> ${esc(x.what_happened)}</p><p><strong>Por qué es relevante.</strong> ${esc(x.why_relevant)}</p><p><strong>Implicación práctica.</strong> ${esc(x.practical_implication)}</p><a href="${esc(x.url)}" target="_blank" rel="noopener">Fuente original ↗</a></article>`).join('')}</div>`;
+}
+'''
+    s=s.replace(anchor,fn+anchor,1)
+# A prior version added CSS but did not insert the section; retain its styling.
 if '.briefingDay{' not in s:
- s=s.replace('.mobileNav{display:none}', '.briefingDay{background:#fff;border-top:4px solid #17324a;padding:22px 25px;margin-bottom:18px}.briefingDay h2{font-family:Georgia,serif;font-size:28px;margin:0 0 18px}.briefItem{padding:17px 0;border-top:1px solid var(--line)}.briefItem h3{font-family:Georgia,serif;font-size:22px;line-height:1.15;margin:0 0 9px}.briefItem p{font-size:14px;line-height:1.55;color:#53616c;margin:6px 0}.briefItem strong{color:#17212b}.briefItem a{display:inline-block;margin-top:5px;color:#d51f32;font-weight:900;text-decoration:none;font-size:12px}.briefArchive{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}.briefArchive button{border:1px solid #bdb5ac;background:#fff;padding:8px 10px;font-weight:800;cursor:pointer}.briefArchive button.active{background:#17324a;color:#fff}.mobileNav{display:none}')
-# Add sidebar button after Portada if identifiable
-needle='<button data-page="home"'
-if 'data-page="briefing"' not in s and needle in s:
- pos=s.find('</button>',s.find(needle))+9
- s=s[:pos]+'<button data-page="briefing" onclick="go(\'briefing\')"><i>◉</i> Briefing diario</button>'+s[pos:]
-# Add page before detail page
-if 'id="briefing"' not in s:
- marker='<section class="page" id="detail">'
- page='''<section class="page" id="briefing"><div class="sectionHeader"><div><h1>Briefing diario</h1><p>5 novedades · cardiología, medicina e IA · narrado en tercera persona</p></div></div><div id="briefArchive" class="briefArchive"></div><div id="briefBody"></div></section>'''
- s=s.replace(marker,page+marker)
-# State
-s=s.replace('let STUDIES=[],GUIDES=[],AREAS=[],META={},CANDIDATES=[];', 'let STUDIES=[],GUIDES=[],AREAS=[],META={},CANDIDATES=[],BRIEFINGS=[];')
-# Fetch alongside candidates: robust replacements for common current loader
-s=s.replace("fetch('data/candidates.json?ts='+Date.now()).then(r=>r.ok?r.json():[]).catch(()=>[])", "fetch('data/candidates.json?ts='+Date.now()).then(r=>r.ok?r.json():[]).catch(()=>[]),fetch('data/briefings.json?ts='+Date.now()).then(r=>r.ok?r.json():[]).catch(()=>[])")
-s=s.replace('const [s,g,a,meta,candidates]=await Promise.all([', 'const [s,g,a,meta,candidates,briefings]=await Promise.all([')
-s=s.replace('CANDIDATES=Array.isArray(candidates)?candidates:[];', 'CANDIDATES=Array.isArray(candidates)?candidates:[];BRIEFINGS=Array.isArray(briefings)?briefings:[];')
-# Render functions before runSearch
-if 'function renderBriefing(' not in s:
- fn='''function renderBriefing(idx=0){let b=BRIEFINGS[idx];let tabs=document.getElementById('briefArchive'),box=document.getElementById('briefBody');if(!tabs||!box)return;if(!BRIEFINGS.length){tabs.innerHTML='';box.innerHTML='<div class="empty">El briefing diario se generará en la próxima actualización automática.</div>';return}tabs.innerHTML=BRIEFINGS.map((x,i)=>`<button class="${i===idx?'active':''}" onclick="renderBriefing(${i})">${esc(x.date)}</button>`).join('');box.innerHTML=`<div class="briefingDay"><h2>${esc(b.date)}</h2>${(b.items||[]).map((x,i)=>`<article class="briefItem"><h3>${i+1}. ${esc(x.title)}</h3><p><strong>Qué ocurrió.</strong> ${esc(x.what_happened)}</p><p><strong>Por qué es relevante.</strong> ${esc(x.why_relevant)}</p><p><strong>Implicación práctica.</strong> ${esc(x.practical_implication)}</p><a href="${x.url}" target="_blank" rel="noopener">Fuente original ↗</a></article>`).join('')}</div>`}'''
- s=s.replace('function runSearch',fn+'\nfunction runSearch')
-# go renderer
-s=s.replace("if(id==='home')renderHome();", "if(id==='home')renderHome();if(id==='briefing')renderBriefing();")
-# Manual mention
-s=s.replace('<h3>⌂ Portada</h3>', '<h3>◉ Briefing diario</h3><p>Presenta cada mañana cinco novedades de cardiología, medicina e inteligencia artificial aplicada a la salud, redactadas en tercera persona. Conserva los últimos siete briefings.</p><h3>⌂ Portada</h3>')
-if s!=o:p.write_text(s,encoding='utf-8');print('CardioUpdate: sección Briefing diario aplicada.')
-else:print('CardioUpdate: Briefing diario ya aplicado.')
+    assert '.mobileNav{display:none}' in s
+    s=s.replace('.mobileNav{display:none}', '.briefingDay{background:#fff;padding:22px 25px;margin-bottom:18px}.briefItem{padding:17px 0;border-top:1px solid var(--line)}.briefItem h3{font-family:Georgia,serif;font-size:22px}.briefItem p{font-size:14px;line-height:1.55}.briefArchive{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:18px}.briefArchive button{padding:8px;border:1px solid var(--line);background:#fff}.briefArchive button.active{background:#17324a;color:#fff}.mobileNav{display:none}',1)
+if s!=old:p.write_text(s,encoding='utf-8');print('Briefing diario: homepage placement and data fetch repaired.')
+else:print('Briefing diario: migration already applied.')
