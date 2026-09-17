@@ -1,52 +1,57 @@
 [
   {
     "date": "2026-09-17",
-    "generated_at": "2026-09-17T14:27:41.864752+00:00",
+    "generated_at": "2026-09-17T17:23:06.617197+00:00",
     "items": [
       {
-        "title": "Terapias digitales y aplicaciones móviles en prevención cardiovascular",
-        "what_happened": "Se ha publicado una revisión sobre terapias digitales y aplicaciones de salud móvil en prevención cardiovascular, centrada en la evidencia disponible para hipertensión y en las perspectivas emergentes para dislipidemia.",
-        "why_relevant": "La hipertensión y la dislipidemia son determinantes fundamentales del riesgo cardiovascular. Las herramientas digitales pueden integrarse en el seguimiento de factores de riesgo, la monitorización y el apoyo a intervenciones preventivas.",
-        "practical_implication": "El estudio puede ayudar a contextualizar el uso de soluciones digitales como complemento de la atención clínica convencional, especialmente en programas de control de la presión arterial. El título no permite establecer la magnitud del beneficio ni recomendar aplicaciones concretas.",
-        "source_title": "Digital therapeutics and mHealth applications in cardiovascular prevention: strongest evidence in hypertension and emerging perspectives in dyslipidemia",
-        "journal": "",
-        "url": "https://europepmc.org/"
+        "title": "La hipertensión enmascarada y de bata blanca se asocia con daño cardíaco y carga coronaria subclínica",
+        "what_happened": "Un estudio poblacional de 4.115 personas comparó fenotipos de presión arterial mediante mediciones en consulta y en domicilio, junto con ecocardiografía, TC coronaria y angiografía coronaria por TC. Frente a la normotensión sostenida, tanto la hipertensión de bata blanca como la hipertensión enmascarada se asociaron con mayor prevalencia de daño cardíaco relacionado con hipertensión. La hipertensión enmascarada mostró asociación con CAC ≥100, CAC ≥300 y fracción de eyección ventricular izquierda reducida; la hipertensión de bata blanca se asoció, entre otros hallazgos, con CAC ≥100 y fracción de eyección reducida.",
+        "why_relevant": "Aporta evidencia de imagen sobre la relevancia clínica de fenotipos que pueden pasar inadvertidos si solo se utiliza la presión arterial de consulta. Se trata de asociaciones observacionales transversales, por lo que no demuestra que estos fenotipos causen el calcio coronario o la disfunción ventricular, pero refuerza su valor como marcadores de riesgo y posible daño de órgano mediado por hipertensión.",
+        "practical_implication": "La evaluación diagnóstica y el seguimiento de la hipertensión pueden incorporar de forma sistemática mediciones domiciliarias o monitorización ambulatoria, especialmente cuando existe discordancia entre el riesgo clínico y la presión arterial de consulta. La detección de hipertensión enmascarada debe impulsar una valoración global del riesgo aterosclerótico y del daño de órgano, no limitarse a tranquilizar al paciente por una presión aparentemente normal en consulta.",
+        "source_title": "Blood pressure phenotypes and hypertension-associated cardiac damage.",
+        "journal": "Journal of hypertension",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HJH.0000000000004406"
       },
       {
-        "title": "Perfiles lipídicos circulantes y fibrilación auricular: riesgo incidente y recurrencia tras ablación",
-        "what_happened": "Se ha comunicado un trabajo que aborda la relación entre los perfiles lipídicos circulantes, el riesgo de fibrilación auricular incidente y la recurrencia después de la ablación.",
-        "why_relevant": "La fibrilación auricular constituye una prioridad asistencial y preventiva. Explorar la asociación entre biomarcadores lipídicos y aparición o recurrencia de la arritmia puede aportar información para la estratificación de riesgo y la investigación de mecanismos cardiometabólicos.",
-        "practical_implication": "La información disponible sugiere interés para valorar el papel de los perfiles lipídicos dentro de una evaluación global del paciente con riesgo de fibrilación auricular o tras ablación. El título no aporta resultados que justifiquen cambios en objetivos lipídicos o en la selección de pacientes para ablación.",
-        "source_title": "Circulating lipid profiles and atrial fibrillation: from incident risk to post-ablation recurrence",
-        "journal": "",
-        "url": "https://europepmc.org/"
+        "title": "El índice triglicéridos-glucosa predijo eventos cardiovasculares a largo plazo en diabetes tipo 2, incluso tras considerar CAC",
+        "what_happened": "En una cohorte de 735 personas con diabetes tipo 2, sin enfermedad coronaria clínica al inicio y con al menos un factor de riesgo adicional, un índice triglicéridos-glucosa (TyG) basal más elevado se asoció con mayor incidencia de infarto de miocardio, ictus o muerte por cualquier causa durante una mediana de 16,4 años. La asociación persistió tras ajustar por variables demográficas, gravedad de la diabetes y puntuación de calcio coronario. La combinación de TyG y CAC identificó gradientes crecientes de incidencia de eventos.",
+        "why_relevant": "El estudio relaciona un marcador metabólico sencillo con eventos clínicos a largo plazo, no solo con biomarcadores o imágenes subclínicas. Su interés reside en que la asociación fue adicional a la información proporcionada por CAC en una población de prevención primaria de alto riesgo. Sin embargo, es una cohorte observacional: TyG es un marcador pronóstico y no una diana terapéutica causal demostrada.",
+        "practical_implication": "En personas con diabetes tipo 2 sin enfermedad coronaria conocida, un TyG elevado puede señalar un perfil de riesgo cardiometabólico residual que justifique revisar con mayor rigor presión arterial, colesterol aterogénico, adiposidad, actividad física, control glucémico y, cuando esté indicado, la caracterización de carga aterosclerótica mediante CAC. No respalda tratar el TyG como objetivo terapéutico independiente ni sustituir las estrategias validadas de reducción de LDL-C y control de factores de riesgo.",
+        "source_title": "The long-term prognostic value of triglyceride-glucose index in type 2 diabetics without clinical coronary artery disease.",
+        "journal": "Current problems in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103420"
       },
       {
-        "title": "Chatbot para recoger resultados comunicados por pacientes tras ablación de fibrilación auricular",
-        "what_happened": "Se ha presentado el protocolo PROMBot-HSM-AF, un estudio de factibilidad de una plataforma basada en chatbot para recopilar resultados comunicados por pacientes después de la ablación de fibrilación auricular.",
-        "why_relevant": "El seguimiento tras ablación incluye síntomas, calidad de vida y posible recurrencia arrítmica. La captura estructurada de resultados comunicados por pacientes mediante herramientas digitales puede facilitar la monitorización longitudinal y la atención centrada en la persona.",
-        "practical_implication": "La publicación describe un protocolo de factibilidad, no resultados de eficacia clínica ni de implementación. Por tanto, identifica una línea de innovación en seguimiento digital, pero no permite concluir que el chatbot mejore desenlaces, reduzca consultas o sustituya la valoración clínica.",
-        "source_title": "PROMBot-HSM-AF: protocol for a feasibility study of a chatbot-based platform to collect patient-reported outcomes after atrial fibrillation ablation",
-        "journal": "",
-        "url": "https://europepmc.org/"
+        "title": "El ejercicio supervisado mejoró presión arterial, aptitud cardiorrespiratoria y varios factores metabólicos en mujeres mayores",
+        "what_happened": "Una revisión sistemática y metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas halló que los programas de ejercicio, frente a ausencia de ejercicio, redujeron presión arterial sistólica y diastólica, triglicéridos, colesterol total, LDL-C, glucosa y proteína C reactiva, e incrementaron el VO₂pico. También redujeron el porcentaje de grasa corporal, sin cambios significativos en peso, perímetro de cintura, masa grasa troncal, masa libre de grasa o masa muscular esquelética. La certeza GRADE fue moderada para varios desenlaces, incluidos presión arterial sistólica, triglicéridos, colesterol total y VO₂pico.",
+        "why_relevant": "Aporta síntesis de ensayos aleatorizados para factores de riesgo modificables en una población frecuentemente infrarrepresentada. Los resultados principales son variables intermedias y no eventos cardiovasculares, por lo que el metaanálisis no demuestra una reducción directa de infarto, ictus o mortalidad. Aun así, los cambios en presión arterial y capacidad funcional son clínicamente pertinentes para prevención cardiovascular.",
+        "practical_implication": "El ejercicio aeróbico, de fuerza o combinado supervisado puede considerarse un componente estructural de la prevención cardiovascular en mujeres mayores, con expectativas realistas: puede mejorar presión arterial, condición física y perfil metabólico aun sin una reducción importante de peso corporal. La intervención debe complementar, y no reemplazar, el tratamiento farmacológico indicado para hipertensión o dislipidemia.",
+        "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
+        "journal": "Journal of the International Society of Sports Nutrition",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/15502783.2026.2675444"
       },
       {
-        "title": "Lesión renal aguda posoperatoria tras cirugía cardiovascular y estancia prolongada en UCI",
-        "what_happened": "Se ha publicado un estudio sobre lesión renal aguda posoperatoria en pacientes de cirugía cardiovascular con estancia prolongada en cuidados intensivos, evaluando su impacto en la mortalidad y otros desenlaces.",
-        "why_relevant": "La lesión renal aguda es una complicación clínicamente relevante de la cirugía cardiovascular y puede condicionar el pronóstico, la duración de la hospitalización y la complejidad del manejo posoperatorio.",
-        "practical_implication": "El trabajo refuerza la importancia clínica de identificar y vigilar la disfunción renal en el posoperatorio de cirugía cardiovascular, particularmente en pacientes con evolución crítica prolongada. El título no ofrece cifras de riesgo ni permite identificar estrategias preventivas o terapéuticas específicas.",
-        "source_title": "Postoperative Acute Kidney Injury in Cardiovascular Surgery Patients with Prolonged Intensive Care Unit Stay: Impact on Mortality and Outcomes",
-        "journal": "",
-        "url": "https://europepmc.org/"
+        "title": "La TC de tórax rutinaria permitió estimar de forma reproducible la carga de calcio coronario mediante puntuación visual de Weston",
+        "what_happened": "Un estudio retrospectivo evaluó 842 TC de tórax sin contraste y aplicó la puntuación visual de Weston, convertida a equivalentes de puntuación de Agatston. La concordancia entre un residente, un cardiólogo y un estudiante fue alta para la puntuación visual, las estimaciones equivalentes de Agatston y los percentiles de CAC. En esta cohorte, predominantemente asiática y de edad avanzada, una proporción importante presentó calcio coronario elevado.",
+        "why_relevant": "El trabajo apoya la factibilidad técnica y reproducibilidad del reporte oportunista de calcio coronario en estudios de TC ya realizados por otras indicaciones. No evalúa si informar este hallazgo modifica la prescripción de tratamiento, la adherencia o los eventos cardiovasculares; por tanto, valida una estrategia de detección y estratificación, no un beneficio clínico causal.",
+        "practical_implication": "Los servicios de radiología y cardiología pueden considerar el reporte estructurado de calcio coronario visible en TC de tórax sin contraste cuando existan protocolos locales, formación y circuitos de derivación. Un hallazgo de CAC incidental debe desencadenar valoración formal del riesgo, revisión de LDL-C, presión arterial, tabaquismo y diabetes, y discusión de tratamiento preventivo conforme a guías; no debe interpretarse de forma aislada ni sustituir una puntuación Agatston dedicada cuando esta sea necesaria para decisiones específicas.",
+        "source_title": "Turning routine chest CT into a cardiovascular risk test: weston score-based CAC in Hawai'i.",
+        "journal": "International journal of cardiology. Heart & vasculature",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcha.2026.101987"
       },
       {
-        "title": "Puntuación HALP como predictor pronóstico en implante valvular aórtico transcatéter",
-        "what_happened": "Se ha comunicado una evaluación del valor predictivo de la puntuación HALP —hemoglobina, albúmina, linfocitos y plaquetas— para el pronóstico al mes y la mortalidad al primer año en pacientes sometidos a implante valvular aórtico transcatéter.",
-        "why_relevant": "La selección y la estratificación pronóstica de pacientes candidatos a implante valvular aórtico transcatéter requieren integrar fragilidad, estado nutricional, inflamación, comorbilidad y riesgo procedimental. Una puntuación basada en parámetros analíticos habituales podría ser de interés si demuestra utilidad clínica.",
-        "practical_implication": "La puntuación HALP podría considerarse un marcador en investigación para la valoración pronóstica antes del procedimiento. El título no informa sobre su rendimiento, puntos de corte, ajuste por variables clínicas ni capacidad para modificar decisiones terapéuticas.",
-        "source_title": "The Predictive Value of The Hemoglobin, Albumin, Lymphocyte, and Platelet (HALP) Score for One-Month Prognosis and First-Year Mortality in Patients Undergoing Transcatheter Aortic Valve Implantation",
-        "journal": "",
-        "url": "https://europepmc.org/"
+        "title": "BRAVE inicia la evaluación aleatorizada de cirugía bariátrica para reducir eventos cardiovasculares en obesidad de alto riesgo",
+        "what_happened": "El ensayo BRAVE se diseñó como estudio multicéntrico, abierto, aleatorizado y con adjudicación ciega de eventos para comparar cirugía metabólica/bariátrica frente a manejo médico del peso basado en guías en adultos con obesidad y enfermedad cardiovascular de alto riesgo. La publicación describe la fase inicial de implementación: 200 participantes aleatorizados tras el cribado de 2.514 candidatos. El desenlace primario compuesto incluye mortalidad, infarto, ictus, eventos de insuficiencia cardíaca, revascularización, hospitalización por fibrilación auricular y eventos renales.",
+        "why_relevant": "La cirugía bariátrica se ha asociado con menor mortalidad y menos eventos cardiovasculares en estudios observacionales, pero faltan ensayos aleatorizados con potencia suficiente para confirmar un efecto sobre eventos clínicos en pacientes de muy alto riesgo. BRAVE aborda directamente esa brecha. La publicación actual no comunica eficacia ni seguridad comparativa: informa diseño, factibilidad y reclutamiento.",
+        "practical_implication": "Por el momento, BRAVE no modifica la práctica clínica ni permite atribuir reducción de eventos a la cirugía bariátrica frente al manejo médico. Sí confirma la relevancia de identificar a pacientes con obesidad y enfermedad cardiovascular de alto riesgo para una discusión multidisciplinar que incluya intervención intensiva sobre estilo de vida, farmacoterapia antiobesidad cuando esté indicada y valoración individualizada de cirugía metabólica conforme a la evidencia y guías vigentes.",
+        "source_title": "Rationale, design, and experiences from the vanguard phase of the bariatric surgery for the reduction of cardiovascular events (BRAVE) trial.",
+        "journal": "American heart journal",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ahj.2026.107544"
       }
     ]
   },
