@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-09-17",
+    "generated_at": "2026-09-17T14:27:41.864752+00:00",
+    "items": [
+      {
+        "title": "Terapias digitales y aplicaciones móviles en prevención cardiovascular",
+        "what_happened": "Se ha publicado una revisión sobre terapias digitales y aplicaciones de salud móvil en prevención cardiovascular, centrada en la evidencia disponible para hipertensión y en las perspectivas emergentes para dislipidemia.",
+        "why_relevant": "La hipertensión y la dislipidemia son determinantes fundamentales del riesgo cardiovascular. Las herramientas digitales pueden integrarse en el seguimiento de factores de riesgo, la monitorización y el apoyo a intervenciones preventivas.",
+        "practical_implication": "El estudio puede ayudar a contextualizar el uso de soluciones digitales como complemento de la atención clínica convencional, especialmente en programas de control de la presión arterial. El título no permite establecer la magnitud del beneficio ni recomendar aplicaciones concretas.",
+        "source_title": "Digital therapeutics and mHealth applications in cardiovascular prevention: strongest evidence in hypertension and emerging perspectives in dyslipidemia",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      },
+      {
+        "title": "Perfiles lipídicos circulantes y fibrilación auricular: riesgo incidente y recurrencia tras ablación",
+        "what_happened": "Se ha comunicado un trabajo que aborda la relación entre los perfiles lipídicos circulantes, el riesgo de fibrilación auricular incidente y la recurrencia después de la ablación.",
+        "why_relevant": "La fibrilación auricular constituye una prioridad asistencial y preventiva. Explorar la asociación entre biomarcadores lipídicos y aparición o recurrencia de la arritmia puede aportar información para la estratificación de riesgo y la investigación de mecanismos cardiometabólicos.",
+        "practical_implication": "La información disponible sugiere interés para valorar el papel de los perfiles lipídicos dentro de una evaluación global del paciente con riesgo de fibrilación auricular o tras ablación. El título no aporta resultados que justifiquen cambios en objetivos lipídicos o en la selección de pacientes para ablación.",
+        "source_title": "Circulating lipid profiles and atrial fibrillation: from incident risk to post-ablation recurrence",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      },
+      {
+        "title": "Chatbot para recoger resultados comunicados por pacientes tras ablación de fibrilación auricular",
+        "what_happened": "Se ha presentado el protocolo PROMBot-HSM-AF, un estudio de factibilidad de una plataforma basada en chatbot para recopilar resultados comunicados por pacientes después de la ablación de fibrilación auricular.",
+        "why_relevant": "El seguimiento tras ablación incluye síntomas, calidad de vida y posible recurrencia arrítmica. La captura estructurada de resultados comunicados por pacientes mediante herramientas digitales puede facilitar la monitorización longitudinal y la atención centrada en la persona.",
+        "practical_implication": "La publicación describe un protocolo de factibilidad, no resultados de eficacia clínica ni de implementación. Por tanto, identifica una línea de innovación en seguimiento digital, pero no permite concluir que el chatbot mejore desenlaces, reduzca consultas o sustituya la valoración clínica.",
+        "source_title": "PROMBot-HSM-AF: protocol for a feasibility study of a chatbot-based platform to collect patient-reported outcomes after atrial fibrillation ablation",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      },
+      {
+        "title": "Lesión renal aguda posoperatoria tras cirugía cardiovascular y estancia prolongada en UCI",
+        "what_happened": "Se ha publicado un estudio sobre lesión renal aguda posoperatoria en pacientes de cirugía cardiovascular con estancia prolongada en cuidados intensivos, evaluando su impacto en la mortalidad y otros desenlaces.",
+        "why_relevant": "La lesión renal aguda es una complicación clínicamente relevante de la cirugía cardiovascular y puede condicionar el pronóstico, la duración de la hospitalización y la complejidad del manejo posoperatorio.",
+        "practical_implication": "El trabajo refuerza la importancia clínica de identificar y vigilar la disfunción renal en el posoperatorio de cirugía cardiovascular, particularmente en pacientes con evolución crítica prolongada. El título no ofrece cifras de riesgo ni permite identificar estrategias preventivas o terapéuticas específicas.",
+        "source_title": "Postoperative Acute Kidney Injury in Cardiovascular Surgery Patients with Prolonged Intensive Care Unit Stay: Impact on Mortality and Outcomes",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      },
+      {
+        "title": "Puntuación HALP como predictor pronóstico en implante valvular aórtico transcatéter",
+        "what_happened": "Se ha comunicado una evaluación del valor predictivo de la puntuación HALP —hemoglobina, albúmina, linfocitos y plaquetas— para el pronóstico al mes y la mortalidad al primer año en pacientes sometidos a implante valvular aórtico transcatéter.",
+        "why_relevant": "La selección y la estratificación pronóstica de pacientes candidatos a implante valvular aórtico transcatéter requieren integrar fragilidad, estado nutricional, inflamación, comorbilidad y riesgo procedimental. Una puntuación basada en parámetros analíticos habituales podría ser de interés si demuestra utilidad clínica.",
+        "practical_implication": "La puntuación HALP podría considerarse un marcador en investigación para la valoración pronóstica antes del procedimiento. El título no informa sobre su rendimiento, puntos de corte, ajuste por variables clínicas ni capacidad para modificar decisiones terapéuticas.",
+        "source_title": "The Predictive Value of The Hemoglobin, Albumin, Lymphocyte, and Platelet (HALP) Score for One-Month Prognosis and First-Year Mortality in Patients Undergoing Transcatheter Aortic Valve Implantation",
+        "journal": "",
+        "url": "https://europepmc.org/"
+      }
+    ]
+  },
+  {
     "date": "2026-09-16",
     "generated_at": "2026-09-16T14:41:15.376772+00:00",
     "items": [
