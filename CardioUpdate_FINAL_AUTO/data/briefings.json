@@ -1,23 +1,33 @@
 [
   {
     "date": "2026-09-18",
-    "generated_at": "2026-09-18T13:49:38.885554+00:00",
+    "generated_at": "2026-09-18T23:33:14.966520+00:00",
     "items": [
       {
-        "title": "La hipertensión enmascarada y de bata blanca se asocia con mayor daño cardíaco y carga calcificada coronaria",
-        "what_happened": "En un estudio poblacional de 4.115 participantes con medición de presión arterial en consulta y en domicilio, los fenotipos de hipertensión enmascarada y de bata blanca se asociaron con mayor prevalencia de daño cardíaco relacionado con hipertensión que la normotensión sostenida. La hipertensión enmascarada se asoció, entre otros hallazgos, con mayor probabilidad de CAC ≥100 y ≥300 y de fracción de eyección ventricular izquierda reducida; la hipertensión de bata blanca también se asoció con CAC ≥100 y fracción de eyección reducida.",
-        "why_relevant": "El estudio refuerza que una presión arterial aparentemente no hipertensiva en consulta no descarta riesgo cardiovascular estructural. Integra fenotipado tensional domiciliario con marcadores de aterosclerosis coronaria subclínica y daño de órgano, dos dimensiones especialmente relevantes para prevención primaria.",
-        "practical_implication": "La confirmación diagnóstica y el seguimiento de la hipertensión deberían incorporar mediciones fuera de consulta, preferentemente automedición domiciliaria protocolizada o monitorización ambulatoria cuando esté indicada. Los resultados son observacionales y transversales: muestran asociación, no demuestran que estos fenotipos causen el daño ni que tratar específicamente la hipertensión de bata blanca modifique eventos.",
+        "title": "El índice TyG predice eventos cardiovasculares a largo plazo en diabetes tipo 2, más allá del CAC",
+        "what_happened": "En una cohorte retrospectiva de 735 personas con diabetes tipo 2, sin enfermedad coronaria clínica y con puntuación de calcio coronario basal, un índice triglicéridos-glucosa (TyG) elevado se asoció con una mayor incidencia de infarto de miocardio, ictus o muerte por cualquier causa durante una mediana de 16,4 años. La asociación persistió tras ajustar por factores clínicos, gravedad de la diabetes y CAC.",
+        "why_relevant": "Aporta datos de eventos clínicos, no solo de biomarcadores, en una población de prevención primaria con diabetes. Sin embargo, se trata de evidencia observacional: el TyG puede mejorar la estratificación de riesgo, pero no demuestra que reducirlo específicamente disminuya eventos ni que deba sustituir a la valoración convencional del riesgo y del CAC.",
+        "practical_implication": "El TyG podría considerarse un marcador complementario de riesgo metabólico residual en personas con diabetes tipo 2 sin enfermedad coronaria conocida, especialmente cuando coexiste información de CAC. La decisión de intensificar estatinas, control tensional, tratamiento antidiabético cardioprotector o intervención sobre el estilo de vida debe seguir basándose en el riesgo global y en las guías, no en el TyG de forma aislada.",
+        "source_title": "The long-term prognostic value of triglyceride-glucose index in type 2 diabetics without clinical coronary artery disease.",
+        "journal": "Current problems in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103420"
+      },
+      {
+        "title": "La hipertensión enmascarada y la de bata blanca se asocian con daño cardíaco y carga coronaria subclínica",
+        "what_happened": "Un estudio poblacional de 4.115 participantes, con medición de presión arterial en consulta y domicilio, tomografía, angiografía coronaria por TC y ecocardiografía, observó que la hipertensión enmascarada y la hipertensión de bata blanca presentaban mayor prevalencia de alteraciones cardiovasculares que la normotensión sostenida. La hipertensión enmascarada mostró asociaciones con CAC de al menos 100 y 300, así como con fracción de eyección reducida.",
+        "why_relevant": "Refuerza la importancia pronóstica potencial de los fenotipos detectados fuera de la consulta y vincula la clasificación tensional con aterosclerosis coronaria calcificada y daño estructural cardíaco. La evidencia es observacional y transversal respecto al daño detectado; por tanto, no demuestra que tratar específicamente estos fenotipos reduzca eventos clínicos.",
+        "practical_implication": "La evaluación diagnóstica y el seguimiento de la hipertensión deberían incorporar medición domiciliaria o ambulatoria cuando exista sospecha de hipertensión de bata blanca o enmascarada. Un fenotipo aparentemente no sostenido en consulta no debería interpretarse automáticamente como bajo riesgo, particularmente si existen otros factores de riesgo o evidencia de aterosclerosis subclínica.",
         "source_title": "Blood pressure phenotypes and hypertension-associated cardiac damage.",
         "journal": "Journal of hypertension",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1097/HJH.0000000000004406"
       },
       {
-        "title": "La lectura visual de calcio coronario en TC de tórax rutinaria permite una estimación reproducible de la carga aterosclerótica",
-        "what_happened": "Un estudio retrospectivo de 842 pacientes evaluó el Weston Score en tomografías computarizadas de tórax sin contraste realizadas por indicaciones no cardiacas. La conversión del puntaje visual a una estimación equivalente de Agatston mostró buena concordancia entre observadores, incluidos un residente, un cardiólogo y un estudiante de medicina.",
-        "why_relevant": "El aprovechamiento oportunista de estudios de TC ya disponibles podría identificar carga aterosclerótica coronaria no reconocida, evitando que el CAC quede limitado a quienes acceden a una TC cardiaca dedicada. El hallazgo es particularmente útil en contextos en los que la prevención puede intensificarse tras detectar aterosclerosis subclínica.",
-        "practical_implication": "Los servicios de radiología y cardiología podrían considerar el reporte sistemático de calcio coronario visible en TC de tórax sin contraste, con circuitos definidos para evaluación preventiva posterior. El trabajo valida reproducibilidad de una estimación de CAC, no demuestra mejora de eventos clínicos, cambios terapéuticos apropiados ni equivalencia plena con un CAC dedicado mediante Agatston.",
+        "title": "El calcio coronario puede estimarse de forma reproducible en TC de tórax sin contraste realizadas por otros motivos",
+        "what_happened": "En un análisis retrospectivo de 842 TC de tórax sin contraste, la valoración visual mediante Weston Score permitió estimar puntuaciones de CAC equivalentes a Agatston y percentiles MESA con alta concordancia entre observadores, incluidos un residente, un cardiólogo y un estudiante de medicina. La cohorte fue predominantemente asiática y de edad avanzada.",
+        "why_relevant": "El hallazgo apoya el reporte oportunista de calcio coronario en estudios de tórax ya disponibles, una estrategia potencialmente útil para identificar carga aterosclerótica no reconocida sin realizar necesariamente una adquisición adicional. El estudio evalúa reproducibilidad diagnóstica, no la mejora de eventos clínicos ni el efecto de una estrategia de tratamiento guiada por este hallazgo.",
+        "practical_implication": "Los servicios de radiología y cardiología pueden considerar protocolos de reporte estructurado de CAC visual en TC de tórax sin contraste, con comunicación al clínico para una evaluación preventiva formal. La estimación visual no debe equipararse sin validación local a una puntuación Agatston dedicada cuando se requiera una cuantificación precisa para decisiones específicas.",
         "source_title": "Turning routine chest CT into a cardiovascular risk test: weston score-based CAC in Hawai'i.",
         "journal": "International journal of cardiology. Heart & vasculature",
         "source_database": "PubMed",
@@ -25,33 +35,23 @@
       },
       {
         "title": "El ejercicio supervisado mejora presión arterial, aptitud cardiorrespiratoria y varios factores metabólicos en mujeres mayores",
-        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas encontró que el ejercicio aeróbico, de fuerza o combinado redujo presión arterial sistólica y diastólica, triglicéridos, colesterol total, LDL-C, glucosa y proteína C reactiva, y aumentó el VO₂ pico. La certeza GRADE fue moderada para varios desenlaces, entre ellos presión arterial sistólica, triglicéridos, colesterol total y VO₂ pico.",
-        "why_relevant": "Aporta síntesis de ensayos aleatorizados para una población frecuentemente infrarrepresentada. La reducción de presión arterial y la mejora de la capacidad funcional son componentes directamente accionables de la prevención cardiovascular, aunque los resultados lipídicos y metabólicos no sustituyen el tratamiento farmacológico indicado según riesgo.",
-        "practical_implication": "El ejercicio estructurado debería prescribirse como intervención complementaria de prevención cardiovascular en mujeres mayores, adaptando modalidad, intensidad y seguridad al estado funcional y las comorbilidades. El metaanálisis evaluó principalmente variables intermedias; no aporta evidencia directa de reducción de infarto, ictus o mortalidad cardiovascular.",
+        "what_happened": "Una revisión sistemática y metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores encontró que los programas de ejercicio aeróbico, de fuerza o combinados redujeron presión arterial sistólica y diastólica, triglicéridos, colesterol total, LDL-colesterol, glucosa y proteína C reactiva, y aumentaron el VO₂pico. La certeza GRADE fue moderada para varios desenlaces, incluidos presión arterial sistólica, triglicéridos, colesterol total y VO₂pico.",
+        "why_relevant": "Se trata de evidencia experimental sintetizada que respalda el ejercicio como intervención preventiva multicomponente en una población con elevada carga de hipertensión, fragilidad metabólica y pérdida de condición física. Los desenlaces fueron principalmente factores de riesgo y composición corporal; el metaanálisis no demuestra una reducción directa de infarto, ictus o mortalidad cardiovascular.",
+        "practical_implication": "El ejercicio estructurado debería integrarse en la prevención cardiovascular de mujeres mayores, adaptando modalidad, intensidad y seguridad a la capacidad funcional y comorbilidades. No debe plantearse como alternativa al control farmacológico indicado de LDL-colesterol, hipertensión o diabetes, sino como complemento con beneficios cardiometabólicos amplios.",
         "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
         "journal": "Journal of the International Society of Sports Nutrition",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1080/15502783.2026.2675444"
       },
       {
-        "title": "Semaglutida en personas con VIH y lipohipertrofia no modificó CAC ni función vascular a 32 semanas",
-        "what_happened": "En un ensayo aleatorizado, doble ciego y controlado con placebo de fase 2b, 108 personas con VIH, lipohipertrofia, sobrepeso o adiposidad central y sin diabetes conocida recibieron semaglutida o placebo durante 32 semanas. Semaglutida no produjo cambios significativos frente a placebo en velocidad de onda de pulso, función endotelial periférica, índice de aumento ni puntuación de calcio coronario. Sí se observaron reducciones en el riesgo ASCVD estimado a 10 años y en proteína C reactiva ultrasensible.",
-        "why_relevant": "El ensayo evita extrapolar automáticamente los efectos favorables de semaglutida sobre peso y factores cardiometabólicos a una regresión rápida de aterosclerosis calcificada o a mejoría vascular objetiva en personas con VIH. Esta población tiene riesgo cardiovascular aumentado y retos específicos por adiposidad central y tratamiento antirretroviral.",
-        "practical_implication": "En personas con VIH y lipohipertrofia, semaglutida puede considerarse por sus efectos metabólicos y sobre adiposidad dentro de sus indicaciones, pero estos datos no justifican atribuirle reducción demostrada de aterosclerosis coronaria ni de eventos cardiovasculares. La reducción del riesgo ASCVD calculado y de hsCRP son resultados sustitutos; se requieren estudios más grandes y prolongados con eventos clínicos.",
+        "title": "Semaglutida en personas con VIH y lipohipertrofia: mejora cardiometabólica sin cambio significativo en CAC a 32 semanas",
+        "what_happened": "En un ensayo aleatorizado, doble ciego y controlado con placebo de fase 2b, 108 adultos con VIH virológicamente suprimido, lipohipertrofia y sin diabetes conocida recibieron semaglutida o placebo durante 32 semanas. La semaglutida mejoró peso, adiposidad visceral, presión arterial, metabolismo glucémico y lípidos; en el análisis cardiovascular preespecificado redujo el riesgo estimado de ASCVD a 10 años y la proteína C reactiva ultrasensible. No produjo cambios significativos en CAC, velocidad de onda de pulso ni función endotelial periférica.",
+        "why_relevant": "El ensayo aporta evidencia aleatorizada en una población con riesgo cardiometabólico elevado y exposición a factores específicos del VIH. No obstante, los beneficios evaluados fueron predominantemente sustitutos; ni la reducción del riesgo calculado ni la disminución de proteína C reactiva equivalen a una demostración de reducción de eventos cardiovasculares.",
+        "practical_implication": "En personas con VIH y obesidad o lipohipertrofia, la semaglutida puede considerarse por sus beneficios metabólicos y ponderales cuando esté clínicamente indicada. No debería prescribirse con el objetivo de reducir CAC ni asumirse un beneficio demostrado sobre eventos cardiovasculares en esta población hasta disponer de ensayos más prolongados y con desenlaces clínicos.",
         "source_title": "Effects of semaglutide on subclinical cardiovascular health in people with HIV.",
         "journal": "",
         "source_database": "Europe PMC",
         "url": "https://doi.org/10.1097/qad.0000000000004624"
-      },
-      {
-        "title": "El índice triglicéridos-glucosa se asocia con eventos cardiovasculares a largo plazo en diabetes tipo 2, incluso tras considerar CAC",
-        "what_happened": "En una cohorte de 735 personas con diabetes tipo 2 sin enfermedad coronaria clínica conocida, seguidas una mediana de 16,4 años, un índice triglicéridos-glucosa elevado se asoció con mayor incidencia de infarto de miocardio, ictus o muerte por cualquier causa. La asociación persistió tras ajuste por variables clínicas, gravedad de la diabetes y puntuación de calcio coronario.",
-        "why_relevant": "El estudio explora si un marcador simple de resistencia a la insulina añade información pronóstica a la evaluación convencional y al CAC en prevención primaria de personas con diabetes tipo 2. También ilustra que la carga aterosclerótica calcificada no agota el riesgo cardiometabólico residual.",
-        "practical_implication": "El índice triglicéridos-glucosa puede considerarse un marcador de riesgo metabólico complementario en investigación o estratificación contextual, pero no debe reemplazar la evaluación establecida de factores de riesgo, el CAC cuando esté indicado, ni los tratamientos con beneficio cardiovascular demostrado. La evidencia es observacional, por lo que no establece causalidad ni demuestra que intervenir para reducir este índice disminuya eventos.",
-        "source_title": "The long-term prognostic value of triglyceride-glucose index in type 2 diabetics without clinical coronary artery disease.",
-        "journal": "Current problems in cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103420"
       }
     ]
   },

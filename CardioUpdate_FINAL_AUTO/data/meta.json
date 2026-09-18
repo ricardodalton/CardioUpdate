@@ -1,6 +1,6 @@
 {
   "app_version": "3.0-final-auto",
-  "updated_at": "2026-09-18T14:10:28.617713+00:00",
+  "updated_at": "2026-09-18T23:51:22.335749+00:00",
   "update_mode": "Base externa + búsqueda diaria",
   "next_source": "Europe PMC",
   "review_note": "Los trabajos importados automáticamente se identifican como 'Revisión pendiente'.",
@@ -11,6 +11,6 @@
   "related_evidence_max_sources": 6,
   "edition_start": "2026-09-12",
   "edition_end": "2026-09-18",
-  "candidate_pool": 1128,
+  "candidate_pool": 1143,
   "publication_mode": "weekly_friday"
 }

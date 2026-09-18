@@ -284,8 +284,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "isoabbreviation": "Front Neurol",
-        "nlmid": "101546899"
+        "nlmid": "101546899",
+        "isoabbreviation": "Front Neurol"
       }
     },
     "language": "eng",
@@ -595,8 +595,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "language": "eng",
@@ -1015,6 +1015,201 @@
     "hasSuppl": "Y",
     "hasLabsLinks": "N",
     "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13584825",
+    "source": "PMC",
+    "pmcid": "PMC13584825",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13584825"
+      ]
+    },
+    "title": "Transfer effects of animal-assisted therapy on socioemotional skills in adult inpatient rehabilitation after acquired brain injury: a randomized controlled trial",
+    "authorString": "Pauli E, Dubach S, Haase C, Haefeli A, Hund-Georgiadis M, Hattendorf J, Hediger K.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Pauli E",
+          "lastName": "Pauli",
+          "firstName": "Elena",
+          "initials": "E",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Psychology, Division of Clinical Psychology and Psychotherapy, University of Basel , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Dubach S",
+          "lastName": "Dubach",
+          "firstName": "Sophie",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Psychology, Division of Clinical Psychology and Psychotherapy, University of Basel , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Haase C",
+          "lastName": "Haase",
+          "firstName": "Carmina",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Psychology, Division of Clinical Psychology and Psychotherapy, University of Basel , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Haefeli A",
+          "lastName": "Haefeli",
+          "firstName": "Anna",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Psychology, Division of Clinical Psychology and Psychotherapy, University of Basel , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hund-Georgiadis M",
+          "lastName": "Hund-Georgiadis",
+          "firstName": "Margret",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Clinic for Neurorehabilitation and Paraplegiology, REHAB Basel , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hattendorf J",
+          "lastName": "Hattendorf",
+          "firstName": "Jan",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Biostatistics and Data Management, Swiss Tropical and Public Health Institute , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hediger K",
+          "lastName": "Hediger",
+          "firstName": "Karin",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Psychology, Division of Clinical Psychology and Psychotherapy, University of Basel , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "7",
+      "journalIssueId": 4267683,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Rehabil Sci",
+        "title": "Frontiers in rehabilitation sciences",
+        "essn": "2673-6861",
+        "issn": "2673-6861",
+        "nlmid": "9918227358906676",
+        "isoabbreviation": "Front Rehabil Sci"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Social behavior",
+        "Randomized controlled trial",
+        "Neurorehabilitation",
+        "Acquired Brain Injury",
+        "Animal-assisted Therapy",
+        "Socioemotional Functioning"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584825/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584825/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13584825"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13584825?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "N",
+    "hasData": "Y",
+    "license": "cc by",
     "authMan": "N",
     "epmcAuthMan": "N",
     "nihAuthMan": "N",
@@ -1575,6 +1770,424 @@
     "hasLabsLinks": "N",
     "hasData": "N",
     "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13582480",
+    "source": "PMC",
+    "pmcid": "PMC13582480",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13582480"
+      ]
+    },
+    "title": "Physical exercise and circulating α-Klotho in humans: a systematic review and meta-analysis with emphasis on older adults",
+    "authorString": "Abduldayeva A, Iskakova S, Doszhanova G, Safonov N, Tuliyeva A.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Abduldayeva A",
+          "lastName": "Abduldayeva",
+          "firstName": "Aigul A.",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Dalenov Research Institute of Preventive Medicine, NPJSC Astana Medical University , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Iskakova S",
+          "lastName": "Iskakova",
+          "firstName": "Saule A.",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Dalenov Research Institute of Preventive Medicine, NPJSC Astana Medical University , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Doszhanova G",
+          "lastName": "Doszhanova",
+          "firstName": "Gulnur N.",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Dalenov Research Institute of Preventive Medicine, NPJSC Astana Medical University , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Safonov N",
+          "lastName": "Safonov",
+          "firstName": "Nikolay A.",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Dalenov Research Institute of Preventive Medicine, NPJSC Astana Medical University , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tuliyeva A",
+          "lastName": "Tuliyeva",
+          "firstName": "Aliya M.",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Dalenov Research Institute of Preventive Medicine, NPJSC Astana Medical University , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "8",
+      "journalIssueId": 4267726,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Sports Act Living",
+        "title": "Frontiers in sports and active living",
+        "essn": "2624-9367",
+        "issn": "2624-9367",
+        "nlmid": "101765780",
+        "isoabbreviation": "Front Sports Act Living"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "systematic-review",
+        "Review"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Aging",
+        "Meta-analysis",
+        "Chronic Kidney Disease",
+        "Exercise Training",
+        "Sarcopenia",
+        "Klotho",
+        "Exerkine"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13582480/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13582480/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13582480"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13582480?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "N",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13585071",
+    "source": "PMC",
+    "pmcid": "PMC13585071",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13585071"
+      ]
+    },
+    "title": "Gestational Exposure to Endocrine-Disrupting Chemicals and Small Vulnerable Newborns: A Systematic Review and Meta-Analysis",
+    "authorString": "Yu G, Meng X, Tan Y, Guivarch C, Li S, Yin X, Pang W, Yang J, Wang X, Bauchner H, Zhang C.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Yu G",
+          "lastName": "Yu",
+          "firstName": "Guoqi",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Global\nCentre for Asian Women’s Health, Yong Loo Lin School of Medicine , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Meng X",
+          "lastName": "Meng",
+          "firstName": "Xi",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Ruijin\nHospital , Shanghai Jiao Tong University\nSchool of Medicine ,  ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tan Y",
+          "lastName": "Tan",
+          "firstName": "Yue Qian",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Global\nCentre for Asian Women’s Health, Yong Loo Lin School of Medicine , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Guivarch C",
+          "lastName": "Guivarch",
+          "firstName": "Claire",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Global\nCentre for Asian Women’s Health, Yong Loo Lin School of Medicine , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li S",
+          "lastName": "Li",
+          "firstName": "Shuman",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Division\nof Child and Adolescent Health , ,  ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Yin X",
+          "lastName": "Yin",
+          "firstName": "Xin",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Global\nCentre for Asian Women’s Health, Yong Loo Lin School of Medicine , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Pang W",
+          "lastName": "Pang",
+          "firstName": "Wei Wei",
+          "initials": "W",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Global\nCentre for Asian Women’s Health, Yong Loo Lin School of Medicine , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Yang J",
+          "lastName": "Yang",
+          "firstName": "Jiaxi",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Global\nCentre for Asian Women’s Health, Yong Loo Lin School of Medicine , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang X",
+          "lastName": "Wang",
+          "firstName": "Xiaobin",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department\nof Population, Family and Reproductive Health, Center on the Early\nLife Origins of Disease , Johns Hopkins University\nBloomberg School of Public Health , ,  ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bauchner H",
+          "lastName": "Bauchner",
+          "firstName": "Howard",
+          "initials": "H",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Boston\nUniversity Chobanian & Avedisian School of Medicine , ,  ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang C",
+          "lastName": "Zhang",
+          "firstName": "Cuilin",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Global\nCentre for Asian Women’s Health, Yong Loo Lin School of Medicine , , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "36",
+      "volume": "60",
+      "journalIssueId": 4267645,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Environ Sci Technol",
+        "title": "Environmental science & technology",
+        "essn": "1520-5851",
+        "issn": "0013-936X",
+        "isoabbreviation": "Environ Sci Technol",
+        "nlmid": "0213155"
+      }
+    },
+    "pageInfo": "25068-25087",
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Perfluorooctanesulfonic Acid (Pfos)",
+        "Endocrine-disrupting Chemicals (Edcs)",
+        "Perfluorononanoic Acid (Pfna)",
+        "Polyfluoroalkyl\nSubstances (Pfas)"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13585071/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13585071/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13585071"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13585071?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "N",
+    "hasData": "Y",
+    "license": "cc by-nc-nd",
     "authMan": "N",
     "epmcAuthMan": "N",
     "nihAuthMan": "N",
@@ -4162,8 +4775,8 @@
         "title": "Frontiers in oncology",
         "essn": "2234-943X",
         "issn": "2234-943X",
-        "isoabbreviation": "Front Oncol",
-        "nlmid": "101568867"
+        "nlmid": "101568867",
+        "isoabbreviation": "Front Oncol"
       }
     },
     "language": "eng",
@@ -4737,8 +5350,8 @@
         "title": "Frontiers in oncology",
         "essn": "2234-943X",
         "issn": "2234-943X",
-        "isoabbreviation": "Front Oncol",
-        "nlmid": "101568867"
+        "nlmid": "101568867",
+        "isoabbreviation": "Front Oncol"
       }
     },
     "language": "eng",
@@ -7381,8 +7994,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "isoabbreviation": "Front Cardiovasc Med",
-        "nlmid": "101653388"
+        "nlmid": "101653388",
+        "isoabbreviation": "Front Cardiovasc Med"
       }
     },
     "language": "eng",
@@ -7497,8 +8110,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "isoabbreviation": "Front Public Health",
-        "nlmid": "101616579"
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
       }
     },
     "language": "eng",
@@ -7718,8 +8331,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "language": "eng",
@@ -7886,8 +8499,8 @@
         "title": "Frontiers in endocrinology",
         "essn": "1664-2392",
         "issn": "1664-2392",
-        "isoabbreviation": "Front Endocrinol (Lausanne)",
-        "nlmid": "101555782"
+        "nlmid": "101555782",
+        "isoabbreviation": "Front Endocrinol (Lausanne)"
       }
     },
     "language": "eng",
@@ -7985,8 +8598,8 @@
         "title": "Veterinary evidence",
         "essn": "2396-9776",
         "issn": "2396-9776",
-        "isoabbreviation": "Vet Evid",
-        "nlmid": "101706458"
+        "nlmid": "101706458",
+        "isoabbreviation": "Vet Evid"
       }
     },
     "language": "eng",
@@ -8129,8 +8742,8 @@
         "title": "Frontiers in psychology",
         "essn": "1664-1078",
         "issn": "1664-1078",
-        "isoabbreviation": "Front Psychol",
-        "nlmid": "101550902"
+        "nlmid": "101550902",
+        "isoabbreviation": "Front Psychol"
       }
     },
     "language": "eng",
@@ -8336,8 +8949,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "language": "eng",
@@ -8817,8 +9430,8 @@
         "title": "Frontiers in chemistry",
         "essn": "2296-2646",
         "issn": "2296-2646",
-        "isoabbreviation": "Front Chem",
-        "nlmid": "101627988"
+        "nlmid": "101627988",
+        "isoabbreviation": "Front Chem"
       }
     },
     "language": "eng",
@@ -9249,8 +9862,8 @@
         "title": "Environmental science & technology",
         "essn": "1520-5851",
         "issn": "0013-936X",
-        "isoabbreviation": "Environ Sci Technol",
-        "nlmid": "0213155"
+        "nlmid": "0213155",
+        "isoabbreviation": "Environ Sci Technol"
       }
     },
     "pageInfo": "25475-25489",
@@ -9630,8 +10243,8 @@
         "title": "Archives of endocrinology and metabolism",
         "essn": "2359-4292",
         "issn": "2359-3997",
-        "isoabbreviation": "Arch Endocrinol Metab",
-        "nlmid": "101652058"
+        "nlmid": "101652058",
+        "isoabbreviation": "Arch Endocrinol Metab"
       }
     },
     "language": "eng",
@@ -9959,8 +10572,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "isoabbreviation": "Front Neurol",
-        "nlmid": "101546899"
+        "nlmid": "101546899",
+        "isoabbreviation": "Front Neurol"
       }
     },
     "language": "eng",
@@ -10478,8 +11091,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "language": "eng",
@@ -10672,8 +11285,8 @@
         "title": "Frontiers in cellular neuroscience",
         "essn": "1662-5102",
         "issn": "1662-5102",
-        "isoabbreviation": "Front Cell Neurosci",
-        "nlmid": "101477935"
+        "nlmid": "101477935",
+        "isoabbreviation": "Front Cell Neurosci"
       }
     },
     "language": "eng",
@@ -10815,8 +11428,8 @@
         "title": "Frontiers in physiology",
         "essn": "1664-042X",
         "issn": "1664-042X",
-        "isoabbreviation": "Front Physiol",
-        "nlmid": "101549006"
+        "nlmid": "101549006",
+        "isoabbreviation": "Front Physiol"
       }
     },
     "language": "eng",
@@ -11156,7 +11769,7 @@
     "journalInfo": {
       "issue": "36",
       "volume": "11",
-      "journalIssueId": 4267447,
+      "journalIssueId": 4267731,
       "dateOfPublication": " ",
       "monthOfPublication": 0,
       "yearOfPublication": 0,
@@ -11165,8 +11778,8 @@
         "title": "ACS omega",
         "essn": "2470-1343",
         "issn": "2470-1343",
-        "isoabbreviation": "ACS Omega",
-        "nlmid": "101691658"
+        "nlmid": "101691658",
+        "isoabbreviation": "ACS Omega"
       }
     },
     "pageInfo": "53574-53593",
@@ -11458,8 +12071,8 @@
         "title": "Frontiers in dental medicine",
         "essn": "2673-4915",
         "issn": "2673-4915",
-        "isoabbreviation": "Front Dent Med",
-        "nlmid": "101777956"
+        "nlmid": "101777956",
+        "isoabbreviation": "Front Dent Med"
       }
     },
     "language": "eng",
@@ -13310,8 +13923,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "language": "eng",
@@ -13636,8 +14249,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "isoabbreviation": "Front Public Health",
-        "nlmid": "101616579"
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
       }
     },
     "language": "eng",
@@ -14026,8 +14639,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "language": "eng",
@@ -14247,8 +14860,8 @@
         "title": "Frontiers in molecular neuroscience",
         "essn": "1662-5099",
         "issn": "1662-5099",
-        "isoabbreviation": "Front Mol Neurosci",
-        "nlmid": "101477914"
+        "nlmid": "101477914",
+        "isoabbreviation": "Front Mol Neurosci"
       }
     },
     "language": "eng",
@@ -14889,7 +15502,7 @@
     "journalInfo": {
       "issue": "8",
       "volume": "18",
-      "journalIssueId": 4267379,
+      "journalIssueId": 4267681,
       "dateOfPublication": " ",
       "monthOfPublication": 0,
       "yearOfPublication": 0,
@@ -14898,8 +15511,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "language": "eng",
@@ -15199,8 +15812,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "isoabbreviation": "Front Public Health",
-        "nlmid": "101616579"
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
       }
     },
     "language": "eng",
@@ -15358,8 +15971,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "language": "eng",
@@ -15828,8 +16441,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "language": "eng",
@@ -15944,8 +16557,8 @@
         "title": "Frontiers in pediatrics",
         "essn": "2296-2360",
         "issn": "2296-2360",
-        "isoabbreviation": "Front Pediatr",
-        "nlmid": "101615492"
+        "nlmid": "101615492",
+        "isoabbreviation": "Front Pediatr"
       }
     },
     "language": "eng",
@@ -16115,8 +16728,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "language": "eng",
@@ -16663,8 +17276,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "language": "eng",
@@ -16844,8 +17457,8 @@
         "title": "Frontiers in psychiatry",
         "essn": "1664-0640",
         "issn": "1664-0640",
-        "isoabbreviation": "Front Psychiatry",
-        "nlmid": "101545006"
+        "nlmid": "101545006",
+        "isoabbreviation": "Front Psychiatry"
       }
     },
     "language": "eng",
@@ -17025,8 +17638,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "language": "eng",
@@ -17325,8 +17938,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "isoabbreviation": "Front Public Health",
-        "nlmid": "101616579"
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
       }
     },
     "language": "eng",
@@ -17545,8 +18158,8 @@
         "title": "Frontiers in surgery",
         "essn": "2296-875X",
         "issn": "2296-875X",
-        "isoabbreviation": "Front Surg",
-        "nlmid": "101645127"
+        "nlmid": "101645127",
+        "isoabbreviation": "Front Surg"
       }
     },
     "language": "eng",
@@ -17727,8 +18340,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "language": "eng",
@@ -18129,8 +18742,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "isoabbreviation": "Front Nutr",
-        "nlmid": "101642264"
+        "nlmid": "101642264",
+        "isoabbreviation": "Front Nutr"
       }
     },
     "language": "eng",
@@ -18506,8 +19119,8 @@
         "title": "Frontiers in physiology",
         "essn": "1664-042X",
         "issn": "1664-042X",
-        "isoabbreviation": "Front Physiol",
-        "nlmid": "101549006"
+        "nlmid": "101549006",
+        "isoabbreviation": "Front Physiol"
       }
     },
     "language": "eng",
@@ -18856,8 +19469,8 @@
         "title": "Frontiers in psychiatry",
         "essn": "1664-0640",
         "issn": "1664-0640",
-        "isoabbreviation": "Front Psychiatry",
-        "nlmid": "101545006"
+        "nlmid": "101545006",
+        "isoabbreviation": "Front Psychiatry"
       }
     },
     "language": "eng",
@@ -19106,8 +19719,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "language": "eng",
@@ -19266,7 +19879,7 @@
     "journalInfo": {
       "issue": "8",
       "volume": "18",
-      "journalIssueId": 4267085,
+      "journalIssueId": 4267723,
       "dateOfPublication": " ",
       "monthOfPublication": 0,
       "yearOfPublication": 0,
@@ -19667,8 +20280,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "language": "eng",
@@ -19914,8 +20527,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "language": "eng",
@@ -24861,7 +25474,7 @@
     },
     "journalInfo": {
       "volume": "13",
-      "journalIssueId": 4267194,
+      "journalIssueId": 4267742,
       "dateOfPublication": " ",
       "monthOfPublication": 0,
       "yearOfPublication": 0,
@@ -39606,6 +40219,2014 @@
     "electronicPublicationDate": "2026-09-18",
     "firstPublicationDate": "2026-09-18",
     "firstIndexDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13581805",
+    "source": "PMC",
+    "pmcid": "PMC13581805",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13581805"
+      ]
+    },
+    "title": "Malignancy-Aware Dual-Task Heatmap Decoupling for thyroid ultrasound nodule detection and classification",
+    "authorString": "Chen Y, Wang X.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Chen Y",
+          "lastName": "Chen",
+          "firstName": "Yining",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Information Engineering, Gansu Minzu Normal University , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang X",
+          "lastName": "Wang",
+          "firstName": "Xiaxia",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Basic Medicine, Gansu University of Chinese Medicine , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "16",
+      "journalIssueId": 4267739,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Oncol",
+        "title": "Frontiers in oncology",
+        "essn": "2234-943X",
+        "issn": "2234-943X",
+        "nlmid": "101568867",
+        "isoabbreviation": "Front Oncol"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Receptive field",
+        "Anchor-free Object Detection",
+        "Feature Decoupling",
+        "Feature Orthogonality",
+        "Thyroid Nodule Detection"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581805/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581805/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13581805"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13581805?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13582488",
+    "source": "PMC",
+    "pmcid": "PMC13582488",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13582488"
+      ]
+    },
+    "title": "From mRNA stabilisation to mirror life: Biological orthogonality, incremental risk, and anticipatory governance",
+    "authorString": "Lean C, Vincent R, Lynch K, Jamrozik E, Jaschke P.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Lean C",
+          "lastName": "Lean",
+          "firstName": "Christopher H.",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Philosophy, Macquarie University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Vincent R",
+          "lastName": "Vincent",
+          "firstName": "Russel M.",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Macquarie Medical School, Macquarie University, Sydney, NSW, Australia , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lynch K",
+          "lastName": "Lynch",
+          "firstName": "Kate E.",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of History and Philosophy of Science, The University of Sydney , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jamrozik E",
+          "lastName": "Jamrozik",
+          "firstName": "Euzebiusz",
+          "initials": "E",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Ethox and Pandemic Sciences Institute, University of Oxford , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jaschke P",
+          "lastName": "Jaschke",
+          "firstName": "Paul R.",
+          "initials": "P",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Australian Research Council Centre of Excellence in Synthetic Biology, Macquarie University , , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "14",
+      "journalIssueId": 4267738,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Bioeng Biotechnol",
+        "title": "Frontiers in bioengineering and biotechnology",
+        "essn": "2296-4185",
+        "issn": "2296-4185",
+        "isoabbreviation": "Front Bioeng Biotechnol",
+        "nlmid": "101632513"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "mRNA",
+        "Stabilization",
+        "Biosecurity",
+        "Biological Orthogonality",
+        "Mirror Life"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13582488/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13582488/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13582488"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13582488?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13583632",
+    "source": "PMC",
+    "pmcid": "PMC13583632",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13583632"
+      ]
+    },
+    "title": "The Influence of Fetal Hemoglobin on Hematological Parameters and Clinical Severity in Patients with Homozygous Sickle Cell Disease.",
+    "authorString": "Talhar S, Patil B, Das D, Ambulkar P, Waghmare J, Jain J, Jain M, Gangane N.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Talhar S",
+          "lastName": "Talhar",
+          "firstName": "Shweta S",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Anatomy, Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha (Maharashtra), India"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Patil B",
+          "lastName": "Patil",
+          "firstName": "Bharat U",
+          "initials": "B",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pathology, Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha (Maharashtra), India"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Das D",
+          "lastName": "Das",
+          "firstName": "Dipak Kumar",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha (Maharashtra), India"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ambulkar P",
+          "lastName": "Ambulkar",
+          "firstName": "Prafulla",
+          "initials": "P",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Centre for Genetics and Genomics, Department of Anatomy, Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha (Maharashtra), India"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Waghmare J",
+          "lastName": "Waghmare",
+          "firstName": "Jwalant E",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Anatomy, Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha (Maharashtra), India"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jain J",
+          "lastName": "Jain",
+          "firstName": "Jyoti",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha (Maharashtra), India"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jain M",
+          "lastName": "Jain",
+          "firstName": "Manish",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pediatrics, Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha (Maharashtra), India"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gangane N",
+          "lastName": "Gangane",
+          "firstName": "Nitin M",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Executive Director &amp; CEO, All India Institute of Medical Sciences, Deoghar, Jharkhand, India."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "5",
+      "volume": "67",
+      "journalIssueId": 4267727,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Niger Med J",
+        "title": "Nigerian medical journal : journal of the Nigeria Medical Association",
+        "essn": "2229-774X",
+        "issn": "0300-1652",
+        "nlmid": "0315137",
+        "isoabbreviation": "Niger Med J"
+      }
+    },
+    "pageInfo": "1869-1879",
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Splenomegaly",
+        "Fetal Hemoglobin",
+        "Sickle Cell Disease",
+        "Hematological Parameters",
+        "Packed Cell Volume",
+        "Vaso-occlusive Crises",
+        "Clinical Severity Score",
+        "Red Blood Cell Count."
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583632/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583632/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13583632"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13583632?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by-nc-sa",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13581570",
+    "source": "PMC",
+    "pmcid": "PMC13581570",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13581570"
+      ]
+    },
+    "title": "Construction and application of a novel respiratory syncytial virus vaccine based on Bacteroides thetaiotaomicron outer membrane vesicles",
+    "authorString": "Li X, Li X, Jiang M, Hao Z, You Y, Xie Y, Zhang J, Du L, Xu Y, Li F, Zhao X.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Li X",
+          "lastName": "Li",
+          "firstName": "Xuejiao",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li X",
+          "lastName": "Li",
+          "firstName": "Xiaomeng",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jiang M",
+          "lastName": "Jiang",
+          "firstName": "Mingyao",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hao Z",
+          "lastName": "Hao",
+          "firstName": "Zhenhua",
+          "initials": "Z",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "You Y",
+          "lastName": "You",
+          "firstName": "Yonghe",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Xie Y",
+          "lastName": "Xie",
+          "firstName": "Yongsheng",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang J",
+          "lastName": "Zhang",
+          "firstName": "Jinlong",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Du L",
+          "lastName": "Du",
+          "firstName": "Leqi",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Xu Y",
+          "lastName": "Xu",
+          "firstName": "Yiding",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li F",
+          "lastName": "Li",
+          "firstName": "Fukang",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhao X",
+          "lastName": "Zhao",
+          "firstName": "Xiaohui",
+          "initials": "X",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Basic Medicine Science, North Henan Medical University , , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "17",
+      "journalIssueId": 4267724,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Microbiol",
+        "title": "Frontiers in microbiology",
+        "essn": "1664-302X",
+        "issn": "1664-302X",
+        "nlmid": "101548977",
+        "isoabbreviation": "Front Microbiol"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Mucosal immunity",
+        "Respiratory syncytial virus",
+        "Vaccine Development",
+        "Bacteroides Thetaiotaomicron Outer Membrane Vesicles",
+        "Omv-Based Vaccines"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581570/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581570/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13581570"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13581570?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13583035",
+    "source": "PMC",
+    "pmcid": "PMC13583035",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13583035"
+      ]
+    },
+    "title": "1,8-Cineole improves hepatic fibrosis by inhibiting HIF-1α/BNIP3/PINK1/Parkin-dependent mitophagy signaling and inducing apoptosis in activated hepatic stellate cells",
+    "authorString": "Qin L, Tan J, He C, He M, Zhang J.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Qin L",
+          "lastName": "Qin",
+          "firstName": "Lifeng",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Hubei Provincial Key Laboratory of Occurrence and Intervention of Rheumatic Diseases, Minda Hospital of Hubei Minzu University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tan J",
+          "lastName": "Tan",
+          "firstName": "Jiawu",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Gastroenterology, Minda Hospital of Hubei Minzu University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "He C",
+          "lastName": "He",
+          "firstName": "Chan",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Gastroenterology, Minda Hospital of Hubei Minzu University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "He M",
+          "lastName": "He",
+          "firstName": "Maoyin",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Gastroenterology, Minda Hospital of Hubei Minzu University , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang J",
+          "lastName": "Zhang",
+          "firstName": "Jiqiao",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Gastroenterology, Minda Hospital of Hubei Minzu University , , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "17",
+      "journalIssueId": 4267719,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Pharmacol",
+        "title": "Frontiers in pharmacology",
+        "essn": "1663-9812",
+        "issn": "1663-9812",
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Hepatic fibrosis",
+        "Mitophagy",
+        "1,8-Cineole",
+        "Pink1/parkin",
+        "Hif-1α/Bnip3"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583035/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583035/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13583035"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13583035?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13584301",
+    "source": "PMC",
+    "pmcid": "PMC13584301",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13584301"
+      ]
+    },
+    "title": "Early-onset parkinsonism as a presenting feature of suspected type 1 Gaucher disease with two pathogenic GBA1 variants: a case report",
+    "authorString": "Sun Y, Ni R, Yu Y.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Sun Y",
+          "lastName": "Sun",
+          "firstName": "Yuqin",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "The Affiliated Hospital of Guizhou Medical University, Guiyang , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ni R",
+          "lastName": "Ni",
+          "firstName": "Ruihan",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "The Affiliated Hospital of Guizhou Medical University, Guiyang , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Yu Y",
+          "lastName": "Yu",
+          "firstName": "Yunli",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "The Affiliated Hospital of Guizhou Medical University, Guiyang , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "20",
+      "journalIssueId": 4267686,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Neurosci",
+        "title": "Frontiers in neuroscience",
+        "essn": "1662-453X",
+        "issn": "1662-4548",
+        "isoabbreviation": "Front Neurosci",
+        "nlmid": "101478481"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "Case Reports",
+        "case-report"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Parkinsonism",
+        "Case Report",
+        "Gaucher Disease",
+        "Dopamine Transporter Imaging",
+        "Genotype–phenotype Correlation",
+        "Gba1",
+        "Early-onset Parkinsonism",
+        "Family Segregation"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584301/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584301/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13584301"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13584301?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13584958",
+    "source": "PMC",
+    "pmcid": "PMC13584958",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13584958"
+      ]
+    },
+    "title": "Artificial intelligence–driven risk prediction of polypharmacy in older adults: current advances, clinical applications, and future perspectives",
+    "authorString": "Chen J, Tao L.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Chen J",
+          "lastName": "Chen",
+          "firstName": "Jianfeng",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Emergency, Shaoxing People's Hospital , , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tao L",
+          "lastName": "Tao",
+          "firstName": "Leyu",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "The First Hospital of Shaoxing University , , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "14",
+      "journalIssueId": 4267657,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Public Health",
+        "title": "Frontiers in public health",
+        "essn": "2296-2565",
+        "issn": "2296-2565",
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Artificial intelligence",
+        "Polypharmacy",
+        "Risk Prediction",
+        "Older Adults",
+        "Medication Safety"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584958/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584958/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13584958"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13584958?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13583647",
+    "source": "PMC",
+    "pmcid": "PMC13583647",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13583647"
+      ]
+    },
+    "title": "Potential Drug–Drug Interactions and Adverse Drug Reactions Among Elderly Psychiatric Outpatients Receiving Antipsychotics: A Cross-Sectional Study",
+    "authorString": "Mahato S, Sree Sudha T, Kumari K, Thankachan J, Veena V, Mondal A.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Mahato S",
+          "lastName": "Mahato",
+          "firstName": "Sumit Kumar",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences, Deoghar, India,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sree Sudha T",
+          "lastName": "Sree Sudha",
+          "firstName": "T Y",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences, Deoghar, India,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kumari K",
+          "lastName": "Kumari",
+          "firstName": "Kusum",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "College of Nursing, All India Institute of Medical Sciences, Deoghar, India."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Thankachan J",
+          "lastName": "Thankachan",
+          "firstName": "Jameema Liza",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences, Deoghar, India,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Veena V",
+          "lastName": "Veena",
+          "firstName": "V",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "College of Nursing, All India Institute of Medical Sciences, Deoghar, India."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Mondal A",
+          "lastName": "Mondal",
+          "firstName": "Ayoshi",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "College of Nursing, All India Institute of Medical Sciences, Deoghar, India."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "5",
+      "volume": "67",
+      "journalIssueId": 4267654,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Niger Med J",
+        "title": "Nigerian medical journal : journal of the Nigeria Medical Association",
+        "essn": "2229-774X",
+        "issn": "0300-1652",
+        "isoabbreviation": "Niger Med J",
+        "nlmid": "0315137"
+      }
+    },
+    "pageInfo": "1836-1845",
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Geriatric",
+        "Adverse drug reactions",
+        "Psychopharmacology",
+        "drug-drug interactions",
+        "Pharmacodynamic Interactions"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583647/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583647/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13583647"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13583647?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by-nc-sa",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13583290",
+    "source": "PMC",
+    "pmcid": "PMC13583290",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13583290"
+      ]
+    },
+    "title": "Cardiometabolic Response to Saroglitazar in a Young Indian Man With Obesity, Prediabetes, Insulin Resistance, and High-Normal Albuminuria: A Case Report",
+    "authorString": "Bhattacharyya S.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Bhattacharyya S",
+          "lastName": "Bhattacharyya",
+          "firstName": "Supratik",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Endocrinology, Diabetes, and Metabolism, Rajarhat Apollo Sugar Clinic, Kolkata, IND"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "8",
+      "volume": "18",
+      "journalIssueId": 4267652,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Cureus",
+        "title": "Cureus",
+        "essn": "2168-8184",
+        "issn": "2168-8184",
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "Case Reports",
+        "case-report"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Insulin resistance",
+        "Albuminuria",
+        "Prediabetes",
+        "Saroglitazar",
+        "Asian Indian Obesity",
+        "Ppar-Α/Ppar-Γ"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583290/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13583290/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13583290"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13583290?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13581752",
+    "source": "PMC",
+    "pmcid": "PMC13581752",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13581752"
+      ]
+    },
+    "title": "Vascular endothelial protective effects of longan (Dimocarpus longan Lour.) extract and underlying molecular mechanisms",
+    "authorString": "Liu W, Sun R, Li Y, Zhu Y, Zhang L, Jiang F.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Liu W",
+          "lastName": "Liu",
+          "firstName": "Wenliang",
+          "initials": "W",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Clinical Medical College, Shandong University of Traditional Chinese Medicine , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sun R",
+          "lastName": "Sun",
+          "firstName": "Rui",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "First Clinical Medical College, Shandong University of Traditional Chinese Medicine , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Li Y",
+          "lastName": "Li",
+          "firstName": "Yunlun",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Affiliated Hospital of Shandong University of Traditional Chinese Medicine , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhu Y",
+          "lastName": "Zhu",
+          "firstName": "Yushuo",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Affiliated Hospital of Shandong University of Traditional Chinese Medicine , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zhang L",
+          "lastName": "Zhang",
+          "firstName": "Lei",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Affiliated Hospital of Shandong University of Traditional Chinese Medicine , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jiang F",
+          "lastName": "Jiang",
+          "firstName": "Feng",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Affiliated Hospital of Shandong University of Traditional Chinese Medicine , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "17",
+      "journalIssueId": 4267650,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Pharmacol",
+        "title": "Frontiers in pharmacology",
+        "essn": "1663-9812",
+        "issn": "1663-9812",
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Polysaccharides",
+        "Longan",
+        "Polyphenols",
+        "Cardiovascular disease",
+        "Endothelial Cells"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581752/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581752/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13581752"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13581752?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "N",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13584314",
+    "source": "PMC",
+    "pmcid": "PMC13584314",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13584314"
+      ]
+    },
+    "title": "Regulatory T-cell remodeling across the HBV infection–cirrhosis continuum",
+    "authorString": "Fu Y, Wang Y, Ouyang J, Lv W.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Fu Y",
+          "lastName": "Fu",
+          "firstName": "Yudan",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Infection, Guang’anmen Hospital, China Academy of Chinese Medical Sciences , , "
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang Y",
+          "lastName": "Wang",
+          "firstName": "Yi",
+          "initials": "Y",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Infection, Guang’anmen Hospital, China Academy of Chinese Medical Sciences , , "
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ouyang J",
+          "lastName": "Ouyang",
+          "firstName": "Jiqi",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Infection, Guang’anmen Hospital, China Academy of Chinese Medical Sciences , , "
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lv W",
+          "lastName": "Lv",
+          "firstName": "Wenliang",
+          "initials": "W",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Infection, Guang’anmen Hospital, China Academy of Chinese Medical Sciences , , "
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "17",
+      "journalIssueId": 4267642,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Immunol",
+        "title": "Frontiers in immunology",
+        "essn": "1664-3224",
+        "issn": "1664-3224",
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Hepatitis B virus",
+        "Liver fibrosis",
+        "Immune regulation",
+        "Liver cirrhosis",
+        "Regulatory T cells",
+        "Treg/th17 Imbalance"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584314/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584314/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13584314"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13584314?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "PMC13581938",
+    "source": "PMC",
+    "pmcid": "PMC13581938",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC13581938"
+      ]
+    },
+    "title": "Fulminant group A streptococcal necrotizing fasciitis presenting as severe calf pain after pharyngitis in an adolescent: a case report",
+    "authorString": "Roncoroni L, Kühle J, Kousoulas L, Müller-Peltzer K, Staudacher D.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Roncoroni L",
+          "lastName": "Roncoroni",
+          "firstName": "Lisa",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Interdisciplinary Medical Intensive Care (IMIT), University of Freiburg Medical Center , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kühle J",
+          "lastName": "Kühle",
+          "firstName": "Jan",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Interdisciplinary Medical Intensive Care (IMIT), University of Freiburg Medical Center , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kousoulas L",
+          "lastName": "Kousoulas",
+          "firstName": "Lampros",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Interdisciplinary Medical Intensive Care (IMIT), University of Freiburg Medical Center , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Müller-Peltzer K",
+          "lastName": "Müller-Peltzer",
+          "firstName": "Katharina",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Interdisciplinary Medical Intensive Care (IMIT), University of Freiburg Medical Center , ,"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Staudacher D",
+          "lastName": "Staudacher",
+          "firstName": "Dawid L.",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Interdisciplinary Medical Intensive Care (IMIT), University of Freiburg Medical Center , ,"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "13",
+      "journalIssueId": 4267663,
+      "dateOfPublication": " ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 0,
+      "journal": {
+        "medlineAbbreviation": "Front Med (Lausanne)",
+        "title": "Frontiers in medicine",
+        "essn": "2296-858X",
+        "issn": "2296-858X",
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
+      }
+    },
+    "language": "eng",
+    "pubModel": "Undetermined",
+    "pubTypeList": {
+      "pubType": [
+        "Case Reports",
+        "case-report"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Case Report",
+        "Interdisciplinary Approach",
+        "Group A Streptococcus",
+        "Calf Pain",
+        "Necrotizing Fasciitis (Nf)",
+        "Streptococcus Toxic Shock Syndrome"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581938/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "PubMedCentral",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581938/pdf/?tool=EBI"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13581938"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC13581938?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-18",
+    "firstPublicationDate": "2026-09-18",
+    "firstIndexDate": "2026-09-18",
+    "fullTextReceivedDate": "2026-09-18",
     "hasEvaluations": "N"
   },
   {
@@ -154643,7 +157264,7 @@
     "inPMC": "Y",
     "citedByCount": 0,
     "hasReferences": "N",
-    "hasTextMinedTerms": "N",
+    "hasTextMinedTerms": "Y",
     "hasDbCrossReferences": "N",
     "hasPDF": "Y",
     "hasBook": "N",
