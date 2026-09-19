@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-09-19",
+    "generated_at": "2026-09-19T13:23:30.464596+00:00",
+    "items": [
+      {
+        "title": "La hipertensión enmascarada y de bata blanca se asocia con daño cardíaco y carga coronaria subclínica",
+        "what_happened": "Un estudio poblacional de 4.115 personas comparó fenotipos de presión arterial mediante medición en consulta y en domicilio, junto con tomografía, angiografía coronaria por TC y ecocardiografía. Frente a la normotensión sostenida, la hipertensión enmascarada se asoció con mayor probabilidad de fracción de eyección inferior al 50% y de calcio coronario (CAC) ≥100 y ≥300. La hipertensión de bata blanca también se asoció con mayor probabilidad de CAC ≥100 y de fracción de eyección reducida.",
+        "why_relevant": "Aporta evidencia observacional contemporánea de que los fenotipos que pueden pasar desapercibidos con una única medición en consulta se vinculan con lesión de órgano diana y aterosclerosis coronaria subclínica. No demuestra que dichos fenotipos causen directamente el daño ni que tratarles con una estrategia específica reduzca eventos, pero refuerza su relevancia para la estratificación preventiva.",
+        "practical_implication": "La evaluación diagnóstica y el seguimiento de la hipertensión deberían incorporar mediciones fuera de consulta —preferentemente monitorización ambulatoria cuando esté disponible, o medición domiciliaria validada— para detectar hipertensión enmascarada y confirmar hipertensión de bata blanca. La presencia de estos fenotipos debe impulsar una valoración integral del riesgo cardiovascular y de daño de órgano diana, no la interpretación de una presión arterial aparentemente normal en consulta como garantía de bajo riesgo.",
+        "source_title": "Blood pressure phenotypes and hypertension-associated cardiac damage.",
+        "journal": "Journal of hypertension",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HJH.0000000000004406"
+      },
+      {
+        "title": "El calcio coronario visual en TC de tórax rutinaria muestra alta reproducibilidad",
+        "what_happened": "En una cohorte retrospectiva de 842 pacientes sometidos a TC de tórax sin contraste, la valoración visual del calcio coronario mediante Weston Score permitió estimar categorías equivalentes de Agatston y percentiles de CAC. La concordancia entre un residente, un cardiólogo y un estudiante fue alta para el Weston Score, los valores equivalentes de Agatston y los percentiles de CAC.",
+        "why_relevant": "El CAC es un marcador consolidado de carga aterosclerótica y de riesgo cardiovascular. Este trabajo sugiere que la TC de tórax no cardiaca ya realizada puede aprovecharse para identificar carga calcificada coronaria relevante. Se trata de un estudio de reproducibilidad técnica y distribución de carga aterosclerótica, no de un ensayo que demuestre que el reporte oportunista reduzca eventos o mejore la adherencia terapéutica.",
+        "practical_implication": "Los servicios de radiología y cardiología pueden considerar protocolos de reporte sistemático de calcio coronario visible en TC de tórax sin contraste, especialmente cuando la información pueda motivar una evaluación formal del riesgo y optimización de prevención. La decisión terapéutica no debería basarse exclusivamente en una conversión visual a Agatston; debe integrarse con el contexto clínico, los factores de riesgo y, cuando sea necesario, una cuantificación dedicada.",
+        "source_title": "Turning routine chest CT into a cardiovascular risk test: weston score-based CAC in Hawai'i.",
+        "journal": "International journal of cardiology. Heart & vasculature",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcha.2026.101987"
+      },
+      {
+        "title": "La TC con conteo de fotones aún no permite sustituir la adquisición sin contraste para clasificar calcio coronario",
+        "what_happened": "Un estudio de 239 pacientes comparó el CAC obtenido en imágenes virtuales sin contraste derivadas de angiografía coronaria por TC con conteo de fotones frente a imágenes realmente sin contraste. La correlación de los valores de Agatston fue excelente, pero la clasificación de carga de placa no coincidió inicialmente en una proporción relevante de pacientes; la concordancia mejoró tras lectura consensuada.",
+        "why_relevant": "La posibilidad de extraer CAC de una angiografía coronaria por TC con contraste podría reducir exploraciones adicionales y radiación. Sin embargo, para prevención cardiovascular importa la correcta clasificación por categorías de CAC, ya que estas pueden condicionar la reclasificación de riesgo y las decisiones sobre tratamiento hipolipemiante. La elevada correlación numérica no equivale a intercambiabilidad clínica.",
+        "practical_implication": "Las imágenes virtuales sin contraste no deberían reemplazar todavía de forma automática a la adquisición real sin contraste para categorizar CAC con fines de estratificación preventiva. Su uso debe permanecer sujeto a validación local, protocolos estandarizados y evaluación de discrepancias, particularmente cerca de umbrales que modifican decisiones clínicas.",
+        "source_title": "Coronary artery calcium scoring using virtual vs. true non-contrast images from ultra-high-resolution and normal-resolution photon-counting coronary CT angiography.",
+        "journal": "European journal of radiology open",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejro.2026.100795"
+      },
+      {
+        "title": "El ejercicio supervisado mejora presión arterial, capacidad funcional y varios factores metabólicos en mujeres mayores",
+        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores encontró que los programas de ejercicio aeróbico, de fuerza o combinado redujeron triglicéridos, colesterol total, LDL-C, glucosa, proteína C reactiva y presión arterial, e incrementaron el VO₂pico. La certeza GRADE fue moderada para las reducciones de colesterol total, triglicéridos, grasa corporal relativa, presión arterial sistólica y para la mejoría de VO₂pico; fue baja para otros desenlaces.",
+        "why_relevant": "Proporciona evidencia de ensayos aleatorizados para una intervención preventiva de bajo coste y amplia aplicabilidad en una población con alto riesgo de hipertensión, deterioro funcional y riesgo cardiometabólico. Los desenlaces analizados fueron principalmente factores de riesgo y capacidad funcional, no eventos cardiovasculares mayores; por tanto, no cuantifica una reducción directa de infarto, ictus o mortalidad.",
+        "practical_implication": "El ejercicio estructurado debe considerarse un componente central de la prevención cardiovascular en mujeres mayores, junto con tratamiento farmacológico cuando esté indicado. La prescripción debe adaptarse a fragilidad, comorbilidades, riesgo de caídas y limitaciones musculoesqueléticas, combinando actividad aeróbica y entrenamiento de fuerza cuando sea factible.",
+        "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
+        "journal": "Journal of the International Society of Sports Nutrition",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/15502783.2026.2675444"
+      },
+      {
+        "title": "Persisten brechas de control de LDL-C en prevención secundaria en una cohorte nacional japonesa",
+        "what_happened": "Un estudio retrospectivo basado en una base de datos de reclamaciones de aproximadamente 30 millones de pacientes examinó 590.000 personas con dislipidemia. El objetivo de LDL-C se alcanzó en alrededor del 58% de las consultas, con menor consecución en prevención secundaria que en prevención primaria, pese al uso frecuente de estatinas y tratamientos combinados. Tras una modificación nacional de incentivos asistenciales en 2024, los niveles lipídicos y las tasas de eventos fueron similares, aunque el seguimiento posterior fue de solo unos seis meses y el análisis de resultados clínicos fue explícitamente exploratorio.",
+        "why_relevant": "La brecha entre la intensidad terapéutica disponible y el control de LDL-C es particularmente relevante en pacientes con enfermedad cardiovascular establecida, donde la reducción de LDL-C cuenta con evidencia causal y de resultados clínicos. El estudio describe práctica asistencial real, pero no permite atribuir causalmente los resultados a la política de remuneración ni comparar la eficacia de tratamientos concretos.",
+        "practical_implication": "En prevención secundaria, el seguimiento debe centrarse en verificar la consecución de objetivos de LDL-C, la adherencia, la tolerabilidad y la intensificación temprana con terapias combinadas cuando proceda. Los cambios organizativos o de incentivos deben evaluarse con seguimiento más prolongado y diseños que permitan valorar efectos sobre eventos cardiovasculares, no solo sobre indicadores de proceso.",
+        "source_title": "Real world patterns of dyslipidemia care before and after a national fee revision in Japan: A nationwide study using a 30 million patient claims database.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1371/journal.pone.0358270"
+      }
+    ]
+  },
+  {
     "date": "2026-09-18",
     "generated_at": "2026-09-18T23:33:14.966520+00:00",
     "items": [
