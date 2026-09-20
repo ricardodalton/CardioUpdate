@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-09-20",
+    "generated_at": "2026-09-20T13:42:39.767411+00:00",
+    "items": [
+      {
+        "title": "La ecografía carotídea y femoral no sustituye a la TC cardíaca en hipercolesterolemia familiar",
+        "what_happened": "Una revisión sistemática identificó 13 estudios y pudo combinar tres en un metaanálisis de precisión diagnóstica en adultos con hipercolesterolemia familiar sin enfermedad aterosclerótica clínica. Frente a la tomografía cardíaca, la ecografía periférica mostró sensibilidad agrupada del 78,9% y especificidad del 32,0% para detectar aterosclerosis subclínica. La certeza global de la evidencia fue muy baja.",
+        "why_relevant": "La hipercolesterolemia familiar implica una exposición acumulada intensa a LDL-C y un riesgo elevado de aterosclerosis prematura. La identificación por imagen de aterosclerosis inequívoca puede reclasificar el riesgo de alto a muy alto. Sin embargo, esta síntesis no demuestra que la ecografía carotídea o femoral pueda reemplazar la evaluación coronaria por TC ni que una estrategia guiada por estas pruebas reduzca eventos clínicos.",
+        "practical_implication": "La ecografía carotídea o femoral podría considerarse, como mucho, una herramienta de triaje o de apoyo para estratificación en hipercolesterolemia familiar cuando esté disponible y sea pertinente. La práctica clínica no debería utilizarla como sustituto directo de la TC cardíaca para excluir aterosclerosis coronaria subclínica; se necesitan estudios de estrategia diagnóstica y de resultados clínicos.",
+        "source_title": "Diagnostic accuracy of peripheral ultrasound in familial hypercholesterolemia: A systematic review and meta-analysis.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/14017431.2026.2735712"
+      },
+      {
+        "title": "La hipertensión enmascarada y de bata blanca se asocia con daño cardíaco y coronario subclínico",
+        "what_happened": "En un estudio poblacional de 4.115 personas con mediciones de presión arterial en consulta y domicilio, tomografía, angiografía coronaria por TC y ecocardiografía, los fenotipos de hipertensión enmascarada y de bata blanca se asociaron con mayor prevalencia de daño cardíaco relacionado con hipertensión que la normotensión sostenida. La hipertensión enmascarada mostró asociaciones particularmente relevantes con calcio coronario elevado y fracción de eyección reducida.",
+        "why_relevant": "El estudio refuerza que una presión arterial aparentemente no hipertensiva en consulta no excluye una carga aterosclerótica coronaria ni daño subclínico de órgano diana. Es evidencia observacional transversal: identifica asociación, no demuestra que estos fenotipos causen directamente el daño ni que tratar basándose en estas mediciones reduzca eventos.",
+        "practical_implication": "La evaluación diagnóstica y el seguimiento de la hipertensión deberían integrar mediciones fuera de consulta, preferentemente domiciliarias y, cuando proceda, monitorización ambulatoria. En personas con discrepancia entre presión de consulta y extrahospitalaria, la estratificación global del riesgo debería contemplar la posible presencia de daño de órgano diana y aterosclerosis subclínica.",
+        "source_title": "Blood pressure phenotypes and hypertension-associated cardiac damage.",
+        "journal": "Journal of hypertension",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HJH.0000000000004406"
+      },
+      {
+        "title": "El ejercicio supervisado mejora presión arterial, capacidad funcional y varios factores metabólicos en mujeres mayores",
+        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas halló que el ejercicio supervisado redujo colesterol total, LDL-C, triglicéridos, glucosa, proteína C reactiva y presión arterial, e incrementó el VO2pico. La reducción media de presión arterial sistólica fue de 8,35 mmHg. La certeza GRADE fue moderada para las reducciones de colesterol total, triglicéridos, porcentaje de grasa corporal, presión sistólica y para la mejoría de VO2pico; fue baja para otros desenlaces.",
+        "why_relevant": "La actividad física constituye una intervención preventiva con efectos concurrentes sobre presión arterial, aptitud cardiorrespiratoria y perfil lipídico. No obstante, los desenlaces analizados fueron principalmente factores de riesgo y medidas funcionales, no infarto, ictus, mortalidad ni otros eventos cardiovasculares clínicos.",
+        "practical_implication": "Los programas de ejercicio aeróbico, de fuerza o combinados deberían formar parte de la prevención cardiovascular en mujeres mayores, adaptados a capacidad funcional, comorbilidad y seguridad. La mejoría de factores de riesgo no debe interpretarse como una estimación cuantificada de reducción de eventos clínicos en esta población concreta.",
+        "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
+        "journal": "Journal of the International Society of Sports Nutrition",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/15502783.2026.2675444"
+      },
+      {
+        "title": "Las imágenes virtuales sin contraste de TC con conteo de fotones aún no reemplazan la adquisición real para clasificar carga cálcica",
+        "what_happened": "En 239 pacientes sometidos a angiografía coronaria por TC con detector de conteo de fotones y adquisición sin contraste real, la puntuación de calcio de las reconstrucciones virtuales sin contraste mostró correlación excelente con la obtenida en imágenes sin contraste reales. Sin embargo, la clasificación de carga de placa no fue concordante en todos los pacientes: coincidió inicialmente en el 67% y mejoró al 86% tras lectura consensuada.",
+        "why_relevant": "Reducir adquisiciones adicionales para cuantificar calcio coronario podría disminuir radiación, tiempo y complejidad del estudio. Pero la correlación entre puntuaciones no equivale a intercambiabilidad clínica cuando se toman decisiones por categorías de carga aterosclerótica, especialmente alrededor de umbrales de clasificación.",
+        "practical_implication": "Las imágenes virtuales sin contraste derivadas de angiografía por TC con conteo de fotones no deberían sustituir todavía de forma automática a la adquisición sin contraste real para clasificación de calcio coronario o carga de placa. Su implementación requerirá validación adicional, protocolos estandarizados y especial cautela en decisiones preventivas dependientes de categorías de CAC.",
+        "source_title": "Coronary artery calcium scoring using virtual vs. true non-contrast images from ultra-high-resolution and normal-resolution photon-counting coronary CT angiography.",
+        "journal": "European journal of radiology open",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejro.2026.100795"
+      },
+      {
+        "title": "El índice triglicéridos-glucosa se asocia con eventos cardiovasculares a largo plazo en diabetes tipo 2, incluso tras considerar CAC",
+        "what_happened": "Una cohorte retrospectiva de 735 personas con diabetes tipo 2, sin enfermedad coronaria clínica y con al menos un factor de riesgo adicional, evaluó el valor pronóstico basal del índice triglicéridos-glucosa (TyG). Durante una mediana de 16,4 años se registraron 327 primeros eventos cardiovasculares mayores. Los valores más altos de TyG se asociaron con mayor riesgo de infarto, ictus o muerte por cualquier causa tras ajuste por factores clínicos, gravedad de la diabetes y puntuación de calcio coronario.",
+        "why_relevant": "El hallazgo sugiere que un marcador sencillo relacionado con resistencia a la insulina puede aportar información pronóstica adicional a la carga de calcio coronario en prevención primaria de personas con diabetes tipo 2. Es evidencia de cohorte observacional: no establece causalidad, ni prueba que reducir TyG o emplearlo para intensificar tratamiento mejore los resultados clínicos.",
+        "practical_implication": "El TyG podría considerarse un marcador complementario de riesgo cardiometabólico en pacientes con diabetes tipo 2 seleccionados, pero no reemplaza la evaluación establecida de LDL-C, presión arterial, tabaquismo, función renal, riesgo global y, cuando esté indicado, CAC. Las decisiones de prevención intensiva deben continuar fundamentándose en guías y en factores de riesgo modificables con beneficio demostrado sobre eventos.",
+        "source_title": "The long-term prognostic value of triglyceride-glucose index in type 2 diabetics without clinical coronary artery disease.",
+        "journal": "Current problems in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103420"
+      }
+    ]
+  },
+  {
     "date": "2026-09-19",
     "generated_at": "2026-09-19T13:23:30.464596+00:00",
     "items": [
