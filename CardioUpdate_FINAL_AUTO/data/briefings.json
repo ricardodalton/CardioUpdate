@@ -1,57 +1,57 @@
 [
   {
     "date": "2026-09-21",
-    "generated_at": "2026-09-21T18:01:36.783296+00:00",
+    "generated_at": "2026-09-21T18:20:19.397852+00:00",
     "items": [
       {
-        "title": "La hipertensión enmascarada y de bata blanca se asocia con daño cardíaco y carga de calcio coronario",
-        "what_happened": "En un estudio poblacional de 4.115 personas evaluadas con presión arterial en consulta y domicilio, ecocardiografía, tomografía y angiografía coronaria por TC, los fenotipos de hipertensión enmascarada y de bata blanca mostraron mayor prevalencia de daño cardíaco asociado a hipertensión que la normotensión sostenida. La hipertensión enmascarada presentó asociaciones particularmente relevantes con CAC ≥100 y ≥300 y con fracción de eyección reducida.",
-        "why_relevant": "El hallazgo refuerza que una medición aislada en consulta puede infradiagnosticar riesgo vascular y daño de órgano diana. La asociación con calcio coronario y alteraciones funcionales cardíacas es clínicamente pertinente para prevención primaria, pero el diseño observacional no demuestra que estos fenotipos causen directamente el daño detectado.",
-        "practical_implication": "La confirmación diagnóstica y el seguimiento de la hipertensión deberían incorporar mediciones fuera de consulta —domiciliarias o ambulatorias cuando estén disponibles—, especialmente ante sospecha de hipertensión enmascarada o discrepancia entre riesgo clínico y presión arterial de consulta. La evidencia no establece por sí sola una estrategia terapéutica específica para cada fenotipo.",
+        "title": "La hipertensión enmascarada y la de bata blanca se asocian con daño cardíaco y carga coronaria subclínicos",
+        "what_happened": "En un estudio poblacional de 4.115 personas evaluadas con presión arterial en consulta y en domicilio, tomografía, angiografía coronaria por TC y ecocardiografía, los fenotipos de hipertensión de bata blanca e hipertensión enmascarada se asociaron con mayor probabilidad de daño cardíaco relacionado con hipertensión frente a normotensión sostenida. La hipertensión enmascarada mostró asociaciones con fracción de eyección reducida y con CAC ≥100 y ≥300; la hipertensión de bata blanca se asoció, entre otros hallazgos, con CAC ≥100 y fracción de eyección reducida.",
+        "why_relevant": "El estudio refuerza que la presión arterial de consulta aislada puede infraestimar el riesgo aterosclerótico y de daño de órgano. La asociación con CAC y alteraciones funcionales cardíacas aporta relevancia clínica a la detección de hipertensión enmascarada, particularmente en prevención coronaria primaria. La evidencia es observacional y transversal respecto a los hallazgos de imagen; por tanto, no demuestra que tratar específicamente estos fenotipos reduzca eventos.",
+        "practical_implication": "La evaluación diagnóstica y el seguimiento de la hipertensión deberían incorporar mediciones fuera de consulta, preferentemente monitorización domiciliaria estructurada o ambulatoria cuando esté indicada. En pacientes con hipertensión de bata blanca o enmascarada, la estratificación global del riesgo y el control intensivo de los factores modificables, incluido LDL-C, adquieren especial importancia.",
         "source_title": "Blood pressure phenotypes and hypertension-associated cardiac damage.",
         "journal": "Journal of hypertension",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1097/HJH.0000000000004406"
       },
       {
-        "title": "El calcio coronario visual en TC de tórax rutinaria ofrece una estimación reproducible de la carga aterosclerótica",
-        "what_happened": "Un estudio retrospectivo de 842 TC de tórax sin contraste evaluó el Weston Score visual y su conversión a puntuaciones de calcio coronario equivalentes a Agatston. La concordancia entre un residente, un cardiólogo y un estudiante fue alta para la puntuación visual, las estimaciones equivalentes de Agatston y los percentiles de CAC.",
-        "why_relevant": "La detección oportunista de calcio coronario en estudios de tórax solicitados por otros motivos podría identificar carga aterosclerótica subclínica sin realizar una TC cardíaca adicional. Es particularmente relevante para mejorar la estratificación preventiva en pacientes con riesgo no reconocido.",
-        "practical_implication": "Los servicios de radiología y cardiología pueden considerar el reporte estructurado de CAC visual en TC de tórax sin contraste, siempre que existan protocolos locales de lectura, comunicación y derivación clínica. El estudio demuestra reproducibilidad diagnóstica, no que esta estrategia mejore eventos cardiovasculares ni que sustituya universalmente la cuantificación Agatston dedicada.",
+        "title": "El CAC visual en TC de tórax rutinaria muestra alta reproducibilidad, pero requiere validación de impacto clínico",
+        "what_happened": "Un análisis retrospectivo de 842 TC de tórax sin contraste evaluó la puntuación visual de Weston para estimar CAC equivalente a Agatston y percentiles ajustados por edad, sexo y raza. La concordancia entre un residente, un cardiólogo y un estudiante fue alta para la puntuación Weston, el CAC equivalente y los percentiles. En esta cohorte, predominantemente asiática y de edad avanzada, se detectó una carga elevada de calcio coronario en una proporción considerable de estudios.",
+        "why_relevant": "El hallazgo apoya el informe oportunista de calcio coronario en TC de tórax realizadas por indicaciones no cardiológicas, una vía potencial para identificar aterosclerosis subclínica sin solicitar inicialmente una exploración dedicada. Sin embargo, el estudio evalúa reproducibilidad, no la reducción de eventos cardiovasculares ni cambios demostrados en tratamiento o adherencia.",
+        "practical_implication": "Los servicios de radiología y cardiología pueden considerar protocolos de reporte estructurado de CAC visual en TC torácica sin contraste, con derivación para valoración preventiva cuando la carga sea relevante. La estimación visual no debe asumirse como sustituto universal de una cuantificación Agatston dedicada si una decisión clínica exige precisión diagnóstica o seguimiento cuantitativo.",
         "source_title": "Turning routine chest CT into a cardiovascular risk test: weston score-based CAC in Hawai'i.",
         "journal": "International journal of cardiology. Heart & vasculature",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1016/j.ijcha.2026.101987"
       },
       {
-        "title": "La ecografía carotídea y femoral no sustituye a la TC cardíaca en hipercolesterolemia familiar",
-        "what_happened": "Una revisión sistemática y metaanálisis de estudios en adultos con hipercolesterolemia familiar sin enfermedad aterosclerótica clínica encontró una prevalencia elevada de placas carotídeas y femorales. Frente a la TC cardíaca, la ecografía periférica mostró sensibilidad agrupada alta, pero especificidad baja. Los autores calificaron la evidencia disponible como de muy baja calidad.",
-        "why_relevant": "En hipercolesterolemia familiar, la exposición acumulada a LDL desde edades tempranas confiere un riesgo elevado de aterosclerosis prematura. La imagen puede reclasificar el riesgo, pero esta síntesis advierte contra asumir que la ecografía periférica equivale a la evaluación coronaria por TC.",
-        "practical_implication": "La ecografía carotídea o femoral puede tener una función potencial de triaje o de detección de placa periférica, pero no debería emplearse como reemplazo de la TC cardíaca para descartar aterosclerosis coronaria subclínica. Las decisiones de intensificación hipolipemiante deben mantenerse fundamentadas en el riesgo basal de la hipercolesterolemia familiar, la exposición acumulada a LDL y la valoración clínica integral; hacen falta estudios de estrategias test-and-treat con desenlaces clínicos.",
-        "source_title": "Diagnostic accuracy of peripheral ultrasound in familial hypercholesterolemia: A systematic review and meta-analysis.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1080/14017431.2026.2735712"
-      },
-      {
-        "title": "El ejercicio supervisado mejora factores de riesgo cardiovascular en mujeres mayores, sin evidencia de reducción de eventos",
-        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas encontró que el ejercicio aeróbico, de fuerza o combinado redujo presión arterial sistólica, triglicéridos, colesterol total, LDL-C, glucosa y proteína C reactiva, e incrementó el VO₂ pico. La certeza GRADE fue moderada para varios resultados, incluidos presión arterial sistólica, triglicéridos, colesterol total y capacidad aeróbica.",
-        "why_relevant": "La intervención actúa sobre determinantes centrales de prevención cardiovascular —hipertensión, dislipidemia, aptitud cardiorrespiratoria y adiposidad— mediante una estrategia de bajo coste y aplicable en prevención primaria. Los resultados corresponden predominantemente a factores de riesgo y marcadores intermedios, no a infarto, ictus o mortalidad cardiovascular.",
-        "practical_implication": "El ejercicio estructurado debe considerarse un componente terapéutico de la prevención cardiovascular en mujeres mayores, complementario y no sustitutivo del tratamiento farmacológico indicado para LDL-C, hipertensión u otros factores de riesgo. La prescripción debe adaptarse a capacidad funcional, fragilidad, comorbilidad y seguridad musculoesquelética.",
+        "title": "El ejercicio supervisado mejora presión arterial, aptitud cardiorrespiratoria y varios factores metabólicos en mujeres mayores",
+        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas encontró que el ejercicio aeróbico, de fuerza o combinado redujo colesterol total, triglicéridos, LDL-C, glucosa, proteína C reactiva y presión arterial, e incrementó el VO₂pico. También redujo el porcentaje de grasa corporal, sin cambios significativos en peso corporal, perímetro de cintura, masa grasa troncal, masa libre de grasa o masa muscular esquelética. La certeza GRADE fue moderada para algunos desenlaces, incluidos triglicéridos, colesterol total, presión arterial sistólica y VO₂pico, y baja para otros.",
+        "why_relevant": "Se trata de evidencia procedente de ensayos aleatorizados que respalda el ejercicio como intervención multifactorial de prevención cardiovascular en un grupo frecuentemente infrarrepresentado. Los desenlaces son factores de riesgo y capacidad funcional, no eventos cardiovasculares clínicos; por ello, el metaanálisis no cuantifica reducción de infarto, ictus o mortalidad.",
+        "practical_implication": "El ejercicio estructurado debe formar parte del plan preventivo en mujeres mayores, aun cuando no produzca pérdida de peso apreciable. La prescripción puede combinar entrenamiento aeróbico y de resistencia, adaptado a fragilidad, comorbilidades, capacidad funcional y preferencias, junto con tratamiento farmacológico cuando esté indicado para hipertensión o dislipidemia.",
         "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
         "journal": "Journal of the International Society of Sports Nutrition",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1080/15502783.2026.2675444"
       },
       {
-        "title": "El índice triglicéridos-glucosa predice eventos a largo plazo en diabetes tipo 2 incluso tras considerar CAC",
-        "what_happened": "En una cohorte de 735 personas con diabetes tipo 2, sin enfermedad coronaria clínica y con al menos un factor de riesgo adicional, el índice triglicéridos-glucosa basal se asoció con mayor incidencia de infarto de miocardio, ictus o muerte por cualquier causa durante una mediana de 16,4 años. La asociación persistió tras ajustar por factores de riesgo, gravedad de la diabetes y puntuación de calcio coronario.",
-        "why_relevant": "El estudio sugiere que la resistencia a la insulina estimada mediante variables de laboratorio rutinarias puede aportar información pronóstica adicional al CAC en prevención primaria de personas con diabetes tipo 2. Su interés reside en la estratificación de riesgo, no en demostrar una diana terapéutica independiente.",
-        "practical_implication": "El índice triglicéridos-glucosa podría considerarse un marcador complementario de riesgo metabólico en diabetes tipo 2, particularmente cuando coexisten hipertrigliceridemia y alteración glucémica. Al tratarse de evidencia observacional, no demuestra causalidad ni justifica objetivos terapéuticos específicos basados en este índice; las intervenciones deben seguir priorizando control intensivo de LDL/apoB, presión arterial, glucemia, peso y hábitos, según las guías vigentes.",
-        "source_title": "The long-term prognostic value of triglyceride-glucose index in type 2 diabetics without clinical coronary artery disease.",
-        "journal": "Current problems in cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103420"
+        "title": "Semaglutida en personas con VIH y lipohipertrofia: mejora cardiometabólica sin cambios demostrados en CAC ni rigidez arterial a 32 semanas",
+        "what_happened": "En un ensayo aleatorizado, doble ciego y controlado con placebo de fase 2b, 108 adultos con VIH virológicamente suprimido, lipohipertrofia y sin diabetes conocida recibieron semaglutida o placebo durante 32 semanas. La semaglutida no produjo cambios significativos en CAC, velocidad de onda de pulso, función endotelial periférica ni índice de aumento. Sí se observó reducción relativa del riesgo ASCVD estimado a 10 años y de hsCRP, junto con mejoras cardiometabólicas previamente comunicadas en peso, adiposidad, presión arterial, metabolismo glucídico y lípidos.",
+        "why_relevant": "El ensayo evita extrapolar indebidamente que la mejoría de peso o de marcadores de riesgo se traduzca ya en regresión de aterosclerosis o reducción de eventos. En prevención cardiovascular en VIH, confirma beneficio sobre variables cardiometabólicas a corto plazo, pero no demuestra efecto sobre aterosclerosis calcificada ni desenlaces clínicos.",
+        "practical_implication": "La semaglutida puede considerarse según sus indicaciones metabólicas y de control ponderal, valorando interacciones, tolerabilidad y riesgo individual. No debería utilizarse con la expectativa de modificar CAC o prevenir eventos cardiovasculares en VIH basándose en estos resultados; se requieren ensayos más largos y con eventos clínicos.",
+        "source_title": "Effects of semaglutide on subclinical cardiovascular health in people with HIV.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/qad.0000000000004624"
+      },
+      {
+        "title": "La ecografía carotídea y femoral no sustituye a la TC cardíaca para detectar aterosclerosis subclínica en hipercolesterolemia familiar",
+        "what_happened": "Una revisión sistemática con metaanálisis de estudios diagnósticos en adultos con hipercolesterolemia familiar sin enfermedad aterosclerótica clínica incluyó 13 estudios, aunque solo tres pudieron combinarse cuantitativamente. La ecografía periférica mostró sensibilidad agrupada alta y especificidad baja frente a tomografía cardíaca para detectar aterosclerosis subclínica. Los autores calificaron la evidencia como de muy baja calidad y concluyeron que la ecografía carotídea o femoral no es un sustituto de la TC cardíaca, aunque podría tener un papel de triaje.",
+        "why_relevant": "La hipercolesterolemia familiar implica exposición acumulada a LDL-C desde edades tempranas y alto riesgo de enfermedad aterosclerótica prematura. La identificación inequívoca de aterosclerosis por imagen puede reclasificar el riesgo, pero este análisis advierte contra equiparar hallazgos periféricos con la carga coronaria o utilizar ecografía periférica como prueba de reemplazo.",
+        "practical_implication": "En hipercolesterolemia familiar, la intensificación del descenso de LDL-C debe fundamentarse ante todo en el riesgo basal elevado y la exposición acumulada, sin retrasarla a la espera de imagen. La ecografía carotídea o femoral puede aportar información complementaria o servir para seleccionar pacientes para evaluación adicional, pero no debería reemplazar la evaluación coronaria por TC cuando esta esté clínicamente indicada y sea factible.",
+        "source_title": "Diagnostic accuracy of peripheral ultrasound in familial hypercholesterolemia: A systematic review and meta-analysis.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/14017431.2026.2735712"
       }
     ]
   },
