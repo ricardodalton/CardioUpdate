@@ -17,6 +17,7 @@ on:
       - 'CardioUpdate_FINAL_AUTO/scripts/migrate_daily_briefing.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/update_briefing.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/update_studies.py'
+      - 'CardioUpdate_FINAL_AUTO/scripts/update_studies_with_pubmed.py'
 
 permissions:
   contents: write
@@ -52,14 +53,14 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CARDIOUPDATE_AI_MODEL: gpt-5.6-terra
         run: python scripts/update_briefing.py
-      - name: Accumulate candidates and publish Friday issue
+      - name: Accumulate PubMed and Europe PMC candidates and publish Friday issue
         working-directory: CardioUpdate_FINAL_AUTO
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           CARDIOUPDATE_AI_MODEL: gpt-5.6-terra
           CARDIOUPDATE_MIN_WEEKLY: '20'
           CARDIOUPDATE_MAX_WEEKLY: '30'
-        run: python scripts/update_studies.py
+        run: python scripts/update_studies_with_pubmed.py
       - name: Validate database
         working-directory: CardioUpdate_FINAL_AUTO
         run: python tests/test_database.py
