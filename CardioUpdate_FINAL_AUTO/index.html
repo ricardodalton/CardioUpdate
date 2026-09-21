@@ -59,6 +59,13 @@
 
 .helpBtn{width:38px;height:38px;border:1px solid #cfc7bd;background:#17324a;color:#fff;border-radius:50%;font-weight:900;font-size:18px;cursor:pointer;display:grid;place-items:center;flex:0 0 auto}.helpBtn:hover{background:#d51f32}.manualOverlay{display:none;position:fixed;inset:0;background:rgba(15,28,40,.62);z-index:200;padding:22px;overflow:auto}.manualOverlay.open{display:block}.manualCard{max-width:860px;margin:20px auto;background:#f6f1ea;border-top:10px solid #17324a;box-shadow:0 18px 60px rgba(0,0,0,.3);padding:28px 32px 36px;position:relative}.manualClose{position:sticky;float:right;top:8px;width:38px;height:38px;border:0;background:#17324a;color:#fff;border-radius:50%;font-size:22px;cursor:pointer}.manualCard h1{font-family:Georgia,serif;font-size:38px;margin:0 48px 5px 0;color:#17324a}.manualCard .manualSub{color:#6f7881;margin:0 0 22px}.manualCard h2{font-family:Georgia,serif;font-size:24px;color:#17324a;border-bottom:1px solid #d9d2c9;padding-bottom:6px;margin:27px 0 10px}.manualCard h3{font-size:15px;color:#d51f32;margin:18px 0 5px}.manualCard p,.manualCard li{font-size:14px;line-height:1.58;color:#45535e}.manualCard ol{padding-left:22px}.manualSequence{background:#fff;border-left:6px solid #d51f32;padding:13px 16px;font-weight:800}.manualNote{background:#fff;border:1px solid #d9d2c9;padding:15px 17px;margin-top:24px}.manualMenu{display:grid;grid-template-columns:1fr 1fr;gap:10px}.manualMenu>div{background:#fff;border:1px solid #e0d9d0;padding:12px}.manualMenu b{display:block;color:#17324a;margin-bottom:4px}@media(max-width:760px){.helpBtn{width:34px;height:34px;font-size:16px}.manualOverlay{padding:0}.manualCard{margin:0;min-height:100vh;padding:20px 17px 90px;border-top-width:7px}.manualCard h1{font-size:31px}.manualMenu{grid-template-columns:1fr}.manualCard h2{font-size:22px}.manualCard p,.manualCard li{font-size:14px}.mastActions{gap:7px}.mastActions .favCount{padding:9px 8px;font-size:11px}}
 
+
+#weeklyRemainder .remainderDay{margin:12px 0;border:1px solid rgba(125,145,160,.25);border-radius:10px;overflow:hidden}
+#weeklyRemainder .remainderDay summary{cursor:pointer;padding:12px 16px;font-weight:700;list-style:revert}
+#weeklyRemainder .remainderDay summary:focus-visible{outline:2px solid currentColor;outline-offset:-3px}
+#weeklyRemainder .remainderDay ol{margin:0;padding:4px 22px 14px 42px}
+#weeklyRemainder .remainderDay li{margin:8px 0;line-height:1.4;overflow-wrap:anywhere}
+@media(max-width:760px){#weeklyRemainder .ruleTitle{align-items:flex-start;gap:8px}#weeklyRemainder .ruleTitle h2{white-space:normal;overflow-wrap:anywhere;word-break:normal;font-size:25px;line-height:1.08;max-width:100%;flex:1}#weeklyRemainder .ruleTitle span{display:none}.remainderList{padding:0 10px}#weeklyRemainder .remainderDay summary{padding:12px}#weeklyRemainder .remainderDay ol{padding-left:32px;padding-right:12px}}
 </style>
 
 <script>
@@ -225,7 +232,6 @@ function weeklyRemainder(){
   const dateValue=x=>(x&&x.date)||(x&&x.firstPublicationDate)||(x&&x.firstIndexDate)||'';
   const selectedKeys=new Set((STUDIES||[]).map(keyOf));
   const byKey=new Map();
-
   [...(ALL_STUDIES||[]), ...(CANDIDATES||[])].forEach(x=>{
     if(!x || !x.title) return;
     const key=keyOf(x);
@@ -239,11 +245,7 @@ function weeklyRemainder(){
     if(!(x.url||x.doi||x.pmid)) return;
     if(!byKey.has(key)) byKey.set(key,x);
   });
-
-  return [...byKey.values()].sort((a,b)=>
-    String(dateValue(b)).localeCompare(String(dateValue(a))) ||
-    String(a.title||'').localeCompare(String(b.title||''))
-  );
+  return [...byKey.values()].sort((a,b)=>String(dateValue(b)).localeCompare(String(dateValue(a))) || String(a.title||'').localeCompare(String(b.title||'')));
 }
 function studySourceUrl(x){
   if(x.url) return x.url;
@@ -262,8 +264,19 @@ function renderWeeklyRemainder(){
   const box=document.getElementById('weeklyRemainder');
   if(!box) return;
   const items=weeklyRemainder();
+  const byDay=new Map();
+  items.forEach(x=>{
+    const day=String(x.date||x.firstPublicationDate||x.firstIndexDate||'').slice(0,10);
+    if(!byDay.has(day)) byDay.set(day,[]);
+    byDay.get(day).push(x);
+  });
+  const dayLabel=day=>{
+    const [year,month,date]=day.split('-').map(Number);
+    return new Intl.DateTimeFormat('es-AR',{weekday:'long',day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(Date.UTC(year,month-1,date)));
+  };
+  const sections=[...byDay].map(([day,studies],index)=>`<details class="remainderDay" ${index===0?'open':''}><summary>${esc(dayLabel(day))} — ${studies.length} ${studies.length===1?'estudio':'estudios'}</summary><ol>${studies.map(x=>`<li><a href="${esc(studySourceUrl(x))}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ol></details>`).join('');
   box.innerHTML=items.length
-    ? `<div class="ruleTitle"><h2>Resto de estudios publicados en la última semana</h2><span></span></div><div class="remainderList"><ol>${items.map(x=>`<li><a href="${esc(studySourceUrl(x))}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ol></div>`
+    ? `<div class="ruleTitle"><h2>Resto de estudios publicados en la última semana</h2><span></span></div><div class="remainderList">${sections}</div>`
     : '';
 }
 function filtered(){
@@ -286,6 +299,19 @@ function openTopic(name){let a=areaOf(name), arr=STUDIES.filter(s=>s.area===name
 function renderGuides(){document.getElementById('guideLayout').innerHTML=GUIDES.map(g=>`<article class="guide"><div class="issueTag" style="background:#17809a">${esc(g.area)}</div><h3>${esc(g.title)}</h3><p>${esc(g.summary)}</p><a href="${g.url}" target="_blank" rel="noopener">Abrir fuente oficial ↗</a></article>`).join('')}
 function renderFavs(){let a=STUDIES.filter(s=>favs().includes(s.id));document.getElementById('favFeed').innerHTML=a.length?a.map(feedItem).join(''):'<div class="empty">Todavía no guardaste ningún trabajo.</div>'}
 function clearFavs(){saveFavs([]);renderFavs()}
+function cleanAbstractHtml(v){
+  const d=document.createElement('div'); d.innerHTML=String(v||'');
+  return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();
+}
+function originalAbstractFor(s){
+  if(s.abstract_en){
+    if(Array.isArray(s.abstract_en)) return s.abstract_en.map(x=>Array.isArray(x)?x[1]:x).filter(Boolean).join(' ');
+    return String(s.abstract_en);
+  }
+  const same=(a,b)=>String(a||'').trim().toLowerCase()===String(b||'').trim().toLowerCase();
+  const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
+  return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
+}
 function cleanAbstractHtml(v){
   const d=document.createElement('div'); d.innerHTML=String(v||'');
   return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();
