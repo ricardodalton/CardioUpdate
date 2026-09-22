@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-09-22",
+    "generated_at": "2026-09-22T14:11:27.353168+00:00",
+    "items": [
+      {
+        "title": "La ecografía carotídea y femoral no sustituye a la TC cardiaca para detectar aterosclerosis subclínica en hipercolesterolemia familiar",
+        "what_happened": "Una revisión sistemática y metaanálisis de 13 estudios, con tres incluidos en el metaanálisis, evaluó la ecografía carotídea y femoral frente a tomografía cardiaca en adultos con hipercolesterolemia familiar sin enfermedad aterosclerótica clínica. La prevalencia agrupada fue del 68,5% para placas carotídeas, 56,5% para placas femorales y 46,2% para un desenlace compuesto de enfermedad coronaria. La ecografía periférica mostró sensibilidad agrupada del 78,9% y especificidad del 32,0%. Los autores calificaron la evidencia como muy baja calidad.",
+        "why_relevant": "En hipercolesterolemia familiar, la demostración inequívoca de aterosclerosis por imagen puede reclasificar el riesgo de alto a muy alto. Sin embargo, estos resultados indican que la ecografía carotídea o femoral tiene una capacidad insuficiente para reemplazar la evaluación por TC cardiaca, especialmente por su baja especificidad. Se trata de evidencia de precisión diagnóstica, no de evidencia de que una estrategia ecográfica mejore eventos cardiovasculares.",
+        "practical_implication": "La ecografía vascular periférica podría considerarse, como mucho, una herramienta de triaje o de apoyo para estratificación en pacientes seleccionados con hipercolesterolemia familiar. No debería interpretarse una ecografía sin placa como exclusión fiable de aterosclerosis coronaria ni sustituirse la TC cardiaca cuando esta esté clínicamente indicada.",
+        "source_title": "Diagnostic accuracy of peripheral ultrasound in familial hypercholesterolemia: A systematic review and meta-analysis.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/14017431.2026.2735712"
+      },
+      {
+        "title": "La hipertensión enmascarada y de bata blanca se asocia con mayor daño cardiaco y carga de calcio coronario",
+        "what_happened": "En un estudio poblacional de 4.115 personas evaluadas con presión arterial de consulta y domiciliaria, ecocardiografía y TC coronaria/angiografía por TC, la hipertensión enmascarada y la hipertensión de bata blanca se asociaron con mayor probabilidad de daño cardiaco respecto a la normotensión sostenida. La hipertensión enmascarada se asoció con fracción de eyección ventricular izquierda inferior al 50% y con calcio coronario de al menos 100 y de al menos 300. La hipertensión de bata blanca también se asoció con fracción de eyección reducida y calcio coronario de al menos 100.",
+        "why_relevant": "El estudio refuerza que la clasificación basada exclusivamente en presión arterial de consulta puede infravalorar fenotipos con daño orgánico y aterosclerosis subclínica. La hipertensión enmascarada mostró la asociación más consistente con carga elevada de calcio coronario. No obstante, las asociaciones son observacionales y transversales; no demuestran que estos fenotipos causen el daño observado ni que tratarles mediante una estrategia específica reduzca eventos.",
+        "practical_implication": "La medición domiciliaria de presión arterial debería complementar la medición en consulta cuando exista sospecha de hipertensión enmascarada o de bata blanca, especialmente ante riesgo cardiovascular elevado o evidencia de daño de órgano. La detección de estos fenotipos puede justificar una valoración más rigurosa del riesgo global y de los factores modificables, incluidos presión arterial y LDL-colesterol.",
+        "source_title": "Blood pressure phenotypes and hypertension-associated cardiac damage.",
+        "journal": "Journal of hypertension",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HJH.0000000000004406"
+      },
+      {
+        "title": "Un cuestionario autodeclarado permitió seleccionar candidatos con alta prevalencia de CAC ≥100 para TC coronaria",
+        "what_happened": "El estudio prospectivo PRIO-Now aplicó una estrategia poblacional en dos fases en personas de 59-60 años sin cardiopatía isquémica previa. De 8.000 invitados, 2.588 completaron el cuestionario; 814 fueron clasificados como de alto riesgo por un modelo autodeclarado de probabilidad de calcio coronario (CAC) ≥100 y 563 realizaron TC. La probabilidad media predicha de CAC ≥100 fue del 28,3% y la prevalencia observada fue del 28,4%. Entre quienes presentaron CAC ≥100, el 64% no recibía tratamiento hipolipemiante y el 11% tenía LDL-colesterol ≤1,8 mmol/L.",
+        "why_relevant": "La estrategia aborda una limitación práctica del CAC: la TC poblacional indiscriminada no está recomendada. La buena calibración en los participantes que completaron la TC sugiere que un precribado sencillo podría concentrar la prueba en personas con mayor probabilidad de carga aterosclerótica relevante y detectar oportunidades de prevención lipídica. El estudio no evaluó reducción de eventos clínicos, adherencia ni coste-efectividad.",
+        "practical_implication": "El uso de modelos de preselección para CAC podría estudiarse como vía organizativa para dirigir la TC a grupos con mayor rendimiento esperado, pero no sustituye la valoración clínica individual ni valida un programa de cribado poblacional universal. Ante CAC elevado, la implicación clínica principal es revisar de forma estructurada el control de LDL-colesterol y el conjunto de factores de riesgo.",
+        "source_title": "Prospective evaluation of a self-report-guided strategy for targeted coronary artery calcium imaging.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1136/heartjnl-2026-328767"
+      },
+      {
+        "title": "El ejercicio supervisado mejora presión arterial, lípidos y capacidad funcional en mujeres mayores, con evidencia basada en ensayos aleatorizados",
+        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas encontró que el ejercicio supervisado redujo triglicéridos, colesterol total, LDL-colesterol, glucosa, proteína C reactiva y presión arterial. También aumentó el VO2pico y redujo el porcentaje de grasa corporal. La certeza GRADE fue moderada para los cambios en colesterol total, triglicéridos, porcentaje graso, VO2pico y presión arterial sistólica, y baja para otros desenlaces.",
+        "why_relevant": "La evidencia procede de ensayos aleatorizados y respalda el ejercicio como intervención preventiva multifactorial en una población con riesgo cardiometabólico creciente. Sin embargo, los desenlaces evaluados son factores de riesgo y marcadores intermedios; el metaanálisis no demuestra una reducción directa de infarto, ictus o mortalidad cardiovascular.",
+        "practical_implication": "La prescripción de ejercicio aeróbico, de fuerza o combinado puede integrarse en la prevención cardiovascular de mujeres mayores para mejorar presión arterial, perfil lipídico y capacidad cardiorrespiratoria. La intervención debe complementar, y no reemplazar, el tratamiento farmacológico indicado para hipertensión o dislipidemia.",
+        "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
+        "journal": "Journal of the International Society of Sports Nutrition",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/15502783.2026.2675444"
+      },
+      {
+        "title": "Semaglutida no mejoró CAC ni marcadores vasculares subclínicos a 32 semanas en personas con VIH y lipohipertrofia",
+        "what_happened": "En un ensayo fase 2b, aleatorizado, doble ciego y controlado con placebo, 108 personas con VIH, lipohipertrofia y sin diabetes conocida recibieron semaglutida o placebo durante 32 semanas. La semaglutida no produjo cambios significativos frente a placebo en velocidad de onda de pulso, puntuación de calcio coronario, índice de hiperemia reactiva ni índice de aumento. Sí se observaron reducciones del riesgo estimado de enfermedad cardiovascular aterosclerótica a 10 años y de proteína C reactiva ultrasensible.",
+        "why_relevant": "El ensayo evita extrapolar a aterosclerosis subclínica efectos favorables sobre peso, adiposidad visceral, presión arterial, glucosa y lípidos. La ausencia de efecto sobre CAC en 32 semanas es coherente con que el calcio coronario es una medida de carga calcificada poco modificable a corto plazo. El riesgo estimado y la proteína C reactiva son resultados sustitutos, no eventos cardiovasculares clínicos.",
+        "practical_implication": "En personas con VIH y exceso adiposo, la semaglutida puede considerarse por sus beneficios cardiometabólicos establecidos en variables intermedias dentro de una evaluación individualizada. Estos datos no justifican atribuirle, en esta población y plazo, regresión de calcio coronario ni reducción demostrada de eventos cardiovasculares.",
+        "source_title": "Effects of semaglutide on subclinical cardiovascular health in people with HIV.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/qad.0000000000004624"
+      }
+    ]
+  },
+  {
     "date": "2026-09-21",
     "generated_at": "2026-09-21T18:20:19.397852+00:00",
     "items": [
@@ -325,57 +381,6 @@
         "why_relevant": "La prevención cardiovascular en mujeres requiere integrar determinantes específicos del sexo y de la trayectoria reproductiva. La posible interacción con conductas de salud subraya la importancia de una valoración de riesgo cardiovascular individualizada durante y después de la transición menopáusica.",
         "practical_implication": "La duración de la vida reproductiva podría considerarse un elemento contextual dentro de la historia clínica cardiovascular de mujeres posmenopáusicas. Sin embargo, la información facilitada no permite establecer umbrales de riesgo ni recomendaciones terapéuticas específicas.",
         "source_title": "Reproductive lifespan and cardiovascular health in postmenopausal women: a non-linear, behavior-driven association with cross-population validation",
-        "journal": "",
-        "url": "https://europepmc.org/"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-15",
-    "generated_at": "2026-09-15T15:34:22.011067+00:00",
-    "items": [
-      {
-        "title": "Inhibidores de SGLT2 en enfermedad renal crónica: metaanálisis sobre progresión y mortalidad",
-        "what_happened": "Se publicó un metaanálisis que evalúa la efectividad de los inhibidores de SGLT2 para ralentizar la progresión de la enfermedad renal crónica y reducir la mortalidad.",
-        "why_relevant": "La enfermedad renal crónica incrementa de forma sustancial el riesgo cardiovascular. Los inhibidores de SGLT2 son una clase terapéutica de especial interés en la intersección cardiorrenal.",
-        "practical_implication": "La publicación refuerza la necesidad de considerar la evidencia cardiorrenal disponible al integrar inhibidores de SGLT2 en el abordaje de pacientes con enfermedad renal crónica, dentro de sus indicaciones y contraindicaciones clínicas.",
-        "source_title": "Effectiveness of SGLT2 inhibitors in slowing chronic kidney disease progression and reducing mortality: a meta-analysis",
-        "journal": "",
-        "url": "https://europepmc.org/"
-      },
-      {
-        "title": "Cardiotoxicidad de los inhibidores de puntos de control inmunitario: revisión sistemática con metaanálisis en red y farmacovigilancia",
-        "what_happened": "Se publicó una revisión sistemática de seguridad que combina un metaanálisis en red y un estudio de farmacovigilancia para abordar la prevención de toxicidad cardíaca durante el uso de inhibidores de puntos de control inmunitario.",
-        "why_relevant": "La inmunoterapia oncológica puede asociarse a complicaciones cardiovasculares, por lo que la cardio-oncología requiere estrategias de detección, estratificación y manejo de riesgo.",
-        "practical_implication": "El trabajo respalda la vigilancia clínica de toxicidad cardiovascular en pacientes tratados con inhibidores de puntos de control inmunitario y la coordinación entre oncología y cardiología cuando existan factores de riesgo o sospecha de complicaciones.",
-        "source_title": "Avoidance of cardiac toxicity during the application of immune checkpoint inhibitors: a safety systematic review combining network meta-analysis and pharmacovigilance study",
-        "journal": "",
-        "url": "https://europepmc.org/"
-      },
-      {
-        "title": "Flutter auricular de nueva detección tras escalada de dosis de enclomifeno: reporte de caso",
-        "what_happened": "Se comunicó un caso de flutter auricular detectado tras el aumento de dosis de enclomifeno en un paciente con reparación mitral previa y trombocitopenia inmune crónica.",
-        "why_relevant": "El caso plantea una posible señal de seguridad arrítmica en un contexto de cardiopatía estructural previa, aunque un reporte individual no permite establecer causalidad ni frecuencia.",
-        "practical_implication": "Ante síntomas compatibles con arritmia o cambios clínicos después de modificar tratamientos hormonales, puede ser pertinente valorar el ritmo cardíaco y revisar antecedentes estructurales y farmacológicos.",
-        "source_title": "Newly Detected Atrial Flutter After Enclomiphene Dose Escalation in a Patient With Prior Mitral Valve Repair and Chronic Immune Thrombocytopenia: A Case Report",
-        "journal": "",
-        "url": "https://europepmc.org/"
-      },
-      {
-        "title": "Vida reproductiva y salud cardiovascular en mujeres posmenopáusicas",
-        "what_happened": "Se publicó un estudio que analiza una asociación no lineal, influida por conductas, entre la duración de la vida reproductiva y la salud cardiovascular en mujeres posmenopáusicas, con validación en distintas poblaciones.",
-        "why_relevant": "La historia reproductiva forma parte de los determinantes específicos de sexo que pueden contribuir a una prevención cardiovascular más individualizada en mujeres.",
-        "practical_implication": "La evaluación del riesgo cardiovascular en mujeres posmenopáusicas puede incorporar la historia reproductiva junto con los factores de riesgo convencionales y los hábitos de vida, sin sustituir las herramientas de valoración establecidas.",
-        "source_title": "Reproductive lifespan and cardiovascular health in postmenopausal women: a non-linear, behavior-driven association with cross-population validation",
-        "journal": "",
-        "url": "https://europepmc.org/"
-      },
-      {
-        "title": "Hígado graso como modificador de la asociación entre índice triglicéridos-glucosa e hipertensión incidente",
-        "what_happened": "Se publicó un estudio de cohorte basado en exámenes de salud que evalúa si el hígado graso modifica la asociación entre el índice triglicéridos-glucosa y la aparición de hipertensión.",
-        "why_relevant": "El índice triglicéridos-glucosa y el hígado graso se relacionan con alteraciones metabólicas relevantes para la prevención de hipertensión y enfermedad cardiovascular.",
-        "practical_implication": "En la valoración preventiva de personas con riesgo metabólico, la presencia de hígado graso puede considerarse como un elemento clínico contextual al interpretar marcadores relacionados con resistencia a la insulina y riesgo de hipertensión.",
-        "source_title": "Effect modification by fatty liver in the association between triglyceride-Glucose index and new-onset hypertension: a large health-examination cohort study",
         "journal": "",
         "url": "https://europepmc.org/"
       }
