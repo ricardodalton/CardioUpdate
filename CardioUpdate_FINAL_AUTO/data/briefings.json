@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-09-23",
+    "generated_at": "2026-09-23T14:25:28.263790+00:00",
+    "items": [
+      {
+        "title": "Estrategia prospectiva de selección mediante autoinforme para dirigir la TC de calcio coronario",
+        "what_happened": "El estudio poblacional prospectivo PRIO-Now evaluó un modelo basado en autoinforme para seleccionar, antes de realizar una TC, a personas de 59-60 años con probabilidad elevada de CAC ≥100. De 8.000 personas invitadas, 563 completaron la TC tras la selección. La probabilidad media predicha de CAC ≥100 fue 28,3% y la prevalencia observada fue 28,4%. Entre quienes presentaban CAC ≥100, el 64% no recibía tratamiento hipolipemiante y el 11% tenía LDL-C ≤1,8 mmol/L.",
+        "why_relevant": "Aporta evidencia prospectiva de que una preselección sencilla puede concentrar la imagen de CAC en una población con mayor rendimiento diagnóstico y detectar oportunidades de intensificación preventiva. No demuestra que esta estrategia reduzca infartos, mortalidad ni eventos cardiovasculares.",
+        "practical_implication": "La estrategia podría considerarse un enfoque de selección para programas de CAC, especialmente donde la TC universal no sea viable. Su adopción clínica requiere validar su impacto sobre decisiones terapéuticas, adherencia, costes y eventos clínicos, además de considerar la limitada tasa de respuesta al cuestionario.",
+        "source_title": "Prospective evaluation of a self-report-guided strategy for targeted coronary artery calcium imaging.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1136/heartjnl-2026-328767"
+      },
+      {
+        "title": "La hipertensión enmascarada y la hipertensión de bata blanca se asocian con daño cardíaco y carga coronaria subclínica",
+        "what_happened": "En un estudio poblacional de 4.115 personas con medición de presión arterial en consulta y en domicilio, TC, angiografía coronaria por TC y ecocardiografía, los fenotipos de hipertensión enmascarada y de bata blanca se asociaron con mayor probabilidad de hallazgos de daño cardíaco relacionado con hipertensión frente a normotensión sostenida. La hipertensión enmascarada mostró asociaciones con fracción de eyección reducida y CAC ≥100 y ≥300; la hipertensión de bata blanca se asoció, entre otros hallazgos, con CAC ≥100 y fracción de eyección reducida.",
+        "why_relevant": "Refuerza que la clasificación basada solo en presión arterial de consulta puede infradiagnosticar fenotipos vinculados con aterosclerosis coronaria calcificada y alteraciones cardíacas subclínicas. La evidencia es observacional y transversal/asociativa, por lo que no establece que estos fenotipos causen directamente las lesiones ni que tratar según este hallazgo mejore eventos.",
+        "practical_implication": "La evaluación diagnóstica y el seguimiento de la hipertensión deberían incorporar medición domiciliaria o monitorización ambulatoria cuando exista sospecha de hipertensión enmascarada o de bata blanca. La presencia de estos fenotipos puede justificar una valoración más completa del riesgo cardiovascular global, sin sustituir las indicaciones actuales de tratamiento antihipertensivo.",
+        "source_title": "Blood pressure phenotypes and hypertension-associated cardiac damage.",
+        "journal": "Journal of hypertension",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HJH.0000000000004406"
+      },
+      {
+        "title": "La ecografía carotídea y femoral no puede sustituir a la TC cardíaca en hipercolesterolemia familiar",
+        "what_happened": "Una revisión sistemática y metaanálisis de estudios en adultos con hipercolesterolemia familiar sin enfermedad aterosclerótica clínica incluyó 13 estudios, aunque solo tres pudieron combinarse cuantitativamente. La ecografía periférica mostró sensibilidad agrupada de 78,9% y especificidad de 32,0% frente a la TC cardíaca para detectar aterosclerosis subclínica. La revisión estimó prevalencias elevadas de placas carotídeas y femorales, pero calificó la evidencia disponible como de calidad muy baja.",
+        "why_relevant": "La hipercolesterolemia familiar implica exposición acumulada a LDL/partículas apoB desde etapas precoces y alto riesgo de enfermedad aterosclerótica prematura. El trabajo aborda directamente el papel de las imágenes carotídeas y femorales para reclasificar riesgo, pero señala que su baja especificidad impide considerarlas equivalentes a la evaluación cardíaca por TC.",
+        "practical_implication": "La ecografía carotídea o femoral podría tener un papel de triaje o de detección de aterosclerosis periférica en casos seleccionados, pero no debería emplearse como sustituto validado de la TC cardíaca para excluir enfermedad coronaria subclínica en hipercolesterolemia familiar. Se necesitan estudios de estrategias diagnósticas vinculadas a cambios terapéuticos y eventos clínicos.",
+        "source_title": "Diagnostic accuracy of peripheral ultrasound in familial hypercholesterolemia: A systematic review and meta-analysis.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/14017431.2026.2735712"
+      },
+      {
+        "title": "Semaglutida en personas con VIH y lipohipertrofia: mejora cardiometabólica sin cambio demostrable en CAC ni función vascular a 32 semanas",
+        "what_happened": "En un ensayo aleatorizado, doble ciego y controlado con placebo de fase 2b, 108 adultos con VIH virológicamente suprimido, sin diabetes conocida y con lipohipertrofia recibieron semaglutida o placebo durante 32 semanas. La semaglutida no produjo cambios significativos frente a placebo en velocidad de onda de pulso, función endotelial periférica, índice de aumento ni puntuación de CAC. Sí se observaron reducciones en el riesgo ASCVD calculado a 10 años y en hsCRP.",
+        "why_relevant": "El ensayo evita extrapolar automáticamente beneficios de pérdida de peso o cambios metabólicos a regresión de aterosclerosis. En una población con riesgo cardiovascular aumentado por factores tradicionales y relacionados con VIH, los resultados vasculares fueron negativos en el plazo evaluado.",
+        "practical_implication": "La semaglutida puede mejorar parámetros cardiometabólicos en esta población seleccionada, pero los cambios en riesgo calculado y hsCRP son resultados sustitutos, no evidencia de prevención de eventos cardiovasculares. No debería interpretarse este estudio como demostración de reducción de CAC, mejoría endotelial o beneficio clínico cardiovascular a largo plazo.",
+        "source_title": "Effects of semaglutide on subclinical cardiovascular health in people with HIV.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/qad.0000000000004624"
+      },
+      {
+        "title": "El ejercicio supervisado mejora factores de riesgo cardiovascular en mujeres mayores, sin datos de eventos clínicos",
+        "what_happened": "Una revisión sistemática y metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas encontró que el ejercicio aeróbico, de fuerza o combinado redujo triglicéridos, colesterol total, LDL-C, glucosa, proteína C reactiva y presión arterial, e incrementó el VO2pico. También redujo el porcentaje de grasa corporal, sin cambios significativos en peso corporal, perímetro de cintura, masa grasa troncal, masa libre de grasa ni masa muscular esquelética. La certeza GRADE fue moderada para varios desenlaces, incluidos colesterol total, triglicéridos, VO2pico y presión arterial sistólica.",
+        "why_relevant": "Aporta síntesis de ensayos aleatorizados para intervención no farmacológica sobre presión arterial, perfil lipídico y capacidad cardiorrespiratoria, determinantes relevantes de prevención cardiovascular. Sin embargo, todos los efectos principales se refieren a factores de riesgo y composición corporal, no a infarto, ictus, insuficiencia cardíaca o mortalidad.",
+        "practical_implication": "El ejercicio supervisado puede integrarse como componente de prevención cardiovascular en mujeres mayores, incluso cuando no se produzca una reducción ponderal apreciable. La respuesta clínica debería monitorizarse mediante presión arterial, perfil lipídico, capacidad funcional y tolerancia, sin presentar las mejoras de biomarcadores como evidencia directa de reducción de eventos.",
+        "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
+        "journal": "Journal of the International Society of Sports Nutrition",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/15502783.2026.2675444"
+      }
+    ]
+  },
+  {
     "date": "2026-09-22",
     "generated_at": "2026-09-22T14:11:27.353168+00:00",
     "items": [
@@ -332,57 +388,6 @@
         "journal": "American heart journal",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1016/j.ahj.2026.107544"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-16",
-    "generated_at": "2026-09-16T14:41:15.376772+00:00",
-    "items": [
-      {
-        "title": "Microbioma y aterosclerosis: una diana terapéutica prometedora, aún sin beneficio clínico demostrado",
-        "what_happened": "Una revisión narrativa de estudios publicados entre 2010 y marzo de 2025 evaluó la relación entre microbioma intestinal, disbiosis, TMAO, ácidos grasos de cadena corta y aterosclerosis. La evidencia experimental respalda mecanismos plausibles, mientras que los estudios en humanos asocian concentraciones elevadas de TMAO con mayor riesgo cardiovascular. Las intervenciones sobre el microbioma han mostrado mejorías en biomarcadores, pero no reducciones definitivas de eventos cardiovasculares.",
-        "why_relevant": "El microbioma representa una línea emergente de prevención cardiovascular y de comprensión de la aterosclerosis residual. La revisión delimita con claridad la distancia existente entre asociaciones mecanísticas o biomarcadores y la demostración de beneficio clínico.",
-        "practical_implication": "No se justifica incorporar tratamientos dirigidos al microbioma con el objetivo de prevenir eventos cardiovasculares fuera de investigación clínica. La prioridad continúa siendo el control de los factores de riesgo con intervenciones de eficacia demostrada, mientras se esperan ensayos clínicos amplios y diversos.",
-        "source_title": "Microbiome and atherosclerosis: hype or future therapeutic target?",
-        "journal": "",
-        "url": "https://doi.org/10.1515/jbcpp-2025-0190"
-      },
-      {
-        "title": "Modelo multimodal de inteligencia artificial para predecir mortalidad en pacientes críticos, con validación externa",
-        "what_happened": "Un estudio desarrolló un modelo de aprendizaje profundo para estimar la mortalidad intrahospitalaria tras las primeras 24 horas de ingreso en cuidados intensivos. Integró variables clínicas estructuradas, series temporales, notas clínicas y radiografías de tórax. El desarrollo utilizó bases MIMIC y la validación externa incluyó cohortes temporalmente separadas y datos de HiRID y eICU. La incorporación de notas e imágenes mejoró el rendimiento en los pacientes con esos datos disponibles.",
-        "why_relevant": "La estratificación precoz del riesgo en cuidados intensivos puede ser relevante para la atención de pacientes cardiovasculares críticos. El trabajo destaca especialmente la validación externa multicéntrica, un requisito clave para valorar la generalización de herramientas de IA clínica.",
-        "practical_implication": "El modelo podría apoyar la priorización clínica y la identificación de pacientes de alto riesgo, pero la evidencia descrita corresponde a predicción y no demuestra que su uso mejore decisiones, procesos asistenciales o resultados clínicos. Antes de su implantación se requiere evaluación prospectiva en los entornos donde se pretenda utilizar.",
-        "source_title": "Development and External Validation of a Multimodal Artificial Intelligence Mortality Prediction Model of Critically Ill Patients Using Multicenter Data.",
-        "journal": "",
-        "url": "https://doi.org/10.1097/aln.0000000000006294"
-      },
-      {
-        "title": "Inhibidores de SGLT2: metaanálisis sobre progresión de enfermedad renal crónica y mortalidad",
-        "what_happened": "Se comunica un metaanálisis centrado en la efectividad de los inhibidores de SGLT2 para ralentizar la progresión de la enfermedad renal crónica y reducir la mortalidad. La información disponible no aporta resultados cuantitativos, criterios de inclusión ni características de los estudios analizados.",
-        "why_relevant": "La enfermedad renal crónica incrementa de forma sustancial el riesgo cardiovascular, y los inhibidores de SGLT2 ocupan un papel relevante en el manejo cardiorrenal. Una síntesis de evidencia sobre progresión renal y mortalidad tiene interés directo para la prevención cardiovascular global.",
-        "practical_implication": "La noticia refuerza el interés clínico por la estrategia cardiorrenal con inhibidores de SGLT2, pero no permite extraer conclusiones específicas sobre magnitud del efecto, poblaciones beneficiadas ni aplicabilidad a partir de la información facilitada.",
-        "source_title": "Effectiveness of SGLT2 inhibitors in slowing chronic kidney disease progression and reducing mortality: a meta-analysis",
-        "journal": "",
-        "url": "https://europepmc.org/"
-      },
-      {
-        "title": "Prevención de cardiotoxicidad por inhibidores de puntos de control inmunitario: revisión sistemática con metaanálisis en red y farmacovigilancia",
-        "what_happened": "Se presenta una revisión sistemática sobre la evitación de toxicidad cardíaca durante el tratamiento con inhibidores de puntos de control inmunitario. El trabajo combina un metaanálisis en red con un estudio de farmacovigilancia. No se proporcionan resultados, intervenciones comparadas ni estimaciones de riesgo.",
-        "why_relevant": "La cardiotoxicidad asociada a inmunoterapia constituye un área prioritaria de la cardio-oncología por su potencial gravedad y por la expansión de estos tratamientos oncológicos. La combinación de evidencia comparativa y farmacovigilancia puede aportar información complementaria sobre seguridad.",
-        "practical_implication": "La información disponible apoya la necesidad de vigilancia cardiovascular en pacientes expuestos a inhibidores de puntos de control inmunitario, pero no permite identificar estrategias preventivas concretas ni modificar protocolos clínicos sin consultar el estudio completo.",
-        "source_title": "Avoidance of cardiac toxicity during the application of immune checkpoint inhibitors: a safety systematic review combining network meta-analysis and pharmacovigilance study",
-        "journal": "",
-        "url": "https://europepmc.org/"
-      },
-      {
-        "title": "Vida reproductiva y salud cardiovascular tras la menopausia: asociación no lineal influida por conductas de salud",
-        "what_happened": "Un estudio examinó la relación entre la duración de la vida reproductiva y la salud cardiovascular en mujeres posmenopáusicas. El título describe una asociación no lineal, modulada por comportamientos de salud y con validación en distintas poblaciones. No se detallan desenlaces, tamaño del efecto, métodos ni factores conductuales específicos.",
-        "why_relevant": "La prevención cardiovascular en mujeres requiere integrar determinantes específicos del sexo y de la trayectoria reproductiva. La posible interacción con conductas de salud subraya la importancia de una valoración de riesgo cardiovascular individualizada durante y después de la transición menopáusica.",
-        "practical_implication": "La duración de la vida reproductiva podría considerarse un elemento contextual dentro de la historia clínica cardiovascular de mujeres posmenopáusicas. Sin embargo, la información facilitada no permite establecer umbrales de riesgo ni recomendaciones terapéuticas específicas.",
-        "source_title": "Reproductive lifespan and cardiovascular health in postmenopausal women: a non-linear, behavior-driven association with cross-population validation",
-        "journal": "",
-        "url": "https://europepmc.org/"
       }
     ]
   }
