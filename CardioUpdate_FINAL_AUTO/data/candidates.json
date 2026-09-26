@@ -668,8 +668,8 @@
         "title": "Cardiology in review",
         "essn": "1538-4683",
         "issn": "1061-5377",
-        "isoabbreviation": "Cardiol Rev",
-        "nlmid": "9304686"
+        "nlmid": "9304686",
+        "isoabbreviation": "Cardiol Rev"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -1669,8 +1669,8 @@
         "title": "European heart journal. Cardiovascular pharmacotherapy",
         "essn": "2055-6845",
         "issn": "2055-6837",
-        "isoabbreviation": "Eur Heart J Cardiovasc Pharmacother",
-        "nlmid": "101669491"
+        "nlmid": "101669491",
+        "isoabbreviation": "Eur Heart J Cardiovasc Pharmacother"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -1874,8 +1874,8 @@
         "title": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
         "essn": "1522-726X",
         "issn": "1522-1946",
-        "isoabbreviation": "Catheter Cardiovasc Interv",
-        "nlmid": "100884139"
+        "nlmid": "100884139",
+        "isoabbreviation": "Catheter Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -2198,8 +2198,8 @@
         "title": "Journal of Alzheimer's disease : JAD",
         "essn": "1875-8908",
         "issn": "1387-2877",
-        "isoabbreviation": "J Alzheimers Dis",
-        "nlmid": "9814863"
+        "nlmid": "9814863",
+        "isoabbreviation": "J Alzheimers Dis"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -2516,8 +2516,8 @@
         "title": "Circulation. Arrhythmia and electrophysiology",
         "essn": "1941-3084",
         "issn": "1941-3149",
-        "isoabbreviation": "Circ Arrhythm Electrophysiol",
-        "nlmid": "101474365"
+        "nlmid": "101474365",
+        "isoabbreviation": "Circ Arrhythm Electrophysiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -3276,8 +3276,8 @@
         "title": "VASA. Zeitschrift fur Gefasskrankheiten",
         "essn": "1664-2872",
         "issn": "0301-1526",
-        "nlmid": "0317051",
-        "isoabbreviation": "Vasa"
+        "isoabbreviation": "Vasa",
+        "nlmid": "0317051"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -3601,8 +3601,8 @@
         "title": "Cardiovascular research",
         "essn": "1755-3245",
         "issn": "0008-6363",
-        "isoabbreviation": "Cardiovasc Res",
-        "nlmid": "0077427"
+        "nlmid": "0077427",
+        "isoabbreviation": "Cardiovasc Res"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -3996,8 +3996,8 @@
         "title": "Endocrine-related cancer",
         "essn": "1479-6821",
         "issn": "1351-0088",
-        "isoabbreviation": "Endocr Relat Cancer",
-        "nlmid": "9436481"
+        "nlmid": "9436481",
+        "isoabbreviation": "Endocr Relat Cancer"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -4292,8 +4292,8 @@
         "title": "Clinical science (London, England : 1979)",
         "essn": "1470-8736",
         "issn": "0143-5221",
-        "isoabbreviation": "Clin Sci (Lond)",
-        "nlmid": "7905731"
+        "nlmid": "7905731",
+        "isoabbreviation": "Clin Sci (Lond)"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -4567,8 +4567,8 @@
         "title": "Computer methods in biomechanics and biomedical engineering",
         "essn": "1476-8259",
         "issn": "1025-5842",
-        "isoabbreviation": "Comput Methods Biomech Biomed Engin",
-        "nlmid": "9802899"
+        "nlmid": "9802899",
+        "isoabbreviation": "Comput Methods Biomech Biomed Engin"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -5090,8 +5090,8 @@
         "title": "Public health nursing (Boston, Mass.)",
         "essn": "1525-1446",
         "issn": "0737-1209",
-        "isoabbreviation": "Public Health Nurs",
-        "nlmid": "8501498"
+        "nlmid": "8501498",
+        "isoabbreviation": "Public Health Nurs"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -5445,8 +5445,8 @@
         "title": "Circulation. Arrhythmia and electrophysiology",
         "essn": "1941-3084",
         "issn": "1941-3149",
-        "isoabbreviation": "Circ Arrhythm Electrophysiol",
-        "nlmid": "101474365"
+        "nlmid": "101474365",
+        "isoabbreviation": "Circ Arrhythm Electrophysiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -7349,8 +7349,8 @@
         "title": "Coronary artery disease",
         "essn": "1473-5830",
         "issn": "0954-6928",
-        "isoabbreviation": "Coron Artery Dis",
-        "nlmid": "9011445"
+        "nlmid": "9011445",
+        "isoabbreviation": "Coron Artery Dis"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -7479,8 +7479,8 @@
         "title": "American journal of epidemiology",
         "essn": "1476-6256",
         "issn": "0002-9262",
-        "isoabbreviation": "Am J Epidemiol",
-        "nlmid": "7910653"
+        "nlmid": "7910653",
+        "isoabbreviation": "Am J Epidemiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -10064,8 +10064,8 @@
         "title": "Bioscience reports",
         "essn": "1573-4935",
         "issn": "0144-8463",
-        "isoabbreviation": "Biosci Rep",
-        "nlmid": "8102797"
+        "nlmid": "8102797",
+        "isoabbreviation": "Biosci Rep"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -10219,8 +10219,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "isoabbreviation": "JACC Case Rep",
-        "nlmid": "101757292"
+        "nlmid": "101757292",
+        "isoabbreviation": "JACC Case Rep"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -10393,8 +10393,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -10554,8 +10554,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "isoabbreviation": "JACC Case Rep",
-        "nlmid": "101757292"
+        "nlmid": "101757292",
+        "isoabbreviation": "JACC Case Rep"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -10689,8 +10689,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -10847,8 +10847,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "isoabbreviation": "JACC Case Rep",
-        "nlmid": "101757292"
+        "nlmid": "101757292",
+        "isoabbreviation": "JACC Case Rep"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -10981,8 +10981,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "isoabbreviation": "JACC Case Rep",
-        "nlmid": "101757292"
+        "nlmid": "101757292",
+        "isoabbreviation": "JACC Case Rep"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -11377,8 +11377,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -11538,8 +11538,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "isoabbreviation": "JACC Case Rep",
-        "nlmid": "101757292"
+        "nlmid": "101757292",
+        "isoabbreviation": "JACC Case Rep"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -11711,8 +11711,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "isoabbreviation": "JACC Case Rep",
-        "nlmid": "101757292"
+        "nlmid": "101757292",
+        "isoabbreviation": "JACC Case Rep"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -11870,8 +11870,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -12265,8 +12265,8 @@
         "title": "Advanced materials (Deerfield Beach, Fla.)",
         "essn": "1521-4095",
         "issn": "0935-9648",
-        "isoabbreviation": "Adv Mater",
-        "nlmid": "9885358"
+        "nlmid": "9885358",
+        "isoabbreviation": "Adv Mater"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -12665,8 +12665,8 @@
         "title": "Protein & cell",
         "essn": "1674-8018",
         "issn": "1674-800X",
-        "isoabbreviation": "Protein Cell",
-        "nlmid": "101532368"
+        "nlmid": "101532368",
+        "isoabbreviation": "Protein Cell"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -13050,8 +13050,8 @@
         "title": "mSystems",
         "essn": "2379-5077",
         "issn": "2379-5077",
-        "isoabbreviation": "mSystems",
-        "nlmid": "101680636"
+        "nlmid": "101680636",
+        "isoabbreviation": "mSystems"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -13437,8 +13437,8 @@
         "title": "Anesthesia and analgesia",
         "essn": "1526-7598",
         "issn": "0003-2999",
-        "isoabbreviation": "Anesth Analg",
-        "nlmid": "1310650"
+        "nlmid": "1310650",
+        "isoabbreviation": "Anesth Analg"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -13600,8 +13600,8 @@
         "title": "Experimental physiology",
         "essn": "1469-445X",
         "issn": "0958-0670",
-        "isoabbreviation": "Exp Physiol",
-        "nlmid": "9002940"
+        "nlmid": "9002940",
+        "isoabbreviation": "Exp Physiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -13857,8 +13857,8 @@
         "title": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
         "essn": "1522-726X",
         "issn": "1522-1946",
-        "isoabbreviation": "Catheter Cardiovasc Interv",
-        "nlmid": "100884139"
+        "nlmid": "100884139",
+        "isoabbreviation": "Catheter Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -14030,8 +14030,8 @@
         "title": "Physiological measurement",
         "essn": "1361-6579",
         "issn": "0967-3334",
-        "isoabbreviation": "Physiol Meas",
-        "nlmid": "9306921"
+        "nlmid": "9306921",
+        "isoabbreviation": "Physiol Meas"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -14231,8 +14231,8 @@
         "title": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
         "essn": "1467-789X",
         "issn": "1467-7881",
-        "isoabbreviation": "Obes Rev",
-        "nlmid": "100897395"
+        "nlmid": "100897395",
+        "isoabbreviation": "Obes Rev"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -14794,8 +14794,8 @@
         "title": "Circulation. Cardiovascular imaging",
         "essn": "1942-0080",
         "issn": "1941-9651",
-        "isoabbreviation": "Circ Cardiovasc Imaging",
-        "nlmid": "101479935"
+        "nlmid": "101479935",
+        "isoabbreviation": "Circ Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -14941,8 +14941,8 @@
         "title": "Clinical pharmacology and therapeutics",
         "essn": "1532-6535",
         "issn": "0009-9236",
-        "isoabbreviation": "Clin Pharmacol Ther",
-        "nlmid": "0372741"
+        "nlmid": "0372741",
+        "isoabbreviation": "Clin Pharmacol Ther"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -20012,8 +20012,8 @@
         "title": "Turk Kardiyoloji Dernegi arsivi : Turk Kardiyoloji Derneginin yayin organidir",
         "essn": "1308-4488",
         "issn": "1016-5169",
-        "isoabbreviation": "Turk Kardiyol Dern Ars",
-        "nlmid": "9426239"
+        "nlmid": "9426239",
+        "isoabbreviation": "Turk Kardiyol Dern Ars"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -20206,8 +20206,8 @@
         "title": "Turk gogus kalp damar cerrahisi dergisi",
         "essn": "2149-8156",
         "issn": "1301-5680",
-        "nlmid": "100887967",
-        "isoabbreviation": "Turk Gogus Kalp Damar Cerrahisi Derg"
+        "isoabbreviation": "Turk Gogus Kalp Damar Cerrahisi Derg",
+        "nlmid": "100887967"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -20403,8 +20403,8 @@
         "title": "Clinical and experimental dermatology",
         "essn": "1365-2230",
         "issn": "0307-6938",
-        "isoabbreviation": "Clin Exp Dermatol",
-        "nlmid": "7606847"
+        "nlmid": "7606847",
+        "isoabbreviation": "Clin Exp Dermatol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -20591,8 +20591,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -20708,8 +20708,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -20839,8 +20839,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -20964,8 +20964,8 @@
         "title": "European heart journal",
         "essn": "1522-9645",
         "issn": "0195-668X",
-        "isoabbreviation": "Eur Heart J",
-        "nlmid": "8006263"
+        "nlmid": "8006263",
+        "isoabbreviation": "Eur Heart J"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -21212,8 +21212,8 @@
         "title": "International journal of biological macromolecules",
         "essn": "1879-0003",
         "issn": "0141-8130",
-        "isoabbreviation": "Int J Biol Macromol",
-        "nlmid": "7909578"
+        "nlmid": "7909578",
+        "isoabbreviation": "Int J Biol Macromol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -21457,8 +21457,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -21582,8 +21582,8 @@
         "title": "Circulation. Cardiovascular imaging",
         "essn": "1942-0080",
         "issn": "1941-9651",
-        "nlmid": "101479935",
-        "isoabbreviation": "Circ Cardiovasc Imaging"
+        "isoabbreviation": "Circ Cardiovasc Imaging",
+        "nlmid": "101479935"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -21695,8 +21695,8 @@
         "title": "Circulation. Cardiovascular imaging",
         "essn": "1942-0080",
         "issn": "1941-9651",
-        "isoabbreviation": "Circ Cardiovasc Imaging",
-        "nlmid": "101479935"
+        "nlmid": "101479935",
+        "isoabbreviation": "Circ Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -21821,8 +21821,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -21947,8 +21947,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -22349,8 +22349,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -22504,8 +22504,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -22788,8 +22788,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -31957,8 +31957,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -44971,8 +44971,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -49128,8 +49128,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -74375,8 +74375,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "isoabbreviation": "Am Heart J",
-        "nlmid": "0370465"
+        "nlmid": "0370465",
+        "isoabbreviation": "Am Heart J"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -77960,8 +77960,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -78368,8 +78368,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -78797,8 +78797,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -81178,8 +81178,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "isoabbreviation": "Circ Heart Fail",
-        "nlmid": "101479941"
+        "nlmid": "101479941",
+        "isoabbreviation": "Circ Heart Fail"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -91925,8 +91925,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -115926,8 +115926,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "isoabbreviation": "Am Heart J",
-        "nlmid": "0370465"
+        "nlmid": "0370465",
+        "isoabbreviation": "Am Heart J"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -117179,8 +117179,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -117327,8 +117327,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -117434,8 +117434,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -117545,8 +117545,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -117664,8 +117664,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -117777,8 +117777,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "isoabbreviation": "EuroIntervention",
-        "nlmid": "101251040"
+        "nlmid": "101251040",
+        "isoabbreviation": "EuroIntervention"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -256842,8 +256842,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -265772,8 +265772,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "isoabbreviation": "Am Heart J",
-        "nlmid": "0370465"
+        "nlmid": "0370465",
+        "isoabbreviation": "Am Heart J"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -266046,8 +266046,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -266213,8 +266213,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -266880,8 +266880,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -274421,8 +274421,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -279345,8 +279345,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -279646,8 +279646,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -279804,8 +279804,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -280103,8 +280103,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -280296,8 +280296,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -297758,8 +297758,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "isoabbreviation": "Am Heart J",
-        "nlmid": "0370465"
+        "nlmid": "0370465",
+        "isoabbreviation": "Am Heart J"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -297850,8 +297850,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -297956,8 +297956,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298049,8 +298049,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298206,8 +298206,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298345,8 +298345,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298491,8 +298491,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298670,8 +298670,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -300354,8 +300354,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -302260,8 +302260,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -304105,8 +304105,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -304441,8 +304441,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -305261,8 +305261,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -310160,8 +310160,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -315075,8 +315075,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -315266,8 +315266,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -329151,8 +329151,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -329306,8 +329306,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -329560,8 +329560,8 @@
         "title": "Circulation. Arrhythmia and electrophysiology",
         "essn": "1941-3084",
         "issn": "1941-3149",
-        "isoabbreviation": "Circ Arrhythm Electrophysiol",
-        "nlmid": "101474365"
+        "nlmid": "101474365",
+        "isoabbreviation": "Circ Arrhythm Electrophysiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -332303,8 +332303,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -338668,8 +338668,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -342105,8 +342105,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -342614,8 +342614,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -342742,8 +342742,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -343037,8 +343037,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -343338,8 +343338,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -343685,8 +343685,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -343952,8 +343952,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -352883,8 +352883,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -357585,8 +357585,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -360233,8 +360233,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -360436,8 +360436,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -384765,8 +384765,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -385962,8 +385962,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -386245,8 +386245,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -386372,8 +386372,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -386508,8 +386508,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -387084,8 +387084,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -387791,8 +387791,8 @@
         "title": "Circulation. Arrhythmia and electrophysiology",
         "essn": "1941-3084",
         "issn": "1941-3149",
-        "nlmid": "101474365",
-        "isoabbreviation": "Circ Arrhythm Electrophysiol"
+        "isoabbreviation": "Circ Arrhythm Electrophysiol",
+        "nlmid": "101474365"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -387946,8 +387946,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "nlmid": "101479941",
-        "isoabbreviation": "Circ Heart Fail"
+        "isoabbreviation": "Circ Heart Fail",
+        "nlmid": "101479941"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -391802,8 +391802,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -401639,8 +401639,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "nlmid": "101499602",
-        "isoabbreviation": "Circ Cardiovasc Interv"
+        "isoabbreviation": "Circ Cardiovasc Interv",
+        "nlmid": "101499602"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -406793,8 +406793,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "isoabbreviation": "Circ Cardiovasc Interv",
-        "nlmid": "101499602"
+        "nlmid": "101499602",
+        "isoabbreviation": "Circ Cardiovasc Interv"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -420993,8 +420993,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -425462,8 +425462,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -437730,8 +437730,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -438220,8 +438220,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -438345,8 +438345,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -438485,8 +438485,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
