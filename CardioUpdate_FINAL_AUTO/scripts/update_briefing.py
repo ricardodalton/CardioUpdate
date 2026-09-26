@@ -139,8 +139,14 @@ def main():
     if not items:raise RuntimeError('No se generaron noticias válidas: se conserva el briefing anterior.')
     try:hist=json.loads(OUT.read_text(encoding='utf-8'))
     except (OSError,ValueError):hist=[]
-    today=date.today().isoformat();hist=[x for x in hist if x.get('date')!=today]
+    today_obj=date.today(); today=today_obj.isoformat()
+    # Briefing cycle follows the journal week: Saturday through Friday.
+    # On Saturday, prior-week briefings disappear and the new cycle starts at one day.
+    days_since_saturday=(today_obj.weekday()-5)%7
+    week_start=today_obj-timedelta(days=days_since_saturday)
+    hist=[x for x in hist if x.get('date')!=today and x.get('date','')>=week_start.isoformat() and x.get('date','')<=today]
     hist.insert(0,{'date':today,'generated_at':datetime.now(timezone.utc).isoformat(),'items':items})
-    OUT.write_text(json.dumps(hist[:7],ensure_ascii=False,indent=2),encoding='utf-8')
+    hist.sort(key=lambda x:x.get('date',''),reverse=True)
+    OUT.write_text(json.dumps(hist,ensure_ascii=False,indent=2),encoding='utf-8')
     print(f'CardioUpdate briefing {today}: {len(items)} noticias; {len(found)} referencias; PubMed y Europe PMC; {len(failures)} fallos de búsqueda.')
 if __name__=='__main__':main()
