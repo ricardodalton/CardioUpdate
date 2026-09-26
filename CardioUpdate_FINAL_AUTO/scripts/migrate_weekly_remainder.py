@@ -27,8 +27,15 @@ replacement = 'ALL_STUDIES=Array.isArray(s)?s:[]; const weekly=selectPublishedEd
 for old in ['ALL_STUDIES=Array.isArray(s)?s:[]; STUDIES=selectPublishedEdition(ALL_STUDIES); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];', 'STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];']:
     s = s.replace(old, replacement)
 
-helper = r'''function weeklyRemainder(){
-  const {start,end}=editionBounds();
+helper = r'''function currentCycleBounds(now=new Date()){
+  const d=new Date(now); d.setHours(0,0,0,0);
+  const daysSinceSaturday=(d.getDay()+1)%7;
+  const start=new Date(d); start.setDate(d.getDate()-daysSinceSaturday);
+  const end=new Date(d); end.setDate(d.getDate()+1);
+  return {start,end};
+}
+function weeklyRemainder(){
+  const {start,end}=currentCycleBounds();
   const keyOf=x=>String((x&&x.pmid)||(x&&x.doi)||(x&&x.url)||(x&&x.title)||'').trim().toLowerCase();
   const dateValue=x=>(x&&x.date)||(x&&x.firstPublicationDate)||(x&&x.firstIndexDate)||'';
   const selectedKeys=new Set((STUDIES||[]).map(keyOf));
