@@ -1,5 +1,315 @@
 [
   {
+    "id": "42775845",
+    "source": "MED",
+    "pmid": "42775845",
+    "doi": "10.1080/08037051.2026.2707794",
+    "title": "Long-term stability and blood pressure change tracking with a cuffless wearable device in hypertensive patients.",
+    "authorString": "Proença M, Rigon PA, Bonnier G, Ferrario D, Zahnd J, Lemay M, Wuerzner G.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Proença M",
+          "lastName": "Proença",
+          "firstName": "Martin",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4595-9480"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rigon PA",
+          "lastName": "Rigon",
+          "firstName": "Pierre-Antonin",
+          "initials": "PA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0009-0009-7775-5157"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Service of Nephrology and Hypertension, Lausanne University Hospital and University of Lausanne, Lausanne, Switzerland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Bonnier G",
+          "lastName": "Bonnier",
+          "firstName": "Guillaume",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ferrario D",
+          "lastName": "Ferrario",
+          "firstName": "Damien",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zahnd J",
+          "lastName": "Zahnd",
+          "firstName": "Joachim",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Service of Nephrology and Hypertension, Lausanne University Hospital and University of Lausanne, Lausanne, Switzerland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lemay M",
+          "lastName": "Lemay",
+          "firstName": "Mathieu",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wuerzner G",
+          "lastName": "Wuerzner",
+          "firstName": "Grégoire",
+          "initials": "G",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6424-7630"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Service of Nephrology and Hypertension, Lausanne University Hospital and University of Lausanne, Lausanne, Switzerland."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4595-9480"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6424-7630"
+        },
+        {
+          "type": "ORCID",
+          "value": "0009-0009-7775-5157"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "35",
+      "journalIssueId": 4076743,
+      "dateOfPublication": "2026 Dec",
+      "monthOfPublication": 12,
+      "yearOfPublication": 2026,
+      "journal": {
+        "medlineAbbreviation": "Blood Press",
+        "title": "Blood pressure",
+        "essn": "1651-1999",
+        "issn": "0803-7051",
+        "nlmid": "9301454",
+        "isoabbreviation": "Blood Press"
+      },
+      "printPublicationDate": "2026-12-01"
+    },
+    "pubYear": "2026",
+    "pageInfo": "2707794",
+    "abstractText": "<h4>Background</h4>Reliable tracking of short- and long-term blood pressure (BP) changes is a prerequisite for clinical adoption of cuffless BP devices. This study evaluated the 6-week stability of BP estimation by CSEM's wearable photoplethysmography (PPG)-based cuffless BP monitor and its ability to track BP changes in hypertensive patients compared with a validated oscillometric device (Microlife WatchBP Home A).<h4>Methods</h4>In this feasibility method-comparison study, 30 hypertensive patients attended four visits over 6 weeks. At each visit, BP was estimated as the median of 5-7 consecutive measurements obtained with the cuff-based (Cuff BP) and cuffless (PPG BP) devices. Between-visit systolic and diastolic BP changes (ΔSBP, ΔDBP) were compared between devices. Concordance rate (CR), defined as the percentage of significant BP changes (ΔSBP >15 mmHg, ΔDBP >10 mmHg) showing the same direction with both devices, was also assessed.<h4>Results</h4>Thirty participants (18 women; age 54 ± 17 years; BMI 29.2 ± 5.5 kg/m²) were included. Differences between devices were 0.2 ± 12.8 mmHg for ΔSBP and -0.1 ± 7.4 mmHg for ΔDBP. No temporal drift in differences between Cuff ΔBP and PPG ΔBP was observed over 6 weeks. CR for significant BP changes was 83% for SBP and 86% for DBP.<h4>Conclusion</h4>CSEM's wearable cuffless BP monitor provided stable BP estimation and concordant BP tracking during antihypertensive therapy. Interpretation is tempered by substantial variability of the oscillometric reference device. If confirmed in larger studies against a gold-standard reference, these findings could support the clinical acceptance of wearable cuffless BP monitoring.",
+    "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Hypertension",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DI",
+                "qualifierName": "diagnosis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Blood Pressure Determination",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IS",
+                "qualifierName": "instrumentation"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "MT",
+                "qualifierName": "methods"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Blood Pressure Monitoring, Ambulatory",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IS",
+                "qualifierName": "instrumentation"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Photoplethysmography",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IS",
+                "qualifierName": "instrumentation"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Blood Pressure"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Wearable Electronic Devices"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Photoplethysmography",
+        "Hypertension Management",
+        "Ppg",
+        "Calibration Stability",
+        "Cuffless Blood Pressure Monitoring",
+        "Change Tracking"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1080/08037051.2026.2707794"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2026-09-25",
+    "dateOfCreation": "2026-09-23",
+    "dateOfRevision": "2026-09-25",
+    "electronicPublicationDate": "2026-09-25",
+    "firstPublicationDate": "2026-09-25",
+    "firstIndexDate": "2026-09-24",
+    "hasEvaluations": "N"
+  },
+  {
     "id": "42775436",
     "source": "MED",
     "pmid": "42775436",
@@ -97,8 +407,8 @@
         "title": "Journal of basic and clinical physiology and pharmacology",
         "essn": "2191-0286",
         "issn": "0792-6855",
-        "isoabbreviation": "J Basic Clin Physiol Pharmacol",
-        "nlmid": "9101750"
+        "nlmid": "9101750",
+        "isoabbreviation": "J Basic Clin Physiol Pharmacol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -2802,8 +3112,8 @@
         "title": "Cardiology in review",
         "essn": "1538-4683",
         "issn": "1061-5377",
-        "isoabbreviation": "Cardiol Rev",
-        "nlmid": "9304686"
+        "nlmid": "9304686",
+        "isoabbreviation": "Cardiol Rev"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -3458,8 +3768,8 @@
         "title": "American journal of hypertension",
         "essn": "1941-7225",
         "issn": "0895-7061",
-        "isoabbreviation": "Am J Hypertens",
-        "nlmid": "8803676"
+        "nlmid": "8803676",
+        "isoabbreviation": "Am J Hypertens"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -4110,8 +4420,8 @@
         "title": "Chronic illness",
         "essn": "1745-9206",
         "issn": "1742-3953",
-        "isoabbreviation": "Chronic Illn",
-        "nlmid": "101253019"
+        "nlmid": "101253019",
+        "isoabbreviation": "Chronic Illn"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -4593,8 +4903,8 @@
         "title": "American journal of physiology. Cell physiology",
         "essn": "1522-1563",
         "issn": "0363-6143",
-        "isoabbreviation": "Am J Physiol Cell Physiol",
-        "nlmid": "100901225"
+        "nlmid": "100901225",
+        "isoabbreviation": "Am J Physiol Cell Physiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -5872,8 +6182,8 @@
         "title": "Turk Kardiyoloji Dernegi arsivi : Turk Kardiyoloji Derneginin yayin organidir",
         "essn": "1308-4488",
         "issn": "1016-5169",
-        "isoabbreviation": "Turk Kardiyol Dern Ars",
-        "nlmid": "9426239"
+        "nlmid": "9426239",
+        "isoabbreviation": "Turk Kardiyol Dern Ars"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -6119,8 +6429,8 @@
         "title": "Proceedings (Baylor University. Medical Center)",
         "essn": "1525-3252",
         "issn": "0899-8280",
-        "isoabbreviation": "Proc (Bayl Univ Med Cent)",
-        "nlmid": "9302033"
+        "nlmid": "9302033",
+        "isoabbreviation": "Proc (Bayl Univ Med Cent)"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -6299,8 +6609,8 @@
         "title": "Expert review of gastroenterology & hepatology",
         "essn": "1747-4132",
         "issn": "1747-4124",
-        "isoabbreviation": "Expert Rev Gastroenterol Hepatol",
-        "nlmid": "101278199"
+        "nlmid": "101278199",
+        "isoabbreviation": "Expert Rev Gastroenterol Hepatol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -7941,8 +8251,8 @@
         "title": "European journal of preventive cardiology",
         "essn": "2047-4881",
         "issn": "2047-4873",
-        "isoabbreviation": "Eur J Prev Cardiol",
-        "nlmid": "101564430"
+        "nlmid": "101564430",
+        "isoabbreviation": "Eur J Prev Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -8189,8 +8499,8 @@
         "title": "Journal of the American Geriatrics Society",
         "essn": "1532-5415",
         "issn": "0002-8614",
-        "isoabbreviation": "J Am Geriatr Soc",
-        "nlmid": "7503062"
+        "nlmid": "7503062",
+        "isoabbreviation": "J Am Geriatr Soc"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -8375,8 +8685,8 @@
         "title": "Sleep & breathing = Schlaf & Atmung",
         "essn": "1522-1709",
         "issn": "1520-9512",
-        "isoabbreviation": "Sleep Breath",
-        "nlmid": "9804161"
+        "nlmid": "9804161",
+        "isoabbreviation": "Sleep Breath"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -8523,7 +8833,7 @@
     "hasTMAccessionNumbers": "N",
     "dateOfCompletion": "2026-09-22",
     "dateOfCreation": "2026-09-22",
-    "dateOfRevision": "2026-09-22",
+    "dateOfRevision": "2026-09-25",
     "electronicPublicationDate": "2026-09-23",
     "firstPublicationDate": "2026-09-23",
     "firstIndexDate": "2026-09-23",
@@ -8605,8 +8915,8 @@
         "title": "Neurosurgical review",
         "essn": "1437-2320",
         "issn": "0344-5607",
-        "isoabbreviation": "Neurosurg Rev",
-        "nlmid": "7908181"
+        "nlmid": "7908181",
+        "isoabbreviation": "Neurosurg Rev"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -8980,8 +9290,8 @@
         "title": "Neurosurgical review",
         "essn": "1437-2320",
         "issn": "0344-5607",
-        "isoabbreviation": "Neurosurg Rev",
-        "nlmid": "7908181"
+        "nlmid": "7908181",
+        "isoabbreviation": "Neurosurg Rev"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -9145,7 +9455,7 @@
     "hasTMAccessionNumbers": "N",
     "dateOfCompletion": "2026-09-22",
     "dateOfCreation": "2026-09-22",
-    "dateOfRevision": "2026-09-22",
+    "dateOfRevision": "2026-09-25",
     "electronicPublicationDate": "2026-09-23",
     "firstPublicationDate": "2026-09-23",
     "firstIndexDate": "2026-09-23",
@@ -9289,8 +9599,8 @@
         "title": "Pediatric research",
         "essn": "1530-0447",
         "issn": "0031-3998",
-        "isoabbreviation": "Pediatr Res",
-        "nlmid": "0100714"
+        "nlmid": "0100714",
+        "isoabbreviation": "Pediatr Res"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -9394,8 +9704,8 @@
         "title": "Osong public health and research perspectives",
         "essn": "2233-6052",
         "issn": "2210-9099",
-        "isoabbreviation": "Osong Public Health Res Perspect",
-        "nlmid": "101563309"
+        "nlmid": "101563309",
+        "isoabbreviation": "Osong Public Health Res Perspect"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -9534,8 +9844,8 @@
         "title": "Clinical hemorheology and microcirculation",
         "essn": "1875-8622",
         "issn": "1386-0291",
-        "isoabbreviation": "Clin Hemorheol Microcirc",
-        "nlmid": "9709206"
+        "nlmid": "9709206",
+        "isoabbreviation": "Clin Hemorheol Microcirc"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -10881,8 +11191,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "isoabbreviation": "JACC Case Rep",
-        "nlmid": "101757292"
+        "nlmid": "101757292",
+        "isoabbreviation": "JACC Case Rep"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -11656,8 +11966,8 @@
         "title": "Turk Kardiyoloji Dernegi arsivi : Turk Kardiyoloji Derneginin yayin organidir",
         "essn": "1308-4488",
         "issn": "1016-5169",
-        "isoabbreviation": "Turk Kardiyol Dern Ars",
-        "nlmid": "9426239"
+        "nlmid": "9426239",
+        "isoabbreviation": "Turk Kardiyol Dern Ars"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -13315,6 +13625,30 @@
           "orderIn": 0
         },
         {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "F31 HL177925",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "T32 HL007344",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "R01 HL169201",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCATS NIH HHS",
+          "acronym": "TR",
+          "grantId": "UM1 TR004403",
+          "orderIn": 0
+        },
+        {
           "agency": "National Instutes of Health",
           "grantId": "NIH UM1TR004403 (UI ICTS)",
           "orderIn": 0
@@ -13389,7 +13723,7 @@
     "nihAuthMan": "N",
     "hasTMAccessionNumbers": "N",
     "dateOfCreation": "2026-09-23",
-    "dateOfRevision": "2026-09-24",
+    "dateOfRevision": "2026-09-25",
     "electronicPublicationDate": "2026-09-23",
     "firstPublicationDate": "2026-09-23",
     "firstIndexDate": "2026-09-24",
@@ -14669,7 +15003,7 @@
     "inEPMC": "Y",
     "inPMC": "Y",
     "citedByCount": 0,
-    "hasReferences": "N",
+    "hasReferences": "Y",
     "hasTextMinedTerms": "Y",
     "hasDbCrossReferences": "N",
     "hasPDF": "Y",
@@ -14682,7 +15016,7 @@
     "nihAuthMan": "N",
     "hasTMAccessionNumbers": "N",
     "dateOfCreation": "2026-09-23",
-    "dateOfRevision": "2026-09-23",
+    "dateOfRevision": "2026-09-25",
     "electronicPublicationDate": "2026-09-23",
     "firstPublicationDate": "2026-09-23",
     "firstIndexDate": "2026-09-24",
@@ -17939,8 +18273,8 @@
         "title": "American journal of hypertension",
         "essn": "1941-7225",
         "issn": "0895-7061",
-        "isoabbreviation": "Am J Hypertens",
-        "nlmid": "8803676"
+        "nlmid": "8803676",
+        "isoabbreviation": "Am J Hypertens"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -18064,8 +18398,8 @@
         "title": "Endocrine connections",
         "essn": "2049-3614",
         "issn": "2049-3614",
-        "isoabbreviation": "Endocr Connect",
-        "nlmid": "101598413"
+        "nlmid": "101598413",
+        "isoabbreviation": "Endocr Connect"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -18098,199 +18432,6 @@
           "documentStyle": "doi",
           "site": "DOI",
           "url": "https://doi.org/10.1530/EC-26-0354"
-        }
-      ]
-    },
-    "isOpenAccess": "N",
-    "inEPMC": "N",
-    "inPMC": "N",
-    "citedByCount": 0,
-    "hasReferences": "N",
-    "hasTextMinedTerms": "Y",
-    "hasDbCrossReferences": "N",
-    "hasPDF": "N",
-    "hasBook": "N",
-    "hasSuppl": "N",
-    "hasLabsLinks": "N",
-    "hasData": "N",
-    "authMan": "N",
-    "epmcAuthMan": "N",
-    "nihAuthMan": "N",
-    "hasTMAccessionNumbers": "N",
-    "dateOfCreation": "2026-09-23",
-    "dateOfRevision": "2026-09-23",
-    "electronicPublicationDate": "2026-09-23",
-    "firstPublicationDate": "2026-09-23",
-    "firstIndexDate": "2026-09-24",
-    "hasEvaluations": "N"
-  },
-  {
-    "id": "42775845",
-    "source": "MED",
-    "pmid": "42775845",
-    "doi": "10.1080/08037051.2026.2707794",
-    "title": "Long-Term Stability and Blood Pressure Change Tracking with a Cuffless Wearable Device in Hypertensive Patients.",
-    "authorString": "Proença M, Rigon PA, Bonnier G, Ferrario D, Zahnd J, Lemay M, Wuerzner G.",
-    "authorList": {
-      "author": [
-        {
-          "fullName": "Proença M",
-          "lastName": "Proença",
-          "firstName": "Martin",
-          "initials": "M",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Rigon PA",
-          "lastName": "Rigon",
-          "firstName": "Pierre-Antonin",
-          "initials": "PA",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "Service of nephrology and hypertension, Lausanne University Hospital and University of Lausanne, Lausanne, Switzerland."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Bonnier G",
-          "lastName": "Bonnier",
-          "firstName": "Guillaume",
-          "initials": "G",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Ferrario D",
-          "lastName": "Ferrario",
-          "firstName": "Damien",
-          "initials": "D",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Zahnd J",
-          "lastName": "Zahnd",
-          "firstName": "Joachim",
-          "initials": "J",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "Service of nephrology and hypertension, Lausanne University Hospital and University of Lausanne, Lausanne, Switzerland."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Lemay M",
-          "lastName": "Lemay",
-          "firstName": "Mathieu",
-          "initials": "M",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Wuerzner G",
-          "lastName": "Wuerzner",
-          "firstName": "Grégoire",
-          "initials": "G",
-          "authorId": {
-            "type": "ORCID",
-            "value": "0000-0002-6424-7630"
-          },
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "Service of nephrology and hypertension, Lausanne University Hospital and University of Lausanne, Lausanne, Switzerland."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    "authorIdList": {
-      "authorId": [
-        {
-          "type": "ORCID",
-          "value": "0000-0002-6424-7630"
-        }
-      ]
-    },
-    "journalInfo": {
-      "journalIssueId": 4251851,
-      "dateOfPublication": "2026 Sep",
-      "monthOfPublication": 9,
-      "yearOfPublication": 2026,
-      "journal": {
-        "medlineAbbreviation": "Blood Press",
-        "title": "Blood pressure",
-        "essn": "1651-1999",
-        "issn": "0803-7051",
-        "isoabbreviation": "Blood Press",
-        "nlmid": "9301454"
-      },
-      "printPublicationDate": "2026-09-01"
-    },
-    "pubYear": "2026",
-    "pageInfo": "1-13",
-    "abstractText": "<h4>Background</h4>Demonstrating reliable tracking of short- and long-term blood pressure (BP) changes is one of the conditions necessary for clinical use of cuffless devices requested by international hypertension societies. This study evaluates the stability of BP estimation over a 6-week period using CSEM's wearable cuffless photoplethysmographic (PPG) BP monitor, and its ability in tracking BP changes in hypertensive patients when compared to a validated oscillometric monitor (Microlife WatchBP Home A).<h4>Methods</h4>In this method-comparison/feasibility study, thirty patients attended 4 visits over six weeks. During visits, BP was estimated as the median of 5 to 7 consecutive measurements performed with both the cuff-based (Cuff BP) and cuffless (PPG BP) devices. Between-visit systolic and diastolic BP changes (ΔSBP, ΔDBP) were assessed and compared using the mean ± standard deviation of the differences between devices to evaluate PPG BP stability. The concordance rate (CR), defined as the percentage of significant BP changes (ΔSBP > 15 mmHg, ΔDBP > 10 mmHg) showing a coherent direction between devices, was also assessed.<h4>Results</h4>Thirty hypertensive participants (18/30 female; 54 ± 17years; BMI 29.2 ± 5.5kg/m<sup>2</sup>) were included. Mean differences between Cuff ΔBP and PPG ΔBP did not differ significantly over time, suggesting stability of PPG BP up to six weeks. Differences between Cuff BP and PPG BP were 0.2 ± 12.8mmHg for ΔSBP and -0.1 ± 7.4mmHg for ΔDBP. The CR for significant BP changes was 83% for SBP and 86% for DBP.<h4>Conclusion</h4>CSEM's wearable PPG-based cuffless BP monitor appears to provide stable BP estimation and concordant tracking of week-to-month BP changes during antihypertensive therapy when compared with an oscillometric device. High within-visit variability of the oscillometric device despite a standard protocol likely limited the comparison between both methods. These results, if confirmed in a larger sample and against a gold-standard reference, could support the clinical acceptance of PPG-based wearable BP monitors.",
-    "affiliation": "CSEM, Swiss Center for Electronics and Microtechnology, Bern, Switzerland.",
-    "publicationStatus": "aheadofprint",
-    "language": "eng",
-    "pubModel": "Print-Electronic",
-    "pubTypeList": {
-      "pubType": [
-        "Journal Article"
-      ]
-    },
-    "keywordList": {
-      "keyword": [
-        "Photoplethysmography",
-        "Hypertension Management",
-        "Ppg",
-        "Calibration Stability",
-        "(5-10 Keyword): Cuffless Blood Pressure Monitoring",
-        "Change Tracking"
-      ]
-    },
-    "subsetList": {
-      "subset": [
-        {
-          "code": "IM",
-          "name": "Index Medicus"
-        }
-      ]
-    },
-    "fullTextUrlList": {
-      "fullTextUrl": [
-        {
-          "availability": "Subscription required",
-          "availabilityCode": "S",
-          "documentStyle": "doi",
-          "site": "DOI",
-          "url": "https://doi.org/10.1080/08037051.2026.2707794"
         }
       ]
     },
@@ -18528,8 +18669,8 @@
         "title": "American journal of physiology. Heart and circulatory physiology",
         "essn": "1522-1539",
         "issn": "0363-6135",
-        "isoabbreviation": "Am J Physiol Heart Circ Physiol",
-        "nlmid": "100901228"
+        "nlmid": "100901228",
+        "isoabbreviation": "Am J Physiol Heart Circ Physiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -18735,8 +18876,8 @@
         "title": "Romanian journal of internal medicine = Revue roumaine de medecine interne",
         "essn": "2501-062X",
         "issn": "1220-4749",
-        "isoabbreviation": "Rom J Intern Med",
-        "nlmid": "9304507"
+        "nlmid": "9304507",
+        "isoabbreviation": "Rom J Intern Med"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -19962,8 +20103,8 @@
         "title": "Kardiologia polska",
         "essn": "1897-4279",
         "issn": "0022-9032",
-        "isoabbreviation": "Kardiol Pol",
-        "nlmid": "0376352"
+        "nlmid": "0376352",
+        "isoabbreviation": "Kardiol Pol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -21200,8 +21341,8 @@
         "title": "JACC. Clinical electrophysiology",
         "essn": "2405-5018",
         "issn": "2405-500X",
-        "isoabbreviation": "JACC Clin Electrophysiol",
-        "nlmid": "101656995"
+        "nlmid": "101656995",
+        "isoabbreviation": "JACC Clin Electrophysiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -22781,8 +22922,8 @@
         "title": "European journal of preventive cardiology",
         "essn": "2047-4881",
         "issn": "2047-4873",
-        "isoabbreviation": "Eur J Prev Cardiol",
-        "nlmid": "101564430"
+        "nlmid": "101564430",
+        "isoabbreviation": "Eur J Prev Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -107032,8 +107173,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "isoabbreviation": "Circ Heart Fail",
-        "nlmid": "101479941"
+        "nlmid": "101479941",
+        "isoabbreviation": "Circ Heart Fail"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -107794,8 +107935,8 @@
         "title": "Circulation. Heart failure",
         "essn": "1941-3297",
         "issn": "1941-3289",
-        "isoabbreviation": "Circ Heart Fail",
-        "nlmid": "101479941"
+        "nlmid": "101479941",
+        "isoabbreviation": "Circ Heart Fail"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -119725,8 +119866,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -119922,8 +120063,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -130507,7 +130648,7 @@
     "source": "MED",
     "pmid": "42764110",
     "doi": "10.1016/j.hrthm.2026.08.047",
-    "title": "Integrated Hemodynamic Sensing, Electrical Sensing, and Ventricular Pacing from a Novel Substernal Lead: An Acute Human Study.",
+    "title": "Integrated hemodynamic sensing, electrical sensing, and ventricular pacing from a novel substernal lead: An acute human study.",
     "authorString": "Cai C, Gu K, Gaskill B, Ding X, Li Y, Chen M.",
     "authorList": {
       "author": [
@@ -130545,7 +130686,7 @@
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
-                "affiliation": "North American EP Technology, LLC, Edina, MN, USA."
+                "affiliation": "North American EP Technology, LLC, Edina, Minnesota."
               }
             ]
           }
@@ -130571,7 +130712,7 @@
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
-                "affiliation": "North American EP Technology, LLC, Edina, MN, USA; Yixiang-Zhonghui (Suzhou) Med-tech LLC, Suzhou, China."
+                "affiliation": "North American EP Technology, LLC, Edina, Minnesota; Yixiang-Zhonghui (Suzhou) Med-tech LLC, Suzhou, China."
               }
             ]
           }
@@ -130601,14 +130742,14 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
     "pubYear": "2026",
     "pageInfo": "S1547-5271(26)02750-5",
-    "abstractText": "<h4>Background</h4>Implantable cardioverter-defibrillators (ICDs) rely primarily on electrical signals to guide therapy. Hemodynamic sensing may provide complementary information about the immediate physiologic consequences of arrhythmias.<h4>Objective</h4>Evaluate the acute feasibility and performance of a 3-dimensional substernal shock lead integrating hemodynamic sensing, electrical sensing, and ventricular pacing.<h4>Methods</h4>This prospective first-in-human feasibility study enrolled 5 patients undergoing cardiac surgery or epicardial ventricular tachycardia (VT) ablation. A substernal shock lead was temporarily placed through a percutaneous subxiphoid approach using a dedicated delivery system. Lead placement and removal, adverse events, synchronized sensor signals, surface electrocardiograms, substernal electrograms, and pacing thresholds were assessed.<h4>Results</h4>Lead placement and removal were successful in all patients without device- or procedure-related acute adverse events. Interpretable hemodynamic signals were obtained in all 5 patients and showed stable beat-to-beat temporal correspondence with the electrocardiogram and distinct rhythm-associated patterns across sinus rhythm (SR), atrial fibrillation, VT, and ventricular fibrillation (VF). All 147 VT episodes had interpretable hemodynamic-index recordings. The hemodynamic index decreased abruptly during VT and recovered after arrhythmia termination. Corresponding changes in the hemodynamic index were observed during transitions among VT, VF, and SR. Ventricular capture was achieved in all 5 patients at 11-17 V (mean, 13.8 V) at 0.5 ms.<h4>Conclusion</h4>Acute placement of this multifunctional substernal lead was feasible and enabled integrated hemodynamic and electrical sensing with acute ventricular capture. These findings provide preliminary human support for further development of physiology-guided extravascular ICD systems; chronic performance and clinical validation of the hemodynamic sensing algorithm require further study.",
+    "abstractText": "<h4>Background</h4>Implantable cardioverter defibrillators rely primarily on electrical signals to guide therapy. Hemodynamic sensing may provide complementary information about the immediate physiological consequences of arrhythmias.<h4>Objective</h4>In this study, we evaluated the acute feasibility and performance of a 3-dimensional substernal shock lead that integrates hemodynamic sensing, electrical sensing, and ventricular pacing.<h4>Methods</h4>This prospective first-in-human feasibility study enrolled 5 patients undergoing cardiac surgery or epicardial ventricular tachycardia (VT) ablation. A substernal shock lead was temporarily placed through a percutaneous subxiphoid approach using a dedicated delivery system. Lead placement and removal, adverse events, synchronized sensor signals, surface electrocardiograms, substernal electrograms, and pacing thresholds were assessed.<h4>Results</h4>Lead placement and removal were successful in all patients without device- or procedure-related acute adverse events. Interpretable hemodynamic signals were obtained in all 5 patients and showed stable beat-to-beat temporal correspondence with the electrocardiogram and distinct rhythm-associated patterns across sinus rhythm, atrial fibrillation, VT, and ventricular fibrillation. All 147 VT episodes had interpretable hemodynamic-index recordings. The hemodynamic index decreased abruptly during VT and recovered after arrhythmia termination. Corresponding changes in the hemodynamic index were observed during transitions among VT, ventricular fibrillation, and sinus rhythm. Ventricular capture was achieved in all 5 patients at 11-17 V (mean, 13.8 V) at 0.5 ms.<h4>Conclusion</h4>Acute placement of this multifunctional substernal lead was feasible and enabled integrated hemodynamic and electrical sensing with acute ventricular capture. These findings provide preliminary human support for further development of physiology-guided extravascular implantable cardioverter defibrillator systems; chronic performance and clinical validation of the hemodynamic sensing algorithm require further study.",
     "affiliation": "Division of Cardiology, The First Affiliated Hospital with Nanjing Medical University, Nanjing, China.",
     "publicationStatus": "aheadofprint",
     "language": "eng",
@@ -130651,7 +130792,7 @@
     "inPMC": "N",
     "citedByCount": 0,
     "hasReferences": "N",
-    "hasTextMinedTerms": "N",
+    "hasTextMinedTerms": "Y",
     "hasDbCrossReferences": "N",
     "hasPDF": "N",
     "hasBook": "N",
@@ -130663,7 +130804,7 @@
     "nihAuthMan": "N",
     "hasTMAccessionNumbers": "N",
     "dateOfCreation": "2026-09-20",
-    "dateOfRevision": "2026-09-20",
+    "dateOfRevision": "2026-09-25",
     "electronicPublicationDate": "2026-09-20",
     "firstPublicationDate": "2026-09-20",
     "firstIndexDate": "2026-09-21",
@@ -135530,8 +135671,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -146878,8 +147019,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -153395,8 +153536,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -159840,8 +159981,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -162190,8 +162331,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
-        "nlmid": "101573788"
+        "nlmid": "101573788",
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -164613,8 +164754,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -164669,6 +164810,151 @@
     "electronicPublicationDate": "2026-09-19",
     "firstPublicationDate": "2026-09-19",
     "firstIndexDate": "2026-09-20",
+    "hasEvaluations": "N"
+  },
+  {
+    "id": "42759669",
+    "source": "MED",
+    "pmid": "42759669",
+    "doi": "10.1016/j.ijcard.2026.134935",
+    "title": "Kirenol attenuates heart failure by activating the Nrf2/HO-1 pathway in macrophages.",
+    "authorString": "Wang HH, Song DD, Wang FY, Wang XM, Ren K.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Wang HH",
+          "lastName": "Wang",
+          "firstName": "Hui-Hui",
+          "initials": "HH",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Song DD",
+          "lastName": "Song",
+          "firstName": "Dan-Dan",
+          "initials": "DD",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang FY",
+          "lastName": "Wang",
+          "firstName": "Feng-Yi",
+          "initials": "FY",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "College of Acupuncture, Tuina and Rehabilitation, Hunan University of Chinese Medicine, Changsha 410208, Hunan, PR China."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Wang XM",
+          "lastName": "Wang",
+          "firstName": "Xiao-Mei",
+          "initials": "XM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China. Electronic address: 48128286@qq.com."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ren K",
+          "lastName": "Ren",
+          "firstName": "Kun",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China. Electronic address: kr198908@163.com."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "464",
+      "journalIssueId": 4258996,
+      "dateOfPublication": "2026 Sep",
+      "monthOfPublication": 9,
+      "yearOfPublication": 2026,
+      "journal": {
+        "medlineAbbreviation": "Int J Cardiol",
+        "title": "International journal of cardiology",
+        "essn": "1874-1754",
+        "issn": "0167-5273",
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
+      },
+      "printPublicationDate": "2026-09-01"
+    },
+    "pubYear": "2026",
+    "pageInfo": "134935",
+    "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China.",
+    "publicationStatus": "aheadofprint",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Letter"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.ijcard.2026.134935"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "N",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2026-09-18",
+    "dateOfRevision": "2026-09-24",
+    "electronicPublicationDate": "2026-09-19",
+    "firstPublicationDate": "2026-09-19",
+    "firstIndexDate": "2026-09-19",
     "hasEvaluations": "N"
   },
   {
@@ -168896,8 +169182,8 @@
         "title": "Circulation. Arrhythmia and electrophysiology",
         "essn": "1941-3084",
         "issn": "1941-3149",
-        "isoabbreviation": "Circ Arrhythm Electrophysiol",
-        "nlmid": "101474365"
+        "nlmid": "101474365",
+        "isoabbreviation": "Circ Arrhythm Electrophysiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -185248,8 +185534,8 @@
         "title": "Circulation. Arrhythmia and electrophysiology",
         "essn": "1941-3084",
         "issn": "1941-3149",
-        "isoabbreviation": "Circ Arrhythm Electrophysiol",
-        "nlmid": "101474365"
+        "nlmid": "101474365",
+        "isoabbreviation": "Circ Arrhythm Electrophysiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -189960,8 +190246,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -200031,8 +200317,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "isoabbreviation": "Heart Rhythm",
-        "nlmid": "101200317"
+        "nlmid": "101200317",
+        "isoabbreviation": "Heart Rhythm"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -206781,8 +207067,8 @@
         "title": "Circulation. Arrhythmia and electrophysiology",
         "essn": "1941-3084",
         "issn": "1941-3149",
-        "isoabbreviation": "Circ Arrhythm Electrophysiol",
-        "nlmid": "101474365"
+        "nlmid": "101474365",
+        "isoabbreviation": "Circ Arrhythm Electrophysiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -251857,8 +252143,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "isoabbreviation": "Am Heart J",
-        "nlmid": "0370465"
+        "nlmid": "0370465",
+        "isoabbreviation": "Am Heart J"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -251889,150 +252175,6 @@
           "documentStyle": "doi",
           "site": "DOI",
           "url": "https://doi.org/10.1016/j.ahj.2026.107610"
-        }
-      ]
-    },
-    "isOpenAccess": "N",
-    "inEPMC": "N",
-    "inPMC": "N",
-    "citedByCount": 0,
-    "hasReferences": "N",
-    "hasTextMinedTerms": "N",
-    "hasDbCrossReferences": "N",
-    "hasPDF": "N",
-    "hasBook": "N",
-    "hasSuppl": "N",
-    "hasLabsLinks": "N",
-    "hasData": "N",
-    "authMan": "N",
-    "epmcAuthMan": "N",
-    "nihAuthMan": "N",
-    "hasTMAccessionNumbers": "N",
-    "dateOfCreation": "2026-09-18",
-    "dateOfRevision": "2026-09-18",
-    "electronicPublicationDate": "2026-09-18",
-    "firstPublicationDate": "2026-09-18",
-    "firstIndexDate": "2026-09-19",
-    "hasEvaluations": "N"
-  },
-  {
-    "id": "42759669",
-    "source": "MED",
-    "pmid": "42759669",
-    "doi": "10.1016/j.ijcard.2026.134935",
-    "title": "Kirenol attenuates heart failure by activating the Nrf2/HO-1 pathway in macrophages.",
-    "authorString": "Wang HH, Song DD, Wang FY, Wang XM, Ren K.",
-    "authorList": {
-      "author": [
-        {
-          "fullName": "Wang HH",
-          "lastName": "Wang",
-          "firstName": "Hui-Hui",
-          "initials": "HH",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Song DD",
-          "lastName": "Song",
-          "firstName": "Dan-Dan",
-          "initials": "DD",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Wang FY",
-          "lastName": "Wang",
-          "firstName": "Feng-Yi",
-          "initials": "FY",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "College of Acupuncture, Tuina and Rehabilitation, Hunan University of Chinese Medicine, Changsha 410208, Hunan, PR China."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Wang XM",
-          "lastName": "Wang",
-          "firstName": "Xiao-Mei",
-          "initials": "XM",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China. Electronic address: 48128286@qq.com."
-              }
-            ]
-          }
-        },
-        {
-          "fullName": "Ren K",
-          "lastName": "Ren",
-          "firstName": "Kun",
-          "initials": "K",
-          "authorAffiliationDetailsList": {
-            "authorAffiliation": [
-              {
-                "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China. Electronic address: kr198908@163.com."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    "journalInfo": {
-      "journalIssueId": 4252388,
-      "dateOfPublication": "2026 Sep",
-      "monthOfPublication": 9,
-      "yearOfPublication": 2026,
-      "journal": {
-        "medlineAbbreviation": "Int J Cardiol",
-        "title": "International journal of cardiology",
-        "essn": "1874-1754",
-        "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
-      },
-      "printPublicationDate": "2026-09-01"
-    },
-    "pubYear": "2026",
-    "pageInfo": "134935",
-    "affiliation": "College of Nursing, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China; Key Laboratory of Geriatric Nursing and Health, Anhui University of Chinese Medicine, Hefei 230012, Anhui, PR China.",
-    "publicationStatus": "aheadofprint",
-    "language": "eng",
-    "pubModel": "Print-Electronic",
-    "pubTypeList": {
-      "pubType": [
-        "Letter"
-      ]
-    },
-    "subsetList": {
-      "subset": [
-        {
-          "code": "IM",
-          "name": "Index Medicus"
-        }
-      ]
-    },
-    "fullTextUrlList": {
-      "fullTextUrl": [
-        {
-          "availability": "Subscription required",
-          "availabilityCode": "S",
-          "documentStyle": "doi",
-          "site": "DOI",
-          "url": "https://doi.org/10.1016/j.ijcard.2026.134935"
         }
       ]
     },
@@ -253790,8 +253932,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -255641,8 +255783,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "isoabbreviation": "Int J Cardiol",
-        "nlmid": "8200291"
+        "nlmid": "8200291",
+        "isoabbreviation": "Int J Cardiol"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -256700,8 +256842,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "nlmid": "101499602",
-        "isoabbreviation": "Circ Cardiovasc Interv"
+        "isoabbreviation": "Circ Cardiovasc Interv",
+        "nlmid": "101499602"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -266071,8 +266213,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -266738,8 +266880,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -274068,14 +274210,14 @@
     "pmid": "42754100",
     "doi": "10.1016/j.ijcard.2026.134787",
     "title": "External validation of the RAISE score for the diagnosis of transthyretin cardiac amyloidosis in patients with severe aortic stenosis. AMYLOCOR registry.",
-    "authorString": "Guerra ÁR, Ortega MD, López-Aguilera J, Fernández IG, Campos GH, Caño NA, Mesa LB, Sánchez CU, Casas JAV, Maza-Muret FR, Sánchez MA, Álvarez-Ossorio MP, Domínguez JCC, Ortiz MR, Rubio DM.",
+    "authorString": "Roldán-Guerra Á, Delgado-Ortega M, López-Aguilera J, Gallo-Fernández I, Heredia-Campos G, Aguayo-Caño N, Barreiro-Mesa L, Urbano-Sánchez C, Vallejo-Casas JA, Maza-Muret FR, Anguita-Sánchez M, Pan Álvarez-Ossorio M, Castillo-Domínguez JC, Ruiz-Ortiz M, Mesa-Rubio D.",
     "authorList": {
       "author": [
         {
-          "fullName": "Guerra ÁR",
-          "lastName": "Guerra",
-          "firstName": "Álvaro Roldán",
-          "initials": "ÁR",
+          "fullName": "Roldán-Guerra Á",
+          "lastName": "Roldán-Guerra",
+          "firstName": "Álvaro",
+          "initials": "Á",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274085,10 +274227,10 @@
           }
         },
         {
-          "fullName": "Ortega MD",
-          "lastName": "Ortega",
-          "firstName": "Mónica Delgado",
-          "initials": "MD",
+          "fullName": "Delgado-Ortega M",
+          "lastName": "Delgado-Ortega",
+          "firstName": "Mónica",
+          "initials": "M",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274111,10 +274253,10 @@
           }
         },
         {
-          "fullName": "Fernández IG",
-          "lastName": "Fernández",
-          "firstName": "Ignacio Gallo",
-          "initials": "IG",
+          "fullName": "Gallo-Fernández I",
+          "lastName": "Gallo-Fernández",
+          "firstName": "Ignacio",
+          "initials": "I",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274124,10 +274266,10 @@
           }
         },
         {
-          "fullName": "Campos GH",
-          "lastName": "Campos",
-          "firstName": "Gloria Heredia",
-          "initials": "GH",
+          "fullName": "Heredia-Campos G",
+          "lastName": "Heredia-Campos",
+          "firstName": "Gloria",
+          "initials": "G",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274137,10 +274279,10 @@
           }
         },
         {
-          "fullName": "Caño NA",
-          "lastName": "Caño",
-          "firstName": "Nerea Aguayo",
-          "initials": "NA",
+          "fullName": "Aguayo-Caño N",
+          "lastName": "Aguayo-Caño",
+          "firstName": "Nerea",
+          "initials": "N",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274150,10 +274292,10 @@
           }
         },
         {
-          "fullName": "Mesa LB",
-          "lastName": "Mesa",
-          "firstName": "Lucas Barreiro",
-          "initials": "LB",
+          "fullName": "Barreiro-Mesa L",
+          "lastName": "Barreiro-Mesa",
+          "firstName": "Lucas",
+          "initials": "L",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274163,10 +274305,10 @@
           }
         },
         {
-          "fullName": "Sánchez CU",
-          "lastName": "Sánchez",
-          "firstName": "Cristina Urbano",
-          "initials": "CU",
+          "fullName": "Urbano-Sánchez C",
+          "lastName": "Urbano-Sánchez",
+          "firstName": "Cristina",
+          "initials": "C",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274176,10 +274318,10 @@
           }
         },
         {
-          "fullName": "Casas JAV",
-          "lastName": "Casas",
-          "firstName": "Juan Antonio Vallejo",
-          "initials": "JAV",
+          "fullName": "Vallejo-Casas JA",
+          "lastName": "Vallejo-Casas",
+          "firstName": "Juan Antonio",
+          "initials": "JA",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274202,10 +274344,10 @@
           }
         },
         {
-          "fullName": "Sánchez MA",
-          "lastName": "Sánchez",
-          "firstName": "Manuel Anguita",
-          "initials": "MA",
+          "fullName": "Anguita-Sánchez M",
+          "lastName": "Anguita-Sánchez",
+          "firstName": "Manuel",
+          "initials": "M",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274215,10 +274357,10 @@
           }
         },
         {
-          "fullName": "Álvarez-Ossorio MP",
-          "lastName": "Álvarez-Ossorio",
-          "firstName": "Manuel Pan",
-          "initials": "MP",
+          "fullName": "Pan Álvarez-Ossorio M",
+          "lastName": "Pan Álvarez-Ossorio",
+          "firstName": "Manuel",
+          "initials": "M",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274228,10 +274370,10 @@
           }
         },
         {
-          "fullName": "Domínguez JCC",
-          "lastName": "Domínguez",
-          "firstName": "Juan Carlos Castillo",
-          "initials": "JCC",
+          "fullName": "Castillo-Domínguez JC",
+          "lastName": "Castillo-Domínguez",
+          "firstName": "Juan Carlos",
+          "initials": "JC",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274241,10 +274383,10 @@
           }
         },
         {
-          "fullName": "Ortiz MR",
-          "lastName": "Ortiz",
-          "firstName": "Martín Ruiz",
-          "initials": "MR",
+          "fullName": "Ruiz-Ortiz M",
+          "lastName": "Ruiz-Ortiz",
+          "firstName": "Martín",
+          "initials": "M",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274254,10 +274396,10 @@
           }
         },
         {
-          "fullName": "Rubio DM",
-          "lastName": "Rubio",
-          "firstName": "Dolores Mesa",
-          "initials": "DM",
+          "fullName": "Mesa-Rubio D",
+          "lastName": "Mesa-Rubio",
+          "firstName": "Dolores",
+          "initials": "D",
           "authorAffiliationDetailsList": {
             "authorAffiliation": [
               {
@@ -274269,7 +274411,8 @@
       ]
     },
     "journalInfo": {
-      "journalIssueId": 4252388,
+      "volume": "464",
+      "journalIssueId": 4258996,
       "dateOfPublication": "2026 Sep",
       "monthOfPublication": 9,
       "yearOfPublication": 2026,
@@ -274285,7 +274428,7 @@
     },
     "pubYear": "2026",
     "pageInfo": "134787",
-    "abstractText": "<h4>Introduction and objectives</h4>Transthyretin cardiac amyloidosis (ATTR-CA) is more prevalent among patients with severe aortic stenosis (AS). The RAISE score was developed to facilitate early identification of ATTR-CA in AS. Our main goal was to prospectively validate its discriminative performance for detecting ATTR-CA in patients with AS referred for transcatheter aortic valve replacement (TAVR).<h4>Methods</h4>Patients with AS referred for TAVR between 2021 and 2025 were prospectively included. All underwent <sup>99m</sup>technetium-diphosphonate scintigraphy. The RAISE score was calculated to evaluate its diagnostic performance, and patients with and without ATTR-CA were compared.<h4>Results</h4>Among the 340 patients analysed, we found 14 cases of ATTR-CA (4.1%). These patients were older (83.5 ± 6.7 vs. 79.1 ± 6.1 years; p = 0.014), and exhibited more pseudo-infarct patterns (50% vs. 10.3%; p = 0.001), lower left ventricular ejection fraction (50.1% ± 16.1% vs. 62.4% ± 14.1%; p = 0.002), reduced global longitudinal strain of the left ventricle (-11.4 ± 5.8 vs. -18.3 ± 5.2; p = 0.001), and impaired right ventricular free wall strain (-16.0 ± 6.9 vs. -20.9 ± 7.8; p = 0.044). They showed higher levels of troponin I (93 [48-203] vs. 23 [13-53] ng/L; p = 0.042) and N-terminal pro-brain natriuretic peptide (4643 [2951-22,252] vs. 1563 [667-4282] pg/mL; p = 0.014). A RAISE score ≥ 2 was associated with higher prevalence of ATTR-CA compared to scores of 0-1 (7.2% vs. 2.3%; p = 0.044). The area under the curve was 0.69 (95% CI 0.554-0.825; p = 0.016).<h4>Conclusions</h4>In our population, the RAISE score significantly predicted ATTR-CA with moderate accuracy, lower than originally reported. The prevalence of ATTR-CA was low. Patients with ATTR-CA exhibited higher biomarker levels and worse echocardiographic parameters.",
+    "abstractText": "<h4>Introduction and objectives</h4>Transthyretin cardiac amyloidosis (ATTR-CA) is more prevalent among patients with severe aortic stenosis (AS). The RAISE score was developed to facilitate early identification of ATTR-CA in AS. Our main goal was to prospectively validate its discriminative performance for detecting ATTR-CA in patients with AS referred for transcatheter aortic valve replacement (TAVR).<h4>Methods</h4>Patients with AS referred for TAVR between 2021 and 2025 were prospectively included. All underwent <sup>99m</sup>technetium-diphosphonate scintigraphy. The RAISE score was calculated to evaluate its diagnostic performance, and patients with and without ATTR-CA were compared.<h4>Results</h4>Among the 340 patients analysed, we found 14 cases of ATTR-CA (4.1%). These patients were older (83.5 ± 6.7 vs. 79.1 ± 6.1 years; p = 0.014), and exhibited more pseudo-infarct patterns (50% vs. 10.3%; p = 0.001), lower left ventricular ejection fraction (50.1% ± 16.1% vs. 62.4% ± 14.1%; p = 0.002), reduced global longitudinal strain of the left ventricle (-11.4 ± 5.8 vs. -18.3 ± 5.2; p = 0.001), and impaired right ventricular free wall strain (-16.0 ± 6.9 vs. -20.9 ± 7.8; p = 0.044). They showed higher levels of troponin I (93 [48-203] vs. 23 [13-53] ng/L; p = 0.042) and N-terminal pro-brain natriuretic peptide (4643 [2951-22,252] vs. 1563 [667-4282] pg/mL; p = 0.014). A RAISE score ≥ 2 was associated with higher prevalence of ATTR-CA compared to scores of 0-1 (7.2% vs. 2.3%; p = 0.044). The area under the curve was 0.69 (95% CI 0.554-0.825; p = 0.016).<h4>Conclusions</h4>In our population, the RAISE score significantly predicted ATTR-CA with moderate accuracy, lower than originally reported. The prevalence of ATTR-CA was low. Patients with ATTR-CA exhibited higher biomarker levels and worse echocardiographic parameters.",
     "affiliation": "Department of Cardiology, Reina Sofía University Hospital, Córdoba, Spain; University of Córdoba, Córdoba, Spain.",
     "publicationStatus": "aheadofprint",
     "language": "eng",
@@ -274327,7 +274470,7 @@
     "inPMC": "N",
     "citedByCount": 0,
     "hasReferences": "N",
-    "hasTextMinedTerms": "N",
+    "hasTextMinedTerms": "Y",
     "hasDbCrossReferences": "N",
     "hasPDF": "N",
     "hasBook": "N",
@@ -274339,7 +274482,7 @@
     "nihAuthMan": "N",
     "hasTMAccessionNumbers": "N",
     "dateOfCreation": "2026-09-17",
-    "dateOfRevision": "2026-09-17",
+    "dateOfRevision": "2026-09-24",
     "electronicPublicationDate": "2026-09-17",
     "firstPublicationDate": "2026-09-17",
     "firstIndexDate": "2026-09-18",
@@ -280153,8 +280296,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298063,8 +298206,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298202,8 +298345,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298348,8 +298491,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "nlmid": "101499602",
-        "isoabbreviation": "Circ Cardiovasc Interv"
+        "isoabbreviation": "Circ Cardiovasc Interv",
+        "nlmid": "101499602"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -298527,8 +298670,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -300211,8 +300354,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -302117,8 +302260,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -303962,8 +304105,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -304298,8 +304441,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -305118,8 +305261,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -310017,8 +310160,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -314932,8 +315075,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -315123,8 +315266,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -329008,8 +329151,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -329163,8 +329306,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -329417,8 +329560,8 @@
         "title": "Circulation. Arrhythmia and electrophysiology",
         "essn": "1941-3084",
         "issn": "1941-3149",
-        "nlmid": "101474365",
-        "isoabbreviation": "Circ Arrhythm Electrophysiol"
+        "isoabbreviation": "Circ Arrhythm Electrophysiol",
+        "nlmid": "101474365"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -338525,8 +338668,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -342471,8 +342614,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -342599,8 +342742,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -352740,8 +352883,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -357442,8 +357585,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -360090,8 +360233,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -384622,8 +384765,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -384665,6 +384808,17 @@
         }
       ]
     },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "42789526",
+          "reference": "Eur Heart J Cardiovasc Imaging. 2026 Sep 25:jeag256. doi: 10.1093/ehjci/jeag256.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
     "isOpenAccess": "N",
     "inEPMC": "N",
     "inPMC": "N",
@@ -384682,7 +384836,7 @@
     "nihAuthMan": "N",
     "hasTMAccessionNumbers": "N",
     "dateOfCreation": "2026-09-15",
-    "dateOfRevision": "2026-09-22",
+    "dateOfRevision": "2026-09-25",
     "electronicPublicationDate": "2026-09-15",
     "firstPublicationDate": "2026-09-15",
     "firstIndexDate": "2026-09-16",
@@ -386091,8 +386245,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "nlmid": "101499602",
-        "isoabbreviation": "Circ Cardiovasc Interv"
+        "isoabbreviation": "Circ Cardiovasc Interv",
+        "nlmid": "101499602"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -391648,8 +391802,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-09-01"
     },
@@ -406639,8 +406793,8 @@
         "title": "Circulation. Cardiovascular interventions",
         "essn": "1941-7632",
         "issn": "1941-7640",
-        "nlmid": "101499602",
-        "isoabbreviation": "Circ Cardiovasc Interv"
+        "isoabbreviation": "Circ Cardiovasc Interv",
+        "nlmid": "101499602"
       },
       "printPublicationDate": "2026-09-01"
     },
