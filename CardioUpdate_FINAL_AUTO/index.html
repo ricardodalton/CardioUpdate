@@ -226,8 +226,15 @@ function renderHome(){
  renderWeeklyRemainder();
 }
 function weeklyStudies(){ return STUDIES; }
+function currentCycleBounds(now=new Date()){
+  const d=new Date(now); d.setHours(0,0,0,0);
+  const daysSinceSaturday=(d.getDay()+1)%7;
+  const start=new Date(d); start.setDate(d.getDate()-daysSinceSaturday);
+  const end=new Date(d); end.setDate(d.getDate()+1);
+  return {start,end};
+}
 function weeklyRemainder(){
-  const {start,end}=editionBounds();
+  const {start,end}=currentCycleBounds();
   const keyOf=x=>String((x&&x.pmid)||(x&&x.doi)||(x&&x.url)||(x&&x.title)||'').trim().toLowerCase();
   const dateValue=x=>(x&&x.date)||(x&&x.firstPublicationDate)||(x&&x.firstIndexDate)||'';
   const selectedKeys=new Set((STUDIES||[]).map(keyOf));
@@ -299,6 +306,19 @@ function openTopic(name){let a=areaOf(name), arr=STUDIES.filter(s=>s.area===name
 function renderGuides(){document.getElementById('guideLayout').innerHTML=GUIDES.map(g=>`<article class="guide"><div class="issueTag" style="background:#17809a">${esc(g.area)}</div><h3>${esc(g.title)}</h3><p>${esc(g.summary)}</p><a href="${g.url}" target="_blank" rel="noopener">Abrir fuente oficial ↗</a></article>`).join('')}
 function renderFavs(){let a=STUDIES.filter(s=>favs().includes(s.id));document.getElementById('favFeed').innerHTML=a.length?a.map(feedItem).join(''):'<div class="empty">Todavía no guardaste ningún trabajo.</div>'}
 function clearFavs(){saveFavs([]);renderFavs()}
+function cleanAbstractHtml(v){
+  const d=document.createElement('div'); d.innerHTML=String(v||'');
+  return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();
+}
+function originalAbstractFor(s){
+  if(s.abstract_en){
+    if(Array.isArray(s.abstract_en)) return s.abstract_en.map(x=>Array.isArray(x)?x[1]:x).filter(Boolean).join(' ');
+    return String(s.abstract_en);
+  }
+  const same=(a,b)=>String(a||'').trim().toLowerCase()===String(b||'').trim().toLowerCase();
+  const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
+  return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
+}
 function cleanAbstractHtml(v){
   const d=document.createElement('div'); d.innerHTML=String(v||'');
   return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();
