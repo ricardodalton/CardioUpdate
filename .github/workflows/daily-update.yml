@@ -48,6 +48,8 @@ jobs:
         working-directory: CardioUpdate_FINAL_AUTO
         run: python scripts/migrate_daily_briefing.py
       - name: Generate daily briefing
+        # A transient briefing failure must not block the independent study pipeline.
+        continue-on-error: true
         working-directory: CardioUpdate_FINAL_AUTO
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

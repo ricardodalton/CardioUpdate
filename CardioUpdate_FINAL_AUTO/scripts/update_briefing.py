@@ -132,11 +132,18 @@ def main():
                 k=key(x)
                 if k not in found or (not found[k].get('abstractText') and x.get('abstractText')):
                     found[k]=x
-    if not found:raise RuntimeError('No se pudo recuperar evidencia de PubMed ni Europe PMC: '+', '.join(failures))
+    if not found:
+        print('No se pudo recuperar evidencia de PubMed ni Europe PMC; se conserva el briefing anterior. '
+              + ', '.join(failures))
+        return
     pool=sorted(found.values(),key=score,reverse=True)
-    if not os.getenv('OPENAI_API_KEY'):raise RuntimeError('Falta OPENAI_API_KEY: se conserva el briefing anterior.')
+    if not os.getenv('OPENAI_API_KEY'):
+        print('Falta OPENAI_API_KEY: se conserva el briefing anterior.')
+        return
     items=ai_items(pool)
-    if not items:raise RuntimeError('No se generaron noticias válidas: se conserva el briefing anterior.')
+    if not items:
+        print('No se generaron noticias válidas: se conserva el briefing anterior.')
+        return
     try:hist=json.loads(OUT.read_text(encoding='utf-8'))
     except (OSError,ValueError):hist=[]
     today_obj=date.today(); today=today_obj.isoformat()
