@@ -5,6 +5,8 @@ Esta versión separa completamente la interfaz de la evidencia.
 ## Cómo funciona
 - `index.html`: interfaz fija.
 - `data/studies.json`: base de estudios.
+- `data/candidates.json`: pool técnico de candidatos para la selección del viernes.
+- `data/weekly_remainder.json`: bibliografía liviana del ciclo sábado–viernes que consume la interfaz.
 - `data/guides.json`: guías.
 - `data/areas.json`: áreas.
 - `scripts/update_studies.py`: búsqueda diaria en Europe PMC.

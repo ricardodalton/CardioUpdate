@@ -35,6 +35,7 @@ from ai_analysis import build_ai_analysis
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "studies.json"
 CANDIDATES = ROOT / "data" / "candidates.json"
+REMAINDER = ROOT / "data" / "weekly_remainder.json"
 META = ROOT / "data" / "meta.json"
 EPMC_API = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 CROSSREF_API = "https://api.crossref.org/works/"
@@ -44,6 +45,10 @@ MAX_WEEKLY = int(os.environ.get("CARDIOUPDATE_MAX_WEEKLY", "30"))
 MAX_RELATED = int(os.environ.get("CARDIOUPDATE_MAX_RELATED", "6"))
 TRANSLATE = os.environ.get("CARDIOUPDATE_TRANSLATE", "1") != "0"
 FORCE_PUBLISH = os.environ.get("CARDIOUPDATE_FORCE_PUBLISH", "0") == "1"
+DISCOVERY_LOOKBACK_DAYS = max(1, int(os.environ.get("CARDIOUPDATE_DISCOVERY_LOOKBACK_DAYS", "7")))
+CANDIDATE_RETENTION_DAYS = max(14, int(os.environ.get("CARDIOUPDATE_CANDIDATE_RETENTION_DAYS", "35")))
+DETECTED_AT = "cardioupdate_detected_at"
+LAST_SEEN_AT = "cardioupdate_last_seen_at"
 
 JOURNAL_WEIGHTS = {
     "new england journal of medicine": 7, "n engl j med": 7,
@@ -194,23 +199,41 @@ def epmc_search(query: str, page_size: int = 40):
     return []
 
 
-def fetch_recent():
-    today = date.today(); start = today - timedelta(days=3)
+def pipeline_today() -> date:
+    """Return the pipeline date, with an override for deterministic tests/recovery runs."""
+    override = os.environ.get("CARDIOUPDATE_TODAY", "").strip()
+    if override:
+        return date.fromisoformat(override)
+    return datetime.now(timezone.utc).date()
+
+
+def fetch_recent(today: date | None = None):
+    today = today or pipeline_today()
+    published_start = today - timedelta(days=3)
+    indexed_start = today - timedelta(days=DISCOVERY_LOOKBACK_DAYS)
     groups = ["cardiovascular OR cardiac OR coronary OR myocardial", '"heart failure" OR "atrial fibrillation" OR hypertension', "atherosclerosis OR valvular OR cardiomyopathy", '"peripheral artery" OR pericarditis OR aortic', '"congenital heart" OR fontan OR "tetralogy of fallot" OR coarctation OR "adult congenital"']
     results = {}
     for terms in groups:
-        q = f'FIRST_PDATE:[{start.isoformat()} TO {today.isoformat()}] AND ({terms}) sort_date:y'
-        for item in epmc_search(q, 100):
-            key = candidate_key(item)
-            if key: results[key] = item
-        time.sleep(.5)
-    if not results: raise RuntimeError("Europe PMC no respondió después de los reintentos.")
+        # FIRST_PDATE finds genuinely recent publications. CREATION_DATE also
+        # catches citations that Europe PMC indexed today with an older journal
+        # date; those were the records silently missed by the former pipeline.
+        queries = (
+            (f'FIRST_PDATE:[{published_start.isoformat()} TO {today.isoformat()}] AND ({terms}) sort_date:y', 100),
+            (f'CREATION_DATE:[{indexed_start.isoformat()} TO {today.isoformat()}] AND ({terms}) sort_date:y', 250),
+        )
+        for query, page_size in queries:
+            for item in epmc_search(query, page_size):
+                key = candidate_key(item)
+                if key: results[key] = item
+            time.sleep(.5)
+    if not results:
+        print("Europe PMC: no se detectaron registros nuevos en la ventana consultada.")
     return list(results.values())
 
 
 def candidate_key(item: dict) -> str:
-    if item.get("doi"): return "doi:" + norm(item["doi"])
     if item.get("pmid"): return "pmid:" + norm(item["pmid"])
+    if item.get("doi"): return "doi:" + norm(item["doi"])
     title = norm(item.get("title", "")); return "title:" + title if title else ""
 
 
@@ -221,28 +244,121 @@ def paper_date(item: dict):
 
 
 def load_json(path: Path, default):
-    try: return json.loads(path.read_text(encoding="utf-8"))
-    except Exception: return default
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return default
+    except (OSError, json.JSONDecodeError) as exc:
+        # A damaged candidates file must stop the run. Treating it as [] would
+        # overwrite the last valid pool and make "Resto de estudios" disappear.
+        raise RuntimeError(f"No se pudo leer {path.name}; se conserva el archivo previo: {exc}") from exc
 
 
-def save_json(path: Path, value): path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
+def save_json(path: Path, value):
+    """Write JSON atomically so an interrupted action cannot leave an empty file."""
+    temporary = path.with_name(path.name + ".tmp")
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(temporary, path)
 
 
-def merge_candidate_pool(pool: list[dict], recent: list[dict]):
-    merged = {candidate_key(x): x for x in pool if candidate_key(x)}
+def source_tracking_date(item: dict):
+    for key in (DETECTED_AT, "firstIndexDate", "dateOfCreation", "firstPublicationDate", "date"):
+        raw = str(item.get(key) or "")[:10]
+        try:
+            return date.fromisoformat(raw)
+        except ValueError:
+            continue
+    return None
+
+
+def compact_candidate(item: dict):
+    """Keep only fields used by ranking and Friday issue generation."""
+    fields = (
+        "id", "source", "pmid", "pmcid", "doi", "title", "authorString",
+        "journalTitle", "journalInfo", "pubTypeList", "abstractText",
+        "firstPublicationDate", "firstIndexDate", "electronicPublicationDate",
+        "pubYear", "publicationStatus", "citedByCount", "url", "date",
+        DETECTED_AT, LAST_SEEN_AT,
+    )
+    return {key: item[key] for key in fields if item.get(key) not in (None, "", [], {})}
+
+
+def merge_candidate_pool(pool: list[dict], recent: list[dict], today: date | None = None):
+    today = today or pipeline_today()
+    today_iso = today.isoformat()
+    merged: dict[str, dict] = {}
+    for item in pool:
+        key = candidate_key(item)
+        if not key:
+            continue
+        stored = dict(item)
+        detected = source_tracking_date(stored)
+        if detected:
+            stored[DETECTED_AT] = detected.isoformat()
+            stored.setdefault(LAST_SEEN_AT, detected.isoformat())
+        merged[key] = compact_candidate(stored)
     for x in recent:
-        if x.get("title") and candidate_key(x): merged[candidate_key(x)] = x
-    cutoff = date.today() - timedelta(days=21); kept = []
+        key = candidate_key(x)
+        if not x.get("title") or not key:
+            continue
+        previous = merged.get(key)
+        stored = {**(previous or {}), **x}
+        if previous:
+            detected = source_tracking_date(previous) or today
+        else:
+            # This is CardioUpdate's first observation, regardless of an older
+            # publisher/index date. It belongs to the active Saturday-Friday cycle.
+            detected = today
+        stored[DETECTED_AT] = detected.isoformat()
+        stored[LAST_SEEN_AT] = today_iso
+        merged[key] = compact_candidate(stored)
+    cutoff = today - timedelta(days=CANDIDATE_RETENTION_DAYS); kept = []
     for x in merged.values():
-        d = paper_date(x)
+        raw = str(x.get(LAST_SEEN_AT) or x.get(DETECTED_AT) or "")[:10]
+        try:
+            d = date.fromisoformat(raw)
+        except ValueError:
+            d = paper_date(x)
         if d is None or d >= cutoff: kept.append(x)
-    kept.sort(key=lambda x: ((paper_date(x) or date.min).isoformat(), score(x)), reverse=True); return kept
+    kept.sort(key=lambda x: (str(x.get(DETECTED_AT) or ""), (paper_date(x) or date.min).isoformat(), score(x)), reverse=True); return kept
 
 
 def edition_window(day: date):
     friday = day
     if friday.weekday() != 4: friday = day - timedelta(days=(day.weekday() - 4) % 7)
     return friday - timedelta(days=6), friday
+
+
+def collection_window(day: date):
+    """Active collection cycle: Saturday through the following Friday."""
+    saturday = day - timedelta(days=(day.weekday() - 5) % 7)
+    return saturday, saturday + timedelta(days=6)
+
+
+def build_weekly_remainder(pool: list[dict], day: date):
+    start, _ = collection_window(day)
+    items = []
+    for item in pool:
+        detected = source_tracking_date(item)
+        if detected is None or not (start <= detected <= day):
+            continue
+        if not item.get("title") or is_guideline_like(item):
+            continue
+        if not (item.get("url") or item.get("doi") or item.get("pmid") or item.get("pmcid")):
+            continue
+        items.append({
+            "title": clean_markup(item.get("title", "")),
+            "doi": item.get("doi", ""),
+            "pmid": item.get("pmid", ""),
+            "pmcid": item.get("pmcid", ""),
+            "url": original_url(item),
+            "firstPublicationDate": item.get("firstPublicationDate", ""),
+            "firstIndexDate": item.get("firstIndexDate", ""),
+            DETECTED_AT: detected.isoformat(),
+            "pubTypeList": item.get("pubTypeList") or {},
+        })
+    items.sort(key=lambda x: (x[DETECTED_AT], x.get("firstPublicationDate", ""), x["title"]), reverse=True)
+    return items
 
 
 def select_weekly(pool: list[dict], start: date, end: date):
@@ -343,11 +459,26 @@ def build_study(x: dict, sc: int):
 
 
 def main():
-    today=date.today();existing=load_json(DB,[]);pool=load_json(CANDIDATES,[]);recent=fetch_recent();pool=merge_candidate_pool(pool,recent);save_json(CANDIDATES,pool)
+    today=pipeline_today();existing=load_json(DB,[]);pool=load_json(CANDIDATES,[])
+    if not isinstance(pool,list):raise RuntimeError("candidates.json debe contener una lista; se conserva el archivo previo.")
+    previous_keys={candidate_key(x) for x in pool if candidate_key(x)}
+    recent=fetch_recent(today)
+    if not recent and not pool:raise RuntimeError("Las fuentes no devolvieron candidatos y no existe un pool previo; no se escribe candidates.json.")
+    pool=merge_candidate_pool(pool,recent,today)
+    if not pool:raise RuntimeError("La fusión produjo un pool vacío; no se reemplaza candidates.json.")
+    save_json(CANDIDATES,pool)
+    new_candidates=len({candidate_key(x) for x in recent if candidate_key(x)}-previous_keys)
+    cycle_start,cycle_end=collection_window(today)
+    remainder=build_weekly_remainder(pool,today);save_json(REMAINDER,remainder)
+    cycle_candidates=len(remainder)
+    meta=load_json(META,{})
+    meta.update({"candidate_updated_at":datetime.now(timezone.utc).isoformat(),"candidate_pool":len(pool),"new_candidates":new_candidates,"candidate_cycle_start":cycle_start.isoformat(),"candidate_cycle_end":cycle_end.isoformat(),"candidate_cycle_count":cycle_candidates})
     publish=FORCE_PUBLISH or today.weekday()==4
     if not publish:
-        print(f"CardioUpdate: {len(pool)} candidatos acumulados. Edición publicada sin cambios hasta el viernes.");return
+        save_json(META,meta)
+        print(f"CardioUpdate: {len(pool)} candidatos acumulados; {new_candidates} nuevos y {cycle_candidates} del ciclo {cycle_start} a {cycle_end}. Edición publicada sin cambios hasta el viernes.");return
     start,end=edition_window(today);selected=select_weekly(pool,start,end);existing_map={candidate_key(x):x for x in existing if candidate_key(x)};issue=[]
+    if not selected:raise RuntimeError(f"No hay estudios elegibles para la edición {start} a {end}; se conserva studies.json.")
     for x in selected:
         k=candidate_key(x);old=existing_map.get(k)
         if old and old.get("review_status")!="Revisión pendiente":
@@ -356,7 +487,7 @@ def main():
             issue.append(old)
         else:issue.append(build_study(x,score(x)))
     issue.sort(key=lambda s:((s.get("auto_score") or 0),s.get("date") or ""),reverse=True);save_json(DB,issue)
-    meta=load_json(META,{});meta.update({"updated_at":datetime.now(timezone.utc).isoformat(),"edition_start":start.isoformat(),"edition_end":end.isoformat(),"total_studies":len(issue),"candidate_pool":len(pool),"publication_mode":"weekly_friday","source":"Europe PMC + Crossref","related_evidence_enabled":True,"related_evidence_max_sources":MAX_RELATED});save_json(META,meta)
+    meta.update({"updated_at":datetime.now(timezone.utc).isoformat(),"edition_start":start.isoformat(),"edition_end":end.isoformat(),"total_studies":len(issue),"candidate_pool":len(pool),"publication_mode":"weekly_friday","source":"Europe PMC + Crossref","related_evidence_enabled":True,"related_evidence_max_sources":MAX_RELATED});save_json(META,meta)
     print(f"CardioUpdate: edición {start} a {end} publicada con {len(issue)} trabajos; {len(pool)} candidatos acumulados.")
 
 

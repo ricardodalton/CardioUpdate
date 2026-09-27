@@ -11,7 +11,7 @@ if 'BRIEFINGS=[]' not in s:
     s=s.replace('META={}, CANDIDATES=[];', 'META={}, CANDIDATES=[], BRIEFINGS=[];',1)
 fetch="fetch('data/briefings.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))"
 if fetch not in s:
-    needle="fetch('data/candidates.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))"
+    needle="fetch('data/weekly_remainder.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))"
     assert needle in s
     s=s.replace(needle,needle+',\n    '+fetch,1)
 if 'const [s,g,a,meta,candidates,briefings]' not in s:
@@ -44,7 +44,7 @@ end=s.index('  <div class="manualNote">',start)
 manual='''  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía de la actualización diaria y la revista semanal de cardiología</p>
   <p>CardioUpdate combina dos formatos complementarios: un <b>Briefing diario</b> para conocer novedades recientes y una <b>edición científica semanal</b> para revisar con mayor profundidad los estudios seleccionados. Son contenidos diferentes: el briefing puede renovarse cada mañana, mientras que la selección semanal se publica los viernes y permanece estable hasta la siguiente edición.</p>
   <h2>Portada: qué aparece y en qué orden</h2>
-  <p>La portada comienza con el <b>trabajo principal de la semana</b> y la composición de la edición; continúa con la selección editorial, las especialidades y las últimas incorporaciones. A continuación aparece el <b>Briefing diario</b>, situado inmediatamente antes de <b>Resto de estudios publicados en la última semana</b>.</p>
+  <p>La portada comienza con el <b>trabajo principal de la semana</b> y la composición de la edición; continúa con la selección editorial, las especialidades y las últimas incorporaciones. A continuación aparece el <b>Briefing diario</b>, situado inmediatamente antes del <b>Resto de estudios detectados en el ciclo sábado–viernes</b>.</p>
   <h2>Briefing diario: cómo utilizarlo</h2>
   <p>Reúne hasta <b>cinco novedades</b> de cardiología, medicina e inteligencia artificial aplicada a la salud. Cada noticia está redactada en tercera persona y se organiza en <b>Qué ocurrió</b>, <b>Por qué es relevante</b> e <b>Implicación práctica</b>. El enlace <b>Fuente original ↗</b> permite consultar la publicación de origen.</p>
   <p>Los botones con fechas permiten consultar el <b>archivo de los últimos siete briefings disponibles</b>. La fecha de cada briefing indica a qué actualización corresponde; si la generación automática falla o no encuentra material verificable, puede mantenerse una edición anterior. El briefing informa novedades: <b>no reemplaza</b> la evaluación metodológica del artículo ni la selección semanal.</p>
@@ -64,7 +64,7 @@ manual='''  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía de la act
   <h3>Abstract y análisis</h3><p>El abstract conserva el idioma original; no debe confundirse con la interpretación editorial. El análisis explica los aportes, la magnitud de los efectos, las limitaciones y las posibles implicaciones clínicas. Si la fuente no facilita el abstract, corresponde consultar el artículo original y no asumir que está completo.</p>
   <h2>Selección semanal y categorías</h2>
   <p>La edición reúne aproximadamente <b>20–30 trabajos</b> y se renueva los viernes. Las categorías <b>Practice Changer</b>, <b>Relevante</b> y <b>Seguimiento</b> ayudan a organizar la lectura; son criterios editoriales, no una sustitución de la evaluación crítica. Las barras de <b>Esta edición</b> indican la cantidad de trabajos en cada categoría y el número de guías/consensos disponibles.</p>
-  <h2>Resto de estudios publicados en la última semana</h2><p>Esta sección, ubicada <b>debajo del briefing diario</b>, contiene bibliografía adicional detectada durante el período que no integra la selección principal. Los títulos enlazan a sus fuentes originales.</p>
+  <h2>Resto de estudios detectados en el ciclo sábado–viernes</h2><p>Esta sección, ubicada <b>debajo del briefing diario</b>, contiene bibliografía adicional detectada durante el período que no integra la selección principal. Los títulos enlazan a sus fuentes originales.</p>
   <h2>Actualización y solución de problemas</h2>
   <p>El botón <b>↻ Actualizar</b> recarga la base científica. Si no aparece una nueva edición, comprobá la fecha mostrada y volvé a cargar la página. La publicación depende de que finalicen correctamente la actualización automática y el despliegue del sitio; la instalación de la app no garantiza por sí sola que el contenido ya esté publicado.</p>
   <h2>Rutina sugerida</h2>

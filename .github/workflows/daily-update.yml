@@ -63,12 +63,12 @@ jobs:
         run: python scripts/update_studies_with_pubmed.py
       - name: Validate database
         working-directory: CardioUpdate_FINAL_AUTO
-        run: python tests/test_database.py
+        run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Commit pipeline state
         run: |
           git config user.name "CardioUpdate Bot"
           git config user.email "actions@github.com"
-          git add CardioUpdate_FINAL_AUTO/index.html CardioUpdate_FINAL_AUTO/data/candidates.json CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json CardioUpdate_FINAL_AUTO/data/briefings.json
+          git add CardioUpdate_FINAL_AUTO/index.html CardioUpdate_FINAL_AUTO/data/candidates.json CardioUpdate_FINAL_AUTO/data/weekly_remainder.json CardioUpdate_FINAL_AUTO/data/studies.json CardioUpdate_FINAL_AUTO/data/meta.json CardioUpdate_FINAL_AUTO/data/briefings.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

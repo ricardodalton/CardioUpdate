@@ -80,10 +80,10 @@ def pubmed_journal_records() -> list[dict]:
     return list(found.values())
 
 
-def fetch_recent_with_pubmed() -> list[dict]:
+def fetch_recent_with_pubmed(today=None) -> list[dict]:
     thematic: list[dict] = []
     try:
-        thematic = _original_fetch_recent()
+        thematic = _original_fetch_recent(today)
     except Exception as exc:
         print(f"Europe PMC thematic search failed: {exc}")
     supplemental: list[dict] = []
@@ -99,7 +99,10 @@ def fetch_recent_with_pubmed() -> list[dict]:
         if key:
             merged[key] = item
     if not merged:
-        raise RuntimeError("Neither thematic Europe PMC nor PubMed journal discovery returned results.")
+        # A source can legitimately have no weekend additions. update_studies.main
+        # will retain the previous non-empty pool and only abort if no safe pool
+        # exists, so a quiet day can never erase candidates.json.
+        print("CardioUpdate: no new source records; the previous candidate pool will be retained.")
     print(f"CardioUpdate: {len(thematic)} thematic + {len(supplemental)} journal records; {len(merged)} unique candidates.")
     return list(merged.values())
 

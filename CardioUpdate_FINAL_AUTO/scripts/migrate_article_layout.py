@@ -32,6 +32,11 @@ s = s.replace(summary_block, '')
 
 # Detail view: never display the automatic-import warning and never show a machine-translated abstract.
 # The original indexed English abstract is recovered from candidates.json (or abstract_en when present).
+# Remove helpers from earlier runs before inserting the canonical block. The old
+# migration replaced only openStudy(), so it appended duplicate helper functions
+# on every scheduled action and made index.html grow indefinitely.
+helper_pattern = r"function cleanAbstractHtml\(v\)\{.*?\n\}\nfunction originalAbstractFor\(s\)\{.*?\n\}\n"
+s = re.sub(helper_pattern, "", s, flags=re.S)
 new_open = r'''function cleanAbstractHtml(v){
   const d=document.createElement('div'); d.innerHTML=String(v||'');
   return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();

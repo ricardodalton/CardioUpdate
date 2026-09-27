@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Maintain the weekly remainder and group its articles by publication date."""
+"""Maintain the Saturday-Friday remainder grouped by CardioUpdate detection date."""
 from pathlib import Path
 import re
 
@@ -20,9 +20,10 @@ if '#weeklyRemainder .remainderDay{' not in s:
 
 s = s.replace('let STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={}, CANDIDATES=[];', 'let STUDIES=[], ALL_STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={}, CANDIDATES=[];')
 s = s.replace('const [s,g,a,meta]=await Promise.all([', 'const [s,g,a,meta,candidates]=await Promise.all([')
+s = s.replace("fetch('data/candidates.json'+bust", "fetch('data/weekly_remainder.json'+bust")
 meta_line = "    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({}))\n"
-if meta_line in s and "fetch('data/candidates.json'+bust" not in s:
-    s = s.replace(meta_line, "    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({})),\n    fetch('data/candidates.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[])\n")
+if meta_line in s and "fetch('data/weekly_remainder.json'+bust" not in s:
+    s = s.replace(meta_line, "    fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({})),\n    fetch('data/weekly_remainder.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():[]).catch(()=>[])\n")
 replacement = 'ALL_STUDIES=Array.isArray(s)?s:[]; const weekly=selectPublishedEdition(ALL_STUDIES); STUDIES=weekly.length?weekly:ALL_STUDIES.slice(0,30); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];'
 for old in ['ALL_STUDIES=Array.isArray(s)?s:[]; STUDIES=selectPublishedEdition(ALL_STUDIES); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];', 'STUDIES=selectPublishedEdition(s); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];']:
     s = s.replace(old, replacement)
@@ -37,7 +38,7 @@ helper = r'''function currentCycleBounds(now=new Date()){
 function weeklyRemainder(){
   const {start,end}=currentCycleBounds();
   const keyOf=x=>String((x&&x.pmid)||(x&&x.doi)||(x&&x.url)||(x&&x.title)||'').trim().toLowerCase();
-  const dateValue=x=>(x&&x.date)||(x&&x.firstPublicationDate)||(x&&x.firstIndexDate)||'';
+  const dateValue=x=>(x&&x.cardioupdate_detected_at)||(x&&x.date)||(x&&x.firstPublicationDate)||(x&&x.firstIndexDate)||'';
   const selectedKeys=new Set((STUDIES||[]).map(keyOf));
   const byKey=new Map();
   [...(ALL_STUDIES||[]), ...(CANDIDATES||[])].forEach(x=>{
@@ -67,7 +68,7 @@ function renderWeeklyRemainder(){
   const items=weeklyRemainder();
   const byDay=new Map();
   items.forEach(x=>{
-    const day=String(x.date||x.firstPublicationDate||x.firstIndexDate||'').slice(0,10);
+    const day=String(x.cardioupdate_detected_at||x.date||x.firstPublicationDate||x.firstIndexDate||'').slice(0,10);
     if(!byDay.has(day)) byDay.set(day,[]);
     byDay.get(day).push(x);
   });
@@ -77,15 +78,24 @@ function renderWeeklyRemainder(){
   };
   const sections=[...byDay].map(([day,studies],index)=>`<details class="remainderDay" ${index===0?'open':''}><summary>${esc(dayLabel(day))} — ${studies.length} ${studies.length===1?'estudio':'estudios'}</summary><ol>${studies.map(x=>`<li><a href="${esc(studySourceUrl(x))}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ol></details>`).join('');
   box.innerHTML=items.length
-    ? `<div class="ruleTitle"><h2>Resto de estudios publicados en la última semana</h2><span></span></div><div class="remainderList">${sections}</div>`
-    : '';
+    ? `<div class="ruleTitle"><h2>Resto de estudios detectados en el ciclo sábado–viernes</h2><span></span></div><div class="remainderList">${sections}</div>`
+    : `<div class="ruleTitle"><h2>Resto de estudios detectados en el ciclo sábado–viernes</h2><span></span></div><div class="empty">Aún no se detectaron estudios adicionales en este ciclo.</div>`;
 }
 '''
-pattern = r'function weeklyRemainder\(\)\{.*?\n\}\nfunction studySourceUrl\(.*?\n\}\nfunction renderWeeklyRemainder\(\)\{.*?\n\}\n'
-if re.search(pattern,s,flags=re.S):
-    s = re.sub(pattern,lambda _:helper,s,count=1,flags=re.S)
-elif 'function weeklyRemainder(){' not in s:
-    s = s.replace('function weeklyStudies(){ return STUDIES; }\n','function weeklyStudies(){ return STUDIES; }\n'+helper,1)
+# Replace only the four functions owned by this migration. The previous broad
+# expression could consume renderBriefingHome() when it sat between them.
+owned_functions = (
+    r'function currentCycleBounds\(now=new Date\(\)\)\{.*?^\}\n',
+    r'function weeklyRemainder\(\)\{.*?^\}\n',
+    r'function studySourceUrl\(x\)\{.*?^\}\n',
+    r'function renderWeeklyRemainder\(\)\{.*?^\}\n',
+)
+for pattern in owned_functions:
+    s = re.sub(pattern, '', s, flags=re.S | re.M)
+anchor = 'function weeklyStudies(){ return STUDIES; }\n'
+if anchor not in s:
+    raise RuntimeError('No se encontró el punto de inserción para Resto de estudios.')
+s = s.replace(anchor, anchor + helper, 1)
 if 'id="weeklyRemainder"' not in s:
     s=s.replace('<div id="homeFeed" class="feed"></div>','<div id="homeFeed" class="feed"></div>\n <div id="weeklyRemainder"></div>',1)
 if 'renderWeeklyRemainder();' not in s[s.find('function renderHome(){'):s.find('function weeklyStudies(){')]:
@@ -93,6 +103,6 @@ if 'renderWeeklyRemainder();' not in s[s.find('function renderHome(){'):s.find('
 s=s.replace('renderHome(); renderWeeklyRemainder();','renderHome();').replace('renderHome();renderWeeklyRemainder();renderWeek();','renderHome();renderWeek();').replace("if(id==='home'){renderHome();renderWeeklyRemainder();}","if(id==='home')renderHome();")
 if s!=original:
     p.write_text(s,encoding='utf-8')
-    print('CardioUpdate: estudios complementarios agrupados por fecha de publicación.')
+    print('CardioUpdate: estudios complementarios agrupados por fecha de detección.')
 else:
     print('CardioUpdate: sin cambios pendientes.')
