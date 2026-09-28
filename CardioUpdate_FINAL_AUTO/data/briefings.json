@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-09-28",
+    "generated_at": "2026-09-28T17:50:04.895245+00:00",
+    "items": [
+      {
+        "title": "Lp(a) elevada y fenotipo de placa coronaria vulnerable: metaanálisis de OCT y angio-TC",
+        "what_happened": "Un metaanálisis de 13 estudios observacionales (6.671 pacientes con enfermedad coronaria) evaluó la asociación entre Lp(a) elevada y características de placa coronaria por OCT y angio-TC. La Lp(a) elevada se asoció con mayor probabilidad de fibroateroma de capa fina por OCT (OR 2,57; IC 95% 1,54-4,30) y de rotura de placa (OR 1,71; IC 95% 1,25-2,34). Por angio-TC, se asoció con calcificación puntiforme, signo del anillo de servilleta y placas de baja atenuación; no se observó una diferencia estadísticamente significativa en la carga total de placa.",
+        "why_relevant": "Aporta una caracterización por imagen del posible sustrato aterotrombótico asociado a Lp(a), con señal más consistente para los hallazgos de OCT. Sin embargo, la evidencia es observacional, presenta heterogeneidad relevante en algunos análisis y utiliza marcadores de imagen, no eventos clínicos. Por tanto, no demuestra que reducir Lp(a) modifique la vulnerabilidad de placa ni reduzca eventos cardiovasculares.",
+        "practical_implication": "La determinación de Lp(a) puede contribuir a refinar la evaluación del riesgo residual, especialmente en pacientes con enfermedad coronaria o antecedentes familiares sugestivos. La presencia de Lp(a) elevada debe reforzar el control intensivo de los factores causales modificables, en particular LDL-C/apoB, pero no justifica inferir beneficio clínico de tratamientos hipolipemiantes específicos para Lp(a) hasta disponer de ensayos con eventos.",
+        "source_title": "Association of Elevated Lipoprotein(a) levels with vulnerable plaque features assessed by multimodality coronary imaging in patients with coronary artery disease: A systematic review and Meta-analysis.",
+        "journal": "International journal of cardiology. Heart & vasculature",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcha.2026.102013"
+      },
+      {
+        "title": "Ejercicio supervisado en mujeres mayores: metaanálisis de ensayos aleatorizados",
+        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas encontró que el ejercicio aeróbico, de fuerza o combinado redujo triglicéridos, colesterol total, LDL-C, glucosa, proteína C reactiva y presión arterial, además de aumentar el VO2pico y reducir el porcentaje de grasa corporal. La certeza de la evidencia fue moderada para colesterol total, triglicéridos, porcentaje de grasa corporal, VO2pico y presión arterial sistólica; fue baja para otros desenlaces.",
+        "why_relevant": "Resume evidencia experimental sobre intervenciones no farmacológicas para componentes centrales de la prevención cardiovascular: presión arterial, perfil lipídico, capacidad funcional y adiposidad. Los resultados corresponden principalmente a factores de riesgo y marcadores intermedios, no a reducción demostrada de infarto, ictus o mortalidad cardiovascular.",
+        "practical_implication": "El ejercicio estructurado debe considerarse un componente terapéutico de la prevención cardiovascular en mujeres mayores, junto con el tratamiento farmacológico indicado según riesgo. La mejoría de LDL-C o presión arterial mediante ejercicio no debe utilizarse como sustituto de objetivos terapéuticos ni de fármacos con beneficio probado sobre eventos cuando estén indicados.",
+        "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
+        "journal": "Journal of the International Society of Sports Nutrition",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/15502783.2026.2675444"
+      },
+      {
+        "title": "El calcio coronario virtual en angio-TC con detector de conteo de fotones aún no sustituye al estudio sin contraste",
+        "what_happened": "En 239 pacientes sometidos a angio-TC coronaria con imágenes sin contraste verdaderas, la puntuación de calcio coronario derivada de imágenes virtuales sin contraste mostró excelente correlación con la obtenida en imágenes verdaderas sin contraste (coeficiente de correlación intraclase 0,97). No obstante, la clasificación por categorías de carga de placa presentó discrepancias iniciales: coincidió en el 67% de los casos y mejoró al 86% tras lectura consensuada.",
+        "why_relevant": "El estudio aborda una posible simplificación del uso clínico de CAC, al intentar obtenerlo de una angio-TC con contraste y potencialmente evitar una adquisición adicional. La elevada correlación de valores Agatston no garantiza equivalencia clínica cuando la decisión preventiva depende de categorías de calcio, especialmente cerca de los puntos de corte.",
+        "practical_implication": "Por el momento, las imágenes virtuales sin contraste no deben reemplazar de forma directa a la adquisición sin contraste para clasificar la carga de calcio coronario o tomar decisiones preventivas basadas en categorías de CAC. Se requieren validación técnica adicional y estudios que evalúen la concordancia en decisiones clínicas y estratificación de riesgo.",
+        "source_title": "Coronary artery calcium scoring using virtual vs. true non-contrast images from ultra-high-resolution and normal-resolution photon-counting coronary CT angiography.",
+        "journal": "European journal of radiology open",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejro.2026.100795"
+      },
+      {
+        "title": "Índice triglicéridos-glucosa y eventos cardiovasculares a largo plazo en diabetes tipo 2 sin cardiopatía coronaria clínica",
+        "what_happened": "Un análisis retrospectivo de una cohorte reclutada prospectivamente incluyó 735 personas con diabetes tipo 2, sin enfermedad coronaria conocida y con al menos un factor de riesgo adicional, todas con cuantificación de CAC basal. Durante una mediana de 16,4 años, 327 participantes presentaron un primer evento cardiovascular mayor compuesto por infarto, ictus o muerte por cualquier causa. Un índice triglicéridos-glucosa basal más elevado se asoció con mayor riesgo de eventos tras ajuste por variables demográficas, gravedad de la diabetes y CAC.",
+        "why_relevant": "El estudio evalúa eventos clínicos a largo plazo y sugiere que un marcador sencillo de resistencia a la insulina podría aportar información pronóstica adicional a la carga de calcio coronario en diabetes tipo 2. No obstante, se trata de una asociación observacional; el índice no ha demostrado ser una diana terapéutica ni que su incorporación mejore resultados clínicos.",
+        "practical_implication": "El índice triglicéridos-glucosa puede considerarse un marcador complementario de riesgo metabólico en pacientes con diabetes tipo 2, pero no debe desplazar la valoración de factores establecidos, el CAC cuando esté indicado, ni el tratamiento intensivo de LDL-C/apoB, presión arterial, glucemia y estilo de vida. No existe evidencia para tratar específicamente el índice con el objetivo de reducir eventos.",
+        "source_title": "The long-term prognostic value of triglyceride-glucose index in type 2 diabetics without clinical coronary artery disease.",
+        "journal": "Current problems in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103420"
+      }
+    ]
+  },
+  {
     "date": "2026-09-27",
     "generated_at": "2026-09-27T17:26:56.137890+00:00",
     "items": [
