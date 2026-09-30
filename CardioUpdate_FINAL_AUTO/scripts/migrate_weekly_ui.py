@@ -62,6 +62,15 @@ s = re.sub(r"function weeklyStudies\(\)\{.*?\n\}\nfunction filtered\(\)\{",
 s = s.replace("El artículo y su abstract fueron incorporados por la búsqueda diaria.",
               "El artículo y su abstract fueron incorporados por la selección semanal.")
 
+# Show complete specialty names; the internal abbreviations remain only in the
+# data schema and are no longer rendered to readers.
+s = re.sub(
+    r"function areaTile\(a\)\{.*?\}\nfunction renderHome\(\)\{",
+    "function areaTile(a){let n=countArea(a[0]);return `<div class=\"areaTile\" style=\"--c:${a[1]};background:${a[1]}\" onclick=\"openTopic('${esc(a[0])}')\"><b>${esc(a[3])}</b><small>${n? n+' trabajo'+(n>1?'s':''):'sin selección esta semana'}</small></div>`}\nfunction renderHome(){",
+    s, count=1, flags=re.S,
+)
+s = s.replace('<div class="topicCode">${a[2]}</div>', '')
+
 # In-app manual: compact ? button in the top bar, no extra bottom-nav item.
 help_css = r'''
 .helpBtn{width:38px;height:38px;border:1px solid #cfc7bd;background:#17324a;color:#fff;border-radius:50%;font-weight:900;font-size:18px;cursor:pointer;display:grid;place-items:center;flex:0 0 auto}.helpBtn:hover{background:#d51f32}.manualOverlay{display:none;position:fixed;inset:0;background:rgba(15,28,40,.62);z-index:200;padding:22px;overflow:auto}.manualOverlay.open{display:block}.manualCard{max-width:860px;margin:20px auto;background:#f6f1ea;border-top:10px solid #17324a;box-shadow:0 18px 60px rgba(0,0,0,.3);padding:28px 32px 36px;position:relative}.manualClose{position:sticky;float:right;top:8px;width:38px;height:38px;border:0;background:#17324a;color:#fff;border-radius:50%;font-size:22px;cursor:pointer}.manualCard h1{font-family:Georgia,serif;font-size:38px;margin:0 48px 5px 0;color:#17324a}.manualCard .manualSub{color:#6f7881;margin:0 0 22px}.manualCard h2{font-family:Georgia,serif;font-size:24px;color:#17324a;border-bottom:1px solid #d9d2c9;padding-bottom:6px;margin:27px 0 10px}.manualCard h3{font-size:15px;color:#d51f32;margin:18px 0 5px}.manualCard p,.manualCard li{font-size:14px;line-height:1.58;color:#45535e}.manualCard ol{padding-left:22px}.manualSequence{background:#fff;border-left:6px solid #d51f32;padding:13px 16px;font-weight:800}.manualNote{background:#fff;border:1px solid #d9d2c9;padding:15px 17px;margin-top:24px}.manualMenu{display:grid;grid-template-columns:1fr 1fr;gap:10px}.manualMenu>div{background:#fff;border:1px solid #e0d9d0;padding:12px}.manualMenu b{display:block;color:#17324a;margin-bottom:4px}@media(max-width:760px){.helpBtn{width:34px;height:34px;font-size:16px}.manualOverlay{padding:0}.manualCard{margin:0;min-height:100vh;padding:20px 17px 90px;border-top-width:7px}.manualCard h1{font-size:31px}.manualMenu{grid-template-columns:1fr}.manualCard h2{font-size:22px}.manualCard p,.manualCard li{font-size:14px}.mastActions{gap:7px}.mastActions .favCount{padding:9px 8px;font-size:11px}}

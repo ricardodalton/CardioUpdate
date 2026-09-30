@@ -95,6 +95,28 @@ def score(x):
     if x.get('source_database')=='PubMed':s+=2
     return s
 
+def parsed_ai_items(data, pool):
+    if not isinstance(data,dict) or not isinstance(data.get('items'),list):return []
+    out=[];seen=set()
+    for z in data.get('items',[]):
+        if not isinstance(z,dict):continue
+        try:
+            i=int(z.get('source_n'))
+            if i<0:continue
+            x=pool[i]
+        except (TypeError,ValueError,IndexError):continue
+        link=url(x)
+        if not link or key(x) in seen:continue
+        fields=('title','what_happened','why_relevant','practical_implication')
+        if not all(clean(z.get(field)) for field in fields):continue
+        seen.add(key(x))
+        out.append({'title':clean(z.get('title')),'what_happened':clean(z.get('what_happened')),
+            'why_relevant':clean(z.get('why_relevant')),'practical_implication':clean(z.get('practical_implication')),
+            'source_title':clean(x.get('title')),'journal':x.get('journalTitle',''),
+            'source_database':x.get('source_database','Europe PMC'),'url':link})
+        if len(out)==5:break
+    return out
+
 def ai_items(pool):
     from openai import OpenAI
     client=OpenAI(); evidence=[]
@@ -102,21 +124,36 @@ def ai_items(pool):
         evidence.append({'n':i,'title':clean(x.get('title')),'journal':x.get('journalTitle',''),
             'date':x.get('firstPublicationDate',''),'database':x.get('source_database','Europe PMC'),
             'abstract':clean(x.get('abstractText'))[:3500]})
-    prompt='''Actúa como editor científico de CardioUpdate para cardiólogos. Selecciona hasta 5 novedades científicas verificables y clínicamente importantes, dando prioridad explícita a PREVENCIÓN CARDIOVASCULAR: carga aterosclerótica por CAC e imágenes carotídeas/femorales, LDL y exposición acumulada, apoB, Lp(a), dislipidemias, hipertensión y prevención coronaria primaria/secundaria. Prioriza ensayos clínicos, metaanálisis rigurosos, guías y resultados clínicos frente a hipótesis y biomarcadores. IA médica y cardiología general solo si aportan un avance excepcional; no rellenes con noticias irrelevantes. No confundas fecha de indexación con publicación ni presentes revisiones antiguas como novedades. Redacta TODO en español y EN TERCERA PERSONA. Para cada noticia devuelve title, what_happened, why_relevant, practical_implication y source_n. Distingue evidencia observacional de causal y resultados sustitutos de eventos clínicos. No inventes datos, cifras, conclusiones ni fuentes ausentes. No repitas artículos. Devuelve JSON puro con clave items.'''
-    resp=client.responses.create(model=MODEL,input=prompt+'\nEVIDENCIA:\n'+json.dumps(evidence,ensure_ascii=False),
-        text={'format':{'type':'json_object'}})
-    data=json.loads(resp.output_text);out=[];seen=set()
-    for z in data.get('items',[]):
-        try:i=int(z.get('source_n'));x=pool[i]
-        except (TypeError,ValueError,IndexError):continue
+    prompt='''Actúa como editor científico de CardioUpdate para cardiólogos. Selecciona 5 novedades científicas verificables; si no hubiera cinco de alto impacto, incluye igualmente entre 3 y 5 publicaciones recientes de relevancia incremental y explica sus limitaciones. Nunca devuelvas items vacío cuando existan fuentes válidas. Da prioridad explícita a PREVENCIÓN CARDIOVASCULAR: carga aterosclerótica por CAC e imágenes carotídeas/femorales, LDL y exposición acumulada, apoB, Lp(a), dislipidemias, hipertensión y prevención coronaria primaria/secundaria. Prioriza ensayos clínicos, metaanálisis rigurosos, guías y resultados clínicos frente a hipótesis y biomarcadores. IA médica y cardiología general pueden completar la edición si son pertinentes. No confundas fecha de indexación con publicación ni presentes revisiones antiguas como novedades. Redacta TODO en español y EN TERCERA PERSONA. Para cada noticia devuelve title, what_happened, why_relevant, practical_implication y source_n. source_n debe ser exactamente uno de los números enteros provistos en EVIDENCIA. Distingue evidencia observacional de causal y resultados sustitutos de eventos clínicos. No inventes datos, cifras, conclusiones ni fuentes ausentes. No repitas artículos. Devuelve JSON puro con clave items.'''
+    for attempt in range(2):
+        retry='\nEsta es una reparación: la respuesta anterior no produjo al menos 3 noticias válidas. Devuelve ahora entre 3 y 5 items completos con source_n válido.' if attempt else ''
+        try:
+            resp=client.responses.create(model=MODEL,input=prompt+retry+'\nEVIDENCIA:\n'+json.dumps(evidence,ensure_ascii=False),
+                text={'format':{'type':'json_object'}})
+            out=parsed_ai_items(json.loads(resp.output_text),pool)
+        except Exception as exc:
+            print(f'Intento de edición por IA {attempt+1} falló: {type(exc).__name__}')
+            out=[]
+        if len(out)>=3:return out
+    return out
+
+def fallback_items(pool, limit=5):
+    """Publish a conservative metadata-only watchlist if AI output is unusable."""
+    out=[]
+    for x in pool:
         link=url(x)
-        if not link or key(x) in seen:continue
-        seen.add(key(x))
-        out.append({'title':z.get('title',''),'what_happened':z.get('what_happened',''),
-            'why_relevant':z.get('why_relevant',''),'practical_implication':z.get('practical_implication',''),
-            'source_title':clean(x.get('title')),'journal':x.get('journalTitle',''),
+        if not link:continue
+        title=clean(x.get('title'))
+        journal=clean(x.get('journalTitle')) or 'la fuente indexada'
+        if not title:continue
+        out.append({
+            'title':title,
+            'what_happened':f'Se detectó una publicación reciente en {journal} durante la vigilancia bibliográfica diaria de CardioUpdate.',
+            'why_relevant':'El trabajo coincide con las áreas cardiológicas priorizadas. Esta incorporación automática confirma su disponibilidad, pero no sustituye la evaluación del diseño, los resultados ni las limitaciones.',
+            'practical_implication':'Conviene revisar la fuente original antes de modificar conductas clínicas. Se presenta como señal bibliográfica para lectura y no como recomendación terapéutica.',
+            'source_title':title,'journal':journal,
             'source_database':x.get('source_database','Europe PMC'),'url':link})
-        if len(out)==5:break
+        if len(out)>=limit:break
     return out
 
 def main():
@@ -136,22 +173,25 @@ def main():
         print('No se pudo recuperar evidencia de PubMed ni Europe PMC; se conserva el briefing anterior. '
               + ', '.join(failures))
         return
-    pool=sorted(found.values(),key=score,reverse=True)
+    try:hist=json.loads(OUT.read_text(encoding='utf-8'))
+    except (OSError,ValueError):hist=[]
+    today_obj=date.today(); today=today_obj.isoformat()
+    # Do not recycle sources already shown in the active Saturday-Friday cycle.
+    days_since_saturday=(today_obj.weekday()-5)%7
+    week_start=today_obj-timedelta(days=days_since_saturday)
+    hist=[x for x in hist if x.get('date')!=today and x.get('date','')>=week_start.isoformat() and x.get('date','')<=today]
+    used_urls={clean(item.get('url')) for edition in hist for item in edition.get('items',[]) if item.get('url')}
+    pool=[x for x in sorted(found.values(),key=score,reverse=True) if url(x) not in used_urls]
     if not os.getenv('OPENAI_API_KEY'):
         print('Falta OPENAI_API_KEY: se conserva el briefing anterior.')
         return
     items=ai_items(pool)
     if not items:
-        print('No se generaron noticias válidas: se conserva el briefing anterior.')
+        items=fallback_items(pool)
+        print(f'La IA no generó noticias válidas; se publica una vigilancia bibliográfica conservadora de {len(items)} fuentes.')
+    if not items:
+        print('No existen fuentes nuevas con enlace válido: se conserva el briefing anterior.')
         return
-    try:hist=json.loads(OUT.read_text(encoding='utf-8'))
-    except (OSError,ValueError):hist=[]
-    today_obj=date.today(); today=today_obj.isoformat()
-    # Briefing cycle follows the journal week: Saturday through Friday.
-    # On Saturday, prior-week briefings disappear and the new cycle starts at one day.
-    days_since_saturday=(today_obj.weekday()-5)%7
-    week_start=today_obj-timedelta(days=days_since_saturday)
-    hist=[x for x in hist if x.get('date')!=today and x.get('date','')>=week_start.isoformat() and x.get('date','')<=today]
     hist.insert(0,{'date':today,'generated_at':datetime.now(timezone.utc).isoformat(),'items':items})
     hist.sort(key=lambda x:x.get('date',''),reverse=True)
     OUT.write_text(json.dumps(hist,ensure_ascii=False,indent=2),encoding='utf-8')

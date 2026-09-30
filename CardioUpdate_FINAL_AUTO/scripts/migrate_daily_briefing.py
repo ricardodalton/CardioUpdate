@@ -53,7 +53,7 @@ manual='''  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía de la act
   <div class="manualMenu">
    <div><b>⌂ Portada</b>Trabajo principal, selección editorial, especialidades, últimas incorporaciones, briefing diario y bibliografía adicional.</div>
    <div><b>▤ Semana</b>Selección científica vigente, con filtros para recorrer los estudios de la edición.</div>
-   <div><b>▦ Temas</b>Acceso por especialidad, incluida cardiología congénita (CONG).</div>
+   <div><b>▦ Temas</b>Acceso por el nombre completo de cada especialidad, incluida cardiología congénita.</div>
    <div><b>§ Guías</b>Biblioteca de guías y consensos, conservada independientemente del recambio semanal.</div>
    <div><b>★ Favoritos</b>La estrella guarda estudios en el navegador y dispositivo donde se marca; no implica sincronización entre equipos.</div>
    <div><b>⌕ Buscar</b>Búsqueda por enfermedad, intervención, fármaco, tema o revista; por ejemplo CAC, Lp(a), TAVI o mavacamten.</div>

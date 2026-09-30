@@ -21,9 +21,14 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -77,3 +82,14 @@ jobs:
             git commit -m "CardioUpdate: daily briefing and weekly journal pipeline"
             git push
           fi
+      # Commits created with GITHUB_TOKEN do not start another workflow. Deploy
+      # the freshly generated workspace here so Pages never remains stale.
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload current CardioUpdate site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: CardioUpdate_FINAL_AUTO
+      - name: Deploy current CardioUpdate site
+        id: deployment
+        uses: actions/deploy-pages@v4

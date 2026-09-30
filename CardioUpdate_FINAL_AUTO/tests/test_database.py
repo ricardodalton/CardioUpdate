@@ -40,4 +40,6 @@ assert html.count("function renderBriefingHome(idx=0){")==1, "renderBriefingHome
 assert "cardioupdate_detected_at" in html, "Resto de estudios no usa fecha de detección"
 assert "data/weekly_remainder.json" in html, "la interfaz no carga la bibliografía semanal liviana"
 assert "data/candidates.json" not in html, "la interfaz no debe descargar el pool técnico completo"
+assert '<span>${a[2]}</span>' not in html, "las tarjetas no deben mostrar siglas de especialidad"
+assert '<div class="topicCode">${a[2]}</div>' not in html, "el detalle no debe mostrar siglas de especialidad"
 print(f"OK: {len(studies)} estudios, {len(candidates)} candidatos y {len(remainder)} referencias del ciclo; esquema válido.")
