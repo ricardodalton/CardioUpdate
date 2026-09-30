@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-09-30",
+    "generated_at": "2026-09-30T18:07:22.288832+00:00",
+    "items": [
+      {
+        "title": "La suplementación oral de cloruro potásico reduce la presión arterial en un estudio prospectivo no aleatorizado",
+        "what_happened": "Un estudio prospectivo, longitudinal y de un solo grupo evaluó entre 40 personas con hipertensión esencial o hiperaldosteronismo la administración individualizada de cloruro potásico durante 6 a 9 semanas. La intervención aumentó la excreción urinaria de potasio, redujo la relación sodio/potasio y se asoció con descensos de presión arterial sistólica en ambos subgrupos; en el hiperaldosteronismo también se observó reducción del exceso de sodio muscular medido mediante técnicas especializadas.",
+        "why_relevant": "El trabajo refuerza la importancia fisiológica del balance sodio-potasio en hipertensión y aporta una señal clínica coherente con la evidencia previa sobre sustitutos de sal enriquecidos con potasio. Sin embargo, los desenlaces son presión arterial y biomarcadores de distribución de sodio, no eventos cardiovasculares.",
+        "practical_implication": "La suplementación farmacológica de potasio no debe extrapolarse como estrategia poblacional ni sustituir la reducción de sodio, dada la ausencia de grupo control, el tamaño muestral pequeño, la corta duración y el riesgo de hiperpotasemia en enfermedad renal crónica o durante tratamiento con inhibidores del sistema renina-angiotensina-aldosterona. La determinación de función renal, potasio sérico y tratamiento concomitante sigue siendo indispensable antes de considerar esta opción en pacientes seleccionados.",
+        "source_title": "Oral KCl Supplementation Safely Reduces Body Na&lt;sup&gt;+&lt;/sup&gt; Surplus and Blood Pressure.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/circresaha.126.329131"
+      },
+      {
+        "title": "Un calculador simplificado basado en edad, sexo y etnia se asocia con carga de calcio coronario en pacientes remitidos a TC coronaria",
+        "what_happened": "En un análisis retrospectivo de 241 pacientes caucásicos sometidos a angiografía coronaria por tomografía computarizada, el marcador nzcr-MESA —basado solo en edad, sexo y etnia— se correlacionó con la puntuación de calcio de Agatston y con la gravedad anatómica de enfermedad coronaria según CAD-RADS. Los autores propusieron puntos de corte para preseleccionar a pacientes con calcio coronario grave.",
+        "why_relevant": "La carga de calcio coronario es uno de los marcadores de aterosclerosis subclínica mejor establecidos para reclasificar riesgo en prevención primaria. El estudio explora si una herramienta muy simple podría optimizar la selección de protocolos de imagen, pero no demuestra que sustituya la estimación clínica integral del riesgo ni la cuantificación directa de CAC.",
+        "practical_implication": "La herramienta podría tener interés operacional en servicios de imagen, pero no justifica omitir factores de riesgo, LDL-colesterol, diabetes, tabaquismo, antecedentes familiares o la discusión clínica antes de solicitar CAC. La evidencia es observacional, retrospectiva, de un único contexto asistencial y exclusivamente caucásico; además, procede de una población ya remitida a angiografía por TC, por lo que su aplicabilidad a cribado o prevención primaria general es limitada.",
+        "source_title": "The non-zero-calcification-risk multi-ethnic study of atherosclerosis score correlates with extent of coronary calcification as well as coronary artery disease.",
+        "journal": "European journal of radiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejrad.2026.113090"
+      },
+      {
+        "title": "Persisten brechas respecto a los objetivos de LDL-colesterol en atención primaria pese a una reducción durante 36 meses",
+        "what_happened": "Un estudio de práctica clínica real siguió durante 36 meses a 507 pacientes de atención primaria con hipertensión, enfermedad coronaria o diabetes. El descenso medio de LDL-colesterol fue mayor en el grupo con valores basales más altos, junto con un incremento de prescripciones hipolipemiantes, principalmente atorvastatina y rosuvastatina. Pese a ello, el estudio identificó una distancia persistente entre los valores alcanzados y los objetivos recomendados según el riesgo.",
+        "why_relevant": "La observación ilustra una limitación frecuente de la prevención cardiovascular: la intensificación lipídica ocurre con mayor probabilidad cuando el LDL-colesterol inicial es elevado, mientras que el control sostenido de la exposición acumulada a LDL puede seguir siendo insuficiente, especialmente en personas con enfermedad coronaria, diabetes o hipertensión.",
+        "practical_implication": "La práctica clínica debe orientarse por el riesgo cardiovascular global y por objetivos de reducción de LDL-colesterol, no solo por el valor basal. La revisión estructurada de adherencia, tolerancia, intensidad de estatina y necesidad de terapias combinadas puede ayudar a cerrar brechas terapéuticas. El estudio no evalúa eventos cardiovasculares, no permite atribuir causalmente los cambios a medicamentos concretos y procede de un único centro, por lo que describe patrones asistenciales más que efectividad comparativa.",
+        "source_title": "Changes in LDL-C levels among primary health care patients with hypertension, coronary artery disease, and diabetes during a 36-month follow-up.",
+        "journal": "Scandinavian journal of primary health care",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/02813432.2026.2718269"
+      },
+      {
+        "title": "Declaración clínica de 2026 sobre obesidad y enfermedad cardiovascular: la adiposidad debe abordarse como diana cardiovascular directa",
+        "what_happened": "La Obesity Medicine Association publicó una declaración de práctica clínica que integra mecanismos y estrategias de manejo de la obesidad relacionada con enfermedad cardiovascular. El documento describe la contribución directa de la masa adiposa y de la disfunción del tejido adiposo al riesgo cardiovascular, así como sus interacciones con diabetes tipo 2, hipertensión, dislipidemia, enfermedad renal crónica, MASLD, fibrilación auricular e insuficiencia cardiaca con fracción de eyección preservada.",
+        "why_relevant": "La declaración sitúa el tratamiento de la obesidad dentro de la prevención cardiovascular, junto con el control de LDL-colesterol, presión arterial y glucemia. Resulta especialmente pertinente porque la reducción del exceso adiposo puede modificar simultáneamente varios determinantes cardiometabólicos y no únicamente un biomarcador aislado.",
+        "practical_implication": "La evaluación cardiovascular de personas con obesidad debe incluir un abordaje longitudinal de adiposidad, hábitos, presión arterial, lípidos, glucemia, enfermedad renal y apnea obstructiva del sueño cuando proceda. Las intervenciones nutricionales, actividad física, apoyo conductual, farmacoterapia antiobesidad y procedimientos bariátricos deben considerarse según indicación individual y dentro de un plan de prevención global. Al tratarse de una declaración de práctica basada en revisión narrativa y consenso experto, no aporta una nueva estimación cuantitativa de efectos sobre eventos para cada estrategia.",
+        "source_title": "Obesity and Cardiovascular Disease: An Obesity Medicine Association (OMA) Clinical Practice Statement (CPS) 2026.",
+        "journal": "Obesity pillars",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.obpill.2026.100283"
+      },
+      {
+        "title": "Metaanálisis: las personas con VIH presentan una carga cardiovascular relevante, asociada a factores tradicionales y específicos de la infección",
+        "what_happened": "Un metaanálisis de 43 estudios observacionales, que incluyó más de cuatro millones de personas con VIH, estimó una prevalencia agrupada de eventos cardiovasculares del 6%. La mayor frecuencia de eventos se asoció con edad, tabaquismo, dislipidemia, hipertensión, diabetes, enfermedad cardiovascular previa, carga viral detectable y recuentos bajos de CD4+, entre otros factores.",
+        "why_relevant": "El análisis respalda que la prevención cardiovascular en personas con VIH debe integrar tanto los determinantes clásicos —especialmente tabaquismo, presión arterial y dislipidemia— como el control virológico e inmunológico. Esta población puede acumular riesgo aterosclerótico relevante pese a perfiles de riesgo convencionales aparentemente moderados.",
+        "practical_implication": "La atención clínica debe incorporar evaluación periódica de riesgo cardiovascular, control intensivo de factores modificables y coordinación con el manejo antirretroviral para favorecer supresión viral y recuperación inmunológica. Las asociaciones descritas no prueban causalidad, pues derivan de estudios observacionales heterogéneos; la prevalencia agrupada tampoco define por sí sola el beneficio de una intervención preventiva concreta ni sustituye la estratificación individual.",
+        "source_title": "Prevalence and risk of cardiovascular events among people living with HIV: a meta-analysis.",
+        "journal": "Annals of medicine",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/07853890.2025.2540614"
+      }
+    ]
+  },
+  {
     "date": "2026-09-28",
     "generated_at": "2026-09-28T17:50:04.895245+00:00",
     "items": [
