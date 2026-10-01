@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-01",
+    "generated_at": "2026-10-01T16:42:48.410576+00:00",
+    "items": [
+      {
+        "title": "Prevención secundaria tras cirugía de revascularización coronaria: actualización práctica",
+        "what_happened": "Una revisión contemporánea sintetizó la prevención secundaria tras cirugía de bypass coronario, destacando el descenso intensivo y escalonado de LDL-C con estatinas de alta intensidad, ezetimiba e inhibidores de PCSK9 cuando proceda; el uso de aspirina como base antitrombótica; y la individualización de la doble antiagregación, así como de betabloqueantes e inhibidores del sistema renina-angiotensina.",
+        "why_relevant": "La cirugía de bypass mejora el pronóstico, pero no detiene la aterosclerosis nativa ni garantiza la permeabilidad de los injertos. La relevancia clínica reside en reforzar que la prevención secundaria debe ser longitudinal, multidisciplinaria y dirigida al riesgo residual lipídico, trombótico, metabólico y conductual. Se trata de una revisión, no de un ensayo nuevo de desenlaces clínicos; persisten lagunas sobre estrategias antitrombóticas, resultados específicos de los injertos y modelos de rehabilitación.",
+        "practical_implication": "Debería revisarse sistemáticamente la intensidad del tratamiento hipolipemiante, la adherencia, el tabaquismo, la rehabilitación cardiaca y las indicaciones independientes para tratamientos cardiometabólicos. La prescripción crónica de betabloqueantes o bloqueo del sistema renina-angiotensina no debería justificarse únicamente por el antecedente de bypass, sino por sus indicaciones establecidas.",
+        "source_title": "Key advances in secondary prevention after coronary artery bypass grafting.",
+        "journal": "Current opinion in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HCO.0000000000001333"
+      },
+      {
+        "title": "Biomarcadores de imagen para estratificar el riesgo aterosclerótico subclínico",
+        "what_happened": "Una revisión de estado del arte situó al calcio coronario (CAC) por tomografía sin contraste como el biomarcador de imagen más consolidado para reclasificar riesgo, especialmente en personas con riesgo limítrofe o intermedio. También revisó el valor pronóstico adicional potencial de la angiografía coronaria por tomografía, la carga y composición de placa, la imagen carotídea y aórtica, y hallazgos incidentales en estudios de tomografía o resonancia realizados por otras indicaciones.",
+        "why_relevant": "La imagen puede identificar aterosclerosis subclínica directamente, mientras que los algoritmos clínicos estiman riesgo futuro y pueden clasificar erróneamente a algunos pacientes. El CAC cuenta con mayor respaldo clínico que otros marcadores emergentes. Sin embargo, muchos biomarcadores nuevos, incluida parte de la caracterización de placa y las mediciones oportunistas, aún requieren estandarización y validación basada en desenlaces.",
+        "practical_implication": "El CAC debería considerarse principalmente como herramienta de reclasificación cuando la decisión preventiva permanezca incierta tras la evaluación clínica convencional. Los hallazgos extracoronarios, la cuantificación avanzada de placa y las herramientas de inteligencia artificial no deberían interpretarse como sustitutos de estrategias preventivas con beneficio clínico demostrado.",
+        "source_title": "State-of-the-Art Imaging Biomarkers in Screening of Atherosclerotic Cardiovascular Disease.",
+        "journal": "Radiographics : a review publication of the Radiological Society of North America, Inc",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1148/rg.260068"
+      },
+      {
+        "title": "Discrepancias entre guías sobre prácticas de bajo valor en prevención cardiovascular",
+        "what_happened": "Una revisión narrativa de guías de prevención cardiovascular publicadas entre 2017 y 2025 identificó discrepancias relevantes en las recomendaciones sobre CAC, determinación de lipoproteína(a), cribado de aneurisma de aorta abdominal e inicio de tratamiento hipolipemiante en personas mayores.",
+        "why_relevant": "La publicación señala que varias decisiones frecuentes en prevención se sustentan en evidencia no aleatorizada, estudios retrospectivos, un único ensayo o consenso experto. Esto es especialmente pertinente para evitar transformar pruebas de estratificación de riesgo, como CAC o Lp(a), en intervenciones indiscriminadas sin una vía asistencial definida.",
+        "practical_implication": "La solicitud de CAC o Lp(a) debería vincularse a una pregunta clínica concreta y a la posibilidad de modificar la conducta preventiva. Ante recomendaciones divergentes, convendría explicitar la incertidumbre, valorar riesgo basal, preferencias y comorbilidad, y evitar asumir que una mayor intensidad diagnóstica equivale necesariamente a reducción demostrada de eventos.",
+        "source_title": "Discrepancies in low-value practices across cardiovascular disease prevention guidelines. A narrative review.",
+        "journal": "The European journal of general practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/13814788.2026.2729221"
+      },
+      {
+        "title": "CAC oportunista en tomografía torácica e integración potencial de inteligencia artificial",
+        "what_happened": "Una revisión examinó la detección de calcio coronario en tomografías torácicas solicitadas por otras indicaciones, incluidas las realizadas para cribado de cáncer de pulmón o corrección de atenuación. También describió modelos de inteligencia artificial para identificar y cuantificar CAC de forma automatizada.",
+        "why_relevant": "El aprovechamiento de imágenes ya adquiridas podría detectar carga aterosclerótica y oportunidades de prevención sin una exploración adicional. No obstante, la evidencia resumida no demuestra que esta estrategia reduzca eventos cardiovasculares: no existen ensayos aleatorizados que evalúen su impacto clínico. La automatización por inteligencia artificial representa una herramienta operativa potencial, no una intervención preventiva validada por desenlaces.",
+        "practical_implication": "El CAC incidental debería comunicarse de forma estructurada y motivar una evaluación formal de factores de riesgo, LDL-C, presión arterial, tabaquismo y tratamiento preventivo indicado. Los programas de detección oportunista deberían incorporar circuitos de derivación y seguimiento, y no limitarse a generar un hallazgo radiológico sin responsabilidad clínica posterior.",
+        "source_title": "Coronary artery calcium score-emerging role for opportunistic screening on thoracic CT and novel applications.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/bjr/tqag094"
+      },
+      {
+        "title": "MASLD y mayor carga de aterosclerosis subclínica por imagen: síntesis cuantitativa",
+        "what_happened": "Un metaanálisis de 16 estudios observacionales, con 34.713 participantes, encontró que la enfermedad hepática esteatósica asociada a disfunción metabólica se asoció con mayor presencia de CAC y con hallazgos adversos en otros marcadores de imagen cardiometabólica, incluidos tejido adiposo epicárdico, atenuación hepática controlada y rigidez hepática.",
+        "why_relevant": "La síntesis refuerza que la MASLD identifica una población con elevada carga cardiometabólica y aterosclerótica concurrente. Sin embargo, los resultados son asociativos y proceden predominantemente de estudios transversales u observacionales; no demuestran causalidad ni prueban que CAC, grasa epicárdica o marcadores hepáticos aporten mejora predictiva incremental sobre SCORE2, PCE u otros modelos clínicos validados.",
+        "practical_implication": "La presencia de MASLD debería impulsar una evaluación rigurosa de obesidad, diabetes, hipertensión, lípidos y riesgo aterosclerótico global. La selección de CAC puede considerarse cuando exista incertidumbre terapéutica, pero no debería indicarse de forma universal en MASLD ni interpretarse como evidencia de beneficio clínico de una estrategia de imagen guiada.",
+        "source_title": "Imaging biomarkers for cardiometabolic risk stratification in metabolic dysfunction-associated steatotic liver disease: incremental value of coronary artery calcification, epicardial adipose tissue, controlled attenuation parameter, and liver stiffness measurement beyond clinical scores.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/bjr/tqag112"
+      }
+    ]
+  },
+  {
     "date": "2026-09-30",
     "generated_at": "2026-09-30T18:07:22.288832+00:00",
     "items": [
