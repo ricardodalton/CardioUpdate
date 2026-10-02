@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-02",
+    "generated_at": "2026-10-02T15:59:36.472508+00:00",
+    "items": [
+      {
+        "title": "Consenso internacional sobre la evaluación y el manejo del infarto cerebral silente",
+        "what_happened": "Un panel internacional multidisciplinar aplicó un proceso Delphi modificado y alcanzó consenso en 33 de 91 afirmaciones sobre el infarto cerebral silente incidental. Respaldó una evaluación clínica dirigida, ecocardiografía transtorácica en todos los casos y estudio vascular selectivo; no respaldó el cribado poblacional rutinario ni la anticoagulación sin indicación cardioembólica.",
+        "why_relevant": "El documento refuerza que el infarto cerebral silente identifica un fenotipo de alto riesgo vascular y que el control estricto de los factores de riesgo, especialmente de la presión arterial en pacientes hipertensos, debe ocupar un lugar central. Es particularmente relevante para la prevención cardiovascular integrada y la coordinación cardio-neurovascular.",
+        "practical_implication": "Ante un infarto cerebral silente incidental, el clínico debería intensificar la caracterización y el control de factores de riesgo cardiovascular, incluida la hipertensión. No debería asumirse una indicación automática de antiagregación, anticoagulación o tratamiento hipolipemiante específicamente por este hallazgo, ya que el consenso no establece beneficio clínico demostrado para esas estrategias en este contexto.",
+        "source_title": "International Modified Delphi Consensus on Assessment and Management of Covert Brain Infarction.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1177/17474930261496691"
+      },
+      {
+        "title": "Aterosclerosis subclínica en niños y adolescentes con síndrome nefrótico: revisión sistemática y metaanálisis",
+        "what_happened": "Un metaanálisis de 16 estudios observacionales, con 1.461 participantes, observó un mayor grosor íntima-media carotídeo en niños y adolescentes con síndrome nefrótico frente a controles sanos. No detectó diferencias estadísticamente significativas en velocidad de onda de pulso carotídeo-femoral ni en el índice de masa ventricular izquierda.",
+        "why_relevant": "El hallazgo sitúa al síndrome nefrótico pediátrico como una condición potencialmente asociada con carga vascular subclínica, en un contexto de dislipidemia, inflamación e hipertensión. Aporta una señal para una prevención cardiovascular precoz en una población habitualmente infrarrepresentada.",
+        "practical_implication": "La atención cardiovascular debería priorizar el control riguroso de presión arterial y alteraciones lipídicas durante la evolución del síndrome nefrótico. El aumento del grosor íntima-media carotídeo no debe interpretarse como prueba de eventos cardiovasculares futuros ni como indicación, por sí solo, de estrategias terapéuticas específicas: los estudios incluidos fueron predominantemente transversales, heterogéneos y observacionales.",
+        "source_title": "Assessment of subclinical atherosclerosis and cardiovascular disease in children and adolescents with nephrotic syndrome: a systematic review and meta-analysis.",
+        "journal": "Pediatric nephrology (Berlin, Germany)",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1007/s00467-026-07238-1"
+      },
+      {
+        "title": "Deficiencia de vitamina K y biomarcadores de calcificación vascular como predictores de placa carotídea en diálisis peritoneal",
+        "what_happened": "Un estudio prospectivo monocéntrico de 60 pacientes en diálisis peritoneal evaluó PIVKA-II, dp-ucMGP y BMP-2 junto con ecografía carotídea durante un año. La deficiencia de vitamina K estimada por PIVKA-II y la edad se asociaron de forma independiente con placa carotídea basal; la BMP-2 basal se asoció con aparición de nueva placa durante el seguimiento.",
+        "why_relevant": "La enfermedad renal crónica avanzada acumula una elevada carga aterosclerótica y de calcificación vascular. El trabajo explora marcadores potenciales para identificar pacientes con mayor probabilidad de placa carotídea, más allá de los factores de riesgo convencionales.",
+        "practical_implication": "Los resultados no justifican el cribado rutinario con PIVKA-II ni la suplementación dirigida con vitamina K para prevenir placa o eventos cardiovasculares. La asociación es observacional, procede de una muestra pequeña y de un único centro, y no demuestra causalidad ni beneficio clínico de modificar estos biomarcadores. Se requieren ensayos de intervención con eventos clínicos.",
+        "source_title": "Vitamin K status and vascular calcification biomarkers as determinants of carotid plaque in peritoneal dialysis: a prospective study.",
+        "journal": "Renal failure",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/0886022X.2026.2691345"
+      },
+      {
+        "title": "Cardiografía de impedancia dual para estimar rigidez arterial y aterosclerosis preclínica",
+        "what_happened": "Un estudio transversal preregistrado en 366 adultos sanos evaluó una estimación de velocidad de onda de pulso mediante cardiografía de impedancia dual. En una submuestra de 179 participantes, la medida mostró concordancia moderada con la velocidad de onda de pulso carotídeo-femoral y asociaciones comparables con edad, presión arterial, factores cardiometabólicos, grosor íntima-media carotídeo y placa.",
+        "why_relevant": "La rigidez arterial integra el envejecimiento vascular y la exposición acumulada a factores de riesgo, especialmente hipertensión. Una técnica de menor complejidad podría ampliar el acceso a la evaluación vascular si demuestra reproducibilidad, valor pronóstico y utilidad clínica.",
+        "practical_implication": "La cardiografía de impedancia dual puede considerarse una tecnología en fase de validación, no un sustituto consolidado de la velocidad de onda de pulso carotídeo-femoral ni de las herramientas establecidas para estratificación preventiva. El diseño transversal impide establecer capacidad predictiva de eventos cardiovasculares o demostrar que su uso mejore decisiones terapéuticas.",
+        "source_title": "Dual-impedance cardiography for the assessment of arterial stiffness: associations with blood pressure, cardiometabolic risk factors, and preclinical atherosclerosis in midlife adults.",
+        "journal": "Blood pressure",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/08037051.2025.2600733"
+      },
+      {
+        "title": "Relación entre grosor íntima-media carotídeo, LDL-C y complejidad coronaria angiográfica",
+        "what_happened": "Un estudio transversal en 115 pacientes con enfermedad coronaria confirmada angiográficamente encontró una correlación modesta entre el grosor íntima-media carotídeo y la puntuación SYNTAX, así como entre el grosor íntima-media carotídeo y el LDL-C. Tras el ajuste multivariable, solo la edad predijo de forma independiente enfermedad coronaria de alta complejidad.",
+        "why_relevant": "El estudio ilustra la relación entre carga aterosclerótica carotídea, exposición lipídica y enfermedad coronaria, pero también muestra las limitaciones del grosor íntima-media carotídeo como marcador aislado de complejidad coronaria. Es relevante para evitar sobreinterpretar medidas ecográficas vasculares fuera de un marco global de riesgo y carga de placa.",
+        "practical_implication": "El grosor íntima-media carotídeo no debería utilizarse de forma aislada para inferir complejidad coronaria ni para modificar el tratamiento hipolipemiante. La evidencia es incremental y no causal: procede de una muestra pequeña, transversal y compuesta exclusivamente por pacientes con enfermedad coronaria ya establecida. La valoración de placa carotídea y la prevención secundaria intensiva siguen requiriendo integración con el contexto clínico y los factores de riesgo establecidos.",
+        "source_title": "Correlation of carotid intima-media thickness and lipid indices with SYNTAX score in coronary artery disease: a cross-sectional study.",
+        "journal": "Herz",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1007/s00059-026-05394-6"
+      }
+    ]
+  },
+  {
     "date": "2026-10-01",
     "generated_at": "2026-10-01T16:42:48.410576+00:00",
     "items": [

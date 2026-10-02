@@ -1,6 +1,6 @@
 {
   "app_version": "3.0-final-auto",
-  "updated_at": "2026-09-25T15:03:56.921182+00:00",
+  "updated_at": "2026-10-02T16:27:47.881989+00:00",
   "update_mode": "Base externa + búsqueda diaria",
   "next_source": "Europe PMC",
   "review_note": "Los trabajos importados automáticamente se identifican como 'Revisión pendiente'.",
@@ -9,13 +9,13 @@
   "source": "Europe PMC + Crossref",
   "related_evidence_enabled": true,
   "related_evidence_max_sources": 6,
-  "edition_start": "2026-09-19",
-  "edition_end": "2026-09-25",
-  "candidate_pool": 4355,
+  "edition_start": "2026-09-26",
+  "edition_end": "2026-10-02",
+  "candidate_pool": 4648,
   "publication_mode": "weekly_friday",
-  "candidate_updated_at": "2026-10-01T16:43:20.376153+00:00",
-  "new_candidates": 699,
+  "candidate_updated_at": "2026-10-02T16:00:05.411632+00:00",
+  "new_candidates": 293,
   "candidate_cycle_start": "2026-09-26",
   "candidate_cycle_end": "2026-10-02",
-  "candidate_cycle_count": 2125
+  "candidate_cycle_count": 2406
 }
