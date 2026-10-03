@@ -1,57 +1,57 @@
 [
   {
     "date": "2026-10-03",
-    "generated_at": "2026-10-03T00:43:24.989598+00:00",
+    "generated_at": "2026-10-03T14:26:53.464851+00:00",
     "items": [
       {
-        "title": "Ejercicio supervisado en mujeres mayores: mejora de presión arterial, capacidad funcional y perfil lipídico",
-        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas halló que el ejercicio aeróbico, de fuerza o combinado redujo triglicéridos, colesterol total, LDL-C, glucosa, proteína C reactiva y presión arterial, y aumentó el VO₂pico. La certeza GRADE fue moderada para las reducciones de colesterol total, triglicéridos, porcentaje de grasa corporal, presión arterial sistólica y mejora de VO₂pico; fue baja para varios otros desenlaces.",
-        "why_relevant": "Aporta síntesis de ensayos aleatorizados sobre una intervención de prevención cardiovascular ampliamente aplicable en una población frecuentemente infrarrepresentada. Los efectos sobre presión arterial, aptitud cardiorrespiratoria y lípidos son coherentes con una estrategia multifactorial de prevención primaria.",
-        "practical_implication": "El ejercicio estructurado puede considerarse un componente central del abordaje preventivo en mujeres mayores, junto con control farmacológico del LDL-C y de la hipertensión cuando esté indicado. Los hallazgos se refieren principalmente a factores de riesgo y marcadores intermedios; el metaanálisis no demuestra por sí mismo una reducción de infarto, ictus o mortalidad.",
+        "title": "El ejercicio supervisado mejora factores de riesgo cardiovascular en mujeres mayores, pero sin datos de eventos",
+        "what_happened": "Un metaanálisis de 23 ensayos aleatorizados en mujeres mayores sanas encontró que el ejercicio aeróbico, de fuerza o combinado redujo triglicéridos, colesterol total, LDL-C, glucosa y presión arterial, e incrementó el VO₂pico. La certeza GRADE fue moderada para las reducciones de colesterol total, triglicéridos y presión arterial sistólica, y baja para otros desenlaces.",
+        "why_relevant": "Aporta evidencia experimental para una intervención central de prevención cardiovascular en una población en la que la fragilidad, los cambios de composición corporal y la infraprescripción de ejercicio pueden dificultar el control de riesgo. Sin embargo, los resultados son factores de riesgo y capacidad funcional, no eventos cardiovasculares clínicos.",
+        "practical_implication": "La prescripción estructurada de ejercicio puede considerarse un componente de la prevención cardiovascular en mujeres mayores, junto con tratamiento de lípidos, presión arterial y otros factores de riesgo. La magnitud del beneficio sobre infarto, ictus o mortalidad no puede inferirse directamente de este metaanálisis.",
         "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
         "journal": "Journal of the International Society of Sports Nutrition",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1080/15502783.2026.2675444"
       },
       {
-        "title": "El índice triglicéridos-glucosa añade estratificación pronóstica a la calcificación coronaria en diabetes tipo 2",
-        "what_happened": "En una cohorte retrospectivamente analizada de 735 personas con diabetes tipo 2, sin enfermedad coronaria clínica y con CAC basal, el índice triglicéridos-glucosa (TyG) se asoció de forma independiente con el riesgo de infarto de miocardio, ictus o muerte por cualquier causa durante una mediana de 16,4 años, incluso tras ajustar por gravedad de la diabetes y CAC. La incidencia de eventos aumentó progresivamente al combinar categorías de TyG y CAC.",
-        "why_relevant": "El estudio integra un marcador metabólico disponible en la práctica habitual con la carga aterosclerótica medida por CAC, una prioridad para refinar la prevención coronaria primaria en diabetes tipo 2.",
-        "practical_implication": "El TyG podría complementar, pero no sustituir, la evaluación clínica convencional y el CAC en personas con diabetes tipo 2 sin enfermedad coronaria conocida. La asociación es observacional, por lo que no demuestra que reducir el TyG reduzca eventos ni justifica objetivos terapéuticos específicos basados en este índice.",
+        "title": "MASLD se asocia con mayor carga de calcio coronario, pero no demuestra valor pronóstico incremental",
+        "what_happened": "Una revisión sistemática y metaanálisis de 16 estudios observacionales, con 34.713 participantes, encontró que la enfermedad hepática esteatósica asociada a disfunción metabólica (MASLD) se asoció con mayor probabilidad de calcio coronario y con mayor carga calcificada que los grupos comparadores. También se observaron asociaciones con adiposidad epicárdica y marcadores de esteatosis y fibrosis hepática.",
+        "why_relevant": "La MASLD identifica un fenotipo cardiometabólico frecuentemente expuesto a obesidad, diabetes, hipertensión y dislipidemia. El hallazgo refuerza la evaluación intensiva de factores de riesgo y la consideración clínica de aterosclerosis subclínica, especialmente mediante CAC cuando esté indicado por la evaluación global de riesgo.",
+        "practical_implication": "La presencia de MASLD no justifica por sí sola solicitar CAC de forma sistemática, pero puede favorecer una valoración cardiovascular más rigurosa y la optimización de prevención. La evidencia es observacional, con heterogeneidad alta para CAC, y no demuestra que el CAC u otros biomarcadores de imagen mejoren la discriminación, reclasificación o resultados clínicos por encima de escalas validadas.",
+        "source_title": "Imaging biomarkers for cardiometabolic risk stratification in metabolic dysfunction-associated steatotic liver disease: incremental value of coronary artery calcification, epicardial adipose tissue, controlled attenuation parameter, and liver stiffness measurement beyond clinical scores.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/bjr/tqag112"
+      },
+      {
+        "title": "El índice TyG se asocia con MACE a largo plazo en diabetes tipo 2 sin enfermedad coronaria clínica",
+        "what_happened": "En una cohorte retrospectiva de 735 personas con diabetes tipo 2, sin enfermedad coronaria clínica y con al menos un factor de riesgo adicional, el índice triglicéridos-glucosa (TyG) basal se asoció de forma independiente con infarto de miocardio, ictus o muerte por cualquier causa durante una mediana de seguimiento de 16,4 años. La asociación persistió tras ajustar por gravedad de la diabetes y puntuación de calcio coronario.",
+        "why_relevant": "El estudio evalúa eventos clínicos a largo plazo y sugiere que un marcador simple de resistencia a la insulina podría complementar la estratificación de riesgo en diabetes tipo 2, incluso cuando se dispone de CAC. Es particularmente pertinente en prevención primaria de pacientes diabéticos con riesgo residual metabólico.",
+        "practical_implication": "El TyG podría alertar sobre mayor riesgo cardiometabólico y apoyar la intensificación de medidas preventivas ya indicadas: control de LDL-C y apoB, presión arterial, peso, glucemia, tabaquismo y consideración de terapias cardioprotectoras según el perfil clínico. No debe utilizarse como sustituto de calculadoras validadas ni del CAC, ya que se trata de una asociación observacional en una cohorte única y no demuestra que una estrategia guiada por TyG reduzca eventos.",
         "source_title": "The long-term prognostic value of triglyceride-glucose index in type 2 diabetics without clinical coronary artery disease.",
         "journal": "Current problems in cardiology",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1016/j.cpcardiol.2026.103420"
       },
       {
-        "title": "Prevención secundaria tras cirugía de bypass coronario: persisten brechas de implementación",
-        "what_happened": "Una revisión contemporánea resume que la prevención tras revascularización quirúrgica coronaria debe incluir reducción intensiva y escalonada de LDL-C con estatinas de alta intensidad, ezetimiba e inhibidores de PCSK9 cuando proceda; aspirina como base antitrombótica; y selección individualizada de doble antiagregación según riesgo isquémico y hemorrágico. También revisa rehabilitación cardiaca, abandono del tabaco, control de obesidad y el uso de tratamientos cardiometabólicos según indicaciones establecidas.",
-        "why_relevant": "La cirugía de bypass mejora el pronóstico de la enfermedad coronaria avanzada, pero no detiene la aterosclerosis nativa ni evita por completo el fracaso de los injertos. El recordatorio de la prevención secundaria intensiva es especialmente pertinente ante el frecuente infratratamiento lipídico residual.",
-        "practical_implication": "La atención posterior al bypass debería organizarse como prevención secundaria cardiovascular de por vida, con verificación sistemática de LDL-C, adherencia, tabaquismo, rehabilitación, comorbilidades y riesgo hemorrágico. Se trata de una revisión narrativa, no de un ensayo ni de una guía con síntesis cuantitativa; varias cuestiones, incluida la estrategia antitrombótica óptima a largo plazo, conservan incertidumbre.",
-        "source_title": "Key advances in secondary prevention after coronary artery bypass grafting.",
-        "journal": "Current opinion in cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1097/HCO.0000000000001333"
+        "title": "La caracterización ecográfica de placa carotídea se asocia con ictus intrahospitalario tras cirugía con CABG",
+        "what_happened": "Un estudio retrospectivo de 1.087 pacientes sometidos a cirugía cardiaca con injerto de bypass coronario evaluó la clasificación ecográfica Plaque-RADS preoperatoria. La incidencia de ictus isquémico intrahospitalario aumentó de forma escalonada con grados superiores de Plaque-RADS, y cada incremento de grado se asoció con mayores probabilidades ajustadas de ictus.",
+        "why_relevant": "El trabajo desplaza la atención desde la estenosis carotídea aislada hacia la carga y características de la placa. Esto resulta coherente con la noción de que la aterosclerosis carotídea refleja riesgo vascular sistémico y puede aportar información perioperatoria complementaria en pacientes con enfermedad coronaria avanzada.",
+        "practical_implication": "La ecografía carotídea con descripción estructurada de la placa podría aportar información adicional a la gravedad de la estenosis en la valoración preoperatoria seleccionada. No respalda todavía modificaciones específicas de revascularización, antitrombóticos o tratamiento carotídeo basadas en Plaque-RADS: hubo solo 14 ictus, el ajuste fue limitado y el diseño retrospectivo impide establecer causalidad o utilidad clínica prospectiva.",
+        "source_title": "Carotid Plaque-Reporting and Data System for Predicting In-Hospital Ischemic Stroke After Coronary Artery Bypass Graft-Containing Cardiac Surgery: Complementary Value Beyond Stenosis Severity.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/jaha.126.051562"
       },
       {
-        "title": "El calcio coronario virtual en TC con conteo de fotones aún no sustituye a la adquisición sin contraste",
-        "what_happened": "En 239 pacientes sometidos a angiografía coronaria por TC con detector de conteo de fotones y adquisición sin contraste real, las puntuaciones de Agatston obtenidas en imágenes virtuales sin contraste mostraron excelente correlación con las de imágenes reales. Sin embargo, la clasificación de carga de placa no coincidió inicialmente en todos los casos y mejoró tras lectura consensuada.",
-        "why_relevant": "La cuantificación de CAC es una herramienta consolidada para estimar carga aterosclerótica y apoyar decisiones preventivas. Evitar una adquisición adicional sin contraste podría simplificar el estudio, pero la clasificación por categorías de calcio es la información clínicamente accionable y mostró discordancias.",
-        "practical_implication": "Las imágenes virtuales sin contraste no deberían reemplazar todavía de forma directa a la adquisición sin contraste real para categorizar CAC o carga de placa. El estudio es una validación técnica diagnóstica, no evalúa eventos cardiovasculares ni demuestra que esta estrategia de imagen mejore decisiones terapéuticas o resultados clínicos.",
+        "title": "El calcio coronario virtual en TC con contraste muestra alta correlación, pero aún no reemplaza la adquisición sin contraste",
+        "what_happened": "En 239 pacientes sometidos a angiografía por TC coronaria con detector de conteo de fotones, la puntuación de calcio coronario obtenida en imágenes virtuales sin contraste mostró correlación excelente con la obtenida en imágenes verdaderas sin contraste. Sin embargo, la clasificación de carga de placa no coincidió de forma suficiente en todos los casos, aunque mejoró tras lectura consensuada.",
+        "why_relevant": "La cuantificación oportunista de CAC a partir de estudios con contraste podría reducir exploraciones adicionales, radiación y costes, facilitando la detección de aterosclerosis subclínica. Es una línea relevante para integrar imagen anatómica y prevención coronaria, pero se trata de validación técnica y no de evidencia de beneficio clínico.",
+        "practical_implication": "Las imágenes virtuales sin contraste derivadas de TC coronaria con conteo de fotones no deberían sustituir aún a la adquisición estándar sin contraste para clasificar carga calcificada o tomar decisiones preventivas. Se requieren validación externa, estandarización de reconstrucción y estudios que demuestren precisión diagnóstica y mejora de resultados clínicos.",
         "source_title": "Coronary artery calcium scoring using virtual vs. true non-contrast images from ultra-high-resolution and normal-resolution photon-counting coronary CT angiography.",
         "journal": "European journal of radiology open",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1016/j.ejro.2026.100795"
-      },
-      {
-        "title": "El VIH se asocia con una elevada carga de eventos cardiovasculares en la evidencia observacional",
-        "what_happened": "Un metaanálisis de 43 estudios observacionales, con más de cuatro millones de personas que viven con VIH, estimó una prevalencia agrupada de eventos cardiovasculares del 6%. Edad, tabaquismo, dislipidemia, hipertensión, diabetes, enfermedad cardiovascular previa, carga viral detectable y recuento de CD4+ bajo se asociaron con mayor riesgo, con patrones específicos para infarto, ictus y arritmias.",
-        "why_relevant": "Refuerza que la prevención cardiovascular en VIH exige tanto control de factores clásicos —especialmente LDL, presión arterial y tabaquismo— como supresión viral e inmunorrecuperación. Esta población puede concentrar riesgo aterotrombótico residual y ser infravalorada por calculadoras convencionales.",
-        "practical_implication": "Las personas con VIH deberían recibir evaluación cardiovascular periódica y tratamiento intensivo de factores de riesgo según su riesgo global y enfermedad establecida, sin atribuir el riesgo únicamente al VIH. El metaanálisis reúne estudios observacionales heterogéneos: identifica asociaciones y carga de enfermedad, pero no establece causalidad de la terapia antirretroviral, la dislipidemia u otros factores sobre los eventos.",
-        "source_title": "Prevalence and risk of cardiovascular events among people living with HIV: a meta-analysis.",
-        "journal": "Annals of medicine",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1080/07853890.2025.2540614"
       }
     ]
   }
