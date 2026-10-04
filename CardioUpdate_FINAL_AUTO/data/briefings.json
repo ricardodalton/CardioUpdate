@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-04",
+    "generated_at": "2026-10-04T14:59:45.519486+00:00",
+    "items": [
+      {
+        "title": "La cuantificación de calcio coronario por IA detecta riesgo residual dentro del CAC=0 convencional",
+        "what_happened": "Un análisis agrupado de 3965 participantes de MESA y Framingham con puntuación Agatston convencional de 0 evaluó Agatston-2.0, un método basado en IA que cuantifica calcio de forma continua y sin umbral fijo de atenuación. El método identificó AI-CAC >0 en el 21,7% de los participantes. Durante hasta 20 años de seguimiento, AI-CAC >0 se asoció con mayor incidencia de cardiopatía coronaria y con progresión posterior a CAC convencional positivo; la asociación con cardiopatía coronaria incidente persistió tras ajuste (HR 1,71; IC 95% 1,18-2,47).",
+        "why_relevant": "El hallazgo es especialmente pertinente para la prevención primaria basada en carga aterosclerótica: cuestiona que un CAC=0 convencional implique ausencia completa de calcificación detectable. Sin embargo, se trata de una asociación pronóstica observacional en cohortes, no de una demostración de que reclasificar o tratar según AI-CAC reduzca eventos clínicos.",
+        "practical_implication": "Por el momento, el CAC convencional mantiene su papel establecido para reclasificación del riesgo. Agatston-2.0 podría considerarse una herramienta emergente de refinamiento pronóstico en investigación o centros con validación técnica, sin sustituir todavía los umbrales ni las decisiones preventivas recomendadas por guías.",
+        "source_title": "Agatston-2.0: A next-generation AI-based coronary calcium quantification approach to improve risk stratification among individuals with zero Agatston scores - Part I: An AI-CVD Study within the Multi-Ethnic Study of Atherosclerosis and Framingham Heart Study.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101698"
+      },
+      {
+        "title": "Las intervenciones de manejo del estrés reducen modestamente la presión arterial en adultos normotensos",
+        "what_happened": "Una revisión sistemática y metaanálisis de 22 ensayos clínicos aleatorizados, con hasta 3089 adultos sanos sin hipertensión, evaluó intervenciones de manejo del estrés para prevención primaria de hipertensión. Frente al control, el ejercicio mente-cuerpo, la meditación y las técnicas de relajación se asociaron con reducciones de presión arterial sistólica de -2,17, -1,49 y -4,76 mmHg, respectivamente. También se observaron descensos modestos de presión diastólica, aunque el intervalo de confianza para relajación incluyó el valor nulo.",
+        "why_relevant": "Aporta evidencia experimental para incorporar intervenciones conductuales al abordaje preventivo de la presión arterial antes de que aparezca hipertensión establecida. El desenlace evaluado es presión arterial, un resultado sustituto, y no eventos cardiovasculares, por lo que no demuestra reducción de infarto, ictus o mortalidad.",
+        "practical_implication": "El manejo estructurado del estrés puede contemplarse como complemento de actividad física, alimentación saludable, control de peso, reducción de sodio y seguimiento de la presión arterial. La magnitud del efecto es modesta y no justifica retrasar el diagnóstico ni el tratamiento farmacológico cuando este esté indicado.",
+        "source_title": "Effect of interventions for stress management on blood pressure changes in healthy adults: a systematic review and meta-analysis.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1038/s41371-026-01236-4"
+      },
+      {
+        "title": "Patrones dietéticos y progresión de calcio coronario en MESA: asociación favorable con cereales integrales y fruta",
+        "what_happened": "En 3182 participantes de MESA con cuestionarios dietéticos y mediciones seriadas de calcio coronario, un patrón de cereales integrales y fruta se asoció con menor incidencia de CAC y menor progresión del CAC. En cambio, el patrón rico en grasa y carne procesada se asoció con mayor progresión. Las asociaciones variaron según raza/etnia y fueron más evidentes en participantes blancos que en participantes negros.",
+        "why_relevant": "El estudio conecta patrones dietéticos habituales con la evolución de una medida objetiva de carga aterosclerótica subclínica, de alto interés para prevención coronaria primaria. No permite atribuir causalidad: es un análisis observacional, expuesto a confusión residual, error de medición dietética y a las limitaciones del CAC como marcador intermedio, no como evento clínico.",
+        "practical_implication": "Los resultados son coherentes con priorizar patrones alimentarios de alta calidad, con cereales integrales, fruta y otros alimentos mínimamente procesados, y limitar carnes procesadas. No deben utilizarse para inferir que una dieta concreta reducirá por sí sola los eventos cardiovasculares ni para guiar decisiones terapéuticas basadas exclusivamente en cambios de CAC.",
+        "source_title": "Diet patterns are associated with progression of coronary artery calcification and differ across race/ethnicity: The Multi-Ethnic Study of Atherosclerosis.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101791"
+      },
+      {
+        "title": "La ecografía carotídea cuantifica una elevada carga de placa subclínica en población urbana y confirma el predominio de los factores de riesgo clásicos",
+        "what_happened": "Un estudio poblacional transversal en 3321 adultos de la cohorte Bialystok PLUS cuantificó placa en ocho segmentos carotídeos mediante ecografía. El 39,9% presentó placa en al menos un segmento y las placas se concentraron principalmente en las bifurcaciones carotídeas. La edad y los factores de riesgo cardiovascular establecidos fueron los principales determinantes de la carga de placa; las medidas de distribución adiposa mostraron asociaciones adicionales, pero modestas, tras ajuste.",
+        "why_relevant": "Refuerza el valor de la carga de placa carotídea como expresión de aterosclerosis sistémica subclínica y subraya que los determinantes clínicos convencionales siguen explicando la mayor parte de su distribución. La naturaleza transversal impide establecer temporalidad o causalidad, y el estudio no evalúa si el cribado ecográfico sistemático mejora eventos cardiovasculares.",
+        "practical_implication": "La detección de placa carotídea incidental o realizada en contextos seleccionados puede apoyar una valoración preventiva más intensiva del riesgo global, especialmente de LDL-colesterol, presión arterial, tabaquismo y diabetes. No aporta evidencia suficiente para recomendar ecografía carotídea poblacional indiscriminada ni para sustituir las estrategias validadas de estimación de riesgo.",
+        "source_title": "Carotid plaque burden in the adult Polish urban population and its association with body fat distribution.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.20452/pamw.17414"
+      },
+      {
+        "title": "La prevención secundaria tras bypass coronario debe ser intensiva, sostenida e individualizada",
+        "what_happened": "Una revisión contemporánea sintetiza la prevención secundaria tras cirugía de revascularización coronaria. Destaca la reducción intensiva y secuencial de LDL-colesterol con estatinas de alta intensidad, ezetimiba e inhibidores de PCSK9 cuando proceda; el papel central de la aspirina; la individualización de la doble antiagregación; y la incorporación de rehabilitación cardíaca, abandono tabáquico, control ponderal, tratamiento cardiometabólico y evaluación de salud mental.",
+        "why_relevant": "Los pacientes revascularizados continúan expuestos a progresión de aterosclerosis nativa y fallo de injertos, por lo que el bypass no debe interpretarse como tratamiento definitivo de la enfermedad aterosclerótica. La publicación resume evidencia y recomendaciones, pero no comunica un ensayo nuevo; persisten lagunas en estrategias antitrombóticas, resultados específicos por tipo de injerto y modelos de implementación.",
+        "practical_implication": "La atención posterior al bypass debe estructurarse como prevención secundaria de por vida, con verificación periódica de adherencia, consecución de objetivos lipídicos, control tensional y metabólico, indicación individualizada de tratamientos antitrombóticos y acceso a rehabilitación cardíaca. Los betabloqueantes y bloqueadores del sistema renina-angiotensina deben mantenerse según sus indicaciones clínicas establecidas, no únicamente por el antecedente de bypass.",
+        "source_title": "Key advances in secondary prevention after coronary artery bypass grafting.",
+        "journal": "Current opinion in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HCO.0000000000001333"
+      }
+    ]
+  },
+  {
     "date": "2026-10-03",
     "generated_at": "2026-10-03T14:26:53.464851+00:00",
     "items": [
