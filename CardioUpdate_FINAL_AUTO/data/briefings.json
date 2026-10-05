@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-05",
+    "generated_at": "2026-10-05T10:58:34.555072+00:00",
+    "items": [
+      {
+        "title": "La guía ACC/AHA 2026 de dislipidemia ampliaría la elegibilidad para estatinas en prevención primaria",
+        "what_happened": "Un análisis de adultos estadounidenses de 30 a 79 años de NHANES 2017-2020 comparó la elegibilidad para estatinas bajo los marcos ACC/AHA de 2018 y 2026. La elegibilidad estimada aumentó del 39,8% al 54,3%; el 16,5% de los participantes pasó a ser elegible únicamente con el marco de 2026. El incremento relativo fue mayor en menores de 50 años.",
+        "why_relevant": "El hallazgo sitúa la prevención primaria lipídica, incluida la exposición acumulada a LDL-C, en una población más amplia. Sin embargo, no demuestra que la aplicación de la nueva estrategia reduzca eventos: es una simulación de elegibilidad basada en datos transversales y en una población estadounidense.",
+        "practical_implication": "La implementación de la guía debería acompañarse de evaluación clínica individual, discusión de beneficio absoluto, acceso a tratamiento y seguimiento de adherencia. La mayor elegibilidad no equivale por sí misma a una indicación automática ni sustituye la valoración de modificadores de riesgo.",
+        "source_title": "Changes in statin therapy eligibility under the 2026 versus 2018 dyslipidemia guidelines.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101719"
+      },
+      {
+        "title": "Discordancia entre riesgo tratado y mortalidad cardiovascular con los umbrales PREVENT",
+        "what_happened": "Un análisis nacional estadounidense evaluó el tratamiento hipolipemiante y la mortalidad cardiovascular según los umbrales PREVENT-ASCVD. Entre personas sin enfermedad cardiovascular basal y riesgo intermedio o superior (≥5%), el 67,1% no recibía tratamiento hipolipemiante. El 38,5% de las muertes cardiovasculares ocurrió en personas sin enfermedad cardiovascular diagnosticada al inicio.",
+        "why_relevant": "El estudio subraya una brecha potencial de prevención primaria en personas que habrían cumplido criterios contemporáneos para considerar tratamiento lipídico. Aporta desenlaces clínicos fatales, pero su diseño observacional retrospectivo no permite atribuir causalmente las muertes a la ausencia de tratamiento ni demostrar el beneficio de tratar a todos los individuos elegibles.",
+        "practical_implication": "Los sistemas asistenciales deberían identificar de forma proactiva a pacientes con riesgo PREVENT elevado, especialmente fumadores y personas con presión arterial sistólica elevada, y confirmar indicación, contraindicaciones, preferencias y persistencia terapéutica.",
+        "source_title": "Risk-Treatment Discordance and Fatal Cardiovascular Disease: A Nationwide Analysis Using PREVENT Thresholds.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101711"
+      },
+      {
+        "title": "El LDL-C disminuye en atención primaria, pero persiste la distancia respecto a objetivos terapéuticos",
+        "what_happened": "Un estudio de práctica clínica en un centro de salud finlandés siguió durante 36 meses a 507 pacientes con hipertensión, enfermedad coronaria o diabetes. El grupo con LDL-C basal más alto redujo el LDL-C medio en 0,76 mmol/L, equivalente al 21%, junto con un aumento de prescripciones hipolipemiantes. Atorvastatina y rosuvastatina fueron los fármacos más utilizados.",
+        "why_relevant": "La observación ilustra que la intensificación farmacológica habitual puede reducir LDL-C en el mundo real, pero también que muchos pacientes de riesgo permanecen alejados de los objetivos recomendados. El LDL-C es un marcador sustituto relevante para el riesgo aterosclerótico, aunque el estudio no evaluó eventos cardiovasculares ni exposición acumulada a LDL o apoB.",
+        "practical_implication": "La atención primaria debería incorporar revisiones periódicas de LDL-C, intensidad y adherencia al tratamiento, así como escalada terapéutica cuando persista una distancia clínicamente relevante respecto al objetivo individual de prevención primaria o secundaria.",
+        "source_title": "Changes in LDL-C levels among primary health care patients with hypertension, coronary artery disease, and diabetes during a 36-month follow-up.",
+        "journal": "Scandinavian journal of primary health care",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/02813432.2026.2718269"
+      },
+      {
+        "title": "Un cálculo demográfico simplificado se asocia con calcio coronario y gravedad anatómica de enfermedad coronaria",
+        "what_happened": "En un estudio retrospectivo de 241 pacientes caucásicos sometidos a angiografía coronaria por TC, la puntuación nzcr-MESA, basada solo en edad, sexo y etnia, se correlacionó con la carga de calcio coronario y con la gravedad CAD-RADS. Los autores propusieron puntos de corte para preseleccionar a quienes presentaban puntuación de Agatston ≥400.",
+        "why_relevant": "La publicación explora una posible selección previa para imagen coronaria y se alinea con el interés creciente por cuantificar carga aterosclerótica subclínica mediante CAC. No obstante, mide asociación con hallazgos anatómicos, no reducción de eventos ni utilidad clínica de una estrategia de cribado; además, la cohorte fue pequeña, retrospectiva, monocéntrica y restringida a pacientes ya remitidos a CCTA.",
+        "practical_implication": "La puntuación no debería sustituir la valoración clínica ni utilizarse como prueba de cribado validada. El CAC sigue siendo la técnica de imagen más consolidada para reclasificación de riesgo en escenarios seleccionados, mientras que este modelo requiere validación externa y estudios de impacto clínico.",
+        "source_title": "The non-zero-calcification-risk multi-ethnic study of atherosclerosis score correlates with extent of coronary calcification as well as coronary artery disease.",
+        "journal": "European journal of radiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejrad.2026.113090"
+      },
+      {
+        "title": "Metaanálisis: la carga cardiovascular en personas con VIH combina factores tradicionales y específicos de la infección",
+        "what_happened": "Un metaanálisis de 43 estudios observacionales, con más de 4,1 millones de personas que viven con VIH, estimó una prevalencia agrupada de eventos cardiovasculares del 6%. Edad, tabaquismo, dislipidemia, hipertensión, diabetes, enfermedad cardiovascular previa, carga viral detectable y recuento de CD4+ bajo se asociaron con mayor riesgo en los análisis incluidos.",
+        "why_relevant": "El trabajo refuerza que la prevención cardiovascular en VIH debe abordar de forma simultánea la dislipidemia, la hipertensión y el tabaquismo, además del control virológico e inmunológico. La evidencia es observacional, heterogénea y susceptible a confusión; por tanto, las asociaciones no establecen causalidad individual ni cuantifican el efecto de intervenciones preventivas concretas.",
+        "practical_implication": "La evaluación cardiovascular de las personas con VIH debería integrar factores de riesgo tradicionales, control de LDL-C y presión arterial, tabaquismo, antecedentes cardiovasculares, carga viral y estado inmunológico. Las decisiones terapéuticas deben basarse en el riesgo global y en guías aplicables, no solo en la presencia de VIH.",
+        "source_title": "Prevalence and risk of cardiovascular events among people living with HIV: a meta-analysis.",
+        "journal": "Annals of medicine",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/07853890.2025.2540614"
+      }
+    ]
+  },
+  {
     "date": "2026-10-04",
     "generated_at": "2026-10-04T14:59:45.519486+00:00",
     "items": [
