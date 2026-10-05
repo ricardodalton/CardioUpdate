@@ -36,6 +36,7 @@
 .guideLayout{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.guide{background:#fff;border-left:9px solid #17809a;padding:21px}.guide h3{font-family:Georgia,serif;font-size:24px;margin:4px 0 9px}.guide p{font-size:13px;line-height:1.5;color:#63707a}.guide a{font-weight:900;color:#d51f32;text-decoration:none;font-size:12px}
 .searchStage{background:#17324a;color:#fff;padding:32px;margin-bottom:20px}.searchStage h1{font-family:Georgia,serif;font-size:42px;margin:0 0 8px}.searchStage p{color:#c8d6e2;margin:0 0 18px}.searchBox{display:flex;max-width:760px}.searchBox input{flex:1;padding:15px;border:0;outline:none}.searchBox button{border:0;background:#d51f32;color:#fff;font-weight:900;padding:0 20px;cursor:pointer}
 .empty{background:#fff;border:1px dashed #bdb5ac;padding:34px;text-align:center;color:#737b82}
+.litTabs{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 16px}.litTabs button{border:1px solid #bdb5ac;background:#fff;padding:9px 12px;font-weight:900;cursor:pointer}.litTabs button.active{background:#17324a;color:#fff}.externalCard{background:#fff;border-bottom:1px solid var(--line);padding:18px 20px}.externalCard h3{font-family:Georgia,serif;font-size:22px;line-height:1.18;margin:4px 0 8px}.externalMeta{font-size:11px;color:#737d86;margin-bottom:8px}.externalCard p{font-size:13px;line-height:1.5;color:#59656e}.externalActions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.externalActions a,.externalActions button{border:0;text-decoration:none;padding:9px 11px;background:#17324a;color:#fff;font-size:11px;font-weight:900;cursor:pointer}.externalActions button.saved{background:#15936b}.searchStatus{font-size:12px;color:#65717a;margin:10px 0}
 .remainderList{background:#fff;border-top:3px solid #17212b;padding:8px 26px 20px}.remainderList ol{margin:0;padding-left:28px}.remainderList li{padding:10px 4px;border-bottom:1px solid var(--line);font-family:Georgia,serif;font-size:16px;line-height:1.35}.remainderList li:last-child{border-bottom:0}.remainderList a{text-decoration:none}.remainderList a:hover{text-decoration:underline;color:#d51f32}
 .briefingDay{background:#fff;border-top:4px solid #17324a;padding:22px 25px;margin-bottom:18px}.briefingDay h2{font-family:Georgia,serif;font-size:28px;margin:0 0 18px}.briefItem{padding:17px 0;border-top:1px solid var(--line)}.briefItem h3{font-family:Georgia,serif;font-size:22px;line-height:1.15;margin:0 0 9px}.briefItem p{font-size:14px;line-height:1.55;color:#53616c;margin:6px 0}.briefItem strong{color:#17212b}.briefItem a{display:inline-block;margin-top:5px;color:#d51f32;font-weight:900;text-decoration:none;font-size:12px}.briefArchive{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}.briefArchive button{border:1px solid #bdb5ac;background:#fff;padding:8px 10px;font-weight:800;cursor:pointer}.briefArchive button.active{background:#17324a;color:#fff}.mobileNav{display:none}
 @media(max-width:1050px){.app{grid-template-columns:190px 1fr}.sidebar{padding:22px 12px}.areaStrip{grid-template-columns:repeat(4,1fr)}.homeTop{grid-template-columns:1fr}.issuePanel{max-width:520px}}
@@ -96,7 +97,7 @@
   <button data-page="topics" onclick="go('topics')"><i>▦</i>Especialidades</button>
   <button data-page="guides" onclick="go('guides')"><i>§</i>Guías</button>
   <button data-page="favorites" onclick="go('favorites')"><i>★</i>Favoritos</button>
-  <button data-page="search" onclick="go('search')"><i>⌕</i>Buscar</button>
+  <button data-page="search" onclick="go('search')"><i>⌕</i>Buscar trabajos</button>
  </nav>
  <div class="sideLabel">Edición</div>
  <div class="sideFooter">Revisión semanal de evidencia cardiológica seleccionada por relevancia clínica. Los enlaces originales se abren fuera de la app.</div>
@@ -143,8 +144,9 @@
 </section>
 
 <section id="search" class="page">
- <div class="searchStage"><h1>Buscar en CardioUpdate</h1><p>Buscá por enfermedad, tratamiento, ensayo, revista o palabra clave.</p><div class="searchBox"><input id="searchQ" placeholder="Ej.: HFpEF, amiloidosis, NEJM, revascularización…" onkeydown="if(event.key==='Enter')runSearch()"><button onclick="runSearch()">Buscar</button></div></div>
- <div id="searchFeed"></div>
+ <div class="searchStage"><h1>Buscar trabajos</h1><p>Consulta literatura científica externa en Europe PMC. Los trabajos guardados quedan disponibles para posteriores consultas en este dispositivo.</p><div class="searchBox"><input id="searchQ" placeholder="Ej.: coronary calcium primary prevention, mavacamten…" onkeydown="if(event.key==='Enter')runExternalSearch()"><button onclick="runExternalSearch()">Buscar</button></div></div>
+ <div class="litTabs"><button id="tabExternal" class="active" onclick="showExternalResults()">Resultados</button><button id="tabLibrary" onclick="renderLibrary()">Mi biblioteca</button></div>
+ <div id="searchStatus" class="searchStatus"></div><div id="searchFeed"></div>
 </section>
 
 <section id="detail" class="page"><div id="detailBody"></div></section>
@@ -321,9 +323,43 @@ function originalAbstractFor(s){
 }
 function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=originalAbstractFor(s);document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract</h2><p class="abstractNote">Original English abstract from the indexed scientific source.</p><section class="abstractSection"><p>${esc(abs)}</p></section></section>`:''}${s.analysis_es?`<section class="articleBlock impact" style="--c:${a[1]}"><h2>Análisis CardioUpdate</h2><p>${esc(s.analysis_es)}</p></section>`:''}</div></div>`;go('detail')}
 function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
-function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
+function library(){try{return JSON.parse(localStorage.getItem('cardioupdate_library')||'[]')}catch{return[]}}
+function saveLibrary(x){localStorage.setItem('cardioupdate_library',JSON.stringify(x))}
+function externalId(x){return String(x.pmid||x.doi||x.pmcid||x.title||'').toLowerCase()}
+function inLibrary(x){return library().some(y=>externalId(y)===externalId(x))}
+function epmcSource(x){if(x.doi)return 'https://doi.org/'+x.doi;if(x.pmid)return 'https://pubmed.ncbi.nlm.nih.gov/'+x.pmid+'/';if(x.pmcid)return 'https://europepmc.org/article/PMC/'+x.pmcid;return 'https://europepmc.org/'}
+function externalCard(x){
+ const abs=cleanAbstractHtml(x.abstractText||''); const saved=inLibrary(x);
+ return `<article class="externalCard"><div class="externalMeta">${esc(x.journalTitle||'Fuente indexada')} · ${esc(x.firstPublicationDate||x.pubYear||'')} ${x.authorString?'· '+esc(x.authorString):''}</div><h3>${esc(x.title||'Sin título')}</h3>${abs?`<p>${esc(abs.slice(0,900))}${abs.length>900?'…':''}</p>`:''}<div class="externalActions"><a href="${esc(epmcSource(x))}" target="_blank" rel="noopener">Fuente original ↗</a><button class="${saved?'saved':''}" onclick="toggleLibrary('${encodeURIComponent(externalId(x))}')">${saved?'★ Guardado':'☆ Guardar'}</button></div></article>`
+}
+let EXTERNAL_RESULTS=[];
+async function runExternalSearch(q){
+ const input=document.getElementById('searchQ'); const query=String(q??input.value).trim(); const box=document.getElementById('searchFeed'); const status=document.getElementById('searchStatus');
+ document.getElementById('tabExternal').classList.add('active');document.getElementById('tabLibrary').classList.remove('active');
+ if(!query){EXTERNAL_RESULTS=[];status.textContent='';box.innerHTML='<div class="empty">Escribí una consulta bibliográfica para comenzar.</div>';return}
+ status.textContent='Buscando literatura científica…';box.innerHTML='<div class="empty">Consultando Europe PMC…</div>';
+ try{
+   const url='https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=30&query='+encodeURIComponent(query);
+   const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('Europe PMC');
+   const data=await r.json();EXTERNAL_RESULTS=((data.resultList||{}).result||[]).filter(x=>x.title);
+   status.textContent=EXTERNAL_RESULTS.length+' resultados · Europe PMC';
+   box.innerHTML=EXTERNAL_RESULTS.length?EXTERNAL_RESULTS.map(externalCard).join(''):'<div class="empty">No se encontraron resultados.</div>';
+ }catch(e){status.textContent='';box.innerHTML='<div class="updateError"><b>No se pudo completar la búsqueda externa.</b> Intentá nuevamente.</div>'}
+}
+function showExternalResults(){document.getElementById('tabExternal').classList.add('active');document.getElementById('tabLibrary').classList.remove('active');document.getElementById('searchStatus').textContent=EXTERNAL_RESULTS.length?EXTERNAL_RESULTS.length+' resultados · Europe PMC':'';document.getElementById('searchFeed').innerHTML=EXTERNAL_RESULTS.length?EXTERNAL_RESULTS.map(externalCard).join(''):'<div class="empty">Realizá una búsqueda para ver resultados.</div>'}
+function toggleLibrary(encoded){
+ const id=decodeURIComponent(encoded);let lib=library();const idx=lib.findIndex(x=>externalId(x)===id);
+ if(idx>=0)lib.splice(idx,1);else{const x=EXTERNAL_RESULTS.find(y=>externalId(y)===id);if(x)lib.unshift({...x,saved_at:new Date().toISOString()})}
+ saveLibrary(lib); if(document.getElementById('tabLibrary').classList.contains('active'))renderLibrary();else showExternalResults();
+}
+function removeLibrary(encoded){const id=decodeURIComponent(encoded);saveLibrary(library().filter(x=>externalId(x)!==id));renderLibrary()}
+function renderLibrary(){
+ document.getElementById('tabLibrary').classList.add('active');document.getElementById('tabExternal').classList.remove('active');const lib=library();document.getElementById('searchStatus').textContent=lib.length+' trabajo'+(lib.length===1?'':'s')+' guardado'+(lib.length===1?'':'s');
+ document.getElementById('searchFeed').innerHTML=lib.length?lib.map(x=>externalCard(x).replace(/onclick="toggleLibrary\('([^']+)'\)"/,'onclick="removeLibrary(\'$1\')"').replace('★ Guardado','Eliminar de biblioteca')).join(''):'<div class="empty">Todavía no guardaste trabajos de búsquedas bibliográficas.</div>';
+}
+function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runExternalSearch(q)}
 function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
-function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home')renderHome();if(id==='briefing')renderBriefing();if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runSearch('');updateFavBadge();window.scrollTo(0,0)}
+function go(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById(id)?.classList.add('active');document.querySelectorAll('[data-page]').forEach(x=>x.classList.toggle('active',x.dataset.page===id));if(id==='home')renderHome();if(id==='briefing')renderBriefing();if(id==='week')renderWeek();if(id==='topics')renderTopics();if(id==='guides')renderGuides();if(id==='favorites')renderFavs();if(id==='search'&&!document.getElementById('searchFeed').innerHTML)runExternalSearch('');updateFavBadge();window.scrollTo(0,0)}
 async function reloadDatabase(){
   const active=document.querySelector('.page.active')?.id||'home';
   try{
@@ -336,7 +372,7 @@ async function reloadDatabase(){
 async function boot(){
   try{
     await loadDatabase();
-    renderHome();renderWeek();renderTopics();renderGuides();renderFavs();runSearch('');updateFavBadge();
+    renderHome();renderWeek();renderTopics();renderGuides();renderFavs();runExternalSearch('');updateFavBadge();
   }catch(e){
     document.getElementById('home').innerHTML='<div class="updateError"><b>Error al cargar la base de CardioUpdate.</b> Verifique que la carpeta data esté publicada junto con index.html.</div>';
   }
@@ -352,7 +388,7 @@ boot();
   <h2>Portada: qué aparece y en qué orden</h2>
   <p>La portada comienza con el <b>trabajo principal de la semana</b> y la composición de la edición; continúa con la selección editorial, las especialidades y las últimas incorporaciones. A continuación aparece el <b>Briefing diario</b>, situado inmediatamente antes del <b>Resto de estudios detectados en el ciclo sábado–viernes</b>.</p>
   <h2>Briefing diario: cómo utilizarlo</h2>
-  <p>Reúne hasta <b>cinco novedades</b> de cardiología, medicina e inteligencia artificial aplicada a la salud. Cada noticia está redactada en tercera persona y se organiza en <b>Qué ocurrió</b>, <b>Por qué es relevante</b> e <b>Implicación práctica</b>. El enlace <b>Fuente original ↗</b> permite consultar la publicación de origen.</p>
+  <p>Reúne hasta <b>cinco novedades</b> de cardiología, medicina e inteligencia artificial aplicada a la salud. Cada noticia está redactada en tercera persona y se organiza en <b>Hallazgo principal</b>, <b>Por qué es relevante</b> e <b>Implicación práctica</b>. El enlace <b>Fuente original ↗</b> permite consultar la publicación de origen.</p>
   <p>Los botones con fechas permiten consultar el <b>archivo de los últimos siete briefings disponibles</b>. La fecha de cada briefing indica a qué actualización corresponde; si la generación automática falla o no encuentra material verificable, puede mantenerse una edición anterior. El briefing informa novedades: <b>no reemplaza</b> la evaluación metodológica del artículo ni la selección semanal.</p>
   <h2>Menú inferior del teléfono</h2>
   <p>El menú conserva seis accesos. El briefing se lee directamente en <b>Portada</b>; no se agregó un séptimo botón.</p>
@@ -362,7 +398,7 @@ boot();
    <div><b>▦ Temas</b>Acceso por el nombre completo de cada especialidad, incluida cardiología congénita.</div>
    <div><b>§ Guías</b>Biblioteca de guías y consensos, conservada independientemente del recambio semanal.</div>
    <div><b>★ Favoritos</b>La estrella guarda estudios en el navegador y dispositivo donde se marca; no implica sincronización entre equipos.</div>
-   <div><b>⌕ Buscar</b>Búsqueda por enfermedad, intervención, fármaco, tema o revista; por ejemplo CAC, Lp(a), TAVI o mavacamten.</div>
+   <div><b>⌕ Buscar</b>Búsqueda bibliográfica externa en Europe PMC por enfermedad, intervención, fármaco, tema o revista. Los resultados pueden guardarse en Mi biblioteca.</div>
   </div>
   <h2>Cómo leer un estudio de la edición semanal</h2>
   <p>Al abrir un trabajo se presenta el <b>título original en inglés</b>, seguido del <b>abstract original en inglés</b> cuando está disponible en la fuente, y del <b>análisis CardioUpdate en español</b>. Conviene comprobar los resultados, las cifras, el diseño y las limitaciones directamente en el artículo original.</p>
