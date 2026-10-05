@@ -8,7 +8,7 @@ Daily behavior (Saturday-Thursday):
 
 Friday behavior:
 - Search once more to absorb indexing delays.
-- Select the 20-30 highest-priority papers published from the previous Saturday
+- Select up to 30 high-priority, cardiovascular-relevant papers published from the previous Saturday
   through Friday.
 - Replace data/studies.json with that weekly issue.
 - Keep that issue unchanged until the next Friday.
@@ -40,7 +40,6 @@ META = ROOT / "data" / "meta.json"
 EPMC_API = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 CROSSREF_API = "https://api.crossref.org/works/"
 
-MIN_WEEKLY = int(os.environ.get("CARDIOUPDATE_MIN_WEEKLY", "20"))
 MAX_WEEKLY = int(os.environ.get("CARDIOUPDATE_MAX_WEEKLY", "30"))
 MAX_RELATED = int(os.environ.get("CARDIOUPDATE_MAX_RELATED", "6"))
 TRANSLATE = os.environ.get("CARDIOUPDATE_TRANSLATE", "1") != "0"
@@ -102,7 +101,29 @@ def classify_area(text: str) -> str:
     for area, pattern in AREA_RULES:
         if re.search(pattern, text or "", flags=re.I):
             return area
-    return "Prevención y aterosclerosis"
+    return "No clasificado"
+
+
+CARDIOVASCULAR_RELEVANCE_PATTERNS = [
+    r"\\b(cardiovascular|cardiac|coronary|myocardial|heart failure|hfpef|hfref|atrial fibrillation|ventricular arrhythm|cardiomyopath|pericard|valvular|aortic stenosis|mitral regurgitation|tricuspid regurgitation|tavi|tavr|revasculari[sz]ation|pci|acute coronary|stemi|nstemi|myocardial infarction)\\b",
+    r"\\b(hypertension|blood pressure|atherosclero|coronary calcium|coronary artery calcium|carotid plaque|peripheral arter|lipoprotein\\(a\\)|lp\\(a\\)|ldl cholesterol|apolipoprotein b|pcsk9|inclisiran|statin|dyslipid|cardiac rehabilitation)\\b",
+    r"\\b(cardiovascular mortality|cardiovascular death|major adverse cardiovascular|mace\\b|heart failure hospitalization|hospitalization for heart failure|stroke|ischemic stroke|sudden cardiac death)\\b",
+]
+
+
+def cardiovascular_relevance(item: dict) -> bool:
+    """Mandatory gate for the highlighted weekly issue.
+
+    Admit clinical cardiology research and research from another specialty only
+    when title/abstract states a direct, clinically meaningful cardiovascular
+    disease, intervention, phenotype, or cardiovascular outcome.
+    """
+    title = clean_markup(item.get("title", "")).lower()
+    abstract = clean_markup(item.get("abstractText", "")).lower()
+    if not title or not abstract:
+        return False
+    text = f"{title} {abstract}"
+    return any(re.search(pattern, text, flags=re.I) for pattern in CARDIOVASCULAR_RELEVANCE_PATTERNS)
 
 
 def journal_weight(journal: str) -> int:
@@ -362,20 +383,21 @@ def build_weekly_remainder(pool: list[dict], day: date):
 
 
 def select_weekly(pool: list[dict], start: date, end: date):
+    """Select up to 30 highlights; cardiovascular relevance is mandatory."""
     eligible = []
     for x in pool:
         d = paper_date(x)
-        if d is None or not (start <= d <= end) or not x.get("title") or not x.get("abstractText") or is_guideline_like(x): continue
+        if d is None or not (start <= d <= end):
+            continue
+        if not x.get("title") or not x.get("abstractText") or is_guideline_like(x):
+            continue
+        if not cardiovascular_relevance(x):
+            continue
         eligible.append((score(x), x))
     eligible.sort(key=lambda z: (z[0], (paper_date(z[1]) or date.min).isoformat()), reverse=True)
-    chosen = [x for sc, x in eligible if sc >= 12][:MAX_WEEKLY]
-    if len(chosen) < MIN_WEEKLY:
-        chosen_keys = {candidate_key(x) for x in chosen}
-        for sc, x in eligible:
-            if candidate_key(x) in chosen_keys or sc < 8: continue
-            chosen.append(x); chosen_keys.add(candidate_key(x))
-            if len(chosen) >= MIN_WEEKLY or len(chosen) >= MAX_WEEKLY: break
-    return chosen[:MAX_WEEKLY]
+    # Quality and relevance prevail over quota: never add weaker papers merely
+    # to reach 20. A weekly issue may legitimately contain fewer than 20.
+    return [x for sc, x in eligible if sc >= 12][:MAX_WEEKLY]
 
 
 def title_keywords(title: str, max_terms=7):
