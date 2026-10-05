@@ -1,0 +1,32 @@
+name: CardioUpdate Monthly Backup
+
+on:
+  schedule:
+    - cron: '15 8 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout complete repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build dated backup archive
+        run: |
+          stamp="$(date -u +%Y-%m-%d)"
+          git bundle create "CardioUpdate-${stamp}.bundle" --all
+          tar -czf "CardioUpdate-${stamp}.tar.gz" --exclude=.git .
+          mkdir -p backup
+          mv "CardioUpdate-${stamp}.bundle" "CardioUpdate-${stamp}.tar.gz" backup/
+      - name: Upload backup
+        uses: actions/upload-artifact@v4
+        with:
+          name: CardioUpdate-backup-${{ github.run_id }}
+          path: backup/
+          retention-days: 90
+          compression-level: 6
