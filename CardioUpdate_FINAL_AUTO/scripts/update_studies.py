@@ -158,6 +158,87 @@ def level(item: dict) -> str:
     return "Relevante" if score(item) >= 18 else "Seguimiento"
 
 
+def editorial_score(item: dict) -> tuple[int, dict]:
+    """Rank already-eligible weekly papers for the single lead story.
+
+    This is intentionally separate from the inclusion score. It favors evidence
+    that a cardiologist should know if only one paper from the week were read.
+    """
+    text = f"{item.get('title','')} {item.get('abstractText','')} {type_text(item)}".lower()
+    title = clean_markup(item.get("title", "")).lower()
+    components = {"practice": 0, "novelty": 0, "methodology": 0, "clinical_effect": 0, "publication": 0}
+
+    # Potential to change clinical practice (0-30).
+    if re.search(r"randomized|randomised|phase 3|phase iii|clinical trial|controlled trial", text):
+        components["practice"] += 16
+    if re.search(r"mortality|cardiovascular death|myocardial infarction|stroke|hospitali[sz]ation|heart failure hospitalization", text):
+        components["practice"] += 8
+    if re.search(r"superior|superiority|reduced|reduction|lower risk|improved|benefit|effective|efficacy", text):
+        components["practice"] += 6
+    components["practice"] = min(30, components["practice"])
+
+    # Novelty (0-20): explicit first/new evidence or a contemporary intervention.
+    if re.search(r"first|novel|new|previously unknown|first-in-class", text):
+        components["novelty"] += 10
+    if re.search(r"mavacamten|aficamten|inclisiran|pcsk9|transcatheter|tavi|tavr|renal denervation|gene therapy|rna|sirna", text):
+        components["novelty"] += 6
+    if re.search(r"randomized|randomised|phase 3|phase iii", title):
+        components["novelty"] += 4
+    components["novelty"] = min(20, components["novelty"])
+
+    # Methodological robustness (0-20).
+    if re.search(r"randomized|randomised|controlled trial", text):
+        components["methodology"] = 20
+    elif re.search(r"meta-analysis|systematic review", text):
+        components["methodology"] = 15
+    elif re.search(r"prospective|cohort", text):
+        components["methodology"] = 9
+    else:
+        components["methodology"] = 5
+
+    # Clinical magnitude/relevance of the measured effect (0-20).
+    if re.search(r"mortality|death", text):
+        components["clinical_effect"] += 9
+    if re.search(r"myocardial infarction|stroke|hospitali[sz]ation|mace\b|major adverse cardiovascular", text):
+        components["clinical_effect"] += 7
+    if re.search(r"hazard ratio|relative risk|risk ratio|odds ratio|confidence interval|number needed to treat", text):
+        components["clinical_effect"] += 4
+    components["clinical_effect"] = min(20, components["clinical_effect"])
+
+    # Publication/source quality (0-10), deliberately capped so prestige alone
+    # cannot determine the lead story.
+    components["publication"] = min(10, round(journal_weight(item.get("journalTitle", "")) * 10 / 7))
+
+    total = sum(components.values())
+    return total, components
+
+
+def lead_reason(item: dict, components: dict) -> str:
+    text = f"{item.get('title','')} {item.get('abstractText','')} {type_text(item)}".lower()
+    reasons = []
+    if components.get("practice", 0) >= 20:
+        reasons.append("alto potencial de impacto en la práctica clínica")
+    if re.search(r"randomized|randomised|controlled trial|phase 3|phase iii", text):
+        reasons.append("diseño experimental robusto")
+    elif re.search(r"meta-analysis|systematic review", text):
+        reasons.append("síntesis de evidencia de alto nivel")
+    if re.search(r"mortality|cardiovascular death|myocardial infarction|stroke|hospitali[sz]ation|mace\b", text):
+        reasons.append("evaluación de desenlaces cardiovasculares clínicamente relevantes")
+    if components.get("novelty", 0) >= 10:
+        reasons.append("aporte novedoso")
+    if components.get("publication", 0) >= 8:
+        reasons.append("publicación en una fuente de alta jerarquía")
+    reasons = reasons[:3] or ["mayor puntuación editorial global entre los trabajos elegibles de la semana"]
+    return "Seleccionado como principal por " + ", ".join(reasons) + "."
+
+
+def choose_lead(selected: list[dict]) -> tuple[dict, int, dict]:
+    ranked = [(editorial_score(x)[0], editorial_score(x)[1], x) for x in selected]
+    ranked.sort(key=lambda z: (z[0], score(z[2]), (paper_date(z[2]) or date.min).isoformat()), reverse=True)
+    total, components, item = ranked[0]
+    return item, total, components
+
+
 def split_sentences(text: str, max_chars=700):
     parts = re.split(r"(?<=[.!?])\s+", (text or "").strip())
     chunks, cur = [], ""
@@ -501,6 +582,8 @@ def main():
         print(f"CardioUpdate: {len(pool)} candidatos acumulados; {new_candidates} nuevos y {cycle_candidates} del ciclo {cycle_start} a {cycle_end}. Edición publicada sin cambios hasta el viernes.");return
     start,end=edition_window(today);selected=select_weekly(pool,start,end);existing_map={candidate_key(x):x for x in existing if candidate_key(x)};issue=[]
     if not selected:raise RuntimeError(f"No hay estudios elegibles para la edición {start} a {end}; se conserva studies.json.")
+    lead_item,lead_total,lead_components=choose_lead(selected)
+    lead_key=candidate_key(lead_item)
     for x in selected:
         k=candidate_key(x);old=existing_map.get(k)
         if old and old.get("review_status")!="Revisión pendiente":
@@ -508,7 +591,13 @@ def main():
             old["abstract_en"] = clean_markup(x.get("abstractText", "")) or old.get("abstract_en", "")
             issue.append(old)
         else:issue.append(build_study(x,score(x)))
-    issue.sort(key=lambda s:((s.get("auto_score") or 0),s.get("date") or ""),reverse=True);save_json(DB,issue)
+    for study in issue:
+        study["is_weekly_lead"] = candidate_key(study) == lead_key
+        if study["is_weekly_lead"]:
+            study["editorial_score"] = lead_total
+            study["editorial_components"] = lead_components
+            study["lead_reason"] = lead_reason(lead_item, lead_components)
+    issue.sort(key=lambda st:(1 if st.get("is_weekly_lead") else 0,(st.get("auto_score") or 0),st.get("date") or ""),reverse=True);save_json(DB,issue)
     meta.update({"updated_at":datetime.now(timezone.utc).isoformat(),"edition_start":start.isoformat(),"edition_end":end.isoformat(),"total_studies":len(issue),"candidate_pool":len(pool),"publication_mode":"weekly_friday","source":"Europe PMC + Crossref","related_evidence_enabled":True,"related_evidence_max_sources":MAX_RELATED});save_json(META,meta)
     print(f"CardioUpdate: edición {start} a {end} publicada con {len(issue)} trabajos; {len(pool)} candidatos acumulados.")
 
