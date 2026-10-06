@@ -76,7 +76,7 @@ function renderWeeklyRemainder(){
     const [year,month,date]=day.split('-').map(Number);
     return new Intl.DateTimeFormat('es-AR',{weekday:'long',day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(Date.UTC(year,month-1,date)));
   };
-  const sections=[...byDay].map(([day,studies],index)=>`<details class="remainderDay" ${index===0?'open':''}><summary>${esc(dayLabel(day))} — ${studies.length} ${studies.length===1?'estudio':'estudios'}</summary><ol>${studies.map(x=>`<li><a href="${esc(studySourceUrl(x))}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ol></details>`).join('');
+  const sections=[...byDay].map(([day,studies])=>`<details class="remainderDay"><summary>${esc(dayLabel(day))} — ${studies.length} ${studies.length===1?'estudio':'estudios'}</summary><ol>${studies.map(x=>`<li><a href="${esc(studySourceUrl(x))}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ol></details>`).join('');
   box.innerHTML=items.length
     ? `<div class="ruleTitle"><h2>Resto de estudios detectados en el ciclo sábado–viernes</h2><span></span></div><div class="remainderList">${sections}</div>`
     : `<div class="ruleTitle"><h2>Resto de estudios detectados en el ciclo sábado–viernes</h2><span></span></div><div class="empty">Aún no se detectaron estudios adicionales en este ciclo.</div>`;
