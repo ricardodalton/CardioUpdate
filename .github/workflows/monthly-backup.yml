@@ -19,10 +19,9 @@ jobs:
       - name: Build dated backup archive
         run: |
           stamp="$(date -u +%Y-%m-%d)"
-          git bundle create "CardioUpdate-${stamp}.bundle" --all
-          tar -czf "CardioUpdate-${stamp}.tar.gz" --exclude=.git .
           mkdir -p backup
-          mv "CardioUpdate-${stamp}.bundle" "CardioUpdate-${stamp}.tar.gz" backup/
+          git bundle create "backup/CardioUpdate-${stamp}.bundle" --all
+          tar -czf "backup/CardioUpdate-${stamp}.tar.gz" --exclude=.git --exclude=backup .
       - name: Upload backup
         uses: actions/upload-artifact@v4
         with:
