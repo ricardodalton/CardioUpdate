@@ -1,0 +1,47 @@
+name: CardioUpdate Briefing Watchdog
+
+on:
+  schedule:
+    # 11:10, 15:10 and 19:10 Buenos Aires (UTC-3).
+    - cron: '10 14,18,22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: cardioupdate-briefing-watchdog
+  cancel-in-progress: false
+
+jobs:
+  check-and-recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v4
+      - name: Check briefing freshness in main and on GitHub Pages
+        id: freshness
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python CardioUpdate_FINAL_AUTO/scripts/check_briefing_freshness.py
+      - name: Avoid duplicate recovery while updater is active
+        if: steps.freshness.outputs.recover == 'true'
+        id: active
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          active="$(gh run list --workflow daily-update.yml --limit 20 --json status --jq '[.[] | select(.status == "queued" or .status == "in_progress" or .status == "waiting" or .status == "pending" or .status == "requested")] | length')"
+          if [ "$active" -gt 0 ]; then
+            echo "The updater is already queued or running; skip duplicate dispatch."
+            echo "dispatch=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "dispatch=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Trigger recovery of missing briefing
+        if: steps.freshness.outputs.recover == 'true' && steps.active.outputs.dispatch == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run daily-update.yml --ref main
+          echo "Triggered a full update and Pages deployment for the missing briefing."
