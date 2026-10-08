@@ -5,7 +5,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -46,11 +46,28 @@ def main():
         print(f"Cannot verify published briefing: {exc}")
         published_date = ""
 
+    # Report gaps even when today's briefing is available.
+    today_date = datetime.now(ZoneInfo("America/Argentina/Buenos_Aires")).date()
+    saturday = today_date - timedelta(days=(today_date.weekday() - 5) % 7)
+    try:
+        entries = json.loads(LOCAL.read_text(encoding="utf-8"))
+        available = {x.get("date") for x in entries if isinstance(x, dict)}
+    except (OSError, ValueError):
+        available = set()
+    missing = []
+    day = saturday
+    while day < today_date:
+        if day.isoformat() not in available:
+            missing.append(day.isoformat())
+        day += timedelta(days=1)
+
     stale = local_date < TODAY or published_date < TODAY
     print(f"Today (Buenos Aires): {TODAY}; main: {local_date or 'missing'}; published: {published_date or 'missing'}")
+    print(f"Missing dates in current cycle: {', '.join(missing) or 'none'}")
     print("Recovery required." if stale else "Briefing up to date; no recovery required.")
     with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
         out.write(f"recover={'true' if stale else 'false'}\n")
+        out.write(f"missing_dates={','.join(missing)}\n")
 
 
 if __name__ == "__main__":
