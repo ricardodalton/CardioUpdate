@@ -80,7 +80,9 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "CardioUpdate: daily briefing and weekly journal pipeline"
-            # The updater can overlap with a human/automated commit. Rebase the\n            # generated commit onto the newest main before pushing, preserving both.\n            git pull --rebase origin main\n            git push origin HEAD:main
+            # Rebase the generated commit onto the newest main before pushing.
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       # Commits created with GITHUB_TOKEN do not start another workflow. Deploy
       # the freshly generated workspace here so Pages never remains stale.
