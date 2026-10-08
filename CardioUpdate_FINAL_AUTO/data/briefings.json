@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-08",
+    "generated_at": "2026-10-08T17:12:46.179481+00:00",
+    "items": [
+      {
+        "title": "Infarto con elevación del ST sin factores de riesgo modificables estándar: fenotipo de alto riesgo y menor implementación preventiva",
+        "what_happened": "Un análisis del Japan Acute Myocardial Infarction Registry evaluó a 2.310 pacientes con IAM con elevación del ST tratados en la era contemporánea de intervención coronaria percutánea primaria. El 5,9% no presentaba diabetes, dislipidemia, hipertensión ni tabaquismo. Este grupo, de mayor edad y con mayor proporción de mujeres y fibrilación auricular, recibió con menor frecuencia tratamientos preventivos secundarios basados en la evidencia al alta y presentó más eventos cardiovasculares adversos mayores al año; la asociación persistió tras ajuste multivariable.",
+        "why_relevant": "La ausencia de factores de riesgo convencionales no equivale a bajo riesgo tras un síndrome coronario agudo. El estudio refuerza que la prevención secundaria debe basarse en la enfermedad aterotrombótica establecida y no en la presencia o ausencia de los denominados SMuRF. El desenlace principal fue clínico, aunque la evidencia es observacional y no demuestra que la menor prescripción sea la causa del peor pronóstico.",
+        "practical_implication": "La evaluación tras un IAMCEST sin factores convencionales debe buscar mecanismos y riesgos no capturados —incluida fibrilación auricular u otras causas de infarto— sin reducir la intensidad de la prevención secundaria indicada. La menor utilización de terapias preventivas identificada por el registro señala una posible brecha asistencial que requiere auditoría local.",
+        "source_title": "SMuRF-less ST-segment elevation myocardial infarction in contemporary Japanese practice: Clinical characteristics and prognostic implications from the Japan acute myocardial infarction registry.",
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcrp.2026.200715"
+      },
+      {
+        "title": "Antiagregación única tras pie diabético y enfermedad arterial periférica: señal observacional favorable para aspirina",
+        "what_happened": "Un estudio de bases administrativas de Taiwán incluyó 2.597 adultos con diabetes tipo 2, enfermedad arterial periférica y un primer episodio de pie diabético, tratados posteriormente con aspirina, clopidogrel o cilostazol en monoterapia. Tras ponderación por probabilidad inversa de tratamiento, no se observaron diferencias significativas en amputación mayor ni en eventos cardiovasculares adversos mayores. Frente a aspirina, clopidogrel y cilostazol se asociaron con mayor mortalidad por cualquier causa; cilostazol también se asoció con más eventos adversos mayores de extremidad.",
+        "why_relevant": "La población con pie diabético y enfermedad arterial periférica concentra un riesgo muy elevado de eventos cardiovasculares y de extremidad, pero dispone de evidencia comparativa limitada para estrategias antitrombóticas de largo plazo. El estudio aporta resultados clínicos, no sustitutos, en una cohorte de práctica real.",
+        "practical_implication": "La aspirina permanece como una opción razonable de antiagregación única en este contexto cuando está clínicamente indicada. No obstante, los resultados no establecen superioridad causal: la asignación no fue aleatoria, existía diferente carga basal de comorbilidad entre grupos y pueden persistir factores de confusión pese al ajuste.",
+        "source_title": "Prognostic implications of single antiplatelet therapy in individuals developing diabetic foot disease with concurrent peripheral arterial disease.",
+        "journal": "Annals of medicine",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/07853890.2026.2653300"
+      },
+      {
+        "title": "Infarto cerebral silente: consenso internacional prioriza el control intensivo de los factores vasculares",
+        "what_happened": "Un consenso internacional Delphi modificado, con 21 expertos de 15 países, alcanzó acuerdo en 33 de 91 afirmaciones sobre la evaluación y el manejo del infarto cerebral silente. Respaldó la valoración clínica dirigida, ecocardiografía transtorácica y estudios vasculares en casos seleccionados, además de una optimización rigurosa de los factores de riesgo, especialmente de la presión arterial en pacientes hipertensos. No apoyó el cribado poblacional rutinario ni la anticoagulación sin una indicación cardioembólica. Tampoco alcanzó consenso para antiagregación sistemática.",
+        "why_relevant": "El infarto cerebral silente identifica a personas con mayor riesgo de ictus, deterioro cognitivo y demencia, y sitúa el control de la hipertensión y del riesgo vascular en el centro de la prevención cerebrovascular. La publicación delimita áreas de práctica razonable ante una evidencia terapéutica todavía incompleta.",
+        "practical_implication": "Ante un hallazgo incidental, la práctica puede orientarse a confirmar el contexto etiológico y a intensificar el control de presión arterial y demás factores vasculares. Las decisiones sobre antiagregación, anticoagulación y objetivos lipídicos deben individualizarse, pues el documento es consenso de expertos y no una guía sustentada en ensayos aleatorizados de estrategias específicas para infarto cerebral silente.",
+        "source_title": "International Modified Delphi Consensus on Assessment and Management of Covert Brain Infarction.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1177/17474930261496691"
+      },
+      {
+        "title": "Obesidad y enfermedad cardiovascular: declaración clínica de la Obesity Medicine Association 2026",
+        "what_happened": "La Obesity Medicine Association publicó una declaración de práctica clínica que presenta la obesidad como enfermedad crónica con contribución directa e indirecta a la enfermedad cardiovascular. El documento integra su relación con hipertensión, diabetes tipo 2, dislipidemia, trombosis, fibrilación auricular e insuficiencia cardiaca con fracción de eyección preservada, y revisa intervenciones nutricionales, actividad física, terapia conductual, fármacos contra la obesidad —incluidos agonistas del receptor GLP-1— y cirugía bariátrica.",
+        "why_relevant": "La prevención cardiovascular no debe limitarse al tratamiento aislado de LDL, presión arterial o glucemia cuando el exceso y la disfunción del tejido adiposo contribuyen a varios de estos determinantes. La declaración promueve un marco de riesgo cardiometabólico integral y reconoce que determinadas intervenciones contra la obesidad pueden modificar desenlaces cardiovasculares a largo plazo.",
+        "practical_implication": "La valoración cardiovascular de personas con obesidad puede incorporar una estrategia estructurada de tratamiento de la obesidad, junto con el control de lípidos, presión arterial, diabetes, apnea obstructiva del sueño y enfermedad renal crónica. La limitación es que se trata de una declaración clínica de una sociedad científica, basada en revisión de literatura y juicio experto, no de una nueva guía de práctica clínica con recomendaciones graduadas independientes.",
+        "source_title": "Obesity and Cardiovascular Disease: An Obesity Medicine Association (OMA) Clinical Practice Statement (CPS) 2026.",
+        "journal": "Obesity pillars",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.obpill.2026.100283"
+      },
+      {
+        "title": "Enfermedad coronaria no obstructiva: la angio-TC desplaza el foco desde la estenosis hacia la carga y el fenotipo de placa",
+        "what_happened": "Una revisión reciente examina el uso de la tomografía computarizada coronaria para caracterizar la enfermedad coronaria no obstructiva mediante carga de placa, composición, rasgos de alto riesgo, marcadores inflamatorios y cambios seriados. Distingue entre detectar aterosclerosis, estratificar riesgo y definir fenotipos potencialmente tratables. También recuerda que una coronariografía por TC no obstructiva no excluye disfunción microvascular ni vasoespasmo.",
+        "why_relevant": "La carga aterosclerótica puede aportar información pronóstica más allá del umbral angiográfico de estenosis. En prevención coronaria, el calcio coronario y la angio-TC pueden identificar aterosclerosis subclínica o no obstructiva y ayudar a contextualizar la intensidad de las intervenciones preventivas.",
+        "practical_implication": "Las imágenes coronarias pueden utilizarse para refinar la estratificación de riesgo en escenarios seleccionados y para sustentar la intensificación de medidas preventivas cuando se documenta aterosclerosis. Su principal limitación es que esta publicación es una revisión narrativa: los marcadores de placa y los algoritmos terapéuticos guiados por angio-TC aún no han demostrado de forma concluyente mejorar eventos clínicos frente a estrategias preventivas convencionales.",
+        "source_title": "Beyond stenosis: imaging phenotyping and risk stratification in nonobstructive coronary artery disease.",
+        "journal": "Current opinion in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HCO.0000000000001341"
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "generated_at": "2026-10-05T11:07:51.301229+00:00",
     "items": [
