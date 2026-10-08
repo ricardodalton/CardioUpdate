@@ -49,7 +49,7 @@ jobs:
           IFS=',' read -ra dates <<< "$MISSING_DATES"
           for day in "${dates[@]}"; do
             title="[CardioUpdate] Falta el briefing del ${day}"
-            existing="$(gh issue list --state all --limit 100 --json number,title --jq ".[] | select(.title == \\"$title\\") | .number" | head -n 1)"
+            existing="$(gh issue list --state all --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"
             if [ -z "$existing" ]; then
               gh issue create --title "$title" --assignee ricardodalton --body "El control automático detectó que falta el briefing correspondiente al ${day} en el repositorio. @ricardodalton: esta fecha requiere recuperación o revisión; una actualización posterior no reconstruye automáticamente la edición histórica."
             fi
@@ -62,7 +62,7 @@ jobs:
           set -euo pipefail
           day="$(TZ=America/Argentina/Buenos_Aires date +%F)"
           title="[CardioUpdate] Briefing atrasado: ${day}"
-          existing="$(gh issue list --state all --limit 100 --json number,title --jq ".[] | select(.title == \\"$title\\") | .number" | head -n 1)"
+          existing="$(gh issue list --state all --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"
           if [ -z "$existing" ]; then
             gh issue create --title "$title" --assignee ricardodalton --body "El briefing del ${day} no está actualizado en GitHub o en la web publicada. El watchdog intentará recuperarlo automáticamente. @ricardodalton"
           fi
