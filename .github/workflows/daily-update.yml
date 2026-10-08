@@ -19,6 +19,10 @@ on:
       - 'CardioUpdate_FINAL_AUTO/scripts/update_studies.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/update_studies_with_pubmed.py'
 
+concurrency:
+  group: cardioupdate-daily-update
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pages: write
