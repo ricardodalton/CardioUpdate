@@ -1,0 +1,39 @@
+name: CardioUpdate Error Alerts
+
+on:
+  workflow_run:
+    workflows:
+      - 'CardioUpdate Weekly Journal + Daily Briefing'
+      - 'Deploy CardioUpdate to GitHub Pages'
+      - 'CardioUpdate Briefing Watchdog'
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+  issues: write
+
+jobs:
+  report:
+    if: github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open or update an assigned GitHub issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          WORKFLOW_NAME: ${{ github.event.workflow_run.name }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          RUN_TIME: ${{ github.event.workflow_run.updated_at }}
+        run: |
+          set -euo pipefail
+          title="[CardioUpdate] Error automático: ${WORKFLOW_NAME}"
+          issue="$(gh issue list --repo "$REPO" --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"
+          body="$(printf 'Se detectó un error en CardioUpdate.\n\n- Flujo: %s\n- Ejecución: %s\n- Fecha UTC: %s\n- Registro técnico: %s\n\n@ricardodalton: revisar si el reintento automático recuperó la publicación.\n' "$WORKFLOW_NAME" "$RUN_ID" "$RUN_TIME" "$RUN_URL")"
+          if [ -z "$issue" ]; then
+            gh issue create --repo "$REPO" --title "$title" --body "$body" --assignee ricardodalton
+          else
+            gh issue comment "$issue" --repo "$REPO" --body "$body"
+          fi
