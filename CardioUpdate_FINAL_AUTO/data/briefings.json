@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-11",
+    "generated_at": "2026-10-11T15:57:55.851613+00:00",
+    "items": [
+      {
+        "title": "El índice triglicéridos-glucosa predice eventos cardiovasculares a largo plazo en diabetes tipo 2 sin enfermedad coronaria clínica",
+        "what_happened": "Un análisis retrospectivo de una cohorte prospectivamente reclutada evaluó a 735 personas con diabetes tipo 2, sin enfermedad coronaria conocida ni síntomas, con tomografía para cuantificación de calcio coronario basal. Tras una mediana de 16,4 años, el índice triglicéridos-glucosa (TyG) basal se asoció de forma independiente con el riesgo de un primer evento cardiovascular mayor, incluso después de ajustar por gravedad de la diabetes y puntuación de calcio coronario.",
+        "why_relevant": "El estudio aporta datos de eventos clínicos, no solo de biomarcadores, en una población de prevención primaria de alto riesgo. Sugiere que TyG podría añadir información pronóstica metabólica a la carga aterosclerótica cuantificada por calcio coronario.",
+        "practical_implication": "El clínico puede considerar TyG como una señal complementaria de riesgo residual en pacientes con diabetes tipo 2, especialmente cuando se interpreta junto con CAC y factores de riesgo convencionales. No justifica por sí solo cambios terapéuticos ni sustituye las estrategias establecidas de control intensivo de LDL, presión arterial, glucemia y estilo de vida, ya que se trata de evidencia observacional.",
+        "source_title": "The long-term prognostic value of triglyceride-glucose index in type 2 diabetics without clinical coronary artery disease.",
+        "journal": "Current problems in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103420"
+      },
+      {
+        "title": "Los patrones dietéticos se asocian con la incidencia y progresión del calcio coronario en MESA",
+        "what_happened": "En 3.182 participantes de MESA, los patrones dietéticos basales y sus cambios se relacionaron longitudinalmente con incidencia y progresión de calcificación coronaria. El patrón rico en cereales integrales y fruta se asoció con menor probabilidad de CAC incidente y progresión, mientras que el patrón rico en grasa y carnes procesadas se asoció con mayor progresión. Las asociaciones fueron más atenuadas en participantes negros que en blancos.",
+        "why_relevant": "La publicación conecta patrones dietéticos con evolución de aterosclerosis subclínica medida por imagen, un ámbito prioritario en prevención cardiovascular. También advierte que la extrapolación de asociaciones dieta-CAC puede no ser homogénea entre grupos raciales y étnicos.",
+        "practical_implication": "La recomendación de patrones dietéticos basados en alimentos vegetales, cereales integrales y fruta sigue siendo coherente con la prevención aterosclerótica. Sin embargo, el CAC es un resultado sustituto y el diseño observacional no demuestra que modificar la dieta reduzca eventos cardiovasculares ni que explique causalmente los cambios de calcificación.",
+        "source_title": "Diet patterns are associated with progression of coronary artery calcification and differ across race/ethnicity: The Multi-Ethnic Study of Atherosclerosis.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101791"
+      },
+      {
+        "title": "El infarto con elevación del ST sin factores de riesgo modificables convencionales identifica un fenotipo de peor pronóstico en Japón",
+        "what_happened": "El registro japonés de infarto agudo de miocardio analizó 2.310 pacientes con infarto con elevación del ST tratados en la era contemporánea de intervención coronaria percutánea primaria. El 5,9% no presentaba diabetes, dislipidemia, hipertensión ni tabaquismo. Este grupo era de mayor edad, incluía más mujeres, recibió con menor frecuencia tratamientos preventivos basados en la evidencia al alta y presentó más eventos cardiovasculares mayores durante aproximadamente un año de seguimiento, incluso tras ajuste multivariable.",
+        "why_relevant": "El hallazgo cuestiona que la ausencia de factores de riesgo convencionales equivalga a bajo riesgo tras un infarto. Reafirma la necesidad de prevención secundaria completa independientemente de la aparente ausencia de factores de riesgo modificables tradicionales.",
+        "practical_implication": "Tras un síndrome coronario agudo, la indicación de prevención secundaria debe basarse en la enfermedad aterotrombótica establecida y no en la presencia previa de factores de riesgo convencionales. Al tratarse de un registro observacional, no puede atribuir causalmente el peor pronóstico a la menor prescripción de terapias preventivas ni definir qué intervenciones corregirían la diferencia.",
+        "source_title": "SMuRF-less ST-segment elevation myocardial infarction in contemporary Japanese practice: Clinical characteristics and prognostic implications from the Japan acute myocardial infarction registry.",
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcrp.2026.200715"
+      },
+      {
+        "title": "La puntuación de calcio coronario virtual en TC con detectores de conteo de fotones muestra alta correlación, pero discordancia de clasificación",
+        "what_happened": "En 239 pacientes sometidos a angiografía coronaria por TC con detectores de conteo de fotones, las imágenes virtuales sin contraste derivadas de la adquisición contrastada mostraron excelente correlación con la puntuación de Agatston obtenida en imágenes reales sin contraste. No obstante, la clasificación de carga de placa fue concordante inicialmente en el 67% de los pacientes, aunque mejoró al 86% tras lectura consensuada.",
+        "why_relevant": "La posibilidad de derivar CAC a partir de una angiografía por TC contrastada podría simplificar protocolos y reducir adquisiciones adicionales. Sin embargo, la clasificación por categorías de calcio es precisamente la que condiciona decisiones preventivas y no fue suficientemente intercambiable en todos los casos.",
+        "practical_implication": "Las imágenes virtuales sin contraste no deberían sustituir todavía de forma automática a la adquisición real sin contraste para categorizar CAC o carga de placa. La evidencia es técnica y diagnóstica; no demuestra mejora de resultados clínicos, cambios en tratamiento preventivo ni reducción de radiación en estrategias asistenciales completas.",
+        "source_title": "Coronary artery calcium scoring using virtual vs. true non-contrast images from ultra-high-resolution and normal-resolution photon-counting coronary CT angiography.",
+        "journal": "European journal of radiology open",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejro.2026.100795"
+      },
+      {
+        "title": "En atención primaria persiste la brecha entre reducción de LDL y objetivos recomendados en pacientes de alto riesgo",
+        "what_happened": "Un estudio de práctica clínica habitual siguió durante 36 meses a 507 pacientes de atención primaria con hipertensión, enfermedad coronaria o diabetes. El mayor descenso medio de LDL-C se observó en quienes partían de concentraciones superiores a 2,6 mmol/L, junto con un incremento de las prescripciones de tratamiento hipolipemiante. A pesar de la reducción, los autores describieron persistencia de una brecha respecto a los objetivos recomendados.",
+        "why_relevant": "El trabajo refleja una limitación frecuente en prevención cardiovascular: reducir LDL-C no garantiza alcanzar objetivos acordes con el riesgo, particularmente en personas con enfermedad coronaria, diabetes o hipertensión. Es relevante para implementar estrategias de intensificación y seguimiento de la exposición acumulada a lipoproteínas aterogénicas.",
+        "practical_implication": "El seguimiento debe centrarse en el LDL-C alcanzado y en la intensidad terapéutica apropiada al riesgo, con revisión de adherencia, tolerabilidad y necesidad de combinar fármacos cuando proceda. El estudio no permite atribuir la reducción observada a un medicamento concreto ni evaluar reducción de infarto, ictus o muerte, pues describe cambios de práctica y un resultado lipídico sustituto.",
+        "source_title": "Changes in LDL-C levels among primary health care patients with hypertension, coronary artery disease, and diabetes during a 36-month follow-up.",
+        "journal": "Scandinavian journal of primary health care",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/02813432.2026.2718269"
+      }
+    ]
+  },
+  {
     "date": "2026-10-10",
     "generated_at": "2026-10-10T15:35:15.018669+00:00",
     "items": [
