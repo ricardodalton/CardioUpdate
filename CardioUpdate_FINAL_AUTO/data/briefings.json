@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-10-12",
+    "generated_at": "2026-10-12T19:18:59.210076+00:00",
+    "items": [
+      {
+        "title": "Albuminuria y carga aterosclerótica coronaria subclínica en población general",
+        "what_happened": "Un análisis transversal del estudio sueco SCAPIS evaluó la asociación entre el cociente albúmina/creatinina urinaria (UACR) y la aterosclerosis coronaria en 9.424 adultos de mediana edad, mediante puntuación de calcio coronario (CAC) y angiografía coronaria por TC. Un UACR más alto se asoció con mayor CAC tras ajuste por presión arterial, diabetes, LDL-colesterol, tratamiento hipolipemiante, tabaquismo y filtrado glomerular, aunque la magnitud de la asociación fue modesta. Las asociaciones con CAC detectable y estenosis coronaria perdieron significación tras ajustes más completos.",
+        "why_relevant": "La albuminuria puede identificar un fenotipo de daño vascular temprano vinculado con mayor carga aterosclerótica coronaria. Sin embargo, el trabajo aporta evidencia observacional y transversal: no demuestra que la albuminuria cause aterosclerosis ni que su reducción disminuya el CAC o los eventos cardiovasculares.",
+        "practical_implication": "La determinación de UACR puede contribuir a la valoración global del riesgo, especialmente en pacientes con hipertensión, diabetes o enfermedad renal. No respalda utilizar albuminuria aislada como indicación de TC coronaria, ni como objetivo sustituto de prevención aterosclerótica. La decisión de intensificar el control de presión arterial, LDL-colesterol y otros factores debe basarse en el riesgo cardiovascular integral.",
+        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
+      },
+      {
+        "title": "Persisten la infravaloración del riesgo y el escaso control simultáneo de presión arterial y LDL-colesterol",
+        "what_happened": "Dos estudios epidemiológicos transversales realizados en Rumanía durante 2021 y 2022 incluyeron 5.004 pacientes con hipertensión y dislipidemia. Frente a la clasificación basada en recomendaciones europeas, los médicos infravaloraron con frecuencia el riesgo cardiovascular. El control de presión arterial y de LDL-colesterol también fue considerablemente más alto según la percepción clínica que según los objetivos de guía; los resultados fueron similares durante y después de la pandemia.",
+        "why_relevant": "El estudio documenta una brecha de implementación en prevención cardiovascular: la coexistencia de hipertensión y dislipidemia requiere una evaluación formal del riesgo y la consecución simultánea de objetivos, no la valoración aislada de cada factor. Sus resultados no estiman el efecto de una intervención ni permiten atribuir causalidad entre la percepción del profesional y los desenlaces clínicos.",
+        "practical_implication": "La consulta preventiva puede beneficiarse de una estratificación estructurada conforme a guías y de la comprobación objetiva de los valores de presión arterial y LDL-colesterol frente a los objetivos individualizados. La extrapolación cuantitativa a otros sistemas sanitarios es limitada por el diseño transversal, el contexto nacional y la ausencia de adjudicación de eventos cardiovasculares.",
+        "source_title": "Real-world cardiovascular risk estimation, blood pressure and LDL-cholesterol control: Two epidemiological studies in Romania, during pandemic and post-pandemic (SNAPSHOT-Romania).",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100573"
+      },
+      {
+        "title": "Estimador de riesgo aterosclerótico basado en fotografía retiniana e inteligencia artificial",
+        "what_happened": "Un estudio prospectivo de la cohorte AREDS desarrolló y validó dentro de la propia cohorte un estimador de riesgo de ASCVD a 10 años basado en una señal de calcio coronario derivada por aprendizaje profundo de fotografías de fondo de ojo, junto con edad y sexo. En 3.096 participantes de 55 a 75 años se registraron 202 eventos ASCVD durante el seguimiento. El modelo estratificó el riesgo y mostró una discriminación numéricamente similar o superior a la de las ecuaciones de cohortes agrupadas en el subgrupo con datos disponibles para la comparación.",
+        "why_relevant": "La evaluación oportunista del riesgo cardiovascular mediante imagen retiniana podría ser útil cuando faltan analíticas que impiden aplicar calculadoras convencionales. El estudio informa capacidad predictiva, no beneficio clínico de utilizar el algoritmo: no demuestra que su uso modifique tratamientos, adherencia o eventos cardiovasculares.",
+        "practical_implication": "La herramienta debe considerarse exploratoria y complementaria a la valoración clínica, no un sustituto de la medición de presión arterial, lípidos, diabetes, tabaquismo ni de las ecuaciones de riesgo validadas. Antes de su adopción asistencial requiere validación externa, evaluación de calibración en otras poblaciones y estudios que demuestren utilidad clínica y coste-efectividad.",
+        "source_title": "Opportunistic Cardiovascular Risk Assessment in the Eye Clinic: Validation of a Retinal Deep Learning-Based 10-Year Atherosclerotic Cardiovascular Disease Estimator.",
+        "journal": "Ophthalmology science",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.xops.2026.101386"
+      },
+      {
+        "title": "Prevención secundaria tras bypass coronario: síntesis de avances y lagunas de evidencia",
+        "what_happened": "Una revisión contemporánea resume la prevención secundaria después de cirugía de revascularización coronaria. Destaca el descenso intensivo y escalonado de LDL-colesterol con estatinas de alta intensidad, ezetimiba e inhibidores de PCSK9 cuando estén indicados; mantiene la aspirina como base antitrombótica y plantea la doble antiagregación de forma individualizada. También subraya la rehabilitación, el abandono del tabaco, el manejo de obesidad y comorbilidades cardiometabólicas, y la selección de betabloqueantes o bloqueo del sistema renina-angiotensina por indicaciones establecidas, no por el bypass aislado.",
+        "why_relevant": "La revascularización no detiene la progresión de aterosclerosis nativa ni evita por sí sola el fracaso de los injertos; por ello, el control intensivo de factores de riesgo sigue siendo central en prevención coronaria secundaria. Se trata de una revisión y no de un ensayo nuevo; varias áreas, en particular las estrategias antitrombóticas y los desenlaces específicos de injertos, conservan incertidumbre.",
+        "practical_implication": "El seguimiento tras bypass puede estructurarse como prevención secundaria de por vida, con verificación de tratamiento hipolipemiante intensivo, adherencia, objetivos lipídicos individualizados, control de presión arterial, tabaquismo, diabetes, peso y participación en rehabilitación cardiaca. La terapia antitrombótica y otros fármacos deben ajustarse al riesgo isquémico, hemorrágico, tipo de conducto y comorbilidades, evitando extrapolar recomendaciones generales a todos los pacientes.",
+        "source_title": "Key advances in secondary prevention after coronary artery bypass grafting.",
+        "journal": "Current opinion in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HCO.0000000000001333"
+      }
+    ]
+  },
+  {
     "date": "2026-10-11",
     "generated_at": "2026-10-11T15:57:55.851613+00:00",
     "items": [
