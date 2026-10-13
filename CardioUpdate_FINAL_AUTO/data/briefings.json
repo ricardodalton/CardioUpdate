@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-13",
+    "generated_at": "2026-10-13T00:26:11.357363+00:00",
+    "items": [
+      {
+        "title": "Prevención de la ASCVD de inicio precoz: foco en exposición acumulada a apoB y tabaco",
+        "what_happened": "Una revisión narrativa diferencia la ASCVD clínica de inicio precoz de los factores de riesgo y de la enfermedad vascular subclínica en adolescentes y adultos jóvenes. Destaca como determinantes causales establecidos la exposición acumulada a lipoproteínas con apoB y el tabaquismo, mientras que clasifica como predominantemente asociativa la evidencia sobre sueño, estrés psicosocial, vapeo y contaminación atmosférica.",
+        "why_relevant": "Refuerza que la prevención en adultos jóvenes no debe depender exclusivamente del riesgo absoluto a 10 años. La carga acumulada de partículas aterogénicas y la exposición al tabaco justifican una identificación temprana de dislipidemia, hipertensión, diabetes, obesidad, tabaquismo y antecedentes familiares. La revisión también respalda la determinación de Lp(a) al menos una vez en la vida adulta.",
+        "practical_implication": "El clínico debería priorizar cribado lipídico temprano, identificación de hipercolesterolemia familiar y tratamiento intensivo de exposiciones modificables sostenidas. El CAC y la imagen carotídea no deberían utilizarse como cribado universal en jóvenes asintomáticos; podrían reservarse para adultos cuidadosamente seleccionados cuando modifiquen una decisión preventiva. La limitación principal es que se trata de una revisión narrativa, no de un ensayo clínico ni de una guía con recomendaciones graduadas.",
+        "source_title": "Early-onset atherosclerotic cardiovascular disease in young adults: Lifestyle, environmental, and psychosocial risk factors.",
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcrp.2026.200714"
+      },
+      {
+        "title": "CAC y Lp(a): persisten discrepancias entre guías sobre prácticas de bajo valor",
+        "what_happened": "Una revisión narrativa de guías de prevención cardiovascular publicadas entre 2017 y 2025 identifica discrepancias relevantes en recomendaciones sobre CAC, medición de Lp(a), cribado de aneurisma de aorta abdominal e inicio de hipolipemiantes en personas mayores. Las áreas de mayor incertidumbre coinciden con recomendaciones sustentadas en estudios no aleatorizados, datos retrospectivos o consenso experto.",
+        "why_relevant": "La publicación advierte contra una aplicación automática de pruebas o intervenciones preventivas cuando la evidencia de beneficio clínico neto es incompleta. Es especialmente pertinente para la selección de candidatos a CAC y para la interpretación de Lp(a), dos áreas de alta implementación clínica pero con variación entre sociedades científicas.",
+        "practical_implication": "El clínico debería utilizar CAC y Lp(a) dentro de una valoración global del riesgo y de la probabilidad de que el resultado cambie el manejo, no como pruebas indiscriminadas. Las decisiones deben explicitar la incertidumbre, especialmente en poblaciones con escasa evidencia aleatorizada. La limitación es que la publicación es una revisión narrativa de guías y no aporta nueva evidencia de resultados clínicos.",
+        "source_title": "Discrepancies in low-value practices across cardiovascular disease prevention guidelines. A narrative review.",
+        "journal": "The European journal of general practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/13814788.2026.2729221"
+      },
+      {
+        "title": "Nueva definición antropométrica de obesidad y carga de calcio coronario en personas con VIH",
+        "what_happened": "Un análisis secundario de una cohorte de personas con VIH comparó la definición tradicional basada en IMC con una definición antropométrica más amplia. La nueva definición reclasificó como obesidad a más participantes, incluidos sujetos con IMC inferior a 30 kg/m². La obesidad clínica se asoció con mayor prevalencia de CAC mayor de cero y, en el análisis longitudinal del subgrupo placebo, con mayor progresión de CAC a 12 meses.",
+        "why_relevant": "El estudio señala que el IMC aislado puede infravalorar adiposidad abdominal y riesgo cardiovascular subclínico en personas con VIH. La asociación con CAC apoya la necesidad de una valoración cardiometabólica que integre distribución adiposa y factores de riesgo convencionales.",
+        "practical_implication": "En personas con VIH, el clínico podría complementar el IMC con medidas antropométricas para identificar adiposidad clínicamente relevante y optimizar el control de presión arterial, lípidos, glucemia, tabaquismo y estilo de vida. Los resultados sobre CAC son de imagen subrogada y no demuestran que la nueva clasificación, ni una intervención guiada por ella, reduzca eventos cardiovasculares. La muestra fue pequeña y el diseño observacional limita la inferencia causal.",
+        "source_title": "Clinical implications of the new definition of obesity among persons with HIV.",
+        "journal": "AIDS (London, England)",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/QAD.0000000000004571"
+      },
+      {
+        "title": "Plantas de la familia Lamiaceae en síndrome metabólico: metaanálisis de ensayos con efectos antropométricos modestos",
+        "what_happened": "Una revisión sistemática y metaanálisis de 20 ensayos clínicos aleatorizados, con 2445 participantes, evaluó intervenciones con plantas de la familia Lamiaceae en adultos con síndrome metabólico o trastornos relacionados. El análisis encontró reducciones estadísticamente significativas en IMC, peso, perímetro de cintura y relación cintura-cadera, sin cambios significativos en masa grasa corporal directa.",
+        "why_relevant": "La publicación aporta evidencia aleatorizada reciente sobre una intervención complementaria en personas con obesidad, dislipidemia, diabetes o síndrome metabólico. Sin embargo, los desenlaces evaluados fueron antropométricos y no eventos cardiovasculares, presión arterial sostenida, LDL, apoB ni progresión aterosclerótica.",
+        "practical_implication": "Estas intervenciones no deberían sustituir dieta estructurada, actividad física, tratamiento hipolipemiante, antihipertensivo ni fármacos con beneficio cardiovascular demostrado. Podrían considerarse, como máximo, un complemento dentro de una intervención multicomponente y tras revisar seguridad, interacciones y calidad del producto. La limitación central es la corta duración de muchos ensayos, la heterogeneidad de especies y preparados, y la ausencia de evidencia sobre eventos clínicos.",
+        "source_title": "Impact of lamiaceae plants on anthropometric indices in patients with metabolic syndrome: A systematic review and meta-analysis of randomized clinical trials.",
+        "journal": "Journal of ethnopharmacology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.jep.2026.122222"
+      },
+      {
+        "title": "Obesidad y enfermedad cardiovascular: declaración clínica que propone tratar la adiposidad como enfermedad cardiovascular modificable",
+        "what_happened": "La declaración de práctica clínica de la Obesity Medicine Association sintetiza la relación entre obesidad, hipertensión, dislipidemia, diabetes tipo 2, trombosis, fibrilación auricular e insuficiencia cardiaca con fracción de eyección preservada. Propone un abordaje integral que incluya terapia nutricional, actividad física, intervención conductual, fármacos antiobesidad, agonistas del receptor GLP-1 y procedimientos bariátricos cuando estén indicados.",
+        "why_relevant": "Sitúa la obesidad como un determinante causal y tratable del riesgo cardiovascular, más allá de considerarla solo un marcador de riesgo. Es relevante para prevención primaria y secundaria porque el exceso y la disfunción del tejido adiposo favorecen múltiples factores de riesgo aterosclerótico.",
+        "practical_implication": "El clínico debería evaluar y tratar activamente la obesidad junto con LDL/no-HDL, presión arterial, diabetes, tabaquismo y enfermedad renal crónica, evitando que la reducción ponderal retrase terapias preventivas con beneficio demostrado. La declaración puede orientar una estrategia integrada, pero no sustituye guías específicas de lípidos, hipertensión o prevención coronaria. Su limitación es que constituye una declaración de práctica basada en revisión de literatura y juicio experto, no un nuevo ensayo de resultados cardiovasculares.",
+        "source_title": "Obesity and Cardiovascular Disease: An Obesity Medicine Association (OMA) Clinical Practice Statement (CPS) 2026.",
+        "journal": "Obesity pillars",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.obpill.2026.100283"
+      }
+    ]
+  },
+  {
     "date": "2026-10-12",
     "generated_at": "2026-10-12T19:18:59.210076+00:00",
     "items": [

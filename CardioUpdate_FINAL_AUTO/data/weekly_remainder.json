@@ -881,6 +881,52 @@
     }
   },
   {
+    "title": "Abstracts from the 51st European Society of Human Genetics Conference: Oral Presentations",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC6778821",
+    "url": "https://europepmc.org/article/PMC/PMC6778821",
+    "firstPublicationDate": "2019-07-01",
+    "firstIndexDate": "2026-10-13",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "Abstract"
+      ]
+    }
+  },
+  {
+    "title": "Impact of the use of immunoglobulin palivizumab in the State of São Paulo: a cohort study1",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC5614238",
+    "url": "https://europepmc.org/article/PMC/PMC5614238",
+    "firstPublicationDate": "2017-01-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Yale University School of Medicine : 2008 student thesis abstracts",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC2496697",
+    "url": "https://europepmc.org/article/PMC/PMC2496697",
+    "firstPublicationDate": "2008-06-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "Abstract"
+      ]
+    }
+  },
+  {
     "title": "Poster Presentations",
     "doi": "",
     "pmid": "",
@@ -892,6 +938,22 @@
     "pubTypeList": {
       "pubType": [
         "Abstract"
+      ]
+    }
+  },
+  {
+    "title": "What's new this month in BMJ Journals",
+    "doi": "10.1136/bmj.331.7529.1363",
+    "pmid": "",
+    "pmcid": "PMC1309641",
+    "url": "https://doi.org/10.1136/bmj.331.7529.1363",
+    "firstPublicationDate": "2005-12-10",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "In Brief",
+        "in-brief"
       ]
     }
   },
@@ -954,6 +1016,181 @@
       "pubType": [
         "book-review",
         "Book Review"
+      ]
+    }
+  },
+  {
+    "title": "Proceedings of the British Thoracic Society",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC475388",
+    "url": "https://europepmc.org/article/PMC/PMC475388",
+    "firstPublicationDate": "1994-04-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "meeting-report",
+        "Meeting Report"
+      ]
+    }
+  },
+  {
+    "title": "Congenital heart disease after surgery: benefits, residua, sequelae",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC459812",
+    "url": "https://europepmc.org/article/PMC/PMC459812",
+    "firstPublicationDate": "1984-05-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "book-review",
+        "Book Review"
+      ]
+    }
+  },
+  {
+    "title": "Proceedings of the Society of Thoracic and Cardiovascular Surgeons of Great Britain and Ireland",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC471447",
+    "url": "https://europepmc.org/article/PMC/PMC471447",
+    "firstPublicationDate": "1981-01-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "meeting-report",
+        "Meeting Report"
+      ]
+    }
+  },
+  {
+    "title": "Proceedings of the Thoracic Society and the British Thoracic Association",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC471261",
+    "url": "https://europepmc.org/article/PMC/PMC471261",
+    "firstPublicationDate": "1980-03-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "meeting-report",
+        "Meeting Report"
+      ]
+    }
+  },
+  {
+    "title": "The Pathology of the Heart",
+    "doi": "10.1136/jcp.29.4.368-c",
+    "pmid": "",
+    "pmcid": "PMC476073",
+    "url": "https://doi.org/10.1136/jcp.29.4.368-c",
+    "firstPublicationDate": "1976-04-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "book-review",
+        "Book Review"
+      ]
+    }
+  },
+  {
+    "title": "Pathogenesis and Mechanisms of Liver Cell Necrosis",
+    "doi": "10.1136/jcp.29.4.368-b",
+    "pmid": "",
+    "pmcid": "PMC476072",
+    "url": "https://doi.org/10.1136/jcp.29.4.368-b",
+    "firstPublicationDate": "1976-04-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "book-review",
+        "Book Review"
+      ]
+    }
+  },
+  {
+    "title": "Methods and Achievements in Experimental Pathology. Vol. 7: Disease Patterns",
+    "doi": "10.1136/jcp.29.4.368-a",
+    "pmid": "",
+    "pmcid": "PMC476071",
+    "url": "https://doi.org/10.1136/jcp.29.4.368-a",
+    "firstPublicationDate": "1976-04-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "book-review",
+        "Book Review"
+      ]
+    }
+  },
+  {
+    "title": "HIGH BLOOD PRESSURE",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC474377",
+    "url": "https://europepmc.org/article/PMC/PMC474377",
+    "firstPublicationDate": "1969-11-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "book-review",
+        "Book Review"
+      ]
+    }
+  },
+  {
+    "title": "ABSTRACTS OF CARDIOLOGY",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC481034",
+    "url": "https://europepmc.org/article/PMC/PMC481034",
+    "firstPublicationDate": "1948-04-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "Abstract"
+      ]
+    }
+  },
+  {
+    "title": "PROCEEDINGS OF THE THIRTIETH ANNUAL MEETING OF THE AMERICAN SOCIETY FOR CLINICAL INVESTIGATION HELD IN ATLANTIC CITY, N. J., MAY 2, 1938",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC434806",
+    "url": "https://europepmc.org/article/PMC/PMC434806",
+    "firstPublicationDate": "1938-07-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "meeting-report",
+        "Meeting Report"
+      ]
+    }
+  },
+  {
+    "title": "PROCEEDINGS OF THE SEVENTEENTH ANNUAL MEETING OF THE AMERICAN SOCIETY FOR CLINICAL INVESTIGATION HELD IN WASHINGTON, D. C., MAY 4, 1925",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC434570",
+    "url": "https://europepmc.org/article/PMC/PMC434570",
+    "firstPublicationDate": "1925-08-01",
+    "firstIndexDate": "2026-10-12",
+    "cardioupdate_detected_at": "2026-10-12",
+    "pubTypeList": {
+      "pubType": [
+        "meeting-report",
+        "Meeting Report"
       ]
     }
   },
