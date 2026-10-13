@@ -26,6 +26,7 @@ import re
 import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from urllib.parse import quote
 
 import requests
@@ -306,7 +307,7 @@ def pipeline_today() -> date:
     override = os.environ.get("CARDIOUPDATE_TODAY", "").strip()
     if override:
         return date.fromisoformat(override)
-    return datetime.now(timezone.utc).date()
+    return datetime.now(ZoneInfo('America/Argentina/Buenos_Aires')).date()
 
 
 def fetch_recent(today: date | None = None):
@@ -576,10 +577,12 @@ def main():
     cycle_candidates=len(remainder)
     meta=load_json(META,{})
     meta.update({"candidate_updated_at":datetime.now(timezone.utc).isoformat(),"candidate_pool":len(pool),"new_candidates":new_candidates,"candidate_cycle_start":cycle_start.isoformat(),"candidate_cycle_end":cycle_end.isoformat(),"candidate_cycle_count":cycle_candidates})
-    publish=FORCE_PUBLISH or today.weekday()==4
+    last_published_end = str(meta.get('edition_end') or '')
+    expected_end = edition_window(today)[1].isoformat()
+    publish = FORCE_PUBLISH or (today.weekday() >= 5 and last_published_end < expected_end)
     if not publish:
         save_json(META,meta)
-        print(f"CardioUpdate: {len(pool)} candidatos acumulados; {new_candidates} nuevos y {cycle_candidates} del ciclo {cycle_start} a {cycle_end}. Edición publicada sin cambios hasta el viernes.");return
+        print(f"CardioUpdate: {len(pool)} candidatos acumulados; {new_candidates} nuevos y {cycle_candidates} del ciclo {cycle_start} a {cycle_end}. Edición publicada sin cambios hasta el sábado.");return
     start,end=edition_window(today);selected=select_weekly(pool,start,end);existing_map={candidate_key(x):x for x in existing if candidate_key(x)};issue=[]
     if not selected:raise RuntimeError(f"No hay estudios elegibles para la edición {start} a {end}; se conserva studies.json.")
     lead_item,lead_total,lead_components=choose_lead(selected)
