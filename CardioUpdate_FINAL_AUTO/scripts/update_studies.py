@@ -579,7 +579,7 @@ def main():
     meta.update({"candidate_updated_at":datetime.now(timezone.utc).isoformat(),"candidate_pool":len(pool),"new_candidates":new_candidates,"candidate_cycle_start":cycle_start.isoformat(),"candidate_cycle_end":cycle_end.isoformat(),"candidate_cycle_count":cycle_candidates})
     last_published_end = str(meta.get('edition_end') or '')
     expected_end = edition_window(today)[1].isoformat()
-    publish = FORCE_PUBLISH or (today.weekday() >= 5 and last_published_end < expected_end)
+    publish = FORCE_PUBLISH or (today.weekday() != 4 and last_published_end < expected_end)
     if not publish:
         save_json(META,meta)
         print(f"CardioUpdate: {len(pool)} candidatos acumulados; {new_candidates} nuevos y {cycle_candidates} del ciclo {cycle_start} a {cycle_end}. Edición publicada sin cambios hasta el sábado.");return
