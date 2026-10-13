@@ -4,8 +4,6 @@ on:
   schedule:
     # Daily briefing + candidate collection at 09:35 UTC (06:35 Argentina).
     - cron: '35 9 * * *'
-    # Friday publication at 21:35 UTC (18:35 Argentina).
-    - cron: '35 21 * * 5'
   workflow_dispatch:
   push:
     branches: [main]
