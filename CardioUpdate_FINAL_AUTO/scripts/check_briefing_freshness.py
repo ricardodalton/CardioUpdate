@@ -61,7 +61,24 @@ def main():
             missing.append(day.isoformat())
         day += timedelta(days=1)
 
-    stale = local_date < TODAY or published_date < TODAY
+    # Saturday's weekly edition covers the preceding Saturday-Friday.
+    expected_friday = today_date - timedelta(days=(today_date.weekday() - 4) % 7)
+    # Do not require the new edition before Saturday.
+    if today_date.weekday() == 4:
+        expected_friday -= timedelta(days=7)
+    try:
+        main_meta = json.loads(Path("CardioUpdate_FINAL_AUTO/data/meta.json").read_text(encoding="utf-8"))
+        main_week = main_meta.get("edition_end", "")
+    except (OSError, ValueError):
+        main_week = ""
+    try:
+        published_meta = fetch_json(site_url.replace("/data/briefings.json", "/data/meta.json") + "?watchdog=" + TODAY)
+        published_week = published_meta.get("edition_end", "")
+    except (ValueError, urllib.error.URLError, TimeoutError, OSError):
+        published_week = ""
+    weekly_stale = main_week < expected_friday.isoformat() or published_week < expected_friday.isoformat()
+    print(f"Expected weekly edition end: {expected_friday}; main: {main_week}; published: {published_week}")
+    stale = local_date < TODAY or published_date < TODAY or weekly_stale
     print(f"Today (Buenos Aires): {TODAY}; main: {local_date or 'missing'}; published: {published_date or 'missing'}")
     print(f"Missing dates in current cycle: {', '.join(missing) or 'none'}")
     print("Recovery required." if stale else "Briefing up to date; no recovery required.")
