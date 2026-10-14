@@ -106,9 +106,9 @@ def classify_area(text: str) -> str:
 
 
 CARDIOVASCULAR_RELEVANCE_PATTERNS = [
-    r"\\b(cardiovascular|cardiac|coronary|myocardial|heart failure|hfpef|hfref|atrial fibrillation|ventricular arrhythm|cardiomyopath|pericard|valvular|aortic stenosis|mitral regurgitation|tricuspid regurgitation|tavi|tavr|revasculari[sz]ation|pci|acute coronary|stemi|nstemi|myocardial infarction)\\b",
-    r"\\b(hypertension|blood pressure|atherosclero|coronary calcium|coronary artery calcium|carotid plaque|peripheral arter|lipoprotein\\(a\\)|lp\\(a\\)|ldl cholesterol|apolipoprotein b|pcsk9|inclisiran|statin|dyslipid|cardiac rehabilitation)\\b",
-    r"\\b(cardiovascular mortality|cardiovascular death|major adverse cardiovascular|mace\\b|heart failure hospitalization|hospitalization for heart failure|stroke|ischemic stroke|sudden cardiac death)\\b",
+    r"\b(cardiovascular|cardiac|coronary|myocardial|heart failure|hfpef|hfref|atrial fibrillation|ventricular arrhythm|cardiomyopath|pericard|valvular|aortic stenosis|mitral regurgitation|tricuspid regurgitation|tavi|tavr|revasculari[sz]ation|pci|acute coronary|stemi|nstemi|myocardial infarction)\b",
+    r"\b(hypertension|blood pressure|atherosclero|coronary calcium|coronary artery calcium|carotid plaque|peripheral arter|lipoprotein\(a\)|lp\(a\)|ldl cholesterol|apolipoprotein b|pcsk9|inclisiran|statin|dyslipid|cardiac rehabilitation)\b",
+    r"\b(cardiovascular mortality|cardiovascular death|major adverse cardiovascular|mace\b|heart failure hospitalization|hospitalization for heart failure|stroke|ischemic stroke|sudden cardiac death)\b",
 ]
 
 
