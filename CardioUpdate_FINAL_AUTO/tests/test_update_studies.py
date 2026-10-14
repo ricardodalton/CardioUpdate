@@ -87,6 +87,14 @@ class WeeklyCandidatePipelineTests(unittest.TestCase):
         self.assertTrue(any(q.startswith("FIRST_PDATE:") for q, _ in queries))
         self.assertTrue(any(q.startswith("CREATION_DATE:") for q, _ in queries))
 
+    def test_atherosclerosis_and_cardiomyopathy_are_cardiovascular(self):
+        for disease in ("atherosclerosis", "cardiomyopathy", "dyslipidemia"):
+            with self.subTest(disease=disease):
+                self.assertTrue(weekly.cardiovascular_relevance({
+                    "title": f"Clinical outcomes in {disease}",
+                    "abstractText": f"Clinical research evaluating {disease} in patients.",
+                }))
+
     def test_weekly_selection_accepts_late_indexed_paper_but_not_previous_issue(self):
         paper = {
             "pmid": "new-article",
