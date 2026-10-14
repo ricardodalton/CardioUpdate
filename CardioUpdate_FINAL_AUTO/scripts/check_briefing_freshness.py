@@ -38,6 +38,7 @@ def main():
         print(f"Local briefing unreadable: {exc}")
         local_date = ""
 
+    site_url = f"https://{REPO.split('/')[0]}.github.io/{REPO.split('/')[1]}/data/briefings.json"
     try:
         pages = fetch_json(f"https://api.github.com/repos/{REPO}/pages", authenticated=True)
         site_url = pages["html_url"].rstrip("/") + "/data/briefings.json"
@@ -74,7 +75,7 @@ def main():
     try:
         published_meta = fetch_json(site_url.replace("/data/briefings.json", "/data/meta.json") + "?watchdog=" + TODAY)
         published_week = published_meta.get("edition_end", "")
-    except (ValueError, urllib.error.URLError, TimeoutError, OSError):
+    except (ValueError, urllib.error.URLError, TimeoutError, OSError, KeyError):
         published_week = ""
     weekly_stale = main_week < expected_friday.isoformat() or published_week < expected_friday.isoformat()
     print(f"Expected weekly edition end: {expected_friday}; main: {main_week}; published: {published_week}")
