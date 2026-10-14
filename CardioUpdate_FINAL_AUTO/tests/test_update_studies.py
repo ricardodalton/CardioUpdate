@@ -87,6 +87,19 @@ class WeeklyCandidatePipelineTests(unittest.TestCase):
         self.assertTrue(any(q.startswith("FIRST_PDATE:") for q, _ in queries))
         self.assertTrue(any(q.startswith("CREATION_DATE:") for q, _ in queries))
 
+    def test_weekly_selection_accepts_late_indexed_paper_but_not_previous_issue(self):
+        paper = {
+            "pmid": "new-article",
+            "title": "Randomized coronary trial of cardiovascular outcomes",
+            "firstPublicationDate": "2026-09-20",
+            weekly.DETECTED_AT: "2026-10-07",
+            "abstractText": "Randomized clinical trial assessing myocardial infarction and cardiovascular mortality.",
+        }
+        selected = weekly.select_weekly([paper], date(2026, 10, 3), date(2026, 10, 9))
+        self.assertEqual([p["pmid"] for p in selected], ["new-article"])
+        repeated = weekly.select_weekly([paper], date(2026, 10, 3), date(2026, 10, 9), {"pmid:new-article"})
+        self.assertEqual(repeated, [])
+
     def test_json_write_is_atomic_and_invalid_json_is_not_silently_emptied(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / "candidates.json"
