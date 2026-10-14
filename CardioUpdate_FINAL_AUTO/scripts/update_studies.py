@@ -597,7 +597,20 @@ def main():
         save_json(META,meta)
         print(f"CardioUpdate: {len(pool)} candidatos acumulados; {new_candidates} nuevos y {cycle_candidates} del ciclo {cycle_start} a {cycle_end}. Edición publicada sin cambios hasta el sábado.");return
     start,end=edition_window(today);existing_map={candidate_key(x):x for x in existing if candidate_key(x)};selected=select_weekly(pool,start,end,set(existing_map));issue=[]
-    if not selected:raise RuntimeError(f"No hay estudios elegibles para la edición {start} a {end}; se conserva studies.json.")
+    if not selected:
+        # The completed cycle can have no retained candidates after a delayed
+        # recovery. Publish a clearly dated provisional issue from this week's
+        # newly detected papers rather than leaving the old edition indefinitely.
+        recovery_start, _ = collection_window(today)
+        recovery_end = today
+        selected = select_weekly(pool, recovery_start, recovery_end, set(existing_map))
+        if selected:
+            start, end = recovery_start, recovery_end
+            print(f"CardioUpdate: edición de recuperación parcial {start} a {end} con {len(selected)} trabajos.")
+        else:
+            print(f"CardioUpdate: no hay estudios nuevos elegibles; se conserva la edición previa y continúa el briefing diario.")
+            save_json(META, meta)
+            return
     lead_item,lead_total,lead_components=choose_lead(selected)
     lead_key=candidate_key(lead_item)
     for x in selected:
