@@ -608,9 +608,17 @@ def main():
             start, end = recovery_start, recovery_end
             print(f"CardioUpdate: edición de recuperación parcial {start} a {end} con {len(selected)} trabajos.")
         else:
-            print(f"CardioUpdate: no hay estudios nuevos elegibles; se conserva la edición previa y continúa el briefing diario.")
-            save_json(META, meta)
-            return
+            # Last-resort recovery: select genuinely new papers from the past
+            # fortnight, never recycle the previous issue.
+            recovery_start = today - timedelta(days=14)
+            selected = select_weekly(pool, recovery_start, today, set(existing_map))
+            if selected:
+                start, end = recovery_start, today
+                print(f"CardioUpdate: edición de recuperación ampliada {start} a {end} con {len(selected)} trabajos.")
+            else:
+                print("CardioUpdate: no hay estudios nuevos elegibles; se conserva la edición previa y continúa el briefing diario.")
+                save_json(META, meta)
+                return
     lead_item,lead_total,lead_components=choose_lead(selected)
     lead_key=candidate_key(lead_item)
     for x in selected:
