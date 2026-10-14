@@ -464,22 +464,35 @@ def build_weekly_remainder(pool: list[dict], day: date):
     return items
 
 
-def select_weekly(pool: list[dict], start: date, end: date):
-    """Select up to 30 highlights; cardiovascular relevance is mandatory."""
+def select_weekly(pool: list[dict], start: date, end: date, previous_keys=None):
+    """Select new, clinically relevant papers from the completed weekly cycle.
+
+    Newly indexed articles may have older publisher dates; detection within the
+    cycle counts. Never reuse a paper from the previous published edition.
+    """
+    previous_keys = previous_keys or set()
     eligible = []
+    seen = set()
     for x in pool:
-        d = paper_date(x)
-        if d is None or not (start <= d <= end):
+        key = candidate_key(x)
+        if not key or key in previous_keys or key in seen:
+            continue
+        detected = source_tracking_date(x)
+        published = paper_date(x)
+        if not ((detected is not None and start <= detected <= end)
+                or (published is not None and start <= published <= end)):
             continue
         if not x.get("title") or not x.get("abstractText") or is_guideline_like(x):
             continue
         if not cardiovascular_relevance(x):
             continue
-        eligible.append((score(x), x))
+        sc = score(x)
+        if sc < 12:
+            continue
+        eligible.append((sc, x))
+        seen.add(key)
     eligible.sort(key=lambda z: (z[0], (paper_date(z[1]) or date.min).isoformat()), reverse=True)
-    # Quality and relevance prevail over quota: never add weaker papers merely
-    # to reach 20. A weekly issue may legitimately contain fewer than 20.
-    return [x for sc, x in eligible if sc >= 12][:MAX_WEEKLY]
+    return [x for _, x in eligible[:MAX_WEEKLY]]
 
 
 def title_keywords(title: str, max_terms=7):
@@ -583,7 +596,7 @@ def main():
     if not publish:
         save_json(META,meta)
         print(f"CardioUpdate: {len(pool)} candidatos acumulados; {new_candidates} nuevos y {cycle_candidates} del ciclo {cycle_start} a {cycle_end}. Edición publicada sin cambios hasta el sábado.");return
-    start,end=edition_window(today);selected=select_weekly(pool,start,end);existing_map={candidate_key(x):x for x in existing if candidate_key(x)};issue=[]
+    start,end=edition_window(today);existing_map={candidate_key(x):x for x in existing if candidate_key(x)};selected=select_weekly(pool,start,end,set(existing_map));issue=[]
     if not selected:raise RuntimeError(f"No hay estudios elegibles para la edición {start} a {end}; se conserva studies.json.")
     lead_item,lead_total,lead_components=choose_lead(selected)
     lead_key=candidate_key(lead_item)
