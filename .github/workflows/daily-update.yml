@@ -39,6 +39,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: pip
+          cache-dependency-path: CardioUpdate_FINAL_AUTO/requirements-updater.txt
       - name: Install dependencies
         working-directory: CardioUpdate_FINAL_AUTO
         run: pip install -r requirements-updater.txt
