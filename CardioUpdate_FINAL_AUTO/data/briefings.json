@@ -1,53 +1,53 @@
 [
   {
     "date": "2026-10-16",
-    "generated_at": "2026-10-16T19:58:37.769440+00:00",
+    "generated_at": "2026-10-16T22:50:00.961411+00:00",
     "items": [
       {
-        "title": "La guía ACC/AHA 2026 de dislipidemia ampliaría sustancialmente la elegibilidad para estatinas en prevención primaria",
-        "what_happened": "Un análisis de adultos estadounidenses de 30-79 años incluidos en NHANES 2017-2020 comparó la elegibilidad para estatinas bajo los marcos de las guías ACC/AHA de 2018 y 2026. Según esta simulación, la elegibilidad aumentó del 39,8% al 54,3%, con 16,5% de adultos clasificados como nuevos candidatos; el incremento relativo fue mayor en menores de 50 años.",
-        "why_relevant": "El hallazgo sugiere que la estrategia preventiva actualizada, evaluada en su conjunto y no solo mediante PREVENT-ASCVD, podría identificar a más personas candidatas a reducción sostenida de la exposición a LDL-colesterol. Tiene especial relevancia para prevención coronaria primaria precoz.",
-        "practical_implication": "La publicación apoya revisar de forma estructurada la indicación de estatinas en adultos jóvenes y de mediana edad con hipertensión, tabaquismo, dislipidemia, obesidad u otros modificadores de riesgo. No demuestra, sin embargo, que la ampliación de elegibilidad mejore eventos clínicos: es una estimación poblacional basada en datos transversales y en la aplicación retrospectiva de criterios de guía.",
-        "source_title": "Changes in statin therapy eligibility under the 2026 versus 2018 dyslipidemia guidelines.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101719"
-      },
-      {
-        "title": "Lp(a) elevada se asoció con menor consecución precoz del objetivo de LDL-colesterol tras un primer síndrome coronario agudo",
-        "what_happened": "En una cohorte retrospectiva de 82 pacientes sometidos a intervención coronaria percutánea por un primer síndrome coronario agudo, solo el 31,7% alcanzó a las 4-6 semanas un LDL-colesterol menor de 55 mg/dL y una reducción de al menos el 50%. Una Lp(a) baja y el uso de ezetimiba añadida a estatina de alta intensidad se asociaron con mayor probabilidad de alcanzar ese objetivo.",
-        "why_relevant": "El trabajo sitúa la medición de Lp(a) en el contexto práctico de la prevención secundaria intensiva. Además, refuerza que la estatina de alta intensidad aislada frecuentemente no basta para lograr una reducción rápida y profunda de LDL-colesterol después de un evento coronario.",
-        "practical_implication": "Tras un síndrome coronario agudo, el equipo clínico puede considerar la determinación de Lp(a) como parte de la caracterización del riesgo residual y anticipar una intensificación temprana del tratamiento hipolipemiante cuando el objetivo de LDL-colesterol parezca difícil de alcanzar. La asociación entre Lp(a) y consecución del objetivo es observacional; el estudio es pequeño, retrospectivo y no permite atribuir causalidad ni evaluar eventos cardiovasculares.",
-        "source_title": "Lipoprotein(a) and early LDL-cholesterol target attainment after a first acute coronary syndrome: a real-world cohort study.",
-        "journal": "Atherosclerosis plus",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.athplu.2026.100618"
-      },
-      {
-        "title": "En diabetes tipo 1, las ecuaciones específicas de riesgo deben complementarse con imagen de aterosclerosis subclínica",
-        "what_happened": "Una revisión narrativa examinó las ecuaciones de riesgo cardiovascular en diabetes tipo 1. La publicación señala que los modelos genéricos, como SCORE2 y las ecuaciones ACC/AHA, pueden tener bajo rendimiento en esta población, mientras que herramientas específicas como Steno Type 1 Risk Engine y LIFE-T1D incorporan variables propias de la enfermedad, entre ellas duración de diabetes y albuminuria.",
-        "why_relevant": "La diabetes tipo 1 con frecuencia queda insuficientemente caracterizada por calculadoras de riesgo a corto plazo derivadas de otras poblaciones. La propuesta de integrar ecuaciones específicas con calcio coronario o ecografía carotídea responde a la prioridad de detectar carga aterosclerótica subclínica y optimizar la prevención antes de eventos manifiestos.",
-        "practical_implication": "En personas con diabetes tipo 1 y riesgo aparentemente intermedio, la estratificación puede apoyarse preferentemente en herramientas validadas para diabetes tipo 1; ante incertidumbre clínica, la detección de aterosclerosis subclínica mediante CAC o imagen carotídea puede aportar reclasificación. La publicación es una revisión narrativa, no una guía ni un ensayo de una estrategia guiada por imagen; por tanto, no demuestra que este enfoque reduzca eventos.",
+        "title": "En diabetes tipo 1, las ecuaciones específicas de riesgo mejoran la estratificación, pero no sustituyen la detección de aterosclerosis subclínica",
+        "what_happened": "Una revisión narrativa evaluó las ecuaciones de riesgo cardiovascular en diabetes tipo 1. Señaló que los modelos genéricos, como SCORE2 y las ecuaciones ACC/AHA, tienen validación y rendimiento limitados en esta población. Las herramientas específicas, como Steno Type 1 Risk Engine y LIFE-T1D, incorporan variables propias de la enfermedad —incluidos duración de la diabetes y albuminuria— y muestran mejor discriminación que los modelos genéricos. Sin embargo, una proporción de pacientes con aterosclerosis subclínica puede seguir clasificándose como de riesgo moderado.",
+        "why_relevant": "La diabetes tipo 1 confiere un riesgo aterosclerótico que puede infravalorarse con calculadoras desarrolladas en población general o en diabetes tipo 2. La publicación refuerza un enfoque de prevención primaria que combine estimación de riesgo específica de diabetes tipo 1 con evaluación de daño subclínico, incluyendo CAC o ecografía carotídea cuando esté clínicamente indicado.",
+        "practical_implication": "El cardiólogo puede priorizar ecuaciones validadas específicamente en diabetes tipo 1 en lugar de extrapolar exclusivamente modelos generales. Ante riesgo aparentemente intermedio, larga duración de diabetes, albuminuria u otros modificadores de riesgo, la valoración de carga aterosclerótica mediante imagen puede ayudar a individualizar la intensidad preventiva. La limitación principal es que se trata de una revisión narrativa, no de un ensayo que demuestre que una estrategia guiada por estas herramientas reduzca eventos clínicos.",
         "source_title": "Cardiovascular risk equations in type 1 diabetes: from generic models to personalized prediction.",
         "journal": "Annals of medicine",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1080/07853890.2026.2642404"
       },
       {
-        "title": "La tomografía coronaria redefine la enfermedad coronaria no obstructiva por carga y fenotipo de placa, pero faltan ensayos de estrategias guiadas por imagen",
-        "what_happened": "Una revisión reciente resume el papel de la angiografía coronaria por tomografía computarizada en la enfermedad coronaria no obstructiva. Destaca que la cuantificación de carga de placa, composición y características de alto riesgo permite ir más allá del grado de estenosis, mientras que el calcio coronario y la tomografía pueden detectar aterosclerosis subclínica en personas asintomáticas.",
-        "why_relevant": "La enfermedad no obstructiva no equivale a bajo riesgo. La carga aterosclerótica y los rasgos de placa pueden mejorar la estratificación preventiva y ayudar a identificar pacientes en quienes el control de LDL-colesterol y de los demás factores de riesgo merece particular intensidad.",
-        "practical_implication": "La imagen coronaria puede utilizarse para refinar el riesgo y sustentar decisiones preventivas individualizadas, especialmente cuando el riesgo calculado y la sospecha de aterosclerosis no concuerdan. No debe interpretarse la modificación de marcadores de placa en estudios seriales como prueba de reducción de eventos: la revisión reconoce que todavía no existen algoritmos de tratamiento guiados por tomografía con beneficio clínico demostrado.",
+        "title": "La guía ACC/AHA de dislipidemia de 2026 ampliaría la elegibilidad para estatinas en prevención primaria en Estados Unidos",
+        "what_happened": "Un análisis de NHANES 2017-2020 comparó la elegibilidad para estatinas según los marcos ACC/AHA de 2018 y 2026. En una población ponderada de 77,8 millones de adultos estadounidenses de 30 a 79 años, la elegibilidad estimada aumentó del 39,8% al 54,3%; el análisis calculó 11,2 millones de adultos adicionales elegibles. El mayor incremento relativo se observó en menores de 50 años.",
+        "why_relevant": "El hallazgo es pertinente para prevención aterosclerótica porque sugiere que el marco completo de la guía de 2026, más allá del empleo aislado de PREVENT-ASCVD, podría identificar a más personas candidatas a reducción temprana de LDL. La ampliación en adultos jóvenes es especialmente relevante para reducir la exposición acumulada a lipoproteínas aterogénicas.",
+        "practical_implication": "La implementación de la guía requiere revisar la elegibilidad de estatinas con el marco completo recomendado y no inferirla únicamente a partir de cambios en la estimación de riesgo absoluto. La decisión clínica debe seguir incorporando riesgo basal, LDL-C, comorbilidades, preferencias, beneficio esperado y potenciales modificadores de riesgo. La limitación es que se trata de una modelización transversal basada en NHANES; no evalúa adherencia, seguridad, reducción de eventos ni aplicabilidad directa fuera de Estados Unidos.",
+        "source_title": "Changes in statin therapy eligibility under the 2026 versus 2018 dyslipidemia guidelines.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101719"
+      },
+      {
+        "title": "Tras un primer síndrome coronario agudo, el objetivo precoz de LDL-C continúa alcanzándose con baja frecuencia en una cohorte real",
+        "what_happened": "Una cohorte retrospectiva de 82 pacientes sometidos a intervención coronaria percutánea tras un primer síndrome coronario agudo evaluó el objetivo de LDL-C inferior a 55 mg/dL y reducción de al menos 50% respecto al basal a unas cinco semanas. Solo el 31,7% alcanzó dicho objetivo pese al uso habitual de estatinas de alta intensidad al alta. La combinación de ezetimiba con estatina de alta intensidad se asoció con mayor probabilidad de alcanzar el objetivo; una Lp(a) baja también se asoció con dicho desenlace.",
+        "why_relevant": "La publicación subraya una brecha asistencial en prevención secundaria: la prescripción de estatina de alta intensidad no garantiza una reducción suficiente y temprana de LDL-C. Asimismo, plantea que la Lp(a) elevada puede dificultar la consecución de objetivos basados en LDL-C, aunque no demuestra que la Lp(a) sea la causa de una respuesta terapéutica menor.",
+        "practical_implication": "En pacientes tras síndrome coronario agudo, el seguimiento lipídico precoz y la intensificación rápida cuando no se alcanza el objetivo pueden ser determinantes. La asociación observada con ezetimiba es congruente con una estrategia de combinación temprana, pero no permite establecer eficacia causal en esta cohorte. Las limitaciones son importantes: tamaño muestral muy pequeño, diseño retrospectivo, seguimiento corto, intervalos de confianza amplios y desenlace sustituto de laboratorio, no eventos cardiovasculares.",
+        "source_title": "Lipoprotein(a) and early LDL-cholesterol target attainment after a first acute coronary syndrome: a real-world cohort study.",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100618"
+      },
+      {
+        "title": "La tomografía coronaria evoluciona desde la detección de estenosis hacia la caracterización de carga y fenotipo de placa en enfermedad coronaria no obstructiva",
+        "what_happened": "Una revisión examinó el uso de la angiografía por tomografía computarizada coronaria para caracterizar la enfermedad coronaria no obstructiva según carga de placa, composición, rasgos de alto riesgo y marcadores inflamatorios o cardiometabólicos derivados de TC. También destacó que el CAC y la angiografía por TC pueden identificar aterosclerosis subclínica y refinar la estratificación del riesgo en personas asintomáticas.",
+        "why_relevant": "La enfermedad coronaria no obstructiva no equivale a riesgo bajo. La cuantificación de carga aterosclerótica y la identificación de placas de fenotipo adverso pueden aportar información pronóstica más allá del grado de estenosis, con relevancia para intensificar la prevención lipídica, tensional y del estilo de vida.",
+        "practical_implication": "La información de placa obtenida mediante TC puede utilizarse para reforzar la estimación de riesgo y la adherencia a medidas preventivas en pacientes seleccionados. El CAC conserva especial utilidad para detectar o reclasificar aterosclerosis subclínica en prevención primaria. No obstante, la revisión recalca que todavía no existen algoritmos de tratamiento guiados por angiografía por TC con beneficio demostrado en eventos clínicos; por tanto, los hallazgos de imagen no deben confundirse con una indicación autónoma y universal de intervenciones no validadas.",
         "source_title": "Beyond stenosis: imaging phenotyping and risk stratification in nonobstructive coronary artery disease.",
         "journal": "Current opinion in cardiology",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1097/HCO.0000000000001341"
       },
       {
-        "title": "Una calculadora demográfica simplificada se asoció con extensión de calcio coronario en una cohorte de tomografía coronaria",
-        "what_happened": "Un estudio retrospectivo de 241 pacientes caucásicos sometidos a angiografía coronaria por tomografía evaluó la puntuación nzcr-MESA, basada en edad, sexo y etnia. La puntuación se correlacionó con el calcio coronario cuantificado por Agatston y con la gravedad angiográfica según CAD-RADS; los autores propusieron puntos de corte para preseleccionar estudios con probabilidad de CAC grave.",
-        "why_relevant": "La selección eficiente de personas para cuantificación de CAC es relevante en prevención primaria, donde la demostración de carga aterosclerótica puede reclasificar el riesgo y modificar la intensidad de las intervenciones preventivas.",
-        "practical_implication": "La puntuación podría tener interés operativo como herramienta preliminar de selección para protocolos de tomografía, pero no sustituye la valoración clínica ni la cuantificación directa de CAC cuando esta está indicada. La evidencia es retrospectiva, unicéntrica, de tamaño reducido y limitada a pacientes caucásicos remitidos para tomografía; no valida su uso en población general ni demuestra mejora de decisiones terapéuticas o de eventos cardiovasculares.",
+        "title": "Un modelo demográfico simplificado se asocia con CAC grave en una cohorte remitida a angiografía por TC coronaria",
+        "what_happened": "Un estudio retrospectivo de 241 pacientes caucásicos sometidos a angiografía por TC coronaria evaluó el score nzcr-MESA, compuesto por edad, sexo y etnia, para anticipar calcificación coronaria. El score se correlacionó con la puntuación de Agatston y con la gravedad de enfermedad coronaria según CAD-RADS. Los autores propusieron puntos de corte para preseleccionar a pacientes con CAC grave, definido como Agatston igual o superior a 400.",
+        "why_relevant": "La selección eficiente de candidatos a cuantificación de CAC puede facilitar la identificación de carga aterosclerótica relevante y la planificación del protocolo de imagen. El trabajo se alinea con el interés creciente por utilizar el CAC para refinar la prevención cardiovascular, especialmente cuando la decisión terapéutica no está clara con factores de riesgo convencionales.",
+        "practical_implication": "El score nzcr-MESA podría explorarse como una herramienta logística de preselección para protocolos de TC, no como sustituto de la cuantificación directa de CAC ni de la valoración clínica integral. La evidencia es observacional y procede de una cohorte pequeña, retrospectiva, monocéntrica, exclusivamente caucásica y ya remitida a angiografía por TC; por ello, no establece beneficio clínico, no demuestra causalidad y requiere validación externa antes de incorporarse a decisiones preventivas rutinarias.",
         "source_title": "The non-zero-calcification-risk multi-ethnic study of atherosclerosis score correlates with extent of coronary calcification as well as coronary artery disease.",
         "journal": "European journal of radiology",
         "source_database": "PubMed",
