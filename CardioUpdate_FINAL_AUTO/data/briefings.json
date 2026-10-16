@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-16",
+    "generated_at": "2026-10-16T14:13:20.796819+00:00",
+    "items": [
+      {
+        "title": "La aplicación completa del marco ACC/AHA 2026 ampliaría la elegibilidad para estatinas en prevención primaria",
+        "what_happened": "Un análisis representativo de adultos estadounidenses de 30 a 79 años procedentes de NHANES 2017-2020 comparó la elegibilidad para estatinas según los marcos ACC/AHA de 2018 y 2026. La elegibilidad estimada aumentó del 39,8% al 54,3%; el incremento fue relativamente mayor en menores de 50 años.",
+        "why_relevant": "El hallazgo recuerda que la adopción de PREVENT-ASCVD no debe interpretarse aisladamente: el efecto poblacional depende del conjunto de criterios de la guía, incluidos los modificadores de riesgo y los umbrales terapéuticos. Es especialmente pertinente para prevención primaria precoz y para abordar la exposición acumulada a LDL-C.",
+        "practical_implication": "La valoración para estatinas debería aplicar el marco de recomendación completo y no solo una calculadora de riesgo. La traducción clínica exige discutir riesgo absoluto, factores modificadores, preferencias y viabilidad de tratamiento sostenido; el estudio no demuestra que la expansión de elegibilidad reduzca eventos.",
+        "source_title": "Changes in statin therapy eligibility under the 2026 versus 2018 dyslipidemia guidelines.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101719"
+      },
+      {
+        "title": "Tras un primer síndrome coronario agudo, la consecución precoz del objetivo de LDL-C siguió siendo baja",
+        "what_happened": "En una cohorte retrospectiva de 82 pacientes con primer síndrome coronario agudo tratados con intervención coronaria percutánea, solo el 31,7% alcanzó a las 5 semanas el objetivo combinado de LDL-C menor de 55 mg/dL y reducción de al menos el 50% respecto al basal, pese a la prescripción habitual de estatina de alta intensidad. El uso de ezetimiba al alta se asoció con mayor probabilidad de alcanzar el objetivo; una Lp(a) elevada se asoció con menor probabilidad.",
+        "why_relevant": "El trabajo subraya una brecha temprana de implementación en prevención secundaria, donde reducir rápidamente la carga de LDL-C es prioritario. También plantea que la Lp(a) puede identificar un fenotipo de riesgo residual complejo, aunque no establece que la Lp(a) cause una menor respuesta al tratamiento hipolipemiante.",
+        "practical_implication": "Después de un síndrome coronario agudo, la estrategia debería incluir verificación lipídica temprana, evaluación de adherencia y escalada oportuna del tratamiento cuando el LDL-C permanezca fuera de objetivo. La asociación con Lp(a) es exploratoria y no justifica modificar por sí sola el algoritmo terapéutico.",
+        "source_title": "Lipoprotein(a) and early LDL-cholesterol target attainment after a first acute coronary syndrome: a real-world cohort study.",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100618"
+      },
+      {
+        "title": "Un calculador demográfico simplificado se asoció con la carga de calcio coronario en pacientes remitidos a angiografía por TC",
+        "what_happened": "Un estudio retrospectivo de 241 pacientes caucásicos sometidos a angiografía coronaria por tomografía computarizada observó que la puntuación nzcr-MESA, basada solo en edad, sexo y etnia, se correlacionó con la puntuación de calcio de Agatston y con la gravedad anatómica según CAD-RADS.",
+        "why_relevant": "La carga de calcio coronario es una herramienta consolidada para refinar el riesgo aterosclerótico en contextos seleccionados. Este análisis explora una forma muy simple de preseleccionar quién podría tener mayor probabilidad de calcificación significativa y, por tanto, beneficiarse de un protocolo de imagen apropiado.",
+        "practical_implication": "La puntuación nzcr-MESA podría considerarse, como apoyo logístico y no como sustituto, de la valoración clínica para decidir estudios de imagen. No debe emplearse para diagnosticar enfermedad coronaria ni para decidir tratamiento preventivo sin medición de CAC o evaluación integral del riesgo.",
+        "source_title": "The non-zero-calcification-risk multi-ethnic study of atherosclerosis score correlates with extent of coronary calcification as well as coronary artery disease.",
+        "journal": "European journal of radiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejrad.2026.113090"
+      },
+      {
+        "title": "En diabetes tipo 1, los modelos específicos mejoran la estratificación, pero no sustituyen la búsqueda de aterosclerosis subclínica",
+        "what_happened": "Una revisión narrativa evaluó ecuaciones de riesgo cardiovascular en diabetes tipo 1 y concluyó que las calculadoras generales presentan limitaciones importantes en esta población. Modelos específicos, como Steno Type 1 Risk Engine y LIFE-T1D, incorporan variables propias de la enfermedad y muestran mejor discriminación en las cohortes disponibles, aunque pueden clasificar como riesgo moderado a personas con aterosclerosis subclínica establecida.",
+        "why_relevant": "La diabetes tipo 1 combina duración de enfermedad, albuminuria y otros determinantes que no quedan adecuadamente representados en ecuaciones derivadas de población general o diabetes tipo 2. La integración selectiva de CAC y ecografía carotídea puede ser particularmente útil cuando persiste incertidumbre clínica.",
+        "practical_implication": "La estratificación en diabetes tipo 1 debería priorizar herramientas validadas específicamente para esta población y valorar imagen de aterosclerosis subclínica en casos de riesgo intermedio o discordante. Esta publicación es una revisión narrativa: no prueba que una estrategia guiada por imagen reduzca eventos clínicos.",
+        "source_title": "Cardiovascular risk equations in type 1 diabetes: from generic models to personalized prediction.",
+        "journal": "Annals of medicine",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/07853890.2026.2642404"
+      },
+      {
+        "title": "La angio-TC coronaria redefine la enfermedad coronaria no obstructiva por carga y fenotipo de placa, pero aún sin algoritmos terapéuticos probados",
+        "what_happened": "Una revisión analiza cómo la angio-TC coronaria puede caracterizar la enfermedad coronaria no obstructiva más allá del grado de estenosis, mediante cuantificación de carga y composición de placa, rasgos de alto riesgo y cambios seriados. Distingue la detección de enfermedad, la estratificación pronóstica y el fenotipado potencialmente útil para estrategias preventivas futuras.",
+        "why_relevant": "En prevención coronaria, una estenosis no obstructiva no equivale a ausencia de aterosclerosis. La identificación de placa y de carga aterosclerótica puede reclasificar el riesgo y reforzar intervenciones sobre LDL-C, presión arterial, tabaquismo y otros factores modificables.",
+        "practical_implication": "La angio-TC puede aportar estratificación de riesgo en pacientes seleccionados, pero los hallazgos de placa no deben interpretarse como evidencia de que un algoritmo terapéutico guiado por angio-TC mejore eventos. La revisión señala explícitamente que faltan ensayos prospectivos con resultados clínicos para demostrar ese beneficio.",
+        "source_title": "Beyond stenosis: imaging phenotyping and risk stratification in nonobstructive coronary artery disease.",
+        "journal": "Current opinion in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HCO.0000000000001341"
+      }
+    ]
+  },
+  {
     "date": "2026-10-13",
     "generated_at": "2026-10-13T00:26:11.357363+00:00",
     "items": [
