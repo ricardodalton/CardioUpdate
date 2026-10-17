@@ -182,10 +182,7 @@ def main():
     hist=[x for x in hist if x.get('date')!=today and x.get('date','')>=week_start.isoformat() and x.get('date','')<=today]
     used_urls={clean(item.get('url')) for edition in hist for item in edition.get('items',[]) if item.get('url')}
     pool=[x for x in sorted(found.values(),key=score,reverse=True) if url(x) not in used_urls]
-    if not os.getenv('OPENAI_API_KEY'):
-        print('Falta OPENAI_API_KEY: se conserva el briefing anterior.')
-        return
-    items=ai_items(pool)
+    items=ai_items(pool) if os.getenv('OPENAI_API_KEY') else []
     if not items:
         items=fallback_items(pool)
         print(f'La IA no generó noticias válidas; se publica una vigilancia bibliográfica conservadora de {len(items)} fuentes.')
