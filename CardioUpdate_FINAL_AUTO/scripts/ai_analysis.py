@@ -3,9 +3,13 @@ import os
 from datetime import datetime, timezone
 
 AI_MODEL = os.environ.get("CARDIOUPDATE_AI_MODEL", "gpt-5.6-terra")
+_AI_UNAVAILABLE = False
 
 
 def build_ai_analysis(main_study: dict, related: list[dict]):
+    global _AI_UNAVAILABLE
+    if _AI_UNAVAILABLE:
+        return None
     api_key = os.environ.get("OPENAI_API_KEY")
 
     if not api_key or not related:
@@ -83,6 +87,7 @@ Reglas:
             timeout=45,
         )
     except Exception as exc:
+        _AI_UNAVAILABLE = True
         print(f"CardioUpdate: IA no disponible ({type(exc).__name__}); se usa el análisis bibliográfico.")
         return None
 
