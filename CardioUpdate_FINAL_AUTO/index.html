@@ -172,14 +172,13 @@ function editionBounds(now=new Date()){
   return {start,end};
 }
 function selectPublishedEdition(items){
-  const {start,end}=editionBounds();
-  const selected=(items||[]).filter(s=>{
-    const d=new Date((s.date||'')+'T00:00:00');
+  // The weekly issue is already curated by the publisher. Publication dates
+  // can precede the issue because of delayed indexing; do not filter them out.
+  return (items||[]).filter(s=>{
     const text=((s.type||'')+' '+(s.title||'')+' '+(s.short||'')).toLowerCase();
-    const isGuide=/guideline|guidelines|consensus|scientific statement|position statement|guía|guías|consenso/.test(text);
-    return !isGuide && !isNaN(d) && d>=start && d<end;
-  }).sort((a,b)=>(b.auto_score||0)-(a.auto_score||0)||String(b.date||'').localeCompare(String(a.date||'')));
-  return selected.slice(0,30);
+    return !/guideline|guidelines|consensus|scientific statement|position statement|guía|guías|consenso/.test(text);
+  }).sort((a,b)=>(Number(!!b.is_weekly_lead)-Number(!!a.is_weekly_lead))||
+    (b.auto_score||0)-(a.auto_score||0)||String(b.date||'').localeCompare(String(a.date||''))).slice(0,30);
 }
 async function loadDatabase(){
   const bust='?v='+Date.now();
