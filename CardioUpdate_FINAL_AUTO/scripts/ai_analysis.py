@@ -74,12 +74,17 @@ Reglas:
 - Explica la potencial relevancia clínica sin indicar tratamiento individual.
 """
 
-    response = client.responses.create(
-        model=AI_MODEL,
-        reasoning={"effort": "medium"},
-        instructions=instructions,
-        input=json.dumps(evidence_packet, ensure_ascii=False)
-    )
+    try:
+        response = client.responses.create(
+            model=AI_MODEL,
+            reasoning={"effort": "medium"},
+            instructions=instructions,
+            input=json.dumps(evidence_packet, ensure_ascii=False),
+            timeout=45,
+        )
+    except Exception as exc:
+        print(f"CardioUpdate: IA no disponible ({type(exc).__name__}); se usa el análisis bibliográfico.")
+        return None
 
     text = response.output_text.strip()
 
