@@ -16,6 +16,8 @@ on:
       - 'CardioUpdate_FINAL_AUTO/scripts/update_briefing.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/update_studies.py'
       - 'CardioUpdate_FINAL_AUTO/scripts/update_studies_with_pubmed.py'
+      - 'CardioUpdate_FINAL_AUTO/scripts/ai_analysis.py'
+      - 'CardioUpdate_FINAL_AUTO/tests/**'
 
 concurrency:
   group: cardioupdate-daily-update
@@ -72,6 +74,7 @@ jobs:
           CARDIOUPDATE_AI_MODEL: gpt-5.6-terra
           CARDIOUPDATE_MIN_WEEKLY: '20'
           CARDIOUPDATE_MAX_WEEKLY: '30'
+          CARDIOUPDATE_MAX_RELATED: '3'
         run: python scripts/update_studies_with_pubmed.py
       - name: Validate database
         working-directory: CardioUpdate_FINAL_AUTO
