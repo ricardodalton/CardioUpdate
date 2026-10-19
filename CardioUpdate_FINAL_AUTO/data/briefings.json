@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-19",
+    "generated_at": "2026-10-19T09:49:27.564336+00:00",
+    "items": [
+      {
+        "title": "El CAC se asocia con una intensificación escalonada de la prevención primaria en práctica comunitaria",
+        "what_happened": "Un estudio retrospectivo de 400 pacientes consecutivos en prevención primaria evaluó cómo el calcio coronario (CAC) se relacionó con cambios terapéuticos y pruebas posteriores. A mayor categoría de CAC, se observaron con mayor frecuencia modificaciones del tratamiento hipolipemiante, inicio de aspirina y pruebas de esfuerzo; el CAC también reclasificó la categoría de riesgo MESA en 55,2% de los pacientes evaluables.",
+        "why_relevant": "Aporta datos de implementación clínica sobre el uso del CAC para reclasificar riesgo y modificar decisiones preventivas, especialmente en pacientes en quienes la estimación basada solo en factores clínicos genera incertidumbre. No demuestra que la estrategia guiada por CAC reduzca infartos, ictus o mortalidad.",
+        "practical_implication": "El CAC puede apoyar una discusión individualizada sobre intensificación hipolipemiante en prevención primaria seleccionada. La iniciación de aspirina y las pruebas funcionales posteriores no deben considerarse automáticamente justificadas por una puntuación alta: el estudio es observacional, de un único centro y con seis meses de seguimiento, sin evaluación de eventos clínicos ni de balance beneficio-riesgo.",
+        "source_title": "Real-world impact of coronary artery calcium scoring on primary prevention management in a community cardiology practice.",
+        "journal": "American heart journal plus : cardiology research and practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ahjo.2026.100938"
+      },
+      {
+        "title": "Un sistema automatizado de laboratorio identifica una amplia brecha en el control lipídico según riesgo cardiovascular",
+        "what_happened": "Un sistema de soporte a la decisión clínica integrado en el laboratorio aplicó una estratificación jerárquica basada en guías ESC/EAS y monitorizó longitudinalmente objetivos de LDL-C o no-HDL-C en 9.507 solicitudes de atención primaria. El 77,1% fue clasificado como riesgo muy alto y solo el 7,8% de este grupo alcanzó el objetivo lipídico. Entre quienes estaban fuera de objetivo y tenían riesgo muy alto, el 79,4% presentaba tratamiento hipolipemiante registrado.",
+        "why_relevant": "El trabajo muestra la magnitud de la inercia terapéutica o de la insuficiente eficacia/adherencia residual en pacientes de alto y muy alto riesgo, y propone una vía escalable para integrar estratificación de riesgo, Lp(a), objetivos de LDL-C y alertas longitudinales en el circuito asistencial.",
+        "practical_implication": "La monitorización automatizada puede facilitar la identificación proactiva de pacientes fuera de objetivo, pero no prueba por sí misma que el sistema mejore adherencia, intensificación terapéutica sostenida o eventos cardiovasculares. Su aplicabilidad depende de la calidad de los datos clínicos, de la validación local de las reglas y de una respuesta asistencial estructurada a las alertas.",
+        "source_title": "Longitudinal automated lipid target monitoring integrated into a laboratory-based clinical decision support system: a real-world cardiovascular risk management approach.",
+        "journal": "Clinica chimica acta; international journal of clinical chemistry",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cca.2026.121283"
+      },
+      {
+        "title": "La discordancia entre percepción clínica y objetivos de presión arterial y LDL-C persiste en pacientes de alto riesgo",
+        "what_happened": "Dos estudios epidemiológicos transversales realizados en Rumanía durante y después de la pandemia incluyeron 5.004 pacientes con hipertensión y dislipidemia. Los investigadores clasificaron como alto o muy alto riesgo a una proporción notablemente menor que la obtenida con criterios de guías. También consideraron controladas la presión arterial y el LDL-C con mucha mayor frecuencia que la calculada según los objetivos recomendados.",
+        "why_relevant": "La estimación insuficiente del riesgo y la sobrevaloración del control de presión arterial y LDL-C constituyen barreras directas para la prevención coronaria primaria y secundaria. El hallazgo refuerza la necesidad de usar objetivos vinculados a la categoría de riesgo, en lugar de una valoración clínica no estructurada.",
+        "practical_implication": "La práctica clínica puede beneficiarse de herramientas de estratificación estandarizadas, registro explícito del objetivo individual de LDL-C y presión arterial, y auditorías periódicas de consecución. Al tratarse de estudios observacionales transversales, los resultados no establecen causalidad ni permiten atribuir las discrepancias a una intervención concreta; además, su generalización fuera del contexto rumano es incierta.",
+        "source_title": "Real-world cardiovascular risk estimation, blood pressure and LDL-cholesterol control: Two epidemiological studies in Romania, during pandemic and post-pandemic (SNAPSHOT-Romania).",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100573"
+      },
+      {
+        "title": "El infarto con elevación del ST sin factores de riesgo modificables clásicos identifica un grupo de peor pronóstico y menor prevención secundaria",
+        "what_happened": "En el Japan Acute Myocardial Infarction Registry, 136 de 2.310 pacientes con infarto con elevación del ST no presentaban diabetes, dislipidemia, hipertensión ni tabaquismo. Frente a quienes tenían al menos uno de estos factores, este grupo era de mayor edad, incluía más mujeres y recibió con menor frecuencia terapias preventivas basadas en la evidencia al alta. Tras ajuste por factores pronósticos, la ausencia de factores modificables clásicos se asoció con peor evolución a un año.",
+        "why_relevant": "El estudio cuestiona la falsa percepción de bajo riesgo residual tras un síndrome coronario agudo en personas sin factores convencionales documentados. La prevención secundaria debe sustentarse en el diagnóstico de enfermedad aterosclerótica clínica, no en la presencia o ausencia de factores de riesgo tradicionales.",
+        "practical_implication": "Tras un infarto, la prescripción y el seguimiento de las terapias de prevención secundaria deben ser sistemáticos también en pacientes sin factores modificables clásicos aparentes. La asociación observada no prueba que la menor prescripción explique por completo el exceso de eventos, pues el análisis procede de un registro observacional y pueden persistir factores no medidos.",
+        "source_title": "SMuRF-less ST-segment elevation myocardial infarction in contemporary Japanese practice: Clinical characteristics and prognostic implications from the Japan acute myocardial infarction registry.",
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcrp.2026.200715"
+      },
+      {
+        "title": "La radiómica de grasa epicárdica podría complementar al CAC en adultos negros con diabetes tipo 2",
+        "what_happened": "En el registro CLARIFY se analizaron 1.024 adultos negros no hispanos con diabetes tipo 2, junto con 3.072 adultos blancos no hispanos emparejados. En los participantes negros, un modelo que combinó índice de privación social, CAC y características radiómicas de grasa epicárdica mejoró la reclasificación frente al CAC aislado para eventos cardiovasculares mayores a aproximadamente cinco años de seguimiento. Esta mejora no se observó en la cohorte blanca emparejada.",
+        "why_relevant": "El estudio aborda una limitación potencial de la estratificación basada exclusivamente en CAC en poblaciones con diabetes tipo 2 y elevada carga de riesgo, en particular cuando la calcificación coronaria puede no reflejar completamente la vulnerabilidad aterosclerótica o el contexto social.",
+        "practical_implication": "La grasa epicárdica derivada de tomografía puede considerarse un marcador pronóstico emergente para investigación y futura validación en subgrupos seleccionados, pero no justifica todavía cambios de tratamiento independientes del riesgo global, la diabetes, el LDL-C, la presión arterial y la enfermedad clínica. Se trata de un análisis observacional con modelado predictivo; su valor requiere validación externa y no demuestra que una estrategia terapéutica guiada por esta métrica reduzca eventos.",
+        "source_title": "Epicardial adipose tissue radiomics complement calcium scoring in black adults with type 2 diabetes mellitus.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101693"
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "generated_at": "2026-10-17T01:18:20.038649+00:00",
     "items": [
