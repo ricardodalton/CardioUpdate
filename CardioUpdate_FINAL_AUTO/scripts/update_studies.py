@@ -102,7 +102,7 @@ def classify_area(text: str) -> str:
     for area, pattern in AREA_RULES:
         if re.search(pattern, text or "", flags=re.I):
             return area
-    return "No clasificado"
+    return "Prevención y aterosclerosis"
 
 
 CARDIOVASCULAR_RELEVANCE_PATTERNS = [
@@ -635,7 +635,7 @@ def main():
             study["editorial_components"] = lead_components
             study["lead_reason"] = lead_reason(lead_item, lead_components)
     issue.sort(key=lambda st:(1 if st.get("is_weekly_lead") else 0,(st.get("auto_score") or 0),st.get("date") or ""),reverse=True);save_json(DB,issue)
-    meta.update({"updated_at":datetime.now(timezone.utc).isoformat(),"edition_start":start.isoformat(),"edition_end":end.isoformat(),"total_studies":len(issue),"candidate_pool":len(pool),"publication_mode":"weekly_friday","source":"Europe PMC + Crossref","related_evidence_enabled":True,"related_evidence_max_sources":MAX_RELATED});save_json(META,meta)
+    meta.update({"updated_at":datetime.now(timezone.utc).isoformat(),"edition_start":start.isoformat(),"edition_end":end.isoformat(),"total_studies":len(issue),"candidate_pool":len(pool),"publication_mode":"weekly_saturday","source":"Europe PMC + Crossref","related_evidence_enabled":True,"related_evidence_max_sources":MAX_RELATED});save_json(META,meta)
     print(f"CardioUpdate: edición {start} a {end} publicada con {len(issue)} trabajos; {len(pool)} candidatos acumulados.")
 
 
