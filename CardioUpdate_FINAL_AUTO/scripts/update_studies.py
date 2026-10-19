@@ -102,7 +102,7 @@ def classify_area(text: str) -> str:
     for area, pattern in AREA_RULES:
         if re.search(pattern, text or "", flags=re.I):
             return area
-    return "Prevención y aterosclerosis"
+    return "Cardiología general"
 
 
 CARDIOVASCULAR_RELEVANCE_PATTERNS = [
