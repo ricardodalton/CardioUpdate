@@ -31,7 +31,6 @@ from urllib.parse import quote
 
 import requests
 
-from ai_analysis import build_ai_analysis
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "data" / "studies.json"
@@ -568,10 +567,7 @@ def build_study(x: dict, sc: int):
     typ="Ensayo clínico" if re.search(r"trial|randomized|randomised",ptypes,re.I) else ("Revisión / meta-análisis" if re.search(r"review|meta",ptypes,re.I) else "Artículo científico")
     summary=first_sentences_es(abstract_es);related=find_related_evidence(x)
     study={"id":make_id(x),"title":clean_markup(x["title"]),"short":clean_markup(x["title"]),"area":area,"level":level(x),"type":typ,"journal":x.get("journalTitle") or (x.get("journalInfo") or {}).get("journal",{}).get("title",""),"date":x.get("firstPublicationDate") or (x.get("journalInfo") or {}).get("printPublicationDate",""),"summary":summary,"why":f"Seleccionado para la edición semanal por relevancia clínica, diseño y calidad de fuente en {area.lower()}.","detail":"Consultar el abstract original, el análisis contextual y las fuentes relacionadas.","url":original_url(x),"doi":x.get("doi",""),"pmid":x.get("pmid",""),"authors":x.get("authorString",""),"abstract_en":abstract_en,"abstract_es":abstract_es,"analysis_es":build_context_analysis(area,summary,related),"analysis_mode":"contexto_bibliografico_automatico","related_evidence":related,"source_mode":"europe_pmc_weekly","review_status":"Revisión pendiente","auto_score":sc,"imported_at":datetime.now(timezone.utc).isoformat()}
-    ai_analysis=build_ai_analysis(study,related)
-    if ai_analysis:
-        study["ai_analysis"]=ai_analysis;study["analysis_es"]="\n\n".join([ai_analysis.get("main_finding",""),ai_analysis.get("magnitude_and_results",""),ai_analysis.get("prior_evidence",""),ai_analysis.get("novelty",""),ai_analysis.get("clinical_implications",""),ai_analysis.get("uncertainties","")]).strip();study["analysis_mode"]="ai_grounded_verified_sources";study["analysis_status"]=ai_analysis.get("analysis_status","AUTO")
-    else:study["analysis_status"]="AUTO · Contexto bibliográfico"
+    study["analysis_status"] = "AUTO · Contexto bibliográfico sin IA"
     return study
 
 
