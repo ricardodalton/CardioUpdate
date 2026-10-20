@@ -217,8 +217,8 @@
         "title": "CPT: pharmacometrics & systems pharmacology",
         "essn": "2163-8306",
         "issn": "2163-8306",
-        "isoabbreviation": "CPT Pharmacometrics Syst Pharmacol",
-        "nlmid": "101580011"
+        "nlmid": "101580011",
+        "isoabbreviation": "CPT Pharmacometrics Syst Pharmacol"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -255,8 +255,8 @@
         "title": "Clinical science (London, England : 1979)",
         "essn": "1470-8736",
         "issn": "0143-5221",
-        "isoabbreviation": "Clin Sci (Lond)",
-        "nlmid": "7905731"
+        "nlmid": "7905731",
+        "isoabbreviation": "Clin Sci (Lond)"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -295,8 +295,8 @@
         "title": "Journal of biochemical and molecular toxicology",
         "essn": "1099-0461",
         "issn": "1095-6670",
-        "isoabbreviation": "J Biochem Mol Toxicol",
-        "nlmid": "9717231"
+        "nlmid": "9717231",
+        "isoabbreviation": "J Biochem Mol Toxicol"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -335,8 +335,8 @@
         "title": "Anatomia, histologia, embryologia",
         "essn": "1439-0264",
         "issn": "0340-2096",
-        "isoabbreviation": "Anat Histol Embryol",
-        "nlmid": "7704218"
+        "nlmid": "7704218",
+        "isoabbreviation": "Anat Histol Embryol"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -374,8 +374,8 @@
         "title": "Acta anaesthesiologica Scandinavica",
         "essn": "1399-6576",
         "issn": "0001-5172",
-        "isoabbreviation": "Acta Anaesthesiol Scand",
-        "nlmid": "0370270"
+        "nlmid": "0370270",
+        "isoabbreviation": "Acta Anaesthesiol Scand"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -490,8 +490,8 @@
         "title": "Radiographics : a review publication of the Radiological Society of North America, Inc",
         "essn": "1527-1323",
         "issn": "0271-5333",
-        "isoabbreviation": "Radiographics",
-        "nlmid": "8302501"
+        "nlmid": "8302501",
+        "isoabbreviation": "Radiographics"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -525,8 +525,8 @@
         "title": "Current opinion in obstetrics & gynecology",
         "essn": "1473-656X",
         "issn": "1040-872X",
-        "isoabbreviation": "Curr Opin Obstet Gynecol",
-        "nlmid": "9007264"
+        "nlmid": "9007264",
+        "isoabbreviation": "Curr Opin Obstet Gynecol"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -633,8 +633,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -785,8 +785,8 @@
         "title": "Frontiers in endocrinology",
         "essn": "1664-2392",
         "issn": "1664-2392",
-        "isoabbreviation": "Front Endocrinol (Lausanne)",
-        "nlmid": "101555782"
+        "nlmid": "101555782",
+        "isoabbreviation": "Front Endocrinol (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -818,8 +818,8 @@
         "title": "Frontiers in cellular and infection microbiology",
         "essn": "2235-2988",
         "issn": "2235-2988",
-        "isoabbreviation": "Front Cell Infect Microbiol",
-        "nlmid": "101585359"
+        "nlmid": "101585359",
+        "isoabbreviation": "Front Cell Infect Microbiol"
       }
     },
     "pubTypeList": {
@@ -852,8 +852,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -922,8 +922,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -957,8 +957,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -991,8 +991,8 @@
         "title": "Frontiers in physiology",
         "essn": "1664-042X",
         "issn": "1664-042X",
-        "isoabbreviation": "Front Physiol",
-        "nlmid": "101549006"
+        "nlmid": "101549006",
+        "isoabbreviation": "Front Physiol"
       }
     },
     "pubTypeList": {
@@ -1024,8 +1024,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "nlmid": "101642264",
-        "isoabbreviation": "Front Nutr"
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
       }
     },
     "pubTypeList": {
@@ -1057,8 +1057,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "nlmid": "101642264",
-        "isoabbreviation": "Front Nutr"
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
       }
     },
     "pubTypeList": {
@@ -1224,8 +1224,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "pubTypeList": {
@@ -1257,8 +1257,8 @@
         "title": "Frontiers in artificial intelligence",
         "essn": "2624-8212",
         "issn": "2624-8212",
-        "isoabbreviation": "Front Artif Intell",
-        "nlmid": "101770551"
+        "nlmid": "101770551",
+        "isoabbreviation": "Front Artif Intell"
       }
     },
     "pubTypeList": {
@@ -1290,8 +1290,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -1390,8 +1390,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -1424,8 +1424,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -1754,8 +1754,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -1787,8 +1787,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -1854,8 +1854,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "nlmid": "101546899",
-        "isoabbreviation": "Front Neurol"
+        "isoabbreviation": "Front Neurol",
+        "nlmid": "101546899"
       }
     },
     "pubTypeList": {
@@ -1920,8 +1920,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "pubTypeList": {
@@ -2053,8 +2053,8 @@
         "title": "Frontiers in aging neuroscience",
         "essn": "1663-4365",
         "issn": "1663-4365",
-        "nlmid": "101525824",
-        "isoabbreviation": "Front Aging Neurosci"
+        "isoabbreviation": "Front Aging Neurosci",
+        "nlmid": "101525824"
       }
     },
     "pubTypeList": {
@@ -2119,8 +2119,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "isoabbreviation": "Front Neurol",
-        "nlmid": "101546899"
+        "nlmid": "101546899",
+        "isoabbreviation": "Front Neurol"
       }
     },
     "pubTypeList": {
@@ -2185,8 +2185,8 @@
         "title": "Jornal vascular brasileiro",
         "essn": "1677-7301",
         "issn": "1677-5449",
-        "nlmid": "101262256",
-        "isoabbreviation": "J Vasc Bras"
+        "isoabbreviation": "J Vasc Bras",
+        "nlmid": "101262256"
       }
     },
     "pubTypeList": {
@@ -2351,8 +2351,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -2386,8 +2386,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -2421,8 +2421,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -2455,8 +2455,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -2489,8 +2489,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -2557,8 +2557,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -2659,8 +2659,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -2693,8 +2693,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -2727,8 +2727,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -2761,8 +2761,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -2795,8 +2795,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -2863,8 +2863,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -2897,8 +2897,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -3032,8 +3032,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -3134,8 +3134,8 @@
         "title": "International journal of sports physical therapy",
         "essn": "2159-2896",
         "issn": "2159-2896",
-        "isoabbreviation": "Int J Sports Phys Ther",
-        "nlmid": "101553140"
+        "nlmid": "101553140",
+        "isoabbreviation": "Int J Sports Phys Ther"
       }
     },
     "pubTypeList": {
@@ -3202,8 +3202,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -3269,8 +3269,8 @@
         "title": "North Carolina medical journal",
         "essn": "2379-4313",
         "issn": "0029-2559",
-        "isoabbreviation": "N C Med J",
-        "nlmid": "2984805R"
+        "nlmid": "2984805R",
+        "isoabbreviation": "N C Med J"
       }
     },
     "pubTypeList": {
@@ -3302,8 +3302,8 @@
         "title": "Frontiers in oncology",
         "essn": "2234-943X",
         "issn": "2234-943X",
-        "isoabbreviation": "Front Oncol",
-        "nlmid": "101568867"
+        "nlmid": "101568867",
+        "isoabbreviation": "Front Oncol"
       }
     },
     "pubTypeList": {
@@ -3335,8 +3335,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -3368,8 +3368,8 @@
         "title": "Frontiers in psychology",
         "essn": "1664-1078",
         "issn": "1664-1078",
-        "isoabbreviation": "Front Psychol",
-        "nlmid": "101550902"
+        "nlmid": "101550902",
+        "isoabbreviation": "Front Psychol"
       }
     },
     "pubTypeList": {
@@ -3401,8 +3401,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "pubTypeList": {
@@ -3434,8 +3434,8 @@
         "title": "Frontiers in gastroenterology (Lausanne, Switzerland)",
         "essn": "2813-1169",
         "issn": "2813-1169",
-        "isoabbreviation": "Front Gastroenterol (Lausanne)",
-        "nlmid": "9918557287506676"
+        "nlmid": "9918557287506676",
+        "isoabbreviation": "Front Gastroenterol (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -3500,8 +3500,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -3566,8 +3566,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -3598,8 +3598,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "pubTypeList": {
@@ -3697,8 +3697,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "pubTypeList": {
@@ -3831,8 +3831,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "pubTypeList": {
@@ -3898,8 +3898,8 @@
         "title": "Frontiers in psychology",
         "essn": "1664-1078",
         "issn": "1664-1078",
-        "isoabbreviation": "Front Psychol",
-        "nlmid": "101550902"
+        "nlmid": "101550902",
+        "isoabbreviation": "Front Psychol"
       }
     },
     "pubTypeList": {
@@ -3930,8 +3930,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "isoabbreviation": "Front Public Health",
-        "nlmid": "101616579"
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
       }
     },
     "pubTypeList": {
@@ -3962,8 +3962,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "isoabbreviation": "Front Nutr",
-        "nlmid": "101642264"
+        "nlmid": "101642264",
+        "isoabbreviation": "Front Nutr"
       }
     },
     "pubTypeList": {
@@ -4093,8 +4093,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -4161,8 +4161,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -4227,8 +4227,8 @@
         "title": "Frontiers in aging neuroscience",
         "essn": "1663-4365",
         "issn": "1663-4365",
-        "isoabbreviation": "Front Aging Neurosci",
-        "nlmid": "101525824"
+        "nlmid": "101525824",
+        "isoabbreviation": "Front Aging Neurosci"
       }
     },
     "pubTypeList": {
@@ -4261,8 +4261,8 @@
         "title": "Frontiers in endocrinology",
         "essn": "1664-2392",
         "issn": "1664-2392",
-        "nlmid": "101555782",
-        "isoabbreviation": "Front Endocrinol (Lausanne)"
+        "isoabbreviation": "Front Endocrinol (Lausanne)",
+        "nlmid": "101555782"
       }
     },
     "pubTypeList": {
@@ -4294,8 +4294,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "pubTypeList": {
@@ -4328,8 +4328,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -4362,8 +4362,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "pubTypeList": {
@@ -4396,8 +4396,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "pubTypeList": {
@@ -4429,8 +4429,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "pubTypeList": {
@@ -4496,8 +4496,8 @@
         "title": "Frontiers in aging neuroscience",
         "essn": "1663-4365",
         "issn": "1663-4365",
-        "isoabbreviation": "Front Aging Neurosci",
-        "nlmid": "101525824"
+        "nlmid": "101525824",
+        "isoabbreviation": "Front Aging Neurosci"
       }
     },
     "pubTypeList": {
@@ -4528,8 +4528,8 @@
         "title": "RSC advances",
         "essn": "2046-2069",
         "issn": "2046-2069",
-        "isoabbreviation": "RSC Adv",
-        "nlmid": "101581657"
+        "nlmid": "101581657",
+        "isoabbreviation": "RSC Adv"
       }
     },
     "pubTypeList": {
@@ -4562,8 +4562,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "isoabbreviation": "Front Public Health",
-        "nlmid": "101616579"
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
       }
     },
     "pubTypeList": {
@@ -4595,8 +4595,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -4628,8 +4628,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -4760,8 +4760,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -4792,8 +4792,8 @@
         "title": "Frontiers in surgery",
         "essn": "2296-875X",
         "issn": "2296-875X",
-        "isoabbreviation": "Front Surg",
-        "nlmid": "101645127"
+        "nlmid": "101645127",
+        "isoabbreviation": "Front Surg"
       }
     },
     "pubTypeList": {
@@ -4825,8 +4825,8 @@
         "title": "Frontiers in genetics",
         "essn": "1664-8021",
         "issn": "1664-8021",
-        "nlmid": "101560621",
-        "isoabbreviation": "Front Genet"
+        "isoabbreviation": "Front Genet",
+        "nlmid": "101560621"
       }
     },
     "pubTypeList": {
@@ -4858,8 +4858,8 @@
         "title": "Frontiers in neuroscience",
         "essn": "1662-453X",
         "issn": "1662-4548",
-        "isoabbreviation": "Front Neurosci",
-        "nlmid": "101478481"
+        "nlmid": "101478481",
+        "isoabbreviation": "Front Neurosci"
       }
     },
     "pubTypeList": {
@@ -4892,8 +4892,8 @@
         "title": "ACS omega",
         "essn": "2470-1343",
         "issn": "2470-1343",
-        "isoabbreviation": "ACS Omega",
-        "nlmid": "101691658"
+        "nlmid": "101691658",
+        "isoabbreviation": "ACS Omega"
       }
     },
     "pubTypeList": {
@@ -4959,8 +4959,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "isoabbreviation": "Front Nutr",
-        "nlmid": "101642264"
+        "nlmid": "101642264",
+        "isoabbreviation": "Front Nutr"
       }
     },
     "pubTypeList": {
@@ -5025,8 +5025,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "isoabbreviation": "Front Neurol",
-        "nlmid": "101546899"
+        "nlmid": "101546899",
+        "isoabbreviation": "Front Neurol"
       }
     },
     "pubTypeList": {
@@ -5092,8 +5092,8 @@
         "title": "Frontiers in psychiatry",
         "essn": "1664-0640",
         "issn": "1664-0640",
-        "isoabbreviation": "Front Psychiatry",
-        "nlmid": "101545006"
+        "nlmid": "101545006",
+        "isoabbreviation": "Front Psychiatry"
       }
     },
     "pubTypeList": {
@@ -5159,8 +5159,8 @@
         "title": "Frontiers in behavioral neuroscience",
         "essn": "1662-5153",
         "issn": "1662-5153",
-        "isoabbreviation": "Front Behav Neurosci",
-        "nlmid": "101477952"
+        "nlmid": "101477952",
+        "isoabbreviation": "Front Behav Neurosci"
       }
     },
     "pubTypeList": {
@@ -5191,8 +5191,8 @@
         "title": "RSC advances",
         "essn": "2046-2069",
         "issn": "2046-2069",
-        "isoabbreviation": "RSC Adv",
-        "nlmid": "101581657"
+        "nlmid": "101581657",
+        "isoabbreviation": "RSC Adv"
       }
     },
     "pubTypeList": {
@@ -5259,8 +5259,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -5326,8 +5326,8 @@
         "title": "Frontiers in microbiology",
         "essn": "1664-302X",
         "issn": "1664-302X",
-        "isoabbreviation": "Front Microbiol",
-        "nlmid": "101548977"
+        "nlmid": "101548977",
+        "isoabbreviation": "Front Microbiol"
       }
     },
     "pubTypeList": {
@@ -5360,8 +5360,8 @@
         "title": "ACS omega",
         "essn": "2470-1343",
         "issn": "2470-1343",
-        "isoabbreviation": "ACS Omega",
-        "nlmid": "101691658"
+        "nlmid": "101691658",
+        "isoabbreviation": "ACS Omega"
       }
     },
     "pubTypeList": {
@@ -5393,8 +5393,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -5526,8 +5526,8 @@
         "title": "ACS omega",
         "essn": "2470-1343",
         "issn": "2470-1343",
-        "isoabbreviation": "ACS Omega",
-        "nlmid": "101691658"
+        "nlmid": "101691658",
+        "isoabbreviation": "ACS Omega"
       }
     },
     "pubTypeList": {
@@ -5559,8 +5559,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "pubTypeList": {
@@ -5662,8 +5662,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -5695,8 +5695,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -5795,8 +5795,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "isoabbreviation": "Front Pharmacol",
-        "nlmid": "101548923"
+        "nlmid": "101548923",
+        "isoabbreviation": "Front Pharmacol"
       }
     },
     "pubTypeList": {
@@ -5862,8 +5862,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -5896,8 +5896,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -5929,8 +5929,8 @@
         "title": "North Carolina medical journal",
         "essn": "2379-4313",
         "issn": "0029-2559",
-        "isoabbreviation": "N C Med J",
-        "nlmid": "2984805R"
+        "nlmid": "2984805R",
+        "isoabbreviation": "N C Med J"
       }
     },
     "pubTypeList": {
@@ -5995,8 +5995,8 @@
         "title": "Frontiers in neuroscience",
         "essn": "1662-453X",
         "issn": "1662-4548",
-        "isoabbreviation": "Front Neurosci",
-        "nlmid": "101478481"
+        "nlmid": "101478481",
+        "isoabbreviation": "Front Neurosci"
       }
     },
     "pubTypeList": {
@@ -6063,8 +6063,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -6131,8 +6131,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -6164,8 +6164,8 @@
         "title": "Frontiers in cell and developmental biology",
         "essn": "2296-634X",
         "issn": "2296-634X",
-        "isoabbreviation": "Front Cell Dev Biol",
-        "nlmid": "101630250"
+        "nlmid": "101630250",
+        "isoabbreviation": "Front Cell Dev Biol"
       }
     },
     "pubTypeList": {
@@ -6265,8 +6265,8 @@
         "title": "Frontiers in cellular and infection microbiology",
         "essn": "2235-2988",
         "issn": "2235-2988",
-        "isoabbreviation": "Front Cell Infect Microbiol",
-        "nlmid": "101585359"
+        "nlmid": "101585359",
+        "isoabbreviation": "Front Cell Infect Microbiol"
       }
     },
     "pubTypeList": {
@@ -6365,8 +6365,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "isoabbreviation": "Front Nutr",
-        "nlmid": "101642264"
+        "nlmid": "101642264",
+        "isoabbreviation": "Front Nutr"
       }
     },
     "pubTypeList": {
@@ -6400,8 +6400,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -6434,8 +6434,8 @@
         "title": "ACS nano medicine",
         "essn": "3067-5928",
         "issn": "3067-5928",
-        "isoabbreviation": "ACS Nano Med",
-        "nlmid": "9919228057606676"
+        "nlmid": "9919228057606676",
+        "isoabbreviation": "ACS Nano Med"
       }
     },
     "pubTypeList": {
@@ -6534,8 +6534,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "isoabbreviation": "Front Public Health",
-        "nlmid": "101616579"
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
       }
     },
     "pubTypeList": {
@@ -6600,8 +6600,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "pubTypeList": {
@@ -6700,8 +6700,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -6734,8 +6734,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "isoabbreviation": "Front Med (Lausanne)",
-        "nlmid": "101648047"
+        "nlmid": "101648047",
+        "isoabbreviation": "Front Med (Lausanne)"
       }
     },
     "pubTypeList": {
@@ -6767,8 +6767,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "isoabbreviation": "Front Immunol",
-        "nlmid": "101560960"
+        "nlmid": "101560960",
+        "isoabbreviation": "Front Immunol"
       }
     },
     "pubTypeList": {
@@ -6867,8 +6867,8 @@
         "title": "Animal cells and systems",
         "essn": "2151-2485",
         "issn": "1976-8354",
-        "isoabbreviation": "Anim Cells Syst (Seoul)",
-        "nlmid": "101478641"
+        "nlmid": "101478641",
+        "isoabbreviation": "Anim Cells Syst (Seoul)"
       }
     },
     "pubTypeList": {
@@ -6900,8 +6900,8 @@
         "title": "Frontiers in cell and developmental biology",
         "essn": "2296-634X",
         "issn": "2296-634X",
-        "isoabbreviation": "Front Cell Dev Biol",
-        "nlmid": "101630250"
+        "nlmid": "101630250",
+        "isoabbreviation": "Front Cell Dev Biol"
       }
     },
     "pubTypeList": {
@@ -6933,8 +6933,8 @@
         "title": "Frontiers in dementia",
         "essn": "2813-3919",
         "issn": "2813-3919",
-        "isoabbreviation": "Front Dement",
-        "nlmid": "9918787575706676"
+        "nlmid": "9918787575706676",
+        "isoabbreviation": "Front Dement"
       }
     },
     "pubTypeList": {
@@ -7032,8 +7032,8 @@
         "title": "Frontiers in psychology",
         "essn": "1664-1078",
         "issn": "1664-1078",
-        "isoabbreviation": "Front Psychol",
-        "nlmid": "101550902"
+        "nlmid": "101550902",
+        "isoabbreviation": "Front Psychol"
       }
     },
     "pubTypeList": {
@@ -7065,8 +7065,8 @@
         "title": "Frontiers in endocrinology",
         "essn": "1664-2392",
         "issn": "1664-2392",
-        "nlmid": "101555782",
-        "isoabbreviation": "Front Endocrinol (Lausanne)"
+        "isoabbreviation": "Front Endocrinol (Lausanne)",
+        "nlmid": "101555782"
       }
     },
     "pubTypeList": {
@@ -7132,8 +7132,8 @@
         "title": "Frontiers in psychology",
         "essn": "1664-1078",
         "issn": "1664-1078",
-        "isoabbreviation": "Front Psychol",
-        "nlmid": "101550902"
+        "nlmid": "101550902",
+        "isoabbreviation": "Front Psychol"
       }
     },
     "pubTypeList": {
@@ -7231,8 +7231,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -7265,8 +7265,8 @@
         "title": "Frontiers in rehabilitation sciences",
         "essn": "2673-6861",
         "issn": "2673-6861",
-        "isoabbreviation": "Front Rehabil Sci",
-        "nlmid": "9918227358906676"
+        "nlmid": "9918227358906676",
+        "isoabbreviation": "Front Rehabil Sci"
       }
     },
     "pubTypeList": {
@@ -7298,8 +7298,8 @@
         "title": "Frontiers in cellular and infection microbiology",
         "essn": "2235-2988",
         "issn": "2235-2988",
-        "isoabbreviation": "Front Cell Infect Microbiol",
-        "nlmid": "101585359"
+        "nlmid": "101585359",
+        "isoabbreviation": "Front Cell Infect Microbiol"
       }
     },
     "pubTypeList": {
@@ -7430,8 +7430,8 @@
         "title": "Frontiers in cellular and infection microbiology",
         "essn": "2235-2988",
         "issn": "2235-2988",
-        "isoabbreviation": "Front Cell Infect Microbiol",
-        "nlmid": "101585359"
+        "nlmid": "101585359",
+        "isoabbreviation": "Front Cell Infect Microbiol"
       }
     },
     "pubTypeList": {
@@ -7464,8 +7464,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -7497,8 +7497,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "isoabbreviation": "Front Public Health",
-        "nlmid": "101616579"
+        "nlmid": "101616579",
+        "isoabbreviation": "Front Public Health"
       }
     },
     "pubTypeList": {
@@ -7530,8 +7530,8 @@
         "title": "Frontiers in physiology",
         "essn": "1664-042X",
         "issn": "1664-042X",
-        "isoabbreviation": "Front Physiol",
-        "nlmid": "101549006"
+        "nlmid": "101549006",
+        "isoabbreviation": "Front Physiol"
       }
     },
     "pubTypeList": {
@@ -7597,8 +7597,8 @@
         "title": "Frontiers in artificial intelligence",
         "essn": "2624-8212",
         "issn": "2624-8212",
-        "isoabbreviation": "Front Artif Intell",
-        "nlmid": "101770551"
+        "nlmid": "101770551",
+        "isoabbreviation": "Front Artif Intell"
       }
     },
     "pubTypeList": {
@@ -7698,8 +7698,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "isoabbreviation": "Cureus",
-        "nlmid": "101596737"
+        "nlmid": "101596737",
+        "isoabbreviation": "Cureus"
       }
     },
     "pubTypeList": {
@@ -7732,8 +7732,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "isoabbreviation": "Front Nutr",
-        "nlmid": "101642264"
+        "nlmid": "101642264",
+        "isoabbreviation": "Front Nutr"
       }
     },
     "pubTypeList": {
@@ -9408,8 +9408,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -9509,8 +9509,8 @@
         "title": "Frontiers in physiology",
         "essn": "1664-042X",
         "issn": "1664-042X",
-        "nlmid": "101549006",
-        "isoabbreviation": "Front Physiol"
+        "isoabbreviation": "Front Physiol",
+        "nlmid": "101549006"
       }
     },
     "pubTypeList": {
@@ -10249,8 +10249,8 @@
         "title": "Jornal vascular brasileiro",
         "essn": "1677-7301",
         "issn": "1677-5449",
-        "nlmid": "101262256",
-        "isoabbreviation": "J Vasc Bras"
+        "isoabbreviation": "J Vasc Bras",
+        "nlmid": "101262256"
       }
     },
     "pubTypeList": {
@@ -10880,8 +10880,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -11115,8 +11115,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -11282,8 +11282,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -11619,8 +11619,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -11718,8 +11718,8 @@
         "title": "Frontiers in cellular and infection microbiology",
         "essn": "2235-2988",
         "issn": "2235-2988",
-        "nlmid": "101585359",
-        "isoabbreviation": "Front Cell Infect Microbiol"
+        "isoabbreviation": "Front Cell Infect Microbiol",
+        "nlmid": "101585359"
       }
     },
     "pubTypeList": {
@@ -11752,8 +11752,8 @@
         "title": "Molecular & cellular oncology",
         "essn": "2372-3556",
         "issn": "2372-3556",
-        "nlmid": "101642411",
-        "isoabbreviation": "Mol Cell Oncol"
+        "isoabbreviation": "Mol Cell Oncol",
+        "nlmid": "101642411"
       }
     },
     "pubTypeList": {
@@ -11785,8 +11785,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -11819,8 +11819,8 @@
         "title": "Frontiers in genetics",
         "essn": "1664-8021",
         "issn": "1664-8021",
-        "nlmid": "101560621",
-        "isoabbreviation": "Front Genet"
+        "isoabbreviation": "Front Genet",
+        "nlmid": "101560621"
       }
     },
     "pubTypeList": {
@@ -11852,8 +11852,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -11885,8 +11885,8 @@
         "title": "Frontiers in cell and developmental biology",
         "essn": "2296-634X",
         "issn": "2296-634X",
-        "nlmid": "101630250",
-        "isoabbreviation": "Front Cell Dev Biol"
+        "isoabbreviation": "Front Cell Dev Biol",
+        "nlmid": "101630250"
       }
     },
     "pubTypeList": {
@@ -11918,8 +11918,8 @@
         "title": "Jornal vascular brasileiro",
         "essn": "1677-7301",
         "issn": "1677-5449",
-        "nlmid": "101262256",
-        "isoabbreviation": "J Vasc Bras"
+        "isoabbreviation": "J Vasc Bras",
+        "nlmid": "101262256"
       }
     },
     "pubTypeList": {
@@ -11983,8 +11983,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -12050,8 +12050,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -12083,8 +12083,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "nlmid": "101616579",
-        "isoabbreviation": "Front Public Health"
+        "isoabbreviation": "Front Public Health",
+        "nlmid": "101616579"
       }
     },
     "pubTypeList": {
@@ -12149,8 +12149,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -12182,8 +12182,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -12215,8 +12215,8 @@
         "title": "Frontiers in psychology",
         "essn": "1664-1078",
         "issn": "1664-1078",
-        "nlmid": "101550902",
-        "isoabbreviation": "Front Psychol"
+        "isoabbreviation": "Front Psychol",
+        "nlmid": "101550902"
       }
     },
     "pubTypeList": {
@@ -12248,8 +12248,8 @@
         "title": "Hospital pediatrics",
         "essn": "2154-1671",
         "issn": "2154-1663",
-        "nlmid": "101585349",
-        "isoabbreviation": "Hosp Pediatr"
+        "isoabbreviation": "Hosp Pediatr",
+        "nlmid": "101585349"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12285,8 +12285,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "nlmid": "0370465",
-        "isoabbreviation": "Am Heart J"
+        "isoabbreviation": "Am Heart J",
+        "nlmid": "0370465"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12323,8 +12323,8 @@
         "title": "British journal of haematology",
         "essn": "1365-2141",
         "issn": "0007-1048",
-        "nlmid": "0372544",
-        "isoabbreviation": "Br J Haematol"
+        "isoabbreviation": "Br J Haematol",
+        "nlmid": "0372544"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12361,8 +12361,8 @@
         "title": "Veterinary and comparative oncology",
         "essn": "1476-5829",
         "issn": "1476-5810",
-        "nlmid": "101185242",
-        "isoabbreviation": "Vet Comp Oncol"
+        "isoabbreviation": "Vet Comp Oncol",
+        "nlmid": "101185242"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12400,8 +12400,8 @@
         "title": "Future cardiology",
         "essn": "1744-8298",
         "issn": "1479-6678",
-        "nlmid": "101239345",
-        "isoabbreviation": "Future Cardiol"
+        "isoabbreviation": "Future Cardiol",
+        "nlmid": "101239345"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12515,8 +12515,8 @@
         "title": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
         "essn": "2198-3844",
         "issn": "2198-3844",
-        "nlmid": "101664569",
-        "isoabbreviation": "Adv Sci (Weinh)"
+        "isoabbreviation": "Adv Sci (Weinh)",
+        "nlmid": "101664569"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12554,8 +12554,8 @@
         "title": "Sexual medicine",
         "essn": "2050-1161",
         "issn": "2050-1161",
-        "nlmid": "101631053",
-        "isoabbreviation": "Sex Med"
+        "isoabbreviation": "Sex Med",
+        "nlmid": "101631053"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12627,8 +12627,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12668,8 +12668,8 @@
         "title": "Current cardiology reports",
         "essn": "1534-3170",
         "issn": "1523-3782",
-        "nlmid": "100888969",
-        "isoabbreviation": "Curr Cardiol Rep"
+        "isoabbreviation": "Curr Cardiol Rep",
+        "nlmid": "100888969"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12710,8 +12710,8 @@
         "title": "Endocrine",
         "essn": "1559-0100",
         "issn": "1355-008X",
-        "nlmid": "9434444",
-        "isoabbreviation": "Endocrine"
+        "isoabbreviation": "Endocrine",
+        "nlmid": "9434444"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12789,8 +12789,8 @@
         "title": "International immunopharmacology",
         "essn": "1878-1705",
         "issn": "1567-5769",
-        "nlmid": "100965259",
-        "isoabbreviation": "Int Immunopharmacol"
+        "isoabbreviation": "Int Immunopharmacol",
+        "nlmid": "100965259"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12830,8 +12830,8 @@
         "title": "Journal of community genetics",
         "essn": "1868-6001",
         "issn": "1868-310X",
-        "nlmid": "101551501",
-        "isoabbreviation": "J Community Genet"
+        "isoabbreviation": "J Community Genet",
+        "nlmid": "101551501"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12870,8 +12870,8 @@
         "title": "Bulletin of mathematical biology",
         "essn": "1522-9602",
         "issn": "0092-8240",
-        "nlmid": "0401404",
-        "isoabbreviation": "Bull Math Biol"
+        "isoabbreviation": "Bull Math Biol",
+        "nlmid": "0401404"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12946,8 +12946,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -12984,8 +12984,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13025,8 +13025,8 @@
         "title": "Journal of physiological anthropology",
         "essn": "1880-6805",
         "issn": "1880-6791",
-        "nlmid": "101269653",
-        "isoabbreviation": "J Physiol Anthropol"
+        "isoabbreviation": "J Physiol Anthropol",
+        "nlmid": "101269653"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13254,8 +13254,8 @@
         "title": "Cardiovascular and interventional radiology",
         "essn": "1432-086X",
         "issn": "0174-1551",
-        "nlmid": "8003538",
-        "isoabbreviation": "Cardiovasc Intervent Radiol"
+        "isoabbreviation": "Cardiovasc Intervent Radiol",
+        "nlmid": "8003538"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13292,8 +13292,8 @@
         "title": "Journal of human hypertension",
         "essn": "1476-5527",
         "issn": "0950-9240",
-        "nlmid": "8811625",
-        "isoabbreviation": "J Hum Hypertens"
+        "isoabbreviation": "J Hum Hypertens",
+        "nlmid": "8811625"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13330,8 +13330,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13369,8 +13369,8 @@
         "title": "Journal of diabetes and metabolic disorders",
         "essn": "2251-6581",
         "issn": "2251-6581",
-        "nlmid": "101590741",
-        "isoabbreviation": "J Diabetes Metab Disord"
+        "isoabbreviation": "J Diabetes Metab Disord",
+        "nlmid": "101590741"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13406,8 +13406,8 @@
         "title": "European journal of heart failure",
         "essn": "1879-0844",
         "issn": "1388-9842",
-        "nlmid": "100887595",
-        "isoabbreviation": "Eur J Heart Fail"
+        "isoabbreviation": "Eur J Heart Fail",
+        "nlmid": "100887595"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13480,8 +13480,8 @@
         "title": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
         "essn": "1530-6860",
         "issn": "0892-6638",
-        "nlmid": "8804484",
-        "isoabbreviation": "FASEB J"
+        "isoabbreviation": "FASEB J",
+        "nlmid": "8804484"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13517,8 +13517,8 @@
         "title": "Bioresources and bioprocessing",
         "essn": "2197-4365",
         "issn": "2197-4365",
-        "nlmid": "101665551",
-        "isoabbreviation": "Bioresour Bioprocess"
+        "isoabbreviation": "Bioresour Bioprocess",
+        "nlmid": "101665551"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13628,8 +13628,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13702,8 +13702,8 @@
         "title": "Critical reviews in oncology/hematology",
         "essn": "1879-0461",
         "issn": "1040-8428",
-        "nlmid": "8916049",
-        "isoabbreviation": "Crit Rev Oncol Hematol"
+        "isoabbreviation": "Crit Rev Oncol Hematol",
+        "nlmid": "8916049"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13851,8 +13851,8 @@
         "title": "Transplantation proceedings",
         "essn": "1873-2623",
         "issn": "0041-1345",
-        "nlmid": "0243532",
-        "isoabbreviation": "Transplant Proc"
+        "isoabbreviation": "Transplant Proc",
+        "nlmid": "0243532"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13925,8 +13925,8 @@
         "title": "Mechanisms of ageing and development",
         "essn": "1872-6216",
         "issn": "0047-6374",
-        "nlmid": "0347227",
-        "isoabbreviation": "Mech Ageing Dev"
+        "isoabbreviation": "Mech Ageing Dev",
+        "nlmid": "0347227"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -13962,8 +13962,8 @@
         "title": "Acta biomaterialia",
         "essn": "1878-7568",
         "issn": "1742-7061",
-        "nlmid": "101233144",
-        "isoabbreviation": "Acta Biomater"
+        "isoabbreviation": "Acta Biomater",
+        "nlmid": "101233144"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14224,8 +14224,8 @@
         "title": "The Journal of heart and lung transplantation : the official publication of the International Society for Heart Transplantation",
         "essn": "1557-3117",
         "issn": "1053-2498",
-        "nlmid": "9102703",
-        "isoabbreviation": "J Heart Lung Transplant"
+        "isoabbreviation": "J Heart Lung Transplant",
+        "nlmid": "9102703"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14640,8 +14640,8 @@
         "title": "Journal of perianesthesia nursing : official journal of the American Society of PeriAnesthesia Nurses",
         "essn": "1532-8473",
         "issn": "1089-9472",
-        "nlmid": "9610507",
-        "isoabbreviation": "J Perianesth Nurs"
+        "isoabbreviation": "J Perianesth Nurs",
+        "nlmid": "9610507"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14678,8 +14678,8 @@
         "title": "Fetal diagnosis and therapy",
         "essn": "1421-9964",
         "issn": "1015-3837",
-        "nlmid": "9107463",
-        "isoabbreviation": "Fetal Diagn Ther"
+        "isoabbreviation": "Fetal Diagn Ther",
+        "nlmid": "9107463"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14715,8 +14715,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14752,8 +14752,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14789,8 +14789,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14826,8 +14826,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14863,8 +14863,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -14900,8 +14900,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15012,8 +15012,8 @@
         "title": "Cardiovascular pathology : the official journal of the Society for Cardiovascular Pathology",
         "essn": "1879-1336",
         "issn": "1054-8807",
-        "nlmid": "9212060",
-        "isoabbreviation": "Cardiovasc Pathol"
+        "isoabbreviation": "Cardiovasc Pathol",
+        "nlmid": "9212060"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15050,8 +15050,8 @@
         "title": "Cardiovascular pathology : the official journal of the Society for Cardiovascular Pathology",
         "essn": "1879-1336",
         "issn": "1054-8807",
-        "nlmid": "9212060",
-        "isoabbreviation": "Cardiovasc Pathol"
+        "isoabbreviation": "Cardiovasc Pathol",
+        "nlmid": "9212060"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15088,8 +15088,8 @@
         "title": "The American journal of the medical sciences",
         "essn": "1538-2990",
         "issn": "0002-9629",
-        "nlmid": "0370506",
-        "isoabbreviation": "Am J Med Sci"
+        "isoabbreviation": "Am J Med Sci",
+        "nlmid": "0370506"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15164,8 +15164,8 @@
         "title": "Neurology",
         "essn": "1526-632X",
         "issn": "0028-3878",
-        "nlmid": "0401060",
-        "isoabbreviation": "Neurology"
+        "isoabbreviation": "Neurology",
+        "nlmid": "0401060"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -15695,8 +15695,8 @@
         "title": "Journal of clinical laboratory analysis",
         "essn": "1098-2825",
         "issn": "0887-8013",
-        "nlmid": "8801384",
-        "isoabbreviation": "J Clin Lab Anal"
+        "isoabbreviation": "J Clin Lab Anal",
+        "nlmid": "8801384"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15732,8 +15732,8 @@
         "title": "Journal of the American Society of Echocardiography : official publication of the American Society of Echocardiography",
         "essn": "1097-6795",
         "issn": "0894-7317",
-        "nlmid": "8801388",
-        "isoabbreviation": "J Am Soc Echocardiogr"
+        "isoabbreviation": "J Am Soc Echocardiogr",
+        "nlmid": "8801388"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15769,8 +15769,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15806,8 +15806,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15843,8 +15843,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15880,8 +15880,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15918,8 +15918,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15955,8 +15955,8 @@
         "title": "Clinical science (London, England : 1979)",
         "essn": "1470-8736",
         "issn": "0143-5221",
-        "nlmid": "7905731",
-        "isoabbreviation": "Clin Sci (Lond)"
+        "isoabbreviation": "Clin Sci (Lond)",
+        "nlmid": "7905731"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -15992,8 +15992,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16176,8 +16176,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16212,8 +16212,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16426,8 +16426,8 @@
         "title": "Journal of clinical laboratory analysis",
         "essn": "1098-2825",
         "issn": "0887-8013",
-        "nlmid": "8801384",
-        "isoabbreviation": "J Clin Lab Anal"
+        "isoabbreviation": "J Clin Lab Anal",
+        "nlmid": "8801384"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16498,8 +16498,8 @@
         "title": "iMeta",
         "essn": "2770-596X",
         "issn": "2770-5986",
-        "nlmid": "9918350383706676",
-        "isoabbreviation": "Imeta"
+        "isoabbreviation": "Imeta",
+        "nlmid": "9918350383706676"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16534,8 +16534,8 @@
         "title": "European journal of cardiovascular nursing",
         "essn": "1873-1953",
         "issn": "1474-5151",
-        "nlmid": "101128793",
-        "isoabbreviation": "Eur J Cardiovasc Nurs"
+        "isoabbreviation": "Eur J Cardiovasc Nurs",
+        "nlmid": "101128793"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16571,8 +16571,8 @@
         "title": "Science advances",
         "essn": "2375-2548",
         "issn": "2375-2548",
-        "nlmid": "101653440",
-        "isoabbreviation": "Sci Adv"
+        "isoabbreviation": "Sci Adv",
+        "nlmid": "101653440"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16607,8 +16607,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16681,8 +16681,8 @@
         "title": "JMIR research protocols",
         "essn": "1929-0748",
         "issn": "1929-0748",
-        "nlmid": "101599504",
-        "isoabbreviation": "JMIR Res Protoc"
+        "isoabbreviation": "JMIR Res Protoc",
+        "nlmid": "101599504"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -16981,8 +16981,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17018,8 +17018,8 @@
         "title": "ESC heart failure",
         "essn": "2055-5822",
         "issn": "2055-5822",
-        "nlmid": "101669191",
-        "isoabbreviation": "ESC Heart Fail"
+        "isoabbreviation": "ESC Heart Fail",
+        "nlmid": "101669191"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17285,8 +17285,8 @@
         "title": "Environmental pollution (Barking, Essex : 1987)",
         "essn": "1873-6424",
         "issn": "0269-7491",
-        "nlmid": "8804476",
-        "isoabbreviation": "Environ Pollut"
+        "isoabbreviation": "Environ Pollut",
+        "nlmid": "8804476"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17322,8 +17322,8 @@
         "title": "Netherlands heart journal : monthly journal of the Netherlands Society of Cardiology and the Netherlands Heart Foundation",
         "essn": "1876-6250",
         "issn": "1568-5888",
-        "nlmid": "101095458",
-        "isoabbreviation": "Neth Heart J"
+        "isoabbreviation": "Neth Heart J",
+        "nlmid": "101095458"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17360,8 +17360,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17399,8 +17399,8 @@
         "title": "European journal of pediatrics",
         "essn": "1432-1076",
         "issn": "0340-6199",
-        "nlmid": "7603873",
-        "isoabbreviation": "Eur J Pediatr"
+        "isoabbreviation": "Eur J Pediatr",
+        "nlmid": "7603873"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17436,8 +17436,8 @@
         "title": "Journal of the American College of Cardiology",
         "essn": "1558-3597",
         "issn": "0735-1097",
-        "nlmid": "8301365",
-        "isoabbreviation": "J Am Coll Cardiol"
+        "isoabbreviation": "J Am Coll Cardiol",
+        "nlmid": "8301365"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17474,8 +17474,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17623,8 +17623,8 @@
         "title": "Biomaterials",
         "essn": "1878-5905",
         "issn": "0142-9612",
-        "nlmid": "8100316",
-        "isoabbreviation": "Biomaterials"
+        "isoabbreviation": "Biomaterials",
+        "nlmid": "8100316"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17665,8 +17665,8 @@
         "title": "Circulation",
         "essn": "1524-4539",
         "issn": "0009-7322",
-        "nlmid": "0147763",
-        "isoabbreviation": "Circulation"
+        "isoabbreviation": "Circulation",
+        "nlmid": "0147763"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17704,8 +17704,8 @@
         "title": "Experimental & molecular medicine",
         "essn": "2092-6413",
         "issn": "1226-3613",
-        "nlmid": "9607880",
-        "isoabbreviation": "Exp Mol Med"
+        "isoabbreviation": "Exp Mol Med",
+        "nlmid": "9607880"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17743,8 +17743,8 @@
         "title": "European journal of radiology",
         "essn": "1872-7727",
         "issn": "0720-048X",
-        "nlmid": "8106411",
-        "isoabbreviation": "Eur J Radiol"
+        "isoabbreviation": "Eur J Radiol",
+        "nlmid": "8106411"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17782,8 +17782,8 @@
         "title": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
         "essn": "1873-3557",
         "issn": "1386-1425",
-        "nlmid": "9602533",
-        "isoabbreviation": "Spectrochim Acta A Mol Biomol Spectrosc"
+        "isoabbreviation": "Spectrochim Acta A Mol Biomol Spectrosc",
+        "nlmid": "9602533"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17820,8 +17820,8 @@
         "title": "iScience",
         "essn": "2589-0042",
         "issn": "2589-0042",
-        "nlmid": "101724038",
-        "isoabbreviation": "iScience"
+        "isoabbreviation": "iScience",
+        "nlmid": "101724038"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17858,8 +17858,8 @@
         "title": "Intensive care medicine experimental",
         "essn": "2197-425X",
         "issn": "2197-425X",
-        "nlmid": "101645149",
-        "isoabbreviation": "Intensive Care Med Exp"
+        "isoabbreviation": "Intensive Care Med Exp",
+        "nlmid": "101645149"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17897,8 +17897,8 @@
         "title": "International journal of molecular sciences",
         "essn": "1422-0067",
         "issn": "1422-0067",
-        "nlmid": "101092791",
-        "isoabbreviation": "Int J Mol Sci"
+        "isoabbreviation": "Int J Mol Sci",
+        "nlmid": "101092791"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17937,8 +17937,8 @@
         "title": "Tidsskrift for den Norske laegeforening : tidsskrift for praktisk medicin, ny raekke",
         "essn": "0807-7096",
         "issn": "0029-2001",
-        "nlmid": "0413423",
-        "isoabbreviation": "Tidsskr Nor Laegeforen"
+        "isoabbreviation": "Tidsskr Nor Laegeforen",
+        "nlmid": "0413423"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -17975,8 +17975,8 @@
         "title": "iScience",
         "essn": "2589-0042",
         "issn": "2589-0042",
-        "nlmid": "101724038",
-        "isoabbreviation": "iScience"
+        "isoabbreviation": "iScience",
+        "nlmid": "101724038"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -18012,8 +18012,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "nlmid": "101616579",
-        "isoabbreviation": "Front Public Health"
+        "isoabbreviation": "Front Public Health",
+        "nlmid": "101616579"
       },
       "printPublicationDate": "2026-01-01"
     },
@@ -18051,8 +18051,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       },
       "printPublicationDate": "2026-01-01"
     },
@@ -18091,8 +18091,8 @@
         "title": "Pediatric transplantation",
         "essn": "1399-3046",
         "issn": "1397-3142",
-        "nlmid": "9802574",
-        "isoabbreviation": "Pediatr Transplant"
+        "isoabbreviation": "Pediatr Transplant",
+        "nlmid": "9802574"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -18128,8 +18128,8 @@
         "title": "Nursing open",
         "essn": "2054-1058",
         "issn": "2054-1058",
-        "nlmid": "101675107",
-        "isoabbreviation": "Nurs Open"
+        "isoabbreviation": "Nurs Open",
+        "nlmid": "101675107"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -18165,8 +18165,8 @@
         "title": "Pulmonary circulation",
         "essn": "2045-8940",
         "issn": "2045-8932",
-        "nlmid": "101557243",
-        "isoabbreviation": "Pulm Circ"
+        "isoabbreviation": "Pulm Circ",
+        "nlmid": "101557243"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -18202,8 +18202,8 @@
         "title": "The World Allergy Organization journal",
         "essn": "1939-4551",
         "issn": "1939-4551",
-        "nlmid": "101481283",
-        "isoabbreviation": "World Allergy Organ J"
+        "isoabbreviation": "World Allergy Organ J",
+        "nlmid": "101481283"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -18238,8 +18238,8 @@
         "title": "European heart journal. Imaging methods and practice",
         "essn": "2755-9637",
         "issn": "2755-9637",
-        "nlmid": "9918697088006676",
-        "isoabbreviation": "Eur Heart J Imaging Methods Pract"
+        "isoabbreviation": "Eur Heart J Imaging Methods Pract",
+        "nlmid": "9918697088006676"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -18275,8 +18275,8 @@
         "title": "European journal of clinical investigation",
         "essn": "1365-2362",
         "issn": "0014-2972",
-        "nlmid": "0245331",
-        "isoabbreviation": "Eur J Clin Invest"
+        "isoabbreviation": "Eur J Clin Invest",
+        "nlmid": "0245331"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -18350,8 +18350,8 @@
         "title": "Methods in molecular biology (Clifton, N.J.)",
         "essn": "1940-6029",
         "issn": "1064-3745",
-        "isoabbreviation": "Methods Mol Biol",
-        "nlmid": "9214969"
+        "nlmid": "9214969",
+        "isoabbreviation": "Methods Mol Biol"
       },
       "printPublicationDate": "2027-01-01"
     },
@@ -18388,8 +18388,8 @@
         "title": "Deutsches Arzteblatt international",
         "essn": "1866-0452",
         "issn": "1866-0452",
-        "isoabbreviation": "Dtsch Arztebl Int",
-        "nlmid": "101475967"
+        "nlmid": "101475967",
+        "isoabbreviation": "Dtsch Arztebl Int"
       },
       "printPublicationDate": "2026-12-01"
     },
@@ -18428,8 +18428,8 @@
         "title": "Public health research & practice",
         "essn": "2204-2091",
         "issn": "2204-2091",
-        "isoabbreviation": "Public Health Res Pract",
-        "nlmid": "101648133"
+        "nlmid": "101648133",
+        "isoabbreviation": "Public Health Res Pract"
       },
       "printPublicationDate": "2026-12-01"
     },
@@ -18467,8 +18467,8 @@
         "title": "Public health research & practice",
         "essn": "2204-2091",
         "issn": "2204-2091",
-        "isoabbreviation": "Public Health Res Pract",
-        "nlmid": "101648133"
+        "nlmid": "101648133",
+        "isoabbreviation": "Public Health Res Pract"
       },
       "printPublicationDate": "2026-12-01"
     },
@@ -18505,8 +18505,8 @@
         "title": "Endocrinology, diabetes & metabolism",
         "essn": "2398-9238",
         "issn": "2398-9238",
-        "isoabbreviation": "Endocrinol Diabetes Metab",
-        "nlmid": "101732442"
+        "nlmid": "101732442",
+        "isoabbreviation": "Endocrinol Diabetes Metab"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18587,8 +18587,8 @@
         "title": "The Lancet. Neurology",
         "essn": "1474-4465",
         "issn": "1474-4422",
-        "isoabbreviation": "Lancet Neurol",
-        "nlmid": "101139309"
+        "nlmid": "101139309",
+        "isoabbreviation": "Lancet Neurol"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18626,8 +18626,8 @@
         "title": "Australian health review : a publication of the Australian Hospital Association",
         "essn": "1449-8944",
         "issn": "0156-5788",
-        "isoabbreviation": "Aust Health Rev",
-        "nlmid": "8214381"
+        "nlmid": "8214381",
+        "isoabbreviation": "Aust Health Rev"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18664,8 +18664,8 @@
         "title": "Annals of noninvasive electrocardiology : the official journal of the International Society for Holter and Noninvasive Electrocardiology, Inc",
         "essn": "1542-474X",
         "issn": "1082-720X",
-        "nlmid": "9607443",
-        "isoabbreviation": "Ann Noninvasive Electrocardiol"
+        "isoabbreviation": "Ann Noninvasive Electrocardiol",
+        "nlmid": "9607443"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18703,8 +18703,8 @@
         "title": "Acta anaesthesiologica Scandinavica",
         "essn": "1399-6576",
         "issn": "0001-5172",
-        "isoabbreviation": "Acta Anaesthesiol Scand",
-        "nlmid": "0370270"
+        "nlmid": "0370270",
+        "isoabbreviation": "Acta Anaesthesiol Scand"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18782,8 +18782,8 @@
         "title": "Child: care, health and development",
         "essn": "1365-2214",
         "issn": "0305-1862",
-        "nlmid": "7602632",
-        "isoabbreviation": "Child Care Health Dev"
+        "isoabbreviation": "Child Care Health Dev",
+        "nlmid": "7602632"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18821,8 +18821,8 @@
         "title": "NMR in biomedicine",
         "essn": "1099-1492",
         "issn": "0952-3480",
-        "nlmid": "8915233",
-        "isoabbreviation": "NMR Biomed"
+        "isoabbreviation": "NMR Biomed",
+        "nlmid": "8915233"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18899,8 +18899,8 @@
         "title": "Biomedical chromatography : BMC",
         "essn": "1099-0801",
         "issn": "0269-3879",
-        "isoabbreviation": "Biomed Chromatogr",
-        "nlmid": "8610241"
+        "nlmid": "8610241",
+        "isoabbreviation": "Biomed Chromatogr"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18938,8 +18938,8 @@
         "title": "Nursing in critical care",
         "essn": "1478-5153",
         "issn": "1362-1017",
-        "isoabbreviation": "Nurs Crit Care",
-        "nlmid": "9808649"
+        "nlmid": "9808649",
+        "isoabbreviation": "Nurs Crit Care"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -18976,8 +18976,8 @@
         "title": "Journal of inherited metabolic disease",
         "essn": "1573-2665",
         "issn": "0141-8955",
-        "isoabbreviation": "J Inherit Metab Dis",
-        "nlmid": "7910918"
+        "nlmid": "7910918",
+        "isoabbreviation": "J Inherit Metab Dis"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -19012,8 +19012,8 @@
         "title": "Journal of synchrotron radiation",
         "essn": "1600-5775",
         "issn": "0909-0495",
-        "isoabbreviation": "J Synchrotron Radiat",
-        "nlmid": "9888878"
+        "nlmid": "9888878",
+        "isoabbreviation": "J Synchrotron Radiat"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -19089,8 +19089,8 @@
         "title": "Reviews in medical virology",
         "essn": "1099-1654",
         "issn": "1052-9276",
-        "isoabbreviation": "Rev Med Virol",
-        "nlmid": "9112448"
+        "nlmid": "9112448",
+        "isoabbreviation": "Rev Med Virol"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -19514,8 +19514,8 @@
         "title": "The Journal of clinical investigation",
         "essn": "1558-8238",
         "issn": "0021-9738",
-        "nlmid": "7802877",
-        "isoabbreviation": "J Clin Invest"
+        "isoabbreviation": "J Clin Invest",
+        "nlmid": "7802877"
       }
     },
     "pubTypeList": {
@@ -19547,8 +19547,8 @@
         "title": "The Journal of clinical investigation",
         "essn": "1558-8238",
         "issn": "0021-9738",
-        "nlmid": "7802877",
-        "isoabbreviation": "J Clin Invest"
+        "isoabbreviation": "J Clin Invest",
+        "nlmid": "7802877"
       }
     },
     "pubTypeList": {
@@ -19614,8 +19614,8 @@
         "title": "Arquivos brasileiros de cardiologia",
         "essn": "1678-4170",
         "issn": "0066-782X",
-        "nlmid": "0421031",
-        "isoabbreviation": "Arq Bras Cardiol"
+        "isoabbreviation": "Arq Bras Cardiol",
+        "nlmid": "0421031"
       }
     },
     "pubTypeList": {
@@ -19785,8 +19785,8 @@
         "title": "Revista da Sociedade Brasileira de Medicina Tropical",
         "essn": "1678-9849",
         "issn": "0037-8682",
-        "nlmid": "7507456",
-        "isoabbreviation": "Rev Soc Bras Med Trop"
+        "isoabbreviation": "Rev Soc Bras Med Trop",
+        "nlmid": "7507456"
       }
     },
     "pubTypeList": {
@@ -19888,8 +19888,8 @@
         "title": "Memorias do Instituto Oswaldo Cruz",
         "essn": "1678-8060",
         "issn": "0074-0276",
-        "nlmid": "7502619",
-        "isoabbreviation": "Mem Inst Oswaldo Cruz"
+        "isoabbreviation": "Mem Inst Oswaldo Cruz",
+        "nlmid": "7502619"
       }
     },
     "pubTypeList": {
@@ -19989,8 +19989,8 @@
         "title": "The Journal of clinical investigation",
         "essn": "1558-8238",
         "issn": "0021-9738",
-        "nlmid": "7802877",
-        "isoabbreviation": "J Clin Invest"
+        "isoabbreviation": "J Clin Invest",
+        "nlmid": "7802877"
       }
     },
     "pubTypeList": {
@@ -20023,8 +20023,8 @@
         "title": "The Journal of clinical investigation",
         "essn": "1558-8238",
         "issn": "0021-9738",
-        "nlmid": "7802877",
-        "isoabbreviation": "J Clin Invest"
+        "isoabbreviation": "J Clin Invest",
+        "nlmid": "7802877"
       }
     },
     "pubTypeList": {
@@ -20058,8 +20058,8 @@
         "title": "Arquivos brasileiros de cardiologia",
         "essn": "1678-4170",
         "issn": "0066-782X",
-        "nlmid": "0421031",
-        "isoabbreviation": "Arq Bras Cardiol"
+        "isoabbreviation": "Arq Bras Cardiol",
+        "nlmid": "0421031"
       }
     },
     "pubTypeList": {
@@ -21414,8 +21414,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -21448,8 +21448,8 @@
         "title": "Frontiers in cell and developmental biology",
         "essn": "2296-634X",
         "issn": "2296-634X",
-        "nlmid": "101630250",
-        "isoabbreviation": "Front Cell Dev Biol"
+        "isoabbreviation": "Front Cell Dev Biol",
+        "nlmid": "101630250"
       }
     },
     "pubTypeList": {
@@ -21483,8 +21483,8 @@
         "title": "Nursing in critical care",
         "essn": "1478-5153",
         "issn": "1362-1017",
-        "nlmid": "9808649",
-        "isoabbreviation": "Nurs Crit Care"
+        "isoabbreviation": "Nurs Crit Care",
+        "nlmid": "9808649"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -21630,8 +21630,8 @@
         "title": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
         "essn": "1522-726X",
         "issn": "1522-1946",
-        "nlmid": "100884139",
-        "isoabbreviation": "Catheter Cardiovasc Interv"
+        "isoabbreviation": "Catheter Cardiovasc Interv",
+        "nlmid": "100884139"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -21816,8 +21816,8 @@
         "title": "World journal for pediatric & congenital heart surgery",
         "essn": "2150-136X",
         "issn": "2150-1351",
-        "nlmid": "101518415",
-        "isoabbreviation": "World J Pediatr Congenit Heart Surg"
+        "isoabbreviation": "World J Pediatr Congenit Heart Surg",
+        "nlmid": "101518415"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -22484,8 +22484,8 @@
         "title": "Innovations (Philadelphia, Pa.)",
         "essn": "1559-0879",
         "issn": "1556-9845",
-        "nlmid": "101257528",
-        "isoabbreviation": "Innovations (Phila)"
+        "isoabbreviation": "Innovations (Phila)",
+        "nlmid": "101257528"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -22822,8 +22822,8 @@
         "title": "Clinics (Sao Paulo, Brazil)",
         "essn": "1980-5322",
         "issn": "1807-5932",
-        "nlmid": "101244734",
-        "isoabbreviation": "Clinics (Sao Paulo)"
+        "isoabbreviation": "Clinics (Sao Paulo)",
+        "nlmid": "101244734"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -22970,8 +22970,8 @@
         "title": "World journal for pediatric & congenital heart surgery",
         "essn": "2150-136X",
         "issn": "2150-1351",
-        "nlmid": "101518415",
-        "isoabbreviation": "World J Pediatr Congenit Heart Surg"
+        "isoabbreviation": "World J Pediatr Congenit Heart Surg",
+        "nlmid": "101518415"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -23007,8 +23007,8 @@
         "title": "Asian cardiovascular & thoracic annals",
         "essn": "1816-5370",
         "issn": "0218-4923",
-        "nlmid": "9503417",
-        "isoabbreviation": "Asian Cardiovasc Thorac Ann"
+        "isoabbreviation": "Asian Cardiovasc Thorac Ann",
+        "nlmid": "9503417"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -23044,8 +23044,8 @@
         "title": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition",
         "essn": "1941-2452",
         "issn": "0884-5336",
-        "nlmid": "8606733",
-        "isoabbreviation": "Nutr Clin Pract"
+        "isoabbreviation": "Nutr Clin Pract",
+        "nlmid": "8606733"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -23081,8 +23081,8 @@
         "title": "Journal of paediatrics and child health",
         "essn": "1440-1754",
         "issn": "1034-4810",
-        "nlmid": "9005421",
-        "isoabbreviation": "J Paediatr Child Health"
+        "isoabbreviation": "J Paediatr Child Health",
+        "nlmid": "9005421"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -23832,8 +23832,8 @@
         "title": "Journal of cardiovascular magnetic resonance : official journal of the Society for Cardiovascular Magnetic Resonance",
         "essn": "1532-429X",
         "issn": "1097-6647",
-        "nlmid": "9815616",
-        "isoabbreviation": "J Cardiovasc Magn Reson"
+        "isoabbreviation": "J Cardiovasc Magn Reson",
+        "nlmid": "9815616"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -23869,8 +23869,8 @@
         "title": "Perfusion",
         "essn": "1477-111X",
         "issn": "0267-6591",
-        "nlmid": "8700166",
-        "isoabbreviation": "Perfusion"
+        "isoabbreviation": "Perfusion",
+        "nlmid": "8700166"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -23906,8 +23906,8 @@
         "title": "World journal for pediatric & congenital heart surgery",
         "essn": "2150-136X",
         "issn": "2150-1351",
-        "nlmid": "101518415",
-        "isoabbreviation": "World J Pediatr Congenit Heart Surg"
+        "isoabbreviation": "World J Pediatr Congenit Heart Surg",
+        "nlmid": "101518415"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -23945,8 +23945,8 @@
         "title": "European journal of pediatrics",
         "essn": "1432-1076",
         "issn": "0340-6199",
-        "nlmid": "7603873",
-        "isoabbreviation": "Eur J Pediatr"
+        "isoabbreviation": "Eur J Pediatr",
+        "nlmid": "7603873"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -24056,8 +24056,8 @@
         "title": "Hepatology communications",
         "essn": "2471-254X",
         "issn": "2471-254X",
-        "nlmid": "101695860",
-        "isoabbreviation": "Hepatol Commun"
+        "isoabbreviation": "Hepatol Commun",
+        "nlmid": "101695860"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -24557,8 +24557,8 @@
         "title": "Journal of medical genetics",
         "essn": "1468-6244",
         "issn": "0022-2593",
-        "nlmid": "2985087R",
-        "isoabbreviation": "J Med Genet"
+        "isoabbreviation": "J Med Genet",
+        "nlmid": "2985087R"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -25357,8 +25357,8 @@
         "title": "The Journal of thoracic and cardiovascular surgery",
         "essn": "1097-685X",
         "issn": "0022-5223",
-        "nlmid": "0376343",
-        "isoabbreviation": "J Thorac Cardiovasc Surg"
+        "isoabbreviation": "J Thorac Cardiovasc Surg",
+        "nlmid": "0376343"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -25394,8 +25394,8 @@
         "title": "Pediatric radiology",
         "essn": "1432-1998",
         "issn": "0301-0449",
-        "nlmid": "0365332",
-        "isoabbreviation": "Pediatr Radiol"
+        "isoabbreviation": "Pediatr Radiol",
+        "nlmid": "0365332"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -25431,8 +25431,8 @@
         "title": "Cardiology in the young",
         "essn": "1467-1107",
         "issn": "1047-9511",
-        "nlmid": "9200019",
-        "isoabbreviation": "Cardiol Young"
+        "isoabbreviation": "Cardiol Young",
+        "nlmid": "9200019"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -25468,8 +25468,8 @@
         "title": "Circulation. Population health and outcomes",
         "essn": "3068-563X",
         "issn": "3068-563X",
-        "nlmid": "9919227857106676",
-        "isoabbreviation": "Circ Popul Health Outcomes"
+        "isoabbreviation": "Circ Popul Health Outcomes",
+        "nlmid": "9919227857106676"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -25930,8 +25930,8 @@
         "title": "JCEM case reports",
         "essn": "2755-1520",
         "issn": "2755-1520",
-        "nlmid": "9918609886906676",
-        "isoabbreviation": "JCEM Case Rep"
+        "isoabbreviation": "JCEM Case Rep",
+        "nlmid": "9918609886906676"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -26194,8 +26194,8 @@
         "title": "The Journal of clinical investigation",
         "essn": "1558-8238",
         "issn": "0021-9738",
-        "nlmid": "7802877",
-        "isoabbreviation": "J Clin Invest"
+        "isoabbreviation": "J Clin Invest",
+        "nlmid": "7802877"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -26231,8 +26231,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -26268,8 +26268,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -26600,8 +26600,8 @@
         "title": "The Journal of thoracic and cardiovascular surgery",
         "essn": "1097-685X",
         "issn": "0022-5223",
-        "nlmid": "0376343",
-        "isoabbreviation": "J Thorac Cardiovasc Surg"
+        "isoabbreviation": "J Thorac Cardiovasc Surg",
+        "nlmid": "0376343"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -26636,8 +26636,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -26861,8 +26861,8 @@
         "title": "Annals of cardiac anaesthesia",
         "essn": "0974-5181",
         "issn": "0971-9784",
-        "nlmid": "9815987",
-        "isoabbreviation": "Ann Card Anaesth"
+        "isoabbreviation": "Ann Card Anaesth",
+        "nlmid": "9815987"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -27089,8 +27089,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -27200,8 +27200,8 @@
         "title": "Journal of cardiovascular magnetic resonance : official journal of the Society for Cardiovascular Magnetic Resonance",
         "essn": "1532-429X",
         "issn": "1097-6647",
-        "nlmid": "9815616",
-        "isoabbreviation": "J Cardiovasc Magn Reson"
+        "isoabbreviation": "J Cardiovasc Magn Reson",
+        "nlmid": "9815616"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -27694,8 +27694,8 @@
         "title": "Fetal diagnosis and therapy",
         "essn": "1421-9964",
         "issn": "1015-3837",
-        "nlmid": "9107463",
-        "isoabbreviation": "Fetal Diagn Ther"
+        "isoabbreviation": "Fetal Diagn Ther",
+        "nlmid": "9107463"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28038,8 +28038,8 @@
         "title": "Annals of cardiac anaesthesia",
         "essn": "0974-5181",
         "issn": "0971-9784",
-        "nlmid": "9815987",
-        "isoabbreviation": "Ann Card Anaesth"
+        "isoabbreviation": "Ann Card Anaesth",
+        "nlmid": "9815987"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28078,8 +28078,8 @@
         "title": "Annals of cardiac anaesthesia",
         "essn": "0974-5181",
         "issn": "0971-9784",
-        "nlmid": "9815987",
-        "isoabbreviation": "Ann Card Anaesth"
+        "isoabbreviation": "Ann Card Anaesth",
+        "nlmid": "9815987"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28116,8 +28116,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28153,8 +28153,8 @@
         "title": "World journal for pediatric & congenital heart surgery",
         "essn": "2150-136X",
         "issn": "2150-1351",
-        "nlmid": "101518415",
-        "isoabbreviation": "World J Pediatr Congenit Heart Surg"
+        "isoabbreviation": "World J Pediatr Congenit Heart Surg",
+        "nlmid": "101518415"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28190,8 +28190,8 @@
         "title": "The international journal of cardiovascular imaging",
         "essn": "1875-8312",
         "issn": "1569-5794",
-        "nlmid": "100969716",
-        "isoabbreviation": "Int J Cardiovasc Imaging"
+        "isoabbreviation": "Int J Cardiovasc Imaging",
+        "nlmid": "100969716"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28559,8 +28559,8 @@
         "title": "The Journal of small animal practice",
         "essn": "1748-5827",
         "issn": "0022-4510",
-        "nlmid": "0165053",
-        "isoabbreviation": "J Small Anim Pract"
+        "isoabbreviation": "J Small Anim Pract",
+        "nlmid": "0165053"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28634,8 +28634,8 @@
         "title": "Journal of the American Heart Association",
         "essn": "2047-9980",
         "issn": "2047-9980",
-        "nlmid": "101580524",
-        "isoabbreviation": "J Am Heart Assoc"
+        "isoabbreviation": "J Am Heart Assoc",
+        "nlmid": "101580524"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28825,8 +28825,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28863,8 +28863,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -28900,8 +28900,8 @@
         "title": "The Milbank quarterly",
         "essn": "1468-0009",
         "issn": "0887-378X",
-        "nlmid": "8607003",
-        "isoabbreviation": "Milbank Q"
+        "isoabbreviation": "Milbank Q",
+        "nlmid": "8607003"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -29390,8 +29390,8 @@
         "title": "Human vaccines & immunotherapeutics",
         "essn": "2164-554X",
         "issn": "2164-5515",
-        "nlmid": "101572652",
-        "isoabbreviation": "Hum Vaccin Immunother"
+        "isoabbreviation": "Hum Vaccin Immunother",
+        "nlmid": "101572652"
       },
       "printPublicationDate": "2026-12-01"
     },
@@ -29542,8 +29542,8 @@
         "title": "JACC. Basic to translational science",
         "essn": "2452-302X",
         "issn": "2452-302X",
-        "nlmid": "101677259",
-        "isoabbreviation": "JACC Basic Transl Sci"
+        "isoabbreviation": "JACC Basic Transl Sci",
+        "nlmid": "101677259"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -29887,8 +29887,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -29927,8 +29927,8 @@
         "title": "Pulmonary circulation",
         "essn": "2045-8940",
         "issn": "2045-8932",
-        "nlmid": "101557243",
-        "isoabbreviation": "Pulm Circ"
+        "isoabbreviation": "Pulm Circ",
+        "nlmid": "101557243"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30415,8 +30415,8 @@
         "title": "JACC. Heart failure",
         "essn": "2213-1787",
         "issn": "2213-1779",
-        "nlmid": "101598241",
-        "isoabbreviation": "JACC Heart Fail"
+        "isoabbreviation": "JACC Heart Fail",
+        "nlmid": "101598241"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30452,8 +30452,8 @@
         "title": "Early human development",
         "essn": "1872-6232",
         "issn": "0378-3782",
-        "nlmid": "7708381",
-        "isoabbreviation": "Early Hum Dev"
+        "isoabbreviation": "Early Hum Dev",
+        "nlmid": "7708381"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30492,8 +30492,8 @@
         "title": "Journal of medical cases",
         "essn": "1923-4163",
         "issn": "1923-4155",
-        "nlmid": "101551824",
-        "isoabbreviation": "J Med Cases"
+        "isoabbreviation": "J Med Cases",
+        "nlmid": "101551824"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -30569,8 +30569,8 @@
         "title": "Pediatric transplantation",
         "essn": "1399-3046",
         "issn": "1397-3142",
-        "nlmid": "9802574",
-        "isoabbreviation": "Pediatr Transplant"
+        "isoabbreviation": "Pediatr Transplant",
+        "nlmid": "9802574"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30607,8 +30607,8 @@
         "title": "Journal of separation science",
         "essn": "1615-9314",
         "issn": "1615-9306",
-        "nlmid": "101088554",
-        "isoabbreviation": "J Sep Sci"
+        "isoabbreviation": "J Sep Sci",
+        "nlmid": "101088554"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30645,8 +30645,8 @@
         "title": "Journal of the Royal Society, Interface",
         "essn": "1742-5662",
         "issn": "1742-5689",
-        "nlmid": "101217269",
-        "isoabbreviation": "J R Soc Interface"
+        "isoabbreviation": "J R Soc Interface",
+        "nlmid": "101217269"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30682,8 +30682,8 @@
         "title": "Pediatric transplantation",
         "essn": "1399-3046",
         "issn": "1397-3142",
-        "nlmid": "9802574",
-        "isoabbreviation": "Pediatr Transplant"
+        "isoabbreviation": "Pediatr Transplant",
+        "nlmid": "9802574"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30720,8 +30720,8 @@
         "title": "JACC. Cardiovascular interventions",
         "essn": "1876-7605",
         "issn": "1936-8798",
-        "nlmid": "101467004",
-        "isoabbreviation": "JACC Cardiovasc Interv"
+        "isoabbreviation": "JACC Cardiovasc Interv",
+        "nlmid": "101467004"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30756,8 +30756,8 @@
         "title": "Nutrients",
         "essn": "2072-6643",
         "issn": "2072-6643",
-        "nlmid": "101521595",
-        "isoabbreviation": "Nutrients"
+        "isoabbreviation": "Nutrients",
+        "nlmid": "101521595"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30793,8 +30793,8 @@
         "title": "Nutrients",
         "essn": "2072-6643",
         "issn": "2072-6643",
-        "nlmid": "101521595",
-        "isoabbreviation": "Nutrients"
+        "isoabbreviation": "Nutrients",
+        "nlmid": "101521595"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -30830,8 +30830,8 @@
         "title": "Biology",
         "essn": "2079-7737",
         "issn": "2079-7737",
-        "nlmid": "101587988",
-        "isoabbreviation": "Biology (Basel)"
+        "isoabbreviation": "Biology (Basel)",
+        "nlmid": "101587988"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -31523,8 +31523,8 @@
         "medlineAbbreviation": "Rev Physiol Biochem Pharmacol",
         "title": "Reviews of physiology, biochemistry and pharmacology",
         "issn": "0303-4240",
-        "nlmid": "0434624",
-        "isoabbreviation": "Rev Physiol Biochem Pharmacol"
+        "isoabbreviation": "Rev Physiol Biochem Pharmacol",
+        "nlmid": "0434624"
       },
       "printPublicationDate": "2027-01-01"
     },
@@ -31560,8 +31560,8 @@
         "medlineAbbreviation": "Rev Physiol Biochem Pharmacol",
         "title": "Reviews of physiology, biochemistry and pharmacology",
         "issn": "0303-4240",
-        "nlmid": "0434624",
-        "isoabbreviation": "Rev Physiol Biochem Pharmacol"
+        "isoabbreviation": "Rev Physiol Biochem Pharmacol",
+        "nlmid": "0434624"
       },
       "printPublicationDate": "2027-01-01"
     },
@@ -31673,8 +31673,8 @@
         "title": "Problemy sotsial'noi gigieny, zdravookhraneniia i istorii meditsiny",
         "essn": "2412-2106",
         "issn": "0869-866X",
-        "isoabbreviation": "Probl Sotsialnoi Gig Zdravookhranenniiai Istor Med",
-        "nlmid": "101270373"
+        "nlmid": "101270373",
+        "isoabbreviation": "Probl Sotsialnoi Gig Zdravookhranenniiai Istor Med"
       },
       "printPublicationDate": "2026-12-01"
     },
@@ -31713,8 +31713,8 @@
         "title": "Problemy sotsial'noi gigieny, zdravookhraneniia i istorii meditsiny",
         "essn": "2412-2106",
         "issn": "0869-866X",
-        "isoabbreviation": "Probl Sotsialnoi Gig Zdravookhranenniiai Istor Med",
-        "nlmid": "101270373"
+        "nlmid": "101270373",
+        "isoabbreviation": "Probl Sotsialnoi Gig Zdravookhranenniiai Istor Med"
       },
       "printPublicationDate": "2026-12-01"
     },
@@ -31754,8 +31754,8 @@
         "title": "Deutsches Arzteblatt international",
         "essn": "1866-0452",
         "issn": "1866-0452",
-        "isoabbreviation": "Dtsch Arztebl Int",
-        "nlmid": "101475967"
+        "nlmid": "101475967",
+        "isoabbreviation": "Dtsch Arztebl Int"
       },
       "printPublicationDate": "2026-12-01"
     },
@@ -31795,8 +31795,8 @@
         "title": "Musculoskeletal care",
         "essn": "1557-0681",
         "issn": "1478-2189",
-        "isoabbreviation": "Musculoskeletal Care",
-        "nlmid": "101181344"
+        "nlmid": "101181344",
+        "isoabbreviation": "Musculoskeletal Care"
       },
       "printPublicationDate": "2026-12-01"
     },
@@ -31872,8 +31872,8 @@
         "title": "Endocrinology, diabetes & metabolism",
         "essn": "2398-9238",
         "issn": "2398-9238",
-        "isoabbreviation": "Endocrinol Diabetes Metab",
-        "nlmid": "101732442"
+        "nlmid": "101732442",
+        "isoabbreviation": "Endocrinol Diabetes Metab"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -31913,8 +31913,8 @@
         "title": "Nursing in critical care",
         "essn": "1478-5153",
         "issn": "1362-1017",
-        "isoabbreviation": "Nurs Crit Care",
-        "nlmid": "9808649"
+        "nlmid": "9808649",
+        "isoabbreviation": "Nurs Crit Care"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -31992,8 +31992,8 @@
         "title": "Basic & clinical pharmacology & toxicology",
         "essn": "1742-7843",
         "issn": "1742-7835",
-        "isoabbreviation": "Basic Clin Pharmacol Toxicol",
-        "nlmid": "101208422"
+        "nlmid": "101208422",
+        "isoabbreviation": "Basic Clin Pharmacol Toxicol"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32068,8 +32068,8 @@
         "title": "Nursing in critical care",
         "essn": "1478-5153",
         "issn": "1362-1017",
-        "isoabbreviation": "Nurs Crit Care",
-        "nlmid": "9808649"
+        "nlmid": "9808649",
+        "isoabbreviation": "Nurs Crit Care"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32264,8 +32264,8 @@
         "title": "NMR in biomedicine",
         "essn": "1099-1492",
         "issn": "0952-3480",
-        "isoabbreviation": "NMR Biomed",
-        "nlmid": "8915233"
+        "nlmid": "8915233",
+        "isoabbreviation": "NMR Biomed"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32302,8 +32302,8 @@
         "title": "British journal of health psychology",
         "essn": "2044-8287",
         "issn": "1359-107X",
-        "isoabbreviation": "Br J Health Psychol",
-        "nlmid": "9605409"
+        "nlmid": "9605409",
+        "isoabbreviation": "Br J Health Psychol"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32378,8 +32378,8 @@
         "title": "Biomedical chromatography : BMC",
         "essn": "1099-0801",
         "issn": "0269-3879",
-        "isoabbreviation": "Biomed Chromatogr",
-        "nlmid": "8610241"
+        "nlmid": "8610241",
+        "isoabbreviation": "Biomed Chromatogr"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32416,8 +32416,8 @@
         "title": "Biomedical chromatography : BMC",
         "essn": "1099-0801",
         "issn": "0269-3879",
-        "isoabbreviation": "Biomed Chromatogr",
-        "nlmid": "8610241"
+        "nlmid": "8610241",
+        "isoabbreviation": "Biomed Chromatogr"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32454,8 +32454,8 @@
         "title": "Acta anaesthesiologica Scandinavica",
         "essn": "1399-6576",
         "issn": "0001-5172",
-        "isoabbreviation": "Acta Anaesthesiol Scand",
-        "nlmid": "0370270"
+        "nlmid": "0370270",
+        "isoabbreviation": "Acta Anaesthesiol Scand"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32569,8 +32569,8 @@
         "title": "The lancet. Gastroenterology & hepatology",
         "essn": "2468-1253",
         "issn": "2468-1253",
-        "isoabbreviation": "Lancet Gastroenterol Hepatol",
-        "nlmid": "101690683"
+        "nlmid": "101690683",
+        "isoabbreviation": "Lancet Gastroenterol Hepatol"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32606,8 +32606,8 @@
         "title": "Acta physiologica (Oxford, England)",
         "essn": "1748-1716",
         "issn": "1748-1708",
-        "isoabbreviation": "Acta Physiol (Oxf)",
-        "nlmid": "101262545"
+        "nlmid": "101262545",
+        "isoabbreviation": "Acta Physiol (Oxf)"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -32905,8 +32905,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "nlmid": "101642264",
-        "isoabbreviation": "Front Nutr"
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
       }
     },
     "pubTypeList": {
@@ -33203,8 +33203,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -33269,8 +33269,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "nlmid": "101546899",
-        "isoabbreviation": "Front Neurol"
+        "isoabbreviation": "Front Neurol",
+        "nlmid": "101546899"
       }
     },
     "pubTypeList": {
@@ -33401,8 +33401,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -34005,8 +34005,8 @@
         "title": "Canadian liver journal",
         "essn": "2561-4444",
         "issn": "2561-4444",
-        "nlmid": "101778326",
-        "isoabbreviation": "Can Liver J"
+        "isoabbreviation": "Can Liver J",
+        "nlmid": "101778326"
       }
     },
     "pubTypeList": {
@@ -34204,8 +34204,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -34303,8 +34303,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "nlmid": "101546899",
-        "isoabbreviation": "Front Neurol"
+        "isoabbreviation": "Front Neurol",
+        "nlmid": "101546899"
       }
     },
     "pubTypeList": {
@@ -34336,8 +34336,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -34369,8 +34369,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -34402,8 +34402,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -34502,8 +34502,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -34570,8 +34570,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -34637,8 +34637,8 @@
         "title": "Frontiers in stroke",
         "essn": "2813-3056",
         "issn": "2813-3056",
-        "nlmid": "9918540785306676",
-        "isoabbreviation": "Front Stroke"
+        "isoabbreviation": "Front Stroke",
+        "nlmid": "9918540785306676"
       }
     },
     "pubTypeList": {
@@ -34836,8 +34836,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "nlmid": "101616579",
-        "isoabbreviation": "Front Public Health"
+        "isoabbreviation": "Front Public Health",
+        "nlmid": "101616579"
       }
     },
     "pubTypeList": {
@@ -34870,8 +34870,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "nlmid": "101546899",
-        "isoabbreviation": "Front Neurol"
+        "isoabbreviation": "Front Neurol",
+        "nlmid": "101546899"
       }
     },
     "pubTypeList": {
@@ -35002,8 +35002,8 @@
         "title": "Frontiers in pediatrics",
         "essn": "2296-2360",
         "issn": "2296-2360",
-        "nlmid": "101615492",
-        "isoabbreviation": "Front Pediatr"
+        "isoabbreviation": "Front Pediatr",
+        "nlmid": "101615492"
       }
     },
     "pubTypeList": {
@@ -35167,8 +35167,8 @@
         "title": "Food & function",
         "essn": "2042-650X",
         "issn": "2042-6496",
-        "nlmid": "101549033",
-        "isoabbreviation": "Food Funct"
+        "isoabbreviation": "Food Funct",
+        "nlmid": "101549033"
       }
     },
     "pubTypeList": {
@@ -35599,8 +35599,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -35667,8 +35667,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "nlmid": "101546899",
-        "isoabbreviation": "Front Neurol"
+        "isoabbreviation": "Front Neurol",
+        "nlmid": "101546899"
       }
     },
     "pubTypeList": {
@@ -35733,8 +35733,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -35766,8 +35766,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "nlmid": "101546899",
-        "isoabbreviation": "Front Neurol"
+        "isoabbreviation": "Front Neurol",
+        "nlmid": "101546899"
       }
     },
     "pubTypeList": {
@@ -35832,8 +35832,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "nlmid": "101546899",
-        "isoabbreviation": "Front Neurol"
+        "isoabbreviation": "Front Neurol",
+        "nlmid": "101546899"
       }
     },
     "pubTypeList": {
@@ -36922,8 +36922,8 @@
         "title": "Frontiers in aging neuroscience",
         "essn": "1663-4365",
         "issn": "1663-4365",
-        "nlmid": "101525824",
-        "isoabbreviation": "Front Aging Neurosci"
+        "isoabbreviation": "Front Aging Neurosci",
+        "nlmid": "101525824"
       }
     },
     "pubTypeList": {
@@ -37121,8 +37121,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -37187,8 +37187,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -37220,8 +37220,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "nlmid": "101642264",
-        "isoabbreviation": "Front Nutr"
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
       }
     },
     "pubTypeList": {
@@ -37353,8 +37353,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -38046,8 +38046,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -38345,8 +38345,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -38613,8 +38613,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -39186,8 +39186,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -39791,8 +39791,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -40465,8 +40465,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -40702,8 +40702,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -40803,8 +40803,8 @@
         "title": "Frontiers in sports and active living",
         "essn": "2624-9367",
         "issn": "2624-9367",
-        "nlmid": "101765780",
-        "isoabbreviation": "Front Sports Act Living"
+        "isoabbreviation": "Front Sports Act Living",
+        "nlmid": "101765780"
       }
     },
     "pubTypeList": {
@@ -40972,8 +40972,8 @@
         "title": "Open life sciences",
         "essn": "2391-5412",
         "issn": "2391-5412",
-        "nlmid": "101669614",
-        "isoabbreviation": "Open Life Sci"
+        "isoabbreviation": "Open Life Sci",
+        "nlmid": "101669614"
       }
     },
     "pubTypeList": {
@@ -41516,8 +41516,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -41551,8 +41551,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -41653,8 +41653,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -41925,8 +41925,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -42403,8 +42403,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -42568,8 +42568,8 @@
         "title": "Frontiers in pediatrics",
         "essn": "2296-2360",
         "issn": "2296-2360",
-        "nlmid": "101615492",
-        "isoabbreviation": "Front Pediatr"
+        "isoabbreviation": "Front Pediatr",
+        "nlmid": "101615492"
       }
     },
     "pubTypeList": {
@@ -43263,8 +43263,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -43870,8 +43870,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -44107,8 +44107,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -44141,8 +44141,8 @@
         "title": "Frontiers in aging neuroscience",
         "essn": "1663-4365",
         "issn": "1663-4365",
-        "nlmid": "101525824",
-        "isoabbreviation": "Front Aging Neurosci"
+        "isoabbreviation": "Front Aging Neurosci",
+        "nlmid": "101525824"
       }
     },
     "pubTypeList": {
@@ -44175,8 +44175,8 @@
         "title": "Frontiers in cell and developmental biology",
         "essn": "2296-634X",
         "issn": "2296-634X",
-        "nlmid": "101630250",
-        "isoabbreviation": "Front Cell Dev Biol"
+        "isoabbreviation": "Front Cell Dev Biol",
+        "nlmid": "101630250"
       }
     },
     "pubTypeList": {
@@ -44375,8 +44375,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -44443,8 +44443,8 @@
         "title": "The Journal of innovations in cardiac rhythm management",
         "essn": "2156-3993",
         "issn": "2156-3977",
-        "nlmid": "101589872",
-        "isoabbreviation": "J Innov Card Rhythm Manag"
+        "isoabbreviation": "J Innov Card Rhythm Manag",
+        "nlmid": "101589872"
       }
     },
     "pubTypeList": {
@@ -44477,8 +44477,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -44576,8 +44576,8 @@
         "title": "Frontiers in endocrinology",
         "essn": "1664-2392",
         "issn": "1664-2392",
-        "nlmid": "101555782",
-        "isoabbreviation": "Front Endocrinol (Lausanne)"
+        "isoabbreviation": "Front Endocrinol (Lausanne)",
+        "nlmid": "101555782"
       }
     },
     "pubTypeList": {
@@ -44609,8 +44609,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -44972,8 +44972,8 @@
         "title": "Frontiers in aging neuroscience",
         "essn": "1663-4365",
         "issn": "1663-4365",
-        "nlmid": "101525824",
-        "isoabbreviation": "Front Aging Neurosci"
+        "isoabbreviation": "Front Aging Neurosci",
+        "nlmid": "101525824"
       }
     },
     "pubTypeList": {
@@ -45436,8 +45436,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -45470,8 +45470,8 @@
         "title": "Frontiers in cell and developmental biology",
         "essn": "2296-634X",
         "issn": "2296-634X",
-        "nlmid": "101630250",
-        "isoabbreviation": "Front Cell Dev Biol"
+        "isoabbreviation": "Front Cell Dev Biol",
+        "nlmid": "101630250"
       }
     },
     "pubTypeList": {
@@ -45504,8 +45504,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -45635,8 +45635,8 @@
         "title": "Frontiers in psychiatry",
         "essn": "1664-0640",
         "issn": "1664-0640",
-        "nlmid": "101545006",
-        "isoabbreviation": "Front Psychiatry"
+        "isoabbreviation": "Front Psychiatry",
+        "nlmid": "101545006"
       }
     },
     "pubTypeList": {
@@ -45766,8 +45766,8 @@
         "title": "Frontiers in endocrinology",
         "essn": "1664-2392",
         "issn": "1664-2392",
-        "nlmid": "101555782",
-        "isoabbreviation": "Front Endocrinol (Lausanne)"
+        "isoabbreviation": "Front Endocrinol (Lausanne)",
+        "nlmid": "101555782"
       }
     },
     "pubTypeList": {
@@ -45968,8 +45968,8 @@
         "title": "Frontiers in pediatrics",
         "essn": "2296-2360",
         "issn": "2296-2360",
-        "nlmid": "101615492",
-        "isoabbreviation": "Front Pediatr"
+        "isoabbreviation": "Front Pediatr",
+        "nlmid": "101615492"
       }
     },
     "pubTypeList": {
@@ -46234,8 +46234,8 @@
         "title": "Journal of veterinary research",
         "essn": "2450-8608",
         "issn": "2450-7393",
-        "nlmid": "101696630",
-        "isoabbreviation": "J Vet Res"
+        "isoabbreviation": "J Vet Res",
+        "nlmid": "101696630"
       }
     },
     "pubTypeList": {
@@ -46300,8 +46300,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "nlmid": "101642264",
-        "isoabbreviation": "Front Nutr"
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
       }
     },
     "pubTypeList": {
@@ -46533,8 +46533,8 @@
         "title": "The Journal of innovations in cardiac rhythm management",
         "essn": "2156-3993",
         "issn": "2156-3977",
-        "nlmid": "101589872",
-        "isoabbreviation": "J Innov Card Rhythm Manag"
+        "isoabbreviation": "J Innov Card Rhythm Manag",
+        "nlmid": "101589872"
       }
     },
     "pubTypeList": {
@@ -46567,8 +46567,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -46769,8 +46769,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "nlmid": "101642264",
-        "isoabbreviation": "Front Nutr"
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
       }
     },
     "pubTypeList": {
@@ -46802,8 +46802,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -47131,8 +47131,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -47298,8 +47298,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -47529,8 +47529,8 @@
         "title": "Frontiers in oncology",
         "essn": "2234-943X",
         "issn": "2234-943X",
-        "nlmid": "101568867",
-        "isoabbreviation": "Front Oncol"
+        "isoabbreviation": "Front Oncol",
+        "nlmid": "101568867"
       }
     },
     "pubTypeList": {
@@ -47828,8 +47828,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -48361,8 +48361,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -48394,8 +48394,8 @@
         "title": "Frontiers in molecular neuroscience",
         "essn": "1662-5099",
         "issn": "1662-5099",
-        "nlmid": "101477914",
-        "isoabbreviation": "Front Mol Neurosci"
+        "isoabbreviation": "Front Mol Neurosci",
+        "nlmid": "101477914"
       }
     },
     "pubTypeList": {
@@ -48627,8 +48627,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -48825,8 +48825,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "nlmid": "101616579",
-        "isoabbreviation": "Front Public Health"
+        "isoabbreviation": "Front Public Health",
+        "nlmid": "101616579"
       }
     },
     "pubTypeList": {
@@ -49123,8 +49123,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -49255,8 +49255,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "nlmid": "101642264",
-        "isoabbreviation": "Front Nutr"
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
       }
     },
     "pubTypeList": {
@@ -49289,8 +49289,8 @@
         "title": "Proceedings of the National Academy of Sciences of the United States of America",
         "essn": "1091-6490",
         "issn": "0027-8424",
-        "nlmid": "7505876",
-        "isoabbreviation": "Proc Natl Acad Sci U S A"
+        "isoabbreviation": "Proc Natl Acad Sci U S A",
+        "nlmid": "7505876"
       }
     },
     "pubTypeList": {
@@ -49453,8 +49453,8 @@
         "title": "Chemical Society reviews",
         "essn": "1460-4744",
         "issn": "0306-0012",
-        "nlmid": "0335405",
-        "isoabbreviation": "Chem Soc Rev"
+        "isoabbreviation": "Chem Soc Rev",
+        "nlmid": "0335405"
       }
     },
     "pubTypeList": {
@@ -49654,8 +49654,8 @@
         "title": "Arquivos brasileiros de cardiologia",
         "essn": "1678-4170",
         "issn": "0066-782X",
-        "nlmid": "0421031",
-        "isoabbreviation": "Arq Bras Cardiol"
+        "isoabbreviation": "Arq Bras Cardiol",
+        "nlmid": "0421031"
       }
     },
     "pubTypeList": {
@@ -49923,8 +49923,8 @@
         "title": "Archives of endocrinology and metabolism",
         "essn": "2359-4292",
         "issn": "2359-3997",
-        "nlmid": "101652058",
-        "isoabbreviation": "Arch Endocrinol Metab"
+        "isoabbreviation": "Arch Endocrinol Metab",
+        "nlmid": "101652058"
       }
     },
     "pubTypeList": {
@@ -50229,8 +50229,8 @@
         "title": "Balkan journal of medical genetics : BJMG",
         "essn": "2199-5761",
         "issn": "1311-0160",
-        "nlmid": "9806959",
-        "isoabbreviation": "Balkan J Med Genet"
+        "isoabbreviation": "Balkan J Med Genet",
+        "nlmid": "9806959"
       }
     },
     "pubTypeList": {
@@ -50297,8 +50297,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -50466,8 +50466,8 @@
         "title": "ACS pharmacology & translational science",
         "essn": "2575-9108",
         "issn": "2575-9108",
-        "nlmid": "101721411",
-        "isoabbreviation": "ACS Pharmacol Transl Sci"
+        "isoabbreviation": "ACS Pharmacol Transl Sci",
+        "nlmid": "101721411"
       }
     },
     "pubTypeList": {
@@ -50669,8 +50669,8 @@
         "title": "Canadian liver journal",
         "essn": "2561-4444",
         "issn": "2561-4444",
-        "nlmid": "101778326",
-        "isoabbreviation": "Can Liver J"
+        "isoabbreviation": "Can Liver J",
+        "nlmid": "101778326"
       }
     },
     "pubTypeList": {
@@ -50737,8 +50737,8 @@
         "title": "Canadian liver journal",
         "essn": "2561-4444",
         "issn": "2561-4444",
-        "nlmid": "101778326",
-        "isoabbreviation": "Can Liver J"
+        "isoabbreviation": "Can Liver J",
+        "nlmid": "101778326"
       }
     },
     "pubTypeList": {
@@ -50771,8 +50771,8 @@
         "title": "Canadian liver journal",
         "essn": "2561-4444",
         "issn": "2561-4444",
-        "nlmid": "101778326",
-        "isoabbreviation": "Can Liver J"
+        "isoabbreviation": "Can Liver J",
+        "nlmid": "101778326"
       }
     },
     "pubTypeList": {
@@ -51005,8 +51005,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -51105,8 +51105,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -51204,8 +51204,8 @@
         "title": "Frontiers in pediatrics",
         "essn": "2296-2360",
         "issn": "2296-2360",
-        "nlmid": "101615492",
-        "isoabbreviation": "Front Pediatr"
+        "isoabbreviation": "Front Pediatr",
+        "nlmid": "101615492"
       }
     },
     "pubTypeList": {
@@ -51667,8 +51667,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -52166,8 +52166,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -52234,8 +52234,8 @@
         "title": "ACS pharmacology & translational science",
         "essn": "2575-9108",
         "issn": "2575-9108",
-        "nlmid": "101721411",
-        "isoabbreviation": "ACS Pharmacol Transl Sci"
+        "isoabbreviation": "ACS Pharmacol Transl Sci",
+        "nlmid": "101721411"
       }
     },
     "pubTypeList": {
@@ -52406,8 +52406,8 @@
         "title": "Canadian liver journal",
         "essn": "2561-4444",
         "issn": "2561-4444",
-        "nlmid": "101778326",
-        "isoabbreviation": "Can Liver J"
+        "isoabbreviation": "Can Liver J",
+        "nlmid": "101778326"
       }
     },
     "pubTypeList": {
@@ -52812,8 +52812,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -52880,8 +52880,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -52913,8 +52913,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -52947,8 +52947,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -53842,8 +53842,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -54138,8 +54138,8 @@
         "title": "Frontiers in neurology",
         "essn": "1664-2295",
         "issn": "1664-2295",
-        "nlmid": "101546899",
-        "isoabbreviation": "Front Neurol"
+        "isoabbreviation": "Front Neurol",
+        "nlmid": "101546899"
       }
     },
     "pubTypeList": {
@@ -54171,8 +54171,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -54204,8 +54204,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -54238,8 +54238,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -54271,8 +54271,8 @@
         "title": "Frontiers in molecular biosciences",
         "essn": "2296-889X",
         "issn": "2296-889X",
-        "nlmid": "101653173",
-        "isoabbreviation": "Front Mol Biosci"
+        "isoabbreviation": "Front Mol Biosci",
+        "nlmid": "101653173"
       }
     },
     "pubTypeList": {
@@ -54338,8 +54338,8 @@
         "title": "Frontiers in artificial intelligence",
         "essn": "2624-8212",
         "issn": "2624-8212",
-        "nlmid": "101770551",
-        "isoabbreviation": "Front Artif Intell"
+        "isoabbreviation": "Front Artif Intell",
+        "nlmid": "101770551"
       }
     },
     "pubTypeList": {
@@ -54404,8 +54404,8 @@
         "title": "Frontiers in aging",
         "essn": "2673-6217",
         "issn": "2673-6217",
-        "nlmid": "9918231199706676",
-        "isoabbreviation": "Front Aging"
+        "isoabbreviation": "Front Aging",
+        "nlmid": "9918231199706676"
       }
     },
     "pubTypeList": {
@@ -54438,8 +54438,8 @@
         "title": "Frontiers in transplantation",
         "essn": "2813-2440",
         "issn": "2813-2440",
-        "nlmid": "9918573988006676",
-        "isoabbreviation": "Front Transplant"
+        "isoabbreviation": "Front Transplant",
+        "nlmid": "9918573988006676"
       }
     },
     "pubTypeList": {
@@ -54471,8 +54471,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -54504,8 +54504,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -54536,8 +54536,8 @@
         "title": "Frontiers in neuroscience",
         "essn": "1662-453X",
         "issn": "1662-4548",
-        "nlmid": "101478481",
-        "isoabbreviation": "Front Neurosci"
+        "isoabbreviation": "Front Neurosci",
+        "nlmid": "101478481"
       }
     },
     "pubTypeList": {
@@ -54569,8 +54569,8 @@
         "title": "Frontiers in nuclear medicine",
         "essn": "2673-8880",
         "issn": "2673-8880",
-        "nlmid": "9918470388806676",
-        "isoabbreviation": "Front Nucl Med"
+        "isoabbreviation": "Front Nucl Med",
+        "nlmid": "9918470388806676"
       }
     },
     "pubTypeList": {
@@ -54602,8 +54602,8 @@
         "title": "Frontiers in nutrition",
         "essn": "2296-861X",
         "issn": "2296-861X",
-        "nlmid": "101642264",
-        "isoabbreviation": "Front Nutr"
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
       }
     },
     "pubTypeList": {
@@ -54669,8 +54669,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -54737,8 +54737,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -54838,8 +54838,8 @@
         "title": "Frontiers in immunology",
         "essn": "1664-3224",
         "issn": "1664-3224",
-        "nlmid": "101560960",
-        "isoabbreviation": "Front Immunol"
+        "isoabbreviation": "Front Immunol",
+        "nlmid": "101560960"
       }
     },
     "pubTypeList": {
@@ -54872,8 +54872,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -54906,8 +54906,8 @@
         "title": "Frontiers in microbiology",
         "essn": "1664-302X",
         "issn": "1664-302X",
-        "nlmid": "101548977",
-        "isoabbreviation": "Front Microbiol"
+        "isoabbreviation": "Front Microbiol",
+        "nlmid": "101548977"
       }
     },
     "pubTypeList": {
@@ -55342,8 +55342,8 @@
         "title": "Frontiers in cardiovascular medicine",
         "essn": "2297-055X",
         "issn": "2297-055X",
-        "nlmid": "101653388",
-        "isoabbreviation": "Front Cardiovasc Med"
+        "isoabbreviation": "Front Cardiovasc Med",
+        "nlmid": "101653388"
       }
     },
     "pubTypeList": {
@@ -55375,8 +55375,8 @@
         "title": "Frontiers in pediatrics",
         "essn": "2296-2360",
         "issn": "2296-2360",
-        "nlmid": "101615492",
-        "isoabbreviation": "Front Pediatr"
+        "isoabbreviation": "Front Pediatr",
+        "nlmid": "101615492"
       }
     },
     "pubTypeList": {
@@ -55408,8 +55408,8 @@
         "title": "Frontiers in cell and developmental biology",
         "essn": "2296-634X",
         "issn": "2296-634X",
-        "nlmid": "101630250",
-        "isoabbreviation": "Front Cell Dev Biol"
+        "isoabbreviation": "Front Cell Dev Biol",
+        "nlmid": "101630250"
       }
     },
     "pubTypeList": {
@@ -55442,8 +55442,8 @@
         "title": "Cureus",
         "essn": "2168-8184",
         "issn": "2168-8184",
-        "nlmid": "101596737",
-        "isoabbreviation": "Cureus"
+        "isoabbreviation": "Cureus",
+        "nlmid": "101596737"
       }
     },
     "pubTypeList": {
@@ -55475,8 +55475,8 @@
         "title": "Frontiers in public health",
         "essn": "2296-2565",
         "issn": "2296-2565",
-        "nlmid": "101616579",
-        "isoabbreviation": "Front Public Health"
+        "isoabbreviation": "Front Public Health",
+        "nlmid": "101616579"
       }
     },
     "pubTypeList": {
@@ -55509,8 +55509,8 @@
         "title": "Frontiers in medicine",
         "essn": "2296-858X",
         "issn": "2296-858X",
-        "nlmid": "101648047",
-        "isoabbreviation": "Front Med (Lausanne)"
+        "isoabbreviation": "Front Med (Lausanne)",
+        "nlmid": "101648047"
       }
     },
     "pubTypeList": {
@@ -55542,8 +55542,8 @@
         "title": "Frontiers in cellular and infection microbiology",
         "essn": "2235-2988",
         "issn": "2235-2988",
-        "nlmid": "101585359",
-        "isoabbreviation": "Front Cell Infect Microbiol"
+        "isoabbreviation": "Front Cell Infect Microbiol",
+        "nlmid": "101585359"
       }
     },
     "pubTypeList": {
@@ -55575,8 +55575,8 @@
         "title": "Frontiers in pharmacology",
         "essn": "1663-9812",
         "issn": "1663-9812",
-        "nlmid": "101548923",
-        "isoabbreviation": "Front Pharmacol"
+        "isoabbreviation": "Front Pharmacol",
+        "nlmid": "101548923"
       }
     },
     "pubTypeList": {
@@ -55609,8 +55609,8 @@
         "title": "Frontiers in cellular and infection microbiology",
         "essn": "2235-2988",
         "issn": "2235-2988",
-        "nlmid": "101585359",
-        "isoabbreviation": "Front Cell Infect Microbiol"
+        "isoabbreviation": "Front Cell Infect Microbiol",
+        "nlmid": "101585359"
       }
     },
     "pubTypeList": {
@@ -57116,8 +57116,8 @@
         "title": "Experimental physiology",
         "essn": "1469-445X",
         "issn": "0958-0670",
-        "nlmid": "9002940",
-        "isoabbreviation": "Exp Physiol"
+        "isoabbreviation": "Exp Physiol",
+        "nlmid": "9002940"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -57226,8 +57226,8 @@
         "title": "Circulation. Cardiovascular imaging",
         "essn": "1942-0080",
         "issn": "1941-9651",
-        "nlmid": "101479935",
-        "isoabbreviation": "Circ Cardiovasc Imaging"
+        "isoabbreviation": "Circ Cardiovasc Imaging",
+        "nlmid": "101479935"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -57369,8 +57369,8 @@
         "title": "JCEM case reports",
         "essn": "2755-1520",
         "issn": "2755-1520",
-        "nlmid": "9918609886906676",
-        "isoabbreviation": "JCEM Case Rep"
+        "isoabbreviation": "JCEM Case Rep",
+        "nlmid": "9918609886906676"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -57512,8 +57512,8 @@
         "title": "Circulation. Population health and outcomes",
         "essn": "3068-563X",
         "issn": "3068-563X",
-        "nlmid": "9919227857106676",
-        "isoabbreviation": "Circ Popul Health Outcomes"
+        "isoabbreviation": "Circ Popul Health Outcomes",
+        "nlmid": "9919227857106676"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -58471,8 +58471,8 @@
         "title": "Insights into imaging",
         "essn": "1869-4101",
         "issn": "1869-4101",
-        "nlmid": "101532453",
-        "isoabbreviation": "Insights Imaging"
+        "isoabbreviation": "Insights Imaging",
+        "nlmid": "101532453"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -58934,8 +58934,8 @@
         "title": "The Milbank quarterly",
         "essn": "1468-0009",
         "issn": "0887-378X",
-        "nlmid": "8607003",
-        "isoabbreviation": "Milbank Q"
+        "isoabbreviation": "Milbank Q",
+        "nlmid": "8607003"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -59121,8 +59121,8 @@
         "title": "Journal of global health",
         "essn": "2047-2986",
         "issn": "2047-2978",
-        "nlmid": "101578780",
-        "isoabbreviation": "J Glob Health"
+        "isoabbreviation": "J Glob Health",
+        "nlmid": "101578780"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -59468,8 +59468,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -60502,8 +60502,8 @@
         "title": "JCPP advances",
         "essn": "2692-9384",
         "issn": "2692-9384",
-        "nlmid": "9918250414706676",
-        "isoabbreviation": "JCPP Adv"
+        "isoabbreviation": "JCPP Adv",
+        "nlmid": "9918250414706676"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -60954,8 +60954,8 @@
         "title": "Journal of telemedicine and telecare",
         "essn": "1758-1109",
         "issn": "1357-633X",
-        "nlmid": "9506702",
-        "isoabbreviation": "J Telemed Telecare"
+        "isoabbreviation": "J Telemed Telecare",
+        "nlmid": "9506702"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -61513,8 +61513,8 @@
         "title": "Journal of cardiovascular magnetic resonance : official journal of the Society for Cardiovascular Magnetic Resonance",
         "essn": "1532-429X",
         "issn": "1097-6647",
-        "nlmid": "9815616",
-        "isoabbreviation": "J Cardiovasc Magn Reson"
+        "isoabbreviation": "J Cardiovasc Magn Reson",
+        "nlmid": "9815616"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62324,8 +62324,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62361,8 +62361,8 @@
         "title": "Journal of human genetics",
         "essn": "1435-232X",
         "issn": "1434-5161",
-        "nlmid": "9808008",
-        "isoabbreviation": "J Hum Genet"
+        "isoabbreviation": "J Hum Genet",
+        "nlmid": "9808008"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62398,8 +62398,8 @@
         "title": "Physics in medicine and biology",
         "essn": "1361-6560",
         "issn": "0031-9155",
-        "nlmid": "0401220",
-        "isoabbreviation": "Phys Med Biol"
+        "isoabbreviation": "Phys Med Biol",
+        "nlmid": "0401220"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62437,8 +62437,8 @@
         "title": "PloS one",
         "essn": "1932-6203",
         "issn": "1932-6203",
-        "nlmid": "101285081",
-        "isoabbreviation": "PLoS One"
+        "isoabbreviation": "PLoS One",
+        "nlmid": "101285081"
       },
       "printPublicationDate": "2026-01-01"
     },
@@ -62474,8 +62474,8 @@
         "title": "Neonatology",
         "essn": "1661-7819",
         "issn": "1661-7800",
-        "nlmid": "101286577",
-        "isoabbreviation": "Neonatology"
+        "isoabbreviation": "Neonatology",
+        "nlmid": "101286577"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62511,8 +62511,8 @@
         "title": "Clinical genetics",
         "essn": "1399-0004",
         "issn": "0009-9163",
-        "nlmid": "0253664",
-        "isoabbreviation": "Clin Genet"
+        "isoabbreviation": "Clin Genet",
+        "nlmid": "0253664"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62548,8 +62548,8 @@
         "title": "Clinical genetics",
         "essn": "1399-0004",
         "issn": "0009-9163",
-        "nlmid": "0253664",
-        "isoabbreviation": "Clin Genet"
+        "isoabbreviation": "Clin Genet",
+        "nlmid": "0253664"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62585,8 +62585,8 @@
         "title": "Cardiology in the young",
         "essn": "1467-1107",
         "issn": "1047-9511",
-        "nlmid": "9200019",
-        "isoabbreviation": "Cardiol Young"
+        "isoabbreviation": "Cardiol Young",
+        "nlmid": "9200019"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62622,8 +62622,8 @@
         "title": "Cardiology in the young",
         "essn": "1467-1107",
         "issn": "1047-9511",
-        "nlmid": "9200019",
-        "isoabbreviation": "Cardiol Young"
+        "isoabbreviation": "Cardiol Young",
+        "nlmid": "9200019"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62919,8 +62919,8 @@
         "title": "JAMA",
         "essn": "1538-3598",
         "issn": "0098-7484",
-        "nlmid": "7501160",
-        "isoabbreviation": "JAMA"
+        "isoabbreviation": "JAMA",
+        "nlmid": "7501160"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62955,8 +62955,8 @@
         "title": "JAMA",
         "essn": "1538-3598",
         "issn": "0098-7484",
-        "nlmid": "7501160",
-        "isoabbreviation": "JAMA"
+        "isoabbreviation": "JAMA",
+        "nlmid": "7501160"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -62991,8 +62991,8 @@
         "title": "Cardiology in the young",
         "essn": "1467-1107",
         "issn": "1047-9511",
-        "nlmid": "9200019",
-        "isoabbreviation": "Cardiol Young"
+        "isoabbreviation": "Cardiol Young",
+        "nlmid": "9200019"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -63138,8 +63138,8 @@
         "title": "Trends in cardiovascular medicine",
         "essn": "1873-2615",
         "issn": "1050-1738",
-        "nlmid": "9108337",
-        "isoabbreviation": "Trends Cardiovasc Med"
+        "isoabbreviation": "Trends Cardiovasc Med",
+        "nlmid": "9108337"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -63742,8 +63742,8 @@
         "title": "Circulation research",
         "essn": "1524-4571",
         "issn": "0009-7330",
-        "nlmid": "0047103",
-        "isoabbreviation": "Circ Res"
+        "isoabbreviation": "Circ Res",
+        "nlmid": "0047103"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -64346,8 +64346,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -64533,8 +64533,8 @@
         "title": "Journal of clinical ultrasound : JCU",
         "essn": "1097-0096",
         "issn": "0091-2751",
-        "nlmid": "0401663",
-        "isoabbreviation": "J Clin Ultrasound"
+        "isoabbreviation": "J Clin Ultrasound",
+        "nlmid": "0401663"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -64723,8 +64723,8 @@
         "title": "Case reports in pediatrics",
         "essn": "2090-6811",
         "issn": "2090-6803",
-        "nlmid": "101581030",
-        "isoabbreviation": "Case Rep Pediatr"
+        "isoabbreviation": "Case Rep Pediatr",
+        "nlmid": "101581030"
       },
       "printPublicationDate": "2026-01-01"
     },
@@ -64760,8 +64760,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -64798,8 +64798,8 @@
         "title": "Cardiology and therapy",
         "essn": "2193-6544",
         "issn": "2193-8261",
-        "nlmid": "101634495",
-        "isoabbreviation": "Cardiol Ther"
+        "isoabbreviation": "Cardiol Ther",
+        "nlmid": "101634495"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -64835,8 +64835,8 @@
         "title": "Nature",
         "essn": "1476-4687",
         "issn": "0028-0836",
-        "nlmid": "0410462",
-        "isoabbreviation": "Nature"
+        "isoabbreviation": "Nature",
+        "nlmid": "0410462"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -64873,8 +64873,8 @@
         "title": "Ageing research reviews",
         "essn": "1872-9649",
         "issn": "1568-1637",
-        "nlmid": "101128963",
-        "isoabbreviation": "Ageing Res Rev"
+        "isoabbreviation": "Ageing Res Rev",
+        "nlmid": "101128963"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -64951,8 +64951,8 @@
         "title": "Immunologic research",
         "essn": "1559-0755",
         "issn": "0257-277X",
-        "nlmid": "8611087",
-        "isoabbreviation": "Immunol Res"
+        "isoabbreviation": "Immunol Res",
+        "nlmid": "8611087"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -64988,8 +64988,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -65026,8 +65026,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -65430,8 +65430,8 @@
         "title": "European journal of cardiovascular nursing",
         "essn": "1873-1953",
         "issn": "1474-5151",
-        "nlmid": "101128793",
-        "isoabbreviation": "Eur J Cardiovasc Nurs"
+        "isoabbreviation": "Eur J Cardiovasc Nurs",
+        "nlmid": "101128793"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -65468,8 +65468,8 @@
         "title": "Indian journal of pediatrics",
         "essn": "0973-7693",
         "issn": "0019-5456",
-        "nlmid": "0417442",
-        "isoabbreviation": "Indian J Pediatr"
+        "isoabbreviation": "Indian J Pediatr",
+        "nlmid": "0417442"
       },
       "printPublicationDate": "2026-11-01"
     },
@@ -65612,8 +65612,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "nlmid": "0370465",
-        "isoabbreviation": "Am Heart J"
+        "isoabbreviation": "Am Heart J",
+        "nlmid": "0370465"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -65649,8 +65649,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -65723,8 +65723,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "nlmid": "0370465",
-        "isoabbreviation": "Am Heart J"
+        "isoabbreviation": "Am Heart J",
+        "nlmid": "0370465"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -65760,8 +65760,8 @@
         "title": "American heart journal",
         "essn": "1097-6744",
         "issn": "0002-8703",
-        "nlmid": "0370465",
-        "isoabbreviation": "Am Heart J"
+        "isoabbreviation": "Am Heart J",
+        "nlmid": "0370465"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -65835,8 +65835,8 @@
         "title": "The Annals of thoracic surgery",
         "essn": "1552-6259",
         "issn": "0003-4975",
-        "nlmid": "15030100R",
-        "isoabbreviation": "Ann Thorac Surg"
+        "isoabbreviation": "Ann Thorac Surg",
+        "nlmid": "15030100R"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66058,8 +66058,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66096,8 +66096,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66134,8 +66134,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66321,8 +66321,8 @@
         "title": "European heart journal",
         "essn": "1522-9645",
         "issn": "0195-668X",
-        "nlmid": "8006263",
-        "isoabbreviation": "Eur Heart J"
+        "isoabbreviation": "Eur Heart J",
+        "nlmid": "8006263"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66359,8 +66359,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66550,8 +66550,8 @@
         "title": "International journal of cardiology",
         "essn": "1874-1754",
         "issn": "0167-5273",
-        "nlmid": "8200291",
-        "isoabbreviation": "Int J Cardiol"
+        "isoabbreviation": "Int J Cardiol",
+        "nlmid": "8200291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66815,8 +66815,8 @@
         "title": "Current treatment options in cardiovascular medicine",
         "essn": "1534-3189",
         "issn": "1092-8464",
-        "nlmid": "9815942",
-        "isoabbreviation": "Curr Treat Options Cardiovasc Med"
+        "isoabbreviation": "Curr Treat Options Cardiovasc Med",
+        "nlmid": "9815942"
       },
       "printPublicationDate": "2026-01-01"
     },
@@ -66853,8 +66853,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66891,8 +66891,8 @@
         "title": "Journal of clinical ultrasound : JCU",
         "essn": "1097-0096",
         "issn": "0091-2751",
-        "nlmid": "0401663",
-        "isoabbreviation": "J Clin Ultrasound"
+        "isoabbreviation": "J Clin Ultrasound",
+        "nlmid": "0401663"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66928,8 +66928,8 @@
         "title": "The Journal of clinical investigation",
         "essn": "1558-8238",
         "issn": "0021-9738",
-        "nlmid": "7802877",
-        "isoabbreviation": "J Clin Invest"
+        "isoabbreviation": "J Clin Invest",
+        "nlmid": "7802877"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -66965,8 +66965,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67003,8 +67003,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67040,8 +67040,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67077,8 +67077,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67186,8 +67186,8 @@
         "title": "Heart rhythm",
         "essn": "1556-3871",
         "issn": "1547-5271",
-        "nlmid": "101200317",
-        "isoabbreviation": "Heart Rhythm"
+        "isoabbreviation": "Heart Rhythm",
+        "nlmid": "101200317"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67222,8 +67222,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67258,8 +67258,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67295,8 +67295,8 @@
         "title": "European heart journal. Cardiovascular Imaging",
         "essn": "2047-2412",
         "issn": "2047-2404",
-        "nlmid": "101573788",
-        "isoabbreviation": "Eur Heart J Cardiovasc Imaging"
+        "isoabbreviation": "Eur Heart J Cardiovasc Imaging",
+        "nlmid": "101573788"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67608,8 +67608,8 @@
         "title": "BMJ open",
         "essn": "2044-6055",
         "issn": "2044-6055",
-        "nlmid": "101552874",
-        "isoabbreviation": "BMJ Open"
+        "isoabbreviation": "BMJ Open",
+        "nlmid": "101552874"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67836,8 +67836,8 @@
         "title": "Diagnostic and interventional radiology (Ankara, Turkey)",
         "essn": "1305-3612",
         "issn": "1305-3825",
-        "nlmid": "101241152",
-        "isoabbreviation": "Diagn Interv Radiol"
+        "isoabbreviation": "Diagn Interv Radiol",
+        "nlmid": "101241152"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -67913,8 +67913,8 @@
         "title": "BMJ case reports",
         "essn": "1757-790X",
         "issn": "1757-790X",
-        "nlmid": "101526291",
-        "isoabbreviation": "BMJ Case Rep"
+        "isoabbreviation": "BMJ Case Rep",
+        "nlmid": "101526291"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -68512,8 +68512,8 @@
         "title": "Journal of intellectual disability research : JIDR",
         "essn": "1365-2788",
         "issn": "0964-2633",
-        "nlmid": "9206090",
-        "isoabbreviation": "J Intellect Disabil Res"
+        "isoabbreviation": "J Intellect Disabil Res",
+        "nlmid": "9206090"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -68549,8 +68549,8 @@
         "title": "Pediatric cardiology",
         "essn": "1432-1971",
         "issn": "0172-0643",
-        "nlmid": "8003849",
-        "isoabbreviation": "Pediatr Cardiol"
+        "isoabbreviation": "Pediatr Cardiol",
+        "nlmid": "8003849"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -68586,8 +68586,8 @@
         "title": "Journal of the American Heart Association",
         "essn": "2047-9980",
         "issn": "2047-9980",
-        "nlmid": "101580524",
-        "isoabbreviation": "J Am Heart Assoc"
+        "isoabbreviation": "J Am Heart Assoc",
+        "nlmid": "101580524"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -68697,8 +68697,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "nlmid": "101251040",
-        "isoabbreviation": "EuroIntervention"
+        "isoabbreviation": "EuroIntervention",
+        "nlmid": "101251040"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -68773,8 +68773,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "nlmid": "101251040",
-        "isoabbreviation": "EuroIntervention"
+        "isoabbreviation": "EuroIntervention",
+        "nlmid": "101251040"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -68849,8 +68849,8 @@
         "title": "EuroIntervention : journal of EuroPCR in collaboration with the Working Group on Interventional Cardiology of the European Society of Cardiology",
         "essn": "1969-6213",
         "issn": "1774-024X",
-        "nlmid": "101251040",
-        "isoabbreviation": "EuroIntervention"
+        "isoabbreviation": "EuroIntervention",
+        "nlmid": "101251040"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -68964,8 +68964,8 @@
         "title": "CMAJ : Canadian Medical Association journal = journal de l'Association medicale canadienne",
         "essn": "1488-2329",
         "issn": "0820-3946",
-        "nlmid": "9711805",
-        "isoabbreviation": "CMAJ"
+        "isoabbreviation": "CMAJ",
+        "nlmid": "9711805"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69037,8 +69037,8 @@
         "title": "Nutrients",
         "essn": "2072-6643",
         "issn": "2072-6643",
-        "nlmid": "101521595",
-        "isoabbreviation": "Nutrients"
+        "isoabbreviation": "Nutrients",
+        "nlmid": "101521595"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69076,8 +69076,8 @@
         "title": "Radiology. Cardiothoracic imaging",
         "essn": "2638-6135",
         "issn": "2638-6135",
-        "nlmid": "101748663",
-        "isoabbreviation": "Radiol Cardiothorac Imaging"
+        "isoabbreviation": "Radiol Cardiothorac Imaging",
+        "nlmid": "101748663"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69230,8 +69230,8 @@
         "title": "Journal of clinical medicine",
         "essn": "2077-0383",
         "issn": "2077-0383",
-        "nlmid": "101606588",
-        "isoabbreviation": "J Clin Med"
+        "isoabbreviation": "J Clin Med",
+        "nlmid": "101606588"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69267,8 +69267,8 @@
         "title": "Clinical case reports",
         "essn": "2050-0904",
         "issn": "2050-0904",
-        "nlmid": "101620385",
-        "isoabbreviation": "Clin Case Rep"
+        "isoabbreviation": "Clin Case Rep",
+        "nlmid": "101620385"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69303,8 +69303,8 @@
         "title": "Journal of separation science",
         "essn": "1615-9314",
         "issn": "1615-9306",
-        "nlmid": "101088554",
-        "isoabbreviation": "J Sep Sci"
+        "isoabbreviation": "J Sep Sci",
+        "nlmid": "101088554"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69340,8 +69340,8 @@
         "title": "Clinical case reports",
         "essn": "2050-0904",
         "issn": "2050-0904",
-        "nlmid": "101620385",
-        "isoabbreviation": "Clin Case Rep"
+        "isoabbreviation": "Clin Case Rep",
+        "nlmid": "101620385"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69413,8 +69413,8 @@
         "title": "JACC. Case reports",
         "essn": "2666-0849",
         "issn": "2666-0849",
-        "nlmid": "101757292",
-        "isoabbreviation": "JACC Case Rep"
+        "isoabbreviation": "JACC Case Rep",
+        "nlmid": "101757292"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69449,8 +69449,8 @@
         "title": "Journal of clinical medicine",
         "essn": "2077-0383",
         "issn": "2077-0383",
-        "nlmid": "101606588",
-        "isoabbreviation": "J Clin Med"
+        "isoabbreviation": "J Clin Med",
+        "nlmid": "101606588"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69485,8 +69485,8 @@
         "title": "Diagnostics (Basel, Switzerland)",
         "essn": "2075-4418",
         "issn": "2075-4418",
-        "nlmid": "101658402",
-        "isoabbreviation": "Diagnostics (Basel)"
+        "isoabbreviation": "Diagnostics (Basel)",
+        "nlmid": "101658402"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69523,8 +69523,8 @@
         "title": "International journal of molecular sciences",
         "essn": "1422-0067",
         "issn": "1422-0067",
-        "nlmid": "101092791",
-        "isoabbreviation": "Int J Mol Sci"
+        "isoabbreviation": "Int J Mol Sci",
+        "nlmid": "101092791"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69560,8 +69560,8 @@
         "title": "International journal of molecular sciences",
         "essn": "1422-0067",
         "issn": "1422-0067",
-        "nlmid": "101092791",
-        "isoabbreviation": "Int J Mol Sci"
+        "isoabbreviation": "Int J Mol Sci",
+        "nlmid": "101092791"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69596,8 +69596,8 @@
         "title": "Journal of clinical medicine",
         "essn": "2077-0383",
         "issn": "2077-0383",
-        "nlmid": "101606588",
-        "isoabbreviation": "J Clin Med"
+        "isoabbreviation": "J Clin Med",
+        "nlmid": "101606588"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69633,8 +69633,8 @@
         "title": "Healthcare (Basel, Switzerland)",
         "essn": "2227-9032",
         "issn": "2227-9032",
-        "nlmid": "101666525",
-        "isoabbreviation": "Healthcare (Basel)"
+        "isoabbreviation": "Healthcare (Basel)",
+        "nlmid": "101666525"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69671,8 +69671,8 @@
         "title": "Journal of clinical medicine",
         "essn": "2077-0383",
         "issn": "2077-0383",
-        "nlmid": "101606588",
-        "isoabbreviation": "J Clin Med"
+        "isoabbreviation": "J Clin Med",
+        "nlmid": "101606588"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69708,8 +69708,8 @@
         "title": "International journal of molecular sciences",
         "essn": "1422-0067",
         "issn": "1422-0067",
-        "nlmid": "101092791",
-        "isoabbreviation": "Int J Mol Sci"
+        "isoabbreviation": "Int J Mol Sci",
+        "nlmid": "101092791"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69745,8 +69745,8 @@
         "title": "International journal of molecular sciences",
         "essn": "1422-0067",
         "issn": "1422-0067",
-        "nlmid": "101092791",
-        "isoabbreviation": "Int J Mol Sci"
+        "isoabbreviation": "Int J Mol Sci",
+        "nlmid": "101092791"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69782,8 +69782,8 @@
         "title": "Nutrients",
         "essn": "2072-6643",
         "issn": "2072-6643",
-        "nlmid": "101521595",
-        "isoabbreviation": "Nutrients"
+        "isoabbreviation": "Nutrients",
+        "nlmid": "101521595"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69820,8 +69820,8 @@
         "title": "Nutrients",
         "essn": "2072-6643",
         "issn": "2072-6643",
-        "nlmid": "101521595",
-        "isoabbreviation": "Nutrients"
+        "isoabbreviation": "Nutrients",
+        "nlmid": "101521595"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69858,8 +69858,8 @@
         "title": "Nutrients",
         "essn": "2072-6643",
         "issn": "2072-6643",
-        "nlmid": "101521595",
-        "isoabbreviation": "Nutrients"
+        "isoabbreviation": "Nutrients",
+        "nlmid": "101521595"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69894,8 +69894,8 @@
         "title": "Cells",
         "essn": "2073-4409",
         "issn": "2073-4409",
-        "nlmid": "101600052",
-        "isoabbreviation": "Cells"
+        "isoabbreviation": "Cells",
+        "nlmid": "101600052"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69932,8 +69932,8 @@
         "title": "Cancers",
         "essn": "2072-6694",
         "issn": "2072-6694",
-        "nlmid": "101526829",
-        "isoabbreviation": "Cancers (Basel)"
+        "isoabbreviation": "Cancers (Basel)",
+        "nlmid": "101526829"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -69970,8 +69970,8 @@
         "title": "Biology",
         "essn": "2079-7737",
         "issn": "2079-7737",
-        "nlmid": "101587988",
-        "isoabbreviation": "Biology (Basel)"
+        "isoabbreviation": "Biology (Basel)",
+        "nlmid": "101587988"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -70008,8 +70008,8 @@
         "title": "Pulmonary circulation",
         "essn": "2045-8940",
         "issn": "2045-8932",
-        "nlmid": "101557243",
-        "isoabbreviation": "Pulm Circ"
+        "isoabbreviation": "Pulm Circ",
+        "nlmid": "101557243"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -70045,8 +70045,8 @@
         "title": "Pulmonary circulation",
         "essn": "2045-8940",
         "issn": "2045-8932",
-        "nlmid": "101557243",
-        "isoabbreviation": "Pulm Circ"
+        "isoabbreviation": "Pulm Circ",
+        "nlmid": "101557243"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -70081,8 +70081,8 @@
         "title": "Pulmonary circulation",
         "essn": "2045-8940",
         "issn": "2045-8932",
-        "nlmid": "101557243",
-        "isoabbreviation": "Pulm Circ"
+        "isoabbreviation": "Pulm Circ",
+        "nlmid": "101557243"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -70118,8 +70118,8 @@
         "title": "Pulmonary circulation",
         "essn": "2045-8940",
         "issn": "2045-8932",
-        "nlmid": "101557243",
-        "isoabbreviation": "Pulm Circ"
+        "isoabbreviation": "Pulm Circ",
+        "nlmid": "101557243"
       },
       "printPublicationDate": "2026-10-01"
     },
@@ -70155,8 +70155,8 @@
         "title": "PLoS medicine",
         "essn": "1549-1676",
         "issn": "1549-1277",
-        "nlmid": "101231360",
-        "isoabbreviation": "PLoS Med"
+        "isoabbreviation": "PLoS Med",
+        "nlmid": "101231360"
       },
       "printPublicationDate": "2026-10-01"
     },
