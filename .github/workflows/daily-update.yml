@@ -71,8 +71,6 @@ jobs:
         continue-on-error: true
         working-directory: CardioUpdate_FINAL_AUTO
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          CARDIOUPDATE_AI_MODEL: gpt-5.6-terra
           CARDIOUPDATE_MIN_WEEKLY: '20'
           CARDIOUPDATE_MAX_WEEKLY: '30'
           CARDIOUPDATE_MAX_RELATED: '3'
