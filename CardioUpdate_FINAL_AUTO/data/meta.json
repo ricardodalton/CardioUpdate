@@ -11,11 +11,11 @@
   "related_evidence_max_sources": 3,
   "edition_start": "2026-10-10",
   "edition_end": "2026-10-16",
-  "candidate_pool": 8330,
+  "candidate_pool": 8541,
   "publication_mode": "weekly_saturday",
-  "candidate_updated_at": "2026-10-20T14:31:07.976129+00:00",
-  "new_candidates": 0,
+  "candidate_updated_at": "2026-10-21T14:40:08.664140+00:00",
+  "new_candidates": 389,
   "candidate_cycle_start": "2026-10-17",
   "candidate_cycle_end": "2026-10-23",
-  "candidate_cycle_count": 889
+  "candidate_cycle_count": 1276
 }

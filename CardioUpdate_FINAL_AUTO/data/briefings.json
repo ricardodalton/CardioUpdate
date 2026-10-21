@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-21",
+    "generated_at": "2026-10-21T14:39:44.746330+00:00",
+    "items": [
+      {
+        "title": "La albuminuria se asocia con mayor carga aterosclerótica coronaria subclínica en SCAPIS",
+        "what_happened": "Un análisis transversal de 9.424 participantes de la cohorte sueca SCAPIS evaluó la relación entre el cociente albúmina-creatinina urinaria, el calcio coronario y la estenosis por angiografía coronaria por TC. Tras ajustar por factores cardiometabólicos, la asociación con la carga de calcio coronario fue pequeña; las asociaciones con presencia de calcio y estenosis dejaron de ser significativas en los modelos más ajustados.",
+        "why_relevant": "La albuminuria puede señalar un fenotipo de mayor riesgo vascular y coexistir con aterosclerosis coronaria subclínica. Sin embargo, el estudio es observacional y transversal: no demuestra que la albuminuria cause aterosclerosis ni que tratarla reduzca la carga de placa o los eventos cardiovasculares.",
+        "practical_implication": "La albuminuria debe reforzar la evaluación integral de presión arterial, diabetes, función renal, tabaquismo y colesterol aterogénico. No justifica por sí sola solicitar CAC o angiografía coronaria por TC; la imagen debe reservarse para situaciones en las que pueda modificar una decisión preventiva.",
+        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
+      },
+      {
+        "title": "Persisten brechas de control de LDL-C en atención primaria pese a la intensificación farmacológica",
+        "what_happened": "Un seguimiento de 36 meses en 507 pacientes de atención primaria con hipertensión, enfermedad coronaria o diabetes observó una reducción media de LDL-C especialmente en quienes partían de valores más altos, paralela a un incremento de prescripciones de tratamiento hipolipemiante. Atorvastatina y rosuvastatina fueron los fármacos más utilizados. A pesar de la disminución, persistió una distancia respecto a los objetivos recomendados según riesgo.",
+        "why_relevant": "El estudio aporta evidencia de práctica clínica real sobre la dificultad de traducir la disponibilidad de tratamiento y las recomendaciones en una reducción sostenida de la exposición a LDL-C. La relevancia clínica reside en la prevención acumulativa: cuanto antes y durante más tiempo se reduzcan las lipoproteínas aterogénicas, menor debería ser la carga aterosclerótica, aunque este estudio no evaluó eventos.",
+        "practical_implication": "Los equipos asistenciales deberían revisar de forma estructurada el LDL-C, la adherencia, la intensidad de estatina y la necesidad de añadir tratamientos no estatínicos según el riesgo y los objetivos individuales. Sus resultados no permiten atribuir causalmente la reducción de LDL-C a un fármaco concreto ni estimar beneficio en eventos, al no disponer de un comparador aleatorizado.",
+        "source_title": "Changes in LDL-C levels among primary health care patients with hypertension, coronary artery disease, and diabetes during a 36-month follow-up.",
+        "journal": "Scandinavian journal of primary health care",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/02813432.2026.2718269"
+      },
+      {
+        "title": "La elegibilidad para estatinas aumentaría con el marco ACC/AHA 2026 en un análisis poblacional estadounidense",
+        "what_happened": "Un análisis de NHANES 2017-2020 comparó la elegibilidad para estatinas en prevención primaria según los marcos ACC/AHA de 2018 y 2026. El modelo estimó un aumento de la elegibilidad bajo el marco de 2026, con mayor incremento relativo entre adultos menores de 50 años. Los factores asociados con nueva elegibilidad incluyeron edad, índice de masa corporal, colesterol total, función renal, tabaquismo e hipertensión.",
+        "why_relevant": "El trabajo subraya que la incorporación de un marco de riesgo y criterios de elegibilidad actualizados puede ampliar la prevención farmacológica, particularmente en adultos jóvenes con exposición futura prolongada a factores de riesgo. No demuestra que la expansión de elegibilidad mejore resultados clínicos ni sustituye la valoración individual de beneficio absoluto, riesgos y preferencias.",
+        "practical_implication": "La implementación de cambios de guía debería acompañarse de identificación activa de hipertensión, tabaquismo, alteraciones lipídicas y enfermedad renal, además de estrategias para mejorar acceso, adherencia y seguimiento. La estimación procede de una encuesta poblacional y de aplicación retrospectiva de criterios, no de un ensayo clínico de la guía ni de una comparación de eventos.",
+        "source_title": "Changes in statin therapy eligibility under the 2026 versus 2018 dyslipidemia guidelines.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101719"
+      },
+      {
+        "title": "La fotografía retiniana con aprendizaje profundo estratifica riesgo ASCVD a 10 años en una cohorte prospectiva",
+        "what_happened": "En la cohorte AREDS, un estimador basado en fotografía de fondo de ojo, edad y sexo —incluido un sustituto de calcio coronario derivado mediante aprendizaje profundo— se asoció con eventos ASCVD incidentes durante hasta 10 años de seguimiento. En el subgrupo con datos para comparación, su discriminación fue numéricamente similar a la de las ecuaciones de cohortes agrupadas y mostró mejor calibración en esa muestra.",
+        "why_relevant": "El estudio ilustra el potencial de una evaluación oportunista de riesgo cardiovascular en entornos oftalmológicos, especialmente cuando faltan datos analíticos para calculadoras convencionales. Aporta predicción, no evidencia causal, y el marcador de CAC derivado por IA es un resultado sustituto, no una medición tomográfica de calcio coronario.",
+        "practical_implication": "La herramienta podría considerarse un apoyo futuro para identificar personas que requieren evaluación cardiovascular formal, medición de lípidos, presión arterial y estimación validada de riesgo. No debe reemplazar las calculadoras clínicas validadas, la cuantificación de CAC por TC cuando esté indicada, ni decidir por sí sola el inicio de tratamiento hipolipemiante.",
+        "source_title": "Opportunistic Cardiovascular Risk Assessment in the Eye Clinic: Validation of a Retinal Deep Learning-Based 10-Year Atherosclerotic Cardiovascular Disease Estimator.",
+        "journal": "Ophthalmology science",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.xops.2026.101386"
+      },
+      {
+        "title": "La CCTA amplía el fenotipado de la enfermedad coronaria no obstructiva, pero faltan estrategias guiadas por imagen con beneficio demostrado",
+        "what_happened": "Una revisión reciente sintetiza el uso de la angiografía coronaria por TC para caracterizar carga de placa, composición, rasgos de alto riesgo y cambios temporales en enfermedad coronaria no obstructiva. Señala que el calcio coronario y la CCTA pueden refinar la estratificación de riesgo, mientras que los marcadores inflamatorios y cardiometabólicos derivados de TC siguen siendo herramientas de fenotipado en evolución.",
+        "why_relevant": "La carga aterosclerótica y las características de placa pueden identificar riesgo residual que la sola estimación de estenosis no capta. No obstante, la revisión reconoce que todavía no existen algoritmos de tratamiento guiados por CCTA que hayan demostrado mejorar eventos clínicos frente a la prevención basada en riesgo convencional.",
+        "practical_implication": "En pacientes seleccionados, la demostración de placa no obstructiva o de carga aterosclerótica relevante debe reforzar el control intensivo de LDL-C, presión arterial, tabaquismo y otros factores de riesgo. No se debería utilizar la CCTA seriada, los rasgos de placa de alto riesgo ni biomarcadores derivados de TC como objetivos terapéuticos independientes hasta disponer de ensayos con resultados clínicos.",
+        "source_title": "Beyond stenosis: imaging phenotyping and risk stratification in nonobstructive coronary artery disease.",
+        "journal": "Current opinion in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/HCO.0000000000001341"
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "generated_at": "2026-10-20T14:30:34.693722+00:00",
     "items": [
