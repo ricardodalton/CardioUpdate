@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-22",
+    "generated_at": "2026-10-22T14:47:48.126288+00:00",
+    "items": [
+      {
+        "title": "Firmas proteómicas plasmáticas para predecir progresión de aterosclerosis subclínica y riesgo cardiovascular",
+        "what_happened": "Un estudio de cohorte desarrolló dos puntuaciones proteómicas, una para progresión de calcio coronario (CAC) y otra para progresión de placa carotídea. En 903 participantes con evaluaciones repetidas durante 6 años, las puntuaciones explicaron el 17,1% y el 18,4% de la variabilidad de progresión de CAC y placa, respectivamente. En una cohorte caso-cohorte de 1.835 personas seguida una mediana de 10,4 años, cada desviación estándar de ambas puntuaciones se asoció con mayor riesgo de eventos ASCVD incidentes.",
+        "why_relevant": "El trabajo conecta imágenes de aterosclerosis subclínica prioritarias en prevención —CAC y placa carotídea— con riesgo posterior de eventos clínicos. Sugiere que la información proteómica podría añadir estratificación a los factores convencionales, particularmente en personas con riesgo clínico intermedio o discordancia entre factores de riesgo y carga aterosclerótica.",
+        "practical_implication": "La evidencia no justifica solicitar paneles proteómicos en la práctica asistencial. Las asociaciones proceden de una cohorte observacional y no demuestran que modificar la puntuación, ni emplearla para seleccionar tratamiento, reduzca eventos. Por ahora, CAC y la detección de placa deben interpretarse dentro de estrategias preventivas validadas, centradas en control de LDL-colesterol/apoB, presión arterial, tabaquismo y diabetes.",
+        "source_title": "Plasma proteomic signatures of subclinical atherosclerosis progression for cardiovascular risk stratification: A cohort study.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1371/journal.pmed.1005265"
+      },
+      {
+        "title": "Enfermedad cardiovascular aterosclerótica de inicio precoz en adultos jóvenes: factores de riesgo y prevención",
+        "what_happened": "Una revisión narrativa distingue entre ASCVD clínica precoz, factores de riesgo y alteraciones vasculares subclínicas en adolescentes y adultos jóvenes. Resalta como determinantes causales establecidos la exposición acumulada a lipoproteínas que contienen apoB y el tabaquismo; también subraya la utilidad del cribado lipídico, la medición de Lp(a) al menos una vez en la vida adulta y la evaluación dirigida de hipercolesterolemia familiar y antecedentes familiares.",
+        "why_relevant": "La revisión refuerza un concepto central de prevención cardiovascular: el riesgo aterosclerótico depende de la exposición acumulada, no solo del riesgo absoluto a 10 años. Esto es especialmente relevante en adultos jóvenes, en quienes los calculadores de corto plazo pueden infraestimar el impacto de LDL-colesterol elevado, apoB, Lp(a), hipertensión, obesidad, diabetes y nicotina.",
+        "practical_implication": "La evaluación preventiva en adultos jóvenes debe priorizar la identificación temprana de dislipidemia, hipertensión, tabaquismo y antecedentes familiares de ASCVD prematura. La revisión no avala CAC ni ecografía carotídea como cribado universal en asintomáticos jóvenes; estas pruebas pueden reservarse para decisiones individualizadas en adultos seleccionados. Al tratarse de una revisión narrativa, no aporta estimaciones nuevas de efecto ni prueba que una estrategia de imagen reduzca eventos.",
+        "source_title": "Early-onset atherosclerotic cardiovascular disease in young adults: Lifestyle, environmental, and psychosocial risk factors.",
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcrp.2026.200714"
+      },
+      {
+        "title": "Yoga Nidra para mejorar el sueño en pacientes con enfermedad coronaria estable: ensayo aleatorizado",
+        "what_happened": "Un ensayo aleatorizado, abierto con evaluación ciega de desenlaces, incluyó 144 pacientes con enfermedad coronaria estable y mala calidad del sueño. Tras 12 semanas de Yoga Nidra guiado, además de los consejos de higiene del sueño recibidos por todos los participantes, el grupo de intervención mostró mejoría en eficiencia y duración del sueño medidas por actigrafía, menor latencia y menor vigilia tras el inicio del sueño. También se comunicaron mejorías en estrés, síntomas depresivos y calidad de vida.",
+        "why_relevant": "El sueño deficiente, el estrés y la salud mental pueden dificultar la adherencia a medidas de prevención secundaria y al autocuidado en cardiopatía coronaria. El ensayo aporta evidencia aleatorizada para una intervención no farmacológica orientada a síntomas y calidad de vida en una población coronaria estable.",
+        "practical_implication": "Yoga Nidra podría contemplarse como intervención complementaria para pacientes coronarios con insomnio o mala calidad del sueño, sin sustituir rehabilitación cardiaca, tratamiento farmacológico basado en guías ni control intensivo de factores de riesgo. El estudio fue unicéntrico, de tamaño modesto y de 12 semanas; sus resultados principales fueron desenlaces de sueño y bienestar, no infarto, hospitalización, mortalidad, presión arterial sostenida ni eventos cardiovasculares.",
+        "source_title": "Effectiveness of Yoga-based guided meditation In Improving the quality of sleep in patients with coronary artery disease: The Yoga Nidra Trial.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101738"
+      },
+      {
+        "title": "Ejercicio supervisado durante tratamiento antipsicótico: metaanálisis de ensayos aleatorizados",
+        "what_happened": "Un metaanálisis de 28 ensayos clínicos aleatorizados, con 1.119 participantes tratados con antipsicóticos, encontró que el ejercicio supervisado redujo modestamente peso, porcentaje de grasa corporal y perímetro de cintura. También mejoró síntomas negativos y psicopatología general. No se observaron cambios significativos en presión arterial, glucosa en ayunas ni la mayoría de los parámetros lipídicos.",
+        "why_relevant": "Los antipsicóticos se asocian con ganancia ponderal y deterioro cardiometabólico, factores que amplifican el riesgo cardiovascular a largo plazo. La síntesis respalda el ejercicio supervisado como componente de prevención cardiometabólica en una población de alto riesgo y habitualmente infratratada.",
+        "practical_implication": "Los programas de ejercicio supervisado pueden integrarse en el manejo multidisciplinar de personas tratadas con antipsicóticos, especialmente para limitar adiposidad y favorecer salud mental. No deben presentarse como una intervención demostrada para prevenir eventos cardiovasculares ni como alternativa al cribado y tratamiento de hipertensión, diabetes y dislipidemia. La magnitud de los cambios antropométricos fue modesta, la evidencia para desenlaces metabólicos fue baja o muy baja en varios análisis y los ensayos no estaban diseñados para eventos clínicos.",
+        "source_title": "Exercise to enhance antipsychotic effectiveness and mitigate metabolic harm: systematic review and meta-analysis.",
+        "journal": "Journal of affective disorders",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.jad.2026.122587"
+      },
+      {
+        "title": "Mortalidad por cardiopatía isquémica con diabetes y dislipidemia documentadas en Estados Unidos: tendencias y desigualdades",
+        "what_happened": "Un análisis retrospectivo de certificados de defunción de CDC WONDER examinó, entre 1999 y 2024, las muertes por cardiopatía isquémica en adultos de 45 años o más que incluían además diabetes y dislipidemia como causas múltiples. La mortalidad ajustada por edad aumentó hasta 2022 y se estabilizó posteriormente. La carga fue mayor en hombres, personas de edad avanzada, población negra no hispana, residentes no metropolitanos y estados del sur; el análisis proyectó incrementos futuros mediante modelos ARIMA.",
+        "why_relevant": "El estudio pone de relieve la persistencia de una carga poblacional elevada de cardiopatía isquémica en presencia de diabetes y dislipidemia, y señala desigualdades geográficas y sociodemográficas relevantes para la implementación de prevención secundaria y primaria de muy alto riesgo.",
+        "practical_implication": "Los resultados apoyan reforzar el acceso sostenido al manejo concordante con guías de lípidos, diabetes y otros factores de riesgo, especialmente en poblaciones con mayor carga. No permiten estimar riesgo individual, atribuir causalidad a la diabetes o dislipidemia registradas, ni evaluar la efectividad de tratamientos concretos. La codificación en certificados de defunción puede ser incompleta o variable, y las proyecciones son modelizaciones, no observaciones futuras.",
+        "source_title": "Trends and projected burden of ischemic heart disease mortality with co-documented diabetes mellitus and dyslipidemia among U.S. adults, 1999-2024: a CDC WONDER analysis.",
+        "journal": "Journal of diabetes and metabolic disorders",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1007/s40200-026-02083-3"
+      }
+    ]
+  },
+  {
     "date": "2026-10-21",
     "generated_at": "2026-10-21T14:39:44.746330+00:00",
     "items": [
