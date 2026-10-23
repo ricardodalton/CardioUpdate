@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-23",
+    "generated_at": "2026-10-23T14:25:40.633095+00:00",
+    "items": [
+      {
+        "title": "Predictores de ictus recurrente pese a objetivo intensivo de presión arterial tras ictus lacunar",
+        "what_happened": "Un análisis secundario y post hoc de 1.501 participantes del ensayo SPS3 asignados a una presión arterial sistólica objetivo inferior a 130 mmHg identificó que la aterosclerosis de grandes vasos y el uso de aspirina o clopidogrel en el ictus índice se asociaron independientemente con recurrencia de ictus durante una mediana de 3,49 años. La aleatorización a doble antiagregación no se asoció con menor recurrencia en este análisis.",
+        "why_relevant": "La observación subraya que el control intensivo de la presión arterial, aunque recomendado en prevención secundaria del ictus, puede no neutralizar el riesgo atribuible a enfermedad aterosclerótica coexistente. El desenlace fue clínico y adjudicado, no un marcador sustituto.",
+        "practical_implication": "La prevención secundaria tras ictus lacunar debería incluir una búsqueda sistemática de aterosclerosis de grandes vasos y una intensificación integral de los factores de riesgo, especialmente presión arterial y lípidos. Los hallazgos no justifican modificar por sí solos la estrategia antiagregante, porque proceden de un análisis post hoc restringido a un brazo del ensayo.",
+        "source_title": "Predictors of recurrent stroke among patients with lacunar stroke receiving intensive blood pressure control: a secondary analysis of the secondary prevention of small subcortical strokes trial.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/01616412.2026.2739260"
+      },
+      {
+        "title": "Discrepancias entre guías sobre prácticas de bajo valor en prevención cardiovascular",
+        "what_happened": "Una revisión narrativa de guías de prevención cardiovascular publicadas entre 2017 y 2025 encontró desacuerdos sustanciales entre sociedades científicas respecto al uso del calcio coronario (CAC), la determinación de lipoproteína(a), el cribado de aneurisma de aorta abdominal y el inicio de tratamiento hipolipemiante en personas mayores.",
+        "why_relevant": "El CAC y la Lp(a) son herramientas centrales en la estratificación del riesgo aterosclerótico, pero las recomendaciones heterogéneas reflejan que, en varios escenarios de cribado y decisión terapéutica, la base empírica descansa en estudios no aleatorizados, un único ensayo o consenso experto.",
+        "practical_implication": "La solicitud de CAC o Lp(a) debería vincularse a una pregunta clínica concreta y a la probabilidad de que el resultado modifique el tratamiento preventivo. La revisión no aporta nueva evidencia causal ni compara resultados clínicos entre estrategias; por tanto, no establece qué recomendación discordante es superior.",
+        "source_title": "Discrepancies in low-value practices across cardiovascular disease prevention guidelines. A narrative review.",
+        "journal": "The European journal of general practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/13814788.2026.2729221"
+      },
+      {
+        "title": "PCSK9 circulante y riesgo cardiovascular en prevención primaria: asociación distinta según sexo",
+        "what_happened": "En una cohorte prospectiva china de 1.876 adultos sin enfermedad cardiovascular basal, con 93 eventos durante una mediana de 6,7 años, concentraciones basales más elevadas de PCSK9 se asociaron con mayor riesgo cardiovascular en mujeres y con menor riesgo en varones tras ajuste por factores convencionales.",
+        "why_relevant": "El resultado contrasta con la eficacia clínica de la inhibición farmacológica de PCSK9 en determinados contextos de alto riesgo y recuerda que una concentración circulante de PCSK9 no equivale necesariamente a la actividad de la vía ni a una diana de estratificación validada.",
+        "practical_implication": "La determinación plasmática de PCSK9 no debería emplearse para estimar riesgo cardiovascular ni para seleccionar tratamiento en prevención primaria. Se trata de evidencia observacional, con pocos eventos y posible confusión residual; no demuestra causalidad ni respalda intervenciones diferenciadas por sexo.",
+        "source_title": "Circulating PCSK9 as a sex-stratified predictor in primary prevention of cardiovascular disease: Insights from a prospective cohort study in Chinese adults.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101785"
+      },
+      {
+        "title": "Plantas de la familia Lamiaceae y adiposidad en síndrome metabólico: metaanálisis de ensayos aleatorizados",
+        "what_happened": "Un metaanálisis de 20 ensayos clínicos aleatorizados, con 2.445 participantes, encontró reducciones estadísticamente significativas de IMC, peso, perímetro de cintura e índice cintura-cadera con intervenciones basadas en plantas de la familia Lamiaceae. No se observó un cambio significativo en masa grasa corporal.",
+        "why_relevant": "La obesidad central y el síndrome metabólico contribuyen de forma importante a hipertensión, diabetes y riesgo aterosclerótico. Sin embargo, los resultados disponibles corresponden a medidas antropométricas, no a eventos cardiovasculares, progresión aterosclerótica, apoB o LDL-colesterol.",
+        "practical_implication": "Estos productos, si se consideran, solo podrían plantearse como complemento de intervenciones estructuradas de estilo de vida y no como estrategia de prevención cardiovascular. La interpretación exige cautela por la duración corta de muchos ensayos, heterogeneidad de preparados y dosis, y limitaciones de sesgo en una parte de los estudios incluidos.",
+        "source_title": "Impact of lamiaceae plants on anthropometric indices in patients with metabolic syndrome: A systematic review and meta-analysis of randomized clinical trials.",
+        "journal": "Journal of ethnopharmacology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.jep.2026.122222"
+      },
+      {
+        "title": "Estandarización de la atención periprocedimiento en implante valvular aórtico transcatéter",
+        "what_happened": "Un documento práctico integró guías, consensos y evidencia previa en un conjunto de órdenes para el manejo perioperatorio del implante valvular aórtico transcatéter. Propone evaluación por Heart Team, valoración de fragilidad y cognición, estratificación del riesgo de trastornos de conducción, minimización de contraste, monitorización dirigida y simplificación antitrombótica según indicación de anticoagulación.",
+        "why_relevant": "La estandarización de vías asistenciales puede reducir la variabilidad en un procedimiento cardiovascular de uso creciente. El documento prioriza aspectos clínicos relevantes, como prevención de sangrado, lesión renal, complicaciones de conducción y estancias prolongadas.",
+        "practical_implication": "Los programas de implante valvular aórtico transcatéter pueden utilizar el esquema como base para protocolos locales, adaptándolo a recursos, perfiles de riesgo y recomendaciones vigentes. La vía completa no ha sido validada prospectivamente como paquete único, por lo que no permite atribuir beneficios clínicos a cada orden ni garantiza seguridad en todos los pacientes.",
+        "source_title": "Enhanced recovery after surgery turnkey order set for periprocedural care of the patient undergoing transcatheter aortic valve replacement.",
+        "journal": "JTCVS structural and endovascular",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.xjse.2026.100146"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "generated_at": "2026-10-22T14:47:48.126288+00:00",
     "items": [

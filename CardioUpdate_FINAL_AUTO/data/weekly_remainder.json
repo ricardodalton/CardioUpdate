@@ -1,5 +1,3022 @@
 [
   {
+    "title": "[Safety of diet therapy using ϖ-3 polyunsaturated fatty acids].",
+    "doi": "10.32687/0869-866x-2026-34-s2-1066-1070",
+    "pmid": "42904712",
+    "pmcid": "",
+    "url": "https://doi.org/10.32687/0869-866x-2026-34-s2-1066-1070",
+    "firstPublicationDate": "2026-12-15",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article",
+        "English Abstract"
+      ]
+    }
+  },
+  {
+    "title": "[Models of medical care for pediatric patients with chronic non-communicable diseases (literature review)].",
+    "doi": "10.32687/0869-866x-2026-34-s2-1132-1138",
+    "pmid": "42904722",
+    "pmcid": "",
+    "url": "https://doi.org/10.32687/0869-866x-2026-34-s2-1132-1138",
+    "firstPublicationDate": "2026-12-15",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article",
+        "English Abstract"
+      ]
+    }
+  },
+  {
+    "title": "The Senokine Gas6 Promotes Aortic Valve Calcification Through CaMKII-DRP1-Mediated Terminal Scission of Mitochondrial-Derived Vesicles.",
+    "doi": "10.1111/acel.70758",
+    "pmid": "42902865",
+    "pmcid": "",
+    "url": "https://doi.org/10.1111/acel.70758",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "End-to-end film-based characterization of gated delivery latencies in a spot-scanned synchrotron-based proton therapy system.",
+    "doi": "10.1002/acm2.70826",
+    "pmid": "42905951",
+    "pmcid": "",
+    "url": "https://doi.org/10.1002/acm2.70826",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Appendicoscopy and patient risk factors should be considered in endoscopic full-thickness resection of appendiceal orifice neoplasms.",
+    "doi": "10.1016/j.gie.2026.04.022",
+    "pmid": "42906986",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.gie.2026.04.022",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Letter",
+        "IM"
+      ]
+    }
+  },
+  {
+    "title": "An Ascorbic-Acid Containing Poly(Carbonate) Urethane With Antioxidant Bioactivity for Application in Heart Valve Scaffold Development.",
+    "doi": "10.1002/jbm.a.70172",
+    "pmid": "42908111",
+    "pmcid": "",
+    "url": "https://doi.org/10.1002/jbm.a.70172",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Advancing cardiovascular health through biomedical and health informatics.",
+    "doi": "10.1093/jamia/ocag175",
+    "pmid": "42908424",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/jamia/ocag175",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "scTraitReg: a single-cell multi-omic database of trait-relevant transcription factor eRegulons.",
+    "doi": "10.1093/nar/gkag1017",
+    "pmid": "42908284",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/nar/gkag1017",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Whether to hold and what to measure: perioperative euglycemic ketoacidosis in patients taking SGLT2 inhibitors.",
+    "doi": "10.17085/apm.26812",
+    "pmid": "42906932",
+    "pmcid": "",
+    "url": "https://doi.org/10.17085/apm.26812",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "When 2D is not enough: 3D transesophageal echocardiography revealing a multifenestrated atrial septal defect.",
+    "doi": "10.1186/s44348-026-00103-7",
+    "pmid": "42907867",
+    "pmcid": "",
+    "url": "https://doi.org/10.1186/s44348-026-00103-7",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Ventricular repolarization in hospitalized patients with inflammatory bowel disease: a weighted real-world ECG study",
+    "doi": "10.21203/rs.3.rs-11258739/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11258739/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Vascularized Organoids Emerge from a Heart-Foregut-like Intermediate Recapitulating Early Human Development",
+    "doi": "10.64898/2026.10.21.758395",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.10.21.758395",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Vascular access management after kidney transplantation position paper on behalf of the Vascular Access Society and the European Kidney Transplant Association.",
+    "doi": "10.1177/11297298261468406",
+    "pmid": "42908338",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/11297298261468406",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Unexpected Death in a Preschool Child: Forensic Assessment of Acute Myocarditis on Left Ventricular Hypertrophy.",
+    "doi": "10.1097/paf.0000000000001186",
+    "pmid": "42908056",
+    "pmcid": "",
+    "url": "https://doi.org/10.1097/paf.0000000000001186",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "U-Shaped Association Between Preoperative Fasting Blood Glucose and Postoperative Delirium in Elderly Diabetic Patients: A Multicentre Retrospective Cohort Study",
+    "doi": "10.64898/2026.10.20.26366023",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.10.20.26366023",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Toxic metals, lung function, blood pressure and arterial function in young adults: a multi- ethnic cross-sectional study",
+    "doi": "10.21203/rs.3.rs-11167077/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11167077/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "The Road to Liberation is Paved with Threats: A Biopsychosocial Perspective on Minoritized Individuals’ Responses to Hierarchy-Disruptive Social Change",
+    "doi": "10.31234/osf.io/g8kvu_v2",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.31234/osf.io/g8kvu_v2",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Subjective, Behavioral, and Physiological Responses to Cognitive Workload in Individuals with Chronic Non-Specific Low Back Pain and Healthy Controls",
+    "doi": "10.21203/rs.3.rs-11217686/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11217686/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Structural Valve Deterioration in End-Stage Renal Disease Patients With Transcatheter Aortic Valve Replacement.",
+    "doi": "10.1097/crd.0000000000001510",
+    "pmid": "42908080",
+    "pmcid": "",
+    "url": "https://doi.org/10.1097/crd.0000000000001510",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Speaking Progress, Feeling Threat: A Biopsychosocial Approach to Systemic Progressive Social Change",
+    "doi": "10.31234/osf.io/vmkhq_v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.31234/osf.io/vmkhq_v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Socioeconomic, Lifestyle, and Dietary Factors Associated with Concurrent Hypertension and Diabetes among Adults in Selected Communities in Southwestern Nigeria: A Cross- Sectional Study",
+    "doi": "10.21203/rs.3.rs-11079196/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11079196/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Safety of Early Mobilisation and Rehabilitation in Critically Ill Patients: A Prospective Multicentre Cohort Study",
+    "doi": "10.21203/rs.3.rs-11253971/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11253971/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Safety and efficacy of Glucagon-Like Peptide 1 Receptor Agonist and Sodium Glucose Transporter 2 inhibitor on major limb adverse events and mortality in peripheral artery disease and diabetes",
+    "doi": "10.21203/rs.3.rs-11270242/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11270242/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Role of ivabradine in postoperative tachyarrhythmias after congenital cardiac surgery",
+    "doi": "10.21203/rs.3.rs-11216640/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11216640/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Retinal biomarkers and dementia risk: A review of evidence across the 14 Lancet modifiable risk factors for dementia",
+    "doi": "10.31234/osf.io/xh7g6_v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.31234/osf.io/xh7g6_v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Ramus Intermedius Anatomy and Left Main Coronary Geometry on Coronary Computed Tomography Angiography: A Retrospective Single-Center Study",
+    "doi": "10.21203/rs.3.rs-11252821/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11252821/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Protein lactylation in atherosclerosis - Mechanisms and therapeutic potential: A narrative review.",
+    "doi": "10.17305/bb.2026.14952",
+    "pmid": "42908441",
+    "pmcid": "",
+    "url": "https://doi.org/10.17305/bb.2026.14952",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Prevalence, Socioeconomic Determinants, and Health-System Factors Associated with Laboratory-Confirmed Renal Impairment Among Adults Attending Tertiary Referral Hospitals in Mogadishu, Somalia: A Cross-Sectional Study",
+    "doi": "10.21203/rs.3.rs-10481783/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-10481783/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Predictors of recurrent stroke among patients with lacunar stroke receiving intensive blood pressure control: a secondary analysis of the secondary prevention of small subcortical strokes trial.",
+    "doi": "10.1080/01616412.2026.2739260",
+    "pmid": "42908480",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/01616412.2026.2739260",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Prediction of in-hospital mortality in acute myocardial infarction patients with left anterior descending artery occlusion",
+    "doi": "10.21203/rs.3.rs-11155524/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11155524/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Post-transcriptional Rac1 activation driven by lipid modification enzymes in atrial fibrillation: a multi-dataset bioinformatics study with experimental validation",
+    "doi": "10.21203/rs.3.rs-10948165/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-10948165/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Point-of-care ultrasound–guided early decongestion and 6-month outcomes in patients hospitalized with acute decompensated heart failure on an internal medicine ward: a comparative cohort study",
+    "doi": "10.21203/rs.3.rs-11214722/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11214722/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Photoinduced Selective Cyclization Cascades of Unactivated N-alkene-Linked Indoles with the Insertion of Sulfur Dioxide and Its Preliminary Application Investigation.",
+    "doi": "10.1021/acs.joc.6c01943",
+    "pmid": "42906620",
+    "pmcid": "",
+    "url": "https://doi.org/10.1021/acs.joc.6c01943",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Pah in the era of obesity: navigating phenotypes of pulmonary hypertension.",
+    "doi": "10.1080/17476348.2026.2753850",
+    "pmid": "42908309",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/17476348.2026.2753850",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Over-the-counter topical diclofenac in musculoskeletal pain: clinical value, access and responsible use.",
+    "doi": "10.1080/03007995.2026.2746838",
+    "pmid": "42908385",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/03007995.2026.2746838",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Online high-dose hemodiafiltration: a path towards improved clinical outcomes and green dialysis.",
+    "doi": "10.1097/mnh.0000000000001227",
+    "pmid": "42908267",
+    "pmcid": "",
+    "url": "https://doi.org/10.1097/mnh.0000000000001227",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "One-Year Clinical Outcomes of Paclitaxel-Coated Balloon Angioplasty in Patients With and Without Acute Coronary Syndrome: The ALLIANCE Registry.",
+    "doi": "10.1002/ccd.70952",
+    "pmid": "42908363",
+    "pmcid": "",
+    "url": "https://doi.org/10.1002/ccd.70952",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Non-independence in network-structured Mendelian randomization: a permutation framework and six failure modes",
+    "doi": "10.21203/rs.3.rs-11115416/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11115416/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Measuring heart and breath: BRAMS-Bio-Box (B3), a wearable open-source physiology recording platform",
+    "doi": "10.31234/osf.io/hukp9_v2",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.31234/osf.io/hukp9_v2",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Maternal Stress and Mother-Child Interaction Dynamics: The Roles of Child Age and Maternal Emotion Regulation",
+    "doi": "10.31234/osf.io/2gwps_v3",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.31234/osf.io/2gwps_v3",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Low-grade inflammation and cardiovascular events among patients with chronic kidney disease.",
+    "doi": "10.1093/eurjpc/zwag538",
+    "pmid": "42906920",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/eurjpc/zwag538",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Left Atrial Ridge Edema After VARIPULSE pulsed field ablation: Correlation With Early Peri-device leak",
+    "doi": "10.21203/rs.3.rs-10987861/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-10987861/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Interoceptive Processing in Boredom Proneness: Sensing Without Making Sense",
+    "doi": "10.31234/osf.io/8fprj_v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.31234/osf.io/8fprj_v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Interleukin 6 and high sensitive C reactive protein in predicting in-stent restenosis in patients undergoing percutaneous coronary intervention",
+    "doi": "10.21203/rs.3.rs-11184350/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11184350/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Integrated Computational Prioritization and Characterization of Structurally Distinct Putative AT1R Ligands from a Cardiovascular-Focused Chemical Library",
+    "doi": "10.20944/preprints202610.2149.v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.20944/preprints202610.2149.v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Individual Cardiometabolic Risk Factors and Long-Term Cardiovascular Outcomes in Metabolic Dysfunction-Associated Steatotic Liver Disease",
+    "doi": "10.21203/rs.3.rs-11164764/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11164764/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Impact of atrial fibrillation on hemodynamics in a sheep model of the Fontan circulation",
+    "doi": "10.21203/rs.3.rs-11295497/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11295497/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Impact of Right Ventricular Pacing Burden on Left Ventricular Deformation and Rotational Mechanics: A Cohort Study",
+    "doi": "10.21203/rs.3.rs-10929741/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-10929741/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Identification of TREK channels in mouse intracardiac ganglion neurons.",
+    "doi": "10.1113/jp290107",
+    "pmid": "42908434",
+    "pmcid": "",
+    "url": "https://doi.org/10.1113/jp290107",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Hyponatremic-Hypertensive Syndrome as a Rare Manifestation of Renovascular Hypertension: A Case Series.",
+    "doi": "10.12659/ajcr.952551",
+    "pmid": "42908184",
+    "pmcid": "",
+    "url": "https://doi.org/10.12659/ajcr.952551",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article",
+        "Case Reports"
+      ]
+    }
+  },
+  {
+    "title": "Human cell models for inherited platelet disorders: strengths, limitations and emerging technologies.",
+    "doi": "10.3324/haematol.2026.301744",
+    "pmid": "42908429",
+    "pmcid": "",
+    "url": "https://doi.org/10.3324/haematol.2026.301744",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Heat-related mortality by comorbidity and cause of death: a time-stratified case-crossover study of 3.7 million deaths in Brazil, 2014–2025",
+    "doi": "10.21203/rs.3.rs-11455254/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11455254/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Genetic Determinants of Cell-Type-Specific Responses to Cardiotoxic Chemotherapeutic Agents",
+    "doi": "10.64898/2026.10.16.759549",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.10.16.759549",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Factors Associated with the Evolution in Quality of Life and Volume During the Maintenance Phase After a Multidisciplinary Intensive Treatment Program in Patients with Lower Limb Lymphedema.",
+    "doi": "10.1177/15578585261497921",
+    "pmid": "42908315",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/15578585261497921",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "FLNA-related periventricular nodular heterotopia with multisystem involvement: a case report",
+    "doi": "10.21203/rs.3.rs-11123195/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11123195/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Exploring the application value of preoperative femoral artery and vein cannulation in redo cardiac surgery.",
+    "doi": "10.1186/s13019-026-04262-y",
+    "pmid": "42907897",
+    "pmcid": "",
+    "url": "https://doi.org/10.1186/s13019-026-04262-y",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Expedient protocol for myocardial viability assessment with 18 F-FDG positron emission tomography",
+    "doi": "10.21203/rs.3.rs-11245740/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11245740/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Evaluating the use of blood pressure and oral microbiome screening in primary care dental clinics",
+    "doi": "10.21203/rs.3.rs-9594104/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-9594104/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Effectiveness of digital health interventions for care integration in coronary artery disease: a systematic review and meta-analysis.",
+    "doi": "10.1093/eurjpc/zwag552",
+    "pmid": "42906925",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/eurjpc/zwag552",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Effect of radical (chemo)radiotherapy on cardiovascular autonomic function in patients with head and neck cancer: a prospective observational study",
+    "doi": "10.21203/rs.3.rs-11267884/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11267884/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Educational inequalities in multimorbidity among older adults in China: an underreporting-corrected analysis using CHARLS",
+    "doi": "10.21203/rs.3.rs-11060183/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11060183/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Development and external evaluation of a routine laboratory-based three-ratio score for in- hospital mortality in older critically ill patients with atherosclerotic cardiovascular disease: a MIMIC-IV and eICU study",
+    "doi": "10.21203/rs.3.rs-10919961/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-10919961/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Demographics, Therapeutic Efficacy, and Comorbid Burden in Pityriasis Rubra Pilaris: Insights from a Retrospective Cohort",
+    "doi": "10.21203/rs.3.rs-10592536/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-10592536/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Deletion of LRP1 in Smooth Muscle Cells Induces Infrarenal Aortic Aneurysms in Mice",
+    "doi": "10.64898/2026.10.16.759442",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.10.16.759442",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Decoding voltage-gated sodium channels structure: Molecular mechanisms linking architecture, function, and disease.",
+    "doi": "10.1016/j.phrs.2026.109680",
+    "pmid": "42907296",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.phrs.2026.109680",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Published Erratum"
+      ]
+    }
+  },
+  {
+    "title": "Costs of caregiving after stroke: beyond the financial burden.",
+    "doi": "10.1093/eurjcn/zvag228",
+    "pmid": "42907921",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/eurjcn/zvag228",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Continuity after the coronary event: When the care pathway, not the stent, decides the outcome.",
+    "doi": "10.1097/jcma.0000000000001439",
+    "pmid": "42908061",
+    "pmcid": "",
+    "url": "https://doi.org/10.1097/jcma.0000000000001439",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Cohort profile: Bushehr Elderly Health (BEH) Program, Phase III",
+    "doi": "10.21203/rs.3.rs-10666544/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-10666544/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Clinical diagnoses associated with FIV seropositivity: reexamining expected clinical patterns in a large matched primary care cohort",
+    "doi": "10.21203/rs.3.rs-11184349/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11184349/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Cleveland Heart Disease Dataset: From Primary Data to an AI-Ready Resource.",
+    "doi": "10.21203/rs.3.rs-11455193/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11455193/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Circulating Immune and Cancer Driver Gene Biomarkers Precede Prostate Cancer Diagnosis by over 10 yr.",
+    "doi": "10.1016/j.eururo.2026.08.014",
+    "pmid": "42907294",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.eururo.2026.08.014",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Characteristics, Interventions, and Deprivation Patterns in Suspected Opioid-Associated Out-of-Hospital Cardiac Arrests Attended by North East Ambulance Service NHS Foundation Trust: A 36-Month Service Evaluation",
+    "doi": "10.64898/2026.10.20.26364948",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.10.20.26364948",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Characteristics of hemodynamics and fluid management in severe amlodipine poisoning with shock: a retrospective case series",
+    "doi": "10.21203/rs.3.rs-11205564/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11205564/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Changes in the apoptotic index, along with gene and protein expression levels, in splenomegaly due to portal vein stenosis in rats.",
+    "doi": "10.14670/hh-25-159",
+    "pmid": "42908407",
+    "pmcid": "",
+    "url": "https://doi.org/10.14670/hh-25-159",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Causal inference in oral health research: Beyond statistical significance toward a causal framework.",
+    "doi": "10.1002/jper.70217",
+    "pmid": "42908344",
+    "pmcid": "",
+    "url": "https://doi.org/10.1002/jper.70217",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Cardiovascular Adverse Events with Anti-CD38 Antibodies Added to Identical Myeloma Regimens: A Systematic Review and Meta- analysis",
+    "doi": "10.21203/rs.3.rs-11431265/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11431265/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Bringing Interoception Into the Clinical Setting of Alcohol Use Disorder",
+    "doi": "10.31234/osf.io/ne8tb_v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.31234/osf.io/ne8tb_v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Atypical MPO-ANCA–Associated Vasculitis Presenting as Acute Tubulointerstitial Nephritis and Cardiac Involvement: A Case Report",
+    "doi": "10.21203/rs.3.rs-11174995/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11174995/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Associations with SARS-CoV-2 Positivity Among People in Refugee Settlements",
+    "doi": "10.64898/2026.10.20.26365986",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.10.20.26365986",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Associations of average sleep duration and cumulative AIP with cardiometabolic multimorbidity risk in middle-aged and older Chinese adults: a CHARLS longitudinal study",
+    "doi": "10.21203/rs.3.rs-11063724/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11063724/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Association Between Postoperative Albumin-Corrected Anion Gap (ACAG) and 28-Day Mortality Risk in the Intensive Care Unit (ICU) After Cardiac Surgery: A Retrospective Study Based on Two Large Databases, Medical Information Mart for Intensive Care IV (MIMIC-IV) and eICU Collaborative Research Database (eICU-CRD)",
+    "doi": "10.21203/rs.3.rs-11177278/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11177278/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "An interval-based approach to measuring eating jet lag in female healthcare shift workers.",
+    "doi": "10.1080/07420528.2026.2750990",
+    "pmid": "42908413",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/07420528.2026.2750990",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "An early risk prediction nomogram for coronary artery lesions in Kawasaki disease: a retrospective cohort study.",
+    "doi": "10.1017/s1047951126124445",
+    "pmid": "42908278",
+    "pmcid": "",
+    "url": "https://doi.org/10.1017/s1047951126124445",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Acute heart failure in emergency settings.",
+    "doi": "10.1093/eurheartj/ehag744",
+    "pmid": "42906949",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/eurheartj/ehag744",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "A three-axis burden score and in-hospital mortality in ICU patients with heart failure and atrial fibrillation: limited incremental discrimination and transportability in a retrospective cohort study",
+    "doi": "10.21203/rs.3.rs-11188724/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-11188724/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "A novel RYR2 variant associated with catecholaminergic polymorphic ventricular tachycardia requiring extracorporeal cardiopulmonary resuscitation and complicated by cervical vascular injury: a case report",
+    "doi": "10.21203/rs.3.rs-10896361/v1",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.21203/rs.3.rs-10896361/v1",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "A Clinical Atlas for Phenome-Wide Association Study of Obstructive Sleep Apnea Across Electronic Health Record Domains",
+    "doi": "10.64898/2026.10.20.26366073",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.10.20.26366073",
+    "firstPublicationDate": "2026-10-22",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Which Method to Measure Arterial Stiffness: The Impossible Dilemma?",
+    "doi": "10.1161/hypertensionaha.126.27724",
+    "pmid": "42905790",
+    "pmcid": "",
+    "url": "https://doi.org/10.1161/hypertensionaha.126.27724",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Editorial"
+      ]
+    }
+  },
+  {
+    "title": "Validation of the \"Pathobiological Determinants of Atherosclerosis in Youth Risk Score\" in a Norwegian Cohort of Young Adults.",
+    "doi": "10.1093/eurjpc/zwag556",
+    "pmid": "42904939",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/eurjpc/zwag556",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Tricuspid Regurgitation in Transthyretin Amyloid Cardiomyopathy.",
+    "doi": "10.1001/jamacardio.2026.4493",
+    "pmid": "42905695",
+    "pmcid": "",
+    "url": "https://doi.org/10.1001/jamacardio.2026.4493",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Tricuspid Regurgitation in Transthyretin Amyloid Cardiomyopathy-Reply.",
+    "doi": "10.1001/jamacardio.2026.4496",
+    "pmid": "42905680",
+    "pmcid": "",
+    "url": "https://doi.org/10.1001/jamacardio.2026.4496",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "The triglyceride-glucose index and intramyocardial hemorrhage identify a high-risk phenotype in STEMI.",
+    "doi": "10.1016/j.ijcard.2026.135008",
+    "pmid": "42906820",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.ijcard.2026.135008",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Targeting ZIP12-mediated Zn2+ signaling as a treatment for pulmonary hypertension.",
+    "doi": "10.1126/scitranslmed.aee0680",
+    "pmid": "42905856",
+    "pmcid": "",
+    "url": "https://doi.org/10.1126/scitranslmed.aee0680",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Systemic Arterial Blood Pressure Targets and Extracorporeal Membrane Oxygenation or Death in Persistent Pulmonary Hypertension of Newborns: A Cohort Analysis.",
+    "doi": "10.1159/neo/adsag033",
+    "pmid": "42905643",
+    "pmcid": "",
+    "url": "https://doi.org/10.1159/neo/adsag033",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Surgical Technique: An Overlooked Factor in Atrial Fibrillation After Lung Resection.",
+    "doi": "10.1055/a-2980-7039",
+    "pmid": "42906623",
+    "pmcid": "",
+    "url": "https://doi.org/10.1055/a-2980-7039",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Superior cervical sympathetic ganglion enlargement in idiopathic intracranial hypertension: An exploratory case-control study.",
+    "doi": "10.1177/03331024261498850",
+    "pmid": "42904684",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/03331024261498850",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Structural Racism and Chronic Kidney Disease Among African Americans: A Research Process Guided by Public Health Critical Race Praxis.",
+    "doi": "10.1080/08964289.2026.2646506",
+    "pmid": "42904422",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/08964289.2026.2646506",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Standardizing cardiopulmonary bypass management for left ventricular assist device implantation: A clinical framework and checklist.",
+    "doi": "10.1177/02676591261500986",
+    "pmid": "42906130",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/02676591261500986",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Sex Differences in Heart Failure Treatment: A Signal Worth Pursuing?",
+    "doi": "10.1093/ejhf/xuag330",
+    "pmid": "42904310",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/ejhf/xuag330",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Seeing the invisible: Reorienting cardiovascular risk prediction across the disease trajectory.",
+    "doi": "10.1371/journal.pmed.1005263",
+    "pmid": "42905658",
+    "pmcid": "",
+    "url": "https://doi.org/10.1371/journal.pmed.1005263",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Safety and Effectiveness of Dolutegravir/Rilpivirine in Japanese People Living with HIV: Final Report of 6-Year Post-marketing Surveillance Study.",
+    "doi": "10.1007/s12325-026-03812-z",
+    "pmid": "42905242",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s12325-026-03812-z",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Renal artery imaging through long-term follow-up after radiofrequency renal denervation: Results from the SPYRAL Clinical Program.",
+    "doi": "10.1024/0301-1526/a001315",
+    "pmid": "42902709",
+    "pmcid": "",
+    "url": "https://doi.org/10.1024/0301-1526/a001315",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Remnant Clearance Capacity as a Determinant of Lipoprotein Oxidation: A Flux-capacity Framework.",
+    "doi": "10.5551/jat.66284",
+    "pmid": "42907409",
+    "pmcid": "",
+    "url": "https://doi.org/10.5551/jat.66284",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Racial and Geographic Disparities in Co-Documented Prostate Cancer and Hypertension Mortality Among U.S. Men, 1999-2024: A Multiple Cause of Death Analysis.",
+    "doi": "10.1007/s40615-026-03224-3",
+    "pmid": "42907705",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s40615-026-03224-3",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Quality standards for the diagnosis and management of ATTR and AL amyloidosis: a nominal group technique study.",
+    "doi": "10.1080/13506129.2026.2743072",
+    "pmid": "42902796",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/13506129.2026.2743072",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Prostatic Artery Embolization in a Patient With Bilateral Internal Iliac Artery Occlusions.",
+    "doi": "10.1177/15385744261501914",
+    "pmid": "42904919",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/15385744261501914",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Prevalence and clinical correlates of metabolic dysfunction-associated steatotic liver disease in heart failure.",
+    "doi": "10.1136/openhrt-2026-004357",
+    "pmid": "42906951",
+    "pmcid": "",
+    "url": "https://doi.org/10.1136/openhrt-2026-004357",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Prehospital point-of-care ultrasound as a decision-support tool: A structured narrative review.",
+    "doi": "10.5826/tuj.2026.19100",
+    "pmid": "42904388",
+    "pmcid": "",
+    "url": "https://doi.org/10.5826/tuj.2026.19100",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Potential roles for transient receptor potential vanilloid 1 in heart failure with preserved ejection fraction.",
+    "doi": "10.1080/19336950.2026.2746860",
+    "pmid": "42902773",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/19336950.2026.2746860",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Periprocedural Cardiac Hemodynamic Changes and Clinical Outcomes After Transjugular Intrahepatic Portosystemic Shunt.",
+    "doi": "10.1016/j.acra.2026.09.055",
+    "pmid": "42907268",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.acra.2026.09.055",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Perioperative Challenges of Unrepaired Tetralogy of Fallot in a Child With Severe Secondary Erythrocytosis: Lessons for the Modern Era.",
+    "doi": "10.1177/21501351261472481",
+    "pmid": "42904940",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/21501351261472481",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Obesity in Children Aged 2 to 12 Years: A Review.",
+    "doi": "10.1001/jama.2026.18806",
+    "pmid": "42905688",
+    "pmcid": "",
+    "url": "https://doi.org/10.1001/jama.2026.18806",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Neonatal and Infant Aortic Arch Surgery: Moving Beyond What Works.",
+    "doi": "10.1177/21501351261497309",
+    "pmid": "42904943",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/21501351261497309",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Multiscale modeling reveals non-linear dynamics of AKT-mediated NO-ROS crosstalk in shear stress-induced endothelial phenotype.",
+    "doi": "10.1371/journal.pcbi.1014860",
+    "pmid": "42905865",
+    "pmcid": "",
+    "url": "https://doi.org/10.1371/journal.pcbi.1014860",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Multimodality imaging for predicting regional wall motion recovery after percutaneous coronary intervention for chronic total occlusion.",
+    "doi": "10.1016/j.ijcard.2026.135009",
+    "pmid": "42906821",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.ijcard.2026.135009",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Multimodal Left Ventricular Rehabilitation Enabling Double-Switch Repair in Congenitally Corrected Transposition of the Great Arteries.",
+    "doi": "10.1016/j.jaccas.2026.110838",
+    "pmid": "42905037",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.jaccas.2026.110838",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article",
+        "Case Reports"
+      ]
+    }
+  },
+  {
+    "title": "Multimodal Atrial Cardiomyopathy Phenotypes for Risk Stratification in Severe Aortic Stenosis Undergoing TAVI.",
+    "doi": "10.1093/eschf/xvag260",
+    "pmid": "42904305",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/eschf/xvag260",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Modelling the human IL6RA Asp358Ala variant in mice: effects on atherosclerosis and abdominal aortic aneurysm",
+    "doi": "10.64898/2026.10.16.759391",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.10.16.759391",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "Mitochondrial pharmacology of cardiovascular and antidiabetic drugs: Mechanistic basis of cardioprotection and cardiotoxicity in the diseased heart.",
+    "doi": "10.1016/j.bbadis.2026.168505",
+    "pmid": "42906793",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.bbadis.2026.168505",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Matching Electrode Configuration to Signal Sensing for Cardiac Electroanatomic Mapping: A Critical Appraisal.",
+    "doi": "10.1016/j.ipej.2026.10.011",
+    "pmid": "42906816",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.ipej.2026.10.011",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Lunar phases, meteorological conditions, astrological signs, and postoperative outcomes of acute type A aortic dissection: Results of a retrospective cohort study.",
+    "doi": "10.1177/02676591261495414",
+    "pmid": "42908132",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/02676591261495414",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Long non-coding RNA LINC00657 aggravates atrial fibrosis in atrial fibrillation via the miR-144-3p/ROCK1 competing endogenous RNA axis.",
+    "doi": "10.1007/s10142-026-02075-9",
+    "pmid": "42905279",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s10142-026-02075-9",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Lipidomics Analysis Reveals That Lipid Profile Is Associated With the Liver and Plasma in ApoE-/- Atherosclerotic Mice.",
+    "doi": "10.1002/lipd.70089",
+    "pmid": "42904803",
+    "pmcid": "",
+    "url": "https://doi.org/10.1002/lipd.70089",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Left atrial appendage occlusion for stroke prevention in atrial fibrillation: recent evidence, catheter ablation, and future trials.",
+    "doi": "10.1080/14779072.2026.2751760",
+    "pmid": "42908057",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/14779072.2026.2751760",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Initiation of Apixaban Versus Warfarin in Patients With Kidney Failure on Hemodialysis With Newly Diagnosed Atrial Fibrillation: A Target Trial Emulation.",
+    "doi": "10.1053/j.ajkd.2026.08.009",
+    "pmid": "42906734",
+    "pmcid": "",
+    "url": "https://doi.org/10.1053/j.ajkd.2026.08.009",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Incidence, Modifiable Risk Factors, and Management of Cardiomyopathy After Ventricular Leadless Pacemaker Implantation.",
+    "doi": "10.1016/j.hrthm.2026.10.022",
+    "pmid": "42906715",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.hrthm.2026.10.022",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Impact of type 2 diabetes mellitus in patients with congenital heart disease (CHD): a study from the Australian National CHD Registry.",
+    "doi": "10.1136/bmjdrc-2026-006465",
+    "pmid": "42907138",
+    "pmcid": "",
+    "url": "https://doi.org/10.1136/bmjdrc-2026-006465",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Impact of Surrounding Fluid Impedance on Contact Sensing Vulnerabilities and Staining Depth During Pulsed Field Ablation.",
+    "doi": "10.1016/j.hrthm.2026.10.025",
+    "pmid": "42906714",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.hrthm.2026.10.025",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Impact of Stent Age on Antithrombotic Strategy for Atrial Fibrillation in Patients with Drug-eluting Stents.",
+    "doi": "10.1055/a-2977-5632",
+    "pmid": "42906622",
+    "pmcid": "",
+    "url": "https://doi.org/10.1055/a-2977-5632",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Clinical Trial",
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Immunosuppressive termination of pro-inflammatory miRNA degradation via circular RNA nanosponge for sepsis-induced cardiomyopathy treatment.",
+    "doi": "10.1016/j.jconrel.2026.115466",
+    "pmid": "42906695",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.jconrel.2026.115466",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Gut Dubosiella newyorkensis alleviates noise-related atherosclerosis by reducing N1-methyl-4-pyridone-3-carboxamide.",
+    "doi": "10.1016/j.phrs.2026.109689",
+    "pmid": "42906649",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.phrs.2026.109689",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Giant macular hole in a female patient with X-linked Alport syndrome harboring a novel de novo COL4A5 variant.",
+    "doi": "10.1007/s10633-026-10159-x",
+    "pmid": "42905207",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s10633-026-10159-x",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "From Polycystic Ovary Syndrome to Polyendocrine Metabolic Ovarian Syndrome: A Practical Clinical Review.",
+    "doi": "10.1016/j.amjms.2026.10.006",
+    "pmid": "42906749",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.amjms.2026.10.006",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Follistatin-Mediated Browning of Adipose Tissue Improves Cardiometabolic Health.",
+    "doi": "10.1161/hypertensionaha.126.27910",
+    "pmid": "42905789",
+    "pmcid": "",
+    "url": "https://doi.org/10.1161/hypertensionaha.126.27910",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Editorial"
+      ]
+    }
+  },
+  {
+    "title": "First-tier copy-number variant analysis in inherited cardiomyopathy: reconsidering the case for second-tier triage.",
+    "doi": "10.1093/europace/euag291",
+    "pmid": "42904573",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/europace/euag291",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Feasibility and outcomes of long-segment tracheal replacement with biological and engineered scaffolds.",
+    "doi": "10.1007/s11748-026-02416-2",
+    "pmid": "42905203",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s11748-026-02416-2",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Exploratory topological modeling of reported frequencies of aortic arch branching variations.",
+    "doi": "10.1007/s12565-026-00978-y",
+    "pmid": "42905221",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s12565-026-00978-y",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Exercise Capacity-Based Risk Stratification in Adult Congenital Heart Disease: From Prognosis to Clinical Use.",
+    "doi": "10.1080/14017431.2026.2753376",
+    "pmid": "42904535",
+    "pmcid": "",
+    "url": "https://doi.org/10.1080/14017431.2026.2753376",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Evaluating Patients for Renal Denervation: A Pragmatic Approach.",
+    "doi": "10.1161/hypertensionaha.126.27563",
+    "pmid": "42905791",
+    "pmcid": "",
+    "url": "https://doi.org/10.1161/hypertensionaha.126.27563",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Electrosurgical septotomy across the full spectrum of aortic dissection.",
+    "doi": "10.1093/ejcts/ezag246",
+    "pmid": "42902781",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/ejcts/ezag246",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Effects of Aldosterone Synthase Inhibitor Baxdrostat on Albuminuria in CKD and Uncontrolled Hypertension.",
+    "doi": "10.2215/cjn.0000001248",
+    "pmid": "42905977",
+    "pmcid": "",
+    "url": "https://doi.org/10.2215/cjn.0000001248",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Effectiveness of cardiac resynchronization therapy in cancer therapy-related cardiac dysfunction: a systematic review and meta-analysis.",
+    "doi": "10.1007/s00520-026-11364-9",
+    "pmid": "42905170",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s00520-026-11364-9",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Meta-Analysis",
+        "IM",
+        "Systematic Review",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Effect of a Multilevel Intervention on Racial Disparities in Medication Adherence: An Analysis of the Rich Life Project.",
+    "doi": "10.1007/s11606-026-10951-0",
+    "pmid": "42907691",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s11606-026-10951-0",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Echocardiographic predictors of left ventricular ejection fraction improvement after transcatheter aortic valve replacement.",
+    "doi": "10.1007/s12574-026-00753-y",
+    "pmid": "42905218",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s12574-026-00753-y",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Early and Mid-Term Mortality After Transcatheter Aortic Valve Implantation: Five-Year Experience from the KOSUTAVI Study.",
+    "doi": "10.14744/anatoljcardiol.2026.6567",
+    "pmid": "42904374",
+    "pmcid": "",
+    "url": "https://doi.org/10.14744/anatoljcardiol.2026.6567",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Early Rhythm Control vs Usual Care After Acute Ischemic Stroke in Patients With Atrial Fibrillation.",
+    "doi": "10.1212/wnl.0000000000218736",
+    "pmid": "42906070",
+    "pmcid": "",
+    "url": "https://doi.org/10.1212/wnl.0000000000218736",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Dysregulation of Growth Hormone Axis after Roux-en-Y Gastric Bypass.",
+    "doi": "10.1210/clinem/dgag428",
+    "pmid": "42904318",
+    "pmcid": "",
+    "url": "https://doi.org/10.1210/clinem/dgag428",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Dual antithrombic therapy with DOAC plus ticagrelor versus DOAC plus clopidogrel after PCI: results from the ReDUAL PCI real life registry-based randomized controlled trial.",
+    "doi": "10.1016/j.ijcard.2026.135007",
+    "pmid": "42906822",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.ijcard.2026.135007",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Does Ethnicity Influence the Long-Term Outcomes of Sleeve Gastrectomy? Results from a Prospectively Maintained Israeli Database.",
+    "doi": "10.1007/s11695-026-08904-x",
+    "pmid": "42905359",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s11695-026-08904-x",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Diabetes, stone composition, and renal function in a large cohort of patients with nephrolithiasis.",
+    "doi": "10.1093/joneph/aajag260",
+    "pmid": "42904311",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/joneph/aajag260",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Development of an artificial intelligence algorithm for automated detection of cardiovascular intervention-related complications.",
+    "doi": "10.1007/s12471-026-02082-2",
+    "pmid": "42905390",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s12471-026-02082-2",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Depressive symptoms in older patients with atrial fibrillation: From clinical phenotype to targeted intervention.",
+    "doi": "10.1016/j.ejim.2026.107237",
+    "pmid": "42907242",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.ejim.2026.107237",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Letter",
+        "IM"
+      ]
+    }
+  },
+  {
+    "title": "Correction to: Use and Cost Patterns of Antihypertensive Medications in the United States From 1996 to 2021.",
+    "doi": "10.1161/hyp.0000000000000268",
+    "pmid": "42905793",
+    "pmcid": "",
+    "url": "https://doi.org/10.1161/hyp.0000000000000268",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Published Erratum",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Correction to: Abstract Fri013: The Aortic Inflammation Affects Long-Term Freedom From Reintervention After Aortic Arch Procedures.",
+    "doi": "10.1161/atv.0000000000000200",
+    "pmid": "42905859",
+    "pmcid": "",
+    "url": "https://doi.org/10.1161/atv.0000000000000200",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Coronary microvascular dysfunction in takotsubo syndrome: An interventional perspective on pathophysiology, diagnostic workflow and prognosis.",
+    "doi": "10.1016/j.ijcard.2026.135011",
+    "pmid": "42906823",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.ijcard.2026.135011",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Computed tomography angiography with three-dimensional reconstruction for planning aortic valve replacement via right anterior mini-thoracotomy.",
+    "doi": "10.12809/hkmj2513691",
+    "pmid": "42902830",
+    "pmcid": "",
+    "url": "https://doi.org/10.12809/hkmj2513691",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Comparative cost analysis of Eluvia™ versus Zilver® PTX® in treating femoropopliteal peripheral artery disease utilizing real-world data.",
+    "doi": "10.57264/cer-2026-0126",
+    "pmid": "42905133",
+    "pmcid": "",
+    "url": "https://doi.org/10.57264/cer-2026-0126",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Clinical phenotypes, outcomes, and myocardial transcriptomic signatures in inflammatory myocardial disease: A prospective cohort study.",
+    "doi": "10.1016/j.ijcard.2026.135012",
+    "pmid": "42906819",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.ijcard.2026.135012",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Clinical Characteristics, Lesion Distribution, and Systemic Comorbidities in Patients With Oral Lichen Planus.",
+    "doi": "10.1111/jop.70192",
+    "pmid": "42904850",
+    "pmcid": "",
+    "url": "https://doi.org/10.1111/jop.70192",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Cerebrospinal fluid shunting and venous sinus stenting in sight-threatening idiopathic intracranial hypertension: a practical review of current evidence.",
+    "doi": "10.1136/jnnp-2026-339185",
+    "pmid": "42907171",
+    "pmcid": "",
+    "url": "https://doi.org/10.1136/jnnp-2026-339185",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Carcinomatous meningitis: Current insights into diagnosis, prognosis and management.",
+    "doi": "10.1016/j.revmed.2026.09.016",
+    "pmid": "42907241",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.revmed.2026.09.016",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "COVID-19 severity among individuals with chronic diseases.",
+    "doi": "10.1016/j.clinsp.2026.101218",
+    "pmid": "42906455",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.clinsp.2026.101218",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Burden of congenital birth defects in the ten countries with the highest numbers of births from 1990 to 2023, with projections to 2040: A retrospective population-level ecological study.",
+    "doi": "10.1177/00368504261501035",
+    "pmid": "42905474",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/00368504261501035",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Beyond Conventional Antihypertensives: RNA Interference, Endothelin Antagonism, and Aldosterone-Synthase Inhibition in the Current Therapeutic Landscape.",
+    "doi": "10.1007/s40256-026-00830-8",
+    "pmid": "42907726",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s40256-026-00830-8",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Association of Antihypertensive Medications with Orthostatic Hypotension among OIder Adults.",
+    "doi": "10.1093/ajh/hpag126",
+    "pmid": "42902777",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/ajh/hpag126",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Association between SGLT2 inhibitor use and functional outcomes in elderly patients receiving ferric carboxymaltose: a retrospective observational cohort study.",
+    "doi": "10.1007/s11739-026-04571-z",
+    "pmid": "42905372",
+    "pmcid": "",
+    "url": "https://doi.org/10.1007/s11739-026-04571-z",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Association Between Age, Systemic Diseases and Oral Health Habits in Stomatological Teaching Hospital Patients: A Cross-Sectional Study.",
+    "doi": "10.3290/j.ohpd.c_2838",
+    "pmid": "42905045",
+    "pmcid": "",
+    "url": "https://doi.org/10.3290/j.ohpd.c_2838",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Anticoagulation in Atrial Fibrillation With Previous Intracranial Bleeding: Competing Adverse Events in a Nationwide Cohort.",
+    "doi": "10.1212/wnl.0000000000218719",
+    "pmid": "42906071",
+    "pmcid": "",
+    "url": "https://doi.org/10.1212/wnl.0000000000218719",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Anti-annexin A5 Autoantibodies in Pulmonary Arterial Hypertension Related to Human Immunodeficiency Virus Infection (HIV-PAH): A Case-Control Study.",
+    "doi": "10.1093/infdis/jiag470",
+    "pmid": "42905429",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/infdis/jiag470",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Alzheimer's Disease and Related Dementias is Associated with Worse Clinical and Patient-centered Outcomes in Patient Admitted for Heart Failure.",
+    "doi": "10.1159/dem/aciag016",
+    "pmid": "42905616",
+    "pmcid": "",
+    "url": "https://doi.org/10.1159/dem/aciag016",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Alberto (Tito) Nasjletti, M.D. (1941-2026).",
+    "doi": "10.1161/hypertensionaha.126.27728",
+    "pmid": "42905792",
+    "pmcid": "",
+    "url": "https://doi.org/10.1161/hypertensionaha.126.27728",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "A Photocurable Hydrogel Cardiac Patch Incorporating Formononetin-Loaded Lipid Nanoparticles for Myocardial Repair After Acute Ischemia.",
+    "doi": "10.1002/adhm.71879",
+    "pmid": "42908214",
+    "pmcid": "",
+    "url": "https://doi.org/10.1002/adhm.71879",
+    "firstPublicationDate": "2026-10-21",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "The Impact of Immunoglobulins on Cardiovascular Diseases and Lipid Profiles in Elderly and Middle-Aged Chinese Individuals: A 15-Year Retrospective Study.",
+    "doi": "10.1002/jcla.70363",
+    "pmid": "42902915",
+    "pmcid": "",
+    "url": "https://doi.org/10.1002/jcla.70363",
+    "firstPublicationDate": "2026-10-20",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Stenosis of a novel frozen elephant trunk in a patient with chronic dissection.",
+    "doi": "10.1093/icvts/ivag279",
+    "pmid": "42902780",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/icvts/ivag279",
+    "firstPublicationDate": "2026-10-20",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Intravascular Lithotripsy of Aortic and Renal Lesions as a Therapeutic Tool for Pickering Syndrome: A Case Report.",
+    "doi": "10.1177/15385744261501201",
+    "pmid": "42902696",
+    "pmcid": "",
+    "url": "https://doi.org/10.1177/15385744261501201",
+    "firstPublicationDate": "2026-10-20",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Intraoperative New-onset Atrial Fibrillation during Endoscopic Retrograde Cholangiopancreatography: A Peri-anesthetic Challenge.",
+    "doi": "10.4103/aam.aam_739_26",
+    "pmid": "42904333",
+    "pmcid": "",
+    "url": "https://doi.org/10.4103/aam.aam_739_26",
+    "firstPublicationDate": "2026-10-20",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Genetic Characterization of Familial and Multifactorial Chylomicronemia in Taiwanese Patients with Severe Hypertriglyceridemia.",
+    "doi": "10.5551/jat.66426",
+    "pmid": "42907354",
+    "pmcid": "",
+    "url": "https://doi.org/10.5551/jat.66426",
+    "firstPublicationDate": "2026-10-20",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Conduction System Pacing for Resynchronization Therapy in Heart Failure: A Meta-Analysis of Randomized Controlled Trials.",
+    "doi": "10.1016/j.jacasi.2026.09.002",
+    "pmid": "42905032",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.jacasi.2026.09.002",
+    "firstPublicationDate": "2026-10-20",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "A Cross-sectional Study for Estimation of Prevalence of Cognitive Impairment in Epileptic Patients.",
+    "doi": "10.4103/aam.aam_808_26",
+    "pmid": "42904315",
+    "pmcid": "",
+    "url": "https://doi.org/10.4103/aam.aam_808_26",
+    "firstPublicationDate": "2026-10-20",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Advances in Smart Hydrogels for Myocardial Infarction Therapy: A Scoping Review of Applications, Challenges, and Future Perspectives.",
+    "doi": "10.1155/ijbm/7925127",
+    "pmid": "42898923",
+    "pmcid": "PMC13678413",
+    "url": "https://doi.org/10.1155/ijbm/7925127",
+    "firstPublicationDate": "2026-10-18",
+    "firstIndexDate": "2026-10-21",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "The 'Upstairs-Downstairs' heart with complete main pulmonary artery agenesis and PDA-dependent pulmonary circulation: A rare structural intersection characterized by multi detector computed tomography.",
+    "doi": "10.1016/j.radcr.2026.09.054",
+    "pmid": "42903839",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.radcr.2026.09.054",
+    "firstPublicationDate": "2026-10-13",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article",
+        "Case Reports"
+      ]
+    }
+  },
+  {
+    "title": "c-Jun N-Terminal Kinase-2 Mediates Alcohol and Corticosterone-Induced Tissue Injury at the Gut-Liver Axis.",
+    "doi": "10.1096/fj.202601355r",
+    "pmid": "42895205",
+    "pmcid": "PMC13678842",
+    "url": "https://doi.org/10.1096/fj.202601355r",
+    "firstPublicationDate": "2026-10-01",
+    "firstIndexDate": "2026-10-21",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "[Association of maternal dietary intake, folic acid supplementation and offspring betaine-homocysteine methyltransferase (BHMT) and BHMT2 gene polymorphisms with congenital heart disease].",
+    "doi": "10.3760/cma.j.cn112338-20260122-00059",
+    "pmid": "42907196",
+    "pmcid": "",
+    "url": "https://doi.org/10.3760/cma.j.cn112338-20260122-00059",
+    "firstPublicationDate": "2026-10-01",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article",
+        "English Abstract"
+      ]
+    }
+  },
+  {
+    "title": "Extracellular Vesicles in Neonatology: Have We Found the Magic Bullet?",
+    "doi": "10.3390/biology15191734",
+    "pmid": "42883409",
+    "pmcid": "PMC13663524",
+    "url": "https://doi.org/10.3390/biology15191734",
+    "firstPublicationDate": "2026-10-01",
+    "firstIndexDate": "2026-10-19",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Early Morbidity and Survival After Left Lateral Segment Versus Whole Liver Graft Transplantation in Children.",
+    "doi": "10.1111/petr.70501",
+    "pmid": "42899388",
+    "pmcid": "PMC13681243",
+    "url": "https://doi.org/10.1111/petr.70501",
+    "firstPublicationDate": "2026-10-01",
+    "firstIndexDate": "2026-10-21",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Comparative Study",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Comparison analysis of the triglyceride-glucose index, triglyceride-glucose and frailty index in cardiovascular disease and mortality association among patients with rheumatoid arthritis: A population-based cohort study.",
+    "doi": "10.1097/md.0000000000051143",
+    "pmid": "42888590",
+    "pmcid": "PMC13681120",
+    "url": "https://doi.org/10.1097/md.0000000000051143",
+    "firstPublicationDate": "2026-10-01",
+    "firstIndexDate": "2026-10-19",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Comparative Study",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Clinical Outcomes After Recovered, Positive, and Negative Pulse Oximetry Screening Results Among Newborns.",
+    "doi": "10.1001/jamanetworkopen.2026.39860",
+    "pmid": "42905704",
+    "pmcid": "",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2026.39860",
+    "firstPublicationDate": "2026-10-01",
+    "firstIndexDate": "2026-10-23",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "IM",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Reduced Plasma Cardiac Myosin-Binding Protein-C Concentrations in Cats with Hypertrophic Cardiomyopathy: Evidence from Chronic, Treated Disease.",
+    "doi": "10.3390/ani16193084",
+    "pmid": "42883053",
+    "pmcid": "PMC13663380",
+    "url": "https://doi.org/10.3390/ani16193084",
+    "firstPublicationDate": "2026-09-30",
+    "firstIndexDate": "2026-10-19",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Genetic Insights Into Cryptogenic Stroke: From Etiologic Heterogeneity to Clinical Translation.",
+    "doi": "10.5853/jos.2026.03923",
+    "pmid": "42894450",
+    "pmcid": "PMC13678327",
+    "url": "https://doi.org/10.5853/jos.2026.03923",
+    "firstPublicationDate": "2026-09-30",
+    "firstIndexDate": "2026-10-21",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Absent right pulmonary artery with patent ductus arteriosus and Eisenmenger syndrome.",
+    "doi": "10.1093/ehjimp/qyag169",
+    "pmid": "42893297",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/ehjimp/qyag169",
+    "firstPublicationDate": "2026-09-30",
+    "firstIndexDate": "2026-10-19",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article",
+        "Case Reports"
+      ]
+    }
+  },
+  {
+    "title": "Absent right pulmonary artery with patent ductus arteriosus and Eisenmenger syndrome",
+    "doi": "",
+    "pmid": "",
+    "pmcid": "PMC13676300",
+    "url": "https://europepmc.org/article/PMC/PMC13676300",
+    "firstPublicationDate": "2026-09-30",
+    "firstIndexDate": "2026-10-19",
+    "cardioupdate_detected_at": "2026-10-23",
+    "pubTypeList": {
+      "pubType": [
+        "Case Reports",
+        "case-report"
+      ]
+    }
+  },
+  {
     "title": "A Systematic Review of Complications Following Elective Foot and Ankle Surgery.",
     "doi": "10.1002/jfa2.70235",
     "pmid": "42894440",
@@ -76,7 +3093,6 @@
     "cardioupdate_detected_at": "2026-10-22",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -7740,10 +10756,8 @@
     "cardioupdate_detected_at": "2026-10-21",
     "pubTypeList": {
       "pubType": [
-        "Clinical Trial",
         "Randomized Controlled Trial",
         "Journal Article",
-        "Case Reports",
         "case-report"
       ]
     }
@@ -12988,7 +16002,7 @@
     }
   },
   {
-    "title": "CCTP-Atlas: Compartment-Resolved Ciliary Transcriptional Dysregulation in Tetralogy of Fallot, A Six-Dataset Integrative Meta-Analysis",
+    "title": "CCTP-Atlas: Compartment-Resolved Ciliary Transcriptional Dysregulation in Tetralogy of Fallot — A Six-Dataset Integrative Meta-Analysis",
     "doi": "10.64898/2026.10.12.758603",
     "pmid": "",
     "pmcid": "",
@@ -21563,13 +24577,14 @@
     "title": "Mathematical simulations of paediatric haemodynamics in isolated ventricular septal defect.",
     "doi": "10.1098/rsif.2026.0187",
     "pmid": "42869463",
-    "pmcid": "",
+    "pmcid": "PMC13682560",
     "url": "https://doi.org/10.1098/rsif.2026.0187",
     "firstPublicationDate": "2026-10-01",
     "firstIndexDate": "2026-10-19",
     "cardioupdate_detected_at": "2026-10-19",
     "pubTypeList": {
       "pubType": [
+        "research-article",
         "Journal Article"
       ]
     }
