@@ -1,337 +1,57 @@
 [
   {
-    "date": "2026-10-23",
-    "generated_at": "2026-10-23T14:25:40.633095+00:00",
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T13:35:53.768544+00:00",
     "items": [
       {
-        "title": "Predictores de ictus recurrente pese a objetivo intensivo de presión arterial tras ictus lacunar",
-        "what_happened": "Un análisis secundario y post hoc de 1.501 participantes del ensayo SPS3 asignados a una presión arterial sistólica objetivo inferior a 130 mmHg identificó que la aterosclerosis de grandes vasos y el uso de aspirina o clopidogrel en el ictus índice se asociaron independientemente con recurrencia de ictus durante una mediana de 3,49 años. La aleatorización a doble antiagregación no se asoció con menor recurrencia en este análisis.",
-        "why_relevant": "La observación subraya que el control intensivo de la presión arterial, aunque recomendado en prevención secundaria del ictus, puede no neutralizar el riesgo atribuible a enfermedad aterosclerótica coexistente. El desenlace fue clínico y adjudicado, no un marcador sustituto.",
-        "practical_implication": "La prevención secundaria tras ictus lacunar debería incluir una búsqueda sistemática de aterosclerosis de grandes vasos y una intensificación integral de los factores de riesgo, especialmente presión arterial y lípidos. Los hallazgos no justifican modificar por sí solos la estrategia antiagregante, porque proceden de un análisis post hoc restringido a un brazo del ensayo.",
-        "source_title": "Predictors of recurrent stroke among patients with lacunar stroke receiving intensive blood pressure control: a secondary analysis of the secondary prevention of small subcortical strokes trial.",
+        "title": "CAC avanzado en adultos de 30 a 45 años y mortalidad a 30 años",
+        "what_happened": "En una cohorte retrospectiva de 12.847 adultos de 30 a 45 años sometidos a CAC por indicación clínica, un CAC por encima del percentil 90 se asoció, tras ajuste multivariable, con mayor mortalidad total, cardiovascular y coronaria durante una mediana de 22,6 años. Frente a CAC=0, los hazard ratios ajustados fueron 1,87 para mortalidad total, 2,60 para mortalidad cardiovascular y 3,71 para mortalidad coronaria.",
+        "why_relevant": "Aporta evidencia pronóstica de muy largo plazo sobre el significado de una carga calcificada prematura en adultos jóvenes, un grupo en el que las estimaciones convencionales de riesgo a corto plazo suelen infraestimar el riesgo vital acumulado. Evalúa eventos clínicos de mortalidad, no solo un marcador sustituto.",
+        "practical_implication": "La detección de CAC claramente elevado en adultos jóvenes seleccionados puede identificar un fenotipo de riesgo especialmente alto que justifique revisar con mayor intensidad la exposición acumulada a LDL/apoB, los antecedentes familiares, la posible hipercolesterolemia familiar y el control global de factores de riesgo. Por su diseño observacional y por tratarse de una cohorte derivada de pacientes remitidos para CAC, el estudio no demuestra que realizar CAC ni intensificar tratamiento a partir de este hallazgo reduzca la mortalidad.",
+        "source_title": "Advanced Subclinical Atherosclerosis in Young Individuals and Risk of Mortality Over 30 Years: The Coronary Artery Calcium Consortium.",
         "journal": "",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1080/01616412.2026.2739260"
+        "url": "https://doi.org/10.1001/jamacardio.2026.4819"
       },
       {
-        "title": "Discrepancias entre guías sobre prácticas de bajo valor en prevención cardiovascular",
-        "what_happened": "Una revisión narrativa de guías de prevención cardiovascular publicadas entre 2017 y 2025 encontró desacuerdos sustanciales entre sociedades científicas respecto al uso del calcio coronario (CAC), la determinación de lipoproteína(a), el cribado de aneurisma de aorta abdominal y el inicio de tratamiento hipolipemiante en personas mayores.",
-        "why_relevant": "El CAC y la Lp(a) son herramientas centrales en la estratificación del riesgo aterosclerótico, pero las recomendaciones heterogéneas reflejan que, en varios escenarios de cribado y decisión terapéutica, la base empírica descansa en estudios no aleatorizados, un único ensayo o consenso experto.",
-        "practical_implication": "La solicitud de CAC o Lp(a) debería vincularse a una pregunta clínica concreta y a la probabilidad de que el resultado modifique el tratamiento preventivo. La revisión no aporta nueva evidencia causal ni compara resultados clínicos entre estrategias; por tanto, no establece qué recomendación discordante es superior.",
-        "source_title": "Discrepancies in low-value practices across cardiovascular disease prevention guidelines. A narrative review.",
-        "journal": "The European journal of general practice",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1080/13814788.2026.2729221"
-      },
-      {
-        "title": "PCSK9 circulante y riesgo cardiovascular en prevención primaria: asociación distinta según sexo",
-        "what_happened": "En una cohorte prospectiva china de 1.876 adultos sin enfermedad cardiovascular basal, con 93 eventos durante una mediana de 6,7 años, concentraciones basales más elevadas de PCSK9 se asociaron con mayor riesgo cardiovascular en mujeres y con menor riesgo en varones tras ajuste por factores convencionales.",
-        "why_relevant": "El resultado contrasta con la eficacia clínica de la inhibición farmacológica de PCSK9 en determinados contextos de alto riesgo y recuerda que una concentración circulante de PCSK9 no equivale necesariamente a la actividad de la vía ni a una diana de estratificación validada.",
-        "practical_implication": "La determinación plasmática de PCSK9 no debería emplearse para estimar riesgo cardiovascular ni para seleccionar tratamiento en prevención primaria. Se trata de evidencia observacional, con pocos eventos y posible confusión residual; no demuestra causalidad ni respalda intervenciones diferenciadas por sexo.",
-        "source_title": "Circulating PCSK9 as a sex-stratified predictor in primary prevention of cardiovascular disease: Insights from a prospective cohort study in Chinese adults.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101785"
-      },
-      {
-        "title": "Plantas de la familia Lamiaceae y adiposidad en síndrome metabólico: metaanálisis de ensayos aleatorizados",
-        "what_happened": "Un metaanálisis de 20 ensayos clínicos aleatorizados, con 2.445 participantes, encontró reducciones estadísticamente significativas de IMC, peso, perímetro de cintura e índice cintura-cadera con intervenciones basadas en plantas de la familia Lamiaceae. No se observó un cambio significativo en masa grasa corporal.",
-        "why_relevant": "La obesidad central y el síndrome metabólico contribuyen de forma importante a hipertensión, diabetes y riesgo aterosclerótico. Sin embargo, los resultados disponibles corresponden a medidas antropométricas, no a eventos cardiovasculares, progresión aterosclerótica, apoB o LDL-colesterol.",
-        "practical_implication": "Estos productos, si se consideran, solo podrían plantearse como complemento de intervenciones estructuradas de estilo de vida y no como estrategia de prevención cardiovascular. La interpretación exige cautela por la duración corta de muchos ensayos, heterogeneidad de preparados y dosis, y limitaciones de sesgo en una parte de los estudios incluidos.",
-        "source_title": "Impact of lamiaceae plants on anthropometric indices in patients with metabolic syndrome: A systematic review and meta-analysis of randomized clinical trials.",
-        "journal": "Journal of ethnopharmacology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.jep.2026.122222"
-      },
-      {
-        "title": "Estandarización de la atención periprocedimiento en implante valvular aórtico transcatéter",
-        "what_happened": "Un documento práctico integró guías, consensos y evidencia previa en un conjunto de órdenes para el manejo perioperatorio del implante valvular aórtico transcatéter. Propone evaluación por Heart Team, valoración de fragilidad y cognición, estratificación del riesgo de trastornos de conducción, minimización de contraste, monitorización dirigida y simplificación antitrombótica según indicación de anticoagulación.",
-        "why_relevant": "La estandarización de vías asistenciales puede reducir la variabilidad en un procedimiento cardiovascular de uso creciente. El documento prioriza aspectos clínicos relevantes, como prevención de sangrado, lesión renal, complicaciones de conducción y estancias prolongadas.",
-        "practical_implication": "Los programas de implante valvular aórtico transcatéter pueden utilizar el esquema como base para protocolos locales, adaptándolo a recursos, perfiles de riesgo y recomendaciones vigentes. La vía completa no ha sido validada prospectivamente como paquete único, por lo que no permite atribuir beneficios clínicos a cada orden ni garantiza seguridad en todos los pacientes.",
-        "source_title": "Enhanced recovery after surgery turnkey order set for periprocedural care of the patient undergoing transcatheter aortic valve replacement.",
-        "journal": "JTCVS structural and endovascular",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.xjse.2026.100146"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-22",
-    "generated_at": "2026-10-22T14:47:48.126288+00:00",
-    "items": [
-      {
-        "title": "Firmas proteómicas plasmáticas para predecir progresión de aterosclerosis subclínica y riesgo cardiovascular",
-        "what_happened": "Un estudio de cohorte desarrolló dos puntuaciones proteómicas, una para progresión de calcio coronario (CAC) y otra para progresión de placa carotídea. En 903 participantes con evaluaciones repetidas durante 6 años, las puntuaciones explicaron el 17,1% y el 18,4% de la variabilidad de progresión de CAC y placa, respectivamente. En una cohorte caso-cohorte de 1.835 personas seguida una mediana de 10,4 años, cada desviación estándar de ambas puntuaciones se asoció con mayor riesgo de eventos ASCVD incidentes.",
-        "why_relevant": "El trabajo conecta imágenes de aterosclerosis subclínica prioritarias en prevención —CAC y placa carotídea— con riesgo posterior de eventos clínicos. Sugiere que la información proteómica podría añadir estratificación a los factores convencionales, particularmente en personas con riesgo clínico intermedio o discordancia entre factores de riesgo y carga aterosclerótica.",
-        "practical_implication": "La evidencia no justifica solicitar paneles proteómicos en la práctica asistencial. Las asociaciones proceden de una cohorte observacional y no demuestran que modificar la puntuación, ni emplearla para seleccionar tratamiento, reduzca eventos. Por ahora, CAC y la detección de placa deben interpretarse dentro de estrategias preventivas validadas, centradas en control de LDL-colesterol/apoB, presión arterial, tabaquismo y diabetes.",
-        "source_title": "Plasma proteomic signatures of subclinical atherosclerosis progression for cardiovascular risk stratification: A cohort study.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1371/journal.pmed.1005265"
-      },
-      {
-        "title": "Enfermedad cardiovascular aterosclerótica de inicio precoz en adultos jóvenes: factores de riesgo y prevención",
-        "what_happened": "Una revisión narrativa distingue entre ASCVD clínica precoz, factores de riesgo y alteraciones vasculares subclínicas en adolescentes y adultos jóvenes. Resalta como determinantes causales establecidos la exposición acumulada a lipoproteínas que contienen apoB y el tabaquismo; también subraya la utilidad del cribado lipídico, la medición de Lp(a) al menos una vez en la vida adulta y la evaluación dirigida de hipercolesterolemia familiar y antecedentes familiares.",
-        "why_relevant": "La revisión refuerza un concepto central de prevención cardiovascular: el riesgo aterosclerótico depende de la exposición acumulada, no solo del riesgo absoluto a 10 años. Esto es especialmente relevante en adultos jóvenes, en quienes los calculadores de corto plazo pueden infraestimar el impacto de LDL-colesterol elevado, apoB, Lp(a), hipertensión, obesidad, diabetes y nicotina.",
-        "practical_implication": "La evaluación preventiva en adultos jóvenes debe priorizar la identificación temprana de dislipidemia, hipertensión, tabaquismo y antecedentes familiares de ASCVD prematura. La revisión no avala CAC ni ecografía carotídea como cribado universal en asintomáticos jóvenes; estas pruebas pueden reservarse para decisiones individualizadas en adultos seleccionados. Al tratarse de una revisión narrativa, no aporta estimaciones nuevas de efecto ni prueba que una estrategia de imagen reduzca eventos.",
-        "source_title": "Early-onset atherosclerotic cardiovascular disease in young adults: Lifestyle, environmental, and psychosocial risk factors.",
-        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ijcrp.2026.200714"
-      },
-      {
-        "title": "Yoga Nidra para mejorar el sueño en pacientes con enfermedad coronaria estable: ensayo aleatorizado",
-        "what_happened": "Un ensayo aleatorizado, abierto con evaluación ciega de desenlaces, incluyó 144 pacientes con enfermedad coronaria estable y mala calidad del sueño. Tras 12 semanas de Yoga Nidra guiado, además de los consejos de higiene del sueño recibidos por todos los participantes, el grupo de intervención mostró mejoría en eficiencia y duración del sueño medidas por actigrafía, menor latencia y menor vigilia tras el inicio del sueño. También se comunicaron mejorías en estrés, síntomas depresivos y calidad de vida.",
-        "why_relevant": "El sueño deficiente, el estrés y la salud mental pueden dificultar la adherencia a medidas de prevención secundaria y al autocuidado en cardiopatía coronaria. El ensayo aporta evidencia aleatorizada para una intervención no farmacológica orientada a síntomas y calidad de vida en una población coronaria estable.",
-        "practical_implication": "Yoga Nidra podría contemplarse como intervención complementaria para pacientes coronarios con insomnio o mala calidad del sueño, sin sustituir rehabilitación cardiaca, tratamiento farmacológico basado en guías ni control intensivo de factores de riesgo. El estudio fue unicéntrico, de tamaño modesto y de 12 semanas; sus resultados principales fueron desenlaces de sueño y bienestar, no infarto, hospitalización, mortalidad, presión arterial sostenida ni eventos cardiovasculares.",
-        "source_title": "Effectiveness of Yoga-based guided meditation In Improving the quality of sleep in patients with coronary artery disease: The Yoga Nidra Trial.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101738"
-      },
-      {
-        "title": "Ejercicio supervisado durante tratamiento antipsicótico: metaanálisis de ensayos aleatorizados",
-        "what_happened": "Un metaanálisis de 28 ensayos clínicos aleatorizados, con 1.119 participantes tratados con antipsicóticos, encontró que el ejercicio supervisado redujo modestamente peso, porcentaje de grasa corporal y perímetro de cintura. También mejoró síntomas negativos y psicopatología general. No se observaron cambios significativos en presión arterial, glucosa en ayunas ni la mayoría de los parámetros lipídicos.",
-        "why_relevant": "Los antipsicóticos se asocian con ganancia ponderal y deterioro cardiometabólico, factores que amplifican el riesgo cardiovascular a largo plazo. La síntesis respalda el ejercicio supervisado como componente de prevención cardiometabólica en una población de alto riesgo y habitualmente infratratada.",
-        "practical_implication": "Los programas de ejercicio supervisado pueden integrarse en el manejo multidisciplinar de personas tratadas con antipsicóticos, especialmente para limitar adiposidad y favorecer salud mental. No deben presentarse como una intervención demostrada para prevenir eventos cardiovasculares ni como alternativa al cribado y tratamiento de hipertensión, diabetes y dislipidemia. La magnitud de los cambios antropométricos fue modesta, la evidencia para desenlaces metabólicos fue baja o muy baja en varios análisis y los ensayos no estaban diseñados para eventos clínicos.",
-        "source_title": "Exercise to enhance antipsychotic effectiveness and mitigate metabolic harm: systematic review and meta-analysis.",
-        "journal": "Journal of affective disorders",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.jad.2026.122587"
-      },
-      {
-        "title": "Mortalidad por cardiopatía isquémica con diabetes y dislipidemia documentadas en Estados Unidos: tendencias y desigualdades",
-        "what_happened": "Un análisis retrospectivo de certificados de defunción de CDC WONDER examinó, entre 1999 y 2024, las muertes por cardiopatía isquémica en adultos de 45 años o más que incluían además diabetes y dislipidemia como causas múltiples. La mortalidad ajustada por edad aumentó hasta 2022 y se estabilizó posteriormente. La carga fue mayor en hombres, personas de edad avanzada, población negra no hispana, residentes no metropolitanos y estados del sur; el análisis proyectó incrementos futuros mediante modelos ARIMA.",
-        "why_relevant": "El estudio pone de relieve la persistencia de una carga poblacional elevada de cardiopatía isquémica en presencia de diabetes y dislipidemia, y señala desigualdades geográficas y sociodemográficas relevantes para la implementación de prevención secundaria y primaria de muy alto riesgo.",
-        "practical_implication": "Los resultados apoyan reforzar el acceso sostenido al manejo concordante con guías de lípidos, diabetes y otros factores de riesgo, especialmente en poblaciones con mayor carga. No permiten estimar riesgo individual, atribuir causalidad a la diabetes o dislipidemia registradas, ni evaluar la efectividad de tratamientos concretos. La codificación en certificados de defunción puede ser incompleta o variable, y las proyecciones son modelizaciones, no observaciones futuras.",
-        "source_title": "Trends and projected burden of ischemic heart disease mortality with co-documented diabetes mellitus and dyslipidemia among U.S. adults, 1999-2024: a CDC WONDER analysis.",
-        "journal": "Journal of diabetes and metabolic disorders",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1007/s40200-026-02083-3"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-21",
-    "generated_at": "2026-10-21T14:39:44.746330+00:00",
-    "items": [
-      {
-        "title": "La albuminuria se asocia con mayor carga aterosclerótica coronaria subclínica en SCAPIS",
-        "what_happened": "Un análisis transversal de 9.424 participantes de la cohorte sueca SCAPIS evaluó la relación entre el cociente albúmina-creatinina urinaria, el calcio coronario y la estenosis por angiografía coronaria por TC. Tras ajustar por factores cardiometabólicos, la asociación con la carga de calcio coronario fue pequeña; las asociaciones con presencia de calcio y estenosis dejaron de ser significativas en los modelos más ajustados.",
-        "why_relevant": "La albuminuria puede señalar un fenotipo de mayor riesgo vascular y coexistir con aterosclerosis coronaria subclínica. Sin embargo, el estudio es observacional y transversal: no demuestra que la albuminuria cause aterosclerosis ni que tratarla reduzca la carga de placa o los eventos cardiovasculares.",
-        "practical_implication": "La albuminuria debe reforzar la evaluación integral de presión arterial, diabetes, función renal, tabaquismo y colesterol aterogénico. No justifica por sí sola solicitar CAC o angiografía coronaria por TC; la imagen debe reservarse para situaciones en las que pueda modificar una decisión preventiva.",
-        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
-        "journal": "Atherosclerosis plus",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
-      },
-      {
-        "title": "Persisten brechas de control de LDL-C en atención primaria pese a la intensificación farmacológica",
-        "what_happened": "Un seguimiento de 36 meses en 507 pacientes de atención primaria con hipertensión, enfermedad coronaria o diabetes observó una reducción media de LDL-C especialmente en quienes partían de valores más altos, paralela a un incremento de prescripciones de tratamiento hipolipemiante. Atorvastatina y rosuvastatina fueron los fármacos más utilizados. A pesar de la disminución, persistió una distancia respecto a los objetivos recomendados según riesgo.",
-        "why_relevant": "El estudio aporta evidencia de práctica clínica real sobre la dificultad de traducir la disponibilidad de tratamiento y las recomendaciones en una reducción sostenida de la exposición a LDL-C. La relevancia clínica reside en la prevención acumulativa: cuanto antes y durante más tiempo se reduzcan las lipoproteínas aterogénicas, menor debería ser la carga aterosclerótica, aunque este estudio no evaluó eventos.",
-        "practical_implication": "Los equipos asistenciales deberían revisar de forma estructurada el LDL-C, la adherencia, la intensidad de estatina y la necesidad de añadir tratamientos no estatínicos según el riesgo y los objetivos individuales. Sus resultados no permiten atribuir causalmente la reducción de LDL-C a un fármaco concreto ni estimar beneficio en eventos, al no disponer de un comparador aleatorizado.",
-        "source_title": "Changes in LDL-C levels among primary health care patients with hypertension, coronary artery disease, and diabetes during a 36-month follow-up.",
-        "journal": "Scandinavian journal of primary health care",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1080/02813432.2026.2718269"
-      },
-      {
-        "title": "La elegibilidad para estatinas aumentaría con el marco ACC/AHA 2026 en un análisis poblacional estadounidense",
-        "what_happened": "Un análisis de NHANES 2017-2020 comparó la elegibilidad para estatinas en prevención primaria según los marcos ACC/AHA de 2018 y 2026. El modelo estimó un aumento de la elegibilidad bajo el marco de 2026, con mayor incremento relativo entre adultos menores de 50 años. Los factores asociados con nueva elegibilidad incluyeron edad, índice de masa corporal, colesterol total, función renal, tabaquismo e hipertensión.",
-        "why_relevant": "El trabajo subraya que la incorporación de un marco de riesgo y criterios de elegibilidad actualizados puede ampliar la prevención farmacológica, particularmente en adultos jóvenes con exposición futura prolongada a factores de riesgo. No demuestra que la expansión de elegibilidad mejore resultados clínicos ni sustituye la valoración individual de beneficio absoluto, riesgos y preferencias.",
-        "practical_implication": "La implementación de cambios de guía debería acompañarse de identificación activa de hipertensión, tabaquismo, alteraciones lipídicas y enfermedad renal, además de estrategias para mejorar acceso, adherencia y seguimiento. La estimación procede de una encuesta poblacional y de aplicación retrospectiva de criterios, no de un ensayo clínico de la guía ni de una comparación de eventos.",
-        "source_title": "Changes in statin therapy eligibility under the 2026 versus 2018 dyslipidemia guidelines.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101719"
-      },
-      {
-        "title": "La fotografía retiniana con aprendizaje profundo estratifica riesgo ASCVD a 10 años en una cohorte prospectiva",
-        "what_happened": "En la cohorte AREDS, un estimador basado en fotografía de fondo de ojo, edad y sexo —incluido un sustituto de calcio coronario derivado mediante aprendizaje profundo— se asoció con eventos ASCVD incidentes durante hasta 10 años de seguimiento. En el subgrupo con datos para comparación, su discriminación fue numéricamente similar a la de las ecuaciones de cohortes agrupadas y mostró mejor calibración en esa muestra.",
-        "why_relevant": "El estudio ilustra el potencial de una evaluación oportunista de riesgo cardiovascular en entornos oftalmológicos, especialmente cuando faltan datos analíticos para calculadoras convencionales. Aporta predicción, no evidencia causal, y el marcador de CAC derivado por IA es un resultado sustituto, no una medición tomográfica de calcio coronario.",
-        "practical_implication": "La herramienta podría considerarse un apoyo futuro para identificar personas que requieren evaluación cardiovascular formal, medición de lípidos, presión arterial y estimación validada de riesgo. No debe reemplazar las calculadoras clínicas validadas, la cuantificación de CAC por TC cuando esté indicada, ni decidir por sí sola el inicio de tratamiento hipolipemiante.",
-        "source_title": "Opportunistic Cardiovascular Risk Assessment in the Eye Clinic: Validation of a Retinal Deep Learning-Based 10-Year Atherosclerotic Cardiovascular Disease Estimator.",
-        "journal": "Ophthalmology science",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.xops.2026.101386"
-      },
-      {
-        "title": "La CCTA amplía el fenotipado de la enfermedad coronaria no obstructiva, pero faltan estrategias guiadas por imagen con beneficio demostrado",
-        "what_happened": "Una revisión reciente sintetiza el uso de la angiografía coronaria por TC para caracterizar carga de placa, composición, rasgos de alto riesgo y cambios temporales en enfermedad coronaria no obstructiva. Señala que el calcio coronario y la CCTA pueden refinar la estratificación de riesgo, mientras que los marcadores inflamatorios y cardiometabólicos derivados de TC siguen siendo herramientas de fenotipado en evolución.",
-        "why_relevant": "La carga aterosclerótica y las características de placa pueden identificar riesgo residual que la sola estimación de estenosis no capta. No obstante, la revisión reconoce que todavía no existen algoritmos de tratamiento guiados por CCTA que hayan demostrado mejorar eventos clínicos frente a la prevención basada en riesgo convencional.",
-        "practical_implication": "En pacientes seleccionados, la demostración de placa no obstructiva o de carga aterosclerótica relevante debe reforzar el control intensivo de LDL-C, presión arterial, tabaquismo y otros factores de riesgo. No se debería utilizar la CCTA seriada, los rasgos de placa de alto riesgo ni biomarcadores derivados de TC como objetivos terapéuticos independientes hasta disponer de ensayos con resultados clínicos.",
-        "source_title": "Beyond stenosis: imaging phenotyping and risk stratification in nonobstructive coronary artery disease.",
-        "journal": "Current opinion in cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1097/HCO.0000000000001341"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-20",
-    "generated_at": "2026-10-20T14:30:34.693722+00:00",
-    "items": [
-      {
-        "title": "Las estatinas se asocian con mayor densidad cálcica y regresión de placa no calcificada en el ensayo CAUGHT-CAD",
-        "what_happened": "Un análisis post hoc del ensayo CAUGHT-CAD evaluó mediante angiografía coronaria por TC basal y a 3 años 840 lesiones de 338 adultos asintomáticos, de riesgo intermedio y sin tratamiento previo con estatinas. El tratamiento con estatinas se asoció con aumento de los componentes cálcicos de densidad intermedia y alta, junto con regresión de placa no calcificada; el cambio fue más marcado cuando el descenso de LDL-C fue efectivo.",
-        "why_relevant": "El hallazgo apoya que el aumento de calcificación observado durante tratamiento hipolipemiante no debe interpretarse automáticamente como progresión aterosclerótica adversa. Sugiere un cambio de composición compatible con estabilización de placa, pero no demuestra por sí mismo reducción de infarto, ictus o mortalidad.",
-        "practical_implication": "En prevención primaria seleccionada con CCTA seriada, la interpretación debe integrar volumen, composición de placa y descenso de LDL-C, evitando atribuir fracaso terapéutico al incremento aislado de calcio. La principal limitación es que se trata de un análisis post hoc con desenlaces de imagen sustitutos, no de eventos clínicos.",
-        "source_title": "Calcium Density as a Marker of Coronary Plaque Stabilization in Primary Prevention: The CAUGHT-CAD Trial.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1016/j.jcmg.2026.07.029"
-      },
-      {
-        "title": "Un score poligénico identifica riesgo residual de ASCVD en prevención primaria aparentemente de bajo riesgo",
-        "what_happened": "En una cohorte longitudinal de UK Biobank de 266.917 adultos sin ASCVD ni diabetes, sin hipolipemiantes y con LDL-C basal inferior a 190 mg/dL, un score poligénico de enfermedad coronaria se asoció gradualmente con el riesgo de infarto de miocardio, ictus isquémico o muerte cardiovascular. Las categorías genéticas de mayor riesgo mostraron asociaciones más fuertes que los estratos inferiores y mejoraron la discriminación y reclasificación sobre la estimación clínica convencional.",
-        "why_relevant": "El trabajo sugiere que una parte de las personas clasificadas como de bajo riesgo a 10 años acumula una susceptibilidad aterosclerótica que no capta adecuadamente la evaluación clínica convencional. Es particularmente pertinente para prevención precoz y para decisiones difíciles en adultos con riesgo calculado bajo pero antecedentes familiares sugestivos.",
-        "practical_implication": "El score poligénico podría considerarse una herramienta complementaria de estratificación en casos seleccionados, no un sustituto de factores de riesgo convencionales, Lp(a), LDL-C, apoB o imagen de aterosclerosis subclínica. La evidencia es observacional, procede de una cohorte específica y no demuestra que conocer el score ni tratar en función de él reduzca eventos.",
-        "source_title": "Utility of a coronary artery disease polygenic risk score in a low-risk primary prevention cohort.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101722"
-      },
-      {
-        "title": "La placa carotídea no mejora de forma relevante la discriminación de aterosclerosis coronaria en deportistas máster",
-        "what_happened": "Un análisis transversal del estudio Master@Heart comparó placa carotídea por ecografía, rigidez aórtica y aterosclerosis coronaria por CCTA en 549 hombres de bajo riesgo cardiovascular, incluidos deportistas de resistencia de larga trayectoria, deportistas de inicio tardío y controles sanos. La prevalencia de placa carotídea y la velocidad de onda de pulso no difirieron entre grupos. La placa carotídea se asoció con aterosclerosis coronaria, pero su incorporación a factores de riesgo tradicionales no mejoró la discriminación de enfermedad coronaria.",
-        "why_relevant": "El estudio recuerda que los distintos territorios vasculares no son intercambiables y que la carga de placa carotídea no necesariamente refleja la carga coronaria individual. Resulta relevante ante el uso creciente de ecografía carotídea para refinar el riesgo en prevención primaria.",
-        "practical_implication": "La ecografía carotídea puede documentar aterosclerosis subclínica, pero sus resultados deben interpretarse dentro del contexto clínico y no como un reemplazo de la evaluación coronaria cuando esta está indicada. La limitación fundamental es su diseño transversal, restringido a hombres de mediana edad con bajo riesgo; no permite inferir causalidad ni utilidad para prevenir eventos.",
-        "source_title": "Carotid atherosclerosis and aortic stiffness in masters athletes: Multimodality vascular phenotyping from the Master@Heart study.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101771"
-      },
-      {
-        "title": "La cuantificación de calcio coronario en imágenes virtuales sin contraste alcanza alta correlación, pero persisten errores de clasificación",
-        "what_happened": "En 239 pacientes sometidos a CCTA con TC de conteo fotónico, los valores de calcio coronario derivados de imágenes virtuales sin contraste mostraron excelente concordancia con los de adquisiciones verdaderas sin contraste. Sin embargo, la clasificación de carga de placa no fue plenamente coincidente, aunque mejoró tras lectura consensuada por radiólogos.",
-        "why_relevant": "La posibilidad de obtener CAC a partir de una CCTA con contraste podría reducir adquisiciones adicionales y radiación. No obstante, la clasificación por categorías de calcio es precisamente la que condiciona decisiones preventivas, por lo que la alta correlación estadística no equivale a intercambiabilidad clínica.",
-        "practical_implication": "Las imágenes virtuales sin contraste no deberían sustituir de forma rutinaria a la adquisición verdadera sin contraste para clasificar CAC hasta contar con validación adicional. El estudio es técnico y diagnóstico; no evalúa cambios de tratamiento, precisión pronóstica ni eventos cardiovasculares.",
-        "source_title": "Coronary artery calcium scoring using virtual vs. true non-contrast images from ultra-high-resolution and normal-resolution photon-counting coronary CT angiography.",
-        "journal": "European journal of radiology open",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ejro.2026.100795"
-      },
-      {
-        "title": "Persisten grandes brechas entre la percepción clínica y el control real de presión arterial y LDL-C en Rumanía",
-        "what_happened": "Dos estudios observacionales transversales SNAPSHOT realizados durante y después de la pandemia en Rumanía evaluaron 5.004 pacientes con hipertensión y dislipidemia. Los investigadores tendieron a infraestimar el riesgo cardiovascular respecto a los criterios de guías y a sobreestimar el control de presión arterial y LDL-C. Los resultados fueron similares en ambas evaluaciones temporales.",
-        "why_relevant": "La brecha entre riesgo estimado, objetivos terapéuticos y control real constituye un determinante modificable de prevención cardiovascular. El trabajo enfatiza que la disponibilidad de tratamiento no garantiza una reducción efectiva de la exposición acumulada a presión arterial elevada y LDL-C.",
-        "practical_implication": "La práctica clínica se beneficiaría de una reevaluación sistemática del riesgo, de objetivos individualizados y de mediciones objetivas de presión arterial y LDL-C, especialmente en pacientes catalogados como de riesgo alto o muy alto. El estudio describe una situación asistencial y no permite atribuir causalidad ni extrapolar directamente sus tasas de control a otros sistemas sanitarios.",
-        "source_title": "Real-world cardiovascular risk estimation, blood pressure and LDL-cholesterol control: Two epidemiological studies in Romania, during pandemic and post-pandemic (SNAPSHOT-Romania).",
-        "journal": "Atherosclerosis plus",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.athplu.2026.100573"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-19",
-    "generated_at": "2026-10-19T16:40:38.491082+00:00",
-    "items": [
-      {
-        "title": "La radiোমica de grasa epicárdica podría complementar el CAC en adultos negros con diabetes tipo 2",
-        "what_happened": "En un análisis observacional del registro CLARIFY, se evaluó si características radiómicas de la grasa adiposa epicárdica, obtenidas automáticamente en TC sin contraste, añadían información pronóstica al calcio coronario (CAC) y a un índice de privación social. En 1.024 participantes negros con diabetes tipo 2, el modelo combinado mejoró la reclasificación frente a CAC solo para eventos cardiovasculares mayores de tres componentes; este incremento no se observó en la cohorte blanca emparejada.",
-        "why_relevant": "El hallazgo aborda una limitación relevante de la prevención basada exclusivamente en CAC: su menor carga y capacidad discriminativa en determinados grupos, incluidos adultos negros con diabetes tipo 2. El desenlace fue clínico —muerte cardiovascular, infarto no fatal o ictus no fatal— y no un marcador sustituto.",
-        "practical_implication": "La grasa epicárdica radiomizada no debe sustituir al CAC ni a la valoración clínica convencional. Podría investigarse como complemento de estratificación en personas con diabetes tipo 2, especialmente cuando el CAC parezca discordante con el riesgo clínico. La evidencia es observacional, procede de un registro y requiere validación externa, estandarización técnica y demostración de que su uso modifica decisiones y mejora eventos.",
-        "source_title": "Epicardial adipose tissue radiomics complement calcium scoring in black adults with type 2 diabetes mellitus.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101693"
-      },
-      {
-        "title": "Un sistema de soporte clínico basado en laboratorio identifica una amplia brecha en el control lipídico",
-        "what_happened": "Un programa de soporte a la decisión clínica integrado en el laboratorio clasificó el riesgo cardiovascular y monitorizó longitudinalmente objetivos de LDL-C o colesterol no HDL en atención primaria. Entre 9.507 solicitudes analizadas, predominaban los pacientes de riesgo muy alto o alto, y el cumplimiento de objetivos lipídicos fue bajo, particularmente en riesgo muy alto. En un subgrupo sin tratamiento hipolipemiante basal, una parte inició tratamiento durante el seguimiento y algunos alcanzaron posteriormente el objetivo.",
-        "why_relevant": "El estudio traslada a la práctica la estratificación basada en guías ESC/EAS, incluida la consideración de Lp(a), y pone de manifiesto que disponer de tratamiento registrado no equivale a alcanzar objetivos. Es relevante para prevención secundaria y primaria de alto riesgo, donde la exposición acumulada a LDL y lipoproteínas con apoB condiciona riesgo aterosclerótico.",
-        "practical_implication": "Los servicios de cardiología y atención primaria podrían considerar circuitos automatizados que identifiquen pacientes fuera de objetivo, actualicen el riesgo ante nuevos diagnósticos y generen alertas interpretativas. No demuestra reducción de eventos cardiovasculares ni permite atribuir al sistema los cambios de tratamiento o de LDL-C; se trata de una implementación unicéntrica y de corta duración.",
-        "source_title": "Longitudinal automated lipid target monitoring integrated into a laboratory-based clinical decision support system: a real-world cardiovascular risk management approach.",
-        "journal": "Clinica chimica acta; international journal of clinical chemistry",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.cca.2026.121283"
-      },
-      {
-        "title": "El infarto con elevación del ST sin factores de riesgo modificables convencionales se asocia con peor pronóstico al año",
-        "what_happened": "En el registro japonés de infarto agudo de miocardio, el 5,9% de los pacientes con STEMI no presentaba diabetes, dislipidemia, hipertensión ni tabaquismo. Este grupo, de mayor edad y con mayor proporción de mujeres y fibrilación auricular, recibió con menor frecuencia tratamientos preventivos secundarios basados en la evidencia al alta y presentó más eventos cardiovasculares mayores durante un año, incluso tras ajuste estadístico.",
-        "why_relevant": "El trabajo recuerda que la ausencia de los factores de riesgo modificables clásicos no equivale a bajo riesgo tras un infarto. Destaca una potencial brecha de prevención secundaria en un fenotipo que puede quedar infratratado si se interpreta erróneamente como de menor riesgo aterotrombótico.",
-        "practical_implication": "Tras un STEMI, la indicación de prevención secundaria debe fundamentarse en el evento establecido y no en la presencia o ausencia de factores de riesgo convencionales. El estudio es observacional, procede de un único contexto sanitario y no puede establecer que la menor prescripción explique causalmente el exceso de eventos; tampoco evalúa adherencia ni intensidad real de los tratamientos.",
-        "source_title": "SMuRF-less ST-segment elevation myocardial infarction in contemporary Japanese practice: Clinical characteristics and prognostic implications from the Japan acute myocardial infarction registry.",
-        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ijcrp.2026.200715"
-      },
-      {
-        "title": "El CAC modifica con frecuencia el manejo preventivo en práctica comunitaria, sin evidencia todavía de beneficio clínico",
-        "what_happened": "En una cohorte retrospectiva de 400 pacientes de prevención primaria sometidos a CAC, una mayor categoría de calcio se asoció con más intensificación hipolipemiante, inicio de aspirina y pruebas de estrés. El CAC también reclasificó el riesgo estimado mediante la ecuación MESA en más de la mitad de los pacientes evaluables.",
-        "why_relevant": "El estudio ilustra cómo la cuantificación de carga aterosclerótica subclínica puede cambiar decisiones preventivas más allá de las calculadoras de riesgo. Sin embargo, también documenta un aumento de pruebas posteriores y de uso de aspirina, intervenciones cuya idoneidad debe individualizarse por el balance entre beneficio isquémico, sangrado y riesgo preprueba.",
-        "practical_implication": "El CAC puede reservarse para situaciones de incertidumbre en prevención primaria, cuando el resultado tenga capacidad real de modificar la decisión sobre tratamiento hipolipemiante o intensidad preventiva. No justifica el cribado universal ni permite inferir beneficio en eventos: es un estudio retrospectivo, unicéntrico, con seguimiento de seis meses y sin grupo comparador ni evaluación de desenlaces clínicos.",
-        "source_title": "Real-world impact of coronary artery calcium scoring on primary prevention management in a community cardiology practice.",
-        "journal": "American heart journal plus : cardiology research and practice",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ahjo.2026.100938"
-      },
-      {
-        "title": "La volumetría cardíaca mediante IA en TC de tórax no sincronizada predice riesgo de insuficiencia cardíaca y fibrilación auricular",
-        "what_happened": "En participantes de MESA, una herramienta de inteligencia artificial obtuvo volúmenes de cavidades cardíacas a partir de TC de tórax no sincronizada. La concordancia con la TC sincronizada fue alta y la capacidad predictiva para fibrilación auricular e insuficiencia cardíaca incidentes fue comparable entre ambas modalidades.",
-        "why_relevant": "Muchas TC de tórax se realizan por indicaciones no cardiológicas. El estudio apoya la posibilidad de extraer información cardiovascular oportunista de estudios ya adquiridos, potencialmente complementaria a la detección de CAC incidental, sin realizar una exploración adicional.",
-        "practical_implication": "La volumetría automatizada podría incorporarse de forma prospectiva a flujos de lectura radiológica para identificar pacientes que requieran evaluación cardiovascular dirigida. No debe emplearse todavía como estrategia autónoma de cribado o para iniciar tratamiento: el estudio evalúa predicción, no el impacto de una intervención guiada por IA sobre eventos, costes, falsos positivos o equidad de acceso.",
-        "source_title": "Heart failure and atrial fibrillation prediction from non-gated chest CT scans using AI-based cardiac chamber volumetry: an AI-CVD study within the multi-ethnic study of atherosclerosis (MESA).",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101732"
-      }
-    ]
-  },
-  {
-    "date": "2026-10-17",
-    "generated_at": "2026-10-17T01:18:20.038649+00:00",
-    "items": [
-      {
-        "title": "La ecografía carotídea y femoral no sustituye a la TC cardíaca para detectar aterosclerosis coronaria subclínica en hipercolesterolemia familiar",
-        "what_happened": "Una revisión sistemática identificó 13 estudios y realizó un metaanálisis de 3 estudios en adultos con hipercolesterolemia familiar sin enfermedad aterosclerótica clínica. La ecografía periférica mostró una sensibilidad agrupada del 78,9% y una especificidad del 32,0% frente a medidas de enfermedad coronaria obtenidas mediante TC cardíaca. La prevalencia agrupada fue del 68,5% para placas carotídeas, 56,5% para placas femorales y 46,4% para enfermedad coronaria según la medida compuesta utilizada.",
-        "why_relevant": "La hipercolesterolemia familiar implica exposición acumulada a colesterol aterogénico y riesgo elevado de enfermedad cardiovascular prematura. El hallazgo refuerza que la detección de placa carotídea o femoral identifica carga aterosclerótica periférica, pero su baja especificidad impide utilizarla como reemplazo de la TC cardíaca para descartar o confirmar aterosclerosis coronaria subclínica.",
-        "practical_implication": "La ecografía carotídea o femoral podría considerarse una herramienta de triaje o de reclasificación en casos seleccionados con hipercolesterolemia familiar, pero no debería interpretarse como prueba equivalente a la TC cardíaca. La revisión identifica evidencia muy limitada y de muy baja calidad; por tanto, no demuestra que una estrategia terapéutica guiada por ecografía periférica mejore eventos clínicos.",
-        "source_title": "Diagnostic accuracy of peripheral ultrasound in familial hypercholesterolemia: a systematic review and meta-analysis.",
-        "journal": "Scandinavian cardiovascular journal : SCJ",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1080/14017431.2026.2735712"
-      },
-      {
-        "title": "La cuantificación de calcio coronario asistida por IA detecta riesgo residual dentro del CAC Agatston cero",
-        "what_happened": "En un análisis conjunto de 3.965 participantes de MESA y Framingham con CAC basal cero por Agatston convencional, un método de IA de cuantificación continua detectó calcio coronario en 862 personas (21,7%). Durante hasta 20 años de seguimiento, un resultado positivo por IA se asoció con mayor incidencia de cardiopatía coronaria y mantuvo asociación independiente con eventos coronarios incidentes y con progresión posterior a CAC convencional positivo.",
-        "why_relevant": "El CAC cero convencional conserva un fuerte valor pronóstico de bajo riesgo, pero no representa ausencia absoluta de aterosclerosis ni de eventos futuros. El estudio sugiere que los umbrales y el grosor de corte del método Agatston convencional pueden no captar calcificación pequeña, precoz o de baja densidad.",
-        "practical_implication": "La cuantificación por IA no debería modificar todavía la conducta clínica rutinaria en personas con CAC cero. Se trata de evidencia observacional de cohortes, no de un ensayo que demuestre que reclasificar o tratar según IA-CAC reduzca eventos. Serán necesarias validaciones externas, estandarización técnica y estudios de impacto clínico antes de reemplazar el CAC convencional.",
+        "title": "Agatston-2.0 mediante inteligencia artificial identifica señal calcificada en personas con CAC convencional cero",
+        "what_happened": "Un análisis combinado de 3.965 participantes de MESA y Framingham con CAC basal de Agatston convencional igual a cero aplicó una cuantificación continua de calcio mediante inteligencia artificial. El método detectó AI-CAC mayor de cero en el 21,7% de los participantes; este hallazgo se asoció con mayor incidencia de cardiopatía coronaria a 20 años y mantuvo una asociación ajustada con eventos coronarios incidentes (HR 1,71). También predijo la progresión posterior a CAC convencional positivo.",
+        "why_relevant": "El trabajo cuestiona la homogeneidad pronóstica del denominado \"poder del cero\" y sugiere que la técnica convencional puede no captar calcificación pequeña, de baja densidad o parcialmente calcificada. Incluye un desenlace clínico coronario, aunque la tecnología todavía no ha demostrado utilidad terapéutica.",
+        "practical_implication": "La práctica clínica debe mantener CAC=0 convencional como un marcador de bajo riesgo en los contextos validados; Agatston-2.0 no debe reemplazar todavía al método estándar ni modificar por sí solo el tratamiento. El resultado requiere validación externa, estandarización técnica y estudios que demuestren que su uso mejora decisiones preventivas y resultados clínicos.",
         "source_title": "Agatston-2.0: A next-generation AI-based coronary calcium quantification approach to improve risk stratification among individuals with zero Agatston scores - Part I: An AI-CVD Study within the Multi-Ethnic Study of Atherosclerosis and Framingham Heart Study.",
         "journal": "American journal of preventive cardiology",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1016/j.ajpc.2026.101698"
       },
       {
-        "title": "Los patrones dietéticos se asocian con progresión del calcio coronario en MESA",
-        "what_happened": "Un análisis longitudinal de 3.182 participantes de MESA relacionó patrones dietéticos obtenidos mediante cuestionarios de frecuencia alimentaria con incidencia y progresión de CAC. Tras ajuste multivariable, el patrón de cereales integrales y fruta se asoció con menor probabilidad de CAC incidente y progresión, mientras que el patrón rico en grasa y carne procesada se asoció con mayor progresión de CAC. Las asociaciones fueron más evidentes en participantes blancos y se atenuaron en participantes negros.",
-        "why_relevant": "La progresión de CAC refleja cambio en un marcador de carga aterosclerótica calcificada y permite explorar la relación entre dieta habitual y aterosclerosis subclínica. El trabajo añade información a favor de patrones alimentarios basados en alimentos vegetales mínimamente procesados en prevención primaria.",
-        "practical_implication": "La evidencia respalda reforzar recomendaciones dietéticas centradas en cereales integrales, frutas y otros alimentos de alta calidad nutricional, junto con la reducción de carnes procesadas. Sin embargo, el estudio es observacional, se basa en autodeclaración dietética y evalúa un desenlace sustituto; no permite atribuir causalidad ni demostrar reducción de infarto, ictus o mortalidad.",
+        "title": "Patrones dietéticos y progresión de calcificación coronaria en MESA",
+        "what_happened": "En 3.182 participantes de MESA con cuestionarios dietéticos y mediciones seriadas de CAC, un patrón rico en cereales integrales y fruta se asoció con menores probabilidades de CAC incidente y de progresión. En cambio, el patrón alto en grasa y carne procesada se asoció con mayor progresión de CAC. Las asociaciones variaron según raza/etnia y fueron más evidentes en participantes blancos.",
+        "why_relevant": "Ofrece información longitudinal sobre dieta y progresión de carga aterosclerótica subclínica, un ámbito prioritario para la prevención primaria. Sin embargo, la progresión de CAC es un resultado sustituto y no equivale necesariamente a reducción o aumento proporcional de eventos clínicos, especialmente en personas tratadas con estatinas.",
+        "practical_implication": "El estudio es coherente con reforzar patrones dietéticos cardioprotectores basados en alimentos mínimamente procesados, cereales integrales, fruta y otros componentes de una alimentación de alta calidad. No permite atribuir causalidad ni utilizar un patrón dietético aislado para predecir eventos o indicar cambios terapéuticos; existen posibles factores de confusión residual y error de medición inherente a los cuestionarios dietéticos.",
         "source_title": "Diet patterns are associated with progression of coronary artery calcification and differ across race/ethnicity: The Multi-Ethnic Study of Atherosclerosis.",
         "journal": "American journal of preventive cardiology",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1016/j.ajpc.2026.101791"
       },
       {
-        "title": "El ejercicio supervisado mejora presión arterial, aptitud cardiorrespiratoria y factores metabólicos en mujeres mayores",
-        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas encontró que el ejercicio supervisado redujo triglicéridos, colesterol total, LDL-C, glucosa y presión arterial, y aumentó el VO2pico. También redujo el porcentaje de grasa corporal, sin cambios significativos en peso, perímetro de cintura, masa grasa troncal, masa libre de grasa o masa muscular esquelética.",
-        "why_relevant": "La hipertensión, la dislipidemia y el desacondicionamiento físico son determinantes modificables de riesgo cardiovascular en edades avanzadas. La síntesis procede de ensayos aleatorizados y ofrece una base más sólida que los estudios observacionales para atribuir al ejercicio mejorías de estos factores de riesgo.",
-        "practical_implication": "La prescripción de ejercicio aeróbico, de fuerza o combinado puede integrarse en la prevención cardiovascular de mujeres mayores, adaptada a capacidad funcional, comorbilidad y seguridad clínica. La principal limitación es que los resultados son factores de riesgo y medidas funcionales, no eventos cardiovasculares clínicos; además, la certeza de la evidencia fue moderada para algunos desenlaces y baja para otros.",
+        "title": "Ejercicio supervisado en mujeres mayores: metaanálisis de ensayos aleatorizados",
+        "what_happened": "Un metaanálisis de 23 ensayos clínicos aleatorizados en mujeres mayores sanas encontró que el ejercicio supervisado redujo colesterol total, triglicéridos, LDL-C y presión arterial, e incrementó el VO2pico. También redujo el porcentaje de grasa corporal, sin cambios significativos en peso, perímetro de cintura, masa libre de grasa o masa muscular.",
+        "why_relevant": "Sintetiza evidencia aleatorizada para factores de riesgo modificables relevantes en prevención cardiovascular, particularmente presión arterial, aptitud cardiorrespiratoria y lípidos. La certeza GRADE fue moderada para varios desenlaces, incluidos colesterol total, triglicéridos, presión arterial sistólica y VO2pico.",
+        "practical_implication": "El ejercicio aeróbico, de fuerza o combinado puede integrarse como componente estructural de la prevención cardiovascular en mujeres mayores, junto con tratamiento farmacológico cuando esté indicado. La evidencia se limita principalmente a factores de riesgo y composición corporal: el metaanálisis no demuestra reducción de infarto, ictus, mortalidad cardiovascular ni sustitución de terapias hipolipemiantes o antihipertensivas.",
         "source_title": "Effects of exercise on metabolic risk, cardiovascular fitness, and body composition in elderly women of the past decade: a systematic review and meta-analysis.",
         "journal": "Journal of the International Society of Sports Nutrition",
         "source_database": "PubMed",
         "url": "https://doi.org/10.1080/15502783.2026.2675444"
       },
       {
-        "title": "La discordancia entre riesgo PREVENT y tratamiento hipolipemiante identifica una brecha relevante en prevención primaria",
-        "what_happened": "Un análisis nacional estadounidense de 39.277 adultos evaluó la elegibilidad para terapia hipolipemiante mediante umbrales PREVENT-ASCVD. Entre quienes no tenían enfermedad cardiovascular conocida y presentaban riesgo intermedio o superior, el 67,1% no recibía tratamiento hipolipemiante; con el umbral de riesgo limítrofe o superior, el porcentaje sin tratamiento fue del 71,2%. El 38,5% de las muertes cardiovasculares ocurrió en personas sin enfermedad cardiovascular diagnosticada al inicio.",
-        "why_relevant": "El estudio dirige la atención hacia la prevención coronaria primaria: una proporción sustancial de la mortalidad cardiovascular ocurre antes de que exista enfermedad clínica reconocida. También destaca la necesidad de integrar de forma consistente la estimación de riesgo, el control de presión arterial, el tabaquismo y la exposición a lipoproteínas aterogénicas en las decisiones de tratamiento.",
-        "practical_implication": "Los sistemas clínicos deberían revisar de forma estructurada la estimación de riesgo y la indicación de tratamiento hipolipemiante en prevención primaria, particularmente en personas con hipertensión, tabaquismo o riesgo calculado elevado. El análisis es retrospectivo y observacional; muestra una brecha de tratamiento y asociación con mortalidad, pero no demuestra que la aplicación retrospectiva de umbrales PREVENT hubiera evitado las muertes observadas.",
-        "source_title": "Risk-Treatment Discordance and Fatal Cardiovascular Disease: A Nationwide Analysis Using PREVENT Thresholds.",
-        "journal": "American journal of preventive cardiology",
+        "title": "Ecografía carotídea y femoral en hipercolesterolemia familiar: precisión diagnóstica frente a tomografía cardíaca",
+        "what_happened": "Una revisión sistemática y metaanálisis evaluó la ecografía carotídea y femoral para detectar aterosclerosis coronaria subclínica en adultos con hipercolesterolemia familiar sin enfermedad aterosclerótica clínica. En los tres estudios incluidos en el metaanálisis, la ecografía periférica mostró sensibilidad agrupada del 78,9% y especificidad del 32,0% frente a tomografía cardíaca. Los autores calificaron la evidencia disponible como de muy baja calidad.",
+        "why_relevant": "La hipercolesterolemia familiar representa un paradigma de exposición acumulada a LDL/apoB y alto riesgo de aterosclerosis prematura. El estudio aborda directamente si la imagen periférica puede estratificar mejor el riesgo en prevención primaria, pero no demuestra beneficio clínico de una estrategia de imagen.",
+        "practical_implication": "La ecografía carotídea o femoral no debería considerarse un sustituto de la tomografía cardíaca para excluir aterosclerosis coronaria subclínica en hipercolesterolemia familiar. Puede tener un papel potencial como prueba de triaje en entornos seleccionados, pero la baja especificidad, el escaso número de estudios y la muy baja certeza de la evidencia obligan a interpretar cualquier hallazgo dentro de una valoración integral del riesgo y de la exposición acumulada a LDL-C.",
+        "source_title": "Diagnostic accuracy of peripheral ultrasound in familial hypercholesterolemia: a systematic review and meta-analysis.",
+        "journal": "Scandinavian cardiovascular journal : SCJ",
         "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101711"
+        "url": "https://doi.org/10.1080/14017431.2026.2735712"
       }
     ]
   }
