@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-25",
+    "generated_at": "2026-10-25T13:55:49.215806+00:00",
+    "items": [
+      {
+        "title": "El CAC modifica el manejo preventivo en cardiología comunitaria, sin demostrar aún beneficio clínico",
+        "what_happened": "Un estudio retrospectivo de 400 pacientes en prevención primaria evaluó cómo la puntuación de calcio coronario (CAC) se asoció con cambios terapéuticos y pruebas posteriores. A mayor categoría de CAC se observaron más modificaciones del tratamiento hipolipemiante, inicio de aspirina y pruebas de esfuerzo; el CAC también reclasificó la categoría de riesgo MESA en el 55,2% de los 348 pacientes evaluables.",
+        "why_relevant": "Aporta evidencia de práctica real de que el CAC puede cambiar decisiones preventivas más allá de las ecuaciones clínicas de riesgo. Sin embargo, demuestra cambios de conducta clínica, no reducción de infarto, ictus ni mortalidad. El diseño retrospectivo, unicéntrico, la selección de pacientes remitidos para CAC y el seguimiento de seis meses limitan la inferencia causal y la generalización. El aumento del uso de aspirina y de pruebas funcionales tampoco establece que estas actuaciones fueran apropiadas o beneficiosas.",
+        "practical_implication": "En prevención primaria, el CAC puede considerarse para refinar decisiones inciertas sobre intensificación hipolipemiante en pacientes seleccionados. La indicación de aspirina no debería derivarse automáticamente del CAC aislado: requiere valoración individualizada del riesgo isquémico, hemorrágico y de las recomendaciones vigentes. No se justifica interpretar este estudio como prueba de que el cribado sistemático con CAC mejore eventos clínicos.",
+        "source_title": "Real-world impact of coronary artery calcium scoring on primary prevention management in a community cardiology practice.",
+        "journal": "American heart journal plus : cardiology research and practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ahjo.2026.100938"
+      },
+      {
+        "title": "Un sistema automatizado de laboratorio identifica una brecha importante en el control de LDL según riesgo cardiovascular",
+        "what_happened": "Un sistema de apoyo a la decisión clínica integrado en el laboratorio clasificó el riesgo cardiovascular y monitorizó objetivos lipídicos en 9.507 solicitudes de atención primaria. La proporción que alcanzó objetivos lipídicos fue baja, especialmente en las categorías de riesgo alto y muy alto. Entre los pacientes de muy alto riesgo con resultados fuera de objetivo, el 79,4% tenía tratamiento hipolipemiante registrado, lo que sugiere persistencia de riesgo residual por intensidad, adherencia, tolerancia, acceso u otros determinantes no medidos.",
+        "why_relevant": "El trabajo sitúa el LDL-C y el colesterol no HDL en un circuito operativo de prevención cardiovascular y utiliza una jerarquización basada en guías ESC/EAS, incluida la consideración de Lp(a) en la estimación de riesgo. La señal principal es asistencial y epidemiológica: documenta una brecha de control, no el efecto causal del sistema sobre eventos cardiovasculares ni sobre la prescripción efectiva. La implementación oportunista y el corto periodo inicial impiden atribuir mejoras clínicas al sistema.",
+        "practical_implication": "Los servicios de cardiología y atención primaria pueden emplear alertas estructuradas para detectar de forma longitudinal pacientes fuera de objetivo lipídico, especialmente aquellos con enfermedad aterosclerótica o riesgo muy alto. La alerta debe desencadenar revisión clínica de adherencia, intensidad de estatina, combinación con ezetimiba o terapias adicionales cuando estén indicadas, triglicéridos y causas secundarias; no sustituye la evaluación individual ni demuestra por sí misma beneficio en eventos.",
+        "source_title": "Longitudinal automated lipid target monitoring integrated into a laboratory-based clinical decision support system: a real-world cardiovascular risk management approach.",
+        "journal": "Clinica chimica acta; international journal of clinical chemistry",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cca.2026.121283"
+      },
+      {
+        "title": "En diabetes tipo 2, las características radiomicas de grasa epicárdica añadieron información pronóstica al CAC en participantes negros",
+        "what_happened": "En un análisis observacional del registro CLARIFY de adultos con diabetes tipo 2 sometidos a tomografía para CAC, se evaluó si características radiomicas de la grasa adiposa epicárdica aportaban información sobre eventos cardiovasculares mayores. En los 1.024 participantes negros no hispanos, el modelo que combinó índice de privación social, CAC y características de grasa epicárdica mejoró la reclasificación frente al CAC aislado; esta mejora no se observó en la cohorte blanca emparejada.",
+        "why_relevant": "El estudio aborda una limitación clínica relevante: el CAC puede infravalorar parte de la carga de riesgo en algunos grupos, incluidos pacientes negros con diabetes tipo 2. El desenlace fue clínico —muerte cardiovascular, infarto no fatal o ictus no fatal—, lo que incrementa su interés frente a estudios centrados solo en biomarcadores. No obstante, se trata de un análisis observacional de registro con modelado mediante aprendizaje automático; la asociación predictiva no prueba que medir grasa epicárdica ni modificar el tratamiento según ella reduzca eventos. Requiere validación externa, evaluación de calibración en otros contextos y demostración de utilidad clínica.",
+        "practical_implication": "La cuantificación radiomica de grasa epicárdica no debería incorporarse todavía como prueba rutinaria para decidir tratamiento. Puede considerarse un marcador de investigación prometedor para perfeccionar la estratificación en diabetes tipo 2, mientras la prevención debe seguir basándose en riesgo global, LDL-C/no HDL-C, presión arterial, control glucémico, tabaquismo y evidencia de aterosclerosis establecida, incluido el CAC cuando esté indicado.",
+        "source_title": "Epicardial adipose tissue radiomics complement calcium scoring in black adults with type 2 diabetes mellitus.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101693"
+      },
+      {
+        "title": "La placa carotídea se asocia con aterosclerosis coronaria en deportistas veteranos, pero no mejora de forma relevante la discriminación clínica",
+        "what_happened": "Un análisis transversal del estudio Master@Heart comparó placa carotídea, rigidez aórtica y aterosclerosis coronaria por angiografía por tomografía computarizada en 549 hombres de mediana edad y bajo riesgo cardiovascular, incluidos deportistas veteranos y controles. La placa carotídea se asoció con aterosclerosis coronaria, pero añadirla a los factores de riesgo tradicionales no mejoró de manera significativa la discriminación de aterosclerosis coronaria. La prevalencia de placa carotídea y la velocidad de onda de pulso no difirieron entre grupos de actividad física.",
+        "why_relevant": "Ofrece una advertencia útil frente a la extrapolación de que la ecografía carotídea siempre añade valor al riesgo clínico o refleja fielmente la carga coronaria. La asociación es observacional y transversal, por lo que no establece causalidad ni permite valorar predicción de eventos futuros. La población fue exclusivamente masculina, seleccionada, físicamente activa y de bajo riesgo, lo que limita la extrapolación a mujeres, pacientes con diabetes, dislipidemia familiar o prevención secundaria.",
+        "practical_implication": "La identificación de placa carotídea puede apoyar la constatación de aterosclerosis subclínica en contextos seleccionados, pero no debería utilizarse como sustituto automático del CAC ni como cribado indiscriminado. En deportistas veteranos con duda preventiva, la decisión sobre imágenes y tratamiento hipolipemiante debe integrar exposición acumulada a LDL/apoB, antecedentes familiares, presión arterial, tabaquismo y el contexto clínico completo.",
+        "source_title": "Carotid atherosclerosis and aortic stiffness in masters athletes: Multimodality vascular phenotyping from the Master@Heart study.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101771"
+      },
+      {
+        "title": "La IA aplicada a tomografía torácica no sincronizada permite estimar volúmenes cardíacos con valor pronóstico para fibrilación auricular e insuficiencia cardíaca",
+        "what_happened": "En participantes del estudio MESA, la volumetría automatizada mediante IA en tomografías de tórax no sincronizadas mostró una concordancia elevada con la obtenida en tomografías sincronizadas por ECG para detectar dilatación de cavidades. Las medidas derivadas de estudios no sincronizados tuvieron capacidad predictiva comparable para fibrilación auricular e insuficiencia cardíaca incidentes.",
+        "why_relevant": "El estudio plantea el aprovechamiento oportunista de tomografías realizadas por indicaciones no cardiológicas para identificar riesgo cardiovascular. Sus desenlaces son clínicos incidentes, no solo medidas anatómicas. Sin embargo, la evidencia es pronóstica observacional: no demuestra que comunicar los hallazgos, realizar pruebas adicionales o tratar según los volúmenes calculados por IA mejore resultados clínicos. También son necesarios estudios de implementación, validación en poblaciones y equipos diversos, evaluación de falsos positivos y análisis de coste-efectividad.",
+        "practical_implication": "La volumetría cardíaca por IA en tomografía torácica no sincronizada puede considerarse una herramienta emergente de detección oportunista, particularmente si coexisten otros hallazgos cardiovasculares como CAC. Su uso debe integrarse en circuitos que aseguren confirmación clínica y eviten cascadas diagnósticas de bajo valor; por ahora no reemplaza la valoración cardiovascular convencional ni las estrategias probadas de prevención.",
+        "source_title": "Heart failure and atrial fibrillation prediction from non-gated chest CT scans using AI-based cardiac chamber volumetry: an AI-CVD study within the multi-ethnic study of atherosclerosis (MESA).",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101732"
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "generated_at": "2026-10-24T13:35:53.768544+00:00",
     "items": [
