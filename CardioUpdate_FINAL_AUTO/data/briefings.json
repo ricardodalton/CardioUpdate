@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-26",
+    "generated_at": "2026-10-26T16:21:44.357140+00:00",
+    "items": [
+      {
+        "title": "El balón recubierto de fármaco reduce la revascularización en la reestenosis intrastent femoropoplítea",
+        "what_happened": "Un metaanálisis de 24 estudios, con síntesis cuantitativa de nueve ensayos aleatorizados, encontró que la angioplastia con balón recubierto de fármaco redujo la revascularización de la lesión diana a 12 meses y la reestenosis recurrente frente a angioplastia convencional en la reestenosis intrastent femoropoplítea.",
+        "why_relevant": "Aporta evidencia aleatorizada consistente para una complicación frecuente de la enfermedad arterial periférica, una manifestación clínica de aterosclerosis con alto riesgo cardiovascular sistémico. El efecto demostrado se refiere a resultados vasculares locales, no a reducción de mortalidad o de eventos coronarios.",
+        "practical_implication": "En pacientes con reestenosis intrastent femoropoplítea, el balón recubierto de fármaco puede considerarse la estrategia endovascular de referencia frente a angioplastia convencional, dentro de una estrategia integral de prevención secundaria. La evidencia para aterectomía láser más balón recubierto, stents liberadores de paclitaxel o endoprótesis cubiertas sigue siendo limitada, heterogénea o basada en estudios pequeños.",
+        "source_title": "Comparative efficacy of endovascular interventions for femoropopliteal in-stent restenosis: A systematic review and meta-analysis.",
+        "journal": "European journal of radiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejrad.2026.113230"
+      },
+      {
+        "title": "El CAC virtual derivado de angio-TC con detectores de conteo de fotones aún no sustituye al estudio sin contraste",
+        "what_happened": "En 239 pacientes, las imágenes virtuales sin contraste obtenidas de una angio-TC coronaria con detectores de conteo de fotones mostraron una correlación excelente con el score de calcio de Agatston medido en imágenes verdaderas sin contraste. Sin embargo, la clasificación de carga de placa no fue plenamente concordante entre ambas técnicas.",
+        "why_relevant": "El score de calcio coronario es una herramienta consolidada para refinar el riesgo aterosclerótico en prevención primaria seleccionada. La posibilidad de estimarlo a partir de una angio-TC contrastada podría simplificar protocolos y reducir adquisiciones, pero los cambios de categoría de placa pueden alterar decisiones preventivas basadas en umbrales de CAC.",
+        "practical_implication": "No debería sustituirse todavía la adquisición convencional sin contraste por imágenes virtuales para clasificar carga de calcio o guiar decisiones terapéuticas individuales. La técnica merece validación prospectiva, particularmente respecto a reclasificación de riesgo y consecuencias clínicas.",
+        "source_title": "Coronary artery calcium scoring using virtual vs. true non-contrast images from ultra-high-resolution and normal-resolution photon-counting coronary CT angiography.",
+        "journal": "European journal of radiology open",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejro.2026.100795"
+      },
+      {
+        "title": "Una bebida de soja enriquecida con esteroles vegetales y fibra soluble logra una reducción modesta adicional de LDL-colesterol",
+        "what_happened": "En un ensayo aleatorizado de 242 adultos con LDL-colesterol superior a 130 mg/dL, el consumo durante ocho semanas de bebida de soja enriquecida con esteroles vegetales y fibra soluble produjo una reducción adicional ajustada de LDL-colesterol de 5,5 mg/dL frente a bebida de soja no enriquecida.",
+        "why_relevant": "Refuerza que las intervenciones dietéticas específicas pueden disminuir modestamente el LDL-colesterol, factor causal de aterosclerosis cuya exposición acumulada determina riesgo cardiovascular. El resultado es un marcador sustituto y no evalúa eventos cardiovasculares.",
+        "practical_implication": "Los esteroles vegetales y la fibra soluble pueden plantearse como complemento nutricional, no como alternativa a estatinas, ezetimiba, inhibidores de PCSK9 u otros tratamientos indicados según el riesgo. La aplicabilidad está limitada por la corta duración, la magnitud modesta del efecto y que el ensayo se realizó entre 2013 y 2014, aunque la publicación sea posterior.",
+        "source_title": "A randomized study comparing plant sterol- and soluble fiber-enriched soymilk with plain soymilk in adults with elevated LDL cholesterol.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1007/s00394-026-04138-w"
+      },
+      {
+        "title": "El control real de presión arterial y LDL-colesterol puede estar ampliamente sobreestimado en práctica clínica",
+        "what_happened": "Dos estudios transversales realizados en Rumanía, antes y después de la pandemia, observaron discrepancias importantes entre la valoración de médicos y los objetivos de guías en pacientes con hipertensión y dislipidemia. La estimación del riesgo fue frecuentemente inferior a la calculada según recomendaciones, y el control de presión arterial y LDL-colesterol fue mucho menor al evaluarse con objetivos de guía.",
+        "why_relevant": "La infravaloración del riesgo y la inercia terapéutica son barreras centrales para la prevención cardiovascular. El hallazgo resulta especialmente pertinente para estrategias de control simultáneo de presión arterial y colesterol aterogénico en prevención primaria y secundaria.",
+        "practical_implication": "Los equipos clínicos deberían estructurar la evaluación con calculadoras y objetivos de guía, verificar presión arterial y perfil lipídico con datos objetivos y revisar sistemáticamente la intensificación terapéutica. Al ser estudios observacionales, transversales y realizados en un único contexto nacional, no demuestran que la discordancia cause eventos ni permiten extrapolación automática a otros sistemas sanitarios.",
+        "source_title": "Real-world cardiovascular risk estimation, blood pressure and LDL-cholesterol control: Two epidemiological studies in Romania, during pandemic and post-pandemic (SNAPSHOT-Romania).",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100573"
+      },
+      {
+        "title": "El análisis post hoc de J-DOIT3 asocia LDL-colesterol inferior a 80 mg/dL con menor riesgo de ictus en diabetes tipo 2",
+        "what_happened": "Un análisis epidemiológico con punto de referencia a un año del ensayo J-DOIT3 examinó los niveles medios actualizados de HbA1c, presión arterial y lípidos. El análisis no identificó un umbral glucémico inferior claramente asociado con menor mortalidad o infarto, mientras que niveles de LDL-colesterol inferiores a 80 mg/dL se asociaron con menor riesgo de ictus.",
+        "why_relevant": "Subraya la relevancia del control del LDL-colesterol dentro de la prevención multifactorial en diabetes tipo 2, población con elevado riesgo aterosclerótico. También evita interpretar objetivos glucémicos muy bajos como universalmente asociados a menor mortalidad.",
+        "practical_implication": "El hallazgo respalda la atención sostenida al LDL-colesterol como componente del abordaje multifactorial en diabetes, pero no establece por sí mismo un objetivo causal universal de 80 mg/dL. Se trata de un análisis post hoc de valores alcanzados, susceptible a confusión residual y sesgo de selección; por tanto, no reemplaza los objetivos de LDL basados en el riesgo cardiovascular global y en ensayos de terapias hipolipemiantes con eventos clínicos.",
+        "source_title": "Search for the glycated hemoglobin target minimizing mortality among people with type 2 diabetes with rare incidence of treatment-related severe hypoglycemia - Epidemiologic analysis of J-DOIT3 randomized controlled trial.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1371/journal.pone.0360295"
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "generated_at": "2026-10-25T13:55:49.215806+00:00",
     "items": [
