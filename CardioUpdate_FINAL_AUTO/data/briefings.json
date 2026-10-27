@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-27",
+    "generated_at": "2026-10-27T15:33:19.611080+00:00",
+    "items": [
+      {
+        "title": "El riesgo poligénico de enfermedad coronaria identifica eventos ASCVD en prevención primaria aparentemente de bajo riesgo",
+        "what_happened": "En una cohorte longitudinal de 266917 participantes del UK Biobank, sin ASCVD ni diabetes, sin tratamiento hipolipemiante y con LDL-C basal inferior a 190 mg/dL, un polygenic risk score (PRS) de enfermedad coronaria se asoció gradualmente con el combinado de infarto de miocardio, ictus isquémico o muerte cardiovascular. Frente al 50% inferior del PRS, el 1% superior presentó un riesgo ajustado aproximadamente 9 veces mayor. La incorporación del PRS mejoró la discriminación y reclasificó hacia mayor riesgo a una proporción de participantes clínicamente catalogados como de bajo riesgo.",
+        "why_relevant": "El estudio aporta datos de eventos clínicos y sugiere que la susceptibilidad heredada puede identificar heterogeneidad de riesgo residual no capturada por las ecuaciones convencionales en prevención primaria. Sin embargo, se trata de evidencia observacional de una cohorte seleccionada, predominantemente basada en UK Biobank; no demuestra que medir el PRS ni tratar de forma diferenciada según su resultado reduzca eventos.",
+        "practical_implication": "El PRS podría considerarse, cuando esté disponible y validado para la ascendencia del paciente, como un potenciador de riesgo dentro de una decisión clínica compartida, particularmente ante historia familiar discordante con el riesgo calculado. No sustituye la evaluación de LDL-C, apoB, Lp(a), presión arterial, tabaquismo ni la valoración de aterosclerosis subclínica cuando esta esté indicada.",
+        "source_title": "Utility of a coronary artery disease polygenic risk score in a low-risk primary prevention cohort.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101722"
+      },
+      {
+        "title": "La albuminuria se asocia con carga aterosclerótica coronaria, pero la relación se atenúa tras ajustar por factores de riesgo",
+        "what_happened": "Un análisis transversal de 9424 participantes del estudio SCAPIS evaluó la relación entre el cociente albúmina-creatinina urinaria (UACR), el calcio coronario y la estenosis por angiografía coronaria por TC. Un UACR más elevado se asoció con mayor puntuación de calcio coronario tras ajuste amplio, aunque con una magnitud pequeña. Las asociaciones con calcio coronario presente y con estenosis dejaron de ser significativas tras ajustar por presión arterial, diabetes, LDL-C, tratamiento hipolipemiante, tabaquismo y filtrado glomerular.",
+        "why_relevant": "La albuminuria puede señalar una mayor carga vascular temprana y refuerza su valor como marcador de riesgo cardiorrenal. No obstante, el diseño transversal impide establecer causalidad o secuencia temporal, y la atenuación tras los ajustes indica que una parte relevante de la asociación está explicada por factores de riesgo cardiovasculares establecidos. El estudio no prueba que el UACR deba utilizarse para seleccionar de forma rutinaria a candidatos para CAC o angiografía por TC.",
+        "practical_implication": "La detección de albuminuria debería impulsar una revisión rigurosa de presión arterial, diabetes, función renal, tabaquismo y exposición aterogénica por LDL/apoB. La decisión de obtener CAC debe mantenerse individualizada y basada en el riesgo global, no en la albuminuria aislada.",
+        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
+      },
+      {
+        "title": "Las dietas bajas en carbohidratos y altas en grasa saturada modifican favorablemente triglicéridos y remanentes, pero no resuelven la incertidumbre aterogénica",
+        "what_happened": "En un análisis secundario del ensayo aleatorizado CARBFUNC, 193 adultos con obesidad siguieron durante dos años una dieta baja en carbohidratos y alta en grasa, con 30% de la energía procedente de grasas saturadas, o dietas comparadoras altas en carbohidratos. Durante los primeros 9-12 meses y, en parte, a los 24 meses, la intervención baja en carbohidratos redujo más los triglicéridos, las partículas VLDL, el colesterol remanente y el cociente triglicéridos/HDL-C. También elevó LDL-C, atribuido por los autores a partículas LDL grandes, sin incremento significativo de apoB ni de LDL pequeñas. Se midió CAC, pero el resumen no comunica un efecto clínico o radiológico comparativo sobre su progresión.",
+        "why_relevant": "El ensayo proporciona evidencia aleatorizada sobre parámetros lipoproteicos, pero sus desenlaces son sustitutos y no eventos cardiovasculares. La elevada pérdida de seguimiento y la adherencia autodeclarada decreciente limitan la inferencia a largo plazo. La ausencia de aumento significativo de apoB en esta muestra no permite concluir seguridad cardiovascular de una dieta con muy alto contenido de grasa saturada ni sustituye el objetivo de reducir la exposición acumulada a lipoproteínas aterogénicas.",
+        "practical_implication": "La respuesta a dietas bajas en carbohidratos debería monitorizarse con un perfil lipídico que incluya, cuando sea posible, apoB además de LDL-C, triglicéridos y colesterol no-HDL. Si LDL-C o apoB aumentan, la estrategia dietética debería reevaluarse en función del riesgo basal y de los objetivos preventivos, sin asumir que un descenso de triglicéridos compensa necesariamente una mayor exposición aterogénica.",
+        "source_title": "Lipid dynamics and cardiovascular risk profiles on carbohydrate- or saturated fat-based diets: secondary analysis of the CARBFUNC trial.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.ebiom.2026.106524"
+      },
+      {
+        "title": "El colesterol LDL pequeño y denso estimado se asocia con enfermedad coronaria prevalente en hipercolesterolemia familiar",
+        "what_happened": "En 3276 adultos con hipercolesterolemia familiar heterocigota del registro HELLAS-FH, el colesterol LDL pequeño y denso estimado antes del tratamiento se asoció de forma independiente con la prevalencia de enfermedad coronaria. Su capacidad discriminativa fue superior a la de LDL-C y su incorporación a un modelo clínico produjo una mejora estadística modesta, especialmente en mujeres.",
+        "why_relevant": "El trabajo aborda la heterogeneidad del riesgo residual dentro de la hipercolesterolemia familiar, población con exposición acumulada elevada a LDL/apoB. Sin embargo, es un análisis observacional y transversal de enfermedad coronaria prevalente: no demuestra causalidad, ni que el marcador aporte una mejora clínicamente relevante en la toma de decisiones, ni que modificarlo independientemente de apoB o LDL-C reduzca eventos. La estimación del marcador mediante fórmula añade otra limitación analítica.",
+        "practical_implication": "La estratificación de la hipercolesterolemia familiar debe seguir fundamentándose en la exposición de por vida a LDL-C/apoB, antecedentes familiares, factores de riesgo, Lp(a) y evidencia de aterosclerosis. El LDL pequeño y denso estimado puede considerarse exploratorio y no debe desplazar los objetivos intensivos establecidos de reducción de lipoproteínas aterogénicas.",
+        "source_title": "Estimated Small Dense LDL Cholesterol and Coronary Artery Disease in Familial Hypercholesterolemia.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.5551/jat.66409"
+      },
+      {
+        "title": "Obicetrapib no empeoró la glucemia a 52 semanas; la posible reducción de diabetes de nueva aparición sigue siendo un hallazgo no definitivo",
+        "what_happened": "Un análisis agrupado de participantes sin diabetes de los ensayos BROADWAY y BROOKLYN comparó obicetrapib 10 mg con placebo durante 52 semanas. No se observó incremento de HbA1c con obicetrapib. La diabetes de nueva aparición fue numéricamente menos frecuente, aunque el intervalo de confianza del odds ratio ajustado incluyó la ausencia de efecto. Una actualización de metaanálisis de seis ensayos de inhibidores de CETP mostró una menor incidencia relativa de diabetes de nueva aparición para la clase.",
+        "why_relevant": "El resultado es pertinente para la aceptación de tratamientos intensivos de reducción lipídica en pacientes con prediabetes o preocupación por disglucemia. No obstante, la diabetes de nueva aparición no constituye un desenlace cardiovascular y el análisis de obicetrapib no confirma una reducción causal por no alcanzar precisión concluyente. La evidencia no informa en este resumen sobre reducción de eventos cardiovasculares con obicetrapib; por tanto, no debe extrapolarse un beneficio clínico cardiovascular a partir de glucemia, HDL-C, apoA1 o Lp(a).",
+        "practical_implication": "En pacientes candidatos a estrategias hipolipemiantes adicionales, los hallazgos pueden apoyar la vigilancia habitual de la glucemia sin presuponer un perjuicio glucémico de obicetrapib a un año. La selección terapéutica debe seguir priorizando fármacos y combinaciones con evidencia demostrada de reducción de eventos para el perfil de riesgo y el objetivo de LDL-C/apoB correspondiente.",
+        "source_title": "Effect of Obicetrapib on Glycaemia and New-Onset Diabetes: Pooled Analysis of BROADWAY/BROOKLYN and an Updated Meta-analysis of CETP Inhibitor Trials.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/eurjpc/zwag551"
+      }
+    ]
+  },
+  {
     "date": "2026-10-26",
     "generated_at": "2026-10-26T16:21:44.357140+00:00",
     "items": [
