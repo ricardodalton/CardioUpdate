@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-28",
+    "generated_at": "2026-10-28T16:17:38.400993+00:00",
+    "items": [
+      {
+        "title": "Las terapias hipolipemiantes basadas en ARN muestran efectos diferenciados según su diana molecular",
+        "what_happened": "Un metaanálisis de 16 ensayos aleatorizados con 5.604 participantes comparó inclisirán y terapias dirigidas a APOC3 o ANGPTL3 frente a placebo. Las terapias dirigidas a PCSK9 lograron las mayores reducciones de LDL-C, apoB y colesterol no-HDL, mientras que las dirigidas a APOC3 produjeron la mayor reducción de triglicéridos. Los acontecimientos adversos globales, graves y los que motivaron interrupción fueron comparables con placebo.",
+        "why_relevant": "La síntesis refuerza que la selección de terapias de ARN debe basarse en la lipoproteína causal predominante: reducción de lipoproteínas aterogénicas que contienen apoB mediante inhibición de PCSK9 y reducción de triglicéridos mediante inhibición de APOC3. Sin embargo, los resultados son fundamentalmente sustitutos bioquímicos, no demostraciones de reducción de eventos cardiovasculares.",
+        "practical_implication": "La terapia basada en ARN puede considerarse dentro de una estrategia individualizada para dislipidemias seleccionadas, sin sustituir la priorización de estatinas y otras terapias con evidencia consolidada de eventos cuando estén indicadas. La elección no debe inferir beneficio cardiovascular clínico equivalente entre dianas hasta disponer de ensayos de desenlaces.",
+        "source_title": "Effectiveness and safety of target-specific RNA-based lipid-lowering therapies: A systematic review and meta-analysis of randomized controlled trials.",
+        "journal": "European journal of pharmacology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejphar.2026.179420"
+      },
+      {
+        "title": "ApoB y LDL-C se asocian de forma distinta con diabetes tipo 2 incidente en UK Biobank",
+        "what_happened": "En una cohorte prospectiva de 402.144 participantes sin diabetes basal, con 16.537 casos incidentes durante 5,33 millones de años-persona, apoB y LDL-C se asociaron positivamente con diabetes tipo 2 cuando se analizaron por separado. Al incluir ambos marcadores en el mismo modelo, una apoB más alta para un LDL-C dado se asoció con mayor riesgo de diabetes, mientras que un LDL-C más alto para una apoB dada se asoció con menor riesgo.",
+        "why_relevant": "El estudio apoya que apoB y LDL-C no son marcadores intercambiables desde el punto de vista epidemiológico y que el número de partículas aterogénicas puede aportar información metabólica adicional. No establece que apoB cause diabetes ni que reducir apoB aumente o disminuya su incidencia: las asociaciones son observacionales y los análisis condicionales entre variables muy correlacionadas requieren interpretación prudente.",
+        "practical_implication": "La medición de apoB puede ser útil cuando exista discordancia potencial entre LDL-C y carga de partículas aterogénicas, especialmente en hipertrigliceridemia, obesidad, diabetes o síndrome metabólico. Las decisiones de prevención aterosclerótica deben seguir basándose en el riesgo cardiovascular global y en la reducción de lipoproteínas con apoB, no en una inferencia causal sobre diabetes derivada de esta cohorte.",
+        "source_title": "Conditional Associations of ApoB and LDL-C With Incident Type 2 Diabetes in UK Biobank: A Prospective Cohort Study.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1111/dom.71454"
+      },
+      {
+        "title": "La cirugía bariátrica en adolescentes con obesidad grave reduce sustancialmente el IMC, pero la evidencia cardiovascular sigue siendo limitada",
+        "what_happened": "Una revisión sistemática y metaanálisis de 101 estudios o cohortes, incluidos tres cohortes aleatorizadas independientes, evaluó cirugía metabólica y bariátrica en adolescentes con obesidad grave. Frente al tratamiento no quirúrgico, la evidencia aleatorizada mostró reducción del IMC a dos años y descenso de triglicéridos, ambos con certeza baja. Los efectos sobre presión arterial fueron indeterminados; los estudios observacionales describieron mejoría o remisión de diabetes tipo 2, hipertensión y dislipidemia.",
+        "why_relevant": "La obesidad grave en la adolescencia condiciona exposición prolongada a hipertensión, dislipidemia y diabetes, por lo que una reducción ponderal mantenida tiene importancia preventiva potencial. No obstante, no se demostraron reducciones de eventos cardiovasculares y los efectos sobre presión arterial, imágenes vasculares y otros desenlaces cardiovasculares objetivos permanecen inciertos.",
+        "practical_implication": "La cirugía metabólica puede formar parte de un abordaje multidisciplinar en adolescentes cuidadosamente seleccionados con obesidad grave, con seguimiento nutricional y clínico de por vida. No debe presentarse como una intervención con beneficio cardiovascular clínico demostrado; se requiere monitorización estructurada de presión arterial, lípidos, glucosa y complicaciones nutricionales.",
+        "source_title": "Synthesized cardiometabolic, pulmonary, and sleep outcomes after bariatric surgery in adolescents with severe obesity: A systematic review and meta-analysis.",
+        "journal": "Obesity pillars",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.obpill.2026.100341"
+      },
+      {
+        "title": "El control intensivo de la presión arterial no elimina el riesgo residual tras ictus lacunar",
+        "what_happened": "Un análisis secundario post hoc del ensayo SPS3 examinó 1.501 participantes asignados al objetivo más bajo de presión arterial sistólica. Durante una mediana de 3,49 años, 120 participantes presentaron ictus isquémico recurrente. La enfermedad aterosclerótica de grandes vasos y el uso de aspirina o clopidogrel en el momento del ictus índice se asociaron independientemente con recurrencia; la asignación a doble antiagregación no se asoció con menor recurrencia en este análisis.",
+        "why_relevant": "El trabajo subraya que el control tensional intensivo constituye solo un componente de la prevención secundaria cerebrovascular. La coexistencia de aterosclerosis de grandes vasos identifica un fenotipo de mayor riesgo residual que requiere valoración etiológica y prevención vascular integral.",
+        "practical_implication": "Tras un ictus lacunar, la estrategia preventiva debe incluir control estricto de la presión arterial, tratamiento intensivo de los factores ateroscleróticos y reevaluación de enfermedad vascular concomitante cuando sea clínicamente pertinente. Al tratarse de un análisis post hoc y restringido a participantes ya asignados al objetivo tensional bajo, no permite estimar el efecto causal del control intensivo sobre la recurrencia en esos subgrupos.",
+        "source_title": "Predictors of recurrent stroke among patients with lacunar stroke receiving intensive blood pressure control: a secondary analysis of the secondary prevention of small subcortical strokes trial.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/01616412.2026.2739260"
+      },
+      {
+        "title": "Alta carga de aterosclerosis subclínica y alteraciones metabólicas en personas con VIH y obesidad",
+        "what_happened": "Un estudio transversal realizado en 126 personas con VIH, obesidad y estabilidad clínica en Perú identificó alteraciones carotídeas por ecografía —definidas como aumento del grosor íntima-media o placa— en el 34,4% de los participantes. También comunicó elevada frecuencia de alteraciones del metabolismo de la glucosa, dislipidemia y síndrome metabólico, con diferencias amplias entre estimadores de riesgo cardiovascular generales y un modelo específico para VIH.",
+        "why_relevant": "La observación destaca la posible infravaloración del riesgo cardiometabólico cuando se aplican ecuaciones desarrolladas para población general a personas con VIH y obesidad. La detección de placa carotídea aporta evidencia de carga aterosclerótica subclínica, aunque el desenlace combinado con grosor íntima-media no equivale necesariamente a aterosclerosis clínica establecida.",
+        "practical_implication": "En personas con VIH y obesidad, la prevención debe reforzar la evaluación sistemática de presión arterial, glucosa, lípidos y otros factores modificables. La imagen carotídea puede considerarse de forma selectiva cuando pueda modificar decisiones clínicas, pero este estudio transversal, pequeño y de un único entorno no demuestra que el cribado por imagen reduzca eventos ni valida un umbral terapéutico específico.",
+        "source_title": "High cardiometabolic burden among people with HIV and obesity in Peru.",
+        "journal": "HIV research & clinical practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/25787489.2026.2746807"
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "generated_at": "2026-10-27T15:33:19.611080+00:00",
     "items": [
