@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-29",
+    "generated_at": "2026-10-29T16:25:44.831115+00:00",
+    "items": [
+      {
+        "title": "Recaticimab: reducción de LDL-C, apoB y Lp(a) en un metaanálisis de ensayos aleatorizados",
+        "what_happened": "Un metaanálisis sistemático con evaluación GRADE reunió cuatro ensayos doble ciego controlados con placebo en 1.657 adultos con dislipidemia. A las 12 semanas, recaticimab, un anticuerpo anti-PCSK9 de administración potencialmente trimestral, redujo el LDL-C en 47,31 puntos porcentuales frente a placebo; también redujo colesterol no-HDL, apoB y Lp(a).",
+        "why_relevant": "La reducción de apoB y LDL-C es directamente pertinente para disminuir la exposición acumulada a lipoproteínas aterogénicas, eje central de la prevención aterosclerótica. La posibilidad de intervalos de dosificación de hasta 12 semanas podría facilitar la intensificación terapéutica en pacientes que no alcanzan objetivos con estatinas u otros tratamientos.",
+        "practical_implication": "La evidencia apoya a recaticimab como opción hipolipemiante potente en desarrollo, pero no permite atribuirle todavía reducción de eventos cardiovasculares. Los resultados disponibles son sustitutos lipídicos de corta duración; la adopción clínica debería esperar datos confirmatorios de seguridad a largo plazo y desenlaces cardiovasculares clínicos.",
+        "source_title": "Efficacy and Safety of Recaticimab in Patients With Dyslipidemia: A Systematic Review and Meta-Analysis of Randomized Controlled Trials With GRADE Assessment.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/crd.0000000000001529"
+      },
+      {
+        "title": "LDL-C temprano inferior a 1,4 mmol/L y recurrencia tras ictus isquémico: asociación observacional",
+        "what_happened": "En pacientes con ictus isquémico moderado-grave, un LDL-C medido precozmente por debajo de 1,4 mmol/L se asoció con menor riesgo de recurrencia de ictus a 12 meses frente a valores superiores a 1,8 mmol/L, con un hazard ratio ajustado de 0,49. Los hallazgos funcionales a 90 días fueron exploratorios y perdieron claridad tras ajustes adicionales.",
+        "why_relevant": "El estudio es coherente con la estrategia de reducción intensiva de LDL-C en prevención vascular secundaria y refuerza la importancia de evaluar de forma temprana la carga lipídica aterogénica tras un evento cerebrovascular.",
+        "practical_implication": "El hallazgo no demuestra que alcanzar un LDL-C inferior a 1,4 mmol/L mediante una intervención concreta cause menos recurrencias, porque se trata de una asociación observacional susceptible a confusión por tratamiento, momento de medición y gravedad clínica. En la práctica, respalda la optimización precoz del tratamiento hipolipemiante conforme a las guías, sin sustituir la evidencia de ensayos clínicos.",
+        "source_title": "Associations of early measured low-density lipoprotein cholesterol with 12-month stroke recurrence and 90-day functional outcome after moderate-to-severe ischemic stroke.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.jstrokecerebrovasdis.2026.108777"
+      },
+      {
+        "title": "CAC y angiografía coronaria por TC en hipercolesterolemia familiar: estratificación adicional, no sustituto del tratamiento",
+        "what_happened": "Una revisión reciente examinó el papel del score de calcio coronario y de la angiografía coronaria por tomografía computarizada en hipercolesterolemia familiar. Señaló que la angiografía por TC permite caracterizar carga de placa, estenosis y rasgos de placa de alto riesgo, mientras que el CAC puede infravalorar enfermedad no calcificada en pacientes jóvenes.",
+        "why_relevant": "La hipercolesterolemia familiar representa un modelo de exposición acumulada y de por vida a LDL-C elevado. La heterogeneidad del riesgo residual dentro de esta población hace especialmente relevante cuantificar la carga aterosclerótica subclínica cuando pueda modificar la intensidad del seguimiento o de las intervenciones preventivas.",
+        "practical_implication": "La ausencia de calcio o de aterosclerosis detectable no debería utilizarse para retirar o posponer el tratamiento hipolipemiante indicado por la hipercolesterolemia familiar. La TC coronaria puede considerarse de manera individualizada para estratificación adicional, pero la evidencia no justifica todavía un cribado sistemático con una edad o intervalos universales; además, deben considerarse radiación, hallazgos incidentales y el efecto potencial de las estatinas sobre la calcificación.",
+        "source_title": "Coronary artery calcium scoring and coronary computed tomography angiography in familial hypercholesterolemia: current evidence and future directions.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/mol.0000000000001066"
+      },
+      {
+        "title": "Prevención de ASCVD de inicio temprano: exposición acumulada a apoB, tabaco y uso selectivo de imagen",
+        "what_happened": "Una revisión narrativa sobre enfermedad cardiovascular aterosclerótica de inicio temprano distinguió entre determinantes con fuerte respaldo causal, como la exposición acumulada a lipoproteínas con apoB y el tabaquismo, y factores cuya evidencia sigue siendo principalmente asociativa, como alteraciones del sueño, estrés psicosocial, vapeo y contaminación. También desaconsejó el uso universal de CAC o imagen carotídea en jóvenes asintomáticos.",
+        "why_relevant": "El mensaje es particularmente relevante para la prevención primaria: el riesgo aterosclerótico en adultos jóvenes no queda bien representado por estimadores de riesgo a corto plazo. La identificación de dislipidemia, hipertensión, diabetes, tabaquismo, enfermedad renal crónica, antecedentes familiares y posible hipercolesterolemia familiar permite intervenir antes de que se acumule una carga aterogénica sustancial.",
+        "practical_implication": "La práctica preventiva debería priorizar cribado lipídico, determinación de Lp(a) al menos una vez en la edad adulta y búsqueda dirigida de hipercolesterolemia familiar y otros factores de alto riesgo. CAC e imagen carotídea deberían reservarse para adultos cuidadosamente seleccionados en quienes el resultado pueda cambiar una decisión terapéutica; esta publicación es una revisión narrativa y no aporta nueva evidencia experimental de que la imagen sistemática mejore eventos clínicos.",
+        "source_title": "Early-onset atherosclerotic cardiovascular disease in young adults: Lifestyle, environmental, and psychosocial risk factors.",
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcrp.2026.200714"
+      },
+      {
+        "title": "Ecografía carotídea portátil con IA y variables de laboratorio para predecir ictus: señal prometedora, pendiente de validación externa",
+        "what_happened": "Un estudio prospectivo incluyó 639 personas con placa carotídea identificada mediante ecografía portátil asistida por IA y realizó seguimiento durante 180 días. Un modelo que incorporó antecedente de ictus, antecedente de infarto de miocardio, grosor de placa, LDL y HDL mostró un AUC de 0,884 para ictus o AIT de circulación anterior de nueva aparición.",
+        "why_relevant": "La combinación de carga de placa carotídea, factores clínicos y perfil lipídico es conceptualmente atractiva para identificar individuos con aterosclerosis subclínica o manifiesta que podrían requerir una prevención más intensiva. El uso de dispositivos portátiles podría ampliar el acceso a la caracterización carotídea en ámbitos con menos recursos.",
+        "practical_implication": "El modelo no debe emplearse todavía como base autónoma para indicar pruebas invasivas o tratamientos no contemplados en guías. El seguimiento fue corto, el desenlace fue cerebrovascular y la información disponible no demuestra validación externa ni impacto sobre eventos al usar el algoritmo; por tanto, sus resultados son predictivos y observacionales, no causales.",
+        "source_title": "Development and Clinical Validation of a Stroke Risk Decision System for Patients With Carotid Artery Plaque Based on AI-Powered Handheld Ultrasound and Laboratory Markers.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1002/jcu.70419"
+      }
+    ]
+  },
+  {
     "date": "2026-10-28",
     "generated_at": "2026-10-28T16:17:38.400993+00:00",
     "items": [
