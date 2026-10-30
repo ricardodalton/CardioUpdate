@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-30",
+    "generated_at": "2026-10-30T16:13:48.284728+00:00",
+    "items": [
+      {
+        "title": "La vacunación antigripal se asocia con menos eventos cardiovasculares en prevención secundaria, sin ventaja demostrada de dosis altas",
+        "what_happened": "Un metaanálisis en red de 10 ensayos aleatorizados (131.908 participantes con enfermedad cardiovascular establecida) observó que la vacuna antigripal de dosis estándar, frente a no vacunación, se asoció con menor riesgo del desenlace cardiovascular compuesto, mortalidad total, mortalidad cardiovascular e infarto de miocardio. No se observaron reducciones significativas de ictus ni de hospitalización por insuficiencia cardiaca. Las formulaciones de dosis altas no demostraron un beneficio cardiovascular incremental estadísticamente significativo frente a la dosis estándar.",
+        "why_relevant": "Aporta evidencia basada en ensayos clínicos para considerar la vacunación antigripal como parte de la prevención secundaria cardiovascular, más allá de su indicación infecciosa. Los desenlaces analizados incluyen eventos clínicos y mortalidad, no solo marcadores sustitutos.",
+        "practical_implication": "El clínico debería verificar activamente la vacunación antigripal anual en pacientes con enfermedad cardiovascular aterosclerótica. La evidencia disponible no justifica elegir una dosis alta específicamente con el objetivo de mejorar resultados cardiovasculares frente a la dosis estándar.",
+        "source_title": "Comparative effectiveness of influenza vaccination dosing strategies for cardiovascular protection: A systematic review and network meta-analysis of randomized controlled trials.",
+        "journal": "American heart journal",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ahj.2026.107591"
+      },
+      {
+        "title": "Las trayectorias acumuladas de hipertensión, dislipidemia y obesidad en la mediana edad identifican perfiles de mayor riesgo cardiovascular",
+        "what_happened": "Un análisis observacional longitudinal de 5.244 participantes del estudio Tromsø identificó cuatro trayectorias conjuntas de presión arterial, índice de masa corporal y colesterol no-HDL: bajo riesgo estable, dislipidemia, hipertensión y alto riesgo. Las trayectorias de hipertensión y de alto riesgo concentraron el mayor exceso de infarto de miocardio, ictus y mortalidad durante el seguimiento. La edad cardiaca derivada del ECG aportó información pronóstica, pero explicó solo una proporción pequeña y no significativa del exceso de riesgo asociado a las trayectorias de factores convencionales.",
+        "why_relevant": "Refuerza el concepto de exposición acumulada a factores aterogénicos y hemodinámicos: el riesgo no depende exclusivamente de una determinación aislada de presión arterial o lípidos. También cuestiona que un biomarcador algorítmico de \"edad cardiaca\" sustituya al control sostenido de los factores de riesgo tradicionales.",
+        "practical_implication": "La prevención debería valorar la historia longitudinal de presión arterial, adiposidad y colesterol no-HDL, e intensificar precozmente el control de la hipertensión y la dislipidemia persistentes. La edad cardiaca por ECG puede ser un dato complementario, pero no debería dirigir por sí sola decisiones terapéuticas.",
+        "source_title": "Clustering of Cardiovascular Risk Factors in Midlife Forms Trajectories That Affect Heart Aging Biomarker and Incidence of Cardiovascular Disease.",
+        "journal": "Mayo Clinic proceedings. Digital health",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.mcpdig.2026.100425"
+      },
+      {
+        "title": "La discordancia LDL-C/apoB identifica un posible «falso control» lipídico asociado a placa carotídea",
+        "what_happened": "En un estudio transversal de 103 pacientes de alto riesgo con elevada carga metabólica, el 29% presentó discordancia con apoB alta respecto a LDL-C y el 25% cumplió la definición de «falso control»: LDL-C en objetivo con apoB elevada. La prevalencia de placa carotídea por ecografía fue superior en el grupo de falso control que en el de control lipídico concordante. Tras ajuste por edad, sexo y HbA1c, el control concordante se asoció con ausencia de placa.",
+        "why_relevant": "La publicación apoya la utilidad clínica potencial de apoB para detectar carga de partículas aterogénicas que puede no reflejarse adecuadamente en el LDL-C, particularmente en pacientes con diabetes, obesidad o dislipidemia metabólica. El desenlace evaluado fue aterosclerosis subclínica por imagen carotídea, no eventos cardiovasculares.",
+        "practical_implication": "En pacientes con fenotipo cardiometabólico de alto riesgo y LDL-C aparentemente controlado, el clínico puede considerar la medición de apoB para identificar discordancia residual y revisar la intensidad del tratamiento hipolipemiante dentro del contexto de riesgo global. La asociación es observacional y transversal; no demuestra que corregir la discordancia reduzca eventos.",
+        "source_title": "Clinical characterization of LDL-c/ApoB discordance in the metabolic patient: The \"false control\" as an independent marker of subclinical atherosclerosis.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.arteri.2026.500980"
+      },
+      {
+        "title": "La calcificación anular mitral grave se asocia con remodelado diastólico y mayor mortalidad en una cohorte ecocardiográfica",
+        "what_happened": "En una cohorte observacional de 49.093 personas sometidas a ecocardiografía, la calcificación anular mitral se asoció con edad, sexo femenino en edades avanzadas, diabetes, hipertensión, obesidad, disfunción renal e insuficiencia cardiaca con fracción de eyección preservada. La calcificación grave se relacionó con remodelado concéntrico, cavidad ventricular izquierda menor, presiones de llenado elevadas, dilatación auricular izquierda e hipertensión pulmonar. Durante una mediana de 1.786 días, la calcificación anular grave se asoció independientemente con mayor mortalidad.",
+        "why_relevant": "El hallazgo sitúa la calcificación anular mitral como un marcador ecocardiográfico de acumulación de riesgo cardiometabólico y de fenotipo de remodelado diastólico, potencialmente útil para reconocer pacientes que requieren una evaluación más rigurosa de hipertensión, diabetes, obesidad y función renal.",
+        "practical_implication": "Ante una calcificación anular mitral, especialmente si es grave, el clínico debería revisar de forma estructurada los factores de riesgo cardiometabólico y los datos de disfunción diastólica. El estudio no demuestra que la calcificación sea una causa modificable de mortalidad ni que deba motivar una intervención específica distinta del control intensivo de los factores de riesgo establecidos.",
+        "source_title": "Mitral Annular Calcification as a Marker of the HFpEF Phenotype: The Interplay of Cardiac Remodeling, Age, and Sex.",
+        "journal": "The American journal of cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.amjcard.2026.08.023"
+      },
+      {
+        "title": "El cribado cardiovascular-renal-metabólico ampliado muestra beneficio económico y clínico proyectado, pero solo en una simulación",
+        "what_happened": "Un estudio de microsimulación proyectó, en Reino Unido, Francia, Alemania y Australia, que una estrategia ampliada de cribado de hipertensión, diabetes tipo 2, enfermedad renal crónica, dislipidemia, obesidad e insuficiencia cardiaca podría reducir mortalidad y generar ahorro a 20 años frente a la atención habitual. El modelo asumió una mayor elegibilidad y frecuencia de cribado, vinculadas a seguimiento clínico.",
+        "why_relevant": "Aborda la prevención cardiovascular desde una perspectiva poblacional e integrada, reconociendo la interacción entre factores cardiovasculares, renales y metabólicos. Sin embargo, sus resultados son proyecciones modelizadas, no efectos observados en un ensayo clínico o en una implementación real.",
+        "practical_implication": "Los sistemas sanitarios pueden utilizar estos resultados como apoyo para evaluar programas integrados de detección y seguimiento de riesgo cardiovascular-renal-metabólico, pero no como demostración de efectividad clínica. La aplicabilidad depende de supuestos sobre participación, acceso al tratamiento, progresión de enfermedad y calibración de las ecuaciones de riesgo; el análisis de incertidumbre fue determinista y no probabilístico.",
+        "source_title": "Evaluating the cost-effectiveness of enhanced cardiovascular-renal-metabolic (CVRM) screening in UK, France, Germany and Australia: a microsimulation-based enhanced CVRM screening analysis.",
+        "journal": "Journal of medical economics",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/13696998.2026.2746285"
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "generated_at": "2026-10-29T16:25:44.831115+00:00",
     "items": [
