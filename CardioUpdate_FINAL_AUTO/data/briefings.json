@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-01",
+    "generated_at": "2026-11-01T16:18:59.714336+00:00",
+    "items": [
+      {
+        "title": "Enlicitide oral: reducción marcada de LDL-C y apoB, aún sin evidencia de eventos",
+        "what_happened": "Un metaanálisis de tres ensayos aleatorizados controlados con placebo (3593 participantes) encontró que enlicitide, un inhibidor oral de PCSK9, redujo frente a placebo el LDL-C en un 56,19% y la apoB en un 47,09%. También se observaron reducciones de colesterol no-HDL y Lp(a), sin diferencias aparentes en acontecimientos adversos graves ni abandonos.",
+        "why_relevant": "La formulación oral podría ampliar las opciones para reducir de forma intensiva las lipoproteínas aterogénicas en pacientes que no alcanzan objetivos con el tratamiento convencional o presentan barreras para terapias inyectables. La reducción concomitante de apoB es particularmente relevante porque refleja la disminución del número de partículas aterogénicas.",
+        "practical_implication": "No debería interpretarse como demostración de beneficio cardiovascular clínico ni sustituir las terapias con evidencia consolidada de reducción de eventos. La decisión terapéutica debe seguir basada en el riesgo global, el LDL-C/apoB residual, la tolerabilidad y el acceso; serán necesarios ensayos de desenlaces cardiovasculares y seguimiento prolongado antes de establecer su papel clínico definitivo.",
+        "source_title": "Efficacy and Safety of Enlicitide in Hypercholesterolemia: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1002/edm2.70358"
+      },
+      {
+        "title": "Silenciamiento hepático de angiotensinógeno: señal sostenida de reducción tensional en fase I",
+        "what_happened": "En un estudio de fase I, ART101, un siRNA conjugado con GalNAc dirigido al angiotensinógeno hepático, produjo reducciones máximas medias de angiotensinógeno sérico del 93% en voluntarios sanos y del 90% en ocho pacientes con hipertensión tras una dosis de 600 mg. A las 24 semanas, se comunicó una reducción corregida por placebo de 12,9 mmHg en la presión arterial sistólica ambulatoria de 24 horas en participantes sanos.",
+        "why_relevant": "La inhibición duradera del sustrato del sistema renina-angiotensina-aldosterona podría permitir esquemas de administración muy espaciados y, potencialmente, mejorar la adherencia, uno de los principales determinantes del control insuficiente de la hipertensión.",
+        "practical_implication": "No procede modificar la práctica clínica ni extrapolar estos datos a control sostenido de la hipertensión o prevención de eventos. La evidencia procede de un estudio temprano, con solo ocho pacientes hipertensos en una cohorte abierta; deben confirmarse eficacia, seguridad renal, potasio, reversibilidad y resultados cardiovasculares en ensayos aleatorizados de mayor tamaño.",
+        "source_title": "N-Acetylgalactosamine-Conjugated Small Interfering RNA Targeting Hepatic Angiotensinogen in Hypertension: A Phase I Clinical Trial With Randomized Part A and Open-Label Part B.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1001/jamacardio.2026.4936"
+      },
+      {
+        "title": "Entrenamiento isométrico de prensión manual: pequeño descenso de la presión ambulatoria diurna en hipertensión tratada",
+        "what_happened": "Un ensayo aleatorizado de 67 adultos con hipertensión controlada y tratamiento farmacológico comparó cuatro semanas de entrenamiento isométrico de prensión manual, extensión de rodilla o control. Solo la prensión manual mostró menor presión arterial ambulatoria durante la vigilia frente al control: 121,8 frente a 124,2 mmHg para sistólica y 76,3 frente a 80,8 mmHg para diastólica. No hubo diferencias significativas en presión de 24 horas ni nocturna.",
+        "why_relevant": "La presión arterial ambulatoria aporta una medida más próxima a la carga tensional habitual que la presión de consulta. El hallazgo apoya que intervenciones breves y supervisadas de ejercicio isométrico pueden complementar, pero no reemplazar, las estrategias establecidas de estilo de vida y farmacoterapia.",
+        "practical_implication": "El entrenamiento isométrico de prensión manual puede considerarse un complemento individualizado en pacientes con hipertensión controlada, siempre integrado en ejercicio aeróbico, control ponderal, restricción de sodio y tratamiento farmacológico indicado. Su efecto fue modesto, limitado al periodo diurno y de corta duración; no demuestra reducción de eventos cardiovasculares ni permite sustituir ajustes terapéuticos.",
+        "source_title": "Four weeks of isometric handgrip training results in lower awake ambulatory blood pressure compared with control: a randomized clinical trial.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1111/cpf.70102"
+      },
+      {
+        "title": "Patrones dietéticos y progresión del calcio coronario: asociación longitudinal en MESA",
+        "what_happened": "En 3182 participantes de MESA, un patrón dietético rico en cereales integrales y fruta se asoció con menor probabilidad de calcificación coronaria incidente y de progresión del calcio coronario. Un patrón alto en grasa y carne procesada se asoció con mayor progresión del calcio. Las asociaciones variaron por raza/etnia y fueron más evidentes en participantes blancos que en participantes negros.",
+        "why_relevant": "La progresión del calcio arterial coronario cuantifica carga aterosclerótica calcificada y puede reforzar la conversación clínica sobre prevención primordial y primaria. El trabajo añade datos longitudinales sobre patrones dietéticos empíricos, más allá de nutrientes aislados.",
+        "practical_implication": "La recomendación práctica sigue siendo promover patrones alimentarios de alta calidad, con predominio de alimentos vegetales mínimamente procesados, cereales integrales y fruta, y limitar carnes procesadas. Sin embargo, el estudio es observacional: no prueba que el cambio dietético cause cambios en el CAC ni que modificar estos patrones reduzca eventos cardiovasculares. Además, el CAC es un marcador sustituto y sus asociaciones no deben traducirse automáticamente en decisiones terapéuticas aisladas.",
+        "source_title": "Diet patterns are associated with progression of coronary artery calcification and differ across race/ethnicity: The Multi-Ethnic Study of Atherosclerosis.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101791"
+      },
+      {
+        "title": "Radiómica de grasa epicárdica para complementar el CAC en adultos negros con diabetes tipo 2",
+        "what_happened": "En un análisis observacional del registro CLARIFY con 1024 adultos negros y diabetes tipo 2, un modelo que combinó índice de privación social, CAC y características radiómicas de grasa epicárdica mejoró la reclasificación de eventos cardiovasculares mayores frente al CAC aislado. El beneficio incremental no se observó en la cohorte blanca emparejada.",
+        "why_relevant": "El CAC puede infraestimar o clasificar de forma diferente el riesgo en algunos grupos poblacionales. La incorporación de determinantes sociales e imágenes de grasa epicárdica podría ayudar a refinar la estratificación en personas con diabetes tipo 2, especialmente cuando el riesgo residual parece discordante con el CAC.",
+        "practical_implication": "La radiomía de grasa epicárdica no debería utilizarse todavía para indicar o retirar estatinas, terapias hipolipemiantes o tratamientos antihipertensivos. El resultado es observacional, deriva de un registro y requiere validación externa, evaluación de calibración, estandarización técnica y demostración de que su uso mejora decisiones clínicas y eventos, no solo métricas de predicción.",
+        "source_title": "Epicardial adipose tissue radiomics complement calcium scoring in black adults with type 2 diabetes mellitus.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101693"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "generated_at": "2026-10-31T15:31:36.870223+00:00",
     "items": [
