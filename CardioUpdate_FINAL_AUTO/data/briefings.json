@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-02",
+    "generated_at": "2026-11-02T19:46:42.906676+00:00",
+    "items": [
+      {
+        "title": "Carga de placa carotídea y femoral tras eventos coronarios precoces",
+        "what_happened": "Un estudio prospectivo de pacientes consecutivos con enfermedad coronaria de inicio precoz (<60 años) cuantificó mediante ecografía vascular tridimensional el volumen total de placa carotídea y femoral. En 231 pacientes, la carga de placa fue marcadamente mayor que en participantes asintomáticos de edad similar de PESA y predominó en el territorio femoral. La carga fue heterogénea: los pacientes con mayor carga presentaron principalmente factores de riesgo convencionales y antecedente de enfermedad coronaria, mientras que aquellos con poca placa mostraron relativamente más factores no convencionales.",
+        "why_relevant": "El hallazgo respalda que la imagen carotídea y femoral puede caracterizar fenotipos ateroscleróticos distintos después de un evento coronario precoz, una población en la que las calculadoras convencionales pueden infraestimar el riesgo o no explicar completamente el mecanismo del evento.",
+        "practical_implication": "La evaluación de placa carotídea y femoral podría considerarse como complemento para individualizar la prevención secundaria y el estudio de factores de riesgo en enfermedad coronaria precoz. No demuestra que una estrategia guiada por ecografía reduzca eventos, ya que se trata de un estudio observacional, de un único centro y sin asignación terapéutica aleatorizada.",
+        "source_title": "Carotid and femoral plaque burden in patients with early coronary artery disease events: Prevalence, extent and relationship to risk phenotypes.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.ijcard.2026.135023"
+      },
+      {
+        "title": "Lp(a) elevada y recurrencia de infarto en diabetes tras síndrome coronario agudo o intervención coronaria",
+        "what_happened": "Un metaanálisis con siete estudios observacionales y 7.887 pacientes con diabetes y antecedente de síndrome coronario agudo o intervención coronaria percutánea encontró que una Lp(a) elevada se asoció con mayor riesgo de infarto de miocardio recurrente (HR combinado 2,17; IC 95% 1,02-4,62). No se observó una asociación estadísticamente definitiva con revascularización coronaria repetida.",
+        "why_relevant": "Aporta una síntesis específica para una población de muy alto riesgo residual, en la que la Lp(a) puede ayudar a identificar un perfil de riesgo isquémico recurrente más allá de la prevención convencional.",
+        "practical_implication": "La determinación de Lp(a) puede reforzar la estratificación del riesgo residual tras un síndrome coronario agudo en pacientes con diabetes y respaldar la intensificación rigurosa de las medidas preventivas con beneficio demostrado. La asociación no prueba causalidad ni que reducir Lp(a) reduzca recurrencias en esta población: los estudios incluidos fueron observacionales, con heterogeneidad sustancial y sin evidencia concluyente para revascularización.",
+        "source_title": "Elevated Lipoprotein(a) Predicts Recurrent Myocardial Infarction in Diabetic Patients Following Acute Coronary Syndromes.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1002/clc.70480"
+      },
+      {
+        "title": "Albuminuria y carga de aterosclerosis coronaria subclínica en población general",
+        "what_happened": "En un análisis transversal de 9.424 participantes de SCAPIS, una mayor relación albúmina-creatinina urinaria se asoció con mayor puntuación de calcio coronario. La asociación se atenuó de forma notable tras ajustar por presión arterial, diabetes, LDL-C, tabaquismo y función renal; las asociaciones con calcio coronario presente y estenosis en angiografía por tomografía computarizada dejaron de ser significativas tras los ajustes más amplios.",
+        "why_relevant": "El estudio vincula la albuminuria con carga aterosclerótica coronaria medida por CAC y angiografía coronaria por tomografía, pero también muestra que una parte importante de esa relación está explicada por factores cardiometabólicos establecidos.",
+        "practical_implication": "La albuminuria puede alertar sobre un perfil vascular desfavorable y justificar una evaluación intensiva de presión arterial, diabetes, función renal y exposición lipídica. No debe interpretarse como marcador causal independiente de aterosclerosis ni como indicación aislada para solicitar CAC: el diseño fue transversal y evaluó marcadores subclínicos, no eventos cardiovasculares.",
+        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
+      },
+      {
+        "title": "El calcio coronario virtual derivado de angiografía por TC con detectores de conteo de fotones aún no sustituye al estudio sin contraste",
+        "what_happened": "En 239 pacientes sometidos a angiografía coronaria por tomografía computarizada con detectores de conteo de fotones, la puntuación de calcio obtenida en imágenes virtuales sin contraste mostró excelente correlación con la obtenida en imágenes verdaderas sin contraste (ICC 0,97). Sin embargo, la clasificación de carga de placa no coincidió inicialmente en una proporción relevante de pacientes; la concordancia mejoró tras lectura consensuada, pero no fue perfecta.",
+        "why_relevant": "El trabajo aborda una posible simplificación del estudio de CAC, al estimarlo a partir de una adquisición con contraste ya realizada. La discrepancia en las categorías de placa es clínicamente relevante porque estas categorías pueden condicionar la comunicación del riesgo y decisiones preventivas.",
+        "practical_implication": "Las imágenes virtuales sin contraste no deberían reemplazar todavía de forma directa a la adquisición sin contraste para clasificar carga de calcio o placa. Se necesitan validación externa, estandarización técnica y estudios que evalúen reclasificación clínica y resultados cardiovasculares, no solo concordancia diagnóstica.",
+        "source_title": "Coronary artery calcium scoring using virtual vs. true non-contrast images from ultra-high-resolution and normal-resolution photon-counting coronary CT angiography.",
+        "journal": "European journal of radiology open",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ejro.2026.100795"
+      },
+      {
+        "title": "Cirugía metabólica en adolescentes con obesidad grave: mejoría cardiometabólica, pero certeza limitada para presión arterial y resultados vasculares",
+        "what_happened": "Una revisión sistemática y metaanálisis de 101 estudios o cohortes, incluidos tres cohortes aleatorizadas independientes, encontró que la cirugía metabólica o bariátrica redujo el IMC frente al manejo no quirúrgico a dos años y mostró reducción de triglicéridos en la evidencia aleatorizada. Los estudios observacionales describieron mejoría o remisión de diabetes tipo 2, hipertensión y dislipidemia, con mantenimiento más consistente de la pérdida ponderal tras bypass gástrico y gastrectomía en manga.",
+        "why_relevant": "La obesidad grave en la adolescencia condiciona exposición acumulada a hipertensión, dislipidemia y diabetes. La síntesis aporta evidencia sobre una intervención capaz de modificar de forma intensa varios determinantes de riesgo cardiovascular desde etapas tempranas de la vida.",
+        "practical_implication": "La cirugía metabólica puede contemplarse dentro de equipos multidisciplinares para adolescentes cuidadosamente seleccionados con obesidad grave, con seguimiento nutricional y clínico de por vida. No permite afirmar beneficio sobre aterosclerosis, infarto o mortalidad cardiovascular: los efectos sobre presión arterial fueron indeterminados, la certeza de varias estimaciones fue baja o muy baja y faltaron medidas vasculares y monitorización ambulatoria de presión arterial en los estudios incluidos.",
+        "source_title": "Synthesized cardiometabolic, pulmonary, and sleep outcomes after bariatric surgery in adolescents with severe obesity: A systematic review and meta-analysis.",
+        "journal": "Obesity pillars",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.obpill.2026.100341"
+      }
+    ]
+  },
+  {
     "date": "2026-11-01",
     "generated_at": "2026-11-01T16:18:59.714336+00:00",
     "items": [
