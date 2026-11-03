@@ -1,57 +1,57 @@
 [
   {
     "date": "2026-11-03",
-    "generated_at": "2026-11-03T03:29:54.620193+00:00",
+    "generated_at": "2026-11-03T17:19:48.888849+00:00",
     "items": [
       {
-        "title": "Evolocumab en prevención secundaria: metaanálisis de ensayos aleatorizados con resultados clínicos",
-        "what_happened": "Un metaanálisis de nueve ensayos clínicos aleatorizados con 67.662 pacientes con enfermedad cardiovascular establecida evaluó evolocumab. El tratamiento redujo de forma importante el LDL-C y se asoció con menos eventos cardiovasculares mayores, infarto de miocardio y revascularización coronaria; no mostró una reducción estadísticamente definitiva de mortalidad cardiovascular ni de ictus. Los eventos adversos graves y neurocognitivos fueron comparables, con más reacciones en el lugar de inyección.",
-        "why_relevant": "Aporta una síntesis centrada en prevención secundaria y en eventos clínicos, no solo en la reducción de LDL-C. Refuerza el papel de la inhibición de PCSK9 como complemento de las estatinas cuando persiste riesgo aterosclerótico elevado o no se alcanzan objetivos lipídicos.",
-        "practical_implication": "La intensificación con evolocumab puede considerarse en pacientes con enfermedad cardiovascular aterosclerótica establecida que mantienen LDL-C por encima del objetivo pese a tratamiento hipolipemiante optimizado o presentan intolerancia que limita dicho tratamiento. La magnitud estimada del efecto sobre eventos cardiovasculares mayores debe interpretarse con cautela por la heterogeneidad de definiciones de desenlaces y diseños entre estudios.",
-        "source_title": "Impact of Evolocumab on LDL-Cholesterol and Cardiovascular Outcomes in Patients With Established CVD: Systematic Review and Meta-Analysis.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1002/edm2.70355"
-      },
-      {
-        "title": "Discordancia LDL-C/apoB y «falso control» lipídico asociado a placa carotídea",
-        "what_happened": "Un estudio transversal de 103 pacientes de alto riesgo metabólico tratados mostró ausencia de correlación entre LDL-C y apoB. El 29% presentó discordancia con apoB relativamente elevada y el 25% cumplía una situación de «falso control»: LDL-C en objetivo con apoB elevada. La prevalencia de placa carotídea fue mayor en este último grupo que en quienes tenían control concordante de LDL-C y apoB.",
-        "why_relevant": "La observación es coherente con que el LDL-C puede infraestimar la carga de partículas aterogénicas en pacientes con diabetes, obesidad u otros rasgos metabólicos. Sitúa la apoB como herramienta potencial para detectar riesgo residual y vincula la discordancia con aterosclerosis subclínica evaluada por ecografía carotídea.",
-        "practical_implication": "En pacientes con alto riesgo cardiometabólico y LDL-C aparentemente controlado, la determinación de apoB puede ayudar a identificar discordancia y a revisar la intensidad de la prevención. El estudio no demuestra que medir apoB ni corregir la discordancia reduzca eventos: su diseño transversal, muestra pequeña y uso de placa carotídea como desenlace impiden inferencia causal.",
+        "title": "La discordancia LDL-c/apoB identifica un posible «falso control» lipídico asociado a placa carotídea",
+        "what_happened": "Un estudio transversal de 103 pacientes de alto riesgo cardiometabólico evaluó la discordancia entre LDL-c y apoB. El 25% presentó LDL-c en objetivo junto con apoB elevada («falso control»), y este grupo tuvo una mayor prevalencia de placa carotídea que quienes mostraban control concordante. Tras ajuste por edad, sexo y HbA1c, el control concordante se asoció con ausencia de placa.",
+        "why_relevant": "El trabajo refuerza que el LDL-c puede infravalorar la carga de lipoproteínas aterogénicas en pacientes con obesidad, diabetes e hipertensión. La apoB refleja el número de partículas aterogénicas y puede aportar información complementaria cuando LDL-c y el contexto metabólico parecen discordantes.",
+        "practical_implication": "En pacientes de alto riesgo metabólico con LDL-c aparentemente controlado, especialmente si existe hipertrigliceridemia, diabetes u obesidad, puede considerarse la determinación de apoB para detectar discordancia. La asociación con placa carotídea es observacional y transversal; no demuestra que tratar según apoB reduzca eventos en esta población concreta.",
         "source_title": "Clinical characterization of LDL-c/ApoB discordance in the metabolic patient: The \"false control\" as an independent marker of subclinical atherosclerosis.",
         "journal": "",
         "source_database": "Europe PMC",
         "url": "https://doi.org/10.1016/j.arteri.2026.500980"
       },
       {
-        "title": "Calcio coronario elevado e isquemia en resonancia de estrés",
-        "what_happened": "En una cohorte de 215 pacientes sometidos a puntuación de calcio coronario y posteriormente a resonancia cardiaca de perfusión con estrés, la isquemia se identificó en el 26%. Su prevalencia fue del 17,1% con CAC de 300-999 unidades Agatston y del 41,6% con CAC igual o superior a 1.000. La puntuación de calcio fue el único predictor independiente de isquemia en el análisis presentado.",
-        "why_relevant": "El trabajo conecta una medida de carga aterosclerótica coronaria con un fenotipo funcional de mayor riesgo, la isquemia inducible. Puede resultar útil para contextualizar el significado clínico de valores de CAC muy elevados en pacientes seleccionados.",
-        "practical_implication": "Un CAC muy elevado debe reforzar el control intensivo de los factores de riesgo y puede justificar valoración clínica adicional individualizada cuando existan síntomas o incertidumbre diagnóstica. No respalda realizar resonancia de estrés de forma sistemática tras cualquier CAC elevado: se trata de una cohorte retrospectiva, seleccionada para recibir ambas pruebas, sin validación prospectiva de pronóstico ni demostración de beneficio clínico de la estrategia.",
-        "source_title": "Association between coronary artery calcium score and myocardial ischemia assessed by stress perfusion cardiac magnetic resonance imaging.",
+        "title": "El evolocumab en prevención secundaria: metaanálisis de ensayos aleatorizados confirma reducción de eventos isquémicos",
+        "what_happened": "Una revisión sistemática y metaanálisis de nueve ensayos aleatorizados, con 67.662 pacientes con enfermedad cardiovascular establecida, encontró que evolocumab redujo marcadamente LDL-c y se asoció con menos eventos cardiovasculares mayores, infarto de miocardio y revascularización coronaria. No se observó una reducción estadísticamente definitiva de mortalidad cardiovascular ni de ictus, y las reacciones locales fueron más frecuentes.",
+        "why_relevant": "La síntesis respalda el valor de una reducción adicional de LDL-c mediante inhibición de PCSK9 en prevención secundaria, particularmente cuando la estatina, con o sin ezetimiba, no logra una reducción suficiente de la carga aterogénica.",
+        "practical_implication": "El evolocumab puede considerarse como tratamiento añadido en pacientes con enfermedad aterosclerótica establecida y LDL-c persistentemente elevado pese a tratamiento hipolipemiante optimizado. La magnitud del efecto combinado sobre MACE debe interpretarse con cautela por la heterogeneidad de definiciones de eventos y diseños entre ensayos; los resultados de eventos individuales son más directamente interpretables que los cambios lipídicos sustitutos.",
+        "source_title": "Impact of Evolocumab on LDL-Cholesterol and Cardiovascular Outcomes in Patients With Established CVD: Systematic Review and Meta-Analysis.",
         "journal": "",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1371/journal.pone.0361659"
+        "url": "https://doi.org/10.1002/edm2.70355"
       },
       {
-        "title": "Carga de placa carotídea para personalizar la prevención cardiovascular",
-        "what_happened": "Un programa observacional de cribado ecográfico carotídeo incluyó 11.540 personas sin enfermedad cardiovascular clínica y cuantificó el área total de placa y el grosor máximo de placa. Entre 75 personas con aterosclerosis carotídea avanzada que posteriormente presentaron infarto o ictus isquémico, una proporción relevante había sido clasificada como de bajo riesgo por PROCAM. En varones tratados con estatinas, la mortalidad por cualquier causa fue menor según el análisis observacional.",
-        "why_relevant": "El estudio ilustra la posible discordancia entre calculadoras de riesgo convencionales y la aterosclerosis carotídea manifiesta. La cuantificación de placa podría contribuir a reclasificar riesgo en prevención primaria, especialmente cuando la decisión sobre tratamiento hipolipemiante no es clara.",
-        "practical_implication": "La detección de placa carotídea puede actuar como modificador de riesgo en una evaluación individualizada y apoyar una prevención más intensiva cuando revela aterosclerosis avanzada. La aparente asociación favorable de estatinas no prueba causalidad, ya que el estudio no fue aleatorizado y es vulnerable a confusión por indicación, sesgo de selección y diferencias no medidas entre tratados y no tratados.",
-        "source_title": "Personalized Prevention of Cardiovascular Diseases Through Measurement of Plaque Burden in the Carotid Artery.",
-        "journal": "Cardiology research",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.14740/cr2325"
-      },
-      {
-        "title": "Volumetría cardiaca mediante IA en TC de tórax no sincronizada para predecir insuficiencia cardiaca y fibrilación auricular",
-        "what_happened": "Un análisis del estudio MESA comparó la volumetría de cavidades cardiacas obtenida por inteligencia artificial en TC de tórax no sincronizada frente a TC sincronizada por ECG en 2.053 participantes. La concordancia para detectar dilatación de cavidades fue alta y la capacidad predictiva para insuficiencia cardiaca incidente y fibrilación auricular fue no inferior a la de las mediciones en TC sincronizada.",
-        "why_relevant": "Aprovecha estudios de TC torácica ya realizados para extraer información cardiovascular adicional sin adquirir una prueba cardiaca específica. La aproximación puede ampliar la evaluación oportunista de riesgo de insuficiencia cardiaca y fibrilación auricular.",
-        "practical_implication": "La volumetría basada en IA podría incorporarse de forma progresiva a circuitos de lectura de TC no sincronizada, siempre que existan validación local, gobernanza de algoritmos y vías asistenciales para confirmar y manejar los hallazgos. La evidencia muestra rendimiento predictivo, no que la implementación de esta estrategia reduzca eventos clínicos ni que sustituya la valoración cardiológica convencional.",
-        "source_title": "Heart failure and atrial fibrillation prediction from non-gated chest CT scans using AI-based cardiac chamber volumetry: an AI-CVD study within the multi-ethnic study of atherosclerosis (MESA).",
+        "title": "El riesgo poligénico identifica exceso de eventos ASCVD en adultos clasificados como de bajo riesgo clínico",
+        "what_happened": "En una cohorte longitudinal de UK Biobank de 266.917 adultos sin enfermedad aterosclerótica, diabetes ni tratamiento hipolipemiante, un polygenic risk score para enfermedad coronaria se asoció gradualmente con infarto, ictus isquémico o muerte cardiovascular. Su incorporación a la estimación clínica mejoró la discriminación y reclasificó a una proporción de participantes hacia categorías de mayor riesgo.",
+        "why_relevant": "El estudio plantea que una parte de los adultos considerados de bajo riesgo por ecuaciones convencionales acumula susceptibilidad genética relevante no capturada por los factores tradicionales ni por una estimación de riesgo a 10 años.",
+        "practical_implication": "El score poligénico podría llegar a actuar como modificador de riesgo en prevención primaria seleccionada, pero todavía no debe sustituir la evaluación clínica convencional ni justificar por sí solo tratamiento farmacológico. Se trata de evidencia observacional en una cohorte concreta: demuestra asociación y mejora de reclasificación, no que el uso del score reduzca eventos clínicos ni que su rendimiento sea generalizable a todas las ancestrías.",
+        "source_title": "Utility of a coronary artery disease polygenic risk score in a low-risk primary prevention cohort.",
         "journal": "American journal of preventive cardiology",
         "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101732"
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101722"
+      },
+      {
+        "title": "En atletas máster, la placa carotídea no explica el exceso de aterosclerosis coronaria observado por CCTA",
+        "what_happened": "Un análisis transversal del estudio Master@Heart comparó a 549 hombres de bajo riesgo cardiovascular, incluidos atletas máster de ejercicio intenso de larga duración, atletas de inicio tardío y controles. La prevalencia de placa carotídea y la rigidez aórtica fueron similares entre grupos, aunque la placa carotídea se asoció con aterosclerosis coronaria detectada por angiografía por TC. Añadir placa carotídea a los factores tradicionales no mejoró de forma relevante la discriminación de aterosclerosis coronaria.",
+        "why_relevant": "Los resultados advierten contra la extrapolación anatómica entre territorios vasculares: una ecografía carotídea sin placa no excluye aterosclerosis coronaria, incluso en personas físicamente muy activas. También matizan el papel de la imagen carotídea como prueba universal de refinamiento de riesgo.",
+        "practical_implication": "La actividad física intensa no debe interpretarse como garantía de ausencia de aterosclerosis coronaria, y la decisión de solicitar imagen vascular debe individualizarse según riesgo global, síntomas, antecedentes y objetivo clínico. El estudio es transversal, incluyó solo hombres de mediana edad y bajo riesgo, y no permite inferir causalidad ni evaluar si una estrategia guiada por imagen modifica eventos.",
+        "source_title": "Carotid atherosclerosis and aortic stiffness in masters athletes: Multimodality vascular phenotyping from the Master@Heart study.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101771"
+      },
+      {
+        "title": "La derivación cardiovascular sistemática durante la deprivación androgénica mejora el control de colesterol, sin demostrar menos eventos",
+        "what_happened": "Un ensayo clínico aleatorizado internacional incluyó 2.487 pacientes con cáncer de próstata que iniciaban o habían iniciado recientemente terapia de deprivación androgénica. La derivación rutinaria a un internista o cardiólogo, con una estrategia protocolizada de estatina y objetivo de presión arterial sistólica, mejoró el resultado jerárquico compuesto principalmente por una reducción del colesterol. No hubo diferencia en muerte cardiovascular, infarto, ictus o insuficiencia cardiaca durante el seguimiento.",
+        "why_relevant": "El ensayo aporta evidencia aleatorizada de que un circuito estructurado de prevención cardiovascular puede mejorar el control de factores de riesgo en una población oncológica vulnerable a toxicidad cardiometabólica. Sin embargo, separa con claridad la mejora de variables sustitutas de la demostración de beneficio sobre eventos clínicos.",
+        "practical_implication": "Los pacientes que reciben deprivación androgénica pueden beneficiarse de una evaluación cardiovascular temprana y de un plan coordinado para presión arterial, lípidos, tabaquismo, alimentación y ejercicio. No obstante, el uso sistemático de estatinas independientemente del perfil lipídico o de las indicaciones habituales no queda validado para prevenir eventos por este estudio, ya que el beneficio del compuesto estuvo dominado por el colesterol y no se redujeron los eventos cardiovasculares clínicos.",
+        "source_title": "Specialist Referral for Cardiovascular Risk in Patients With Prostate Cancer: A Randomized Clinical Trial.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1001/jamainternmed.2026.4773"
       }
     ]
   },
