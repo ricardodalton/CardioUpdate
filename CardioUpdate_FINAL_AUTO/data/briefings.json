@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-04",
+    "generated_at": "2026-11-04T17:45:20.683256+00:00",
+    "items": [
+      {
+        "title": "LDL y colesterol no-HDL alcanzados tras iniciar estatinas: asociación con eventos en prevención primaria",
+        "what_happened": "Una cohorte multinacional de nuevos usuarios de estatinas en prevención primaria (Hong Kong, Nueva Zelanda y Reino Unido; 185.237 pacientes) evaluó la asociación entre las concentraciones de LDL y no-HDL medidas durante los dos primeros años y los eventos cardiovasculares mayores posteriores. Frente a LDL ≥2,6 mmol/L, los cocientes de riesgo ajustados de eventos fueron 0,80 para LDL 1,8-2,5 mmol/L y 0,79 para LDL 1,4-1,7 mmol/L. Las concentraciones muy bajas de LDL no se asociaron con un aumento significativo de mortalidad por cualquier causa tras el ajuste.",
+        "why_relevant": "Aporta datos contemporáneos de práctica clínica real que respaldan la relación entre menor colesterol aterogénico alcanzado y menor riesgo de eventos en personas tratadas con estatinas sin enfermedad cardiovascular aterosclerótica previa. La señal fue similar para colesterol no-HDL, una medida útil cuando existen hipertrigliceridemia o discordancia lipídica.",
+        "practical_implication": "El hallazgo refuerza la necesidad de comprobar la respuesta lipídica tras iniciar estatinas y de intensificar el manejo cuando LDL o no-HDL permanecen elevados, dentro de una valoración individual del riesgo y de la adherencia. No demuestra causalidad ni permite inferir que cada objetivo observado produzca por sí mismo la reducción de eventos: se trata de una cohorte observacional, susceptible a confusión por indicación, diferencias de intensidad terapéutica, comorbilidad y factores de estilo de vida residuales.",
+        "source_title": "Risk of cardiovascular events and mortality associated with LDL and non-HDL cholesterol levels after statin initiation for primary prevention: A multiregional cohort study.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1371/journal.pmed.1005012"
+      },
+      {
+        "title": "Lp(a) elevada se asocia con enfermedad coronaria multivaso y recurrencia de eventos",
+        "what_happened": "En la cohorte multicéntrica CERES de pacientes con enfermedad coronaria, una Lp(a) >50 mg/dL se asoció, tras ajuste por edad, sexo, hipertensión, diabetes, tabaquismo y LDL máximo histórico, con enfermedad multivaso y con eventos coronarios recurrentes. Los odds ratios ajustados fueron 1,41 para enfermedad multivaso y 1,50 para recurrencia coronaria.",
+        "why_relevant": "El estudio extiende el valor clínico de Lp(a) más allá de su asociación general con enfermedad aterosclerótica: identifica un fenotipo de mayor carga anatómica coronaria y de recurrencia clínica. Es particularmente pertinente para estratificar el riesgo residual en prevención secundaria y para reforzar el control intensivo de los factores modificables.",
+        "practical_implication": "La determinación de Lp(a) puede considerarse útil para contextualizar el riesgo residual en pacientes con enfermedad coronaria, especialmente si existe afectación multivaso, recurrencia o historia familiar sugestiva. La asociación no prueba que reducir Lp(a) modifique estos desenlaces; el estudio es observacional y no evalúa una intervención específica dirigida a Lp(a).",
+        "source_title": "Lipoprotein(a) and an aggressive coronary disease phenotype: Association with multivessel disease and recurrent coronary events in the CERES study.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.ijcard.2026.135036"
+      },
+      {
+        "title": "Carga de placa carotídea para personalizar la prevención cardiovascular",
+        "what_happened": "Un programa observacional de ecografía carotídea en 11.540 personas asintomáticas de 20 a 65 años cuantificó el área total de placa y el espesor máximo de placa, con seguimiento ecográfico en más de 8.800 exploraciones. Entre 75 personas con aterosclerosis carotídea avanzada que presentaron infarto de miocardio o ictus isquémico, el 35% tenía un riesgo PROCAM bajo. El trabajo también comunicó menor mortalidad por cualquier causa en hombres tratados con estatinas dentro de este contexto no aleatorizado.",
+        "why_relevant": "Subraya que la carga de placa carotídea puede detectar aterosclerosis subclínica relevante no identificada por calculadoras basadas únicamente en factores de riesgo convencionales. La observación es congruente con el interés creciente por incorporar imagen de aterosclerosis subclínica en casos seleccionados de incertidumbre preventiva.",
+        "practical_implication": "La ecografía carotídea con identificación y cuantificación estandarizada de placa puede ayudar a refinar decisiones preventivas en pacientes seleccionados con riesgo estimado incierto o aparente discordancia entre riesgo clínico y sospecha de aterosclerosis. No respalda el cribado ecográfico universal ni permite atribuir causalmente el mejor pronóstico a las estatinas: el diseño es observacional, sin asignación aleatoria y expuesto a sesgo de selección y confusión terapéutica.",
+        "source_title": "Personalized Prevention of Cardiovascular Diseases Through Measurement of Plaque Burden in the Carotid Artery.",
+        "journal": "Cardiology research",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.14740/cr2325"
+      },
+      {
+        "title": "VIH y aterosclerosis carotídea: mayor riesgo de eventos cardiovasculares a dos años",
+        "what_happened": "En una cohorte retrospectiva unicéntrica de pacientes chinos con aterosclerosis carotídea y sin enfermedad cardiovascular o cerebrovascular previa, la infección por VIH se asoció independientemente con eventos cardiovasculares adversos mayores a dos años. La incidencia acumulada fue 40,4% en personas con VIH frente a 22,9% en personas sin VIH; el odds ratio ajustado para VIH fue 2,24. El tabaquismo activo, el filtrado glomerular reducido y la hiperuricemia también se asociaron con eventos.",
+        "why_relevant": "El trabajo sitúa al VIH como un marcador de riesgo particularmente relevante en personas que ya presentan aterosclerosis carotídea documentada, incluso a edades más tempranas. Refuerza la necesidad de integrar prevención vascular, control del tabaquismo y evaluación renal en la atención cardiovascular de esta población.",
+        "practical_implication": "En pacientes con VIH y placa carotídea, procede una revisión intensiva de los factores modificables —especialmente tabaquismo, presión arterial, lípidos, diabetes y función renal— y una estrategia preventiva coordinada con el equipo de VIH. La magnitud de la asociación no establece causalidad, dado el diseño retrospectivo, el carácter unicéntrico y la posible confusión residual; además, los resultados requieren validación externa antes de generalizarlos.",
+        "source_title": "Association of HIV infection with short-term major adverse cardiovascular events among Chinese patients with carotid atherosclerosis: a single-center retrospective cohort study.",
+        "journal": "Annals of medicine",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/07853890.2026.2753324"
+      },
+      {
+        "title": "Volumetría cardíaca con IA en TC torácica no sincronizada para predecir insuficiencia cardiaca y fibrilación auricular",
+        "what_happened": "En el estudio MESA, la volumetría de cavidades cardíacas obtenida mediante inteligencia artificial en tomografías torácicas no sincronizadas mostró una concordancia elevada con la obtenida en TC sincronizada. Las métricas derivadas de TC no sincronizada presentaron rendimiento predictivo no inferior para insuficiencia cardiaca incidente y fibrilación auricular, con índices C ajustados por edad y sexo comparables entre ambas técnicas.",
+        "why_relevant": "Aprovecha estudios de TC realizados por indicaciones no cardiacas para extraer información pronóstica cardiovascular sin requerir una exploración cardíaca dedicada. Este enfoque podría complementar la evaluación oportunista de calcificación coronaria y de riesgo cardiovascular en sistemas con gran volumen de TC torácicas.",
+        "practical_implication": "La volumetría por IA en TC no sincronizada puede considerarse una herramienta prometedora de estratificación oportunista cuando existan circuitos validados de lectura, comunicación clínica y confirmación diagnóstica. No constituye todavía una indicación autónoma de cribado ni demuestra que actuar sobre esta información reduzca eventos; el estudio evalúa capacidad predictiva y concordancia técnica, no el beneficio clínico de una estrategia asistencial guiada por IA.",
+        "source_title": "Heart failure and atrial fibrillation prediction from non-gated chest CT scans using AI-based cardiac chamber volumetry: an AI-CVD study within the multi-ethnic study of atherosclerosis (MESA).",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101732"
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "generated_at": "2026-11-03T17:19:48.888849+00:00",
     "items": [
