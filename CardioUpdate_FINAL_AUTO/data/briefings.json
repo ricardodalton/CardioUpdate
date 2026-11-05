@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-05",
+    "generated_at": "2026-11-05T17:38:55.264291+00:00",
+    "items": [
+      {
+        "title": "Metaanálisis en red de hipolipemiantes orales no estatínicos: mayor reducción de LDL-C con combinaciones, pero sin evidencia de eventos",
+        "what_happened": "Un metaanálisis en red de 43 ensayos clínicos y 17.021 participantes comparó terapias orales no estatínicas para dislipidemia. Las combinaciones obtuvieron las mayores reducciones de LDL-C; obicetrapib más ezetimiba mostró la mayor reducción porcentual estimada, seguida de ácido bempedoico más ezetimiba. También se observaron descensos de apoB con obicetrapib. Los desenlaces analizados fueron lipídicos y de seguridad, no eventos cardiovasculares.",
+        "why_relevant": "Aporta una comparación útil para pacientes con intolerancia a estatinas, adherencia insuficiente o LDL-C persistentemente elevado. Sin embargo, la reducción de LDL-C y apoB es un resultado sustituto: no demuestra por sí misma que obicetrapib o sus combinaciones reduzcan infarto, ictus o mortalidad. La certeza de la evidencia fue baja o muy baja para numerosos desenlaces por heterogeneidad e imprecisión.",
+        "practical_implication": "La combinación de ezetimiba y ácido bempedoico puede considerarse una alternativa oral para intensificar el descenso de LDL-C cuando esté indicada. Obicetrapib no debería interpretarse todavía como una estrategia con beneficio clínico demostrado en eventos; su lugar dependerá de ensayos de resultados cardiovasculares a largo plazo.",
+        "source_title": "Efficacy and Safety of Oral Non-Statin Lipid-Lowering Therapies in Dyslipidaemia: A Systematic Review and Network Meta-Analysis.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1002/edm2.70353"
+      },
+      {
+        "title": "La presión arterial automatizada de 30 minutos no sustituye a la monitorización ambulatoria de 24 horas",
+        "what_happened": "Un estudio prospectivo de 79 adultos comparó la presión arterial automatizada en consulta durante 30 minutos con la monitorización ambulatoria de presión arterial de 24 horas. La medición automatizada discriminó razonablemente la hipertensión ambulatoria, pero sobreestimó de forma sistemática la presión arterial frente a la monitorización de 24 horas. Además, valores normales con el método automatizado no excluyeron de forma fiable hipertensión ambulatoria.",
+        "why_relevant": "La confirmación diagnóstica de hipertensión evita tanto el sobretratamiento por hipertensión de bata blanca como la infradetección de hipertensión enmascarada. El estudio es especialmente pertinente para prevención coronaria, donde la carga acumulada de presión arterial determina riesgo aterosclerótico y de insuficiencia cardiaca.",
+        "practical_implication": "La medición automatizada prolongada en consulta puede utilizarse como cribado o apoyo cuando la monitorización ambulatoria no esté disponible, pero no debería reemplazar la monitorización ambulatoria de 24 horas para confirmar o descartar hipertensión. Su principal limitación es el tamaño muestral pequeño y la ausencia de evaluación de eventos clínicos.",
+        "source_title": "Compare 30-minute automated office blood pressure vs 24-hour ambulatory blood pressure monitoring: A prospective study.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1371/journal.pone.0360957"
+      },
+      {
+        "title": "Trayectorias prolongadas de hipertensión, dislipidemia y obesidad en la mediana edad se asocian con más eventos cardiovasculares",
+        "what_happened": "En 5.244 participantes del estudio observacional Tromsø, las trayectorias longitudinales de presión arterial, índice de masa corporal y colesterol no-HDL identificaron cuatro perfiles: bajo riesgo estable, dislipidemia, hipertensión y alto riesgo combinado. Los perfiles de hipertensión y alto riesgo presentaron el mayor exceso de infarto de miocardio, ictus y mortalidad durante el seguimiento. La edad cardíaca derivada del ECG añadió información pronóstica, pero explicó una proporción pequeña y no significativa del exceso de riesgo.",
+        "why_relevant": "Refuerza el concepto de que la exposición acumulada a factores de riesgo, incluido el colesterol no-HDL como aproximación a lipoproteínas aterogénicas, importa más que una medición aislada en la consulta. La hipertensión sostenida y la combinación de factores adversos identifican una población prioritaria para prevención intensiva.",
+        "practical_implication": "La evaluación preventiva debería incorporar la historia longitudinal de presión arterial, adiposidad y lípidos, además del riesgo a 10 años. La edad cardíaca por ECG no debe emplearse como sustituto de la evaluación convencional ni como mediador causal del riesgo. La evidencia es observacional, por lo que muestra asociación y no demuestra que modificar una trayectoria concreta produzca el efecto cuantificado.",
+        "source_title": "Clustering of Cardiovascular Risk Factors in Midlife Forms Trajectories That Affect Heart Aging Biomarker and Incidence of Cardiovascular Disease.",
+        "journal": "Mayo Clinic proceedings. Digital health",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.mcpdig.2026.100425"
+      },
+      {
+        "title": "Aceite enriquecido con fitoesteroles: pequeño ensayo con mejoría lipídica, sin datos de eventos cardiovasculares",
+        "what_happened": "Un ensayo aleatorizado, paralelo y simple ciego asignó a 60 adultos con dislipidemia limítrofe a aceite mezclado de maíz y germen de trigo enriquecido con fitoesteroles o aceite de cacahuete durante tres meses. El grupo de intervención presentó reducciones de colesterol total, triglicéridos, LDL-C y apoB, junto con cambios en marcadores de estrés oxidativo. El estudio también incluyó experimentación en ratas para explorar mecanismos metabólicos.",
+        "why_relevant": "El descenso simultáneo de LDL-C y apoB es coherente con una reducción de la carga de lipoproteínas aterogénicas. No obstante, los cambios bioquímicos son resultados sustitutos y no permiten inferir reducción de eventos coronarios o cerebrovasculares.",
+        "practical_implication": "Los alimentos enriquecidos con fitoesteroles pueden considerarse un complemento dietético, no un sustituto de estatinas u otros tratamientos hipolipemiantes con beneficio clínico demostrado cuando estos estén indicados. La interpretación debe ser cautelosa por el tamaño muestral reducido, el seguimiento de solo tres meses, el diseño simple ciego y la ausencia de desenlaces clínicos.",
+        "source_title": "Phytosterol-enriched corn and wheat germ blended oil improves lipid metabolism in hyperlipidemia via the AMPK/PPARα/CPT1 pathway.",
+        "journal": "Food research international (Ottawa, Ont.)",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.foodres.2026.120939"
+      },
+      {
+        "title": "ORION-4 completa el reclutamiento para evaluar si inclisiran reduce eventos cardiovasculares en prevención secundaria",
+        "what_happened": "Se publicó el diseño y las características basales del ensayo ORION-4, que aleatorizó a 16.124 personas con enfermedad cardiovascular aterosclerótica establecida a inclisiran o placebo. El objetivo primario es un compuesto de muerte coronaria, infarto de miocardio, ictus isquémico fatal o no fatal y revascularización coronaria urgente. La publicación no comunica resultados de eficacia ni de seguridad clínica; prevé que los resultados estén disponibles a comienzos de 2027.",
+        "why_relevant": "Inclisiran ofrece una pauta semestral potencialmente útil para mejorar la persistencia terapéutica en prevención secundaria y reduce LDL-C de forma sostenida en estudios previos. ORION-4 será determinante porque evaluará eventos cardiovasculares, no solo reducción lipídica.",
+        "practical_implication": "No procede modificar la práctica basándose en esta publicación de diseño. Inclisiran puede utilizarse según sus indicaciones regulatorias y recomendaciones vigentes para control de LDL-C, pero todavía no debe afirmarse que haya demostrado reducción de eventos cardiovasculares. La principal limitación es que se trata de una descripción del ensayo, sin resultados clínicos disponibles.",
+        "source_title": "HPS-4/TIMI 65/ORION-4: A double-blind randomized placebo-controlled trial assessing the effects of inclisiran on clinical outcomes among people with atherosclerotic cardiovascular disease: Trial design, recruitment, and baseline characteristics.",
+        "journal": "American heart journal",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ahj.2026.107546"
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "generated_at": "2026-11-04T17:45:20.683256+00:00",
     "items": [
