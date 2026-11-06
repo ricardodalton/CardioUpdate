@@ -1,5 +1,118 @@
 [
   {
+    "title": "Perioperative Pain Assessment and Medication Safety in Office-Based Dental Anesthesia: A Practical Review.",
+    "doi": "10.1007/s11916-026-01577-2",
+    "pmid": "42972144",
+    "pmcid": "PMC13727834",
+    "url": "https://doi.org/10.1007/s11916-026-01577-2",
+    "firstPublicationDate": "2026-11-03",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-06",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Aging reshapes cardiac extravascular leukocyte transcription through bidirectional remodeling during LPS-induced endotoxemia",
+    "doi": "10.64898/2026.11.02.763785",
+    "pmid": "",
+    "pmcid": "",
+    "url": "https://doi.org/10.64898/2026.11.02.763785",
+    "firstPublicationDate": "2026-11-03",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-06",
+    "pubTypeList": {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  },
+  {
+    "title": "A mucosal barrier injury related six gene transcriptomic signature associated with ulcerative colitis using machine learning and public transcriptomic data.",
+    "doi": "10.1371/journal.pone.0361599",
+    "pmid": "42970534",
+    "pmcid": "PMC13726911",
+    "url": "https://doi.org/10.1371/journal.pone.0361599",
+    "firstPublicationDate": "2026-11-02",
+    "firstIndexDate": "2026-11-03",
+    "cardioupdate_detected_at": "2026-11-06",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Translating microRNAs into clinical laboratory medicine: A critical review of biomarker potential, methodological barriers and implementation pathways.",
+    "doi": "10.5507/bp.2026.030",
+    "pmid": "42974967",
+    "pmcid": "",
+    "url": "https://doi.org/10.5507/bp.2026.030",
+    "firstPublicationDate": "2026-10-29",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-06",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Functional Characterization and Genomic Insights into Klebsiella Virulomes, Resistomes, and Mobilome Signatures.",
+    "doi": "10.2147/idr.s600552",
+    "pmid": "42974478",
+    "pmcid": "PMC13726602",
+    "url": "https://doi.org/10.2147/idr.s600552",
+    "firstPublicationDate": "2026-10-29",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-06",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Interactive Pathways and Therapeutic Innovations in Elderly Sarcopenia-Diabetes Comorbidity: Breaking the Negative Self-Reinforcing Loop Through Integrated Care.",
+    "doi": "10.2147/dmso.s630510",
+    "pmid": "42974037",
+    "pmcid": "PMC13725092",
+    "url": "https://doi.org/10.2147/dmso.s630510",
+    "firstPublicationDate": "2026-10-28",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-06",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Early Staged STABILISE Technique Achieves Favorable Aortic Remodeling after Central Repair for Acute Type A Aortic Dissection.",
+    "doi": "10.3400/avd.cr.26-00132",
+    "pmid": "42973453",
+    "pmcid": "PMC13724310",
+    "url": "https://doi.org/10.3400/avd.cr.26-00132",
+    "firstPublicationDate": "2026-10-28",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-06",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article",
+        "Case Reports",
+        "case-report"
+      ]
+    }
+  },
+  {
     "title": "White matter injury, brain aging, and cognitive decline beyond amyloid/tau.",
     "doi": "10.1177/13872877261500493",
     "pmid": "42974819",
@@ -647,7 +760,7 @@
     }
   },
   {
-    "title": "Electronic Health Record-Based Machine-Learning for Cardiac Arrhythmia Identification in Adults with High-Risk Chronic Disease: Model Development and Validation Study",
+    "title": "Electronic Health Record–Based Machine-Learning for Cardiac Arrhythmia Identification in Adults with High-Risk Chronic Disease: Model Development and Validation Study",
     "doi": "10.64898/2026.10.30.26366947",
     "pmid": "",
     "pmcid": "",
@@ -6394,7 +6507,7 @@
     }
   },
   {
-    "title": "Latent Transforming Growth Factor Binding Protein ? 2 promotes microfibrillar TGF-? bioavailability to drive pathologic fibrosis in remote regions of infarcted hearts",
+    "title": "Latent Transforming Growth Factor Binding Protein–2 promotes microfibrillar TGF-β bioavailability to drive pathologic fibrosis in remote regions of infarcted hearts",
     "doi": "10.64898/2026.10.28.762676",
     "pmid": "",
     "pmcid": "",
@@ -14464,7 +14577,6 @@
     "cardioupdate_detected_at": "2026-11-03",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -15824,9 +15936,7 @@
     "cardioupdate_detected_at": "2026-11-03",
     "pubTypeList": {
       "pubType": [
-        "Multicenter Study",
-        "Review",
-        "Randomized Controlled Trial",
+        "Clinical Trial Protocol",
         "Journal Article"
       ]
     }
@@ -26624,6 +26734,21 @@
     }
   },
   {
+    "title": "Age-related biomechanical and structural remodeling of human middle cerebral arteries.",
+    "doi": "10.1016/j.actbio.2026.10.064",
+    "pmid": "42962843",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.actbio.2026.10.064",
+    "firstPublicationDate": "2026-10-30",
+    "firstIndexDate": "2026-10-31",
+    "cardioupdate_detected_at": "2026-10-31",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
     "title": "Activities of daily living and health status benefits of semaglutide in very old patients with heart failure, type 2 diabetes, and obesity: Real-world practice study.",
     "doi": "10.1016/j.medcli.2026.107663",
     "pmid": "42963299",
@@ -26660,21 +26785,6 @@
     "pmid": "42961649",
     "pmcid": "",
     "url": "https://doi.org/10.1007/s00246-026-04541-4",
-    "firstPublicationDate": "2026-10-30",
-    "firstIndexDate": "2026-10-31",
-    "cardioupdate_detected_at": "2026-10-31",
-    "pubTypeList": {
-      "pubType": [
-        "Journal Article"
-      ]
-    }
-  },
-  {
-    "title": "AGE-RELATED BIOMECHANICAL AND STRUCTURAL REMODELING OF HUMAN MIDDLE CEREBRAL ARTERIES.",
-    "doi": "10.1016/j.actbio.2026.10.064",
-    "pmid": "42962843",
-    "pmcid": "",
-    "url": "https://doi.org/10.1016/j.actbio.2026.10.064",
     "firstPublicationDate": "2026-10-30",
     "firstIndexDate": "2026-10-31",
     "cardioupdate_detected_at": "2026-10-31",

@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-06",
+    "generated_at": "2026-11-06T16:57:32.026325+00:00",
+    "items": [
+      {
+        "title": "Cohorte posparto tras trastornos hipertensivos del embarazo: elevada carga cardiometabólica y renal a 12 meses",
+        "what_happened": "La cohorte prospectiva monocéntrica PreCareFem evaluó a 91 mujeres con preeclampsia o hipertensión gestacional hasta 12 meses después del parto. En ese momento, se identificaron hipertensión arterial en el 31%, prediabetes en el 18%, diabetes en el 3%, LDL superior a 100 mg/dL en más de la mitad, obesidad en el 24% y enfermedad renal crónica en el 8%.",
+        "why_relevant": "Refuerza que los trastornos hipertensivos del embarazo identifican una población con riesgo cardiovascular, renal y metabólico precoz. Los hallazgos proceden de una cohorte observacional y describen carga de factores de riesgo y marcadores intermedios, no demuestran que un programa de seguimiento reduzca eventos cardiovasculares.",
+        "practical_implication": "El estudio respalda un seguimiento estructurado posparto que incluya presión arterial, perfil lipídico, glucemia, función renal y albuminuria, junto con intervención intensiva sobre hábitos y factores de riesgo. La magnitud de riesgo y la estrategia terapéutica deben individualizarse, dado el tamaño pequeño y el carácter unicéntrico de la cohorte.",
+        "source_title": "Cardiovascular-kidney-metabolic outcomes in women with hypertensive disorders of pregnancy at 12 months postpartum : The PreCareFem Cohort.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1007/s00508-026-02843-4"
+      },
+      {
+        "title": "Aterosclerosis subclínica y alteraciones cardiometabólicas en personas con VIH y obesidad",
+        "what_happened": "Un estudio transversal realizado en Perú incluyó 126 personas clínicamente estables con VIH, obesidad y edad igual o superior a 35 años. La ecografía Doppler carotídea mostró cambios ateroscleróticos —aumento del grosor íntima-media o placa— en el 34,4%; además, fueron frecuentes las alteraciones del metabolismo glucídico, la dislipidemia y el síndrome metabólico. Las estimaciones de riesgo variaron de forma marcada entre calculadoras generales y una herramienta específica para VIH.",
+        "why_relevant": "Aporta evidencia observacional de una elevada carga de aterosclerosis subclínica y factores de riesgo en una población particularmente vulnerable. También ilustra que los algoritmos convencionales pueden clasificar de forma diferente el riesgo respecto a ecuaciones específicas para VIH. No permite inferir causalidad entre tratamiento antirretroviral, obesidad, hallazgos carotídeos o futuros eventos.",
+        "practical_implication": "En personas con VIH y obesidad, especialmente de mediana edad, resulta razonable realizar una evaluación preventiva exhaustiva de presión arterial, glucemia, lípidos y tabaquismo, y considerar la utilidad de herramientas de riesgo específicas cuando estén validadas. La imagen carotídea puede aportar información de aterosclerosis subclínica en casos seleccionados, pero este estudio no valida un programa de cribado sistemático ni demuestra beneficio clínico de utilizarla.",
+        "source_title": "High cardiometabolic burden among people with HIV and obesity in Peru.",
+        "journal": "HIV research & clinical practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/25787489.2026.2746807"
+      },
+      {
+        "title": "Lp(a) integrada en ecuaciones de riesgo: escasa reclasificación a 10 años en adultos de bajo riesgo",
+        "what_happened": "Un análisis de un sistema sanitario evaluó cómo incorporar Lp(a) a estimaciones de riesgo PREVENT podría modificar la indicación de estatinas en adultos considerados de bajo riesgo. Entre 124 participantes con Lp(a) medida, la incorporación de valores elevados reclasificó a una minoría como candidata a estatinas según riesgo a 10 años; los análisis exploratorios a 30 años produjeron una reclasificación mayor. En la mayoría de la cohorte sin medición directa se emplearon valores imputados.",
+        "why_relevant": "El trabajo aborda una cuestión práctica: la medición de Lp(a) puede modificar el riesgo estimado, pero su impacto sobre decisiones farmacológicas depende del horizonte temporal, la edad y la concentración de Lp(a). Se trata de un análisis de modelización de elegibilidad, no de un ensayo de tratamiento ni de evidencia de reducción de eventos al aplicar esta fórmula de ajuste.",
+        "practical_implication": "La Lp(a) puede emplearse como modificador de riesgo dentro de una valoración clínica integral, particularmente ante historia familiar de enfermedad aterosclerótica prematura o riesgo aparentemente bajo a corto plazo. No debería utilizarse de forma aislada para inferir beneficio de estatinas ni para sustituir la valoración de LDL, apoB, exposición lipídica acumulada y factores de riesgo convencionales. La imprecisión derivada de la imputación y el reducido número con Lp(a) medida limitan la generalización.",
+        "source_title": "Lipoprotein(a) and statin indications in low-risk patients based on the 2026 ACC/AHA dyslipidemia guideline.",
+        "journal": "American heart journal plus : cardiology research and practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ahjo.2026.100993"
+      },
+      {
+        "title": "Cribado cardiovascular-renal-metabólico ampliado: beneficios proyectados, no demostrados clínicamente",
+        "what_happened": "Un modelo de microsimulación proyectó durante 20 años los efectos de una estrategia de cribado cardiovascular-renal-metabólico ampliado en Reino Unido, Francia, Alemania y Australia. El modelo estimó menos muertes, más años de vida y ahorro de costes frente a la práctica habitual, asumiendo una mayor detección y seguimiento de hipertensión, diabetes tipo 2, enfermedad renal crónica, dislipidemia, obesidad e insuficiencia cardiaca.",
+        "why_relevant": "El análisis sitúa la prevención integrada de hipertensión, dislipidemia, diabetes y enfermedad renal como una posible intervención poblacional de alto valor. Sin embargo, las estimaciones son resultados de un modelo y no observaciones de un ensayo pragmático o de una implementación real; dependen de supuestos sobre participación, progresión de enfermedad, recalibración de ecuaciones y efectividad del seguimiento posterior.",
+        "practical_implication": "El estudio apoya evaluar programas organizados de detección y conexión efectiva con tratamiento preventivo, más que ampliar pruebas de forma aislada. Antes de adoptar sus proyecciones económicas o de mortalidad, los sistemas sanitarios deberían exigir validación prospectiva local, análisis probabilísticos de incertidumbre y evidencia de que la detección se traduce en control sostenido de presión arterial, LDL y otros factores modificables.",
+        "source_title": "Evaluating the cost-effectiveness of enhanced cardiovascular-renal-metabolic (CVRM) screening in UK, France, Germany and Australia: a microsimulation-based enhanced CVRM screening analysis.",
+        "journal": "Journal of medical economics",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/13696998.2026.2746285"
+      },
+      {
+        "title": "Prevención de enfermedad aterosclerótica de inicio temprano: importancia de la exposición acumulada a lipoproteínas con apoB",
+        "what_happened": "Una revisión narrativa examinó determinantes de enfermedad cardiovascular aterosclerótica de inicio temprano en adolescentes y adultos jóvenes. Diferenció factores causales bien establecidos, como la exposición acumulada a lipoproteínas que contienen apoB y el tabaquismo, de asociaciones menos consolidadas con sueño, estrés psicosocial, vapeo y contaminación. También desaconsejó el uso universal de CAC o imagen carotídea en personas jóvenes asintomáticas.",
+        "why_relevant": "La revisión enfatiza un principio central de prevención: el riesgo aterosclerótico se relaciona con la exposición acumulada a partículas aterogénicas, no solo con la estimación de riesgo a 10 años. También ofrece una cautela útil frente a la extensión indiscriminada de CAC o ecografía carotídea en población joven de bajo riesgo.",
+        "practical_implication": "La evaluación preventiva en adultos jóvenes puede priorizar la detección temprana de dislipidemia, hipertensión, diabetes, tabaquismo, obesidad, enfermedad renal crónica, hipercolesterolemia familiar y antecedentes familiares de enfermedad aterosclerótica prematura; también respalda medir Lp(a) al menos una vez en la edad adulta. CAC e imagen carotídea deberían reservarse para decisiones individualizadas en adultos seleccionados, no como cribado poblacional universal. Al ser una revisión narrativa, no aporta estimaciones nuevas de efecto ni evidencia directa de eventos para estrategias de imagen.",
+        "source_title": "Early-onset atherosclerotic cardiovascular disease in young adults: Lifestyle, environmental, and psychosocial risk factors.",
+        "journal": "International journal of cardiology. Cardiovascular risk and prevention",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ijcrp.2026.200714"
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "generated_at": "2026-11-05T17:38:55.264291+00:00",
     "items": [
