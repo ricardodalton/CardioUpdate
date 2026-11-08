@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-08",
+    "generated_at": "2026-11-08T16:17:39.534206+00:00",
+    "items": [
+      {
+        "title": "La carga de placa carotídea como herramienta de prevención cardiovascular personalizada",
+        "what_happened": "Un estudio observacional no aleatorizado evaluó ecografía carotídea en 11.540 personas sin enfermedad cardiovascular clínica, cuantificando el área total de placa y su evolución. La carga de placa avanzada se asoció con mayor riesgo cardiovascular, y los participantes tratados con estatinas presentaron menor mortalidad por cualquier causa, particularmente los hombres. La asociación con estatinas no demuestra un efecto causal, porque la asignación del tratamiento no fue aleatoria y puede existir confusión por indicación y por otros componentes de la atención preventiva.",
+        "why_relevant": "La cuantificación de placa carotídea aporta una medida directa de aterosclerosis subclínica, potencialmente útil cuando los estimadores convencionales infravaloran el riesgo. El hallazgo de que una proporción relevante de quienes presentaron infarto o ictus tenía riesgo PROCAM bajo subraya la posible discordancia entre riesgo calculado y carga aterosclerótica.",
+        "practical_implication": "La ecografía carotídea con evaluación de placa, preferiblemente más allá del grosor íntima-media aislado, puede considerarse para refinar el riesgo en pacientes seleccionados con incertidumbre terapéutica. La decisión de intensificar el control de LDL-C y otros factores debe integrarse con el riesgo global; este estudio no permite atribuir causalmente a las estatinas el mejor pronóstico observado.",
+        "source_title": "Personalized Prevention of Cardiovascular Diseases Through Measurement of Plaque Burden in the Carotid Artery.",
+        "journal": "Cardiology research",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.14740/cr2325"
+      },
+      {
+        "title": "Patrones dietéticos y progresión de calcio coronario en MESA",
+        "what_happened": "En un análisis longitudinal de 3.182 participantes de MESA, un patrón alimentario rico en cereales integrales y fruta se asoció con menor incidencia y progresión de calcificación coronaria, mientras que un patrón rico en grasas y carnes procesadas se asoció con mayor progresión. Las asociaciones fueron más evidentes en participantes blancos y se atenuaron en participantes negros.",
+        "why_relevant": "La calcificación coronaria es un marcador de carga aterosclerótica y permite estudiar trayectorias subclínicas antes de los eventos. El trabajo añade evidencia observacional coherente con la prevención dietética, pero no demuestra que modificar un patrón dietético reduzca eventos cardiovasculares ni que reduzca causalmente la progresión de CAC.",
+        "practical_implication": "Los patrones dietéticos basados en alimentos mínimamente procesados, fruta y cereales integrales mantienen respaldo como parte del control global del riesgo. La progresión de CAC no debe utilizarse como sustituto de eventos clínicos ni como objetivo terapéutico aislado; la interpretación debe incorporar LDL-C, presión arterial, tabaquismo, diabetes y tratamiento hipolipemiante.",
+        "source_title": "Diet patterns are associated with progression of coronary artery calcification and differ across race/ethnicity: The Multi-Ethnic Study of Atherosclerosis.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101791"
+      },
+      {
+        "title": "La grasa epicárdica radiomizada complementa al CAC en adultos negros con diabetes tipo 2",
+        "what_happened": "Un análisis del registro CLARIFY estudió 1.024 adultos negros y 3.072 adultos blancos emparejados con diabetes tipo 2 sometidos a tomografía para CAC. En la cohorte negra, un modelo que combinó índice de privación social, CAC y características radiómicas de grasa epicárdica mejoró la reclasificación de eventos cardiovasculares mayores frente a CAC aislado; este incremento no se observó en la cohorte blanca.",
+        "why_relevant": "El estudio aborda una limitación clínica relevante: el CAC puede ser menor y potencialmente menos discriminativo en algunos grupos, pese a una elevada carga de riesgo cardiometabólico. A diferencia de estudios puramente mecanísticos, el desenlace fue un compuesto clínico de muerte cardiovascular, infarto no fatal e ictus no fatal.",
+        "practical_implication": "La radiomica de grasa epicárdica debe considerarse una estrategia pronóstica emergente y no un estándar para decidir tratamiento. Requiere validación externa, evaluación de calibración, estandarización técnica y demostración de que su uso mejora decisiones preventivas y resultados clínicos, antes de incorporarla de forma rutinaria.",
+        "source_title": "Epicardial adipose tissue radiomics complement calcium scoring in black adults with type 2 diabetes mellitus.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101693"
+      },
+      {
+        "title": "Monitorización automatizada de objetivos lipídicos desde el laboratorio: brecha persistente en prevención",
+        "what_happened": "Un sistema de apoyo a la decisión clínica integrado en el laboratorio reclasificó el riesgo cardiovascular y notificó resultados lipídicos por encima de objetivo en atención primaria. En los primeros cuatro meses evaluó 9.507 solicitudes; el control de objetivos fue bajo, especialmente en pacientes de riesgo alto y muy alto. En un subgrupo sin tratamiento hipolipemiante basal, parte de los pacientes inició tratamiento durante el seguimiento y una minoría alcanzó posteriormente el objetivo.",
+        "why_relevant": "La publicación identifica una brecha implementativa relevante: la estratificación de riesgo y la disponibilidad de tratamiento no garantizan el control de LDL-C o colesterol no-HDL. También operacionaliza el uso de colesterol no-HDL cuando los triglicéridos son muy elevados y el LDL-C puede ser menos fiable.",
+        "practical_implication": "Los sistemas automatizados de detección de objetivos lipídicos no alcanzados pueden apoyar la intensificación terapéutica y el seguimiento longitudinal, especialmente en pacientes de alto y muy alto riesgo. La evidencia es de implementación en un único entorno, con seguimiento corto y sin comparación aleatorizada ni demostración de reducción de eventos clínicos.",
+        "source_title": "Longitudinal automated lipid target monitoring integrated into a laboratory-based clinical decision support system: a real-world cardiovascular risk management approach.",
+        "journal": "Clinica chimica acta; international journal of clinical chemistry",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cca.2026.121283"
+      },
+      {
+        "title": "En atletas máster, la placa carotídea no mejora la discriminación de aterosclerosis coronaria",
+        "what_happened": "En un análisis transversal de 549 hombres de bajo riesgo cardiovascular, incluidos atletas máster de ejercicio de larga duración, la prevalencia de placa carotídea y la rigidez aórtica no difirieron entre atletas de toda la vida, atletas de inicio tardío y controles sanos. La placa carotídea se asoció con aterosclerosis coronaria en angiografía por tomografía, pero no mejoró de forma significativa la discriminación frente a los factores de riesgo tradicionales.",
+        "why_relevant": "El estudio matiza el uso de imágenes carotídeas en prevención: la presencia de placa puede correlacionarse con enfermedad coronaria, pero dicha asociación no implica que añada valor clínico suficiente para el cribado sistemático. Es especialmente pertinente en deportistas, en quienes los algoritmos de riesgo convencionales y la interpretación de hallazgos subclínicos pueden ser complejos.",
+        "practical_implication": "La ecografía carotídea no parece justificarse como prueba rutinaria para detectar aterosclerosis coronaria en atletas máster de bajo riesgo. La evaluación debe priorizar factores de riesgo establecidos y utilizar las pruebas de imagen de forma selectiva, cuando el resultado pueda modificar una decisión preventiva concreta.",
+        "source_title": "Carotid atherosclerosis and aortic stiffness in masters athletes: Multimodality vascular phenotyping from the Master@Heart study.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101771"
+      }
+    ]
+  },
+  {
     "date": "2026-11-07",
     "generated_at": "2026-11-07T15:55:08.660680+00:00",
     "items": [
