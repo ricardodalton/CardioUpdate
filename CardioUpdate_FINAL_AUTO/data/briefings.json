@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-09",
+    "generated_at": "2026-11-09T20:01:57.576121+00:00",
+    "items": [
+      {
+        "title": "Pelacarsen no redujo los eventos cardiovasculares mayores pese a disminuir Lp(a)",
+        "what_happened": "En un ensayo aleatorizado y controlado con placebo en pacientes con enfermedad cardiovascular establecida y Lp(a) elevada, pelacarsen no redujo el objetivo compuesto de muerte cardiovascular, infarto no fatal, ictus no fatal o revascularización coronaria urgente. El análisis por tratamiento recibido, los eventos recurrentes, los análisis de referencia a 3 meses y los subgrupos tampoco mostraron beneficio clínico.",
+        "why_relevant": "El resultado cuestiona que una reducción farmacológica importante de Lp(a), por sí sola, se traduzca necesariamente en menos eventos. Constituye evidencia causal de un ensayo clínico con desenlaces clínicos, no un resultado basado únicamente en biomarcadores. También subraya que Lp(a) sigue siendo un marcador y factor de riesgo útil para estratificación, pero que aún no existe demostración de beneficio clínico con esta estrategia específica de reducción.",
+        "practical_implication": "En pacientes con Lp(a) elevada, la práctica clínica debería reforzar el control intensivo de los factores modificables, especialmente la reducción de LDL-C y apoB, la presión arterial, el tabaquismo y la adherencia terapéutica. No debería asumirse que reducir Lp(a) farmacológicamente garantiza beneficio en eventos hasta disponer de resultados positivos y reproducibles de otros ensayos de desenlaces.",
+        "source_title": "Extended Analyses of Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a).",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1056/evidoa2600373"
+      },
+      {
+        "title": "El riesgo poligénico identifica eventos ASCVD en personas clasificadas como de bajo riesgo clínico",
+        "what_happened": "En una cohorte longitudinal de UK Biobank de 266.917 adultos sin ASCVD ni diabetes, sin tratamiento hipolipemiante y con LDL-C basal inferior a 190 mg/dL, un puntaje de riesgo poligénico para enfermedad coronaria se asoció de forma graduada con infarto, ictus isquémico o muerte cardiovascular. Frente al 50% con menor puntaje, el riesgo ajustado fue mayor desde el 50% superior y alcanzó una asociación cercana a diez veces en el 1% superior. Añadir el puntaje mejoró la discriminación y reclasificó a una proporción de participantes hacia categorías de mayor riesgo.",
+        "why_relevant": "El estudio aborda una limitación central de la prevención primaria: una estimación clínica de bajo riesgo puede ocultar susceptibilidad hereditaria relevante. El desenlace fue clínico, pero la evidencia es observacional; por tanto, demuestra asociación pronóstica y reclasificación, no que tratar según el puntaje poligénico reduzca eventos.",
+        "practical_implication": "El puntaje poligénico podría considerarse un modulador de riesgo en personas seleccionadas con riesgo clínico aparentemente bajo, especialmente si existe historia familiar de ASCVD prematura. Su uso no debería sustituir la evaluación de LDL-C, apoB, Lp(a), factores convencionales ni la búsqueda de aterosclerosis subclínica cuando esté indicada; tampoco justifica por sí mismo una estrategia terapéutica cuya eficacia no haya sido demostrada en ensayos.",
+        "source_title": "Utility of a coronary artery disease polygenic risk score in a low-risk primary prevention cohort.",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101722"
+      },
+      {
+        "title": "La IA aplicada a TC de tórax no sincronizada predijo insuficiencia cardiaca y fibrilación auricular",
+        "what_happened": "En participantes de MESA, la volumetría automatizada de cámaras cardiacas mediante IA en TC de tórax no sincronizada mostró una concordancia elevada con la obtenida en TC sincronizada por ECG. Las mediciones de aurícula y ventrículo izquierdos, así como la relación ventricular, presentaron capacidad predictiva comparable para insuficiencia cardiaca incidente y fibrilación auricular.",
+        "why_relevant": "El trabajo sugiere que una TC torácica realizada por otra indicación puede aportar información cardiovascular oportunista, sin una nueva adquisición. Los desenlaces evaluados fueron clínicos e incidentes, pero se trata de una evaluación pronóstica en cohorte, no de un ensayo que demuestre que la detección por IA y la intervención posterior mejoren resultados.",
+        "practical_implication": "Los programas de imagen podrían evaluar de forma prospectiva la incorporación de análisis automatizado de cámaras cardiacas en TC torácicas disponibles, con circuitos claros para confirmación clínica y manejo del riesgo. Antes de su adopción rutinaria, deberían demostrarse impacto clínico, coste-efectividad, reproducibilidad externa y ausencia de sobrediagnóstico.",
+        "source_title": "Heart failure and atrial fibrillation prediction from non-gated chest CT scans using AI-based cardiac chamber volumetry: an AI-CVD study within the multi-ethnic study of atherosclerosis (MESA).",
+        "journal": "American journal of preventive cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ajpc.2026.101732"
+      },
+      {
+        "title": "La colchicina redujo la fibrilación auricular posoperatoria, sin beneficio demostrado en mortalidad o ictus",
+        "what_happened": "Un metaanálisis de nueve ensayos aleatorizados con 2.005 pacientes sometidos a cirugía cardiaca encontró que la colchicina se asoció con menor fibrilación auricular posoperatoria frente a placebo. No se observaron diferencias estadísticamente significativas en mortalidad por cualquier causa, ictus ni implantación de marcapasos permanente. La estancia hospitalaria fue menor en el grupo de colchicina, un hallazgo exploratorio.",
+        "why_relevant": "La fibrilación auricular posoperatoria es un evento clínicamente relevante y frecuente tras cirugía cardiaca. La síntesis reúne ensayos aleatorizados, por lo que sustenta una inferencia causal para ese desenlace. Sin embargo, no demuestra reducción de eventos mayores, y los intervalos de confianza para mortalidad, ictus y marcapasos fueron amplios.",
+        "practical_implication": "La colchicina podría valorarse de forma individualizada para prevenir fibrilación auricular posoperatoria en pacientes seleccionados, ponderando tolerabilidad, interacciones y riesgo gastrointestinal. No debería presentarse como una intervención con beneficio probado sobre mortalidad, ictus o prevención aterosclerótica secundaria a largo plazo.",
+        "source_title": "Association Between Colchicine Use and Clinical Outcomes Post Cardiac Surgery: A Meta-analysis of Randomized Controlled Trials.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1007/s40256-026-00831-7"
+      },
+      {
+        "title": "El cribado poblacional de hipercolesterolemia familiar en la infancia mantiene una base indirecta, pero clínicamente sólida",
+        "what_happened": "Una revisión resumió la evidencia sobre cribado poblacional infantil de hipercolesterolemia familiar mediante LDL-C y pruebas genéticas. Destacó la elevada infradiagnosticación, la exposición acumulada a LDL-C desde el nacimiento, el rendimiento diagnóstico y las consideraciones económicas del cribado. No identificó ensayos aleatorizados que comparasen poblaciones cribadas frente a no cribadas en eventos cardiovasculares.",
+        "why_relevant": "La hipercolesterolemia familiar representa un modelo paradigmático de riesgo por exposición acumulada a LDL-C y partículas que contienen apoB. La detección precoz permite iniciar intervenciones antes de que se acumule carga aterosclerótica; sin embargo, el beneficio poblacional sobre eventos procede de evidencia indirecta, estudios de historia natural y eficacia hipolipemiante, no de un ensayo aleatorizado de cribado.",
+        "practical_implication": "Los sistemas sanitarios deberían considerar estrategias estructuradas de detección precoz, cribado en cascada familiar y, donde sea factible, programas poblacionales infantiles con vías de confirmación diagnóstica y tratamiento. La ausencia de un ensayo de cribado con eventos no debería confundirse con ausencia de plausibilidad o necesidad clínica, pero exige evaluar implementación, equidad, costes y resultados locales.",
+        "source_title": "Population-based screening for familial hypercholesterolaemia.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1515/medgen-2026-3033"
+      }
+    ]
+  },
+  {
     "date": "2026-11-08",
     "generated_at": "2026-11-08T16:17:39.534206+00:00",
     "items": [
