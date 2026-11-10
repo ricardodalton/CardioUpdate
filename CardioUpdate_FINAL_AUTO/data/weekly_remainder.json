@@ -1,5 +1,167 @@
 [
   {
+    "title": "Lactate in cardiovascular-kidney-metabolic syndrome: an evidence synthesis and a hypothesis-generating framework for dynamic assessment.",
+    "doi": "10.1016/j.diabres.2026.113641",
+    "pmid": "42994758",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.diabres.2026.113641",
+    "firstPublicationDate": "2026-11-06",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Exploring time-varying cardiovascular effects of GLP-1 receptor agonists: A multi-state network meta-analysis of cardiovascular outcome trials.",
+    "doi": "10.1016/j.diabres.2026.113638",
+    "pmid": "42994759",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.diabres.2026.113638",
+    "firstPublicationDate": "2026-11-06",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Advances in Next-Generation Sequencing and Single-Cell Transcriptomics for Profiling NK Cell Heterogeneity and Functional Diversity in Cancer.",
+    "doi": "10.1016/j.critrevonc.2026.105693",
+    "pmid": "42994746",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.critrevonc.2026.105693",
+    "firstPublicationDate": "2026-11-06",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Twice the Joy, but Added Risk: Exploring Twin Birth Outcomes at the East Suffolk and North Essex NHS Foundation Trust Maternity Service, England.",
+    "doi": "10.7759/cureus.119171",
+    "pmid": "42992251",
+    "pmcid": "PMC13738985",
+    "url": "https://doi.org/10.7759/cureus.119171",
+    "firstPublicationDate": "2026-11-05",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Tree Shrew as an Emerging Model for Aging Research: Characterization of Senescence and Therapeutic Interventions.",
+    "doi": "10.1111/acel.70781",
+    "pmid": "42977716",
+    "pmcid": "PMC13731738",
+    "url": "https://doi.org/10.1111/acel.70781",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Tick tock: how the body's circadian clock keeps cardiometabolic rhythm in check.",
+    "doi": "10.1042/cs20250046",
+    "pmid": "42980097",
+    "pmcid": "PMC13741037",
+    "url": "https://doi.org/10.1042/cs20250046",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Snare-Assisted Traction Technique for Renal Artery Reconstruction in Endovascular Repair of Complex Thoracoabdominal Aortic Aneurysms.",
+    "doi": "10.1016/j.jacasi.2026.08.037",
+    "pmid": "42980242",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.jacasi.2026.08.037",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Primary Erythrocytosis (Polycythaemia) in a Neutered Male Dog Presenting With Right Hindlimb Lameness.",
+    "doi": "10.1002/vms3.71320",
+    "pmid": "42977705",
+    "pmcid": "PMC13731734",
+    "url": "https://doi.org/10.1002/vms3.71320",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "case-study",
+        "Journal Article",
+        "Case Reports"
+      ]
+    }
+  },
+  {
+    "title": "Metabolic Niches: MALDI Imaging Reveals Lipidomic Heterogeneity in the Human Heart.",
+    "doi": "10.1021/jasms.6c00251",
+    "pmid": "42980305",
+    "pmcid": "PMC13741915",
+    "url": "https://doi.org/10.1021/jasms.6c00251",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Biomechanical Evolution in the Neuropathic Diabetic Foot: A Scoping Review of Gait and Kinetic-Kinematic-Structural Adaptations in Diabetes.",
+    "doi": "10.1002/dmrr.70248",
+    "pmid": "42979941",
+    "pmcid": "PMC13732642",
+    "url": "https://doi.org/10.1002/dmrr.70248",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-10",
+    "pubTypeList": {
+      "pubType": [
+        "Scoping Review",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
     "title": "Walking Capacity and Daily Movement Behaviours After Ischemic Stroke: A Potential Capacity-Performance Gap.",
     "doi": "10.1002/pri.70372",
     "pmid": "42975922",
@@ -60,7 +222,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "review-article",
         "Review",
         "Journal Article"
@@ -190,7 +351,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "research-article",
         "Multicenter Study",
         "Journal Article",
@@ -485,7 +645,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
+        "Review",
         "Journal Article",
         "English Abstract"
       ]
@@ -502,7 +662,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article",
         "English Abstract"
       ]
@@ -534,7 +693,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -550,7 +708,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -566,8 +723,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
-        "IM"
+        "Letter"
       ]
     }
   },
@@ -582,7 +738,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -630,7 +785,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -646,7 +800,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -662,7 +815,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Editorial"
       ]
     }
@@ -694,7 +846,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -710,8 +861,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
-        "IM"
+        "Letter"
       ]
     }
   },
@@ -726,7 +876,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -743,7 +892,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -759,7 +907,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -775,7 +922,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -807,7 +953,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -824,7 +969,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -840,7 +984,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -856,7 +999,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -873,7 +1015,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -889,7 +1030,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -905,8 +1045,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
-        "IM"
+        "Letter"
       ]
     }
   },
@@ -921,7 +1060,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -937,7 +1075,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -953,7 +1090,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -970,7 +1106,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -986,7 +1121,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1002,7 +1136,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -1019,7 +1152,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1035,7 +1167,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1083,7 +1214,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Published Erratum"
       ]
     }
@@ -1099,7 +1229,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article",
         "Retraction Notice"
       ]
@@ -1116,8 +1245,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
-        "IM"
+        "Letter"
       ]
     }
   },
@@ -1132,7 +1260,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1148,7 +1275,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article",
         "Case Reports"
       ]
@@ -1165,7 +1291,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article",
         "Case Reports"
       ]
@@ -1182,8 +1307,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
-        "IM"
+        "Letter"
       ]
     }
   },
@@ -1198,7 +1322,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1279,7 +1402,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -1296,7 +1418,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "research-article",
         "Journal Article"
       ]
@@ -1330,7 +1451,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1362,7 +1482,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1378,7 +1497,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -1395,7 +1513,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "case-study",
         "Journal Article",
         "Case Reports"
@@ -1413,7 +1530,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "review-article",
         "Review",
         "Journal Article"
@@ -1431,7 +1547,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1447,7 +1562,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1463,7 +1577,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1479,7 +1592,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1512,8 +1624,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
-        "IM"
+        "Letter"
       ]
     }
   },
@@ -1545,7 +1656,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1561,7 +1671,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -1595,7 +1704,6 @@
     "pubTypeList": {
       "pubType": [
         "Letter",
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -1612,7 +1720,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1628,7 +1735,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1644,7 +1750,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1660,7 +1765,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1676,7 +1780,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1692,7 +1795,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1708,7 +1810,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1756,7 +1857,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1772,7 +1872,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1788,7 +1887,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1804,7 +1902,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1820,7 +1917,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1853,7 +1949,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1869,7 +1964,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1885,7 +1979,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1901,7 +1994,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1933,7 +2025,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -1950,7 +2041,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -1998,7 +2088,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2014,7 +2103,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2030,7 +2118,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2046,7 +2133,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -2063,7 +2149,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2079,7 +2164,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2128,7 +2212,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2144,7 +2227,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "review-article",
         "Review",
         "Journal Article"
@@ -2162,7 +2244,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2256,7 +2337,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -2273,7 +2353,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2306,7 +2385,6 @@
     "pubTypeList": {
       "pubType": [
         "Comparative Study",
-        "IM",
         "research-article",
         "Validation Study",
         "Journal Article"
@@ -2324,8 +2402,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
-        "IM"
+        "Letter"
       ]
     }
   },
@@ -2356,7 +2433,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2372,7 +2448,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2421,7 +2496,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2437,7 +2511,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2453,7 +2526,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2469,7 +2541,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2485,7 +2556,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2501,7 +2571,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2517,7 +2586,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2533,7 +2601,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2549,7 +2616,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -2582,7 +2648,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2598,7 +2663,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2630,7 +2694,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2646,7 +2709,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2662,7 +2724,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Systematic Review",
         "Journal Article"
       ]
@@ -2679,7 +2740,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2695,7 +2755,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Editorial"
       ]
     }
@@ -2727,7 +2786,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2743,7 +2801,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -2760,7 +2817,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2776,7 +2832,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2792,7 +2847,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Editorial"
       ]
     }
@@ -2808,7 +2862,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Editorial"
       ]
     }
@@ -2824,7 +2877,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2840,7 +2892,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -2856,7 +2907,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -3057,7 +3107,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -3149,7 +3198,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -3182,7 +3230,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -3259,7 +3306,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -3381,7 +3427,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "research-article",
         "Journal Article"
       ]
@@ -3509,7 +3554,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -3695,7 +3739,6 @@
     "pubTypeList": {
       "pubType": [
         "Clinical Trial, Phase II",
-        "IM",
         "research-article",
         "Multicenter Study",
         "Randomized Controlled Trial",
@@ -4008,7 +4051,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -4211,7 +4253,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -4307,7 +4348,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -4353,7 +4393,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -4542,7 +4581,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -4665,7 +4703,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "research-article",
         "Multicenter Study",
         "Randomized Controlled Trial",
@@ -4685,7 +4722,6 @@
     "pubTypeList": {
       "pubType": [
         "Clinical Trial, Phase III",
-        "IM",
         "research-article",
         "Multicenter Study",
         "Randomized Controlled Trial",
@@ -5346,7 +5382,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "research-article",
         "Journal Article"
       ]
@@ -5378,7 +5413,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -5394,7 +5428,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -5598,7 +5631,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -5707,7 +5739,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -5738,8 +5769,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
-        "IM"
+        "Letter"
       ]
     }
   },
@@ -5864,7 +5894,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -6125,7 +6154,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -6311,7 +6339,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -6435,7 +6462,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -6511,7 +6537,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Review",
         "Journal Article"
       ]
@@ -6591,7 +6616,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -6623,7 +6647,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -7308,7 +7331,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -8632,21 +8654,6 @@
     }
   },
   {
-    "title": "Prevalence and clinical associations of age-related clonal hematopoiesis in systemic sclerosis.",
-    "doi": "10.1093/rheumatology/keag600",
-    "pmid": "42980049",
-    "pmcid": "",
-    "url": "https://doi.org/10.1093/rheumatology/keag600",
-    "firstPublicationDate": "2026-11-04",
-    "firstIndexDate": "2026-11-04",
-    "cardioupdate_detected_at": "2026-11-09",
-    "pubTypeList": {
-      "pubType": [
-        "Journal Article"
-      ]
-    }
-  },
-  {
     "title": "Prediction models for venous thromboembolism in pediatric patients: A protocol for systematic review and critical appraisal.",
     "doi": "10.1371/journal.pone.0361300",
     "pmid": "42981443",
@@ -9444,7 +9451,7 @@
     }
   },
   {
-    "title": "Chasing the ideal lumen thought lesion preparation: Lessons from the BALI trial on calcified lesions.",
+    "title": "Chasing the ideal lumen through lesion preparation: Lessons from the BALI trial on calcified lesions.",
     "doi": "10.1016/j.ijcard.2026.135033",
     "pmid": "42982240",
     "pmcid": "",
@@ -9530,7 +9537,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -9576,7 +9582,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article",
         "Case Reports"
       ]
@@ -9798,7 +9803,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article",
         "Case Reports",
         "case-report"
@@ -10008,7 +10012,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article"
       ]
     }
@@ -10089,7 +10092,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "review-article",
         "Review",
         "Journal Article"
@@ -10398,7 +10400,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "review-article",
         "Review",
         "Journal Article"
@@ -10905,6 +10906,21 @@
     "pubTypeList": {
       "pubType": [
         "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Prevalence and clinical associations of age-related clonal haematopoiesis in SSc.",
+    "doi": "10.1093/rheumatology/keag600",
+    "pmid": "42980049",
+    "pmcid": "",
+    "url": "https://doi.org/10.1093/rheumatology/keag600",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-09",
+    "pubTypeList": {
+      "pubType": [
         "Journal Article"
       ]
     }
@@ -11995,7 +12011,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "Journal Article",
         "Case Reports"
       ]
@@ -12916,7 +12931,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "IM",
         "research-article",
         "Journal Article"
       ]

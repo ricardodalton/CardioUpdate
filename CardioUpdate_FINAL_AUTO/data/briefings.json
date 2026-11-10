@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-10",
+    "generated_at": "2026-11-10T04:38:36.328465+00:00",
+    "items": [
+      {
+        "title": "La albuminuria se asocia con mayor carga de aterosclerosis coronaria subclínica, aunque la relación se atenúa tras el ajuste clínico",
+        "what_happened": "En un análisis transversal de 9.424 participantes del estudio sueco SCAPIS, una mayor relación albúmina/creatinina urinaria se asoció con una mayor puntuación de calcio coronario y, en análisis iniciales, con calcificación coronaria y estenosis en angiografía por TC. Tras ajustar por presión arterial, diabetes, LDL-colesterol, tabaquismo, función renal y tratamientos, las asociaciones con presencia de calcio y estenosis dejaron de ser significativas; la asociación con carga de calcio permaneció modesta.",
+        "why_relevant": "La albuminuria podría identificar un fenotipo de daño vascular temprano y acompañar a la cuantificación de carga aterosclerótica mediante CAC. Sin embargo, los datos son observacionales y transversales: no demuestran que la albuminuria cause aterosclerosis ni que su detección deba indicar imagen coronaria por sí sola.",
+        "practical_implication": "Se considera razonable interpretar la albuminuria como un marcador de riesgo cardiometabólico y renal que refuerza la optimización de presión arterial, diabetes, tabaquismo y exposición a lipoproteínas con apoB. No debería utilizarse de forma aislada para indicar CAC o angiografía coronaria por TC.",
+        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
+      },
+      {
+        "title": "La colchicina no redujo la inflamación aórtica medida por FDG-PET en enfermedad coronaria crónica",
+        "what_happened": "En un ensayo aleatorizado, doble ciego y controlado con placebo de 111 pacientes con enfermedad coronaria crónica, colchicina 0,6 mg/día durante 24 semanas no redujo frente a placebo la captación aórtica de FDG en PET, objetivo primario del estudio. Se observaron señales exploratorias de menor cociente neutrófilos/linfocitos y de menor incremento de presión arterial, sin demostración de beneficio sobre eventos cardiovasculares.",
+        "why_relevant": "El estudio cuestiona que los potenciales efectos clínicos de la colchicina en enfermedad coronaria se expliquen por una reducción detectable de la inflamación en grandes arterias mediante FDG-PET. El resultado primario es sustituto y negativo; las señales secundarias no permiten establecer eficacia antihipertensiva ni antiaterosclerótica clínica.",
+        "practical_implication": "La colchicina no debería prescribirse con el objetivo de reducir la inflamación vascular medida por PET ni para controlar la presión arterial. Cualquier decisión sobre su empleo en prevención secundaria debe basarse en la evidencia de eventos clínicos, el perfil individual de riesgo y seguridad, y no en estos desenlaces mecanísticos.",
+        "source_title": "Colchicine in chronic coronary artery disease: effects on vascular glucose uptake, inflammation, remodeling and blood pressure.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/cvr/cvag272"
+      },
+      {
+        "title": "Un aceite enriquecido con fitoesteroles mejoró LDL-colesterol y apoB en un ensayo pequeño de dislipidemia",
+        "what_happened": "Un ensayo aleatorizado, paralelo y simple ciego asignó a 60 adultos con dislipidemia limítrofe a aceite mezclado de maíz y germen de trigo enriquecido con fitoesteroles o aceite de cacahuete durante tres meses. El grupo asignado al aceite enriquecido presentó reducciones de colesterol total, triglicéridos, LDL-colesterol y apoB, junto con cambios en marcadores de estrés oxidativo.",
+        "why_relevant": "La reducción de LDL-colesterol y apoB es coherente con la prioridad de disminuir la exposición acumulada a lipoproteínas aterogénicas. No obstante, se trata de un estudio pequeño, de corta duración, simple ciego y basado en biomarcadores; no evaluó progresión de placa ni eventos cardiovasculares.",
+        "practical_implication": "Los alimentos con fitoesteroles pueden considerarse un complemento dietético, no un sustituto de estatinas, ezetimiba u otros tratamientos hipolipemiantes indicados. La respuesta debe comprobarse con un perfil lipídico, idealmente incluyendo apoB cuando sea clínicamente útil, dentro de una estrategia dietética global.",
+        "source_title": "Phytosterol-enriched corn and wheat germ blended oil improves lipid metabolism in hyperlipidemia via the AMPK/PPARα/CPT1 pathway.",
+        "journal": "Food research international (Ottawa, Ont.)",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.foodres.2026.120939"
+      },
+      {
+        "title": "La IA aplicada a un reloj inteligente mostró capacidad de cribado oportunista de hipertensión frente a monitorización ambulatoria",
+        "what_happened": "Un estudio prospectivo y multicéntrico evaluó un algoritmo de inteligencia artificial basado en fotopletismografía y acelerometría de un reloj inteligente de consumo, sin calibración con manguito, en 196 personas sin enfermedad cardiovascular conocida ni tratamiento antihipertensivo. Frente a la monitorización ambulatoria de presión arterial de 24 horas, el algoritmo detectó hipertensión con sensibilidad del 65,8% y especificidad del 90,0%.",
+        "why_relevant": "La hipertensión continúa infradiagnosticada y la detección oportunista puede facilitar la derivación a evaluación clínica. La tecnología evaluada detecta una señal compatible con hipertensión, pero no reemplaza la medición validada de presión arterial ni establece un diagnóstico.",
+        "practical_implication": "Un aviso generado por reloj inteligente podría motivar la confirmación mediante presión arterial clínica estandarizada, automedición domiciliaria validada o monitorización ambulatoria. No debería utilizarse para iniciar, ajustar o suspender tratamiento antihipertensivo sin confirmación con dispositivos validados.",
+        "source_title": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1038/s41586-026-11336-3"
+      },
+      {
+        "title": "La carga moderada de calcio coronario se asoció con ictus incidente, sin asociación independiente con fibrilación auricular o mortalidad",
+        "what_happened": "En una cohorte de práctica real de 2.175 adultos sometidos a CAC, con seguimiento medio cercano a 10 años, la categoría CAC-DRS 2 se asoció con mayor riesgo de ictus isquémico incidente tras ajuste multivariable. No se observó asociación independiente entre las categorías de CAC y fibrilación auricular de nueva aparición o mortalidad por cualquier causa.",
+        "why_relevant": "El hallazgo amplía la perspectiva del CAC como marcador de carga aterosclerótica sistémica, pero no demuestra que el calcio coronario sea una herramienta validada para estratificar específicamente el riesgo de ictus. Hubo pocos eventos de ictus y el estudio es observacional, por lo que no permite inferencia causal ni justificar cambios terapéuticos dirigidos al ictus basados solo en CAC.",
+        "practical_implication": "El CAC debe seguir utilizándose principalmente para refinar la decisión preventiva coronaria en pacientes seleccionados, junto con factores de riesgo, LDL-colesterol/apoB y contexto clínico. Una carga elevada debe impulsar la intensificación integral de la prevención vascular, sin asumir que predice de forma independiente fibrilación auricular o mortalidad.",
+        "source_title": "Prognostic value of coronary artery calcification score for long-term risk of stroke, atrial fibrillation and mortality: Analysis of real-world data.",
+        "journal": "Current problems in cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103482"
+      }
+    ]
+  },
+  {
     "date": "2026-11-09",
     "generated_at": "2026-11-09T20:01:57.576121+00:00",
     "items": [
