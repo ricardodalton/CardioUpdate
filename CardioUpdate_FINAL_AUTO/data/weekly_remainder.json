@@ -3577,13 +3577,14 @@
     "title": "Roles of TRIM proteins in cardiovascular diseases: From pathogenesis to therapeutic targeting (Review).",
     "doi": "10.3892/ijmm.2026.6035",
     "pmid": "42992565",
-    "pmcid": "",
+    "pmcid": "PMC13747186",
     "url": "https://doi.org/10.3892/ijmm.2026.6035",
     "firstPublicationDate": "2026-11-06",
     "firstIndexDate": "2026-11-07",
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
+        "review-article",
         "Review",
         "Journal Article"
       ]
@@ -11173,7 +11174,7 @@
     "title": "Comparison of anticoagulation efficacy and safety of different heparin dosages in cardiogenic shock patients supported by intra-aortic balloon pump: A retrospective cohort study.",
     "doi": "10.1097/md.0000000000051386",
     "pmid": "42994829",
-    "pmcid": "",
+    "pmcid": "PMC13747607",
     "url": "https://doi.org/10.1097/md.0000000000051386",
     "firstPublicationDate": "2026-11-01",
     "firstIndexDate": "2026-11-07",
@@ -11181,6 +11182,7 @@
     "pubTypeList": {
       "pubType": [
         "Comparative Study",
+        "research-article",
         "Journal Article"
       ]
     }

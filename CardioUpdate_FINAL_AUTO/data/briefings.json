@@ -1,53 +1,53 @@
 [
   {
     "date": "2026-11-10",
-    "generated_at": "2026-11-10T04:38:36.328465+00:00",
+    "generated_at": "2026-11-10T17:18:20.501282+00:00",
     "items": [
       {
-        "title": "La albuminuria se asocia con mayor carga de aterosclerosis coronaria subclínica, aunque la relación se atenúa tras el ajuste clínico",
-        "what_happened": "En un análisis transversal de 9.424 participantes del estudio sueco SCAPIS, una mayor relación albúmina/creatinina urinaria se asoció con una mayor puntuación de calcio coronario y, en análisis iniciales, con calcificación coronaria y estenosis en angiografía por TC. Tras ajustar por presión arterial, diabetes, LDL-colesterol, tabaquismo, función renal y tratamientos, las asociaciones con presencia de calcio y estenosis dejaron de ser significativas; la asociación con carga de calcio permaneció modesta.",
-        "why_relevant": "La albuminuria podría identificar un fenotipo de daño vascular temprano y acompañar a la cuantificación de carga aterosclerótica mediante CAC. Sin embargo, los datos son observacionales y transversales: no demuestran que la albuminuria cause aterosclerosis ni que su detección deba indicar imagen coronaria por sí sola.",
-        "practical_implication": "Se considera razonable interpretar la albuminuria como un marcador de riesgo cardiometabólico y renal que refuerza la optimización de presión arterial, diabetes, tabaquismo y exposición a lipoproteínas con apoB. No debería utilizarse de forma aislada para indicar CAC o angiografía coronaria por TC.",
-        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
-        "journal": "Atherosclerosis plus",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
-      },
-      {
-        "title": "La colchicina no redujo la inflamación aórtica medida por FDG-PET en enfermedad coronaria crónica",
-        "what_happened": "En un ensayo aleatorizado, doble ciego y controlado con placebo de 111 pacientes con enfermedad coronaria crónica, colchicina 0,6 mg/día durante 24 semanas no redujo frente a placebo la captación aórtica de FDG en PET, objetivo primario del estudio. Se observaron señales exploratorias de menor cociente neutrófilos/linfocitos y de menor incremento de presión arterial, sin demostración de beneficio sobre eventos cardiovasculares.",
-        "why_relevant": "El estudio cuestiona que los potenciales efectos clínicos de la colchicina en enfermedad coronaria se expliquen por una reducción detectable de la inflamación en grandes arterias mediante FDG-PET. El resultado primario es sustituto y negativo; las señales secundarias no permiten establecer eficacia antihipertensiva ni antiaterosclerótica clínica.",
-        "practical_implication": "La colchicina no debería prescribirse con el objetivo de reducir la inflamación vascular medida por PET ni para controlar la presión arterial. Cualquier decisión sobre su empleo en prevención secundaria debe basarse en la evidencia de eventos clínicos, el perfil individual de riesgo y seguridad, y no en estos desenlaces mecanísticos.",
-        "source_title": "Colchicine in chronic coronary artery disease: effects on vascular glucose uptake, inflammation, remodeling and blood pressure.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1093/cvr/cvag272"
-      },
-      {
-        "title": "Un aceite enriquecido con fitoesteroles mejoró LDL-colesterol y apoB en un ensayo pequeño de dislipidemia",
-        "what_happened": "Un ensayo aleatorizado, paralelo y simple ciego asignó a 60 adultos con dislipidemia limítrofe a aceite mezclado de maíz y germen de trigo enriquecido con fitoesteroles o aceite de cacahuete durante tres meses. El grupo asignado al aceite enriquecido presentó reducciones de colesterol total, triglicéridos, LDL-colesterol y apoB, junto con cambios en marcadores de estrés oxidativo.",
-        "why_relevant": "La reducción de LDL-colesterol y apoB es coherente con la prioridad de disminuir la exposición acumulada a lipoproteínas aterogénicas. No obstante, se trata de un estudio pequeño, de corta duración, simple ciego y basado en biomarcadores; no evaluó progresión de placa ni eventos cardiovasculares.",
-        "practical_implication": "Los alimentos con fitoesteroles pueden considerarse un complemento dietético, no un sustituto de estatinas, ezetimiba u otros tratamientos hipolipemiantes indicados. La respuesta debe comprobarse con un perfil lipídico, idealmente incluyendo apoB cuando sea clínicamente útil, dentro de una estrategia dietética global.",
-        "source_title": "Phytosterol-enriched corn and wheat germ blended oil improves lipid metabolism in hyperlipidemia via the AMPK/PPARα/CPT1 pathway.",
-        "journal": "Food research international (Ottawa, Ont.)",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.foodres.2026.120939"
-      },
-      {
-        "title": "La IA aplicada a un reloj inteligente mostró capacidad de cribado oportunista de hipertensión frente a monitorización ambulatoria",
-        "what_happened": "Un estudio prospectivo y multicéntrico evaluó un algoritmo de inteligencia artificial basado en fotopletismografía y acelerometría de un reloj inteligente de consumo, sin calibración con manguito, en 196 personas sin enfermedad cardiovascular conocida ni tratamiento antihipertensivo. Frente a la monitorización ambulatoria de presión arterial de 24 horas, el algoritmo detectó hipertensión con sensibilidad del 65,8% y especificidad del 90,0%.",
-        "why_relevant": "La hipertensión continúa infradiagnosticada y la detección oportunista puede facilitar la derivación a evaluación clínica. La tecnología evaluada detecta una señal compatible con hipertensión, pero no reemplaza la medición validada de presión arterial ni establece un diagnóstico.",
-        "practical_implication": "Un aviso generado por reloj inteligente podría motivar la confirmación mediante presión arterial clínica estandarizada, automedición domiciliaria validada o monitorización ambulatoria. No debería utilizarse para iniciar, ajustar o suspender tratamiento antihipertensivo sin confirmación con dispositivos validados.",
+        "title": "Reloj inteligente con IA para detección oportunista de hipertensión",
+        "what_happened": "Un estudio prospectivo multicéntrico evaluó un algoritmo de IA aplicado a fotopletismografía y acelerometría de un reloj inteligente, sin calibración con manguito, frente a monitorización ambulatoria de presión arterial de 24 horas en 196 personas sin enfermedad cardiovascular conocida ni tratamiento antihipertensivo. Durante siete días, el algoritmo detectó hipertensión con sensibilidad del 65,8% y especificidad del 90,0%.",
+        "why_relevant": "La hipertensión permanece infradiagnosticada y constituye una diana central de prevención cardiovascular. El estudio aporta validación prospectiva en condiciones de vida real para una estrategia de cribado oportunista, no para diagnóstico autónomo. La sensibilidad moderada implica que un resultado negativo no excluye hipertensión.",
+        "practical_implication": "El reloj inteligente podría utilizarse para identificar personas que requieren medición clínica confirmatoria con técnicas validadas, preferentemente monitorización ambulatoria o domiciliaria con manguito. No debe sustituir la confirmación diagnóstica ni la titulación terapéutica basada en presión arterial medida con dispositivos validados.",
         "source_title": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch.",
         "journal": "",
         "source_database": "Europe PMC",
         "url": "https://doi.org/10.1038/s41586-026-11336-3"
       },
       {
-        "title": "La carga moderada de calcio coronario se asoció con ictus incidente, sin asociación independiente con fibrilación auricular o mortalidad",
-        "what_happened": "En una cohorte de práctica real de 2.175 adultos sometidos a CAC, con seguimiento medio cercano a 10 años, la categoría CAC-DRS 2 se asoció con mayor riesgo de ictus isquémico incidente tras ajuste multivariable. No se observó asociación independiente entre las categorías de CAC y fibrilación auricular de nueva aparición o mortalidad por cualquier causa.",
-        "why_relevant": "El hallazgo amplía la perspectiva del CAC como marcador de carga aterosclerótica sistémica, pero no demuestra que el calcio coronario sea una herramienta validada para estratificar específicamente el riesgo de ictus. Hubo pocos eventos de ictus y el estudio es observacional, por lo que no permite inferencia causal ni justificar cambios terapéuticos dirigidos al ictus basados solo en CAC.",
-        "practical_implication": "El CAC debe seguir utilizándose principalmente para refinar la decisión preventiva coronaria en pacientes seleccionados, junto con factores de riesgo, LDL-colesterol/apoB y contexto clínico. Una carga elevada debe impulsar la intensificación integral de la prevención vascular, sin asumir que predice de forma independiente fibrilación auricular o mortalidad.",
+        "title": "La colchicina no redujo la inflamación aórtica medida por FDG-PET en enfermedad coronaria crónica",
+        "what_happened": "En un ensayo aleatorizado, doble ciego y controlado con placebo, 111 pacientes con enfermedad coronaria crónica recibieron colchicina 0,6 mg diarios o placebo durante 24 semanas. La colchicina no redujo el desenlace primario de captación aórtica de FDG-PET frente a placebo. Los análisis secundarios y exploratorios mostraron reducción del cociente neutrófilos/linfocitos, una tendencia a menor proteína C reactiva ultrasensible y menor incremento de la presión arterial.",
+        "why_relevant": "El estudio examina mecanismos potenciales de la colchicina en prevención secundaria, pero sus resultados principales son negativos para inflamación vascular de grandes vasos. Los hallazgos de biomarcadores y presión arterial son secundarios o exploratorios, y no demuestran reducción de eventos cardiovasculares.",
+        "practical_implication": "La evidencia no respalda emplear la respuesta de FDG-PET, del cociente neutrófilos/linfocitos o de presión arterial como indicadores de beneficio clínico de la colchicina. Las decisiones sobre colchicina en enfermedad coronaria deben basarse en la evidencia de resultados clínicos y en la valoración individual de beneficio, seguridad e interacciones, no en este ensayo mecanístico.",
+        "source_title": "Colchicine in chronic coronary artery disease: effects on vascular glucose uptake, inflammation, remodeling and blood pressure.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/cvr/cvag272"
+      },
+      {
+        "title": "La angiografía por TC detecta placa coronaria incluso con CAC cero en una cohorte india seleccionada",
+        "what_happened": "En un estudio transversal de un único centro con 1.750 adultos asintomáticos, predominantemente de alto riesgo y derivados para angiografía coronaria por tomografía computarizada, se identificó enfermedad coronaria en el 62%: no obstructiva en el 45% y obstructiva en el 17%. Hubo enfermedad coronaria en el 27% de quienes tenían calcio coronario cero y en el 44% de quienes presentaban bajo riesgo según Framingham.",
+        "why_relevant": "El trabajo ilustra una limitación conocida del CAC: un resultado de cero no excluye placa no calcificada, particularmente en poblaciones seleccionadas y potencialmente más jóvenes. Sin embargo, describe prevalencia de imagen, no demuestra que realizar angiografía por TC en asintomáticos mejore eventos clínicos o sea coste-efectivo.",
+        "practical_implication": "El CAC cero debe interpretarse dentro del contexto clínico y no como exclusión universal de aterosclerosis, especialmente cuando existen factores de riesgo relevantes o sospecha de enfermedad prematura. Estos datos no justifican el cribado sistemático con angiografía coronaria por TC en población asintomática; su uso requiere selección clínica individualizada.",
+        "source_title": "PREVALENCE OF CORONARY ARTERY DISEASE ON CORONARY CT ANGIOGRAPHY IN ASYMPTOMATIC, PREDOMINANTLY HIGH-RISK INDIAN ADULTS: A SINGLE-CENTRE CROSS-SECTIONAL STUDY.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.ihj.2026.11.146"
+      },
+      {
+        "title": "La albuminuria se asocia con mayor carga aterosclerótica coronaria, pero la asociación se atenúa tras el ajuste",
+        "what_happened": "Un análisis transversal de 9.424 participantes del estudio sueco SCAPIS evaluó la relación entre el cociente albúmina/creatinina urinaria y la carga aterosclerótica coronaria mediante CAC y angiografía coronaria por TC. Una albuminuria mayor se asoció con mayor CAC en análisis ajustados, aunque la magnitud fue pequeña y las asociaciones con calcificación prevalente y estenosis dejaron de ser significativas tras ajustes más amplios. Al excluir hipertensión y diabetes, la asociación ajustada con CAC tampoco fue significativa.",
+        "why_relevant": "La albuminuria puede señalar un fenotipo de daño vascular y cardiometabólico precoz, pero este estudio es observacional y transversal. Por tanto, no permite establecer causalidad ni demostrar que reducir albuminuria disminuya por sí misma la carga aterosclerótica o los eventos coronarios.",
+        "practical_implication": "La albuminuria debe reforzar la evaluación global de riesgo cardiovascular, renal, presión arterial, diabetes y exposición aterogénica, sin considerarse un marcador aislado que indique imagen coronaria. La prevención debe centrarse en el control intensivo de los factores causales modificables establecidos.",
+        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
+        "journal": "Atherosclerosis plus",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
+      },
+      {
+        "title": "El CAC moderado se asoció con ictus incidente, pero no con fibrilación auricular ni mortalidad",
+        "what_happened": "Un estudio de datos clínicos reales incluyó 2.175 adultos sometidos a puntuación de calcio coronario y seguidos durante aproximadamente diez años. Tras ajuste multivariable, la categoría CAC-DRS 2 se asoció con mayor riesgo de ictus isquémico incidente, mientras que no se observaron asociaciones significativas entre CAC y fibrilación auricular de nueva aparición o mortalidad por todas las causas.",
+        "why_relevant": "El hallazgo apoya que la carga de calcio coronario refleja riesgo vascular sistémico, pero procede de una cohorte observacional con pocos eventos de ictus. No establece que el CAC deba solicitarse para predecir ictus ni que el resultado deba modificar por sí solo las estrategias preventivas.",
+        "practical_implication": "El CAC debe conservarse como herramienta de refinamiento del riesgo aterosclerótico coronario en pacientes seleccionados, no como prueba de cribado de fibrilación auricular o mortalidad. Cuando revela aterosclerosis subclínica relevante, debe impulsar una revisión integral de LDL-colesterol/apoB, presión arterial, tabaquismo, diabetes y adherencia a prevención primaria.",
         "source_title": "Prognostic value of coronary artery calcification score for long-term risk of stroke, atrial fibrillation and mortality: Analysis of real-world data.",
         "journal": "Current problems in cardiology",
         "source_database": "PubMed",
