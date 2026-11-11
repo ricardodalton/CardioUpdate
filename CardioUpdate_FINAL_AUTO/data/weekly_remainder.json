@@ -1,5 +1,200 @@
 [
   {
+    "title": "Beyond binary diagnoses: Rethinking cardiovascular risk across the continuum.",
+    "doi": "10.1016/j.pcad.2026.11.004",
+    "pmid": "42994672",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.pcad.2026.11.004",
+    "firstPublicationDate": "2026-11-06",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "Editorial"
+      ]
+    }
+  },
+  {
+    "title": "Use of Ecological Momentary Assessments to Evaluate Alcohol Use With American Indian Women.",
+    "doi": "10.1111/acer.70445",
+    "pmid": "42995382",
+    "pmcid": "PMC13743669",
+    "url": "https://doi.org/10.1111/acer.70445",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "The application value of two-dimensional speckle tracking imaging technology in evaluating the functions of the left atrium and left atrial appendage in patients with non-valvular atrial fibrillation: A comparative cross-sectional study.",
+    "doi": "10.1097/md.0000000000051377",
+    "pmid": "42994844",
+    "pmcid": "PMC13747487",
+    "url": "https://doi.org/10.1097/md.0000000000051377",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "Comparative Study",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Prognostic role of sarcopenia in anal squamous cell carcinoma treated with chemoradiotherapy: systematic review and meta-analysis.",
+    "doi": "10.5603/rpor.113087",
+    "pmid": "42997869",
+    "pmcid": "PMC13743167",
+    "url": "https://doi.org/10.5603/rpor.113087",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-08",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Integrated Lipidomic and Energy Metabolomic Analyses Reveal the Cardioprotective Mechanisms of Meconopsis horridula Alkaloids in Heart Failure.",
+    "doi": "10.1021/acs.jproteome.6c00549",
+    "pmid": "42992904",
+    "pmcid": "",
+    "url": "https://doi.org/10.1021/acs.jproteome.6c00549",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Impact of Aspirin Use on Mortality and Cardiac Allograft Vasculopathy After Heart Transplantation: A Systematic Review and Meta-analysis.",
+    "doi": "10.1111/ctr.70742",
+    "pmid": "42998260",
+    "pmcid": "PMC13744394",
+    "url": "https://doi.org/10.1111/ctr.70742",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-08",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Endothelial Cell Secretome Alterations Induced by Inflammatory Stress.",
+    "doi": "10.1021/acs.jproteome.6c00548",
+    "pmid": "42992882",
+    "pmcid": "",
+    "url": "https://doi.org/10.1021/acs.jproteome.6c00548",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Clinical Diagnosis Versus Plain Radiography for Diabetic Foot Osteomyelitis: A Prospective Study of Diagnostic Agreement in a Resource-Limited Settings.",
+    "doi": "10.1111/iwj.71085",
+    "pmid": "42976871",
+    "pmcid": "PMC13730625",
+    "url": "https://doi.org/10.1111/iwj.71085",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-04",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "Comparative Study",
+        "methods-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Blood serotonin, ionized magnesium, cardiac troponin I, N-terminal pro-brain natriuretic peptide concentrations, and mitral valve billowing in horses with mitral valve regurgitation.",
+    "doi": "10.1093/jvimsj/aalag280",
+    "pmid": "42993774",
+    "pmcid": "PMC13742131",
+    "url": "https://doi.org/10.1093/jvimsj/aalag280",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Bibliometric analysis of septic cardiomyopathy: Current status, research hotspots, and emerging trends (2015-2025).",
+    "doi": "10.1097/md.0000000000051458",
+    "pmid": "42994857",
+    "pmcid": "PMC13747534",
+    "url": "https://doi.org/10.1097/md.0000000000051458",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Evidence Synthesis",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Beyond anticoagulation: defining the role of left atrial appendage closure in stroke prevention for atrial fibrillation.",
+    "doi": "10.1093/europace/euag296",
+    "pmid": "42993092",
+    "pmcid": "PMC13741638",
+    "url": "https://doi.org/10.1093/europace/euag296",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "brief-report",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Association of Cognitive Reserve and Chronic Disease Comorbidity with the Risk of Progression from Subjective Cognitive Decline to Objective Cognitive Impairment: A Cohort Study Among Chinese Community-Dwelling Older Adults.",
+    "doi": "10.2147/ndt.s652925",
+    "pmid": "42996786",
+    "pmcid": "PMC13740385",
+    "url": "https://doi.org/10.2147/ndt.s652925",
+    "firstPublicationDate": "2026-11-01",
+    "firstIndexDate": "2026-11-08",
+    "cardioupdate_detected_at": "2026-11-11",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
     "title": "Lactate in cardiovascular-kidney-metabolic syndrome: an evidence synthesis and a hypothesis-generating framework for dynamic assessment.",
     "doi": "10.1016/j.diabres.2026.113641",
     "pmid": "42994758",
@@ -630,6 +825,21 @@
     "pubTypeList": {
       "pubType": [
         "research-article",
+        "Journal Article"
+      ]
+    }
+  },
+  {
+    "title": "Semaglutide (Wegovy) for secondary cardiovascular prevention in adults with an elevated BMI.",
+    "doi": "10.1136/dtb.2026.000032",
+    "pmid": "42994978",
+    "pmcid": "",
+    "url": "https://doi.org/10.1136/dtb.2026.000032",
+    "firstPublicationDate": "2026-11-09",
+    "firstIndexDate": "2026-11-07",
+    "cardioupdate_detected_at": "2026-11-09",
+    "pubTypeList": {
+      "pubType": [
         "Journal Article"
       ]
     }
@@ -1343,6 +1553,21 @@
     }
   },
   {
+    "title": "Prevalence of coronary artery disease on coronary CT angiography in asymptomatic, predominantly high-risk Indian adults: A single-centre cross-sectional study.",
+    "doi": "10.1016/j.ihj.2026.11.146",
+    "pmid": "42998833",
+    "pmcid": "",
+    "url": "https://doi.org/10.1016/j.ihj.2026.11.146",
+    "firstPublicationDate": "2026-11-07",
+    "firstIndexDate": "2026-11-08",
+    "cardioupdate_detected_at": "2026-11-09",
+    "pubTypeList": {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  },
+  {
     "title": "Prevalence and factors associated with sleep deprivation in nursing technicians working in shifts Prevalencia y factores asociados a la privación del sueño en técnicos de enfermería que trabajan por turnos",
     "doi": "",
     "pmid": "",
@@ -1467,21 +1692,6 @@
     "pubTypeList": {
       "pubType": [
         "research-article",
-        "Journal Article"
-      ]
-    }
-  },
-  {
-    "title": "PREVALENCE OF CORONARY ARTERY DISEASE ON CORONARY CT ANGIOGRAPHY IN ASYMPTOMATIC, PREDOMINANTLY HIGH-RISK INDIAN ADULTS: A SINGLE-CENTRE CROSS-SECTIONAL STUDY.",
-    "doi": "10.1016/j.ihj.2026.11.146",
-    "pmid": "42998833",
-    "pmcid": "",
-    "url": "https://doi.org/10.1016/j.ihj.2026.11.146",
-    "firstPublicationDate": "2026-11-07",
-    "firstIndexDate": "2026-11-08",
-    "cardioupdate_detected_at": "2026-11-09",
-    "pubTypeList": {
-      "pubType": [
         "Journal Article"
       ]
     }
@@ -1703,7 +1913,6 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "Letter",
         "Review",
         "Journal Article"
       ]
@@ -2561,7 +2770,7 @@
     }
   },
   {
-    "title": "CAD PVAT-Derived Exosomes Impair Endothelial Barrier Function Through the miR-183-5p/TPM1 Axis.",
+    "title": "CAD PVAT-derived exosomes impair endothelial barrier function through the miR-183-5p/TPM1 axis.",
     "doi": "10.1016/j.abb.2026.111053",
     "pmid": "42998862",
     "pmcid": "",
@@ -3496,21 +3705,6 @@
     }
   },
   {
-    "title": "Semaglutide (Wegovy) for secondary cardiovascular prevention in adults with an elevated BMI.",
-    "doi": "10.1136/dtb.2026.000032",
-    "pmid": "42994978",
-    "pmcid": "",
-    "url": "https://doi.org/10.1136/dtb.2026.000032",
-    "firstPublicationDate": "2026-11-06",
-    "firstIndexDate": "2026-11-07",
-    "cardioupdate_detected_at": "2026-11-09",
-    "pubTypeList": {
-      "pubType": [
-        "Journal Article"
-      ]
-    }
-  },
-  {
     "title": "Secondary mitral regurgitation in HFrEF: Predicting reversibility on medical therapy before intervention.",
     "doi": "10.1016/j.ijcard.2026.135038",
     "pmid": "42994629",
@@ -3740,6 +3934,7 @@
     "pubTypeList": {
       "pubType": [
         "Clinical Trial, Phase II",
+        "Research Support, Non-U.S. Gov't",
         "research-article",
         "Multicenter Study",
         "Randomized Controlled Trial",
@@ -4704,6 +4899,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
+        "Research Support, Non-U.S. Gov't",
         "research-article",
         "Multicenter Study",
         "Randomized Controlled Trial",
@@ -4723,6 +4919,7 @@
     "pubTypeList": {
       "pubType": [
         "Clinical Trial, Phase III",
+        "Research Support, Non-U.S. Gov't",
         "research-article",
         "Multicenter Study",
         "Randomized Controlled Trial",
@@ -7811,7 +8008,7 @@
     }
   },
   {
-    "title": "Door-to-Valve Time and Clinical Outcomes in Acute Decompensated Severe Aortic Stenosis: Systematic Review and Meta-Analysis",
+    "title": "Door-to-Valve Intervention Time and Clinical Outcomes in Acute Decompensated Severe Aortic Stenosis: Systematic Review and Meta-Analysis",
     "doi": "10.64898/2026.11.03.26367226",
     "pmid": "",
     "pmcid": "",
@@ -8751,7 +8948,7 @@
     }
   },
   {
-    "title": "PANI/CMWCNTs immunosensor with KNN-Ridge for high-throughput COX-2 screening.",
+    "title": "PANI/CMWCNTs immunosensor with KNN-ridge for high-throughput COX-2 screening.",
     "doi": "10.1016/j.ab.2026.116290",
     "pmid": "42982159",
     "pmcid": "",
@@ -10840,8 +11037,8 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
-        "abstract",
-        "Journal Article"
+        "Conference Proceedings",
+        "abstract"
       ]
     }
   },
@@ -10953,6 +11150,7 @@
     "pubTypeList": {
       "pubType": [
         "research-article",
+        "Validation Study",
         "Multicenter Study",
         "Journal Article"
       ]
@@ -11866,6 +12064,7 @@
     "cardioupdate_detected_at": "2026-11-09",
     "pubTypeList": {
       "pubType": [
+        "Research Support, Non-U.S. Gov't",
         "review-article",
         "Review",
         "Journal Article"

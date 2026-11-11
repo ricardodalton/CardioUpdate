@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-11",
+    "generated_at": "2026-11-11T17:28:29.872081+00:00",
+    "items": [
+      {
+        "title": "ORION-4 evalúa si inclisiran reduce eventos cardiovasculares en prevención secundaria",
+        "what_happened": "El ensayo HPS-4/TIMI 65/ORION-4 aleatorizó a 16.124 personas con enfermedad cardiovascular aterosclerótica a inclisiran o placebo. Evaluará un compuesto de muerte coronaria, infarto de miocardio, ictus isquémico fatal o no fatal y revascularización coronaria urgente. La publicación disponible describe el diseño, el reclutamiento y las características basales; no comunica resultados de eficacia ni seguridad clínica a largo plazo.",
+        "why_relevant": "Será el primer ensayo de resultados cardiovasculares a gran escala de una terapia de ARN interferente dirigida a PCSK9. Puede determinar si la reducción sostenida de LDL-C con administración semestral se traduce en reducción de eventos, más allá de su efecto demostrado sobre un marcador lipídico sustituto.",
+        "practical_implication": "No modifica todavía la indicación clínica basada en eventos. En prevención secundaria, la elección de inclisiran debe seguir apoyándose en el objetivo de reducción de LDL-C, la adherencia, la tolerabilidad, el acceso y las recomendaciones vigentes, sin asumir beneficio sobre eventos hasta la comunicación de ORION-4.",
+        "source_title": "HPS-4/TIMI 65/ORION-4: A double-blind randomized placebo-controlled trial assessing the effects of inclisiran on clinical outcomes among people with atherosclerotic cardiovascular disease: Trial design, recruitment, and baseline characteristics.",
+        "journal": "American heart journal",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ahj.2026.107546"
+      },
+      {
+        "title": "Balón recubierto de fármaco frente a stent farmacoactivo en lesiones coronarias calcificadas: señal observacional a largo plazo",
+        "what_happened": "El registro retrospectivo SPARTAN comparó balón recubierto de fármaco con stent farmacoactivo en 1.057 pacientes con lesiones coronarias de novo consideradas calcificadas por el operador. Durante una mediana de 3,7 años, el fracaso de la lesión diana fue similar entre estrategias. Se observó una menor tasa de infarto de miocardio relacionado con la lesión diana con balón, sin diferencias significativas en mortalidad cardiovascular o total.",
+        "why_relevant": "La calcificación coronaria refleja una elevada carga aterosclerótica y complica la intervención coronaria percutánea. El estudio aporta datos clínicos de seguimiento prolongado para una estrategia sin implante permanente en un escenario habitualmente complejo.",
+        "practical_implication": "Los hallazgos no justifican sustituir de forma generalizada el stent farmacoactivo por balón recubierto de fármaco en lesiones calcificadas. Al tratarse de un registro retrospectivo, con definición de calcificación dependiente del operador y posible confusión residual, la selección debe individualizarse según preparación de lesión, resultado angiográfico e imágenes intracoronarias cuando estén indicadas.",
+        "source_title": "Drug-Coated Balloon Versus Drug-Eluting Stent in Calcified De Novo Coronary Lesions: Long-Term Outcomes from the SPARTAN Registry.",
+        "journal": "The American journal of cardiology",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.amjcard.2026.09.034"
+      },
+      {
+        "title": "Firma metabolómica para seleccionar tomografía de calcio coronario en personas clasificadas como de bajo riesgo",
+        "what_happened": "En participantes del estudio BioHEART-CT, una puntuación basada en edad, sexo y cinco cocientes de metabolitos mostró en una cohorte externa mayor discriminación para calcio coronario clínicamente accionable que una puntuación de riesgo tradicional. El modelo se desarrolló y validó en cohortes separadas, pero su desenlace fue la presencia de calcio coronario y no eventos cardiovasculares.",
+        "why_relevant": "La puntuación aborda una limitación relevante de la prevención primaria: una parte de las personas con aterosclerosis coronaria subclínica puede ser clasificada como de bajo riesgo por herramientas convencionales. Podría, en teoría, enriquecer la selección de candidatos para CAC y evitar exploraciones indiscriminadas.",
+        "practical_implication": "La firma no debe incorporarse todavía a la práctica habitual ni reemplazar la valoración clínica, las ecuaciones de riesgo validadas o la indicación selectiva de CAC. Requiere validación prospectiva, evaluación de calibración en otras poblaciones y demostración de que su uso mejora decisiones terapéuticas y eventos clínicos, no solo la detección de un marcador de imagen.",
+        "source_title": "Novel Metabolomic Signature as a Biomarker to Detect Subclinical Atherosclerosis in Individuals Traditionally Classified as Low Risk.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/circgen.125.005501"
+      },
+      {
+        "title": "Infección por VIH y eventos cardiovasculares en pacientes con aterosclerosis carotídea",
+        "what_happened": "Una cohorte retrospectiva unicéntrica de pacientes chinos con aterosclerosis carotídea ecográfica y sin enfermedad cardiovascular o cerebrovascular previa encontró una mayor incidencia acumulada de eventos cardiovasculares mayores a dos años en las personas con VIH. Tras ajuste multivariable, la seropositividad para VIH, el tabaquismo activo, la reducción del filtrado glomerular estimado y la hiperuricemia se asociaron con eventos incidentes.",
+        "why_relevant": "El estudio refuerza la necesidad de prevención cardiovascular intensiva en personas con VIH que ya presentan evidencia de aterosclerosis subclínica carotídea. Además, identifica factores potencialmente modificables, especialmente tabaquismo y riesgo renal, en una población con riesgo aterosclerótico elevado.",
+        "practical_implication": "La asociación no demuestra que el VIH o los otros factores sean causas independientes de los eventos, debido al diseño retrospectivo, unicéntrico y potencialmente sujeto a confusión residual. En pacientes con VIH y placa carotídea, resulta razonable una evaluación sistemática de lípidos, presión arterial, tabaquismo, función renal y tratamiento preventivo conforme al riesgo global, sin extrapolar las estimaciones de riesgo de esta cohorte a todas las poblaciones.",
+        "source_title": "Association of HIV infection with short-term major adverse cardiovascular events among Chinese patients with carotid atherosclerosis: a single-center retrospective cohort study.",
+        "journal": "Annals of medicine",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/07853890.2026.2753324"
+      },
+      {
+        "title": "Aceite enriquecido con fitoesteroles: ensayo pequeño con mejoría de lípidos, sin datos de eventos",
+        "what_happened": "Un ensayo aleatorizado, de diseño paralelo y simple ciego asignó a 60 adultos con dislipidemia limítrofe aceite mezclado de maíz y germen de trigo enriquecido con fitoesteroles o aceite de cacahuete durante tres meses. El grupo de intervención presentó reducciones de colesterol total, triglicéridos, LDL-C y apoB; el trabajo también incluyó experimentos mecanísticos en ratas.",
+        "why_relevant": "La reducción de LDL-C y apoB es coherente con una estrategia dietética dirigida a disminuir lipoproteínas aterogénicas. No obstante, apoB y LDL-C son resultados sustitutos, y la magnitud, sostenibilidad y aplicabilidad clínica del efecto requieren confirmación.",
+        "practical_implication": "El producto puede considerarse, como otros alimentos con fitoesteroles, un posible complemento dietético dentro de un patrón alimentario cardiosaludable, pero no un sustituto de estatinas u otros tratamientos hipolipemiantes con evidencia de reducción de eventos cuando estos están indicados. La interpretación está limitada por el tamaño muestral pequeño, el seguimiento breve, el cegamiento incompleto y la ausencia de resultados cardiovasculares clínicos.",
+        "source_title": "Phytosterol-enriched corn and wheat germ blended oil improves lipid metabolism in hyperlipidemia via the AMPK/PPARα/CPT1 pathway.",
+        "journal": "Food research international (Ottawa, Ont.)",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.foodres.2026.120939"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "generated_at": "2026-11-10T17:18:20.501282+00:00",
     "items": [
