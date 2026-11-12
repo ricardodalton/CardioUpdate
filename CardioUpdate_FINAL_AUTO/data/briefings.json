@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-12",
+    "generated_at": "2026-11-12T17:46:04.784609+00:00",
+    "items": [
+      {
+        "title": "Suspensión de estatinas en prevención primaria en adultos mayores con multimorbilidad: ensayo STREAM",
+        "what_happened": "Un ensayo aleatorizado, abierto e internacional incluyó a 1.880 adultos de al menos 70 años, en tratamiento con estatinas para prevención primaria y con dos o más enfermedades crónicas. A dos años, la suspensión de estatinas fue no inferior a la continuación para el desenlace compuesto de infarto no fatal, ictus isquémico no fatal o muerte por cualquier causa, según el margen de no inferioridad predefinido.",
+        "why_relevant": "Aporta evidencia clínica aleatorizada para una decisión frecuente en prevención primaria geriátrica: mantener o retirar tratamiento hipolipemiante en personas con multimorbilidad. La conclusión se limita a la población estudiada y al horizonte de dos años; no demuestra que la retirada sea equivalente en todos los adultos mayores, especialmente en aquellos con riesgo aterosclerótico muy alto, hipercolesterolemia familiar o aterosclerosis subclínica extensa.",
+        "practical_implication": "La desintensificación puede valorarse de forma individualizada en adultos mayores con multimorbilidad y sin enfermedad cardiovascular conocida, incorporando expectativa de vida, carga terapéutica, tolerancia, preferencias y riesgo aterosclerótico basal. El estudio no respalda una retirada sistemática de estatinas.",
+        "source_title": "Discontinuing Statins in Older Adults without Cardiovascular Disease.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1056/nejmoa2606634"
+      },
+      {
+        "title": "Pelacarsen reduce de forma marcada la Lp(a) en participantes negros e hispanos con ASCVD",
+        "what_happened": "El ensayo aleatorizado, doble ciego y controlado con placebo Lp(a)FRONTIERS EXPANSION asignó a 423 participantes estadounidenses negros/afroamericanos e hispanos con ASCVD y Lp(a) elevada a pelacarsen mensual o placebo durante 12 meses. La razón geométrica de Lp(a) respecto al valor basal fue 0,14 con pelacarsen y 0,98 con placebo, lo que documenta una reducción sustancial de Lp(a) con un perfil de tolerabilidad descrito como generalmente favorable.",
+        "why_relevant": "La población abordada ha estado infrarrepresentada en ensayos de terapias dirigidas contra Lp(a), pese a la carga desproporcionada de riesgo aterosclerótico asociado a esta lipoproteína. El hallazgo confirma eficacia sobre un marcador biológico, no sobre eventos cardiovasculares: el desenlace principal fue el cambio de Lp(a), y la duración de seguimiento fue de un año.",
+        "practical_implication": "La medición de Lp(a) permite identificar riesgo residual y seleccionar potencialmente a candidatos para futuros tratamientos específicos. Por ahora, la reducción farmacológica de Lp(a) observada no debe interpretarse como beneficio clínico demostrado; la intensificación del control de LDL-C y de los demás factores de riesgo continúa siendo el eje terapéutico.",
+        "source_title": "Efficacy and Safety of Pelacarsen in Black/African American and Hispanic Participants with Elevated Lipoprotein(a) and Established Atherosclerotic Cardiovascular Disease: The Randomized Controlled Lp(a)FRONTIERS EXPANSION Study.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/circoutcomes.126.014453"
+      },
+      {
+        "title": "Inflamación y progresión de placa carotídea/femoral subclínica en PESA",
+        "what_happened": "En el estudio longitudinal PESA, 3.471 adultos asintomáticos de mediana edad fueron evaluados con ecografía vascular tridimensional carotídea y femoral seriada, además de cuantificación de calcio coronario. A los seis años, el recuento leucocitario mostró la asociación estadística más intensa con el volumen global de placa, tras ajustar por edad, sexo, LDL-C basal y presión arterial sistólica media; por cada desviación estándar de leucocitos se estimó un incremento del 32,6% del volumen de placa.",
+        "why_relevant": "El estudio sitúa la carga de placa carotídea y femoral como medida directa de aterosclerosis subclínica y muestra que marcadores inflamatorios sistémicos se asocian con su progresión más allá de LDL-C y presión arterial. Sin embargo, se trata de evidencia observacional: la asociación no demuestra causalidad ni identifica una intervención antiinflamatoria que reduzca eventos.",
+        "practical_implication": "La prevención debe seguir centrada en la reducción sostenida de exposición a lipoproteínas aterogénicas y en el control de la presión arterial. La ecografía de placa puede contribuir a la estratificación individual en contextos seleccionados, mientras que el recuento leucocitario no queda establecido como objetivo terapéutico ni como sustituto de eventos cardiovasculares.",
+        "source_title": "Inflammation and early atherosclerosis beyond traditional risk factors: an imaging study.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/eurheartj/ehag846"
+      },
+      {
+        "title": "Colchicina en diabetes y gota sin cardiopatía coronaria previa: señal observacional de menor mortalidad",
+        "what_happened": "Una cohorte nacional coreana comparó usuarios y no usuarios de colchicina entre 48.295 personas con diabetes tipo 2 y gota, sin enfermedad coronaria previa. Tras emparejamiento por puntuación de propensión, el uso de colchicina se asoció con menor riesgo del desenlace compuesto de muerte total, infarto no fatal e ictus no fatal; la asociación estuvo impulsada por menor mortalidad total. No se observaron diferencias significativas en infarto ni ictus, y el análisis de referencia a 365 días mantuvo el patrón principal.",
+        "why_relevant": "El estudio explora prevención primaria en una población con alto riesgo cardiometabólico y evalúa eventos clínicos, no solo biomarcadores. No obstante, su diseño observacional impide atribuir causalidad a la colchicina: pueden persistir confusión residual, sesgo de prescripción y diferencias no medidas entre quienes recibieron o no el fármaco.",
+        "practical_implication": "Los resultados no justifican indicar colchicina para prevención cardiovascular primaria en pacientes con diabetes y gota. Sí refuerzan la necesidad de ensayos aleatorizados específicamente diseñados para evaluar eventos cardiovasculares en esta población antes de modificar la práctica clínica.",
+        "source_title": "Colchicine use was associated with reduced all-cause mortality in patients with diabetic gout without prior coronary artery disease: A propensity-matched nationwide cohort study.",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1371/journal.pone.0362218"
+      },
+      {
+        "title": "Incorporación de Lp(a) a la estimación de riesgo en adultos de bajo riesgo: impacto limitado a corto plazo",
+        "what_happened": "Un estudio retrospectivo evaluó cómo la integración de Lp(a) en ecuaciones de riesgo podría modificar la elegibilidad para estatinas en adultos considerados de bajo riesgo. Entre 124 participantes con Lp(a) medida, incorporar valores elevados a la estimación de riesgo a 10 años reclasificó como candidatos a estatinas al 3,3%; los análisis exploratorios a 30 años generaron una reclasificación mayor. Para la mayoría de la cohorte sin medición se emplearon valores de Lp(a) imputados.",
+        "why_relevant": "El análisis aborda una cuestión práctica: la Lp(a) puede capturar riesgo de por vida que las estimaciones convencionales a 10 años infrarepresentan en personas jóvenes. Sus resultados son incrementales y modelizados: no evalúa eventos cardiovasculares, la muestra con Lp(a) medida fue pequeña y la imputación de Lp(a) limita la solidez de las estimaciones poblacionales.",
+        "practical_implication": "La Lp(a) elevada puede enriquecer la conversación preventiva, especialmente ante antecedentes familiares de ASCVD prematura o dudas sobre el inicio de tratamiento hipolipemiante. La decisión de estatinas no debería basarse exclusivamente en una reclasificación modelizada; la carga aterosclerótica, el LDL-C, apoB, los factores de riesgo acumulados y el contexto clínico siguen siendo determinantes.",
+        "source_title": "Lipoprotein(a) and statin indications in low-risk patients based on the 2026 ACC/AHA dyslipidemia guideline.",
+        "journal": "American heart journal plus : cardiology research and practice",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ahjo.2026.100993"
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "generated_at": "2026-11-11T17:28:29.872081+00:00",
     "items": [
