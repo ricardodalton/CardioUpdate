@@ -17,6 +17,7 @@ if len(remainder) != meta.get("candidate_cycle_count"):
 assert meta.get("candidate_cycle_start") and meta.get("candidate_cycle_end"), "meta sin ciclo de candidatos"
 ids=set()
 for s in studies:
+    assert not {"analysis_es","analysis_en","analysis","analysis_mode","analysis_status","analysis_model","ai_analysis","related_evidence"}.intersection(s), "la base no debe conservar análisis individuales"
     for key in ["id","title","area","level","journal","date","summary","url"]:
         assert key in s, f"{s.get('id')}: falta {key}"
     assert s["id"] not in ids, f"ID duplicado {s['id']}"
@@ -33,6 +34,9 @@ assert "data/studies.json" in html
 assert ">DOI<" not in html
 assert "<h2>Dato principal</h2>" not in html
 assert "<h2>Datos clave</h2>" not in html
+assert "Análisis CardioUpdate" not in html, "la interfaz no debe mostrar el análisis individual eliminado"
+assert "s.analysis_es" not in html, "las fichas no deben volver a renderizar análisis guardados"
+assert "Leer análisis completo" not in html
 assert "loadDatabase()" in html
 assert html.count("function cleanAbstractHtml(v){")==1, "helper cleanAbstractHtml duplicado"
 assert html.count("function originalAbstractFor(s){")==1, "helper originalAbstractFor duplicado"
@@ -44,3 +48,4 @@ assert "data/candidates.json" not in html, "la interfaz no debe descargar el poo
 assert '<span>${a[2]}</span>' not in html, "las tarjetas no deben mostrar siglas de especialidad"
 assert '<div class="topicCode">${a[2]}</div>' not in html, "el detalle no debe mostrar siglas de especialidad"
 print(f"OK: {len(studies)} estudios, {len(candidates)} candidatos y {len(remainder)} referencias del ciclo; esquema válido.")
+

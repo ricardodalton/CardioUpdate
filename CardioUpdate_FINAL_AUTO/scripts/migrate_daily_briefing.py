@@ -59,7 +59,7 @@ if '.briefingDay{' not in s:
 start=s.index('  <h1>Cómo usar CardioUpdate</h1>')
 end=s.index('  <div class="manualNote">',start)
 manual='''  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía de la actualización diaria y la revista semanal de cardiología</p>
-  <p>CardioUpdate combina dos formatos complementarios: un <b>Briefing diario</b> para conocer novedades recientes y una <b>edición científica semanal</b> para revisar con mayor profundidad los estudios seleccionados. Son contenidos diferentes: el briefing puede renovarse cada mañana, mientras que la selección semanal se publica los viernes y permanece estable hasta la siguiente edición.</p>
+  <p>CardioUpdate combina dos formatos complementarios: un <b>Briefing diario</b> para conocer novedades recientes y una <b>edición científica semanal</b> para revisar los abstracts y las fuentes de los estudios seleccionados. Son contenidos diferentes: el briefing puede renovarse cada mañana, mientras que la selección semanal corresponde al ciclo sábado–viernes y se publica al cerrarse el ciclo, a partir del sábado.</p>
   <h2>Portada: qué aparece y en qué orden</h2>
   <p>La portada comienza con el <b>trabajo principal de la semana</b> y la composición de la edición; continúa con la selección editorial, las especialidades y las últimas incorporaciones. A continuación aparece el <b>Briefing diario</b>, situado inmediatamente antes del <b>Resto de estudios detectados en el ciclo sábado–viernes</b>.</p>
   <h2>Briefing diario: cómo utilizarlo</h2>
@@ -79,16 +79,16 @@ manual='''  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía de la act
    <div><b>⌕ Buscar</b>Búsqueda por enfermedad, intervención, fármaco, tema o revista; por ejemplo CAC, Lp(a), TAVI o mavacamten.</div>
   </div>
   <h2>Cómo leer un estudio de la edición semanal</h2>
-  <p>Al abrir un trabajo se presenta el <b>título original en inglés</b>, seguido del <b>abstract original en inglés</b> cuando está disponible en la fuente, y del <b>análisis CardioUpdate en español</b>. Conviene comprobar los resultados, las cifras, el diseño y las limitaciones directamente en el artículo original.</p>
-  <div class="manualSequence">Título original → Abstract original → Análisis CardioUpdate → Fuente</div>
-  <h3>Abstract y análisis</h3><p>El abstract conserva el idioma original; no debe confundirse con la interpretación editorial. El análisis explica los aportes, la magnitud de los efectos, las limitaciones y las posibles implicaciones clínicas. Si la fuente no facilita el abstract, corresponde consultar el artículo original y no asumir que está completo.</p>
+  <p>Al abrir un trabajo se presenta el <b>título original en inglés</b>, seguido del <b>abstract original en inglés</b> cuando está disponible y del enlace al <b>artículo original</b>. Los artículos no generan ni muestran un análisis individual con IA; la IA queda reservada al briefing diario. Conviene comprobar los resultados, las cifras, el diseño y las limitaciones directamente en el artículo original.</p>
+  <div class="manualSequence">Título original → Abstract original → Fuente</div>
+  <h3>Abstract y fuente original</h3><p>El abstract conserva el idioma de la fuente. Si no está disponible, corresponde abrir el artículo original. Las traducciones locales de los abstracts no utilizan OpenAI y no son un análisis del estudio.</p>
   <h2>Selección semanal y categorías</h2>
-  <p>La edición reúne aproximadamente <b>20–30 trabajos</b> y se renueva los viernes. Las categorías <b>Practice Changer</b>, <b>Relevante</b> y <b>Seguimiento</b> ayudan a organizar la lectura; son criterios editoriales, no una sustitución de la evaluación crítica. Las barras de <b>Esta edición</b> indican la cantidad de trabajos en cada categoría y el número de guías/consensos disponibles.</p>
+  <p>La edición reúne hasta <b>30 trabajos</b> del ciclo sábado–viernes y se renueva a partir del sábado. Las categorías <b>Practice Changer</b>, <b>Relevante</b> y <b>Seguimiento</b> ayudan a organizar la lectura; son criterios editoriales, no una sustitución de la evaluación crítica. Las barras de <b>Esta edición</b> indican la cantidad de trabajos en cada categoría y el número de guías/consensos disponibles.</p>
   <h2>Resto de estudios detectados en el ciclo sábado–viernes</h2><p>Esta sección, ubicada <b>debajo del briefing diario</b>, contiene bibliografía adicional detectada durante el período que no integra la selección principal. Los títulos enlazan a sus fuentes originales.</p>
   <h2>Actualización y solución de problemas</h2>
   <p>El botón <b>↻ Actualizar</b> recarga la base científica. Si no aparece una nueva edición, comprobá la fecha mostrada y volvé a cargar la página. La publicación depende de que finalicen correctamente la actualización automática y el despliegue del sitio; la instalación de la app no garantiza por sí sola que el contenido ya esté publicado.</p>
   <h2>Rutina sugerida</h2>
-  <ol><li>Consultar el <b>Briefing diario</b> en Portada y abrir las fuentes de las novedades de interés.</li><li>Los viernes, revisar <b>Semana</b> y leer los estudios seleccionados.</li><li>Contrastar el abstract en inglés con el análisis en español y con la fuente original.</li><li>Guardar con ★ los trabajos que requieran una lectura posterior.</li><li>Explorar <b>Temas</b>, la biblioteca de <b>Guías</b> y el <b>Resto de estudios</b> según la necesidad clínica.</li></ol>
+  <ol><li>Consultar el <b>Briefing diario</b> en Portada y abrir las fuentes de las novedades de interés.</li><li>Al renovarse la edición, revisar <b>Semana</b> y leer los estudios seleccionados.</li><li>Contrastar el abstract con el artículo original.</li><li>Guardar con ★ los trabajos que requieran una lectura posterior.</li><li>Explorar <b>Temas</b>, la biblioteca de <b>Guías</b> y el <b>Resto de estudios</b> según la necesidad clínica.</li></ol>
 '''
 s=s[:start]+manual+s[end:]
 if s!=old:
@@ -96,4 +96,5 @@ if s!=old:
     print('Briefing diario y tutorial actualizado.')
 else:
     print('Briefing diario y tutorial ya actualizados.')
+
 

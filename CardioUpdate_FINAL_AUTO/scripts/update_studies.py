@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 """CardioUpdate weekly evidence pipeline.
 
-Daily behavior (Saturday-Thursday):
+Daily behavior:
 - Search recent cardiology literature in Europe PMC.
 - Accumulate/deduplicate candidates in data/candidates.json.
 - Do NOT change the published weekly edition (data/studies.json).
 
-Friday behavior:
-- Search once more to absorb indexing delays.
-- Select up to 30 high-priority, cardiovascular-relevant papers published from the previous Saturday
-  through Friday.
+Weekly publication (Saturday, after the Saturday-Friday cycle closes):
+- Select up to 30 high-priority, cardiovascular-relevant papers from the closed cycle.
 - Replace data/studies.json with that weekly issue.
-- Keep that issue unchanged until the next Friday.
+- Keep that issue unchanged until the next weekly publication.
 
 Guidelines/consensus documents are excluded from the study issue because they
 have their own permanent section (data/guides.json).
@@ -27,7 +25,6 @@ import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
-from urllib.parse import quote
 
 import requests
 
@@ -38,10 +35,8 @@ CANDIDATES = ROOT / "data" / "candidates.json"
 REMAINDER = ROOT / "data" / "weekly_remainder.json"
 META = ROOT / "data" / "meta.json"
 EPMC_API = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
-CROSSREF_API = "https://api.crossref.org/works/"
 
 MAX_WEEKLY = int(os.environ.get("CARDIOUPDATE_MAX_WEEKLY", "30"))
-MAX_RELATED = int(os.environ.get("CARDIOUPDATE_MAX_RELATED", "6"))
 TRANSLATE = os.environ.get("CARDIOUPDATE_TRANSLATE", "1") != "0"
 FORCE_PUBLISH = os.environ.get("CARDIOUPDATE_FORCE_PUBLISH", "0") == "1"
 DISCOVERY_LOOKBACK_DAYS = max(1, int(os.environ.get("CARDIOUPDATE_DISCOVERY_LOOKBACK_DAYS", "7")))
@@ -77,12 +72,18 @@ AREA_RULES = [
     ("Pericardiopatías", r"\b(pericarditis|pericardial|constrictive pericard)\b"),
 ]
 
-STOPWORDS = {
-    "the","and","for","with","from","into","among","after","before","during","versus","vs",
-    "study","trial","patients","patient","clinical","randomized","randomised","effect","effects",
-    "outcomes","outcome","cardiovascular","cardiac","heart","disease","treatment","therapy","risk",
-    "of","in","on","to","a","an","is","are","by","as","or","at","using","use","new"
+INDIVIDUAL_ANALYSIS_FIELDS = {
+    "analysis_es", "analysis_en", "analysis", "analysis_mode", "analysis_status",
+    "analysis_model", "ai_analysis", "ai_analysis_status", "related_evidence",
 }
+
+
+def without_individual_analysis(study: dict) -> dict:
+    """Keep source data and locally translated abstracts; drop retired analyses."""
+    cleaned = {key: value for key, value in study.items() if key not in INDIVIDUAL_ANALYSIS_FIELDS}
+    if cleaned.get("detail") == "Consultar el abstract original, el análisis contextual y las fuentes relacionadas.":
+        cleaned["detail"] = "Consultar el abstract y el artículo original."
+    return cleaned
 
 
 def clean_markup(s: str) -> str:
@@ -494,63 +495,11 @@ def select_weekly(pool: list[dict], start: date, end: date, previous_keys=None):
     return [x for _, x in eligible[:MAX_WEEKLY]]
 
 
-def title_keywords(title: str, max_terms=7):
-    words = re.findall(r"[a-zA-Z][a-zA-Z0-9()-]{2,}", title.lower())
-    out=[]
-    for w in words:
-        if w not in STOPWORDS and w not in out: out.append(w)
-    return out[:max_terms]
-
-
-def crossref_verify(doi: str):
-    if not doi: return None
-    try:
-        r=requests.get(CROSSREF_API+quote(doi,safe=""),timeout=25,headers={"User-Agent":"CardioUpdate/5.0"})
-        if not r.ok:return None
-        msg=(r.json() or {}).get("message") or {}
-        return {"title":clean_markup((msg.get("title") or [""])[0]),"journal":clean_markup((msg.get("container-title") or [""])[0]),"year":((msg.get("issued") or {}).get("date-parts") or [[None]])[0][0]}
-    except requests.RequestException:return None
-
-
-def related_score(item: dict, main: dict, keywords: list[str]) -> int:
-    text=f"{item.get('title','')} {item.get('abstractText','')} {type_text(item)}".lower(); s=journal_weight(item.get("journalTitle",""))*2
-    for k in keywords:
-        if k.lower() in text:s+=3
-    if re.search(r"meta-analysis|systematic review",text):s+=8
-    if re.search(r"guideline|consensus|scientific statement|position statement",text):s+=8
-    if re.search(r"randomized|randomised|clinical trial|controlled trial",text):s+=6
-    if item.get("abstractText"):s+=2
-    return s
-
-
 def original_url(item):
     if item.get("doi"):return "https://doi.org/"+item["doi"]
     if item.get("pmid"):return "https://pubmed.ncbi.nlm.nih.gov/"+item["pmid"]+"/"
     if item.get("pmcid"):return "https://europepmc.org/article/PMC/"+item["pmcid"]
     return "https://europepmc.org/"
-
-
-def find_related_evidence(main: dict):
-    keywords=title_keywords(main.get("title",""))
-    if len(keywords)<2:return []
-    q=f'({" OR ".join(keywords[:6])}) AND HAS_ABSTRACT:Y sort_cited:y'; pool=epmc_search(q,50); mk=candidate_key(main); ranked=[];seen=set()
-    for item in pool:
-        k=candidate_key(item)
-        if not k or k==mk or k in seen:continue
-        seen.add(k);ranked.append((related_score(item,main,keywords),item))
-    ranked.sort(key=lambda z:z[0],reverse=True);related=[]
-    for _,item in ranked[:MAX_RELATED]:
-        doi=item.get("doi","");verified=crossref_verify(doi) if doi else None;title=clean_markup(item.get("title",""));journal=item.get("journalTitle","") or (item.get("journalInfo") or {}).get("journal",{}).get("title","");year=(item.get("firstPublicationDate") or "")[:4]
-        if verified:title=verified.get("title") or title;journal=verified.get("journal") or journal;year=verified.get("year") or year
-        abstract=clean_markup(item.get("abstractText",""))
-        related.append({"title":title,"journal":journal,"year":year,"date":item.get("firstPublicationDate",""),"doi":doi,"pmid":item.get("pmid",""),"type":type_text(item),"url":original_url(item),"abstract_context_es":translate_es(" ".join(re.split(r"(?<=[.!?])\s+",abstract)[:2])) if abstract else "","verified_by_crossref":bool(verified) if doi else False,"source":"Europe PMC"+(" + Crossref" if verified else "")})
-    return related
-
-
-def build_context_analysis(area: str, summary: str, related: list[dict]) -> str:
-    if not related:return "Trabajo incorporado a la edición semanal; contextualización bibliográfica adicional pendiente."
-    refs="; ".join(f"{r.get('title','')} ({r.get('journal','')}, {r.get('year','')})" for r in related[:3])
-    return f"Este trabajo se sitúa dentro de {area.lower()}. Hallazgo principal según el abstract: {summary} CardioUpdate recuperó {len(related)} fuentes relacionadas. Referencias prioritarias: {refs}. La síntesis automática no sustituye la lectura crítica del artículo completo ni una decisión clínica individual."
 
 
 def make_id(item):
@@ -565,14 +514,16 @@ def build_study(x: dict, sc: int):
     abstract_es = structured_abstract_es(x.get("abstractText", ""))
     area=classify_area(f"{x.get('title','')} {x.get('abstractText','')}");ptypes=type_text(x)
     typ="Ensayo clínico" if re.search(r"trial|randomized|randomised",ptypes,re.I) else ("Revisión / meta-análisis" if re.search(r"review|meta",ptypes,re.I) else "Artículo científico")
-    summary=first_sentences_es(abstract_es);related=find_related_evidence(x)
-    study={"id":make_id(x),"title":clean_markup(x["title"]),"short":clean_markup(x["title"]),"area":area,"level":level(x),"type":typ,"journal":x.get("journalTitle") or (x.get("journalInfo") or {}).get("journal",{}).get("title",""),"date":x.get("firstPublicationDate") or (x.get("journalInfo") or {}).get("printPublicationDate",""),"summary":summary,"why":f"Seleccionado para la edición semanal por relevancia clínica, diseño y calidad de fuente en {area.lower()}.","detail":"Consultar el abstract original, el análisis contextual y las fuentes relacionadas.","url":original_url(x),"doi":x.get("doi",""),"pmid":x.get("pmid",""),"authors":x.get("authorString",""),"abstract_en":abstract_en,"abstract_es":abstract_es,"analysis_es":build_context_analysis(area,summary,related),"analysis_mode":"contexto_bibliografico_automatico","related_evidence":related,"source_mode":"europe_pmc_weekly","review_status":"Revisión pendiente","auto_score":sc,"imported_at":datetime.now(timezone.utc).isoformat()}
-    study["analysis_status"] = "AUTO · Contexto bibliográfico sin IA"
+    summary=first_sentences_es(abstract_es)
+    study={"id":make_id(x),"title":clean_markup(x["title"]),"short":clean_markup(x["title"]),"area":area,"level":level(x),"type":typ,"journal":x.get("journalTitle") or (x.get("journalInfo") or {}).get("journal",{}).get("title",""),"date":x.get("firstPublicationDate") or (x.get("journalInfo") or {}).get("printPublicationDate",""),"summary":summary,"why":f"Seleccionado para la edición semanal por relevancia clínica, diseño y calidad de fuente en {area.lower()}.","detail":"Consultar el abstract y el artículo original.","url":original_url(x),"doi":x.get("doi",""),"pmid":x.get("pmid",""),"authors":x.get("authorString",""),"abstract_en":abstract_en,"abstract_es":abstract_es,"source_mode":"europe_pmc_weekly","review_status":"Revisión pendiente","auto_score":sc,"imported_at":datetime.now(timezone.utc).isoformat()}
     return study
 
 
 def main():
-    today=pipeline_today();existing=load_json(DB,[]);pool=load_json(CANDIDATES,[])
+    today=pipeline_today();stored=load_json(DB,[])
+    existing=[without_individual_analysis(study) for study in stored]
+    if existing != stored:save_json(DB,existing)
+    pool=load_json(CANDIDATES,[])
     if not isinstance(pool,list):raise RuntimeError("candidates.json debe contener una lista; se conserva el archivo previo.")
     previous_keys={candidate_key(x) for x in pool if candidate_key(x)}
     recent=fetch_recent(today)
@@ -585,7 +536,7 @@ def main():
     remainder=build_weekly_remainder(pool,today);save_json(REMAINDER,remainder)
     cycle_candidates=len(remainder)
     meta=load_json(META,{})
-    meta.update({"candidate_updated_at":datetime.now(timezone.utc).isoformat(),"candidate_pool":len(pool),"new_candidates":new_candidates,"candidate_cycle_start":cycle_start.isoformat(),"candidate_cycle_end":cycle_end.isoformat(),"candidate_cycle_count":cycle_candidates})
+    meta.update({"candidate_updated_at":datetime.now(timezone.utc).isoformat(),"candidate_pool":len(pool),"new_candidates":new_candidates,"candidate_cycle_start":cycle_start.isoformat(),"candidate_cycle_end":cycle_end.isoformat(),"candidate_cycle_count":cycle_candidates,"individual_analysis_enabled":False,"related_evidence_enabled":False,"related_evidence_max_sources":0})
     last_published_end = str(meta.get('edition_end') or '')
     expected_end = edition_window(today)[1].isoformat()
     publish = FORCE_PUBLISH or (today.weekday() != 4 and last_published_end < expected_end)
@@ -631,8 +582,9 @@ def main():
             study["editorial_components"] = lead_components
             study["lead_reason"] = lead_reason(lead_item, lead_components)
     issue.sort(key=lambda st:(1 if st.get("is_weekly_lead") else 0,(st.get("auto_score") or 0),st.get("date") or ""),reverse=True);save_json(DB,issue)
-    meta.update({"updated_at":datetime.now(timezone.utc).isoformat(),"edition_start":start.isoformat(),"edition_end":end.isoformat(),"total_studies":len(issue),"candidate_pool":len(pool),"publication_mode":"weekly_saturday","source":"Europe PMC + Crossref","related_evidence_enabled":True,"related_evidence_max_sources":MAX_RELATED});save_json(META,meta)
+    meta.update({"updated_at":datetime.now(timezone.utc).isoformat(),"edition_start":start.isoformat(),"edition_end":end.isoformat(),"total_studies":len(issue),"candidate_pool":len(pool),"publication_mode":"weekly_saturday","source":"Europe PMC","individual_analysis_enabled":False,"related_evidence_enabled":False,"related_evidence_max_sources":0});save_json(META,meta)
     print(f"CardioUpdate: edición {start} a {end} publicada con {len(issue)} trabajos; {len(pool)} candidatos acumulados.")
 
 
 if __name__=="__main__":main()
+

@@ -99,14 +99,14 @@ manual_html=r'''
   </div>
   <h2>Cómo leer un trabajo</h2>
   <p>Al tocar el título se abre la ficha del estudio. CardioUpdate conserva como referencia principal el <b>título original en inglés</b>.</p>
-  <div class="manualSequence">Título original → Abstract → Análisis CardioUpdate</div>
+  <div class="manualSequence">Título original → Abstract → Fuente original</div>
   <h3>Abstract</h3><p>Permite revisar el contenido científico esencial del trabajo: objetivos, metodología, resultados y conclusiones cuando están disponibles.</p>
-  <h3>Análisis CardioUpdate</h3><p>Interpreta qué aporta el estudio, la magnitud del efecto, sus limitaciones, relevancia clínica y potencial para modificar la conducta.</p>
+  <h3>Fuente original</h3><p>La ficha presenta el abstract disponible y el enlace al artículo original. No se genera un análisis individual con inteligencia artificial.</p>
   <h2>Practice Changers</h2><p>Identifica trabajos que merecen especial atención por su posible impacto sobre la práctica. Es una señal de prioridad y no sustituye la lectura crítica del artículo original.</p>
   <h2>Esta edición</h2><p>Las barras muestran la composición de la edición semanal. El número junto a cada barra indica cuántos trabajos fueron clasificados como <b>Practice Changers</b>, <b>Clínicamente relevantes</b>, <b>Para seguimiento</b> y cuántas <b>Guías/consensos</b> están disponibles.</p>
   <h2>Resto de estudios publicados en la última semana</h2><p>Incluye publicaciones detectadas en el mismo período que no integraron la selección principal. Se presentan como bibliografía simple con el título original enlazado a la fuente.</p>
   <h2>Rutina sugerida</h2>
-  <ol><li>Abrir <b>Semana</b> una vez por semana y recorrer la selección.</li><li>Revisar Abstract + Análisis CardioUpdate de los trabajos relevantes.</li><li>Guardar con ★ los estudios para una lectura posterior.</li><li>Usar <b>Temas</b> para las áreas de interés personal.</li><li>Recorrer el <b>Resto de estudios</b> para detectar publicaciones adicionales.</li><li>Consultar <b>Guías</b> y utilizar <b>Buscar</b> cuando se necesite un tema concreto.</li></ol>
+  <ol><li>Abrir <b>Semana</b> una vez por semana y recorrer la selección.</li><li>Revisar el Abstract y la fuente original de los trabajos relevantes.</li><li>Guardar con ★ los estudios para una lectura posterior.</li><li>Usar <b>Temas</b> para las áreas de interés personal.</li><li>Recorrer el <b>Resto de estudios</b> para detectar publicaciones adicionales.</li><li>Consultar <b>Guías</b> y utilizar <b>Buscar</b> cuando se necesite un tema concreto.</li></ol>
   <div class="manualNote"><b>Importante.</b> CardioUpdate es una herramienta de selección, organización y apoyo a la actualización profesional. No sustituye la lectura crítica de las publicaciones originales, las bases bibliográficas ni las recomendaciones de las guías de práctica clínica.</div>
  </article>
 </div>
@@ -121,3 +121,4 @@ else:
     print("CardioUpdate UI ya estaba migrada.")
 
 # This file is intentionally kept as an idempotent migration so future deploys remain consistent.
+

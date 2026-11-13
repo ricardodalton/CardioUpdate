@@ -2,6 +2,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from datetime import date
 from pathlib import Path
 
@@ -13,6 +14,28 @@ import update_studies as weekly
 
 
 class WeeklyCandidatePipelineTests(unittest.TestCase):
+    def test_build_study_keeps_source_abstracts_without_network_analysis(self):
+        article = {
+            "pmid": "123", "title": "Randomized heart failure trial",
+            "abstractText": "Original source abstract with clinical results.",
+            "journalTitle": "Clinical Journal", "firstPublicationDate": "2026-11-13",
+            "pubTypeList": {"pubType": ["Randomized Controlled Trial"]},
+        }
+        translated = [["Resumen", "Traducción local del abstract."]]
+        with patch.object(weekly, "structured_abstract_es", return_value=translated), patch.object(weekly.requests, "get", side_effect=AssertionError("No per-article network synthesis is permitted")):
+            study = weekly.build_study(article, 20)
+        self.assertEqual(study["abstract_en"], article["abstractText"])
+        self.assertEqual(study["abstract_es"], translated)
+        self.assertEqual(study["url"], "https://pubmed.ncbi.nlm.nih.gov/123/")
+        self.assertFalse(weekly.INDIVIDUAL_ANALYSIS_FIELDS.intersection(study))
+
+    def test_existing_analyses_are_removed_without_changing_identity_or_abstracts(self):
+        study = {"id": "kept", "title": "Source title", "abstract_en": "Source abstract",
+                 "abstract_es": [["Resumen", "Traducción local"]], "url": "https://doi.org/example"}
+        stored = dict(study, **{key: "retired" for key in weekly.INDIVIDUAL_ANALYSIS_FIELDS})
+        self.assertEqual(weekly.without_individual_analysis(stored), study)
+        self.assertIn("analysis_es", stored)
+
     def test_collection_window_is_saturday_through_friday(self):
         self.assertEqual(
             weekly.collection_window(date(2026, 9, 26)),
@@ -121,3 +144,4 @@ class WeeklyCandidatePipelineTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

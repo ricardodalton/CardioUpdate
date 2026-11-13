@@ -21,7 +21,7 @@ Para que Netlify se actualice solo sin volver a subir ZIP:
 3. Publicación: raíz del repositorio; no necesita comando de build.
 4. GitHub Actions actualizará `data/studies.json` cada mañana; el commit disparará automáticamente un nuevo deploy de Netlify.
 
-La búsqueda y la traducción de abstracts no requieren OpenAI. El briefing diario sí utiliza `OPENAI_API_KEY`; no se reactiva el análisis individual de los estudios.
+La búsqueda y la traducción local de abstracts no requieren OpenAI. Solo el briefing diario utiliza `OPENAI_API_KEY`. Las fichas de artículos muestran título, abstract original y fuente, sin análisis individual. Se elimina el generador antiguo de IA por estudio y se limpian los análisis históricos guardados para que no reaparezcan con una actualización.
 
 ## Briefing diario de cardiología clínica
 - Objetivo: diez novedades por día; menos si no hay suficientes fuentes nuevas y pertinentes, sin completar el cupo con material débil.
@@ -41,4 +41,5 @@ La importación diaria es automática y sirve para vigilancia científica. La et
 
 ## Lectura en voz alta del briefing
 `briefing-audio.js` lee la edición elegida con SpeechSynthesis del dispositivo, sin llamadas de audio a OpenAI ni archivos MP3. Solo comienza al tocar Escuchar briefing. Incluye controles de pausa, continuación y detención; cambiar de edición o salir de Portada cancela la lectura. Prefiere una voz española de Argentina si está disponible, con respaldo a otras voces en español. Los segmentos cortos y los límites de palabra permiten pausar sin depender de la implementación móvil de pause/resume. La disponibilidad de voces y la reproducción en segundo plano dependen del dispositivo y navegador.
+
 

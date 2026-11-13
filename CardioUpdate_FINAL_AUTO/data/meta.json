@@ -6,9 +6,9 @@
   "review_note": "Los trabajos importados automáticamente se identifican como 'Revisión pendiente'.",
   "last_run_added": 12,
   "total_studies": 30,
-  "source": "Europe PMC + Crossref",
-  "related_evidence_enabled": true,
-  "related_evidence_max_sources": 3,
+  "source": "Europe PMC + PubMed",
+  "related_evidence_enabled": false,
+  "related_evidence_max_sources": 0,
   "edition_start": "2026-10-31",
   "edition_end": "2026-11-06",
   "candidate_pool": 10279,
@@ -17,5 +17,6 @@
   "new_candidates": 0,
   "candidate_cycle_start": "2026-11-07",
   "candidate_cycle_end": "2026-11-13",
-  "candidate_cycle_count": 1855
+  "candidate_cycle_count": 1855,
+  "individual_analysis_enabled": false
 }
