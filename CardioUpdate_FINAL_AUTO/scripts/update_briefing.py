@@ -55,6 +55,12 @@ CARDIO_PATTERN=re.compile(
 def clean(value):
     return re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',str(value or ''))).strip()
 
+def journal_name(x):
+    # Europe PMC core records nest the journal under journalInfo.journal;
+    # PubMed records normalized below already expose journalTitle.
+    journal=(x.get('journalInfo') or {}).get('journal') or {}
+    return clean(x.get('journalTitle') or journal.get('title') or journal.get('isoAbbreviation'))
+
 def epmc_search(q):
     start=(date.today()-timedelta(days=6)).isoformat(); end=date.today().isoformat()
     r=requests.get(EPMC,params={'query':f'FIRST_PDATE:[{start} TO {end}] AND ({q}) sort_date:y',
@@ -182,7 +188,7 @@ def parsed_ai_items(data, pool):
         seen.add(key(x))
         out.append({'title':clean(z.get('title')),'what_happened':clean(z.get('what_happened')),
             'why_relevant':clean(z.get('why_relevant')),'practical_implication':clean(z.get('practical_implication')),
-            'source_title':clean(x.get('title')),'journal':x.get('journalTitle',''),
+            'source_title':clean(x.get('title')),'journal':journal_name(x),
             'source_database':x.get('source_database','Europe PMC'),'url':link,
             'specialty':source_specialty(x,clean(z.get('specialty'))),
             'publication_date':clean(x.get('firstPublicationDate'))})
@@ -194,7 +200,7 @@ def ai_items(pool):
     client=OpenAI(); evidence=[]
     candidates=pool[:MAX_AI_CANDIDATES]
     for i,x in enumerate(candidates):
-        evidence.append({'n':i,'title':clean(x.get('title')),'journal':x.get('journalTitle',''),
+        evidence.append({'n':i,'title':clean(x.get('title')),'journal':journal_name(x),
             'date':x.get('firstPublicationDate',''),'database':x.get('source_database','Europe PMC'),
             'specialties':x.get('search_domains',[]),'publication_types':publication_types(x),
             'abstract':clean(x.get('abstractText'))[:3500]})
@@ -225,7 +231,7 @@ def fallback_items(pool, limit=TARGET_ITEMS):
         link=url(x)
         if not link or key(x) in seen:continue
         title=clean(x.get('title'))
-        journal=clean(x.get('journalTitle')) or 'la fuente indexada'
+        journal=journal_name(x) or 'la fuente indexada'
         if not title:continue
         seen.add(key(x))
         out.append({
@@ -233,7 +239,7 @@ def fallback_items(pool, limit=TARGET_ITEMS):
             'what_happened':f'Se detectó una publicación reciente en {journal} durante la vigilancia bibliográfica diaria de CardioUpdate.',
             'why_relevant':'El trabajo coincide con las áreas cardiológicas priorizadas. Esta incorporación automática confirma su disponibilidad, pero no sustituye la evaluación del diseño, los resultados ni las limitaciones.',
             'practical_implication':'Conviene revisar la fuente original antes de modificar conductas clínicas. Se presenta como señal bibliográfica para lectura y no como recomendación terapéutica.',
-            'source_title':title,'journal':journal,
+            'source_title':title,'journal':journal_name(x),
             'source_database':x.get('source_database','Europe PMC'),'url':link,
             'specialty':source_specialty(x),'publication_date':clean(x.get('firstPublicationDate'))})
         if len(out)>=limit:break

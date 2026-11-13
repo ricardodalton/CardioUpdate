@@ -63,6 +63,14 @@ class ClinicalCardiologyBriefingTests(unittest.TestCase):
         self.assertEqual(items[0]["specialty"], briefing.SEARCH_DOMAINS[3][0])
         self.assertEqual(items[0]["publication_date"], date.today().isoformat())
 
+    def test_europe_pmc_nested_journal_reaches_both_editorial_modes(self):
+        source = self.source(1)
+        del source["journalTitle"]
+        source["journalInfo"] = {"journal": {"title": "European Heart Journal"}}
+        items = briefing.parsed_ai_items({"items": [self.item(0)]}, [source])
+        self.assertEqual(items[0]["journal"], "European Heart Journal")
+        self.assertEqual(briefing.fallback_items([source])[0]["journal"], "European Heart Journal")
+
     def test_prevention_terms_and_database_do_not_override_clinical_design(self):
         prevention = self.source(1, title="LDL cholesterol apoB lipoprotein(a) carotid plaque CAC score review", pubtypes=["Review"])
         hf = self.source(2, title="Heart failure treatment: a randomized trial", pubtypes=["Randomized Controlled Trial"])
