@@ -3,6 +3,17 @@
 from pathlib import Path
 p=Path(__file__).resolve().parents[1]/'index.html'
 s=p.read_text(encoding='utf-8'); old=s
+audio_script='<script src="briefing-audio.js?v=1"></script>'
+if audio_script not in s:
+    s=s.replace('</head>',audio_script+'\n</head>',1)
+audio_style='''<style id="briefingAudioStyles">
+.briefAudio{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px;padding:14px;background:#f6f1ea;border:1px solid var(--line)}.briefAudio button{font:inherit;font-size:14px;font-weight:700;cursor:pointer;border:1px solid #17324a;border-radius:4px;padding:10px 12px;background:#fff;color:#17324a}.briefAudio button:first-child{background:#17324a;color:#fff}.briefAudio button:disabled{opacity:.45;cursor:default}.briefAudio button:focus-visible{outline:3px solid #d51f32;outline-offset:2px}.briefAudio p{flex-basis:100%;margin:2px 0 0!important;font-size:12px!important;color:#59656e}
+</style>'''
+if 'id="briefingAudioStyles"' not in s:
+    s=s.replace('</head>',audio_style+'\n</head>',1)
+go_audio="function go(id){if(id!=='home')window.CardioUpdateBriefingAudio?.stop();"
+if go_audio not in s:
+    s=s.replace('function go(id){',go_audio,1)
 if 'id="briefingHome"' not in s:
     assert '<div id="weeklyRemainder"></div>' in s
     s=s.replace('<div id="weeklyRemainder"></div>', '<div id="briefingHome"></div>\n <div id="weeklyRemainder"></div>',1)
@@ -27,10 +38,11 @@ anchor='function renderWeeklyRemainder(){'
 fn='''function renderBriefingHome(idx=0){
  const box=document.getElementById('briefingHome');if(!box)return;
  const valid=(BRIEFINGS||[]).filter(x=>Array.isArray(x.items)&&x.items.length);
- if(!valid.length){box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Actualización diaria</small></div><div class="empty">El briefing de hoy aún no está disponible.</div>`;return;}
+ if(!valid.length){window.CardioUpdateBriefingAudio?.stop();box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Actualización diaria</small></div><div class="empty">El briefing de hoy aún no está disponible.</div>`;return;}
  const b=valid[idx]||valid[0];
  const orderNote=b.selection_policy==='clinical-cardiology-v1' ? (b.selection_mode==='ai' ? '<p>Ordenadas de mayor a menor relevancia clínica, sin cupos fijos por especialidad.</p>' : '<p>Vigilancia bibliográfica automática: orden orientativo, pendiente de valoración clínica.</p>') : '';
- box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Cardiología clínica · Hasta 10 novedades</small></div><div class="briefArchive">${valid.map((x,i)=>`<button class="${x===b?'active':''}" onclick="renderBriefingHome(${i})">${esc(x.date)}</button>`).join('')}</div><div class="briefingDay"><h2>${esc(b.date)}</h2>${orderNote}${b.items.map((x,i)=>`<article class="briefItem"><h3>${i+1}. ${esc(x.title)}</h3><p class="briefingMeta">${[x.specialty,x.journal,x.publication_date].filter(Boolean).map(esc).join(' · ')}</p><p><strong>Hallazgo principal.</strong> ${esc(x.what_happened)}</p><p><strong>Por qué es relevante.</strong> ${esc(x.why_relevant)}</p><p><strong>Implicación práctica.</strong> ${esc(x.practical_implication)}</p><a href="${esc(x.url)}" target="_blank" rel="noopener">Fuente original ↗</a></article>`).join('')}</div>`;
+ box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Cardiología clínica · Hasta 10 novedades</small></div><div class="briefArchive">${valid.map((x,i)=>`<button class="${x===b?'active':''}" onclick="renderBriefingHome(${i})">${esc(x.date)}</button>`).join('')}</div><div class="briefingDay"><h2>${esc(b.date)}</h2><div id="briefingAudio" class="briefAudio" role="group" aria-label="Escuchar el briefing"></div>${orderNote}${b.items.map((x,i)=>`<article class="briefItem"><h3>${i+1}. ${esc(x.title)}</h3><p class="briefingMeta">${[x.specialty,x.journal,x.publication_date].filter(Boolean).map(esc).join(' · ')}</p><p><strong>Hallazgo principal.</strong> ${esc(x.what_happened)}</p><p><strong>Por qué es relevante.</strong> ${esc(x.why_relevant)}</p><p><strong>Implicación práctica.</strong> ${esc(x.practical_implication)}</p><a href="${esc(x.url)}" target="_blank" rel="noopener">Fuente original ↗</a></article>`).join('')}</div>`;
+ window.CardioUpdateBriefingAudio?.mount(b);
 }
 '''
 assert anchor in s
@@ -54,6 +66,7 @@ manual='''  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía de la act
   <p>El objetivo es reunir <b>diez novedades diarias</b> de las distintas áreas de cardiología: prevención y aterosclerosis, dislipidemias, hipertensión, insuficiencia cardíaca, arritmias, enfermedad coronaria, valvulopatías, miocardiopatías, aorta y enfermedad vascular, circulación pulmonar, pericardio, cardiopatías congénitas del adulto, deporte y cardiooncología. La inteligencia artificial se incluye cuando aporta evidencia cardiovascular clínica pertinente.</p>
   <p>Se buscan publicaciones de los <b>últimos siete días en PubMed y Europe PMC</b>. La preselección automática contempla todas las áreas y la edición con IA las ordena de <b>mayor a menor relevancia clínica</b>, considerando posibles cambios en diagnóstico, tratamiento o pronóstico, diseño y limitaciones, desenlaces importantes para pacientes, magnitud de los resultados y novedad. <b>No hay cupos fijos ni prioridad automática por especialidad</b>. Se publican menos de diez si no hay suficientes novedades pertinentes y se evitan repeticiones dentro del ciclo sábado–viernes. La preselección es orientativa y no equivale a una evaluación metodológica formal.</p>
   <p>Cada noticia muestra su área, revista y fecha cuando están disponibles, y se organiza en <b>Hallazgo principal</b>, <b>Por qué es relevante</b> e <b>Implicación práctica</b>. El enlace <b>Fuente original ↗</b> permite consultar la publicación. Si no se obtiene una edición válida con IA, se identifica como <b>vigilancia bibliográfica automática</b>, pendiente de valoración clínica.</p>
+  <p>El botón <b>Escuchar briefing</b> lee la edición seleccionada en español, en el mismo orden que aparece en pantalla. <b>Pausar</b>, <b>Continuar</b> y <b>Detener</b> permiten controlar la lectura. Al cambiar de fecha o salir de Portada se detiene el audio. Se utiliza una voz disponible en el dispositivo; su disponibilidad y funcionamiento en segundo plano dependen del navegador.</p>
   <p>Los botones con fechas permiten consultar el <b>archivo de los últimos siete briefings disponibles</b>. La fecha de cada briefing indica a qué actualización corresponde; si la generación automática falla o no encuentra material verificable, puede mantenerse una edición anterior. El briefing informa novedades: <b>no reemplaza</b> la evaluación metodológica del artículo ni la selección semanal.</p>
   <h2>Menú inferior del teléfono</h2>
   <p>El menú conserva seis accesos. El briefing se lee directamente en <b>Portada</b>; no se agregó un séptimo botón.</p>

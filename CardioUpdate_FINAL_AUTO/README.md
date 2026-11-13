@@ -39,3 +39,6 @@ Luego `python tests/test_database.py`.
 ## Seguridad editorial
 La importación diaria es automática y sirve para vigilancia científica. La etiqueta “Practice Changer” queda reservada a entradas revisadas editorialmente. Las traducciones automáticas deben contrastarse con el original antes de decisiones clínicas.
 
+## Lectura en voz alta del briefing
+`briefing-audio.js` lee la edición elegida con SpeechSynthesis del dispositivo, sin llamadas de audio a OpenAI ni archivos MP3. Solo comienza al tocar Escuchar briefing. Incluye controles de pausa, continuación y detención; cambiar de edición o salir de Portada cancela la lectura. Prefiere una voz española de Argentina si está disponible, con respaldo a otras voces en español. Los segmentos cortos y los límites de palabra permiten pausar sin depender de la implementación móvil de pause/resume. La disponibilidad de voces y la reproducción en segundo plano dependen del dispositivo y navegador.
+
