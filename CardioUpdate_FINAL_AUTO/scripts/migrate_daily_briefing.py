@@ -23,18 +23,23 @@ if 'BRIEFINGS=Array.isArray(briefings)?briefings:[];' not in s:
 if 'renderBriefingHome();' not in s:
     assert ' renderWeeklyRemainder();' in s
     s=s.replace(' renderWeeklyRemainder();',' renderBriefingHome();\n renderWeeklyRemainder();',1)
-if 'function renderBriefingHome(' not in s:
-    anchor='function renderWeeklyRemainder(){'
-    assert anchor in s
-    fn='''function renderBriefingHome(idx=0){
+anchor='function renderWeeklyRemainder(){'
+fn='''function renderBriefingHome(idx=0){
  const box=document.getElementById('briefingHome');if(!box)return;
  const valid=(BRIEFINGS||[]).filter(x=>Array.isArray(x.items)&&x.items.length);
  if(!valid.length){box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Actualización diaria</small></div><div class="empty">El briefing de hoy aún no está disponible.</div>`;return;}
  const b=valid[idx]||valid[0];
- box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Cardiología · Medicina · IA</small></div><div class="briefArchive">${valid.map((x,i)=>`<button class="${x===b?'active':''}" onclick="renderBriefingHome(${i})">${esc(x.date)}</button>`).join('')}</div><div class="briefingDay"><h2>${esc(b.date)}</h2>${b.items.map((x,i)=>`<article class="briefItem"><h3>${i+1}. ${esc(x.title)}</h3><p><strong>Hallazgo principal.</strong> ${esc(x.what_happened)}</p><p><strong>Por qué es relevante.</strong> ${esc(x.why_relevant)}</p><p><strong>Implicación práctica.</strong> ${esc(x.practical_implication)}</p><a href="${esc(x.url)}" target="_blank" rel="noopener">Fuente original ↗</a></article>`).join('')}</div>`;
+ const orderNote=b.selection_policy==='clinical-cardiology-v1' ? (b.selection_mode==='ai' ? '<p>Ordenadas de mayor a menor relevancia clínica, sin cupos fijos por especialidad.</p>' : '<p>Vigilancia bibliográfica automática: orden orientativo, pendiente de valoración clínica.</p>') : '';
+ box.innerHTML=`<div class="ruleTitle"><h2>Briefing diario</h2><span></span><small>Cardiología clínica · Hasta 10 novedades</small></div><div class="briefArchive">${valid.map((x,i)=>`<button class="${x===b?'active':''}" onclick="renderBriefingHome(${i})">${esc(x.date)}</button>`).join('')}</div><div class="briefingDay"><h2>${esc(b.date)}</h2>${orderNote}${b.items.map((x,i)=>`<article class="briefItem"><h3>${i+1}. ${esc(x.title)}</h3><p class="briefingMeta">${[x.specialty,x.journal,x.publication_date].filter(Boolean).map(esc).join(' · ')}</p><p><strong>Hallazgo principal.</strong> ${esc(x.what_happened)}</p><p><strong>Por qué es relevante.</strong> ${esc(x.why_relevant)}</p><p><strong>Implicación práctica.</strong> ${esc(x.practical_implication)}</p><a href="${esc(x.url)}" target="_blank" rel="noopener">Fuente original ↗</a></article>`).join('')}</div>`;
 }
 '''
+assert anchor in s
+if 'function renderBriefingHome(' not in s:
     s=s.replace(anchor,fn+anchor,1)
+else:
+    start=s.index('function renderBriefingHome(')
+    end=s.index(anchor,start)
+    s=s[:start]+fn+s[end:]
 if '.briefingDay{' not in s:
     assert '.mobileNav{display:none}' in s
     s=s.replace('.mobileNav{display:none}', '.briefingDay{background:#fff;padding:22px 25px;margin-bottom:18px}.briefItem{padding:17px 0;border-top:1px solid var(--line)}.briefItem h3{font-family:Georgia,serif;font-size:22px}.briefItem p{font-size:14px;line-height:1.55}.briefArchive{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:18px}.briefArchive button{padding:8px;border:1px solid var(--line);background:#fff}.briefArchive button.active{background:#17324a;color:#fff}.mobileNav{display:none}',1)
@@ -46,7 +51,9 @@ manual='''  <h1>Cómo usar CardioUpdate</h1><p class="manualSub">Guía de la act
   <h2>Portada: qué aparece y en qué orden</h2>
   <p>La portada comienza con el <b>trabajo principal de la semana</b> y la composición de la edición; continúa con la selección editorial, las especialidades y las últimas incorporaciones. A continuación aparece el <b>Briefing diario</b>, situado inmediatamente antes del <b>Resto de estudios detectados en el ciclo sábado–viernes</b>.</p>
   <h2>Briefing diario: cómo utilizarlo</h2>
-  <p>Reúne hasta <b>cinco novedades</b> de cardiología, medicina e inteligencia artificial aplicada a la salud. Cada noticia está redactada en tercera persona y se organiza en <b>Qué ocurrió</b>, <b>Por qué es relevante</b> e <b>Implicación práctica</b>. El enlace <b>Fuente original ↗</b> permite consultar la publicación de origen.</p>
+  <p>El objetivo es reunir <b>diez novedades diarias</b> de las distintas áreas de cardiología: prevención y aterosclerosis, dislipidemias, hipertensión, insuficiencia cardíaca, arritmias, enfermedad coronaria, valvulopatías, miocardiopatías, aorta y enfermedad vascular, circulación pulmonar, pericardio, cardiopatías congénitas del adulto, deporte y cardiooncología. La inteligencia artificial se incluye cuando aporta evidencia cardiovascular clínica pertinente.</p>
+  <p>Se buscan publicaciones de los <b>últimos siete días en PubMed y Europe PMC</b>. La preselección automática contempla todas las áreas y la edición con IA las ordena de <b>mayor a menor relevancia clínica</b>, considerando posibles cambios en diagnóstico, tratamiento o pronóstico, diseño y limitaciones, desenlaces importantes para pacientes, magnitud de los resultados y novedad. <b>No hay cupos fijos ni prioridad automática por especialidad</b>. Se publican menos de diez si no hay suficientes novedades pertinentes y se evitan repeticiones dentro del ciclo sábado–viernes. La preselección es orientativa y no equivale a una evaluación metodológica formal.</p>
+  <p>Cada noticia muestra su área, revista y fecha cuando están disponibles, y se organiza en <b>Hallazgo principal</b>, <b>Por qué es relevante</b> e <b>Implicación práctica</b>. El enlace <b>Fuente original ↗</b> permite consultar la publicación. Si no se obtiene una edición válida con IA, se identifica como <b>vigilancia bibliográfica automática</b>, pendiente de valoración clínica.</p>
   <p>Los botones con fechas permiten consultar el <b>archivo de los últimos siete briefings disponibles</b>. La fecha de cada briefing indica a qué actualización corresponde; si la generación automática falla o no encuentra material verificable, puede mantenerse una edición anterior. El briefing informa novedades: <b>no reemplaza</b> la evaluación metodológica del artículo ni la selección semanal.</p>
   <h2>Menú inferior del teléfono</h2>
   <p>El menú conserva seis accesos. El briefing se lee directamente en <b>Portada</b>; no se agregó un séptimo botón.</p>
@@ -76,3 +83,4 @@ if s!=old:
     print('Briefing diario y tutorial actualizado.')
 else:
     print('Briefing diario y tutorial ya actualizados.')
+
