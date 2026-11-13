@@ -1,13 +1,13 @@
 [
   {
     "date": "2026-11-13",
-    "generated_at": "2026-11-13T10:41:15.692111+00:00",
+    "generated_at": "2026-11-13T10:59:25.999608+00:00",
     "items": [
       {
         "title": "Ziltivekimab no redujo eventos cardiovasculares en aterosclerosis con enfermedad renal crónica e inflamación",
-        "what_happened": "En un ensayo multinacional, doble ciego y controlado con placebo, 6376 pacientes con enfermedad cardiovascular aterosclerótica, enfermedad renal crónica y proteína C reactiva de alta sensibilidad elevada recibieron ziltivekimab mensual o placebo. Aunque ziltivekimab redujo marcadamente la interleucina-6 libre y la proteína C reactiva, no redujo el compuesto de muerte cardiovascular, infarto de miocardio no fatal o ictus no fatal: 17,6% frente a 17,7% tras una mediana de 33 meses (hazard ratio 0,99; IC 95% 0,88-1,11). Las infecciones graves fueron más frecuentes con ziltivekimab.",
-        "why_relevant": "Aporta evidencia aleatorizada de gran tamaño sobre un objetivo inflamatorio específico y descarta beneficio clínico cardiovascular con esta estrategia en la población estudiada, pese a una reducción importante de biomarcadores. Ilustra que la mejoría inflamatoria sustituta no equivale a reducción de eventos. La aplicabilidad se limita a pacientes con aterosclerosis, enfermedad renal crónica e inflamación basal definida por proteína C reactiva elevada.",
-        "practical_implication": "No se justifica utilizar ziltivekimab para prevenir eventos cardiovasculares en esta población basándose en la reducción de interleucina-6 o proteína C reactiva. Debe mantenerse la optimización de las medidas preventivas con beneficio clínico establecido.",
+        "what_happened": "El ensayo ZEUS, multinacional, doble ciego y controlado con placebo, asignó a 6376 adultos con enfermedad cardiovascular aterosclerótica, enfermedad renal crónica y proteína C reactiva de alta sensibilidad de al menos 2 mg/l a ziltivekimab mensual o placebo. Aunque ziltivekimab redujo marcadamente la interleucina-6 libre y la proteína C reactiva, el desenlace de muerte cardiovascular, infarto no fatal o ictus no fatal ocurrió en el 17,6% frente al 17,7% (hazard ratio 0,99; IC 95% 0,88-1,11).",
+        "why_relevant": "Aporta evidencia aleatorizada y de gran tamaño sobre desenlaces clínicos mayores, no solo sobre inflamación. Refuta que la reducción farmacológica de interleucina-6 con este esquema se traduzca necesariamente en menos eventos cardiovasculares en esta población de muy alto riesgo. La interpretación de seguridad requiere atención: los eventos adversos graves fueron similares, pero las infecciones graves fueron numéricamente más frecuentes con ziltivekimab (20,4% frente a 17,9%); el resumen no informa un análisis estadístico específico de esa diferencia.",
+        "practical_implication": "No se justifica emplear ziltivekimab con el objetivo de reducir eventos cardiovasculares en pacientes con aterosclerosis, enfermedad renal crónica e inflamación elevada, pese a la reducción de biomarcadores inflamatorios.",
         "source_title": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease.",
         "journal": "The New England journal of medicine",
         "source_database": "Europe PMC",
@@ -16,10 +16,10 @@
         "publication_date": "2026-11-07"
       },
       {
-        "title": "La revascularización coronaria percutánea rutinaria alrededor del TAVI no mostró beneficio isquémico o de supervivencia",
-        "what_happened": "Un metaanálisis de tres ensayos aleatorizados, con 1156 candidatos a TAVI, comparó angioplastia coronaria sistemática antes o durante el procedimiento frente a manejo conservador. La estrategia sistemática no redujo mortalidad total, muerte cardíaca, infarto, ictus ni hospitalización, pero aumentó el sangrado mayor (RR 1,57; IC 95% 1,06-2,34) y cualquier sangrado. Redujo las revascularizaciones urgentes o repetidas posteriores.",
-        "why_relevant": "La síntesis se centra en desenlaces clínicos relevantes y cuestiona una práctica frecuente en pacientes con estenosis aórtica grave y enfermedad coronaria concomitante. El posible ahorro de revascularizaciones posteriores debe ponderarse frente al exceso de hemorragia y la ausencia de beneficio demostrado en supervivencia o eventos isquémicos. La certeza se califica de moderada a baja y el número acumulado de pacientes es limitado, con heterogeneidad clínica entre ensayos.",
-        "practical_implication": "La angioplastia rutinaria antes o durante el TAVI no queda respaldada. La indicación de revascularización debe individualizarse en el Heart Team según anatomía coronaria, síntomas, territorio en riesgo, complejidad del procedimiento y riesgo hemorrágico.",
+        "title": "La ICP sistemática antes o durante TAVI no mejora supervivencia ni eventos isquémicos y aumenta sangrado",
+        "what_happened": "Un metaanálisis de tres ensayos aleatorizados, con 1156 candidatos a implante valvular aórtico transcatéter, comparó la intervención coronaria percutánea sistemática antes o concomitante con TAVI frente a una estrategia conservadora. La ICP no redujo mortalidad total, muerte cardíaca, infarto, ictus ni hospitalización, pero incrementó el sangrado mayor (RR 1,57; IC 95% 1,06-2,34) y cualquier sangrado (RR 1,77; IC 95% 1,27-2,48); redujo las revascularizaciones urgentes y repetidas.",
+        "why_relevant": "La síntesis aborda una decisión frecuente del Heart Team con desenlaces relevantes para pacientes y evidencia procedente de ensayos aleatorizados. El balance global no respalda una revascularización sistemática de toda enfermedad coronaria coexistente. La certeza se califica como moderada a baja, existen solo tres estudios, el tamaño acumulado es limitado y hay heterogeneidad clínica, por lo que no permite definir por sí sola qué lesiones o subgrupos concretos sí se beneficiarían.",
+        "practical_implication": "La ICP no debería indicarse de rutina únicamente por la coexistencia de enfermedad coronaria en un candidato a TAVI. La indicación debe individualizarse según anatomía coronaria, síntomas, isquemia, factibilidad técnica y riesgo hemorrágico.",
         "source_title": "Routine Percutaneous Coronary Intervention Versus Conservative Management in Patients Undergoing Transcatheter Aortic Valve Implantation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
         "journal": "Cardiology in review",
         "source_database": "Europe PMC",
@@ -28,22 +28,10 @@
         "publication_date": "2026-11-10"
       },
       {
-        "title": "Los resultados del procedimiento de Ross en adultos se asociaron con el volumen hospitalario",
-        "what_happened": "Un análisis de la Nationwide Readmissions Database de Estados Unidos identificó 1212 adultos sometidos a procedimiento de Ross entre 2016 y 2022. Los eventos adversos mayores fueron más frecuentes en centros de bajo volumen que en centros de alto volumen de cirugía valvular aórtica adulta o de cirugía cardíaca pediátrica: 42,1%, 8,8% y 3,8%, respectivamente. Durante el periodo estudiado aumentaron tanto la utilización nacional como el número de centros que realizaban el procedimiento.",
-        "why_relevant": "El hallazgo tiene una implicación organizativa potencialmente directa para una intervención técnicamente compleja: la concentración de experiencia se asoció con grandes diferencias en un compuesto que incluyó mortalidad, ictus, ventilación prolongada, insuficiencia renal aguda, embolia pulmonar, parada cardíaca y reoperación. Al tratarse de un estudio administrativo observacional, no puede demostrar que el volumen sea la causa de las diferencias ni permite valorar variables clínicas no registradas.",
-        "practical_implication": "La derivación de adultos candidatos a procedimiento de Ross hacia centros con experiencia elevada y equipos multidisciplinares debe considerarse de forma preferente. La selección individual continúa requiriendo valorar anatomía, edad, comorbilidad y alternativas valvulares.",
-        "source_title": "Association of Adult and Pediatric Cardiac Surgery Volumes with Outcomes of the Ross Procedure in Adults.",
-        "journal": "The Annals of thoracic surgery",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1016/j.athoracsur.2026.10.031",
-        "specialty": "Valvulopatías",
-        "publication_date": "2026-11-09"
-      },
-      {
-        "title": "Cirugía coronaria con o sin bomba mostró resultados clínicos similares en pacientes frágiles o prefrágiles",
-        "what_happened": "El ensayo FRAGILE, multicéntrico, aleatorizado y abierto, asignó a 508 pacientes de 60 años o más con fragilidad o prefragilidad a cirugía de revascularización coronaria sin bomba o con bomba. El compuesto a 30 días de muerte, infarto, ictus, fracaso renal, síndrome de distrés respiratorio agudo o reoperación por sangrado ocurrió en 10,9% y 16,0%, respectivamente, sin diferencia estadísticamente significativa. No hubo diferencias significativas en función neurocognitiva ni calidad de vida al año; la infección de herida quirúrgica fue menos frecuente con cirugía sin bomba.",
-        "why_relevant": "Aborda una incertidumbre práctica en una población quirúrgica vulnerable, mediante asignación aleatoria e intención de tratar, y evalúa eventos mayores y resultados centrados en el paciente. No demuestra superioridad de una técnica sobre la otra para el desenlace primario; el intervalo de confianza comunicado no excluye diferencias clínicamente relevantes y el ensayo fue abierto.",
-        "practical_implication": "La fragilidad por sí sola no apoya una preferencia universal por cirugía sin bomba o con bomba. La técnica debe decidirse según factibilidad de revascularización completa, anatomía coronaria, experiencia del equipo y riesgo perioperatorio individual.",
+        "title": "En pacientes frágiles sometidos a bypass coronario, la cirugía sin bomba no demostró superioridad clínica frente a la cirugía con bomba",
+        "what_happened": "El ensayo multicéntrico FRAGILE asignó aleatoriamente a 508 pacientes prefrágiles o frágiles de 60 años o más a bypass coronario sin circulación extracorpórea o con circulación extracorpórea. El compuesto a 30 días de muerte, infarto, ictus, insuficiencia renal, síndrome de distrés respiratorio agudo o reoperación por sangrado ocurrió en el 10,9% y el 16,0%, respectivamente, sin diferencia estadísticamente significativa. Tampoco se observaron diferencias significativas en neurocognición, calidad de vida a un año ni supervivencia estimada a un año; la infección de herida quirúrgica fue menos frecuente con la técnica sin bomba.",
+        "why_relevant": "Es un ensayo aleatorizado dirigido específicamente a una población con elevada vulnerabilidad perioperatoria, para la que la elección de técnica quirúrgica es particularmente relevante. No demuestra una ventaja concluyente de una técnica sobre otra en el desenlace compuesto ni en resultados neurocognitivos o de calidad de vida. El intervalo de confianza del efecto sobre el desenlace primario es amplio y el resumen no permite valorar la experiencia de los centros o cirujanos, factores potencialmente determinantes en cirugía sin bomba.",
+        "practical_implication": "La fragilidad, por sí sola, no sustenta una preferencia universal por cirugía sin bomba. La selección de técnica debe seguir dependiendo de la anatomía coronaria, la posibilidad de revascularización completa y la experiencia del equipo quirúrgico.",
         "source_title": "Off-Pump versus On-Pump Coronary Artery Bypass Grafting in Prefrail and Frail Patients: 30-Day and 1-Year Outcomes From the FRAGILE Randomized Trial.",
         "journal": "Circulation",
         "source_database": "Europe PMC",
@@ -52,10 +40,22 @@
         "publication_date": "2026-11-10"
       },
       {
-        "title": "El inicio con estatina-ezetimiba redujo más el LDL, pero no mejoró los eventos frente a estatina inicial en Ez-PAVE",
-        "what_happened": "En un análisis secundario preespecificado de la segunda aleatorización del ensayo Ez-PAVE, pacientes con enfermedad cardiovascular aterosclerótica recibieron inicialmente combinación estatina-ezetimiba o estatina en monoterapia dentro de estrategias dirigidas a objetivos de colesterol LDL. La combinación alcanzó concentraciones medianas de LDL más bajas en las estrategias intensiva y convencional, pero no modificó significativamente el desenlace primario: 8,5% frente a 7,9% (hazard ratio 1,07; IC 95% 0,83-1,37). Los desenlaces de seguridad fueron similares.",
-        "why_relevant": "Separa el efecto de la estrategia inicial del objetivo de LDL y muestra que una reducción adicional de LDL no se tradujo en una diferencia documentada en el desenlace clínico durante el seguimiento comunicado. La interpretación debe ser prudente porque se trata de un análisis secundario y el resumen no especifica la composición ni la duración de seguimiento del desenlace primario.",
-        "practical_implication": "La combinación inicial con ezetimiba puede facilitar el logro de objetivos más bajos de LDL, pero estos datos no demuestran una ventaja clínica frente a iniciar estatina y añadir ezetimiba posteriormente dentro de una estrategia dirigida a objetivos. La elección puede individualizarse según distancia al objetivo, tolerabilidad y probabilidad de intensificación posterior.",
+        "title": "Los resultados del procedimiento de Ross en adultos fueron notablemente peores en centros de bajo volumen",
+        "what_happened": "Un análisis de la Nationwide Readmissions Database de Estados Unidos identificó 1212 adultos sometidos al procedimiento de Ross entre 2016 y 2022. Los eventos adversos mayores fueron más frecuentes en centros de bajo volumen que en centros de alto volumen de cirugía valvular aórtica adulta o de cirugía cardíaca pediátrica: 42,1%, 8,8% y 3,8%, respectivamente. Durante el periodo también aumentaron el uso nacional del procedimiento y el número de centros que lo realizaban.",
+        "why_relevant": "El gradiente absoluto de resultados según volumen es grande y tiene implicación directa para la derivación de adultos candidatos a Ross, una intervención técnicamente compleja. No obstante, se trata de un análisis observacional basado en registros administrativos; el resumen no detalla el ajuste completo por complejidad, selección de pacientes o experiencia individual del cirujano, por lo que demuestra una asociación y no prueba que el volumen sea la causa única de las diferencias.",
+        "practical_implication": "La valoración de un adulto para procedimiento de Ross debería incluir una discusión explícita sobre derivación a centros con experiencia y volumen elevados, especialmente cuando existan alternativas valvulares razonables.",
+        "source_title": "Association of Adult and Pediatric Cardiac Surgery Volumes with Outcomes of the Ross Procedure in Adults.",
+        "journal": "The Annals of thoracic surgery",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.athoracsur.2026.10.031",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-09"
+      },
+      {
+        "title": "Iniciar estatina-ezetimiba redujo más el LDL que estatina sola, sin diferencia demostrada en eventos dentro de una estrategia dirigida a objetivos",
+        "what_happened": "En un análisis secundario preespecificado del ensayo aleatorizado Ez-PAVE, el inicio con estatina-ezetimiba se comparó con estatina en monoterapia dentro de estrategias intensiva y convencional dirigidas por objetivos de colesterol LDL en pacientes con enfermedad cardiovascular aterosclerótica. La incidencia del desenlace primario fue similar entre los regímenes iniciales: 8,5% frente a 7,9% (hazard ratio 1,07; IC 95% 0,83-1,37). La combinación consiguió concentraciones medianas de LDL más bajas durante el seguimiento, y los desenlaces de seguridad fueron similares.",
+        "why_relevant": "Distingue el logro bioquímico de un beneficio clínico demostrado: iniciar combinación facilitó LDL más bajo, pero no redujo el desenlace primario durante el seguimiento comunicado. Además, una proporción relevante de quienes iniciaron estatina sola requirió posteriormente ezetimiba. Al ser un análisis secundario preespecificado y al no especificarse en el resumen la composición del desenlace primario ni su duración, la ausencia de diferencia clínica no permite inferir equivalencia definitiva entre estrategias.",
+        "practical_implication": "El inicio con estatina-ezetimiba puede considerarse una vía para alcanzar antes objetivos bajos de LDL, particularmente cuando se prevé que la estatina sola será insuficiente. No debe presentarse como superioridad demostrada en eventos clínicos frente a una estrategia escalonada y dirigida a objetivos.",
         "source_title": "Statin-Ezetimibe Combination Therapy versus Statin Monotherapy in Atherosclerotic Cardiovascular Disease: A Prespecified Secondary Analysis of the Randomized Ez-PAVE Trial.",
         "journal": "Circulation",
         "source_database": "Europe PMC",
@@ -64,10 +64,10 @@
         "publication_date": "2026-11-07"
       },
       {
-        "title": "La carga genética acumulada estratificó el riesgo en miocardiopatía hipertrófica relacionada con MYBPC3",
-        "what_happened": "Un estudio de 11.991 probandos no emparentados sometidos a estudio genético de miocardiopatía hipertrófica evaluó a portadores de variantes truncantes de MYBPC3 según presentaran variantes adicionales de efecto intermedio o una segunda variante monogénica. Una mayor carga genética se asoció con diagnóstico a edades más tempranas, mayor grosor parietal y mayor riesgo de eventos cardiovasculares mayores. Los portadores de variantes intermedias sarcoméricas y los portadores bialélicos de MYBPC3 presentaron las estimaciones de riesgo más altas.",
-        "why_relevant": "Aporta una estratificación genotipo-fenotipo de gran escala en la causa genética más frecuente de miocardiopatía hipertrófica y sugiere que el resultado genético ampliado puede identificar subgrupos de mayor riesgo. No demuestra que una estrategia de seguimiento o tratamiento guiada por esta carga genética mejore el pronóstico. Las estimaciones de los subgrupos de mayor riesgo son imprecisas por el número limitado de eventos, y todos los portadores bialélicos fueron diagnosticados en la infancia.",
-        "practical_implication": "En portadores de variantes truncantes de MYBPC3, la identificación de variantes adicionales puede apoyar una valoración especializada del riesgo y del seguimiento familiar. No debe utilizarse de forma aislada para decidir tratamientos invasivos sin integrar fenotipo, antecedentes familiares y evaluación clínica convencional.",
+        "title": "La carga genética acumulada identificó subgrupos de mayor riesgo en miocardiopatía hipertrófica relacionada con MYBPC3",
+        "what_happened": "Un estudio de 11.991 probandos no relacionados sometidos a estudio genético de miocardiopatía hipertrófica analizó a los portadores de variantes truncantes de MYBPC3. La presencia de variantes adicionales de efecto intermedio o de una segunda variante monogénica se asoció con diagnóstico más temprano, mayor grosor parietal y mayor riesgo de eventos cardiovasculares adversos mayores. Los portadores de variantes adicionales sarcoméricas y los portadores bialélicos de MYBPC3 presentaron los riesgos ajustados más elevados.",
+        "why_relevant": "Ofrece una base amplia para entender parte de la heterogeneidad fenotípica entre portadores de MYBPC3 y puede refinar la estratificación familiar y de seguimiento. Sin embargo, la estimación de riesgo en subgrupos de mayor gravedad es imprecisa por el escaso número de eventos, como reflejan intervalos de confianza muy amplios. La cohorte procede de un único centro de genética clínica y el resumen no permite evaluar la generalización a portadores detectados por cribado familiar o poblacional.",
+        "practical_implication": "Cuando se identifique una variante truncante de MYBPC3, la evaluación genética debería considerar variantes adicionales potencialmente relevantes. Los hallazgos de carga genética elevada pueden apoyar vigilancia más estrecha e interpretación especializada, pero no sustituyen la estratificación clínica establecida.",
         "source_title": "Cumulative Genetic Burden Defines a Gradient of Risk in &lt;i&gt;MYBPC3&lt;/i&gt;-Related Hypertrophic Cardiomyopathy.",
         "journal": "Circulation. Genomic and precision medicine",
         "source_database": "Europe PMC",
@@ -76,10 +76,10 @@
         "publication_date": "2026-11-12"
       },
       {
-        "title": "Un programa de educación terapéutica se asoció con menos eventos en enfermedad coronaria, pero requiere confirmación aleatorizada",
-        "what_happened": "Un estudio cuasiexperimental de un año en un hospital universitario tunecino comparó un programa estructurado de educación terapéutica en 38 pacientes con cardiopatía coronaria frente a atención habitual en 91 controles. La incidencia de eventos cardiovasculares mayores fue menor en el grupo educativo, 21,1% frente a 59,3%, y también se comunicaron mejoras en conocimiento y perfil lipídico.",
-        "why_relevant": "Evalúa un desenlace clínico relevante y aborda una intervención potencialmente escalable para prevención secundaria. Sin embargo, la comparación no fue aleatorizada, los grupos fueron desiguales y pequeños, y el resumen no aporta ajustes por diferencias basales ni detalles suficientes sobre los componentes de los eventos. Por ello, la magnitud aparente del efecto puede estar sustancialmente influida por sesgo de selección o confusión.",
-        "practical_implication": "Los resultados apoyan integrar educación terapéutica estructurada como componente de la atención de prevención secundaria, pero no permiten cuantificar con certeza su efecto causal sobre eventos. Su implementación debe acompañarse de control sistemático de factores de riesgo, adherencia y rehabilitación cardiovascular cuando esté indicada.",
+        "title": "Un programa estructurado de educación terapéutica se asoció con menos eventos en enfermedad coronaria, pero requiere confirmación aleatorizada",
+        "what_happened": "Un estudio cuasiexperimental realizado en un hospital universitario tunecino comparó un programa de educación terapéutica de cuatro etapas en 38 pacientes con enfermedad coronaria con atención habitual en 91 controles. A un año, los eventos cardiovasculares mayores fueron menos frecuentes en el grupo intervenido: 21,1% frente a 59,3%. También se comunicaron mejoras en conocimientos y perfil lipídico.",
+        "why_relevant": "La magnitud observada del efecto sobre eventos clínicos es potencialmente importante y refuerza la relevancia de la prevención secundaria y el autocuidado estructurado. No obstante, la intervención no fue aleatorizada, los grupos fueron pequeños y de tamaño desigual, y la selección de participantes, la confusión residual y diferencias no medidas en la atención pueden explicar parte o la totalidad de la asociación. Por ello, no demuestra causalidad ni cuantifica con fiabilidad el efecto atribuible al programa.",
+        "practical_implication": "Los programas estructurados de educación terapéutica pueden integrarse como componente de prevención secundaria, pero no se debería asumir que reproducirán la reducción de eventos observada sin evaluación local y confirmación en estudios comparativos robustos.",
         "source_title": "Evaluation of a therapeutic education program for patients with coronary heart disease in a Tunisian university hospital: A quasi-experimental study.",
         "journal": "PloS one",
         "source_database": "Europe PMC",
@@ -88,22 +88,22 @@
         "publication_date": "2026-11-09"
       },
       {
-        "title": "Rosuvastatina moderada con ezetimiba fue no inferior a rosuvastatina intensiva para regresión de placa por IVUS",
-        "what_happened": "En un ensayo aleatorizado de no inferioridad con 280 pacientes con estenosis coronaria intermedia, rosuvastatina 10 mg más ezetimiba se comparó con rosuvastatina 20 mg. El cambio medio en volumen porcentual de ateroma fue prácticamente idéntico tras al menos 12 meses: -1,286% con combinación y -1,302% con monoterapia intensiva. La diferencia cumplió el margen predefinido de no inferioridad de 2,5%.",
-        "why_relevant": "El estudio compara dos regímenes utilizados en práctica clínica mediante una medida intravascular cuantitativa y aleatorización. Su relevancia clínica es limitada porque el desenlace principal fue un marcador sustituto de imagen; el resumen no comunica los resultados del desenlace secundario de eventos cardiovasculares mayores. Por tanto, no permite concluir equivalencia en mortalidad, infarto o necesidad de revascularización.",
-        "practical_implication": "La combinación de estatina moderada y ezetimiba puede considerarse una alternativa para reducir LDL cuando la estatina de alta intensidad no sea tolerada o no sea preferible. La elección no debe fundamentarse en este estudio como prueba de equivalencia en eventos clínicos.",
-        "source_title": "Moderate-intensity statin and ezetimibe combination therapy versus high-intensity statin on coronary atherosclerotic plaque.",
-        "journal": "International journal of cardiology",
+        "title": "La miectomía septal extendida mostró supervivencia prolongada alta en una cohorte de miocardiopatía hipertrófica obstructiva",
+        "what_happened": "Una cohorte retrospectiva de un único centro de referencia incluyó 399 pacientes sometidos a miectomía septal extendida entre 2014 y 2024. La mortalidad intrahospitalaria fue del 1,5%; la supervivencia estimada fue del 98,1% a cinco años y del 95,9% a diez años. El seguimiento medio fue de 5,4 años y el estado vital estuvo completo en todos los participantes.",
+        "why_relevant": "Aporta resultados de seguimiento relativamente prolongado de una intervención central para pacientes sintomáticos con obstrucción, en un contexto geográfico con escasez previa de datos. La ausencia de grupo comparador impide atribuir causalmente la supervivencia a la cirugía o compararla con ablación septal alcohólica y tratamiento farmacológico. Además, es una experiencia de centro terciario, incluyó un 11,5% de menores de 18 años y el resumen no proporciona cambios cuantitativos en síntomas, gradiente obstructivo ni complicaciones no mortales.",
+        "practical_implication": "Los resultados respaldan la miectomía extendida como opción de referencia cuando está indicada y se realiza en centros expertos. La decisión individual debe seguir integrando síntomas, anatomía, comorbilidades y alternativas de reducción septal.",
+        "source_title": "Outcomes of extended septal myectomy for hypertrophic obstructive cardiomyopathy in an Asian cohort.",
+        "journal": "Asian cardiovascular & thoracic annals",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1016/j.ijcard.2026.135052",
-        "specialty": "Prevención cardiovascular y aterosclerosis",
-        "publication_date": "2026-11-10"
+        "url": "https://doi.org/10.1177/02184923261505346",
+        "specialty": "Miocardiopatías y miocarditis",
+        "publication_date": "2026-11-11"
       },
       {
-        "title": "ECG y péptidos natriuréticos añadieron información a la ecocardiografía en sospecha de hipertensión pulmonar",
-        "what_happened": "En una cohorte retrospectiva de 130 pacientes hospitalizados remitidos a cateterismo derecho por sospecha de hipertensión pulmonar, un modelo con presión sistólica pulmonar ecocardiográfica, positividad electrocardiográfica y BNP o NT-proBNP tuvo mayor discriminación que la presión ecocardiográfica aislada para hipertensión pulmonar definida invasivamente: AUC 0,825 frente a 0,730. En una cohorte temporal de validación de 42 pacientes, la diferencia entre modelos no fue estadísticamente significativa.",
-        "why_relevant": "El estudio utiliza el cateterismo derecho como patrón de referencia y aborda una decisión diagnóstica frecuente. No obstante, es unicéntrico, retrospectivo, con muestra pequeña, marcado desequilibrio entre pacientes con y sin hipertensión pulmonar y caracterización limitada de subtipos. La validación temporal fue pequeña y no confirmó de forma significativa la ventaja diagnóstica.",
-        "practical_implication": "El ECG y los péptidos natriuréticos pueden complementar, pero no reemplazar, la valoración ecocardiográfica y hemodinámica. El modelo propuesto no está listo para sustituir los algoritmos diagnósticos establecidos ni para evitar el cateterismo derecho cuando este esté indicado.",
+        "title": "ECG y péptidos natriuréticos añadieron información diagnóstica a la ecocardiografía en sospecha de hipertensión pulmonar, sin validación suficiente para uso autónomo",
+        "what_happened": "Un estudio retrospectivo de 130 pacientes hospitalizados remitidos a cateterismo derecho evaluó un modelo con presión sistólica pulmonar estimada por ecocardiografía, positividad electrocardiográfica y positividad de BNP o NT-proBNP. El área bajo la curva fue mayor que con la estimación ecocardiográfica aislada en la cohorte de derivación: 0,825 frente a 0,730. En una cohorte temporal de validación de 42 pacientes, el área bajo la curva fue 0,792 frente a 0,749, sin diferencia estadísticamente significativa.",
+        "why_relevant": "Aborda un problema diagnóstico cotidiano y confirma que las estimaciones ecocardiográficas e invasivas no son intercambiables. La señal de valor incremental es potencialmente útil, pero procede de una muestra pequeña, retrospectiva y muy seleccionada para cateterismo, con marcado desequilibrio de clases y caracterización limitada de subtipos de hipertensión pulmonar. La validación temporal es reducida y no confirmó una mejora estadísticamente significativa.",
+        "practical_implication": "La integración de ECG y péptidos natriuréticos puede complementar la valoración ecocardiográfica de pacientes seleccionados con sospecha de hipertensión pulmonar, pero no debe reemplazar el cateterismo derecho ni utilizarse como algoritmo independiente hasta contar con validación prospectiva externa.",
         "source_title": "Echocardiography-led multimodal assessment for pulmonary hypertension in a right heart catheterization-referred cohort: incremental value of ECG and natriuretic peptides.",
         "journal": "Cardiovascular ultrasound",
         "source_database": "Europe PMC",
@@ -112,16 +112,16 @@
         "publication_date": "2026-11-09"
       },
       {
-        "title": "El deterioro temprano del strain longitudinal global se asoció con cardiotoxicidad por inhibidores de puntos de control inmunitario",
-        "what_happened": "Un estudio piloto prospectivo y unicéntrico siguió a 30 adultos tratados con inhibidores de puntos de control inmunitario mediante ecocardiografía basal, a las 6-8 semanas y a las 12 semanas. Seis pacientes desarrollaron cardiotoxicidad durante un seguimiento medio de 12 semanas. En los pacientes afectados, el strain longitudinal global empeoró precozmente mientras la fracción de eyección permanecía relativamente conservada.",
-        "why_relevant": "Sugiere que el strain longitudinal global podría identificar lesión miocárdica antes que la reducción de fracción de eyección en un contexto de alto riesgo. La evidencia es exploratoria: la muestra es muy pequeña, el seguimiento corto, el estudio carece de validación externa y hubo solapamiento temporal entre la medición de strain y los eventos. No demuestra que monitorizar o tratar según strain mejore resultados clínicos.",
-        "practical_implication": "El strain longitudinal global puede incorporarse como dato complementario en una vigilancia cardiooncológica especializada cuando la calidad de imagen lo permita, siempre junto con síntomas, biomarcadores, fracción de eyección y valoración clínica. No justifica por sí solo cambios terapéuticos o interrupción de inmunoterapia.",
-        "source_title": "The role of global longitudinal strain change in the assessment of early cardiotoxicity in patients receiving immune checkpoint inhibitors: a prospective pilot study of 30 patients.",
-        "journal": "Journal of cardiovascular imaging",
+        "title": "La anatomía valvular bicúspide se asoció con mayor elipticidad protésica y gradiente residual tras TAVI con Venus-A",
+        "what_happened": "Un estudio retrospectivo comparó 106 pacientes con válvula aórtica bicúspide y 106 con anatomía tricúspide tras TAVI con prótesis Venus-A. La anatomía bicúspide se asoció con mayor elipticidad protésica y gradientes transvalvulares residuales más altos al alta, con medianas de 12 frente a 10 mmHg. No se observaron diferencias significativas en fuga paravalvular moderada-grave, expansión protésica, profundidad de implante, expansión asimétrica de valvas ni engrosamiento hipoatenuado de valvas.",
+        "why_relevant": "Describe diferencias anatómicas y hemodinámicas que pueden influir en la planificación y el seguimiento de TAVI en válvula bicúspide. Sin embargo, los resultados son principalmente sustitutos de imagen y hemodinámica, no desenlaces clínicos de pacientes; además, el diseño retrospectivo, el uso de un único tipo de prótesis y la selección de quienes tuvieron tomografía posprocedimiento limitan la generalización.",
+        "practical_implication": "En TAVI con anatomía bicúspide y prótesis Venus-A, la planificación tomográfica y la evaluación ecocardiográfica del gradiente residual merecen especial atención. El hallazgo no demuestra por sí mismo peor pronóstico clínico ni obliga a modificar la indicación de TAVI.",
+        "source_title": "Comparison of Prosthetic Valve Deformation and Hemodynamic Performance Between Bicuspid and Tricuspid Aortic Valve Anatomy After Transcatheter Aortic Valve Replacement.",
+        "journal": "Journal of the American Heart Association",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1186/s44348-026-00107-3",
-        "specialty": "Cardiooncología",
-        "publication_date": "2026-11-10"
+        "url": "https://doi.org/10.1161/jaha.126.049690",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-12"
       }
     ],
     "target_items": 10,
