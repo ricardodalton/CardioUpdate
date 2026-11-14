@@ -1,25 +1,25 @@
 [
   {
-    "date": "2026-11-13",
-    "generated_at": "2026-11-13T17:23:55.320052+00:00",
+    "date": "2026-11-14",
+    "generated_at": "2026-11-14T16:05:35.057807+00:00",
     "items": [
       {
-        "title": "Ziltivekimab no redujo los eventos cardiovasculares en aterosclerosis con enfermedad renal crónica e inflamación",
-        "what_happened": "En el ensayo ZEUS, multinacional, doble ciego y controlado con placebo, 6376 pacientes con enfermedad cardiovascular aterosclerótica, enfermedad renal crónica y proteína C reactiva de alta sensibilidad de al menos 2 mg/L fueron asignados a ziltivekimab mensual o placebo. Aunque ziltivekimab redujo marcadamente la interleucina-6 libre y la proteína C reactiva, el desenlace primario de muerte cardiovascular, infarto de miocardio no mortal o ictus no mortal ocurrió en el 17,6% frente al 17,7% (hazard ratio 0,99; IC 95% 0,88-1,11).",
-        "why_relevant": "Aporta evidencia directa y de gran tamaño contra el supuesto de que reducir biomarcadores inflamatorios mediante inhibición de IL-6 se traduzca necesariamente en menos eventos clínicos. El resultado es especialmente relevante por incluir mortalidad cardiovascular, infarto e ictus y por el seguimiento mediano de 33 meses. La ausencia de beneficio clínico debe interpretarse junto con una mayor frecuencia numérica de infecciones graves con ziltivekimab (20,4% frente a 17,9%).",
-        "practical_implication": "No se justifica utilizar ziltivekimab para prevenir eventos cardiovasculares en este fenotipo de pacientes basándose en la reducción de marcadores inflamatorios.",
-        "source_title": "Interleukin-6 Inhibition with Ziltivekimab for Atherosclerotic Disease.",
-        "journal": "The New England journal of medicine",
+        "title": "Criterios ARC para descartar síndrome aórtico agudo sin pruebas adicionales",
+        "what_happened": "Se desarrolló y validó externamente la regla Acute Aortic Syndrome Rule-Out Criteria (ARC), compuesta por siete variables clínicas: edad >60 años, dolor de inicio brusco, dolor intenso, hipotensión/shock, déficit neurológico, déficit de pulso y enfermedad aórtica conocida. La regla es negativa únicamente cuando todas las variables están ausentes. En cohortes externas prospectivas de pacientes con sospecha de síndrome aórtico agudo, mostró sensibilidad del 100%, con especificidad del 23,7% y del 36,4% en las dos validaciones descritas.",
+        "why_relevant": "Puede modificar el triaje inicial de una entidad de muy alta letalidad cuando no se reconoce. La validación externa incluyó cohortes grandes y su sensibilidad fue muy elevada, por lo que podría reducir pruebas innecesarias en pacientes de riesgo clínico muy bajo. Sin embargo, el desarrollo fue retrospectivo, el intervalo de confianza de la sensibilidad fue amplio en la cohorte de menor prevalencia y el resumen establece que aún se requiere validación prospectiva de su utilidad clínica dentro de circuitos diagnósticos reales.",
+        "practical_implication": "Puede considerarse una herramienta de exclusión clínica inicial en pacientes con sospecha de síndrome aórtico agudo, integrada con los algoritmos locales y no como sustituto aislado de la valoración clínica, el dímero D o la imagen cuando estén indicados.",
+        "source_title": "Acute aortic syndrome rule-out criteria: development and external validation.",
+        "journal": "European heart journal",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1056/nejmoa2612126",
-        "specialty": "Prevención cardiovascular y aterosclerosis",
-        "publication_date": "2026-11-07"
+        "url": "https://doi.org/10.1093/eurheartj/ehag875",
+        "specialty": "Aorta y enfermedad vascular periférica",
+        "publication_date": "2026-11-10"
       },
       {
-        "title": "La ICP coronaria sistemática antes o durante TAVI no mejora supervivencia ni eventos isquémicos y aumenta el sangrado",
-        "what_happened": "Un metaanálisis de tres ensayos aleatorizados, con 1156 candidatos a TAVI, comparó ICP rutinaria previa o concomitante con TAVI frente a tratamiento conservador. La ICP rutinaria no redujo mortalidad total, muerte cardiaca, infarto, ictus ni hospitalización, pero aumentó el sangrado mayor (RR 1,57; IC 95% 1,06-2,34) y cualquier sangrado (RR 1,77; IC 95% 1,27-2,48). Redujo las revascularizaciones urgentes o repetidas posteriores.",
-        "why_relevant": "La síntesis reúne ensayos aleatorizados y evalúa desenlaces clínicos directamente aplicables a una decisión frecuente del Heart Team. El balance observado no respalda una estrategia indiscriminada de revascularización. La certeza se describe como moderada a baja, el tamaño acumulado sigue siendo limitado y existió heterogeneidad clínica entre ensayos, por lo que no permite excluir beneficio en subgrupos anatómicos o clínicos seleccionados.",
-        "practical_implication": "La revascularización coronaria en candidatos a TAVI debe individualizarse según síntomas, anatomía coronaria, territorio en riesgo y factibilidad de futuros accesos coronarios, en vez de realizarse de rutina.",
+        "title": "La ICP sistemática antes o junto al TAVI no mejora supervivencia y aumenta sangrado",
+        "what_happened": "Un metaanálisis de tres ensayos aleatorizados, con 1.156 pacientes candidatos a TAVI con enfermedad coronaria coexistente, comparó ICP rutinaria antes o concomitante con TAVI frente a manejo conservador. La ICP rutinaria no redujo mortalidad total, muerte cardíaca, infarto, ictus ni hospitalización, pero aumentó el sangrado mayor y cualquier sangrado. Redujo la necesidad posterior de revascularización urgente o repetida.",
+        "why_relevant": "Aborda una decisión frecuente y controvertida en TAVI mediante evidencia aleatorizada y desenlaces clínicos relevantes. La ausencia de beneficio en supervivencia o eventos isquémicos, junto con el aumento de hemorragias, cuestiona una estrategia sistemática de revascularización. La certeza fue moderada a baja, el tamaño acumulado fue limitado y existió heterogeneidad clínica entre ensayos, por lo que no permite descartar que subgrupos anatómicos o clínicos seleccionados se beneficien.",
+        "practical_implication": "La revascularización coronaria no debería plantearse de forma rutinaria en todos los pacientes sometidos a TAVI; la decisión debe individualizarse por el Heart Team según síntomas, anatomía coronaria, territorio en riesgo y riesgo hemorrágico.",
         "source_title": "Routine Percutaneous Coronary Intervention Versus Conservative Management in Patients Undergoing Transcatheter Aortic Valve Implantation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
         "journal": "Cardiology in review",
         "source_database": "Europe PMC",
@@ -28,22 +28,10 @@
         "publication_date": "2026-11-10"
       },
       {
-        "title": "En pacientes frágiles o prefrágiles, la cirugía coronaria sin bomba no mostró ventaja clínica clara frente a la cirugía con bomba",
-        "what_happened": "El ensayo FRAGILE, multicéntrico, aleatorizado y abierto, asignó a 508 pacientes de 60 años o más con fragilidad o prefragilidad a bypass coronario sin bomba o con bomba. El compuesto a 30 días de muerte, infarto, ictus, insuficiencia renal, distrés respiratorio agudo o reoperación por sangrado ocurrió en el 10,9% con cirugía sin bomba y en el 16,0% con cirugía con bomba; el resumen informa un RR de 1,47 (IC 95% 0,94-2,31; p=0,09). No se observaron diferencias significativas en función neurocognitiva ni calidad de vida al año; la infección de herida fue menos frecuente con cirugía sin bomba.",
-        "why_relevant": "El estudio aborda una población quirúrgica de especial vulnerabilidad y valora eventos clínicos tempranos, supervivencia y desenlaces funcionales. No demostró una diferencia estadísticamente significativa en el objetivo primario ni en los desenlaces neurocognitivos. Existe una limitación verificable importante: la dirección del RR comunicado en el resumen no parece concordar con las incidencias crudas presentadas, lo que impide interpretar con seguridad esa estimación sin consultar el informe completo.",
-        "practical_implication": "La elección entre cirugía con o sin bomba no debe basarse exclusivamente en la fragilidad esperando una mejora demostrada de eventos mayores; debe depender de la anatomía, la experiencia del equipo y el riesgo quirúrgico individual.",
-        "source_title": "Off-Pump versus On-Pump Coronary Artery Bypass Grafting in Prefrail and Frail Patients: 30-Day and 1-Year Outcomes From the FRAGILE Randomized Trial.",
-        "journal": "Circulation",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1161/circulationaha.125.078842",
-        "specialty": "Enfermedad coronaria",
-        "publication_date": "2026-11-10"
-      },
-      {
-        "title": "Los resultados de Ross en adultos fueron notablemente peores en centros de bajo volumen",
-        "what_happened": "Un análisis de la Nationwide Readmissions Database de Estados Unidos identificó 1212 adultos sometidos a procedimiento de Ross entre 2016 y 2022. Los eventos adversos mayores fueron más frecuentes en centros de bajo volumen que en centros de alto volumen de cirugía valvular aórtica adulta o de cirugía cardiaca pediátrica: 42,1%, 8,8% y 3,8%, respectivamente. El uso nacional del procedimiento aumentó de 63 casos en 2016 a 385 en 2022.",
-        "why_relevant": "La asociación entre volumen institucional y un compuesto que incluye mortalidad, ictus, ventilación prolongada, fracaso renal agudo, embolia pulmonar, parada cardiaca y reoperación tiene implicaciones organizativas inmediatas para una intervención compleja. El diseño observacional administrativo no demuestra causalidad y el resumen no permite evaluar el grado de ajuste por selección de pacientes, experiencia individual de los cirujanos u otras diferencias entre centros.",
-        "practical_implication": "La derivación de adultos candidatos a procedimiento de Ross hacia centros con experiencia y volumen sustancial debe considerarse parte de la selección terapéutica.",
+        "title": "El volumen del centro se asocia con resultados del procedimiento de Ross en adultos",
+        "what_happened": "Un análisis de la Nationwide Readmissions Database de 1.212 adultos sometidos al procedimiento de Ross entre 2016 y 2022 comparó hospitales con alto volumen de cirugía cardíaca pediátrica, alto volumen de cirugía valvular aórtica de adultos y bajo volumen. Los centros de bajo volumen presentaron la mayor tasa de eventos adversos mayores, del 42,1%, frente al 8,8% en centros de alto volumen de adultos y al 3,8% en centros pediátricos de alto volumen.",
+        "why_relevant": "Aporta información directamente aplicable a la selección del centro para una operación técnicamente compleja cuya utilización está aumentando. La magnitud de las diferencias observadas apoya la regionalización y puede tener impacto inmediato sobre la seguridad perioperatoria. Al tratarse de un análisis administrativo observacional, no puede separar por completo el efecto del volumen de la selección de pacientes, la experiencia individual del cirujano u otros factores organizativos; el resumen tampoco proporciona estimaciones ajustadas.",
+        "practical_implication": "La derivación de adultos candidatos a procedimiento de Ross hacia centros con experiencia elevada en cirugía aórtica adulta o cirugía cardíaca pediátrica debería formar parte de la planificación terapéutica.",
         "source_title": "Association of Adult and Pediatric Cardiac Surgery Volumes with Outcomes of the Ross Procedure in Adults.",
         "journal": "The Annals of thoracic surgery",
         "source_database": "Europe PMC",
@@ -52,22 +40,34 @@
         "publication_date": "2026-11-09"
       },
       {
-        "title": "Iniciar estatina más ezetimiba redujo más el LDL, pero no los eventos frente a estatina inicial en Ez-PAVE",
-        "what_happened": "En un segundo proceso de aleatorización preespecificado del ensayo Ez-PAVE, pacientes con enfermedad cardiovascular aterosclerótica recibieron inicialmente estatina con ezetimiba o estatina sola dentro de estrategias dirigidas a objetivos de LDL. La incidencia del objetivo primario fue similar: 8,5% con combinación y 7,9% con monoterapia (hazard ratio 1,07; IC 95% 0,83-1,37). La combinación alcanzó concentraciones medianas de LDL más bajas tanto con objetivos intensivos como convencionales, con desenlaces de seguridad similares.",
-        "why_relevant": "Distingue entre una mayor reducción de LDL y un beneficio clínico demostrado al elegir el régimen inicial, una cuestión práctica en prevención secundaria. El análisis fue preespecificado y aleatorizado, pero el resumen no define el objetivo primario ni proporciona su composición; además, un número relevante de pacientes inicialmente asignados a monoterapia recibió ezetimiba durante el seguimiento, lo que puede reducir la separación terapéutica.",
-        "practical_implication": "La combinación inicial puede facilitar la consecución rápida de objetivos de LDL, pero estos resultados no demuestran superioridad en eventos cardiovasculares frente a comenzar con estatina y escalar tratamiento según el objetivo alcanzado.",
-        "source_title": "Statin-Ezetimibe Combination Therapy versus Statin Monotherapy in Atherosclerotic Cardiovascular Disease: A Prespecified Secondary Analysis of the Randomized Ez-PAVE Trial.",
+        "title": "Cirugía coronaria sin bomba frente a con bomba en pacientes frágiles: resultados similares",
+        "what_happened": "El ensayo aleatorizado multicéntrico FRAGILE asignó a 508 pacientes de 60 años o más, prefágiles o frágiles, a cirugía de revascularización coronaria sin bomba o con circulación extracorpórea. El compuesto de muerte, infarto, ictus, fracaso renal, síndrome de distrés respiratorio agudo o reoperación por sangrado a 30 días ocurrió en el 10,9% y el 16,0%, respectivamente, sin diferencia estadísticamente significativa. Tampoco hubo diferencias significativas en función neurocognitiva o calidad de vida al año; la infección de herida quirúrgica fue más frecuente con cirugía con bomba.",
+        "why_relevant": "Es evidencia aleatorizada específica para pacientes frágiles, un grupo con alto riesgo quirúrgico y representación limitada en muchos ensayos. No demuestra una ventaja global de una estrategia sobre otra en el desenlace compuesto ni en resultados neurocognitivos o de calidad de vida. La estimación del desenlace primario fue imprecisa y el resumen presenta una discrepancia entre las incidencias comunicadas y el riesgo relativo informado, lo que impide valorar con fiabilidad la magnitud exacta del efecto desde el resumen.",
+        "practical_implication": "La fragilidad por sí sola no justifica elegir sistemáticamente cirugía sin bomba o con bomba; la técnica debe individualizarse según anatomía coronaria, factibilidad de revascularización completa y experiencia del equipo quirúrgico.",
+        "source_title": "Off-Pump versus On-Pump Coronary Artery Bypass Grafting in Prefrail and Frail Patients: 30-Day and 1-Year Outcomes From the FRAGILE Randomized Trial.",
         "journal": "Circulation",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1161/circulationaha.126.083811",
-        "specialty": "Dislipidemias",
-        "publication_date": "2026-11-07"
+        "url": "https://doi.org/10.1161/circulationaha.125.078842",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2026-11-10"
       },
       {
-        "title": "La carga genética acumulada identificó subgrupos de mayor riesgo en miocardiopatía hipertrófica asociada a MYBPC3",
-        "what_happened": "En 11.991 probandos no relacionados sometidos a estudio genético por miocardiopatía hipertrófica, los portadores de variantes truncantes de MYBPC3 con variantes adicionales de efecto intermedio o una segunda variante monogénica presentaron diagnóstico más precoz, mayor grosor parietal y mayor riesgo de eventos cardiovasculares adversos mayores. Entre los portadores de variantes truncantes de MYBPC3, los portadores de variantes sarcoméricas de efecto intermedio tuvieron un hazard ratio de 10,3 y los portadores bialélicos de MYBPC3 un hazard ratio de 23,2 para eventos cardiovasculares adversos mayores.",
-        "why_relevant": "El estudio incorpora una cohorte genética muy amplia y señala que la interpretación de MYBPC3 no debe limitarse a una única variante causal. Puede refinar la evaluación familiar y la intensidad de vigilancia. Las estimaciones de riesgo de los subgrupos de mayor riesgo son imprecisas, con intervalos de confianza amplios y pocos eventos, y todos los portadores bialélicos fueron diagnosticados en la infancia, lo que limita su extrapolación directa a la práctica exclusivamente adulta.",
-        "practical_implication": "En portadores de variantes truncantes de MYBPC3, la identificación de variantes adicionales puede justificar una valoración genética experta y una vigilancia clínica más estrecha, sin que estos datos establezcan por sí solos cambios específicos de tratamiento.",
+        "title": "La ergometría es superior al ejercicio unilateral de brazo para detectar hipertensión pulmonar de esfuerzo durante cateterismo derecho",
+        "what_happened": "En un estudio prospectivo observacional de 50 pacientes sometidos a cateterismo derecho, cada participante realizó ergometría en ciclo y ejercicio dinámico unilateral de brazo en orden aleatorizado. La ergometría produjo incrementos mayores de presión arterial pulmonar media, presión capilar pulmonar y gasto cardíaco. En pacientes sin hipertensión pulmonar en reposo, la ergometría identificó hipertensión pulmonar de esfuerzo en cinco casos, mientras que el protocolo de brazo no detectó ninguno.",
+        "why_relevant": "Tiene repercusión diagnóstica directa para laboratorios que consideran sustituir la ergometría por modalidades más accesibles durante el cateterismo derecho. Los datos muestran que el protocolo de brazo aplicado generó una carga fisiológica mucho menor y no fue apto para detectar hipertensión pulmonar de esfuerzo. La muestra fue pequeña, la intensidad del ejercicio de brazo fue autoseleccionada y no permite concluir si un protocolo de brazo adecuadamente equiparado en intensidad tendría un rendimiento diferente.",
+        "practical_implication": "La ergometría debería mantenerse como modalidad preferente para la evaluación invasiva de hipertensión pulmonar de esfuerzo cuando esté disponible; el ejercicio unilateral de brazo, con este protocolo, no debe utilizarse como sustituto diagnóstico.",
+        "source_title": "Hemodynamic effects of cycle ergometry versus dynamic unilateral arm exercise during right heart catheterization: a prospective observational study.",
+        "journal": "BMC pulmonary medicine",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1186/s12890-026-04848-1",
+        "specialty": "Circulación pulmonar y pericardio",
+        "publication_date": "2026-11-14"
+      },
+      {
+        "title": "La carga genética acumulada estratifica el riesgo en miocardiopatía hipertrófica asociada a MYBPC3",
+        "what_happened": "En 11.991 probandos no relacionados con miocardiopatía hipertrófica sometidos a estudio genético, los portadores de variantes truncantes de MYBPC3 con variantes adicionales de efecto intermedio o una segunda variante monogénica mostraron un gradiente de enfermedad más grave. La edad al diagnóstico fue menor y el grosor máximo de pared mayor a medida que aumentaba la carga genética. Las variantes adicionales sarcoméricas y los portadores bialélicos de MYBPC3 presentaron mayor riesgo de eventos cardiovasculares adversos mayores.",
+        "why_relevant": "El estudio sugiere que la interpretación genética no debería limitarse a identificar una única variante causal en MYBPC3, ya que las variantes adicionales pueden identificar fenotipos de inicio más precoz y mayor riesgo. El tamaño de la cohorte es amplio y la asociación se mantuvo en análisis multivariable. No obstante, los intervalos de confianza fueron amplios en los subgrupos de mayor riesgo por escaso número de eventos, y todos los portadores bialélicos fueron diagnosticados en la infancia, lo que limita la extrapolación directa a la práctica adulta.",
+        "practical_implication": "En portadores de variantes truncantes de MYBPC3, la presencia de variantes adicionales puede respaldar una vigilancia más estrecha y una valoración genética experta, sin que el estudio establezca por sí mismo cambios obligatorios en las indicaciones terapéuticas.",
         "source_title": "Cumulative Genetic Burden Defines a Gradient of Risk in &lt;i&gt;MYBPC3&lt;/i&gt;-Related Hypertrophic Cardiomyopathy.",
         "journal": "Circulation. Genomic and precision medicine",
         "source_database": "Europe PMC",
@@ -76,392 +76,56 @@
         "publication_date": "2026-11-12"
       },
       {
-        "title": "Un programa estructurado de educación terapéutica se asoció con menos eventos en cardiopatía coronaria, pero requiere confirmación aleatorizada",
-        "what_happened": "En un estudio cuasiexperimental de un hospital universitario tunecino, 38 pacientes con cardiopatía coronaria recibieron un programa educativo terapéutico de cuatro etapas y 91 recibieron atención habitual. Al año, la aparición de eventos cardiovasculares mayores fue menor en el grupo intervenido que en el control, 21,1% frente a 59,3%. También se comunicaron mejoras en conocimientos y perfil lipídico.",
-        "why_relevant": "El desenlace principal es clínicamente relevante y la diferencia absoluta observada es grande, lo que convierte la intervención educativa en una señal potencialmente importante para prevención secundaria. Sin embargo, la asignación no fue aleatorizada, los grupos fueron pequeños y desequilibrados, y el resumen no aporta medidas ajustadas ni intervalos de confianza; por tanto, las diferencias pueden reflejar confusión, selección de participantes u otros componentes de la atención.",
-        "practical_implication": "Los programas estructurados de educación y autocuidado pueden incorporarse como apoyo a la prevención secundaria, pero no debe atribuirse causalmente la reducción de eventos observada sin confirmación en estudios robustos.",
-        "source_title": "Evaluation of a therapeutic education program for patients with coronary heart disease in a Tunisian university hospital: A quasi-experimental study.",
-        "journal": "PloS one",
+        "title": "La edad biológica estimada por ECG con IA identifica peor pronóstico tras sustitución valvular aórtica quirúrgica",
+        "what_happened": "En 5.503 pacientes sometidos a sustitución valvular aórtica quirúrgica, una red neuronal aplicada al ECG preoperatorio estimó una edad biológica. Una diferencia superior a cinco años entre la edad estimada por IA y la cronológica se asoció independientemente con mayor mortalidad a 30 días, más complicaciones posoperatorias y mayor mortalidad a largo plazo. El exceso de edad por ECG estuvo presente en el 16,7% de los pacientes.",
+        "why_relevant": "Es una de las aplicaciones de IA cardiovascular con asociación demostrada con desenlaces clínicos relevantes en una cohorte grande, y utiliza un estudio de bajo coste ya integrado en la evaluación preoperatoria. Sin embargo, muestra asociación pronóstica y no demuestra que incorporar la medida a la toma de decisiones mejore resultados, modifique la selección de tratamiento o supere a escalas de riesgo establecidas en utilidad clínica.",
+        "practical_implication": "La edad derivada por ECG podría considerarse un marcador complementario de vulnerabilidad fisiológica en la valoración preoperatoria de cirugía valvular aórtica, pero no debe sustituir la evaluación clínica integral ni las herramientas de riesgo validadas.",
+        "source_title": "Using an Artificial Intelligence ECG-Derived Biological Age for Risk Stratification of Patients Undergoing Surgical Aortic Valve Replacement.",
+        "journal": "The Annals of thoracic surgery",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1371/journal.pone.0361814",
-        "specialty": "Prevención cardiovascular y aterosclerosis",
-        "publication_date": "2026-11-09"
+        "url": "https://doi.org/10.1016/j.athoracsur.2026.10.040",
+        "specialty": "Inteligencia artificial en cardiología",
+        "publication_date": "2026-11-13"
       },
       {
-        "title": "El bajo peso, más que la obesidad, identificó un fenotipo de alto riesgo temprano tras TAVI",
-        "what_happened": "Un análisis preespecificado de 752 participantes del ensayo DOUBLE-CHOICE evaluó la asociación del índice de masa corporal con un compuesto a 30 días de muerte, complicaciones vasculares y hemorrágicas, infecciones que precisaron antibióticos y eventos neurológicos. La obesidad se asoció con menos eventos tras ajuste multivariable (OR ajustada 0,48; IC 95% 0,30-0,75), mientras que el bajo peso, presente en 23 pacientes, se asoció con más eventos (55,0% frente a 23,4%; OR ajustada 3,74; IC 95% 1,30-9,52).",
-        "why_relevant": "El hallazgo puede ayudar a identificar vulnerabilidad periprocedimiento en la valoración pre-TAVI y destaca el bajo peso como posible marcador de fragilidad o reserva biológica reducida. Aunque procede de una población incluida en un ensayo aleatorizado, la comparación por categorías de IMC no fue aleatorizada; además, el número de pacientes con bajo peso fue muy pequeño y persiste la posibilidad de confusión residual por fragilidad, composición corporal o comorbilidad.",
-        "practical_implication": "El bajo peso debe motivar una evaluación integral de fragilidad, nutrición y riesgo procedimental antes de TAVI; la asociación observada no demuestra que la obesidad sea protectora ni que el aumento ponderal mejore el pronóstico.",
-        "source_title": "Underweight and obesity as outcome predictors after transcatheter aortic valve implantation: insights from the DOUBLE-CHOICE trial.",
-        "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+        "title": "Istaroxima mejora parámetros hemodinámicos en insuficiencia cardíaca aguda, pero sin demostración de beneficio clínico",
+        "what_happened": "Un análisis individual agrupado de cuatro ensayos fase II aleatorizados, doble ciego y controlados con placebo incluyó 284 pacientes con insuficiencia cardíaca aguda o shock cardiogénico relacionado. Istaroxima aumentó la presión arterial sistólica durante las primeras 6 y 24 horas y se asoció con mejorías en parámetros hemodinámicos y ecocardiográficos, sin taquicardia ni incremento aparente de eventos adversos graves. La disnea, calidad de vida, empeoramiento de insuficiencia cardíaca y muerte mostraron mejoría numérica, pero no se presentan resultados confirmatorios de eficacia clínica.",
+        "why_relevant": "La necesidad de tratamientos que mejoren la perfusión sin agravar la frecuencia cardíaca en insuficiencia cardíaca aguda y shock cardiogénico hace que esta señal sea clínicamente interesante. El análisis reúne todos los ensayos aleatorizados disponibles y utiliza datos individuales. No obstante, se trata de estudios fase II, con tamaño total pequeño y predominio de variables hemodinámicas y ecocardiográficas; los desenlaces clínicos fueron solo numéricamente favorables y el propio resumen señala la necesidad de un programa fase III.",
+        "practical_implication": "Istaroxima no puede considerarse tratamiento estándar para insuficiencia cardíaca aguda o shock cardiogénico; los resultados respaldan ensayos fase III con mortalidad, empeoramiento de insuficiencia cardíaca y hospitalización como desenlaces centrales.",
+        "source_title": "Clinical effects of istaroxime in acute heart failure and cardiogenic shock: A patient-level pooled analysis of four phase II randomized clinical trials.",
+        "journal": "Journal of cardiac failure",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1007/s00392-026-03042-x",
-        "specialty": "Valvulopatías",
-        "publication_date": "2026-11-12"
-      },
-      {
-        "title": "Estatina moderada con ezetimiba fue no inferior a rosuvastatina intensiva para regresión de placa coronaria por IVUS",
-        "what_happened": "En un ensayo aleatorizado de no inferioridad con 280 pacientes con estenosis coronaria intermedia, rosuvastatina 10 mg más ezetimiba se comparó con rosuvastatina 20 mg. El cambio en volumen porcentual de ateroma por ecografía intravascular fue de -1,286% con combinación y de -1,302% con rosuvastatina intensiva; la diferencia media fue 0,017% (IC 95% -0,957% a 0,991%), dentro del margen de no inferioridad de 2,5%.",
-        "why_relevant": "Aporta evidencia aleatorizada de que dos estrategias de intensidad hipolipemiante pueden producir regresión comparable de placa en imagen intracoronaria. Sin embargo, el objetivo principal es un marcador sustituto y el resumen no comunica los resultados numéricos del objetivo clínico secundario de eventos cardiovasculares mayores; por ello, no demuestra equivalencia en mortalidad, infarto o necesidad de revascularización.",
-        "practical_implication": "La combinación de estatina moderada y ezetimiba puede ser una alternativa para alcanzar reducción aterogénica similar por IVUS cuando la estatina intensiva no sea adecuada, pero la decisión debe seguir guiándose por objetivos de LDL, tolerabilidad y evidencia de eventos clínicos.",
-        "source_title": "Moderate-intensity statin and ezetimibe combination therapy versus high-intensity statin on coronary atherosclerotic plaque.",
-        "journal": "International journal of cardiology",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1016/j.ijcard.2026.135052",
-        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "url": "https://doi.org/10.1016/j.cardfail.2026.10.007",
+        "specialty": "Insuficiencia cardíaca",
         "publication_date": "2026-11-10"
       },
       {
-        "title": "La anatomía bicúspide se asoció con mayor elipticidad protésica y gradientes residuales tras TAVI con Venus-A",
-        "what_happened": "En una cohorte retrospectiva de 212 pacientes sometidos a TAVI con prótesis Venus-A, emparejados por anatomía bicúspide o tricúspide, la anatomía bicúspide mostró mayor elipticidad protésica y gradientes transvalvulares residuales más altos al alta: mediana de 12,0 frente a 10,0 mmHg. No hubo diferencias significativas en fuga paravalvular moderada o grave, expansión protésica, profundidad de implante, expansión asimétrica de velos ni engrosamiento hipoatenuado de velos.",
-        "why_relevant": "Ofrece información anatómica y hemodinámica útil para la planificación y la interpretación ecocardiográfica tras TAVI en válvula aórtica bicúspide. El estudio no evalúa desenlaces centrados en pacientes, se limita a una sola plataforma protésica y su carácter retrospectivo permite confusión por diferencias en anatomía, sobredimensionamiento y uso de predilatación o posdilatación.",
-        "practical_implication": "Tras TAVI en anatomía bicúspide con Venus-A, los gradientes residuales modestamente superiores y la elipticidad deben considerarse al planificar el procedimiento y el seguimiento, sin asumir por estos datos un peor pronóstico clínico.",
-        "source_title": "Comparison of Prosthetic Valve Deformation and Hemodynamic Performance Between Bicuspid and Tricuspid Aortic Valve Anatomy After Transcatheter Aortic Valve Replacement.",
-        "journal": "Journal of the American Heart Association",
+        "title": "Las nuevas recomendaciones permiten retorno al deporte individualizado en muchas canalopatías",
+        "what_happened": "La guía de la Task Force 9 aborda la atención de deportistas con síndrome de QT largo, taquicardia ventricular polimórfica catecolaminérgica, síndrome de Brugada y síndrome de QT corto. El documento señala que las restricciones universales históricas carecían de suficiente respaldo y que muchos deportistas pueden ser apoyados para retornar a la competición tras evaluación especializada, estratificación de riesgo y tratamiento adecuado, mediante toma de decisiones compartida.",
+        "why_relevant": "Puede cambiar una práctica tradicionalmente restrictiva con consecuencias importantes para calidad de vida, identidad y participación deportiva. El enfoque se basa en la heterogeneidad del riesgo según síntomas, gravedad, genotipo y tratamiento, en lugar de prohibiciones diagnósticas generales. El resumen no detalla los criterios específicos de elegibilidad ni la calidad de la evidencia para cada canalopatía, por lo que las recomendaciones deben interpretarse en el contexto completo de la guía y de valoración especializada.",
+        "practical_implication": "La participación deportiva no debería prohibirse automáticamente por el diagnóstico de una canalopatía; debe decidirse de forma individual por especialistas con experiencia, tras optimizar tratamiento, educación y planificación de respuesta ante emergencias.",
+        "source_title": "Task Force 9: Clinical Considerations for the Care of Athletes with Cardiac Channelopathies.",
+        "journal": "Medicine and science in sports and exercise",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1249/MSS.0000000000004097",
+        "specialty": "Cardiopatías congénitas del adulto y cardiología del deporte",
+        "publication_date": "2026-11-13"
+      },
+      {
+        "title": "La miectomía septal extendida muestra supervivencia prolongada favorable en una cohorte asiática",
+        "what_happened": "Una cohorte retrospectiva de un centro terciario incluyó 399 pacientes sometidos a miectomía septal extendida por miocardiopatía hipertrófica obstructiva entre 2014 y 2024. La mortalidad intrahospitalaria fue del 1,5%; la supervivencia estimada fue del 98,1% a cinco años y del 95,9% a diez años. El seguimiento medio fue de 5,4 años y el estado vital fue completo.",
+        "why_relevant": "Aporta resultados de seguimiento prolongado en una población poco representada en las series occidentales y refuerza la eficacia de la miectomía en centros especializados. Los desenlaces incluyen mortalidad y seguimiento ecocardiográfico y funcional según el objetivo declarado, aunque el resumen no comunica sus valores detallados. Al ser una cohorte retrospectiva de un único centro, sin comparador con ablación septal alcohólica o tratamiento farmacológico, no permite inferir superioridad relativa; además, el 11,5% de la muestra era menor de 18 años.",
+        "practical_implication": "En pacientes sintomáticos con miocardiopatía hipertrófica obstructiva y obstrucción susceptible de tratamiento invasivo, la miectomía septal extendida continúa siendo una opción sólida cuando se realiza en centros con experiencia.",
+        "source_title": "Outcomes of extended septal myectomy for hypertrophic obstructive cardiomyopathy in an Asian cohort.",
+        "journal": "Asian cardiovascular & thoracic annals",
         "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1161/jaha.126.049690",
-        "specialty": "Valvulopatías",
-        "publication_date": "2026-11-12"
+        "url": "https://doi.org/10.1177/02184923261505346",
+        "specialty": "Miocardiopatías y miocarditis",
+        "publication_date": "2026-11-11"
       }
     ],
     "target_items": 10,
     "selection_policy": "clinical-cardiology-v1",
     "selection_mode": "ai"
-  },
-  {
-    "date": "2026-11-12",
-    "generated_at": "2026-11-12T17:46:04.784609+00:00",
-    "items": [
-      {
-        "title": "Suspensión de estatinas en prevención primaria en adultos mayores con multimorbilidad: ensayo STREAM",
-        "what_happened": "Un ensayo aleatorizado, abierto e internacional incluyó a 1.880 adultos de al menos 70 años, en tratamiento con estatinas para prevención primaria y con dos o más enfermedades crónicas. A dos años, la suspensión de estatinas fue no inferior a la continuación para el desenlace compuesto de infarto no fatal, ictus isquémico no fatal o muerte por cualquier causa, según el margen de no inferioridad predefinido.",
-        "why_relevant": "Aporta evidencia clínica aleatorizada para una decisión frecuente en prevención primaria geriátrica: mantener o retirar tratamiento hipolipemiante en personas con multimorbilidad. La conclusión se limita a la población estudiada y al horizonte de dos años; no demuestra que la retirada sea equivalente en todos los adultos mayores, especialmente en aquellos con riesgo aterosclerótico muy alto, hipercolesterolemia familiar o aterosclerosis subclínica extensa.",
-        "practical_implication": "La desintensificación puede valorarse de forma individualizada en adultos mayores con multimorbilidad y sin enfermedad cardiovascular conocida, incorporando expectativa de vida, carga terapéutica, tolerancia, preferencias y riesgo aterosclerótico basal. El estudio no respalda una retirada sistemática de estatinas.",
-        "source_title": "Discontinuing Statins in Older Adults without Cardiovascular Disease.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1056/nejmoa2606634"
-      },
-      {
-        "title": "Pelacarsen reduce de forma marcada la Lp(a) en participantes negros e hispanos con ASCVD",
-        "what_happened": "El ensayo aleatorizado, doble ciego y controlado con placebo Lp(a)FRONTIERS EXPANSION asignó a 423 participantes estadounidenses negros/afroamericanos e hispanos con ASCVD y Lp(a) elevada a pelacarsen mensual o placebo durante 12 meses. La razón geométrica de Lp(a) respecto al valor basal fue 0,14 con pelacarsen y 0,98 con placebo, lo que documenta una reducción sustancial de Lp(a) con un perfil de tolerabilidad descrito como generalmente favorable.",
-        "why_relevant": "La población abordada ha estado infrarrepresentada en ensayos de terapias dirigidas contra Lp(a), pese a la carga desproporcionada de riesgo aterosclerótico asociado a esta lipoproteína. El hallazgo confirma eficacia sobre un marcador biológico, no sobre eventos cardiovasculares: el desenlace principal fue el cambio de Lp(a), y la duración de seguimiento fue de un año.",
-        "practical_implication": "La medición de Lp(a) permite identificar riesgo residual y seleccionar potencialmente a candidatos para futuros tratamientos específicos. Por ahora, la reducción farmacológica de Lp(a) observada no debe interpretarse como beneficio clínico demostrado; la intensificación del control de LDL-C y de los demás factores de riesgo continúa siendo el eje terapéutico.",
-        "source_title": "Efficacy and Safety of Pelacarsen in Black/African American and Hispanic Participants with Elevated Lipoprotein(a) and Established Atherosclerotic Cardiovascular Disease: The Randomized Controlled Lp(a)FRONTIERS EXPANSION Study.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1161/circoutcomes.126.014453"
-      },
-      {
-        "title": "Inflamación y progresión de placa carotídea/femoral subclínica en PESA",
-        "what_happened": "En el estudio longitudinal PESA, 3.471 adultos asintomáticos de mediana edad fueron evaluados con ecografía vascular tridimensional carotídea y femoral seriada, además de cuantificación de calcio coronario. A los seis años, el recuento leucocitario mostró la asociación estadística más intensa con el volumen global de placa, tras ajustar por edad, sexo, LDL-C basal y presión arterial sistólica media; por cada desviación estándar de leucocitos se estimó un incremento del 32,6% del volumen de placa.",
-        "why_relevant": "El estudio sitúa la carga de placa carotídea y femoral como medida directa de aterosclerosis subclínica y muestra que marcadores inflamatorios sistémicos se asocian con su progresión más allá de LDL-C y presión arterial. Sin embargo, se trata de evidencia observacional: la asociación no demuestra causalidad ni identifica una intervención antiinflamatoria que reduzca eventos.",
-        "practical_implication": "La prevención debe seguir centrada en la reducción sostenida de exposición a lipoproteínas aterogénicas y en el control de la presión arterial. La ecografía de placa puede contribuir a la estratificación individual en contextos seleccionados, mientras que el recuento leucocitario no queda establecido como objetivo terapéutico ni como sustituto de eventos cardiovasculares.",
-        "source_title": "Inflammation and early atherosclerosis beyond traditional risk factors: an imaging study.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1093/eurheartj/ehag846"
-      },
-      {
-        "title": "Colchicina en diabetes y gota sin cardiopatía coronaria previa: señal observacional de menor mortalidad",
-        "what_happened": "Una cohorte nacional coreana comparó usuarios y no usuarios de colchicina entre 48.295 personas con diabetes tipo 2 y gota, sin enfermedad coronaria previa. Tras emparejamiento por puntuación de propensión, el uso de colchicina se asoció con menor riesgo del desenlace compuesto de muerte total, infarto no fatal e ictus no fatal; la asociación estuvo impulsada por menor mortalidad total. No se observaron diferencias significativas en infarto ni ictus, y el análisis de referencia a 365 días mantuvo el patrón principal.",
-        "why_relevant": "El estudio explora prevención primaria en una población con alto riesgo cardiometabólico y evalúa eventos clínicos, no solo biomarcadores. No obstante, su diseño observacional impide atribuir causalidad a la colchicina: pueden persistir confusión residual, sesgo de prescripción y diferencias no medidas entre quienes recibieron o no el fármaco.",
-        "practical_implication": "Los resultados no justifican indicar colchicina para prevención cardiovascular primaria en pacientes con diabetes y gota. Sí refuerzan la necesidad de ensayos aleatorizados específicamente diseñados para evaluar eventos cardiovasculares en esta población antes de modificar la práctica clínica.",
-        "source_title": "Colchicine use was associated with reduced all-cause mortality in patients with diabetic gout without prior coronary artery disease: A propensity-matched nationwide cohort study.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1371/journal.pone.0362218"
-      },
-      {
-        "title": "Incorporación de Lp(a) a la estimación de riesgo en adultos de bajo riesgo: impacto limitado a corto plazo",
-        "what_happened": "Un estudio retrospectivo evaluó cómo la integración de Lp(a) en ecuaciones de riesgo podría modificar la elegibilidad para estatinas en adultos considerados de bajo riesgo. Entre 124 participantes con Lp(a) medida, incorporar valores elevados a la estimación de riesgo a 10 años reclasificó como candidatos a estatinas al 3,3%; los análisis exploratorios a 30 años generaron una reclasificación mayor. Para la mayoría de la cohorte sin medición se emplearon valores de Lp(a) imputados.",
-        "why_relevant": "El análisis aborda una cuestión práctica: la Lp(a) puede capturar riesgo de por vida que las estimaciones convencionales a 10 años infrarepresentan en personas jóvenes. Sus resultados son incrementales y modelizados: no evalúa eventos cardiovasculares, la muestra con Lp(a) medida fue pequeña y la imputación de Lp(a) limita la solidez de las estimaciones poblacionales.",
-        "practical_implication": "La Lp(a) elevada puede enriquecer la conversación preventiva, especialmente ante antecedentes familiares de ASCVD prematura o dudas sobre el inicio de tratamiento hipolipemiante. La decisión de estatinas no debería basarse exclusivamente en una reclasificación modelizada; la carga aterosclerótica, el LDL-C, apoB, los factores de riesgo acumulados y el contexto clínico siguen siendo determinantes.",
-        "source_title": "Lipoprotein(a) and statin indications in low-risk patients based on the 2026 ACC/AHA dyslipidemia guideline.",
-        "journal": "American heart journal plus : cardiology research and practice",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ahjo.2026.100993"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-11",
-    "generated_at": "2026-11-11T17:28:29.872081+00:00",
-    "items": [
-      {
-        "title": "ORION-4 evalúa si inclisiran reduce eventos cardiovasculares en prevención secundaria",
-        "what_happened": "El ensayo HPS-4/TIMI 65/ORION-4 aleatorizó a 16.124 personas con enfermedad cardiovascular aterosclerótica a inclisiran o placebo. Evaluará un compuesto de muerte coronaria, infarto de miocardio, ictus isquémico fatal o no fatal y revascularización coronaria urgente. La publicación disponible describe el diseño, el reclutamiento y las características basales; no comunica resultados de eficacia ni seguridad clínica a largo plazo.",
-        "why_relevant": "Será el primer ensayo de resultados cardiovasculares a gran escala de una terapia de ARN interferente dirigida a PCSK9. Puede determinar si la reducción sostenida de LDL-C con administración semestral se traduce en reducción de eventos, más allá de su efecto demostrado sobre un marcador lipídico sustituto.",
-        "practical_implication": "No modifica todavía la indicación clínica basada en eventos. En prevención secundaria, la elección de inclisiran debe seguir apoyándose en el objetivo de reducción de LDL-C, la adherencia, la tolerabilidad, el acceso y las recomendaciones vigentes, sin asumir beneficio sobre eventos hasta la comunicación de ORION-4.",
-        "source_title": "HPS-4/TIMI 65/ORION-4: A double-blind randomized placebo-controlled trial assessing the effects of inclisiran on clinical outcomes among people with atherosclerotic cardiovascular disease: Trial design, recruitment, and baseline characteristics.",
-        "journal": "American heart journal",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ahj.2026.107546"
-      },
-      {
-        "title": "Balón recubierto de fármaco frente a stent farmacoactivo en lesiones coronarias calcificadas: señal observacional a largo plazo",
-        "what_happened": "El registro retrospectivo SPARTAN comparó balón recubierto de fármaco con stent farmacoactivo en 1.057 pacientes con lesiones coronarias de novo consideradas calcificadas por el operador. Durante una mediana de 3,7 años, el fracaso de la lesión diana fue similar entre estrategias. Se observó una menor tasa de infarto de miocardio relacionado con la lesión diana con balón, sin diferencias significativas en mortalidad cardiovascular o total.",
-        "why_relevant": "La calcificación coronaria refleja una elevada carga aterosclerótica y complica la intervención coronaria percutánea. El estudio aporta datos clínicos de seguimiento prolongado para una estrategia sin implante permanente en un escenario habitualmente complejo.",
-        "practical_implication": "Los hallazgos no justifican sustituir de forma generalizada el stent farmacoactivo por balón recubierto de fármaco en lesiones calcificadas. Al tratarse de un registro retrospectivo, con definición de calcificación dependiente del operador y posible confusión residual, la selección debe individualizarse según preparación de lesión, resultado angiográfico e imágenes intracoronarias cuando estén indicadas.",
-        "source_title": "Drug-Coated Balloon Versus Drug-Eluting Stent in Calcified De Novo Coronary Lesions: Long-Term Outcomes from the SPARTAN Registry.",
-        "journal": "The American journal of cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.amjcard.2026.09.034"
-      },
-      {
-        "title": "Firma metabolómica para seleccionar tomografía de calcio coronario en personas clasificadas como de bajo riesgo",
-        "what_happened": "En participantes del estudio BioHEART-CT, una puntuación basada en edad, sexo y cinco cocientes de metabolitos mostró en una cohorte externa mayor discriminación para calcio coronario clínicamente accionable que una puntuación de riesgo tradicional. El modelo se desarrolló y validó en cohortes separadas, pero su desenlace fue la presencia de calcio coronario y no eventos cardiovasculares.",
-        "why_relevant": "La puntuación aborda una limitación relevante de la prevención primaria: una parte de las personas con aterosclerosis coronaria subclínica puede ser clasificada como de bajo riesgo por herramientas convencionales. Podría, en teoría, enriquecer la selección de candidatos para CAC y evitar exploraciones indiscriminadas.",
-        "practical_implication": "La firma no debe incorporarse todavía a la práctica habitual ni reemplazar la valoración clínica, las ecuaciones de riesgo validadas o la indicación selectiva de CAC. Requiere validación prospectiva, evaluación de calibración en otras poblaciones y demostración de que su uso mejora decisiones terapéuticas y eventos clínicos, no solo la detección de un marcador de imagen.",
-        "source_title": "Novel Metabolomic Signature as a Biomarker to Detect Subclinical Atherosclerosis in Individuals Traditionally Classified as Low Risk.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1161/circgen.125.005501"
-      },
-      {
-        "title": "Infección por VIH y eventos cardiovasculares en pacientes con aterosclerosis carotídea",
-        "what_happened": "Una cohorte retrospectiva unicéntrica de pacientes chinos con aterosclerosis carotídea ecográfica y sin enfermedad cardiovascular o cerebrovascular previa encontró una mayor incidencia acumulada de eventos cardiovasculares mayores a dos años en las personas con VIH. Tras ajuste multivariable, la seropositividad para VIH, el tabaquismo activo, la reducción del filtrado glomerular estimado y la hiperuricemia se asociaron con eventos incidentes.",
-        "why_relevant": "El estudio refuerza la necesidad de prevención cardiovascular intensiva en personas con VIH que ya presentan evidencia de aterosclerosis subclínica carotídea. Además, identifica factores potencialmente modificables, especialmente tabaquismo y riesgo renal, en una población con riesgo aterosclerótico elevado.",
-        "practical_implication": "La asociación no demuestra que el VIH o los otros factores sean causas independientes de los eventos, debido al diseño retrospectivo, unicéntrico y potencialmente sujeto a confusión residual. En pacientes con VIH y placa carotídea, resulta razonable una evaluación sistemática de lípidos, presión arterial, tabaquismo, función renal y tratamiento preventivo conforme al riesgo global, sin extrapolar las estimaciones de riesgo de esta cohorte a todas las poblaciones.",
-        "source_title": "Association of HIV infection with short-term major adverse cardiovascular events among Chinese patients with carotid atherosclerosis: a single-center retrospective cohort study.",
-        "journal": "Annals of medicine",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1080/07853890.2026.2753324"
-      },
-      {
-        "title": "Aceite enriquecido con fitoesteroles: ensayo pequeño con mejoría de lípidos, sin datos de eventos",
-        "what_happened": "Un ensayo aleatorizado, de diseño paralelo y simple ciego asignó a 60 adultos con dislipidemia limítrofe aceite mezclado de maíz y germen de trigo enriquecido con fitoesteroles o aceite de cacahuete durante tres meses. El grupo de intervención presentó reducciones de colesterol total, triglicéridos, LDL-C y apoB; el trabajo también incluyó experimentos mecanísticos en ratas.",
-        "why_relevant": "La reducción de LDL-C y apoB es coherente con una estrategia dietética dirigida a disminuir lipoproteínas aterogénicas. No obstante, apoB y LDL-C son resultados sustitutos, y la magnitud, sostenibilidad y aplicabilidad clínica del efecto requieren confirmación.",
-        "practical_implication": "El producto puede considerarse, como otros alimentos con fitoesteroles, un posible complemento dietético dentro de un patrón alimentario cardiosaludable, pero no un sustituto de estatinas u otros tratamientos hipolipemiantes con evidencia de reducción de eventos cuando estos están indicados. La interpretación está limitada por el tamaño muestral pequeño, el seguimiento breve, el cegamiento incompleto y la ausencia de resultados cardiovasculares clínicos.",
-        "source_title": "Phytosterol-enriched corn and wheat germ blended oil improves lipid metabolism in hyperlipidemia via the AMPK/PPARα/CPT1 pathway.",
-        "journal": "Food research international (Ottawa, Ont.)",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.foodres.2026.120939"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-10",
-    "generated_at": "2026-11-10T17:18:20.501282+00:00",
-    "items": [
-      {
-        "title": "Reloj inteligente con IA para detección oportunista de hipertensión",
-        "what_happened": "Un estudio prospectivo multicéntrico evaluó un algoritmo de IA aplicado a fotopletismografía y acelerometría de un reloj inteligente, sin calibración con manguito, frente a monitorización ambulatoria de presión arterial de 24 horas en 196 personas sin enfermedad cardiovascular conocida ni tratamiento antihipertensivo. Durante siete días, el algoritmo detectó hipertensión con sensibilidad del 65,8% y especificidad del 90,0%.",
-        "why_relevant": "La hipertensión permanece infradiagnosticada y constituye una diana central de prevención cardiovascular. El estudio aporta validación prospectiva en condiciones de vida real para una estrategia de cribado oportunista, no para diagnóstico autónomo. La sensibilidad moderada implica que un resultado negativo no excluye hipertensión.",
-        "practical_implication": "El reloj inteligente podría utilizarse para identificar personas que requieren medición clínica confirmatoria con técnicas validadas, preferentemente monitorización ambulatoria o domiciliaria con manguito. No debe sustituir la confirmación diagnóstica ni la titulación terapéutica basada en presión arterial medida con dispositivos validados.",
-        "source_title": "Opportunistically Detecting Signs of Hypertension on a Consumer Smartwatch.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1038/s41586-026-11336-3"
-      },
-      {
-        "title": "La colchicina no redujo la inflamación aórtica medida por FDG-PET en enfermedad coronaria crónica",
-        "what_happened": "En un ensayo aleatorizado, doble ciego y controlado con placebo, 111 pacientes con enfermedad coronaria crónica recibieron colchicina 0,6 mg diarios o placebo durante 24 semanas. La colchicina no redujo el desenlace primario de captación aórtica de FDG-PET frente a placebo. Los análisis secundarios y exploratorios mostraron reducción del cociente neutrófilos/linfocitos, una tendencia a menor proteína C reactiva ultrasensible y menor incremento de la presión arterial.",
-        "why_relevant": "El estudio examina mecanismos potenciales de la colchicina en prevención secundaria, pero sus resultados principales son negativos para inflamación vascular de grandes vasos. Los hallazgos de biomarcadores y presión arterial son secundarios o exploratorios, y no demuestran reducción de eventos cardiovasculares.",
-        "practical_implication": "La evidencia no respalda emplear la respuesta de FDG-PET, del cociente neutrófilos/linfocitos o de presión arterial como indicadores de beneficio clínico de la colchicina. Las decisiones sobre colchicina en enfermedad coronaria deben basarse en la evidencia de resultados clínicos y en la valoración individual de beneficio, seguridad e interacciones, no en este ensayo mecanístico.",
-        "source_title": "Colchicine in chronic coronary artery disease: effects on vascular glucose uptake, inflammation, remodeling and blood pressure.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1093/cvr/cvag272"
-      },
-      {
-        "title": "La angiografía por TC detecta placa coronaria incluso con CAC cero en una cohorte india seleccionada",
-        "what_happened": "En un estudio transversal de un único centro con 1.750 adultos asintomáticos, predominantemente de alto riesgo y derivados para angiografía coronaria por tomografía computarizada, se identificó enfermedad coronaria en el 62%: no obstructiva en el 45% y obstructiva en el 17%. Hubo enfermedad coronaria en el 27% de quienes tenían calcio coronario cero y en el 44% de quienes presentaban bajo riesgo según Framingham.",
-        "why_relevant": "El trabajo ilustra una limitación conocida del CAC: un resultado de cero no excluye placa no calcificada, particularmente en poblaciones seleccionadas y potencialmente más jóvenes. Sin embargo, describe prevalencia de imagen, no demuestra que realizar angiografía por TC en asintomáticos mejore eventos clínicos o sea coste-efectivo.",
-        "practical_implication": "El CAC cero debe interpretarse dentro del contexto clínico y no como exclusión universal de aterosclerosis, especialmente cuando existen factores de riesgo relevantes o sospecha de enfermedad prematura. Estos datos no justifican el cribado sistemático con angiografía coronaria por TC en población asintomática; su uso requiere selección clínica individualizada.",
-        "source_title": "PREVALENCE OF CORONARY ARTERY DISEASE ON CORONARY CT ANGIOGRAPHY IN ASYMPTOMATIC, PREDOMINANTLY HIGH-RISK INDIAN ADULTS: A SINGLE-CENTRE CROSS-SECTIONAL STUDY.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1016/j.ihj.2026.11.146"
-      },
-      {
-        "title": "La albuminuria se asocia con mayor carga aterosclerótica coronaria, pero la asociación se atenúa tras el ajuste",
-        "what_happened": "Un análisis transversal de 9.424 participantes del estudio sueco SCAPIS evaluó la relación entre el cociente albúmina/creatinina urinaria y la carga aterosclerótica coronaria mediante CAC y angiografía coronaria por TC. Una albuminuria mayor se asoció con mayor CAC en análisis ajustados, aunque la magnitud fue pequeña y las asociaciones con calcificación prevalente y estenosis dejaron de ser significativas tras ajustes más amplios. Al excluir hipertensión y diabetes, la asociación ajustada con CAC tampoco fue significativa.",
-        "why_relevant": "La albuminuria puede señalar un fenotipo de daño vascular y cardiometabólico precoz, pero este estudio es observacional y transversal. Por tanto, no permite establecer causalidad ni demostrar que reducir albuminuria disminuya por sí misma la carga aterosclerótica o los eventos coronarios.",
-        "practical_implication": "La albuminuria debe reforzar la evaluación global de riesgo cardiovascular, renal, presión arterial, diabetes y exposición aterogénica, sin considerarse un marcador aislado que indique imagen coronaria. La prevención debe centrarse en el control intensivo de los factores causales modificables establecidos.",
-        "source_title": "The association between albuminuria and coronary atherosclerotic burden in the general population.",
-        "journal": "Atherosclerosis plus",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.athplu.2026.100610"
-      },
-      {
-        "title": "El CAC moderado se asoció con ictus incidente, pero no con fibrilación auricular ni mortalidad",
-        "what_happened": "Un estudio de datos clínicos reales incluyó 2.175 adultos sometidos a puntuación de calcio coronario y seguidos durante aproximadamente diez años. Tras ajuste multivariable, la categoría CAC-DRS 2 se asoció con mayor riesgo de ictus isquémico incidente, mientras que no se observaron asociaciones significativas entre CAC y fibrilación auricular de nueva aparición o mortalidad por todas las causas.",
-        "why_relevant": "El hallazgo apoya que la carga de calcio coronario refleja riesgo vascular sistémico, pero procede de una cohorte observacional con pocos eventos de ictus. No establece que el CAC deba solicitarse para predecir ictus ni que el resultado deba modificar por sí solo las estrategias preventivas.",
-        "practical_implication": "El CAC debe conservarse como herramienta de refinamiento del riesgo aterosclerótico coronario en pacientes seleccionados, no como prueba de cribado de fibrilación auricular o mortalidad. Cuando revela aterosclerosis subclínica relevante, debe impulsar una revisión integral de LDL-colesterol/apoB, presión arterial, tabaquismo, diabetes y adherencia a prevención primaria.",
-        "source_title": "Prognostic value of coronary artery calcification score for long-term risk of stroke, atrial fibrillation and mortality: Analysis of real-world data.",
-        "journal": "Current problems in cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.cpcardiol.2026.103482"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-09",
-    "generated_at": "2026-11-09T20:01:57.576121+00:00",
-    "items": [
-      {
-        "title": "Pelacarsen no redujo los eventos cardiovasculares mayores pese a disminuir Lp(a)",
-        "what_happened": "En un ensayo aleatorizado y controlado con placebo en pacientes con enfermedad cardiovascular establecida y Lp(a) elevada, pelacarsen no redujo el objetivo compuesto de muerte cardiovascular, infarto no fatal, ictus no fatal o revascularización coronaria urgente. El análisis por tratamiento recibido, los eventos recurrentes, los análisis de referencia a 3 meses y los subgrupos tampoco mostraron beneficio clínico.",
-        "why_relevant": "El resultado cuestiona que una reducción farmacológica importante de Lp(a), por sí sola, se traduzca necesariamente en menos eventos. Constituye evidencia causal de un ensayo clínico con desenlaces clínicos, no un resultado basado únicamente en biomarcadores. También subraya que Lp(a) sigue siendo un marcador y factor de riesgo útil para estratificación, pero que aún no existe demostración de beneficio clínico con esta estrategia específica de reducción.",
-        "practical_implication": "En pacientes con Lp(a) elevada, la práctica clínica debería reforzar el control intensivo de los factores modificables, especialmente la reducción de LDL-C y apoB, la presión arterial, el tabaquismo y la adherencia terapéutica. No debería asumirse que reducir Lp(a) farmacológicamente garantiza beneficio en eventos hasta disponer de resultados positivos y reproducibles de otros ensayos de desenlaces.",
-        "source_title": "Extended Analyses of Pelacarsen and Cardiovascular Outcomes in Patients with High Lipoprotein(a).",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1056/evidoa2600373"
-      },
-      {
-        "title": "El riesgo poligénico identifica eventos ASCVD en personas clasificadas como de bajo riesgo clínico",
-        "what_happened": "En una cohorte longitudinal de UK Biobank de 266.917 adultos sin ASCVD ni diabetes, sin tratamiento hipolipemiante y con LDL-C basal inferior a 190 mg/dL, un puntaje de riesgo poligénico para enfermedad coronaria se asoció de forma graduada con infarto, ictus isquémico o muerte cardiovascular. Frente al 50% con menor puntaje, el riesgo ajustado fue mayor desde el 50% superior y alcanzó una asociación cercana a diez veces en el 1% superior. Añadir el puntaje mejoró la discriminación y reclasificó a una proporción de participantes hacia categorías de mayor riesgo.",
-        "why_relevant": "El estudio aborda una limitación central de la prevención primaria: una estimación clínica de bajo riesgo puede ocultar susceptibilidad hereditaria relevante. El desenlace fue clínico, pero la evidencia es observacional; por tanto, demuestra asociación pronóstica y reclasificación, no que tratar según el puntaje poligénico reduzca eventos.",
-        "practical_implication": "El puntaje poligénico podría considerarse un modulador de riesgo en personas seleccionadas con riesgo clínico aparentemente bajo, especialmente si existe historia familiar de ASCVD prematura. Su uso no debería sustituir la evaluación de LDL-C, apoB, Lp(a), factores convencionales ni la búsqueda de aterosclerosis subclínica cuando esté indicada; tampoco justifica por sí mismo una estrategia terapéutica cuya eficacia no haya sido demostrada en ensayos.",
-        "source_title": "Utility of a coronary artery disease polygenic risk score in a low-risk primary prevention cohort.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101722"
-      },
-      {
-        "title": "La IA aplicada a TC de tórax no sincronizada predijo insuficiencia cardiaca y fibrilación auricular",
-        "what_happened": "En participantes de MESA, la volumetría automatizada de cámaras cardiacas mediante IA en TC de tórax no sincronizada mostró una concordancia elevada con la obtenida en TC sincronizada por ECG. Las mediciones de aurícula y ventrículo izquierdos, así como la relación ventricular, presentaron capacidad predictiva comparable para insuficiencia cardiaca incidente y fibrilación auricular.",
-        "why_relevant": "El trabajo sugiere que una TC torácica realizada por otra indicación puede aportar información cardiovascular oportunista, sin una nueva adquisición. Los desenlaces evaluados fueron clínicos e incidentes, pero se trata de una evaluación pronóstica en cohorte, no de un ensayo que demuestre que la detección por IA y la intervención posterior mejoren resultados.",
-        "practical_implication": "Los programas de imagen podrían evaluar de forma prospectiva la incorporación de análisis automatizado de cámaras cardiacas en TC torácicas disponibles, con circuitos claros para confirmación clínica y manejo del riesgo. Antes de su adopción rutinaria, deberían demostrarse impacto clínico, coste-efectividad, reproducibilidad externa y ausencia de sobrediagnóstico.",
-        "source_title": "Heart failure and atrial fibrillation prediction from non-gated chest CT scans using AI-based cardiac chamber volumetry: an AI-CVD study within the multi-ethnic study of atherosclerosis (MESA).",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101732"
-      },
-      {
-        "title": "La colchicina redujo la fibrilación auricular posoperatoria, sin beneficio demostrado en mortalidad o ictus",
-        "what_happened": "Un metaanálisis de nueve ensayos aleatorizados con 2.005 pacientes sometidos a cirugía cardiaca encontró que la colchicina se asoció con menor fibrilación auricular posoperatoria frente a placebo. No se observaron diferencias estadísticamente significativas en mortalidad por cualquier causa, ictus ni implantación de marcapasos permanente. La estancia hospitalaria fue menor en el grupo de colchicina, un hallazgo exploratorio.",
-        "why_relevant": "La fibrilación auricular posoperatoria es un evento clínicamente relevante y frecuente tras cirugía cardiaca. La síntesis reúne ensayos aleatorizados, por lo que sustenta una inferencia causal para ese desenlace. Sin embargo, no demuestra reducción de eventos mayores, y los intervalos de confianza para mortalidad, ictus y marcapasos fueron amplios.",
-        "practical_implication": "La colchicina podría valorarse de forma individualizada para prevenir fibrilación auricular posoperatoria en pacientes seleccionados, ponderando tolerabilidad, interacciones y riesgo gastrointestinal. No debería presentarse como una intervención con beneficio probado sobre mortalidad, ictus o prevención aterosclerótica secundaria a largo plazo.",
-        "source_title": "Association Between Colchicine Use and Clinical Outcomes Post Cardiac Surgery: A Meta-analysis of Randomized Controlled Trials.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1007/s40256-026-00831-7"
-      },
-      {
-        "title": "El cribado poblacional de hipercolesterolemia familiar en la infancia mantiene una base indirecta, pero clínicamente sólida",
-        "what_happened": "Una revisión resumió la evidencia sobre cribado poblacional infantil de hipercolesterolemia familiar mediante LDL-C y pruebas genéticas. Destacó la elevada infradiagnosticación, la exposición acumulada a LDL-C desde el nacimiento, el rendimiento diagnóstico y las consideraciones económicas del cribado. No identificó ensayos aleatorizados que comparasen poblaciones cribadas frente a no cribadas en eventos cardiovasculares.",
-        "why_relevant": "La hipercolesterolemia familiar representa un modelo paradigmático de riesgo por exposición acumulada a LDL-C y partículas que contienen apoB. La detección precoz permite iniciar intervenciones antes de que se acumule carga aterosclerótica; sin embargo, el beneficio poblacional sobre eventos procede de evidencia indirecta, estudios de historia natural y eficacia hipolipemiante, no de un ensayo aleatorizado de cribado.",
-        "practical_implication": "Los sistemas sanitarios deberían considerar estrategias estructuradas de detección precoz, cribado en cascada familiar y, donde sea factible, programas poblacionales infantiles con vías de confirmación diagnóstica y tratamiento. La ausencia de un ensayo de cribado con eventos no debería confundirse con ausencia de plausibilidad o necesidad clínica, pero exige evaluar implementación, equidad, costes y resultados locales.",
-        "source_title": "Population-based screening for familial hypercholesterolaemia.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1515/medgen-2026-3033"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-08",
-    "generated_at": "2026-11-08T16:17:39.534206+00:00",
-    "items": [
-      {
-        "title": "La carga de placa carotídea como herramienta de prevención cardiovascular personalizada",
-        "what_happened": "Un estudio observacional no aleatorizado evaluó ecografía carotídea en 11.540 personas sin enfermedad cardiovascular clínica, cuantificando el área total de placa y su evolución. La carga de placa avanzada se asoció con mayor riesgo cardiovascular, y los participantes tratados con estatinas presentaron menor mortalidad por cualquier causa, particularmente los hombres. La asociación con estatinas no demuestra un efecto causal, porque la asignación del tratamiento no fue aleatoria y puede existir confusión por indicación y por otros componentes de la atención preventiva.",
-        "why_relevant": "La cuantificación de placa carotídea aporta una medida directa de aterosclerosis subclínica, potencialmente útil cuando los estimadores convencionales infravaloran el riesgo. El hallazgo de que una proporción relevante de quienes presentaron infarto o ictus tenía riesgo PROCAM bajo subraya la posible discordancia entre riesgo calculado y carga aterosclerótica.",
-        "practical_implication": "La ecografía carotídea con evaluación de placa, preferiblemente más allá del grosor íntima-media aislado, puede considerarse para refinar el riesgo en pacientes seleccionados con incertidumbre terapéutica. La decisión de intensificar el control de LDL-C y otros factores debe integrarse con el riesgo global; este estudio no permite atribuir causalmente a las estatinas el mejor pronóstico observado.",
-        "source_title": "Personalized Prevention of Cardiovascular Diseases Through Measurement of Plaque Burden in the Carotid Artery.",
-        "journal": "Cardiology research",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.14740/cr2325"
-      },
-      {
-        "title": "Patrones dietéticos y progresión de calcio coronario en MESA",
-        "what_happened": "En un análisis longitudinal de 3.182 participantes de MESA, un patrón alimentario rico en cereales integrales y fruta se asoció con menor incidencia y progresión de calcificación coronaria, mientras que un patrón rico en grasas y carnes procesadas se asoció con mayor progresión. Las asociaciones fueron más evidentes en participantes blancos y se atenuaron en participantes negros.",
-        "why_relevant": "La calcificación coronaria es un marcador de carga aterosclerótica y permite estudiar trayectorias subclínicas antes de los eventos. El trabajo añade evidencia observacional coherente con la prevención dietética, pero no demuestra que modificar un patrón dietético reduzca eventos cardiovasculares ni que reduzca causalmente la progresión de CAC.",
-        "practical_implication": "Los patrones dietéticos basados en alimentos mínimamente procesados, fruta y cereales integrales mantienen respaldo como parte del control global del riesgo. La progresión de CAC no debe utilizarse como sustituto de eventos clínicos ni como objetivo terapéutico aislado; la interpretación debe incorporar LDL-C, presión arterial, tabaquismo, diabetes y tratamiento hipolipemiante.",
-        "source_title": "Diet patterns are associated with progression of coronary artery calcification and differ across race/ethnicity: The Multi-Ethnic Study of Atherosclerosis.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101791"
-      },
-      {
-        "title": "La grasa epicárdica radiomizada complementa al CAC en adultos negros con diabetes tipo 2",
-        "what_happened": "Un análisis del registro CLARIFY estudió 1.024 adultos negros y 3.072 adultos blancos emparejados con diabetes tipo 2 sometidos a tomografía para CAC. En la cohorte negra, un modelo que combinó índice de privación social, CAC y características radiómicas de grasa epicárdica mejoró la reclasificación de eventos cardiovasculares mayores frente a CAC aislado; este incremento no se observó en la cohorte blanca.",
-        "why_relevant": "El estudio aborda una limitación clínica relevante: el CAC puede ser menor y potencialmente menos discriminativo en algunos grupos, pese a una elevada carga de riesgo cardiometabólico. A diferencia de estudios puramente mecanísticos, el desenlace fue un compuesto clínico de muerte cardiovascular, infarto no fatal e ictus no fatal.",
-        "practical_implication": "La radiomica de grasa epicárdica debe considerarse una estrategia pronóstica emergente y no un estándar para decidir tratamiento. Requiere validación externa, evaluación de calibración, estandarización técnica y demostración de que su uso mejora decisiones preventivas y resultados clínicos, antes de incorporarla de forma rutinaria.",
-        "source_title": "Epicardial adipose tissue radiomics complement calcium scoring in black adults with type 2 diabetes mellitus.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101693"
-      },
-      {
-        "title": "Monitorización automatizada de objetivos lipídicos desde el laboratorio: brecha persistente en prevención",
-        "what_happened": "Un sistema de apoyo a la decisión clínica integrado en el laboratorio reclasificó el riesgo cardiovascular y notificó resultados lipídicos por encima de objetivo en atención primaria. En los primeros cuatro meses evaluó 9.507 solicitudes; el control de objetivos fue bajo, especialmente en pacientes de riesgo alto y muy alto. En un subgrupo sin tratamiento hipolipemiante basal, parte de los pacientes inició tratamiento durante el seguimiento y una minoría alcanzó posteriormente el objetivo.",
-        "why_relevant": "La publicación identifica una brecha implementativa relevante: la estratificación de riesgo y la disponibilidad de tratamiento no garantizan el control de LDL-C o colesterol no-HDL. También operacionaliza el uso de colesterol no-HDL cuando los triglicéridos son muy elevados y el LDL-C puede ser menos fiable.",
-        "practical_implication": "Los sistemas automatizados de detección de objetivos lipídicos no alcanzados pueden apoyar la intensificación terapéutica y el seguimiento longitudinal, especialmente en pacientes de alto y muy alto riesgo. La evidencia es de implementación en un único entorno, con seguimiento corto y sin comparación aleatorizada ni demostración de reducción de eventos clínicos.",
-        "source_title": "Longitudinal automated lipid target monitoring integrated into a laboratory-based clinical decision support system: a real-world cardiovascular risk management approach.",
-        "journal": "Clinica chimica acta; international journal of clinical chemistry",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.cca.2026.121283"
-      },
-      {
-        "title": "En atletas máster, la placa carotídea no mejora la discriminación de aterosclerosis coronaria",
-        "what_happened": "En un análisis transversal de 549 hombres de bajo riesgo cardiovascular, incluidos atletas máster de ejercicio de larga duración, la prevalencia de placa carotídea y la rigidez aórtica no difirieron entre atletas de toda la vida, atletas de inicio tardío y controles sanos. La placa carotídea se asoció con aterosclerosis coronaria en angiografía por tomografía, pero no mejoró de forma significativa la discriminación frente a los factores de riesgo tradicionales.",
-        "why_relevant": "El estudio matiza el uso de imágenes carotídeas en prevención: la presencia de placa puede correlacionarse con enfermedad coronaria, pero dicha asociación no implica que añada valor clínico suficiente para el cribado sistemático. Es especialmente pertinente en deportistas, en quienes los algoritmos de riesgo convencionales y la interpretación de hallazgos subclínicos pueden ser complejos.",
-        "practical_implication": "La ecografía carotídea no parece justificarse como prueba rutinaria para detectar aterosclerosis coronaria en atletas máster de bajo riesgo. La evaluación debe priorizar factores de riesgo establecidos y utilizar las pruebas de imagen de forma selectiva, cuando el resultado pueda modificar una decisión preventiva concreta.",
-        "source_title": "Carotid atherosclerosis and aortic stiffness in masters athletes: Multimodality vascular phenotyping from the Master@Heart study.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101771"
-      }
-    ]
-  },
-  {
-    "date": "2026-11-07",
-    "generated_at": "2026-11-07T15:55:08.660680+00:00",
-    "items": [
-      {
-        "title": "La vacunación antigripal se asocia con menos eventos cardiovasculares en prevención secundaria",
-        "what_happened": "Un metaanálisis sistemático y en red de 10 ensayos aleatorizados (131.908 participantes con enfermedad cardiovascular establecida) comparó estrategias de vacunación antigripal. Frente a no vacunación, la vacuna inactivada a dosis estándar se asoció con menor riesgo de un desenlace cardiovascular compuesto, mortalidad total, mortalidad cardiovascular e infarto de miocardio. No se observaron reducciones estadísticamente significativas de ictus ni de hospitalización por insuficiencia cardiaca.",
-        "why_relevant": "Aporta síntesis de evidencia aleatorizada sobre una intervención preventiva de bajo coste y aplicable en prevención secundaria. El beneficio se refiere a eventos clínicos, no solo a biomarcadores. La señal de reducción de mortalidad se concentró en ensayos con pacientes ingresados por eventos cardiovasculares agudos.",
-        "practical_implication": "La vacunación antigripal anual debe mantenerse como componente de la prevención secundaria cardiovascular. No existe evidencia concluyente de que las formulaciones de dosis alta proporcionen una protección cardiovascular adicional frente a la dosis estándar; las comparaciones directas entre dosis no alcanzaron significación estadística.",
-        "source_title": "Comparative effectiveness of influenza vaccination dosing strategies for cardiovascular protection: A systematic review and network meta-analysis of randomized controlled trials.",
-        "journal": "American heart journal",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ahj.2026.107591"
-      },
-      {
-        "title": "Evolocumab en enfermedad cardiovascular establecida: síntesis actualizada de reducción lipídica y eventos",
-        "what_happened": "Una revisión sistemática y metaanálisis de nueve ensayos aleatorizados, con 67.662 pacientes con enfermedad cardiovascular establecida, evaluó evolocumab. El tratamiento redujo de forma marcada LDL-C, apoB, colesterol no HDL y Lp(a), y se asoció con menor riesgo de eventos cardiovasculares mayores, infarto de miocardio y revascularización coronaria. No se demostró una reducción estadísticamente definitiva de mortalidad cardiovascular ni de ictus.",
-        "why_relevant": "Refuerza la base de prevención secundaria intensiva dirigida a lipoproteínas aterogénicas, especialmente en pacientes que permanecen por encima de objetivos de LDL-C pese a estatinas optimizadas. Incluye desenlaces clínicos, aunque la estimación compuesta de eventos cardiovasculares mayores debe interpretarse con cautela por la heterogeneidad de definiciones entre ensayos.",
-        "practical_implication": "Evolocumab puede considerarse como tratamiento añadido a estatinas, con o sin ezetimiba según el contexto clínico, cuando persiste LDL-C elevado en prevención secundaria. La decisión debe basarse en el riesgo absoluto, el LDL-C residual, la adherencia y el acceso, sin inferir un beneficio probado sobre mortalidad cardiovascular a partir de este análisis.",
-        "source_title": "Impact of Evolocumab on LDL-Cholesterol and Cardiovascular Outcomes in Patients With Established CVD: Systematic Review and Meta-Analysis.",
-        "journal": "",
-        "source_database": "Europe PMC",
-        "url": "https://doi.org/10.1002/edm2.70355"
-      },
-      {
-        "title": "Las terapias hipolipemiantes basadas en ARN muestran efectos dependientes de la diana molecular",
-        "what_happened": "Un metaanálisis de 16 ensayos aleatorizados y 5.604 participantes comparó terapias basadas en ARN dirigidas a PCSK9, APOC3 o ANGPTL3. Las terapias contra PCSK9, incluido inclisiran, produjeron las mayores reducciones de LDL-C, apoB y colesterol no HDL; las dirigidas a APOC3 lograron la mayor reducción de triglicéridos. Los eventos adversos globales, graves y causantes de retirada fueron comparables a placebo.",
-        "why_relevant": "La síntesis respalda que la selección de terapias de ARN debe alinearse con la alteración lipoproteica predominante: partículas aterogénicas con apoB para la inhibición de PCSK9 y hipertrigliceridemia para las estrategias contra APOC3. Los resultados principales son cambios en lípidos, es decir, desenlaces sustitutos, y no demuestran por sí mismos reducción de eventos cardiovasculares.",
-        "practical_implication": "En dislipidemia aterogénica, la reducción de LDL-C y apoB continúa siendo la prioridad terapéutica. Las terapias basadas en ARN pueden ampliar las opciones en pacientes seleccionados, pero la adopción para prevención de eventos debe reconocer que faltan datos robustos de resultados clínicos a largo plazo para varias de estas plataformas.",
-        "source_title": "Effectiveness and safety of target-specific RNA-based lipid-lowering therapies: A systematic review and meta-analysis of randomized controlled trials.",
-        "journal": "European journal of pharmacology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ejphar.2026.179420"
-      },
-      {
-        "title": "La ecografía carotídea y femoral no sustituye a la tomografía cardiaca en hipercolesterolemia familiar",
-        "what_happened": "Una revisión sistemática identificó 13 estudios y realizó metaanálisis de tres estudios sobre ecografía carotídea y femoral para detectar aterosclerosis coronaria subclínica en adultos con hipercolesterolemia familiar sin enfermedad aterosclerótica clínica. La ecografía periférica mostró sensibilidad agrupada del 78,9%, pero especificidad baja, del 32,0%, frente a tomografía cardiaca. La calidad global de la evidencia fue muy baja.",
-        "why_relevant": "La hipercolesterolemia familiar implica exposición acumulada y de por vida a LDL aterogénico, con alto riesgo de aterosclerosis prematura. El hallazgo aclara el papel de la imagen periférica: la presencia de placa puede identificar aterosclerosis sistémica, pero un resultado ecográfico no permite reemplazar la caracterización coronaria mediante tomografía.",
-        "practical_implication": "La ecografía carotídea o femoral puede utilizarse como herramienta complementaria o de triaje en contextos seleccionados, pero no debe considerarse un sustituto de la tomografía cardiaca para descartar aterosclerosis coronaria subclínica en hipercolesterolemia familiar. La baja especificidad y la evidencia muy limitada exigen evitar decisiones terapéuticas basadas exclusivamente en un estudio ecográfico negativo.",
-        "source_title": "Diagnostic accuracy of peripheral ultrasound in familial hypercholesterolemia: a systematic review and meta-analysis.",
-        "journal": "Scandinavian cardiovascular journal : SCJ",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1080/14017431.2026.2735712"
-      },
-      {
-        "title": "La cuantificación de calcio coronario mediante IA identifica riesgo dentro del CAC convencional de cero",
-        "what_happened": "Un análisis longitudinal conjunto de MESA y Framingham incluyó 3.965 personas con CAC convencional de Agatston igual a cero. Un método de inteligencia artificial, Agatston-2.0, detectó calcio de baja carga en el 21,7% de ellas. La presencia de CAC detectado por IA se asoció con mayor incidencia de cardiopatía coronaria a 20 años y con mayor probabilidad de progresar posteriormente a CAC convencional positivo, tras ajuste multivariable.",
-        "why_relevant": "El estudio cuestiona que todos los resultados de CAC igual a cero tengan idéntico significado pronóstico. Sugiere que la cuantificación continua y sin umbral fijo podría detectar calcificación pequeña, de baja densidad o parcialmente calcificada no captada por el método convencional. Sin embargo, se trata de evidencia observacional de cohortes, no de una estrategia diagnóstica o terapéutica validada en ensayos clínicos.",
-        "practical_implication": "El CAC convencional de cero mantiene su valor para identificar riesgo bajo en contextos apropiados. Agatston-2.0 no debe modificar todavía la práctica rutinaria ni indicar tratamiento por sí solo; requiere validación externa, estandarización técnica y demostración de que su uso mejora decisiones preventivas y resultados clínicos.",
-        "source_title": "Agatston-2.0: A next-generation AI-based coronary calcium quantification approach to improve risk stratification among individuals with zero Agatston scores - Part I: An AI-CVD Study within the Multi-Ethnic Study of Atherosclerosis and Framingham Heart Study.",
-        "journal": "American journal of preventive cardiology",
-        "source_database": "PubMed",
-        "url": "https://doi.org/10.1016/j.ajpc.2026.101698"
-      }
-    ]
   }
 ]
