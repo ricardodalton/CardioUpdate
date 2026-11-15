@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-11-15",
+    "generated_at": "2026-11-15T16:35:25.440765+00:00",
+    "items": [
+      {
+        "title": "La diabetes se asocia con exceso sostenido de mortalidad y eventos tras ICP con stent farmacoactivo a 10 años",
+        "what_happened": "Un análisis agrupado de cinco ensayos aleatorizados con seguimiento disponible a 10 años comparó 2.298 pacientes con diabetes y 7.401 sin diabetes tratados con stents farmacoactivos. La diabetes se asoció con mayor mortalidad total (HR ajustado 1,68; IC 95% 1,59-1,78), mortalidad cardiovascular (HR ajustado 1,74; IC 95% 1,63-1,87), trombosis definitiva del stent, revascularización de lesión y vaso diana, y revascularización de vasos no diana. El exceso de infarto se concentró principalmente en el primer mes y el de trombosis definitiva del stent entre 30 días y un año.",
+        "why_relevant": "Aporta una caracterización de largo plazo, con desenlaces clínicamente relevantes y una gran cohorte procedente de ensayos, del riesgo residual de la diabetes tras ICP. No demuestra que una estrategia concreta reduzca dicho riesgo: la diabetes no fue asignada aleatoriamente y las asociaciones pueden reflejar diferencias residuales entre pacientes.",
+        "practical_implication": "La diabetes debe considerarse un marcador de riesgo elevado y persistente después de ICP, que refuerza la necesidad de prevención secundaria intensiva y seguimiento prolongado. El estudio no permite seleccionar por sí solo un stent, pauta antitrombótica o tratamiento hipoglucemiante específico.",
+        "source_title": "Diabetes mellitus and 10-year clinical outcomes after percutaneous coronary intervention with drug-eluting stents: insights from the DECADE cooperation.",
+        "journal": "Cardiovascular diabetology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1186/s12933-026-03434-3",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2026-11-11"
+      },
+      {
+        "title": "La descarga ventricular precoz con Impella durante VA-ECMO no mejoró la supervivencia frente a una estrategia diferida",
+        "what_happened": "En un análisis retrospectivo con emparejamiento por puntuación de propensión de 282 pares de pacientes con shock cardiogénico tratados con VA-ECMO e Impella, la implantación precoz de Impella —desde el día previo hasta el posterior al inicio de VA-ECMO— no redujo la mortalidad a 30 días frente a su implantación a los 2-7 días (48,9% frente a 49,6%; RR 0,99; IC 95% 0,83-1,17). Tampoco se observaron diferencias de mortalidad a 90 días o un año. La mayor necesidad inicial de terapia renal sustitutiva con la estrategia precoz no se reprodujo en análisis de sensibilidad con inicio del seguimiento alineado a VA-ECMO.",
+        "why_relevant": "Aborda una decisión frecuente y de alta gravedad clínica en shock cardiogénico, con mortalidad a corto y largo plazo como desenlace principal y análisis diseñados para explorar sesgos temporales. Sin embargo, al tratarse de un estudio no aleatorizado, persisten confusión residual y posible sesgo de tiempo inmortal, reconocidos en el resumen.",
+        "practical_implication": "La colocación precoz sistemática de Impella para descarga ventricular durante VA-ECMO no queda respaldada por una ventaja de supervivencia en estos datos. La decisión debe individualizarse según fisiología, complicaciones y factibilidad, a la espera de ensayos aleatorizados.",
+        "source_title": "Early versus delayed impella unloading during venoarterial ECMO for cardiogenic shock: a propensity-matched analysis.",
+        "journal": "Journal of artificial organs : the official journal of the Japanese Society for Artificial Organs",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1007/s10047-026-01606-2",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-13"
+      },
+      {
+        "title": "En estenosis aórtica grave con coronariopatía estable, una estrategia de TAVI primero no mostró peores resultados ajustados que ICP primero",
+        "what_happened": "Una cohorte retrospectiva de 209 pacientes con estenosis aórtica grave y coronariopatía estable sometidos a TAVI comparó ICP antes de TAVI con TAVI inicial. Aunque la incidencia cruda de eventos cardiovasculares mayores al año fue superior con ICP primero, la diferencia no fue significativa tras ajuste por puntuación de propensión (HR 1,62; IC 95% 0,60-5,2). El grupo de ICP primero presentó más hemorragias y transfusiones. Entre quienes recibieron TAVI primero, la aparente menor incidencia de eventos con ICP posterior no persistió en el análisis landmark de 90 días.",
+        "why_relevant": "Informa una controversia directamente aplicable en una población frecuente y utiliza desenlaces clínicos, incluidos muerte, infarto y revascularización no planificada. La comparación está limitada por su diseño retrospectivo, grupos basales diferentes, muestra moderada e intervalos de confianza amplios; no establece la superioridad de una secuencia.",
+        "practical_implication": "En pacientes seleccionados con enfermedad coronaria estable y estenosis aórtica grave, TAVI primero con ICP selectiva posterior puede considerarse una alternativa razonable, especialmente si se pretende evitar el riesgo hemorrágico de una ICP previa. La revascularización debe seguir guiándose por anatomía, fisiología, síntomas y complejidad coronaria.",
+        "source_title": "Association Between Revascularization Timing and Outcomes for Coronary Artery Disease in Patients Undergoing Transcatheter Aortic Valve Implantation.",
+        "journal": "Journal of cardiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.jjcc.2026.11.002",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-13"
+      },
+      {
+        "title": "La terapia renal sustitutiva identifica un pronóstico muy desfavorable durante soporte con bombas de flujo microaxial en shock cardiogénico",
+        "what_happened": "Un registro multicéntrico europeo de 972 pacientes con shock cardiogénico tratados con bombas de flujo microaxial encontró que el 35,0% requirió terapia renal sustitutiva. Esta se asoció con mayor mortalidad total a 180 días antes del emparejamiento y después de emparejar por propensión: 59,0% frente a 41,4%; HR 1,48; IC 95% 1,14-1,92. Obesidad, creatinina basal, uso de noradrenalina y lactato de al menos 4 mmol/L al implante se asociaron con mayor probabilidad de requerirla.",
+        "why_relevant": "Cuantifica la frecuencia y el impacto pronóstico de una complicación grave en una cohorte multicéntrica amplia de pacientes críticamente enfermos. La terapia renal sustitutiva probablemente refleja, al menos en parte, mayor gravedad del shock y lesión orgánica; por tanto, la asociación no demuestra que la terapia renal sustitutiva cause el exceso de mortalidad.",
+        "practical_implication": "La función renal, el lactato y la necesidad de vasopresores deben integrarse desde el inicio en la valoración pronóstica de pacientes con shock cardiogénico bajo soporte microaxial. La aparición de necesidad de terapia renal sustitutiva debe motivar reevaluación multidisciplinaria de gravedad, reversibilidad y objetivos terapéuticos.",
+        "source_title": "Renal Replacement Therapy in Cardiogenic Shock supported by microAxial Flow Pumps: A European multicentre study.",
+        "journal": "Anaesthesia, critical care & pain medicine",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.accpm.2026.101992",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-14"
+      },
+      {
+        "title": "La aplicación de PREVENT y de los umbrales de la guía estadounidense de dislipidemia de 2026 modifica modestamente la indicación de estatinas",
+        "what_happened": "En 6.098 participantes de MESA, el uso de PREVENT y de los umbrales de la guía ACC/AHA/multisocietaria de 2026 reclasificó al 16,4% a menor riesgo y al 13,1% a mayor riesgo respecto a las ecuaciones Pooled Cohort y los umbrales de 2013. La proporción con recomendación de estatina fue 50,4% con PREVENT frente a 55,2% con el enfoque previo. Entre quienes dejaron de tener recomendación de estatina, el 4,9% presentó un evento ASCVD durante una mediana de 10 años. El calcio coronario elevado y los factores potenciadores de riesgo identificaron subgrupos con más eventos pese a reclasificación descendente.",
+        "why_relevant": "Es directamente útil para anticipar el efecto clínico de una nueva estrategia de cálculo de riesgo y confirma el valor complementario del calcio coronario y de los potenciadores de riesgo. Es un análisis de cohorte y de reclasificación, no una comparación terapéutica; el resumen no permite valorar calibración, discriminación ni aplicabilidad fuera de MESA con detalle.",
+        "practical_implication": "La estimación mediante PREVENT no debería sustituir una valoración individualizada. En personas reclasificadas a menor riesgo, la presencia de calcio coronario elevado o de factores potenciadores puede justificar reconsiderar la intensidad preventiva y discutir el tratamiento hipolipemiante.",
+        "source_title": "Impact of the 2026 Dyslipidemia Guideline on ASCVD Reclassification and Statin Recommendations in MESA.",
+        "journal": "JACC. Advances",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.jacadv.2026.103485",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-13"
+      },
+      {
+        "title": "La medición de lipoproteína(a) se consolida para estratificación de riesgo, pero pelacarsen no alcanzó su objetivo cardiovascular primario",
+        "what_happened": "La revisión resume que la mayoría de las guías de prevención y dislipidemia aconsejan medir lipoproteína(a) al menos una vez en todos los adultos, preferentemente junto con el primer perfil lipídico, y que se prefiere su cuantificación en nmol/L. También señala que pelacarsen redujo lipoproteína(a), pero que los resultados comunicados del ensayo fase 3 Lp(a)HORIZON no alcanzaron el objetivo cardiovascular primario. Otros tres ensayos de desenlaces cardiovasculares permanecían en curso según el resumen.",
+        "why_relevant": "Tiene implicación inmediata para la evaluación del riesgo aterosclerótico y de estenosis aórtica calcificada, y evita interpretar la reducción marcada de lipoproteína(a) como beneficio clínico demostrado. La información sobre Lp(a)HORIZON procede de resultados comunicados en la revisión; el resumen no aporta cifras, población ni análisis detallado del ensayo.",
+        "practical_implication": "La lipoproteína(a) debe incorporarse a la estratificación global de riesgo, particularmente ante enfermedad aterosclerótica prematura, historia familiar o estenosis aórtica calcificada. No se debe indicar un tratamiento específico para reducirla suponiendo beneficio en eventos cardiovasculares hasta disponer de evidencia definitiva de desenlaces.",
+        "source_title": "Lipoprotein(a) in Cardiovascular Disease: Integrating Epidemiology, Clinical Guidelines, Molar Measurement, and Emerging Therapies.",
+        "journal": "Clinical chemistry",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/clinchem/hvag154",
+        "specialty": "Dislipidemias",
+        "publication_date": "2026-11-13"
+      },
+      {
+        "title": "Los factores modificables explican una gran proporción de la mortalidad cardiovascular en cohortes de Europa y Asia",
+        "what_happened": "Un metaanálisis con datos individuales de 798.867 adultos de 25 cohortes estimó que presión arterial sistólica, diabetes, tabaquismo, colesterol no-HDL e índice de masa corporal explicaban conjuntamente una fracción atribuible poblacional de mortalidad cardiovascular del 52,3% en mujeres y 44,4% en hombres. La presión arterial sistólica y la diabetes fueron los factores que más contribuyeron a la mortalidad cardiovascular; la magnitud de las fracciones atribuibles varió por sexo y región.",
+        "why_relevant": "La escala, el análisis armonizado de datos individuales y el uso de mortalidad cardiovascular como desenlace refuerzan la prioridad poblacional de controlar presión arterial, diabetes y tabaco. Las fracciones atribuibles se derivan de asociaciones observacionales y de supuestos contrafactuales, por lo que no cuantifican automáticamente el beneficio alcanzable con una intervención concreta en un paciente individual.",
+        "practical_implication": "La planificación preventiva debe priorizar detección y control sostenido de hipertensión y diabetes, además de abandono del tabaco, con adaptación a las desigualdades regionales y por sexo. Las estimaciones poblacionales no deben usarse para predecir el beneficio individual de una intervención aislada.",
+        "source_title": "Effect of modifiable risk factors on cardiovascular and cancer mortality across European and Asian regions: a multicohort study.",
+        "journal": "The Lancet regional health. Europe",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.lanepe.2026.101918",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-09"
+      },
+      {
+        "title": "El bajo peso, más que la obesidad, identificó un fenotipo de alto riesgo temprano tras TAVI",
+        "what_happened": "En un análisis preespecificado de 752 participantes del ensayo aleatorizado DOUBLE-CHOICE, el bajo peso se asoció con más eventos compuestos a 30 días tras TAVI que el resto de participantes (55,0% frente a 23,4%) y permaneció asociado tras ajuste multivariable (OR ajustado 3,74; IC 95% 1,30-9,52). La obesidad se asoció con menor incidencia del desenlace compuesto ajustado, aunque el estudio destaca la posibilidad de confusión residual por fragilidad, selección y composición corporal.",
+        "why_relevant": "Identifica un subgrupo potencialmente vulnerable antes de TAVI mediante un dato disponible en la práctica y con desenlaces procedimentales relevantes. El bajo peso incluyó solo 23 pacientes, el desenlace fue compuesto y el índice de masa corporal no distingue fragilidad, sarcopenia ni distribución adiposa; por tanto, no confirma un efecto protector de la obesidad.",
+        "practical_implication": "El bajo peso antes de TAVI debe activar una valoración más amplia de fragilidad, estado nutricional, sarcopenia y riesgo de complicaciones. La obesidad no debe interpretarse como protectora ni utilizarse para reducir la intensidad de la evaluación preprocedimiento.",
+        "source_title": "Underweight and obesity as outcome predictors after transcatheter aortic valve implantation: insights from the DOUBLE-CHOICE trial.",
+        "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1007/s00392-026-03042-x",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-12"
+      },
+      {
+        "title": "El uso de colchicina se asoció con menor mortalidad en diabetes y gota sin enfermedad coronaria previa, sin reducción demostrada de infarto o ictus",
+        "what_happened": "En una cohorte nacional coreana de pacientes con diabetes tipo 2 y gota sin enfermedad coronaria previa, 17.337 pares emparejados por propensión mostraron menor incidencia del compuesto de muerte total, infarto no fatal e ictus no fatal con colchicina (12,52% frente a 15,03%; HR 0,71; IC 95% 0,66-0,75). La diferencia se debió principalmente a menor mortalidad total. No se observaron diferencias significativas en infarto ni ictus, y los resultados de mortalidad y del compuesto persistieron tras un análisis landmark a 365 días.",
+        "why_relevant": "Explora una posible extensión de la modulación inflamatoria a prevención primaria en una población de alto riesgo y evalúa sesgo de tiempo inmortal mediante análisis landmark. Al ser un estudio observacional de uso de fármacos, no excluye confusión por indicación, diferencias de atención o sesgo de usuario saludable; tampoco demuestra reducción de eventos aterotrombóticos específicos.",
+        "practical_implication": "La colchicina no debe indicarse para prevención cardiovascular primaria en pacientes con diabetes y gota a partir de esta asociación. Los resultados respaldan la necesidad de ensayos aleatorizados con eventos cardiovasculares y evaluación de seguridad antes de modificar la práctica.",
+        "source_title": "Colchicine use was associated with reduced all-cause mortality in patients with diabetic gout without prior coronary artery disease: A propensity-matched nationwide cohort study.",
+        "journal": "PloS one",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1371/journal.pone.0362218",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-11"
+      },
+      {
+        "title": "La bioprótesis INSPIRIS RESILIA en posición pulmonar presenta incertidumbre sobre durabilidad a medio y largo plazo",
+        "what_happened": "Una revisión sistemática identificó tres cohortes retrospectivas y dos series de casos, con población pediátrica y adulta predominantemente con tetralogía de Fallot, tratada con prótesis INSPIRIS RESILIA en posición pulmonar. Los estudios pequeños comunicaron resultados favorables y seguridad perioperatoria aceptable, mientras que los estudios mayores y con seguimiento más prolongado observaron progresión más rápida a insuficiencia pulmonar moderada o grave y menor durabilidad protésica.",
+        "why_relevant": "La información es clínicamente importante para la selección protésica y el seguimiento de pacientes con cardiopatía congénita que requieren sustitución valvular pulmonar. La evidencia es escasa, retrospectiva, heterogénea e incluye conjuntamente población pediátrica y adulta; el resumen no permite separar con precisión los resultados en adultos ni establecer comparaciones ajustadas con otras bioprótesis.",
+        "practical_implication": "La INSPIRIS RESILIA en posición pulmonar debe seleccionarse con cautela y mediante decisión compartida, explicando la incertidumbre sobre su durabilidad. Los pacientes portadores requieren vigilancia ecocardiográfica enfocada en la aparición y progresión de insuficiencia pulmonar y en la eventual necesidad de reintervención.",
+        "source_title": "Results of Pulmonary Valve Replacement with The INSPIRIS RESILIA Prosthesis: A Systematic Review.",
+        "journal": "Brazilian journal of cardiovascular surgery",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.21470/1678-9741-2025-0441",
+        "specialty": "Cardiopatías congénitas del adulto y cardiología del deporte",
+        "publication_date": "2026-11-13"
+      }
+    ],
+    "target_items": 10,
+    "selection_policy": "clinical-cardiology-v1",
+    "selection_mode": "ai"
+  },
+  {
     "date": "2026-11-14",
     "generated_at": "2026-11-14T16:05:35.057807+00:00",
     "items": [
