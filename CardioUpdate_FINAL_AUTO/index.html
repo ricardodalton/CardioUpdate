@@ -70,7 +70,7 @@
 
 <script>
 (function(){
-  const VERSION='CardioUpdate-5.0-source-abstract-only';
+  const VERSION='CardioUpdate-5.1-permanent-favorites';
   try { localStorage.setItem('cardioupdate_version', VERSION); } catch(e) {}
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.getRegistrations().then(function(regs){
@@ -166,7 +166,7 @@
 </nav>
 
 <script>
-let STUDIES=[], ALL_STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={}, CANDIDATES=[], BRIEFINGS=[];
+let STUDIES=[], ALL_STUDIES=[], GUIDES=[], AREAS=[], AM={}, META={}, CANDIDATES=[], BRIEFINGS=[], FAVORITE_CATALOG=[];
 function editionBounds(now=new Date()){
   const d=new Date(now); d.setHours(0,0,0,0);
   const daysSinceFriday=(d.getDay()+2)%7;
@@ -186,15 +186,17 @@ function selectPublishedEdition(items){
 }
 async function loadDatabase(){
   const bust='?v='+Date.now();
-  const [s,g,a,meta,candidates,briefings]=await Promise.all([
+  const [s,g,a,meta,candidates,briefings,favoriteCatalog]=await Promise.all([
     fetch('data/studies.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('studies.json');return r.json()}),
     fetch('data/guides.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('guides.json');return r.json()}),
     fetch('data/areas.json'+bust,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('areas.json');return r.json()}),
     fetch('data/meta.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():({})),
     fetch('data/weekly_remainder.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([])),
-    fetch('data/briefings.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))
+    fetch('data/briefings.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([])),
+    fetch('data/favorites_catalog.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))
   ]);
-  ALL_STUDIES=Array.isArray(s)?s:[]; const weekly=selectPublishedEdition(ALL_STUDIES); STUDIES=weekly.length?weekly:ALL_STUDIES.slice(0,30); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];BRIEFINGS=Array.isArray(briefings)?briefings:[]; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
+  ALL_STUDIES=Array.isArray(s)?s:[]; const weekly=selectPublishedEdition(ALL_STUDIES); STUDIES=weekly.length?weekly:ALL_STUDIES.slice(0,30); GUIDES=g; AREAS=a; META=meta; CANDIDATES=Array.isArray(candidates)?candidates:[];BRIEFINGS=Array.isArray(briefings)?briefings:[];FAVORITE_CATALOG=Array.isArray(favoriteCatalog)?favoriteCatalog:[]; AM=Object.fromEntries(AREAS.map(x=>[x[0],x]));
+  migrateFavoriteRecords();
   applyMeta();
 }
 function applyMeta(){
@@ -208,11 +210,77 @@ function applyMeta(){
 }
 let filter='Todos', previous='week';
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
-function favs(){try{return JSON.parse(localStorage.getItem('cu_re_favs')||'[]')}catch{return[]}}
-function isFav(id){return favs().includes(id)}
-function saveFavs(x){localStorage.setItem('cu_re_favs',JSON.stringify(x));updateFavBadge()}
-function toggleFav(id,e){if(e)e.stopPropagation();let f=favs();f=f.includes(id)?f.filter(x=>x!==id):[...f,id];saveFavs(f);refresh()}
-function updateFavBadge(){document.getElementById('favBadge').textContent='★ '+favs().length}
+function favs(){
+  try{
+    const value=JSON.parse(localStorage.getItem('cu_re_favs')||'[]');
+    return Array.isArray(value)?[...new Set(value.map(x=>typeof x==='string'?x:x&&x.id).filter(Boolean).map(String))]:[];
+  }catch{return[]}
+}
+function favoriteRecords(){
+  try{
+    const value=JSON.parse(localStorage.getItem('cu_re_fav_records')||'[]');
+    return Array.isArray(value)?value.filter(x=>x&&x.id&&x.title):[];
+  }catch{return[]}
+}
+function favoriteSnapshot(s){
+  const fields=['id','title','area','journal','date','level','type','url','doi','pmid','authors','abstract_en','review_status','source_mode'];
+  const copy={};
+  fields.forEach(key=>{if(s&&s[key]!==undefined&&s[key]!==null&&s[key]!=='')copy[key]=s[key]});
+  copy.id=String(copy.id||s.id);
+  copy.title=copy.title||'Artículo guardado';
+  copy.area=copy.area||'General';
+  copy.level=copy.level||'Seguimiento';
+  copy.type=copy.type||'Artículo';
+  return copy;
+}
+function saveFavoriteRecords(records){
+  try{localStorage.setItem('cu_re_fav_records',JSON.stringify(records))}catch(e){}
+}
+function rawStudyById(id){
+  const key=String(id);
+  return STUDIES.find(x=>String(x.id)===key)||ALL_STUDIES.find(x=>String(x.id)===key)||FAVORITE_CATALOG.find(x=>String(x.id)===key);
+}
+function migrateFavoriteRecords(){
+  const ids=favs(), stored=new Map(favoriteRecords().map(x=>[String(x.id),x]));
+  const migrated=[];
+  ids.forEach(id=>{
+    const previous=stored.get(id), source=rawStudyById(id);
+    if(previous||source)migrated.push(favoriteSnapshot({...source,...previous}));
+  });
+  saveFavoriteRecords(migrated);
+  return migrated;
+}
+function favoriteStudies(){
+  const stored=migrateFavoriteRecords();
+  const byId=new Map();
+  [...FAVORITE_CATALOG,...stored,...ALL_STUDIES,...STUDIES].forEach(x=>{if(x&&x.id)byId.set(String(x.id),x)});
+  return favs().map(id=>byId.get(id)).filter(Boolean);
+}
+function studyById(id){
+  const key=String(id);
+  return rawStudyById(key)||favoriteRecords().find(x=>String(x.id)===key);
+}
+function isFav(id){return favs().includes(String(id))}
+function saveFavs(ids){
+  try{localStorage.setItem('cu_re_favs',JSON.stringify([...new Set(ids.map(String))]))}catch(e){}
+  updateFavBadge();
+}
+function toggleFav(id,e){
+  if(e)e.stopPropagation();
+  const key=String(id), ids=favs(), removing=ids.includes(key);
+  let records=favoriteRecords().filter(x=>String(x.id)!==key);
+  if(!removing){
+    const source=studyById(key);
+    if(source)records.push(favoriteSnapshot(source));
+  }
+  saveFavoriteRecords(records);
+  saveFavs(removing?ids.filter(x=>x!==key):[...ids,key]);
+  refresh();
+}
+function updateFavBadge(){
+  const badge=document.getElementById('favBadge');
+  if(badge)badge.textContent='★ '+favoriteStudies().length;
+}
 function areaOf(name){return AM[name]||[name,'#667085','GEN',name]}
 function countArea(name){return STUDIES.filter(s=>s.area===name).length}
 function levelColor(l){return l==='Practice Changer'?'#d51f32':l==='Relevante'?'#e58b1e':'#3375d1'}
@@ -309,8 +377,13 @@ function setFilter(x){filter=x;renderWeek()}
 function renderTopics(){document.getElementById('allAreas').innerHTML=AREAS.map(areaTile).join('')}
 function openTopic(name){let a=areaOf(name), arr=STUDIES.filter(s=>s.area===name);document.getElementById('topicBody').innerHTML=`<button class="back" onclick="go('topics')">← Todas las especialidades</button><div class="topicHero" style="--topic:${a[1]}"><div><h1>${esc(a[3])}</h1><p>${arr.length?arr.length+' trabajo'+(arr.length>1?'s':'')+' seleccionado'+(arr.length>1?'s':''):'Sin trabajos seleccionados esta semana.'}</p></div></div><div class="feed">${arr.length?arr.map(feedItem).join(''):'<div class="empty">Esta área queda activa para próximas incorporaciones.</div>'}</div>`;go('topic')}
 function renderGuides(){document.getElementById('guideLayout').innerHTML=GUIDES.map(g=>`<article class="guide"><div class="issueTag" style="background:#17809a">${esc(g.area)}</div><h3>${esc(g.title)}</h3><p>${esc(g.summary)}</p><a href="${g.url}" target="_blank" rel="noopener">Abrir fuente oficial ↗</a></article>`).join('')}
-function renderFavs(){let a=STUDIES.filter(s=>favs().includes(s.id));document.getElementById('favFeed').innerHTML=a.length?a.map(feedItem).join(''):'<div class="empty">Todavía no guardaste ningún trabajo.</div>'}
-function clearFavs(){saveFavs([]);renderFavs()}
+function renderFavs(){
+  const ids=favs(), items=favoriteStudies(), missing=Math.max(0,ids.length-items.length);
+  let html=items.length?items.map(feedItem).join(''):'<div class="empty">Todavía no guardaste ningún trabajo.</div>';
+  if(missing)html+=`<div class="empty">${missing===1?'Hay un favorito antiguo que no pudo recuperarse':'Hay '+missing+' favoritos antiguos que no pudieron recuperarse'}. Podés quitar ${missing===1?'esa referencia':'esas referencias'} con “Limpiar favoritos”.</div>`;
+  document.getElementById('favFeed').innerHTML=html;
+}
+function clearFavs(){saveFavoriteRecords([]);saveFavs([]);renderFavs()}
 function cleanAbstractHtml(v){
   const d=document.createElement('div'); d.innerHTML=String(v||'');
   return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim();
@@ -324,7 +397,7 @@ function originalAbstractFor(s){
   const c=(CANDIDATES||[]).find(x=>(s.pmid&&x.pmid&&same(s.pmid,x.pmid))||(s.doi&&x.doi&&same(s.doi,x.doi))||(!s.pmid&&!s.doi&&x.title&&same(s.title,x.title)));
   return cleanAbstractHtml(c&&c.abstractText ? c.abstractText : '');
 }
-function openStudy(id){let s=STUDIES.find(x=>x.id===id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=originalAbstractFor(s);document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${s.url}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract</h2><p class="abstractNote">Original English abstract from the indexed scientific source.</p><section class="abstractSection"><p>${esc(abs)}</p></section></section>`:''}</div></div>`;go('detail')}
+function openStudy(id){let s=studyById(id);if(!s)return;previous=document.querySelector('.page.active')?.id||'week';let a=areaOf(s.area);let abs=originalAbstractFor(s);document.getElementById('detailBody').innerHTML=`<div class="detailWrap"><button class="back" onclick="go('${previous==='detail'?'week':previous}')">← Volver</button><article class="articleHead" style="--c:${a[1]}"><div class="issueTag" style="background:${a[1]}">${esc(a[3])} · ${esc(s.level)}</div><h1>${esc(s.title)}</h1><div class="articleByline">${esc(s.type)} · ${esc(s.journal)} · ${esc(s.date)}</div><div class="sourceBar"><a href="${esc(s.url||studySourceUrl(s))}" target="_blank" rel="noopener">Artículo original ↗</a><a class="alt" href="#" onclick="event.preventDefault();toggleFav('${s.id}');openStudy('${s.id}')">${isFav(s.id)?'★ Guardado':'☆ Guardar'}</a></div></article><div class="articleGrid">${abs?`<section class="abstractFull" style="--c:${a[1]}"><h2>Abstract</h2><p class="abstractNote">Original English abstract from the indexed scientific source.</p><section class="abstractSection"><p>${esc(abs)}</p></section></section>`:''}</div></div>`;go('detail')}
 function runSearch(q){let text=(q??document.getElementById('searchQ').value).trim().toLowerCase();let box=document.getElementById('searchFeed');if(!text){box.innerHTML='<div class="empty">Escribí una palabra para comenzar.</div>';return}let arr=STUDIES.filter(s=>Object.values(s).join(' ').toLowerCase().includes(text));box.innerHTML=arr.length?`<div class="feed">${arr.map(feedItem).join('')}</div>`:`<div class="empty">No encontré resultados para “${esc(text)}”.</div>`}
 function searchHeader(){let q=document.getElementById('headerQ').value;go('search');document.getElementById('searchQ').value=q;runSearch(q)}
 function refresh(){let p=document.querySelector('.page.active')?.id;if(p==='home')renderHome();if(p==='week')renderWeek();if(p==='favorites')renderFavs();updateFavBadge()}
@@ -369,7 +442,7 @@ boot();
    <div><b>▤ Semana</b>Selección científica vigente, con filtros para recorrer los estudios de la edición.</div>
    <div><b>▦ Temas</b>Acceso por el nombre completo de cada especialidad, incluida cardiología congénita.</div>
    <div><b>§ Guías</b>Biblioteca de guías y consensos, conservada independientemente del recambio semanal.</div>
-   <div><b>★ Favoritos</b>La estrella guarda estudios en el navegador y dispositivo donde se marca; no implica sincronización entre equipos.</div>
+   <div><b>★ Favoritos</b>La estrella conserva el título, los datos bibliográficos y el enlace aunque cambie la semana. Se guarda en el navegador y dispositivo donde se marca; no implica sincronización entre equipos.</div>
    <div><b>⌕ Buscar</b>Búsqueda por enfermedad, intervención, fármaco, tema o revista; por ejemplo CAC, Lp(a), TAVI o mavacamten.</div>
   </div>
   <h2>Cómo leer un estudio de la edición semanal</h2>
