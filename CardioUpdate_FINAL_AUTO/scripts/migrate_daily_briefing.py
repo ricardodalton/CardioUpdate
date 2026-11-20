@@ -25,7 +25,7 @@ if fetch not in s:
     needle="fetch('data/weekly_remainder.json'+bust,{cache:'no-store'}).then(r=>r.ok?r.json():([])).catch(()=>([]))"
     assert needle in s
     s=s.replace(needle,needle+',\n    '+fetch,1)
-if 'const [s,g,a,meta,candidates,briefings]' not in s:
+if 'briefings' not in s[s.find('const [s,g,a,meta,candidates'):s.find(']=await Promise.all',s.find('const [s,g,a,meta,candidates'))]:
     assert 'const [s,g,a,meta,candidates]' in s
     s=s.replace('const [s,g,a,meta,candidates]','const [s,g,a,meta,candidates,briefings]',1)
 if 'BRIEFINGS=Array.isArray(briefings)?briefings:[];' not in s:
