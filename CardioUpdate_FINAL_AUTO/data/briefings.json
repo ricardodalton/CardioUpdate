@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-11-20",
+    "generated_at": "2026-11-20T17:06:51.730039+00:00",
+    "items": [
+      {
+        "title": "La PCI planificada alrededor del TAVI no reduce mortalidad ni eventos isquémicos mayores y aumenta el sangrado",
+        "what_happened": "Un metaanálisis con evaluación GRADE de tres ensayos aleatorizados (1.156 pacientes) comparó la PCI planificada alrededor del implante valvular aórtico transcatéter (TAVI) con una estrategia inicial conservadora o de PCI diferida. La PCI planificada no mostró diferencias significativas en mortalidad por todas las causas, muerte cardiovascular, infarto de miocardio ni MACE definidos por los ensayos. Sí redujo las revascularizaciones posteriores urgentes y totales, pero se asoció con más sangrado mayor comunicado por los ensayos y más sangrado global.",
+        "why_relevant": "Aporta evidencia aleatorizada directamente aplicable a una decisión frecuente en pacientes con estenosis aórtica grave y enfermedad coronaria concomitante. La ausencia de beneficio demostrado en mortalidad o eventos isquémicos, junto con el exceso de sangrado, cuestiona una estrategia rutinaria de PCI. La interpretación de MACE es limitada porque sus componentes difirieron entre ensayos, y las estimaciones de algunos desenlaces isquémicos son imprecisas.",
+        "practical_implication": "El equipo valvular puede favorecer una selección individualizada de las lesiones coronarias que justificarían PCI, en lugar de programarla sistemáticamente antes, durante o alrededor del TAVI. Debe ponderar el posible ahorro de revascularizaciones futuras frente al riesgo hemorrágico.",
+        "source_title": "Planned percutaneous coronary intervention around transcatheter aortic valve implantation: a GRADE-assessed meta-analysis of randomized trials.",
+        "journal": "Coronary artery disease",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/mca.0000000000001692",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-16"
+      },
+      {
+        "title": "La vigilancia ecocardiográfica trimestral durante terapias anti-HER2 no fue coste-efectiva en poblaciones de ensayo de bajo riesgo",
+        "what_happened": "Un metaanálisis de 57 estudios con 37.847 pacientes tratados con trastuzumab, trastuzumab emtansina o trastuzumab deruxtecán estimó menores tasas de disfunción cardíaca comunicada en los regímenes más recientes que con trastuzumab. Un análisis de coste-efectividad concluyó que la ecocardiografía cada tres meses no era coste-efectiva en ningún régimen ni contexto evaluado. Para trastuzumab adyuvante, el modelo prefirió ecocardiografía basal y un control a los seis meses; para trastuzumab emtansina y trastuzumab deruxtecán en enfermedad precoz, prefirió imagen basal únicamente.",
+        "why_relevant": "La frecuencia de monitorización cardíaca afecta a un gran número de pacientes y puede generar pruebas de escaso valor cuando el riesgo es bajo. El estudio integra tasas de eventos y resultados en años de vida ajustados por calidad. Sin embargo, sus conclusiones se limitan explícitamente a pacientes de bajo riesgo elegibles para ensayos, los eventos fueron predominantemente descensos de fracción de eyección y las estrategias menos intensivas requieren validación prospectiva.",
+        "practical_implication": "Los programas de cardiooncología pueden reconsiderar la vigilancia universal trimestral en pacientes de bajo riesgo, adaptándola al fármaco, la situación oncológica y el riesgo cardiovascular basal. No debe extrapolarse sin cautela a pacientes con cardiopatía previa, factores de alto riesgo o condiciones no representadas en los ensayos.",
+        "source_title": "Rethinking cardiac monitoring in patients receiving trastuzumab-based HER2-directed therapies for breast cancer: a meta-analysis and cost-effectiveness analysis.",
+        "journal": "ESMO open",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.esmoop.2026.108638",
+        "specialty": "Cardiooncología",
+        "publication_date": "2026-11-17"
+      },
+      {
+        "title": "La miectomía septal transapical con corazón latiendo mostró mejoría sintomática en miocardiopatía hipertrófica no obstructiva seleccionada",
+        "what_happened": "En una cohorte prospectiva de un único centro, 97 pacientes con miocardiopatía hipertrófica no obstructiva, sintomática y refractaria a tratamiento farmacológico fueron tratados mediante miectomía septal transapical guiada por ecocardiografía transesofágica. A los 6-12 meses, el 87,6% cumplió el desenlace compuesto de éxito procedimental. La proporción en clase funcional NYHA I aumentó de 0% a 93,8% y la mediana del Kansas City Cardiomyopathy Questionnaire pasó de 64 a 87. Se notificaron una lesión mitral, una perforación septal y una muerte posoperatoria.",
+        "why_relevant": "Aborda una población con pocas alternativas terapéuticas establecidas, en la que la intervención se asoció con mejorías importantes de síntomas, estado de salud y capacidad funcional. No obstante, no hubo grupo control, la experiencia procede de un solo centro y el desenlace principal combina parámetros clínicos, ecocardiográficos y de volumen sistólico; por tanto, no demuestra eficacia comparativa ni seguridad reproducible en otros centros.",
+        "practical_implication": "Los centros expertos pueden considerar esta técnica como una opción en investigación o en evaluación multidisciplinaria muy seleccionada para pacientes con obliteración cavitaria o obstrucción medioventricular-apical y síntomas refractarios. La decisión debe reconocer la necesidad de confirmación multicéntrica y controlada.",
+        "source_title": "Transapical Beating-Heart Septal Myectomy for Symptomatic Nonobstructive Hypertrophic Cardiomyopathy: Initial Clinical Experience.",
+        "journal": "Circulation",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/circulationaha.126.082486",
+        "specialty": "Miocardiopatías y miocarditis",
+        "publication_date": "2026-11-16"
+      },
+      {
+        "title": "Los riesgos cardiovasculares a largo plazo difirieron entre inhibidores de tirosina cinasa en leucemia mieloide crónica",
+        "what_happened": "Una cohorte de 357 pacientes con leucemia mieloide crónica tratados con inhibidores de tirosina cinasa y seguida una mediana de 7,2 años registró 518 eventos cardiovasculares adversos. Frente a imatinib, nilotinib se asoció con más síndrome coronario agudo (HR 3,5) y dasatinib con más insuficiencia cardíaca (HR 2,5). Dasatinib y asciminib se asociaron con más derrame pleural, según el resumen.",
+        "why_relevant": "La duración prolongada de tratamiento en leucemia mieloide crónica convierte la toxicidad cardiovascular en un determinante potencialmente relevante de selección y seguimiento terapéuticos. El seguimiento prolongado complementa la evidencia de ensayos con poblaciones más seleccionadas. Al ser un estudio observacional de un solo centro, las asociaciones pueden reflejar confusión por indicación, riesgo cardiovascular basal, líneas previas de tratamiento u otros factores no medidos; no establecen causalidad.",
+        "practical_implication": "Los equipos de hematología y cardiooncología pueden incorporar el perfil cardiovascular y vascular basal al elegir y vigilar un inhibidor de tirosina cinasa. En pacientes expuestos a nilotinib o dasatinib, la vigilancia clínica dirigida a isquemia, insuficiencia cardíaca y complicaciones pleuropulmonares puede ser especialmente pertinente.",
+        "source_title": "Long-Term Cardiovascular Adverse Events in Patients with Chronic Myelogenous Leukemia Treated with Tyrosine Kinase Inhibitors.",
+        "journal": "The oncologist",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/oncolo/oyag459",
+        "specialty": "Cardiooncología",
+        "publication_date": "2026-11-18"
+      },
+      {
+        "title": "Persisten desigualdades por sexo en soporte circulatorio mecánico y mortalidad del shock cardiogénico asociado a infarto",
+        "what_happened": "Un análisis nacional estadounidense de 66.381 ingresos con infarto agudo de miocardio y shock cardiogénico entre 2016 y 2023 halló que las mujeres recibieron menos soporte circulatorio mecánico que los hombres tras ajuste estadístico (OR 0,77). Las mujeres presentaron mayor mortalidad intrahospitalaria ajustada (OR 1,17), así como más isquemia aguda de extremidades y más transfusiones. La diferencia de mortalidad persistió tras ajustes adicionales por dispositivo y complicaciones codificadas.",
+        "why_relevant": "La magnitud nacional de la cohorte y la consistencia de las diferencias en uso de dispositivos, complicaciones vasculares y mortalidad señalan una posible brecha de atención con consecuencias pronósticas. No obstante, los datos administrativos no permiten medir de forma completa la gravedad, la evolución hemodinámica, la anatomía vascular, las decisiones clínicas ni las contraindicaciones; por ello, el estudio no demuestra que una mayor utilización de soporte reduzca la mortalidad en mujeres.",
+        "practical_implication": "Las unidades de shock pueden auditar por sexo la evaluación de candidaturas a soporte circulatorio mecánico, los tiempos de decisión y las complicaciones de acceso. La planificación del acceso vascular y la prevención de sangrado e isquemia periférica merecen particular atención en mujeres.",
+        "source_title": "Sex differences in temporary mechanical circulatory support, vascular complications, and mortality in acute myocardial infarction with cardiogenic shock: a contemporary national analysis, 2016 to 2023.",
+        "journal": "European heart journal open",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/ehjopen/oeag185",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-18"
+      },
+      {
+        "title": "La ecocardiografía seriada identificó trayectorias hemodinámicas de alto riesgo en shock cardiogénico",
+        "what_happened": "Un estudio prospectivo multicéntrico de 457 pacientes con shock cardiogénico realizó una evaluación ecocardiográfica hemodinámica al ingreso y a las 48 horas. El desenlace compuesto de muerte intrahospitalaria, implante de asistencia ventricular izquierda o trasplante ocurrió en el 30,0%. El índice de volumen sistólico, índice cardíaco, potencia cardíaca, E/e', presión sistólica pulmonar estimada y presión auricular derecha se asociaron con el desenlace en ambos momentos. La potencia cardíaca persistentemente baja y las presiones de llenado y pulmonares elevadas mostraron las asociaciones más intensas con evolución adversa.",
+        "why_relevant": "El estudio sugiere que la evolución hemodinámica temprana, y no solo una medición inicial, puede estratificar el riesgo en shock cardiogénico mediante herramientas no invasivas. Su diseño prospectivo y multicéntrico refuerza la aplicabilidad pronóstica. Sin embargo, es un estudio de asociación y no evalúa si modificar el tratamiento según estas variables mejora supervivencia, evita asistencia ventricular o reduce trasplante.",
+        "practical_implication": "Los equipos de cuidados intensivos cardíacos pueden incorporar reevaluaciones ecocardiográficas estructuradas durante las primeras 48 horas para reconocer trayectorias de deterioro o congestión persistente. Los resultados no definen por sí solos umbrales de escalada terapéutica.",
+        "source_title": "Prognostic Value of Longitudinal Echo-Dynamic Assessment in Patients with Cardiogenic Shock A multi-center prospective study.",
+        "journal": "European heart journal. Acute cardiovascular care",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/ehjacc/zuag139",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-18"
+      },
+      {
+        "title": "El inicio de Impella antes de la PCI no mostró reducción robusta de eventos renales en infarto con shock cardiogénico",
+        "what_happened": "Un metaanálisis de diez estudios observacionales comparó el inicio de Impella antes de la intervención coronaria percutánea con su inicio durante o después de la PCI en infarto agudo de miocardio con shock cardiogénico. En los cuatro estudios que notificaron desenlaces renales, el inicio pre-PCI no se asoció significativamente con menos lesión renal aguda o terapia de reemplazo renal (RR 0,75; IC 95% 0,45-1,24). Una exclusión de sensibilidad modificó el resultado. El inicio pre-PCI se asoció con menor mortalidad a corto plazo (RR 0,70; IC 95% 0,60-0,81), sin diferencia significativa en ictus.",
+        "why_relevant": "La cronología del soporte microaxial es una decisión relevante y potencialmente modificable en una situación de muy alta mortalidad. El análisis separa un resultado renal primario que no fue concluyente de una asociación favorable con mortalidad. Sin embargo, toda la evidencia incluida es observacional, el análisis renal depende de solo cuatro estudios y los resultados son sensibles a estudios individuales; el sesgo por gravedad, selección y supervivencia puede explicar parte de la asociación con mortalidad.",
+        "practical_implication": "El inicio pre-PCI de Impella no debe justificarse con el objetivo de prevenir lesión renal aguda según esta síntesis. La decisión sobre el momento del soporte debe seguir basándose en la fisiología, la gravedad, la factibilidad y la experiencia local, mientras se esperan estudios comparativos más sólidos.",
+        "source_title": "Renal outcomes with pre-percutaneous coronary intervention Impella in acute myocardial infarction with cardiogenic shock: a meta-analysis.",
+        "journal": "Journal of cardiovascular medicine (Hagerstown, Md.)",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.2459/jcm.0000000000001954",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-17"
+      },
+      {
+        "title": "Semaglutida se asoció con menor mortalidad y uso de atención aguda en adultos con cardiopatía congénita y diabetes",
+        "what_happened": "Un estudio retrospectivo de nuevos usuarios en la red TriNetX comparó semaglutida con inhibidores de DPP-4 en adultos con cardiopatía congénita y diabetes tipo 2. Tras emparejamiento por puntuación de propensión, se analizaron 1.422 pares durante tres años. Semaglutida se asoció con menor mortalidad por todas las causas (7% frente a 12%; HR 0,66), menos hospitalizaciones (HR 0,68) y menos visitas a urgencias (HR 0,85). Las asociaciones cardiovasculares secundarias fueron menos consistentes en los análisis de sensibilidad.",
+        "why_relevant": "Los adultos con cardiopatía congénita suelen quedar excluidos de los ensayos de desenlaces cardiovasculares de fármacos antidiabéticos y antiobesidad. La señal de menor mortalidad y menor utilización de recursos es clínicamente relevante. Sin embargo, un control negativo preespecificado resultó elevado en todos los análisis, lo que indica diferencias residuales en la interacción con el sistema sanitario; además, las lesiones de gran complejidad estuvieron escasamente representadas. Por tanto, los resultados son generadores de hipótesis.",
+        "practical_implication": "La semaglutida puede considerarse según sus indicaciones metabólicas habituales en adultos con cardiopatía congénita y diabetes, sin asumir que este estudio demuestre beneficio cardiovascular causal en esta población. La decisión requiere valoración individual del tipo de lesión, insuficiencia cardíaca, estado nutricional y tratamiento concomitante.",
+        "source_title": "Cardiovascular Outcomes of Semaglutide in Adults With Congenital Heart Disease.",
+        "journal": "The American journal of cardiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.amjcard.2026.11.023",
+        "specialty": "Cardiopatías congénitas del adulto y cardiología del deporte",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "La prostaciclina parenteral se asoció con mejoría hemodinámica en hipertensión pulmonar asociada a cardiopatía congénita",
+        "what_happened": "Una cohorte retrospectiva de un centro terciario evaluó 29 adultos con hipertensión arterial pulmonar asociada a cardiopatía congénita tratados con epoprostenol o treprostinil parenteral. En el primer cateterismo de seguimiento, la presión arterial pulmonar media disminuyó 7,7 mmHg, la resistencia vascular pulmonar disminuyó 5,4 unidades Wood y el índice cardíaco aumentó 1,2 L/min/m². La supervivencia fue 86% a cinco años y 58% a diez años; tres pacientes pudieron someterse posteriormente a cierre del defecto.",
+        "why_relevant": "Aporta datos contemporáneos de una población compleja con escasa evidencia específica sobre prostaciclinas parenterales, incluyendo variables hemodinámicas invasivas y supervivencia a largo plazo. La muestra es muy pequeña, retrospectiva, de un solo centro y sin comparador; por ello, las mejorías y la supervivencia no pueden atribuirse causalmente al tratamiento ni compararse entre fármacos.",
+        "practical_implication": "Los equipos especializados en hipertensión pulmonar y cardiopatía congénita pueden considerar la prostaciclina parenteral como opción en pacientes seleccionados con hipertensión arterial pulmonar asociada a cardiopatía congénita avanzada. La selección, el seguimiento invasivo y cualquier planteamiento de cierre diferido del defecto requieren discusión multidisciplinaria experta.",
+        "source_title": "Long-Term Outcomes of Parenteral Prostacyclin Use in Adults With Congenital Heart Disease-Associated Pulmonary Hypertension.",
+        "journal": "Heart, lung & circulation",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.hlc.2026.06.014",
+        "specialty": "Circulación pulmonar y pericardio",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "Las interacciones farmacológicas potencialmente prolongadoras del QT fueron frecuentes con antineoplásicos orales",
+        "what_happened": "Un estudio retrospectivo de historias clínicas incluyó 1.732 pacientes con cáncer avanzado que recibían al menos un antineoplásico oral. El 17,1% presentó al menos una interacción farmacológica potencialmente relacionada con prolongación del QT. Entre quienes tuvieron estas interacciones, el 47,5% presentó solo mecanismos farmacodinámicos, el 21,2% solo mecanismos farmacocinéticos y el 31,3% ambos. Pazopanib, palbociclib y vandetanib fueron los antineoplásicos orales implicados con mayor frecuencia.",
+        "why_relevant": "La polifarmacia y las interacciones que pueden prolongar el QT son una amenaza prevenible para arritmias graves en oncología. El tamaño de la cohorte permite dimensionar la frecuencia del problema. El estudio identificó interacciones potenciales a partir de prescripciones coincidentes y no comunicó incidencia de prolongación real del QT, torsade de pointes, síncope ni mortalidad; por tanto, no cuantifica el riesgo clínico atribuible a cada interacción.",
+        "practical_implication": "Los equipos de oncología, farmacia y cardiooncología pueden reforzar la conciliación farmacológica y la detección de combinaciones con potencial de prolongar el QT antes y durante los antineoplásicos orales. La necesidad de electrocardiogramas y corrección de electrolitos debe individualizarse según el fármaco, las interacciones, el QT basal y los factores de riesgo del paciente.",
+        "source_title": "Prevalence and Characteristics of Potential QT-Interval-Prolonging Drug-Drug Interactions in Patients Receiving Oral Anticancer Drugs.",
+        "journal": "Pharmacotherapy",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1002/phar.70217",
+        "specialty": "Cardiooncología",
+        "publication_date": "2026"
+      }
+    ],
+    "target_items": 10,
+    "selection_policy": "clinical-cardiology-v1",
+    "selection_mode": "ai"
+  },
+  {
     "date": "2026-11-15",
     "generated_at": "2026-11-15T16:35:25.440765+00:00",
     "items": [
