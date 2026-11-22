@@ -1,5 +1,110 @@
 [
   {
+    "date": "2026-11-22",
+    "generated_at": "2026-11-22T17:24:52.458370+00:00",
+    "items": [
+      {
+        "title": "Semaglutida en adultos con cardiopatía congénita y diabetes tipo 2: menor mortalidad y utilización aguda, con confusión residual",
+        "what_happened": "Un estudio retrospectivo de nuevos usuarios en la red TriNetX comparó semaglutida con inhibidores de DPP-4 en adultos con cardiopatía congénita y diabetes tipo 2. Tras emparejamiento por puntuación de propensión se analizaron 1.422 pares durante tres años. La semaglutida se asoció con menor mortalidad por cualquier causa (7% frente a 12%; HR 0,66; IC 95% 0,51-0,85), menos hospitalizaciones y menos visitas a urgencias. También se comunicaron asociaciones favorables para eventos cardiovasculares mayores, insuficiencia cardíaca y accidente cerebrovascular, pero estas no fueron consistentes en todos los análisis de sensibilidad.",
+        "why_relevant": "Es una de las pocas evaluaciones específicas de semaglutida en cardiopatía congénita del adulto, una población habitualmente excluida de los ensayos de desenlaces cardiovasculares. Evalúa mortalidad y utilización asistencial, desenlaces relevantes para pacientes. Sin embargo, no permite atribuir causalidad: es un estudio observacional, las lesiones de gran complejidad estuvieron escasamente representadas y un control negativo resultó elevado en todos los análisis, lo que señala diferencias residuales en la interacción con el sistema sanitario.",
+        "practical_implication": "Los equipos de cardiopatías congénitas del adulto pueden considerar que los hallazgos respaldan la necesidad de estudiar rigurosamente las terapias cardiometabólicas en esta población, pero no justifican por sí solos preferir semaglutida frente a otros tratamientos. La selección debe continuar basándose en las indicaciones de diabetes y obesidad, la anatomía congénita, la función ventricular y el perfil individual de seguridad.",
+        "source_title": "Cardiovascular Outcomes of Semaglutide in Adults With Congenital Heart Disease.",
+        "journal": "The American journal of cardiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.amjcard.2026.11.023",
+        "specialty": "Cardiopatías congénitas del adulto y cardiología del deporte",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "Lenalidomida más ibrutinib en leucemia linfocítica crónica: señal importante de toxicidad cardíaca",
+        "what_happened": "Un ensayo fase 1 multicéntrico de escalada de dosis evaluó lenalidomida añadida a ibrutinib en 27 pacientes con leucemia linfocítica crónica o linfoma linfocítico pequeño en recaída o refractario. La dosis máxima tolerada de lenalidomida fue 5 mg diarios. Se comunicó toxicidad cardíaca significativa en el 26% de los participantes, incluidos insuficiencia cardíaca y arritmias ventriculares en dos pacientes cada una (7%).",
+        "why_relevant": "La señal de insuficiencia cardíaca y arritmia ventricular es clínicamente relevante porque procede de un estudio prospectivo de una combinación oncohematológica que puede exponerse durante periodos prolongados. La prioridad deriva de la posible necesidad de vigilancia cardiooncológica antes y durante el tratamiento. La estimación es imprecisa por el tamaño muestral muy reducido, el diseño fase 1 y la ausencia de un grupo comparador; el resumen no permite determinar la cronología, reversibilidad ni los factores predisponentes de los eventos cardíacos.",
+        "practical_implication": "Los equipos de hematología y cardiooncología deberían incorporar una valoración cardiovascular basal y vigilancia estrecha de síntomas, función ventricular y arritmias cuando se contemple esta combinación, especialmente en pacientes con enfermedad cardiovascular previa. La señal requiere confirmación antes de establecer protocolos de monitorización o contraindicación específicos.",
+        "source_title": "A Phase 1, Dose Escalation Study of Lenalidomide and Ibrutinib for Relapsed/Refractory Chronic Lymphocytic Leukemia.",
+        "journal": "EJHaem",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1002/jha2.70463",
+        "specialty": "Cardiooncología",
+        "publication_date": "2026-11-16"
+      },
+      {
+        "title": "El síndrome de Takotsubo asociado a enfermedad neurológica identifica un fenotipo de mayor riesgo",
+        "what_happened": "Una revisión sistemática de 16 estudios observacionales evaluó el síndrome de Takotsubo en adultos con trastornos neurológicos agudos o crónicos. En registros incluidos, los casos asociados a enfermedad neurológica presentaron menor fracción de eyección ventricular izquierda, más shock cardiogénico y mayor mortalidad intrahospitalaria que otros casos de Takotsubo; tras hemorragia intracraneal se describió una mortalidad intrahospitalaria del 30,4%. El dolor torácico fue menos frecuente en los casos con afección neurológica.",
+        "why_relevant": "La síntesis reúne desenlaces clínicos graves y refuerza que el deterioro hemodinámico, los cambios electrocardiográficos o la elevación de troponina tras un evento neurológico pueden corresponder a Takotsubo incluso sin dolor torácico. Esta información puede modificar la sospecha diagnóstica y la intensidad de la vigilancia. La evidencia procede exclusivamente de estudios observacionales, con heterogeneidad diagnóstica, desenlaces de mortalidad por todas las causas y fuentes de datos parcialmente solapadas; por tanto, no establece que la enfermedad neurológica cause el peor pronóstico.",
+        "practical_implication": "Los clínicos deberían mantener un umbral bajo para solicitar evaluación ecocardiográfica ante inestabilidad inexplicada o signos de lesión miocárdica en pacientes con eventos neurológicos agudos. Los casos identificados requieren vigilancia estrecha por la mayor frecuencia descrita de disfunción sistólica y shock.",
+        "source_title": "Takotsubo Syndrome in Acute and Chronic Neurological Conditions: A Systematic Review of Cardiac Phenotypes and Clinical Outcomes.",
+        "journal": "Cureus",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.7759/cureus.119949",
+        "specialty": "Miocardiopatías y miocarditis",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "El fenotipo etiológico del shock cardiogénico tratado con Impella se asocia con una supervivencia muy diferente",
+        "what_happened": "Una cohorte retrospectiva unicéntrica de 409 adultos con shock cardiogénico refractario tratados con Impella 2.5 o CP durante nueve años mostró una mortalidad intrahospitalaria global del 48,9%. Los resultados variaron marcadamente según la etiología: el shock asociado a sepsis presentó la mortalidad más alta, del 80,6%, mientras que el síndrome coronario agudo fue el fenotipo más frecuente.",
+        "why_relevant": "El estudio subraya que agrupar todos los casos de shock cardiogénico puede ocultar pronósticos muy distintos y que la etiología debe formar parte de la selección y de la conversación pronóstica cuando se plantea soporte ventricular percutáneo. La mortalidad es un desenlace directamente relevante. No demuestra que Impella mejore ni empeore el pronóstico frente a otras estrategias, debido a su diseño retrospectivo, ausencia de comparador y posible sesgo de selección. El resumen tampoco aporta las estimaciones ajustadas completas por fenotipo.",
+        "practical_implication": "Los equipos de shock deberían documentar tempranamente la etiología y el fenotipo clínico al decidir escalada de soporte mecánico. En el shock asociado a sepsis, la mortalidad descrita obliga a una valoración particularmente cuidadosa de objetivos terapéuticos, reversibilidad y futilidad potencial.",
+        "source_title": "Cardiogenic shock phenotypes and outcomes under percutaneous left ventricular support: results from a 9-year single-center real-world cohort.",
+        "journal": "Clinical research in cardiology : official journal of the German Cardiac Society",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1007/s00392-026-03055-6",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "La hemoglobina al ingreso, pero no su variación a 24 horas, aporta información pronóstica en shock cardiogénico",
+        "what_happened": "El análisis prospectivo multicéntrico del registro Altshock-2 incluyó 817 pacientes con shock cardiogénico. La anemia estuvo presente en el 50,8% al ingreso y en el 67% a las 24 horas. La mortalidad hospitalaria descendió a través de los terciles crecientes de hemoglobina de ingreso, y una hemoglobina baja al ingreso se asoció independientemente con mayor mortalidad hospitalaria. La hemoglobina a las 24 horas no añadió información pronóstica incremental.",
+        "why_relevant": "La hemoglobina de ingreso es una variable fácilmente disponible que puede complementar la estratificación multidimensional del riesgo en shock cardiogénico. El estudio emplea un registro prospectivo y un desenlace clínicamente relevante. No demuestra que corregir la anemia modifique el pronóstico, ni define un umbral transfusional: la asociación puede reflejar gravedad, sangrado, comorbilidad o alteraciones de la perfusión. El resumen no proporciona los tamaños de efecto ajustados ni sus intervalos de confianza.",
+        "practical_implication": "Los equipos de shock pueden incorporar la hemoglobina de ingreso a la evaluación pronóstica inicial, junto con parámetros hemodinámicos, metabólicos y etiológicos. No se debería modificar una estrategia transfusional únicamente a partir de esta asociación observacional.",
+        "source_title": "Hemoglobin levels and early dynamics in cardiogenic shock: prognostic insights from the Altshock-2 registry.",
+        "journal": "Journal of cardiovascular medicine (Hagerstown, Md.)",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.2459/jcm.0000000000001953",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-17"
+      },
+      {
+        "title": "La exposición sostenida a LDL-colesterol y HbA1c elevados se asocia con mayor mortalidad en diabetes tipo 2 y enfermedad renal crónica",
+        "what_happened": "Una cohorte retrospectiva de 7.978 pacientes con diabetes tipo 2 y enfermedad renal crónica evaluó la exposición acumulada ponderada a HbA1c y LDL-colesterol durante una mediana de seguimiento de 5,04 años. Tras ajuste, una HbA1c sostenida de 8% frente a 6,5% se asoció con mayor mortalidad por cualquier causa (HR 1,14; IC 95% 1,04-1,27), al igual que un LDL-colesterol sostenido de 3,4 frente a 1,8 mmol/l (HR 1,40; IC 95% 1,10-1,74).",
+        "why_relevant": "El trabajo destaca que la carga acumulada de LDL-colesterol y glucemia se relaciona con mortalidad en una población cardiorrenal de alto riesgo, y cuantifica asociaciones de magnitud moderada con intervalos de confianza disponibles. Refuerza la importancia clínica de iniciar y mantener el control lipídico, sin presentar estos marcadores como sustitutos de beneficio. La naturaleza retrospectiva impide inferir que reducir LDL-colesterol o HbA1c hasta esas cifras cause la reducción de mortalidad; además, el desenlace fue mortalidad por cualquier causa y el modelo de media ponderada mostró mejor ajuste estadístico que el modelo de exposición acumulada.",
+        "practical_implication": "Los clínicos deberían evitar basar la valoración longitudinal exclusivamente en mediciones aisladas de LDL-colesterol o HbA1c en pacientes con diabetes y enfermedad renal crónica. El estudio respalda revisar de forma sostenida la adherencia y el control de factores de riesgo, sin establecer nuevos objetivos terapéuticos.",
+        "source_title": "Weighted Cumulative Exposure of HbA1c and LDL-C and All-Cause Mortality in Patients with Type 2 Diabetes and Chronic Kidney Disease: A Retrospective Cohort Study.",
+        "journal": "Diabetes therapy : research, treatment and education of diabetes and related disorders",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1007/s13300-026-01936-7",
+        "specialty": "Dislipidemias",
+        "publication_date": "2026-11-18"
+      },
+      {
+        "title": "Resultados a dos años del stent Inspiron liberador de sirolimus en práctica clínica brasileña",
+        "what_happened": "Un análisis agrupado de 2.803 pacientes consecutivos tratados con el stent Inspiron de sirolimus, de polímero biodegradable, en 25 centros brasileños comunicó una incidencia acumulada de eventos cardiovasculares adversos mayores del 6,7% a 24 meses. Las tasas fueron 2,3% para mortalidad cardiovascular, 1,2% para infarto de miocardio, 0,9% para revascularización de la lesión tratada y 0,6% para trombosis definitiva o probable del stent.",
+        "why_relevant": "Aporta datos de seguridad y eficacia a dos años en una cohorte amplia de práctica clínica, incluidos pacientes con lesiones coronarias complejas, y comunica desenlaces relevantes como muerte cardiovascular, infarto, revascularización y trombosis del stent. Sin embargo, no existe comparador contemporáneo ni asignación aleatorizada; por ello, las tasas observadas no permiten establecer superioridad, equivalencia o ventaja frente a otros stents farmacoactivos.",
+        "practical_implication": "Los intervencionistas pueden utilizar estos resultados como referencia descriptiva de desempeño del dispositivo en práctica real, pero la elección de plataforma debe seguir integrando anatomía coronaria, necesidad de doble antiagregación, riesgo hemorrágico y la evidencia comparativa disponible para otras tecnologías.",
+        "source_title": "Real-World 2-Year Outcomes of the Inspiron™ Biodegradable Polymer Sirolimus-Eluting Stent.",
+        "journal": "Arquivos brasileiros de cardiologia",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.36660/abc.20260244",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2026-11-16"
+      },
+      {
+        "title": "Revascularización coronaria total por toracotomía izquierda: baja mortalidad perioperatoria comunicada, sin comparación con CABG convencional",
+        "what_happened": "Una revisión sistemática con metaanálisis de un solo brazo reunió siete cohortes y 1.869 pacientes sometidos a revascularización coronaria total mediante toracotomía izquierda, una estrategia que evita la esternotomía. La mortalidad intrahospitalaria o a corto plazo combinada fue del 0,92% (IC 95% 0,28-1,83%) y la tasa de accidente cerebrovascular del 0,76% (IC 95% 0,10-1,82%). Se comunicaron fibrilación auricular posoperatoria en el 11,53% y reexploración en el 3,44%.",
+        "why_relevant": "La síntesis proporciona una estimación de resultados perioperatorios de una alternativa quirúrgica mínimamente invasiva para enfermedad multivaso, con mortalidad y accidente cerebrovascular como desenlaces importantes. Su relevancia está limitada de forma fundamental por la evidencia disponible: los estudios fueron predominantemente observacionales, los análisis fueron de un solo brazo, existió heterogeneidad en varios desenlaces y los pacientes procedían de centros seleccionados. No puede concluirse equivalencia ni superioridad respecto a la cirugía convencional.",
+        "practical_implication": "La técnica puede considerarse en centros con experiencia y tras selección anatómica y clínica individualizada, pero no debería desplazar a la cirugía de revascularización convencional basándose en estas estimaciones. La decisión debe discutirse en un equipo multidisciplinario y requerirá evidencia comparativa ajustada y seguimiento a largo plazo.",
+        "source_title": "Perioperative outcomes after total coronary revascularization via left anterior thoracotomy (TCRAT): A systematic review and single-arm meta-analysis.",
+        "journal": "Perfusion",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1177/02676591261510255",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2026-11-17"
+      }
+    ],
+    "target_items": 10,
+    "selection_policy": "clinical-cardiology-v1",
+    "selection_mode": "ai"
+  },
+  {
     "date": "2026-11-21",
     "generated_at": "2026-11-21T17:01:52.148525+00:00",
     "items": [
