@@ -1,5 +1,122 @@
 [
   {
+    "date": "2026-11-23",
+    "generated_at": "2026-11-23T21:43:21.332259+00:00",
+    "items": [
+      {
+        "title": "La ICP rutinaria antes o durante el TAVI no reduce eventos mayores y aumenta el sangrado",
+        "what_happened": "Un metaanálisis de tres ensayos aleatorizados comparó la intervención coronaria percutánea (ICP) rutinaria frente a manejo conservador o diferido de la enfermedad coronaria concomitante en pacientes sometidos a implante valvular aórtico transcatéter (TAVI). La ICP rutinaria no redujo mortalidad ni eventos cardiovasculares y cerebrovasculares mayores; sí redujo la necesidad posterior de revascularización urgente, a costa de más sangrado mayor (RR 1,57; IC 95% 1,06-2,33) y cualquier sangrado (RR 1,77; IC 95% 1,27-2,48).",
+        "why_relevant": "Aporta evidencia aleatorizada agrupada directamente aplicable a una decisión frecuente y potencialmente modificadora del manejo peri-TAVI: evitar una estrategia angiográfica indiscriminada de revascularización. El balance clínico es relevante porque no muestra beneficio en mortalidad o infarto y sí un exceso de sangrado. La interpretación queda limitada por incluir solo tres ensayos y por heterogeneidad influida por estudios individuales en algunos desenlaces, aunque los análisis de sensibilidad mantuvieron el sentido general de los resultados.",
+        "practical_implication": "El equipo cardiológico puede considerar una estrategia selectiva e individualizada, reservando la ICP para lesiones clínicamente o fisiológicamente significativas en vez de practicarla de rutina por la sola apariencia angiográfica.",
+        "source_title": "Clinical Outcomes Associated With Routine Percutaneous Coronary Intervention in Patients With Coronary Artery Disease Undergoing Transcatheter Aortic Valve Implantation: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.",
+        "journal": "Cardiology in review",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/crd.0000000000001541",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-23"
+      },
+      {
+        "title": "La escalada adaptativa de radioterapia en cáncer de pulmón se asoció con menor toxicidad cardiaca que la escalada no adaptativa",
+        "what_happened": "Un análisis comparativo de datos individuales de pacientes de los brazos de escalada de dosis de NRG-RTOG 0617 y NRG-RTOG 1106 comparó radioterapia adaptada por PET frente a radioterapia no adaptativa en cáncer de pulmón no microcítico localmente avanzado. Tras ponderación por diferencias basales, la radioterapia adaptativa mantuvo resultados de supervivencia similares y se asoció con menor toxicidad de grado 3 o superior; el modelo ponderado comunicó menor cardiotoxicidad (OR 0,114; IC 95% 0,01-0,98). También redujo esofagitis grave y mostró menores dosis pulmonares y esofágicas.",
+        "why_relevant": "Aunque el estudio no evalúa una intervención cardiológica, aborda una exposición terapéutica potencialmente cardiotóxica y aporta desenlaces clínicos de toxicidad, no solo dosimetría. Su prioridad se sustenta en que puede informar la planificación oncológica de pacientes con riesgo cardiovascular. No obstante, compara cohortes procedentes de ensayos distintos, no una aleatorización directa entre estrategias; existían diferencias basales y tecnológicas importantes, por lo que no permite atribuir causalidad con la solidez de un ensayo contemporáneo específico.",
+        "practical_implication": "Los equipos de cardiooncología y oncología radioterápica pueden valorar la planificación adaptativa guiada por PET cuando sea factible, especialmente si se busca limitar la exposición cardiaca, sin interpretar estos datos como prueba definitiva de superioridad en supervivencia.",
+        "source_title": "Adaptive vs. Non-Adaptive Radiation Dose Escalation in Locally Advanced Non-Small Cell Lung Cancer: A Comparison of NRG-RTOG 0617 and 1106 Individual Patient Data.",
+        "journal": "International journal of radiation oncology, biology, physics",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.ijrobp.2026.11.006",
+        "specialty": "Cardiooncología",
+        "publication_date": "2026-11-22"
+      },
+      {
+        "title": "La discordancia entre calcio valvular y gravedad hemodinámica es frecuente en la estenosis aórtica de bajo flujo y bajo gradiente",
+        "what_happened": "En 431 pacientes con estenosis aórtica de bajo flujo y bajo gradiente, la clasificación por cociente gradiente medio/área efectiva valvular y por umbrales de calcio valvular aórtico específicos por sexo concordó solo en el 56%. La estenosis hemodinámicamente grave fue más frecuente que la anatómicamente grave (67% frente a 37%), y la mayor parte de la discordancia correspondió a gravedad hemodinámica con calcificación no grave.",
+        "why_relevant": "El hallazgo cuestiona la intercambiabilidad de dos pruebas utilizadas para confirmar estenosis aórtica verdaderamente grave y afecta directamente a una población en la que la indicación de intervención puede ser difícil. El estudio cuantifica una limitación diagnóstica importante, pero no determina qué modalidad predice mejor el beneficio de reemplazo valvular ni cuál debe guiar el tratamiento de los casos discordantes.",
+        "practical_implication": "Ante discordancia entre el calcio valvular y la valoración hemodinámica, el clínico no debería asumir que una sola medida resuelve la gravedad. La decisión puede requerir integración multiparamétrica y valoración individualizada, dado que el manejo óptimo de los pacientes discordantes permanece incierto.",
+        "source_title": "Anatomic-Hemodynamic Discordance in Low-Flow, Low-Gradient Aortic Stenosis: A Clinical Challenge.",
+        "journal": "Journal of the American Heart Association",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/jaha.126.051320",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-22"
+      },
+      {
+        "title": "La lipoproteína(a) elevada se asoció más claramente con estenosis aórtica que con eventos aterotrombóticos recurrentes en práctica habitual",
+        "what_happened": "Un estudio retrospectivo federado de historias clínicas incluyó 13.865 adultos con enfermedad cardiovascular aterosclerótica previa y determinación de lipoproteína(a). La lipoproteína(a) alta se asoció con estenosis aórtica o reemplazo valvular (HR ajustado 1,62; IC 95% 1,11-2,36), mientras que la asociación con eventos cardiovasculares mayores recurrentes fue modesta y no estadísticamente significativa (HR 1,11; IC 95% 0,98-1,25). Los modelos que extrapolaron el posible efecto de reducir lipoproteína(a) proyectaron efectos pequeños y dependientes de supuestos para ensayos en curso.",
+        "why_relevant": "La publicación es relevante porque delimita una incertidumbre central para el desarrollo de terapias dirigidas a lipoproteína(a): una asociación observacional débil con eventos recurrentes puede dificultar demostrar beneficio clínico aterotrombótico, mientras que la asociación con enfermedad valvular aórtica fue más marcada. Sin embargo, es un preprint retrospectivo; las asociaciones no establecen causalidad y las proyecciones de eficacia farmacológica son modelizadas, no resultados de ensayos.",
+        "practical_implication": "La concentración de lipoproteína(a) puede seguir utilizándose para estratificación de riesgo, pero estos datos no justifican inferir que reducirla prevenga eventos o estenosis aórtica. Las decisiones terapéuticas deben esperar resultados clínicos aleatorizados de los tratamientos específicos.",
+        "source_title": "Lipoprotein(a), Cardiovascular Events, and Aortic Stenosis in Routine Care and Implications for Lipoprotein(a)-Lowering Trials",
+        "journal": "",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.20944/preprints202611.1888.v1",
+        "specialty": "Dislipidemias",
+        "publication_date": "2026-11-18"
+      },
+      {
+        "title": "El ECG con inteligencia artificial aportó valor diagnóstico incremental en la evaluación de miocardiopatía hipertrófica",
+        "what_happened": "En una cohorte de 102 pacientes con miocardiopatía hipertrófica y 302 controles sometidos a resonancia magnética cardiaca por indicación clínica, un algoritmo comercial de ECG con inteligencia artificial mostró sensibilidad del 51,1% y especificidad del 96,1% para identificar miocardiopatía hipertrófica fenotípica. Añadió discriminación y reclasificación respecto a variables demográficas y hallazgos convencionales del ECG. Un resultado positivo se asoció con el desenlace compuesto a un año (HR ajustado 2,68; IC 95% 1,42-5,09), principalmente por implante de desfibrilador o terapia de reducción septal.",
+        "why_relevant": "El estudio sugiere que un ECG asistido por inteligencia artificial podría aportar información adicional durante la evaluación clínica de sospecha de miocardiopatía hipertrófica. Sin embargo, la sensibilidad moderada impide usarlo para excluir la enfermedad. Además, el desenlace pronóstico estuvo dominado por intervenciones terapéuticas y no por muerte súbita o mortalidad, y la cohorte fue seleccionada entre personas remitidas a resonancia, lo que limita la generalización a cribado poblacional.",
+        "practical_implication": "El algoritmo podría considerarse una ayuda complementaria para priorizar evaluación especializada o imagen cardiaca en pacientes seleccionados, pero no sustituye el ECG convencional, la ecocardiografía, la resonancia ni la estratificación clínica establecida.",
+        "source_title": "Artificial Intelligence-Enabled Algorithm for Detection of Hypertrophic Cardiomyopathy Compared with a Standard Electrocardiogram.",
+        "journal": "The American journal of cardiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.amjcard.2026.11.027",
+        "specialty": "Inteligencia artificial en cardiología",
+        "publication_date": "2026-11-21"
+      },
+      {
+        "title": "La cardiografía acústica portátil mostró potencial para seleccionar candidatos a ecocardiografía preoperatoria",
+        "what_happened": "Un estudio prospectivo unicéntrico incluyó 262 pacientes programados para cirugía mayor no cardiaca electiva y comparó cardiografía acústica portátil con ecocardiografía como estándar de referencia para detectar disfunción sistólica ventricular izquierda y disfunción valvular significativa. Los autores concluyeron que la técnica tuvo alta precisión diagnóstica y podría facilitar la derivación selectiva a ecocardiografía.",
+        "why_relevant": "Podría reducir tanto la omisión de disfunción ventricular o valvular relevante como el uso indiscriminado de ecocardiografía en la valoración preoperatoria. No obstante, el resumen no proporciona las estimaciones numéricas de sensibilidad, especificidad, valores predictivos ni los umbrales empleados, por lo que no permite evaluar plenamente su rendimiento. El estudio fue unicéntrico y no demostró que el uso del dispositivo mejore decisiones de derivación ni resultados perioperatorios.",
+        "practical_implication": "La cardiografía acústica portátil podría explorarse como prueba de cribado preoperatorio complementaria en entornos con acceso limitado a ecocardiografía, pero su adopción requiere validación externa y evidencia de utilidad clínica.",
+        "source_title": "Wearable acoustic cardiography for detection of left ventricular and valvular dysfunction: a prospective diagnostic accuracy study.",
+        "journal": "Annals of medicine",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/07853890.2026.2764469",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-17"
+      },
+      {
+        "title": "La guía ACC de 2026 impulsa una estrategia más temprana e individualizada frente a la aterosclerosis subclínica",
+        "what_happened": "La declaración científica del American College of Cardiology revisa el concepto de carga acumulada de colesterol LDL y propone integrar riesgo a corto y largo plazo, exposición lipídica, factores que modifican el riesgo y, cuando proceda, detección de aterosclerosis subclínica mediante imagen para individualizar el tratamiento hipolipemiante.",
+        "why_relevant": "El documento puede influir en la prevención clínica al desplazar el foco desde el riesgo a 10 años exclusivamente hacia la exposición lipídica a lo largo de la vida y la identificación más precoz de personas con riesgo infravalorado. Reconoce explícitamente una limitación importante: la evidencia directa para tratar a adultos jóvenes con bajo riesgo a corto plazo sigue siendo limitada, y persisten incertidumbres sobre cribado, umbrales terapéuticos, seguridad, adherencia y coste-efectividad.",
+        "practical_implication": "El clínico puede incorporar una valoración de riesgo de por vida, antecedentes y modificadores de riesgo, junto con imagen de aterosclerosis subclínica en casos seleccionados, dentro de una decisión compartida. La presencia de aterosclerosis en imagen no determina por sí sola un esquema terapéutico universal.",
+        "source_title": "Lipid-Lowering Strategies in the Era of Early Atherosclerosis Detection: 2026 ACC Scientific Statement: A Report of the American College of Cardiology.",
+        "journal": "Journal of the American College of Cardiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.jacc.2026.10.067",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "El uso de cirugía valvular en endocarditis infecciosa varió poco a lo largo del gradiente de mortalidad predicha",
+        "what_happened": "Un análisis nacional estadounidense de 125.100 hospitalizaciones por endocarditis infecciosa entre 2016 y 2022 desarrolló modelos de aprendizaje automático para clasificar mortalidad intrahospitalaria y uso de cirugía valvular. La mortalidad observada aumentó desde 0,4% hasta 35,5% entre quintiles de riesgo predicho, mientras que las tasas de cirugía variaron de forma más modesta, entre 5,6% y 10,8%. La edad y características hospitalarias tuvieron un peso importante en la predicción de cirugía.",
+        "why_relevant": "El gran tamaño muestral y la validación temporal describen una posible discrepancia entre gravedad poblacional y utilización quirúrgica, relevante para la organización asistencial de endocarditis. Sin embargo, el propio estudio advierte que el riesgo de mortalidad no equivale a indicación quirúrgica: los datos administrativos no capturan indicaciones según guías, operabilidad, anatomía, microbiología, preferencias ni decisiones del equipo de endocarditis. Por ello, no demuestra infratratamiento individual.",
+        "practical_implication": "Los programas de endocarditis pueden utilizar estos hallazgos para auditar procesos de derivación y acceso a cirugía, pero no para decidir cirugía a partir de modelos administrativos de mortalidad ni para inferir inequidad terapéutica en pacientes concretos.",
+        "source_title": "Machine learning-derived discordance between predicted mortality risk and valve surgery utilisation in infective endocarditis: a nationwide population-level analysis including injection drug use-associated disease.",
+        "journal": "BMC infectious diseases",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1186/s12879-026-14599-3",
+        "specialty": "Valvulopatías",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "Una guía multidisciplinaria estructura el manejo del síndrome de miastenia-miopatía-miocarditis asociado a inhibidores de puntos de control",
+        "what_happened": "Una guía elaborada mediante Delphi modificado y revisión sistemática propone criterios diagnósticos y escalada terapéutica para el síndrome de solapamiento de miastenia, miositis y miocarditis asociado a inhibidores de puntos de control inmunitario. Integra recomendaciones para oncología, neurología, cardiología, cuidados intensivos y atención paliativa.",
+        "why_relevant": "El síndrome es infrecuente, pero combina afectación miocárdica, neuromuscular y respiratoria potencialmente grave, por lo que una ruta multidisciplinaria puede mejorar el reconocimiento y la coordinación asistencial. La limitación es sustancial: no existen estudios prospectivos ni ensayos clínicos terapéuticos; las recomendaciones se fundamentan en series y casos, experiencia experta y guías generales de toxicidades inmunomediadas.",
+        "practical_implication": "Ante sospecha de este solapamiento, los equipos deben organizar valoración urgente y coordinada entre cardiooncología, neurología y cuidados críticos. La guía puede servir como marco operativo, pero la intensidad y secuencia de tratamiento requieren individualización y juicio experto.",
+        "source_title": "Cross-specialty Triple M syndrome clinical practice guide: immune checkpoint inhibitor associated myasthenia-myositis-myocarditis overlap syndrome.",
+        "journal": "BMJ oncology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1136/bmjonc-2026-001365",
+        "specialty": "Cardiooncología",
+        "publication_date": "2026-11-18"
+      }
+    ],
+    "target_items": 10,
+    "selection_policy": "clinical-cardiology-v1",
+    "selection_mode": "ai"
+  },
+  {
     "date": "2026-11-22",
     "generated_at": "2026-11-22T17:24:52.458370+00:00",
     "items": [
