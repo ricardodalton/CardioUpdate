@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-11-24",
+    "generated_at": "2026-11-24T20:24:41.005454+00:00",
+    "items": [
+      {
+        "title": "El control protocolizado de la presión arterial intraoperatoria no demuestra beneficio incremental en cirugía no cardíaca",
+        "what_happened": "Un metaanálisis bayesiano de efectos aleatorios de 15 ensayos aleatorizados comparó estrategias protocolizadas de objetivos de presión arterial intraoperatoria con la atención habitual o estrategias de menor presión en cirugía mayor no cardíaca. No se observó diferencia en mortalidad por cualquier causa (OR 1,00; IC 95% 0,83-1,21) ni en lesión miocárdica tras cirugía no cardíaca (OR 1,04; IC 95% 0,93-1,15). La estimación para lesión renal aguda fue favorable pero incierta (OR 0,87; IC 95% 0,73-1,03), con heterogeneidad moderada y sensibilidad a la exclusión individual de ensayos.",
+        "why_relevant": "La síntesis incorpora desenlaces clínicamente relevantes y ensayos aleatorizados, y aporta evidencia contra asumir que un protocolo universal de objetivos tensionales añade beneficio sobre la atención contemporánea. La ausencia de efecto en mortalidad y lesión miocárdica es particularmente informativa. Sin embargo, los intervalos de predicción fueron amplios y el posible efecto renal no es concluyente; el resumen tampoco permite establecer qué subgrupos o componentes concretos de las estrategias hemodinámicas podrían beneficiarse.",
+        "practical_implication": "La monitorización y corrección individualizada de hipotensión siguen siendo necesarias, pero estos resultados no respaldan implantar objetivos protocolizados universales de presión arterial intraoperatoria con la expectativa de reducir mortalidad o lesión miocárdica. La posible prevención de lesión renal aguda requiere confirmación antes de modificar protocolos.",
+        "source_title": "Intraoperative Blood Pressure Targeting in Noncardiac Surgery: A Bayesian Random-effects Meta-analysis of Randomized Trials.",
+        "journal": "Anesthesiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/aln.0000000000006395",
+        "specialty": "Hipertensión arterial",
+        "publication_date": "2026-11-24"
+      },
+      {
+        "title": "La PCI de alto riesgo con bomba de flujo microaxial no mostró menor incidencia de eventos y se asoció con más mortalidad precoz en pacientes sin shock",
+        "what_happened": "En un estudio retrospectivo unicéntrico con emparejamiento por puntuación de propensión de 290 pacientes sometidos a intervención coronaria percutánea de alto riesgo, el soporte con bomba de flujo microaxial no redujo los eventos cardiovasculares mayores frente a la atención estándar hasta 24 meses. A 30 días, los eventos fueron más frecuentes con soporte mecánico (26,2% frente a 17,9%; diferencia absoluta 8,3 puntos porcentuales; IC 95% 0,1-16,6), casi todos correspondientes a muertes. La diferencia precoz se concentró en quienes no presentaban shock cardiogénico.",
+        "why_relevant": "El estudio aborda una decisión de alto impacto y cuestiona el uso profiláctico rutinario de soporte microaxial durante PCI compleja, especialmente fuera del shock. El desenlace temprano estuvo dominado por mortalidad, no por un marcador sustituto. No obstante, se trata de un análisis observacional, de un solo centro y con posible confusión residual por indicación o gravedad pese al emparejamiento; por tanto, no permite atribuir causalmente el exceso de eventos al dispositivo.",
+        "practical_implication": "La selección de soporte microaxial en PCI de alto riesgo debería seguir siendo restrictiva e individualizada, valorando particularmente la indicación hemodinámica. Los hallazgos no apoyan su uso profiláctico sistemático y justifican ensayos comparativos con selección clínica explícita de pacientes.",
+        "source_title": "Short- and intermediate-term outcomes of microaxial flow pump-assisted versus standard-care PCI in high-risk patients: A propensity score-matched analysis.",
+        "journal": "Cardiovascular revascularization medicine : including molecular interventions",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.carrev.2026.11.012",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "La ablación de arritmias ventriculares con ECMO fue factible en pacientes extremadamente inestables, pero con mortalidad hospitalaria elevada",
+        "what_happened": "Una cohorte retrospectiva de 57 pacientes sometidos a 64 ablaciones de arritmias ventriculares con soporte de ECMO mostró estabilidad hemodinámica durante el procedimiento. El 70% tenía shock cardiogénico y el 75% tormenta eléctrica. La mortalidad intrahospitalaria fue del 42% (IC 95% 30%-55%). En los pacientes con tormenta eléctrica, la eliminación de la arritmia se asoció con menor mortalidad intrahospitalaria que la recurrencia (27% frente a 80%).",
+        "why_relevant": "Aporta datos de una población muy grave y escasamente representada en estudios de ablación, en la que el control de la arritmia puede ser un puente a recuperación o a otras decisiones terapéuticas. La mortalidad elevada cuantifica la reserva clínica limitada de estos pacientes. La asociación entre eliminación de la arritmia y supervivencia no demuestra un efecto causal de la ablación, pues puede reflejar diferencias basales, sustrato arrítmico o gravedad; además, no existió grupo comparador sin ECMO.",
+        "practical_implication": "El soporte con ECMO puede considerarse para permitir mapeo y ablación en casos seleccionados de arritmias ventriculares refractarias con inestabilidad hemodinámica. La discusión debe realizarse en equipos con experiencia en electrofisiología, shock y soporte circulatorio, reconociendo el pronóstico intrahospitalario adverso.",
+        "source_title": "Outcomes of Catheter Ablation for Ventricular Arrhythmias Performed With ECMO Support: A 10-Year Institutional Experience.",
+        "journal": "Circulation. Arrhythmia and electrophysiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/circep.126.015229",
+        "specialty": "Arritmias y electrofisiología",
+        "publication_date": "2026-11-23"
+      },
+      {
+        "title": "La anticoagulación oral se mantuvo frecuentemente un año después de fibrilación auricular posoperatoria pese a baja recurrencia documentada",
+        "what_happened": "En una cohorte retrospectiva unicéntrica de 1.012 supervivientes al alta tras cirugía cardíaca sin fibrilación auricular o flutter previos, el 43% desarrolló fibrilación auricular posoperatoria. Solo el 8,8% de estos pacientes fue dado de alta en fibrilación auricular y la incidencia acumulada de fibrilación auricular documentada fue del 7,9% a tres meses y del 8,8% a un año. Sin embargo, el 89% de quienes habían recibido anticoagulación oral seguía anticoagulado al año.",
+        "why_relevant": "El estudio identifica una posible discordancia entre la resolución habitual de la fibrilación auricular posoperatoria, la baja recurrencia documentada y la persistencia de anticoagulación en una población con riesgo hemorrágico relevante. Tiene interés directo para revisar indicaciones y planes de suspensión. No determina si la anticoagulación fue apropiada para cada individuo, porque el resumen no informa riesgo tromboembólico individual, carga arrítmica detectada, sangrados ni eventos embólicos.",
+        "practical_implication": "Tras fibrilación auricular posoperatoria, la necesidad de anticoagulación debería reevaluarse de forma estructurada durante el seguimiento, integrando riesgo tromboembólico, riesgo hemorrágico y documentación de recurrencia arrítmica, en lugar de mantenerla indefinidamente por inercia terapéutica.",
+        "source_title": "Postoperative atrial fibrillation and use of oral anticoagulants after cardiac surgery: a real-life, single-centre study.",
+        "journal": "Scandinavian cardiovascular journal : SCJ",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/14017431.2026.2765030",
+        "specialty": "Arritmias y electrofisiología",
+        "publication_date": "2026-11-23"
+      },
+      {
+        "title": "Evolocumab mantuvo una reducción de LDL-C durante dos años en hipercolesterolemia familiar en práctica clínica japonesa",
+        "what_happened": "Un análisis de farmacovigilancia poscomercialización incluyó 2.117 pacientes japoneses con hipercolesterolemia familiar, de los cuales 1.380 formaron el conjunto de efectividad. La reducción de colesterol LDL con evolocumab fue evidente desde la semana 4 y se mantuvo hasta la semana 104: -54,0% en hipercolesterolemia familiar heterocigota y -48,9% en la homocigota. El uso concomitante de estatinas fue alto, aunque muchos pacientes recibían estatinas de intensidad baja o moderada. También se identificaron bajas tasas de pruebas genéticas, especialmente en la forma heterocigota.",
+        "why_relevant": "Confirma en una cohorte amplia de práctica asistencial la persistencia del efecto hipolipemiante de evolocumab en una población de muy alto riesgo, incluidos pacientes con hipercolesterolemia familiar homocigota. No obstante, el estudio informa un desenlace sustituto, LDL-C, y no permite demostrar reducción de eventos cardiovasculares, atribuir causalidad ni comparar la estrategia con alternativas terapéuticas. El resumen no comunica resultados específicos de seguridad.",
+        "practical_implication": "En pacientes con hipercolesterolemia familiar que no alcanzan objetivos de LDL-C pese a tratamiento optimizado, los datos respaldan que evolocumab puede mantener una reducción sustancial de LDL-C a dos años en práctica real. También ponen de relieve la necesidad de optimizar tratamiento basal y diagnóstico genético cuando esté indicado.",
+        "source_title": "Real-World Safety and Effectiveness of Evolocumab in Japanese Patients With Familial Hypercholesterolemia: Postmarketing Survey Analysis.",
+        "journal": "Journal of the American Heart Association",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/jaha.126.050177",
+        "specialty": "Dislipidemias",
+        "publication_date": "2026-11-18"
+      },
+      {
+        "title": "La coexistencia de aneurisma de aorta abdominal y cáncer fue frecuente y se asoció con más muertes antes de la reparación",
+        "what_happened": "Un estudio poblacional retrospectivo basado en datos administrativos de 3.088.992 asegurados alemanes identificó aneurisma de aorta abdominal en 13.494 personas; el 35,2% tuvo además un diagnóstico registrado de cáncer. Entre 531 pacientes con diagnósticos incidentes de ambas entidades, el aneurisma precedió al cáncer en el 51,6% y el cáncer al aneurisma en el 41,2%. La proporción de reparación fue similar en personas con y sin cáncer, pero el análisis de riesgos competitivos mostró menor incidencia acumulada de reparación y más muertes antes de la reparación en quienes tenían cáncer registrado.",
+        "why_relevant": "La magnitud de la coexistencia es clínicamente importante en una población envejecida y señala que la trayectoria del aneurisma puede estar condicionada por el pronóstico oncológico. El uso de análisis de riesgos competitivos es pertinente ante la alta mortalidad no vascular. La interpretación está limitada por el diseño basado en códigos administrativos: no permite conocer tamaño, crecimiento, anatomía, indicación de reparación, estadio tumoral, tratamientos oncológicos ni causalidad; además, el momento del registro no equivale al inicio de la enfermedad.",
+        "practical_implication": "La valoración de un aneurisma de aorta abdominal en pacientes con cáncer requiere coordinación vascular-oncológica, incorporando expectativa de vida, riesgo de rotura, características anatómicas y calendario oncológico. Los datos no justifican por sí solos cambiar umbrales de reparación.",
+        "source_title": "Abdominal aortic aneurysm in patients with malignancy: a population-based claims study.",
+        "journal": "Cardio-oncology (London, England)",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1186/s40959-026-00607-7",
+        "specialty": "Cardiooncología",
+        "publication_date": "2026-11-24"
+      },
+      {
+        "title": "Casi uno de cada cinco supervivientes de infarto fue rehospitalizado o falleció por un evento grave durante el primer año",
+        "what_happened": "Un estudio retrospectivo de registro evaluó 2.904 pacientes consecutivos con infarto de miocardio tratados mediante coronariografía y dados de alta o transferidos entre 2012 y 2016. Durante el primer año, el 4,8% murió y el 17,8% fue rehospitalizado por sangrado, eventos cerebrovasculares, descompensación de insuficiencia cardíaca, reinfarto o angina inestable. Al incorporar muertes sin hospitalización previa, el 18,8% presentó un evento grave. La incidencia aumentó marcadamente con la edad, hasta el 29% en personas de 80 años o más.",
+        "why_relevant": "Cuantifica una carga residual sustancial de eventos clínicamente relevantes tras un infarto manejado de forma invasiva y subraya la vulnerabilidad de los pacientes de edad avanzada. Los desenlaces incluyen muerte y rehospitalización, relevantes para pacientes y sistemas sanitarios. Sin embargo, el período asistencial analizado es anterior a la publicación, el diseño es descriptivo y retrospectivo, y no evalúa qué estrategias de seguimiento o tratamiento reducen estos eventos.",
+        "practical_implication": "El seguimiento posterior al infarto debería priorizar la prevención secundaria, la detección de insuficiencia cardíaca, sangrado y recurrencia isquémica, con especial intensidad en pacientes de edad avanzada. El estudio sirve para estratificar necesidades asistenciales, no para seleccionar intervenciones específicas.",
+        "source_title": "Rehospitalizations after acute myocardial infarction in patients diagnosed by coronary angiography - the MADDEC study.",
+        "journal": "Scandinavian cardiovascular journal : SCJ",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/14017431.2026.2748118",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2026-11-22"
+      },
+      {
+        "title": "La carga de placa carotídea y femoral se asoció estrechamente con aterosclerosis coronaria subclínica en la mediana edad",
+        "what_happened": "En 374 participantes asintomáticos de la cohorte PESA, con edad media de 55 años, la carga global de placa carotídea y femoral medida por ecografía tridimensional automatizada se asoció con la presencia, gravedad y volumen de placa coronaria evaluados por angiografía por tomografía computarizada. El 63% tenía puntuación de calcio coronario de cero, mientras que el 75% presentaba aterosclerosis periférica subclínica. La correlación entre volumen global de placa periférica y volumen de placa coronaria fue de 0,69.",
+        "why_relevant": "El hallazgo documenta que una puntuación de calcio coronario de cero no excluye carga aterosclerótica en otros territorios y respalda una visión sistémica de la aterosclerosis subclínica. La cuantificación tridimensional automatizada añade consistencia a la medición de placa. Sin embargo, el estudio es transversal, incluye una muestra relativamente pequeña y no comunica eventos cardiovasculares ni demuestra que detectar placa periférica mejore decisiones terapéuticas o pronóstico.",
+        "practical_implication": "La presencia de placa carotídea o femoral en personas asintomáticas debe considerarse evidencia de aterosclerosis sistémica al valorar el riesgo cardiovascular. La integración rutinaria de estas técnicas en el cribado requiere estudios que demuestren utilidad clínica incremental y beneficio en desenlaces.",
+        "source_title": "Association Between Peripheral and Coronary Subclinical Atherosclerosis Burden in Midlife.",
+        "journal": "JACC. Cardiovascular imaging",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.jcmg.2026.09.016",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-19"
+      },
+      {
+        "title": "Un protocolo de medición de lipoproteína(a) tras infarto incrementó notablemente su determinación y detectó concentraciones elevadas en uno de cada cinco pacientes",
+        "what_happened": "Un análisis retrospectivo de un registro de pacientes con infarto de miocardio evaluó la implantación de una orden protocolizada de lipoproteína(a) dentro de las 24 horas del ingreso. La proporción de pacientes analizados aumentó del 3,9% antes del protocolo al 78,0% después, una diferencia absoluta de 74,1 puntos porcentuales. En la era protocolizada, el 22,0% de los pacientes analizados presentó lipoproteína(a) de al menos 125 nmol/L; la prevalencia ponderada fue similar a la observada.",
+        "why_relevant": "Aporta evidencia pragmática de que una vía asistencial explícita puede corregir el sesgo de selección de las solicitudes dirigidas por clínicos y hacer factible la identificación sistemática de lipoproteína(a) elevada tras un infarto. La elevada prevalencia apoya su importancia para estratificación de riesgo residual y evaluación familiar. El estudio no evaluó cambios terapéuticos, adherencia, eventos clínicos ni beneficio para pacientes derivados del protocolo.",
+        "practical_implication": "La incorporación de una determinación protocolizada de lipoproteína(a) tras infarto puede mejorar su detección e identificar pacientes candidatos a intensificación de la prevención secundaria y evaluación de familiares según el contexto clínico. Debe acompañarse de circuitos definidos para interpretar y actuar sobre el resultado.",
+        "source_title": "From clinician-directed to protocol-based lipoprotein(a) testing after acute myocardial infarction: uptake and prevalence in a coronary care pathway.",
+        "journal": "Coronary artery disease",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1097/mca.0000000000001694",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-23"
+      },
+      {
+        "title": "La rigidez arterial y la presión arterial explicaron parte de la asociación entre exposición a PM2,5 y eventos coronarios o cerebrovasculares",
+        "what_happened": "En una cohorte de 2.119 hombres de 50 a 75 años sin cardiopatía coronaria ni ictus basal, cada incremento de 1 µg/m³ en la exposición anual a PM2,5 se asoció con 151 eventos coronarios agudos o ictus adicionales por 100.000 personas-año durante una mediana de 7,6 años. En el subgrupo con medición de velocidad de onda de pulso carotídeo-femoral, la rigidez arterial explicó un 32% estimado de esta asociación; la presión arterial sistólica y la presión de pulso braquial explicaron aproximadamente un 16% cada una.",
+        "why_relevant": "El estudio conecta una exposición ambiental modificable a nivel poblacional con eventos cardiovasculares fatales o no fatales y explora vías fisiopatológicas potencialmente relevantes. No obstante, el análisis de mediación es exploratorio y observacional; la exposición, los mediadores y los desenlaces pueden estar afectados por confusión residual, y la cohorte incluyó solo hombres. Por ello, no establece causalidad ni valida la rigidez arterial como objetivo terapéutico frente a la exposición ambiental.",
+        "practical_implication": "La exposición crónica a contaminación por partículas debería considerarse dentro de la evaluación preventiva, especialmente en pacientes con alteraciones metabólicas. La reducción de la exposición exige principalmente intervenciones ambientales y de salud pública; la medición de rigidez arterial no puede recomendarse a partir de estos datos como estrategia probada para prevenir eventos.",
+        "source_title": "Blood pressure and arterial stiffness in the pathway between long-term PM2.5 exposure and cardiovascular risk: exploratory mediation analysis in middle-aged and older adult men.",
+        "journal": "European journal of preventive cardiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/eurjpc/zwag595",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-19"
+      }
+    ],
+    "target_items": 10,
+    "selection_policy": "clinical-cardiology-v1",
+    "selection_mode": "ai"
+  },
+  {
     "date": "2026-11-23",
     "generated_at": "2026-11-23T21:43:21.332259+00:00",
     "items": [
