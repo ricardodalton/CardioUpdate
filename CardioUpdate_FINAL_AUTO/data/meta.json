@@ -11,12 +11,12 @@
   "related_evidence_max_sources": 0,
   "edition_start": "2026-11-14",
   "edition_end": "2026-11-20",
-  "candidate_pool": 10411,
+  "candidate_pool": 10763,
   "publication_mode": "weekly_saturday",
-  "candidate_updated_at": "2026-11-25T05:38:38.838752+00:00",
-  "new_candidates": 145,
+  "candidate_updated_at": "2026-11-25T19:37:06.663861+00:00",
+  "new_candidates": 352,
   "candidate_cycle_start": "2026-11-21",
   "candidate_cycle_end": "2026-11-27",
-  "candidate_cycle_count": 1212,
+  "candidate_cycle_count": 1562,
   "individual_analysis_enabled": false
 }
