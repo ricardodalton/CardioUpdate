@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-11-26",
+    "generated_at": "2026-11-26T04:11:44.742368+00:00",
+    "items": [
+      {
+        "title": "El balón de contrapulsación intraaórtico no mejora la supervivencia de forma rutinaria en el infarto agudo de miocardio",
+        "what_happened": "Una revisión sistemática narrativa, conforme a PRISMA 2020, identificó ocho ensayos aleatorizados publicados entre 2010 y 2025 sobre balón de contrapulsación intraaórtico (BCIA) en infarto agudo de miocardio, con o sin shock cardiogénico. El uso rutinario o profiláctico del BCIA en pacientes sin shock no redujo significativamente la mortalidad ni el tamaño del infarto. En shock cardiogénico, el BCIA aislado tampoco mejoró la supervivencia a largo plazo.",
+        "why_relevant": "El hallazgo afecta directamente a una decisión frecuente en intervencionismo y soporte circulatorio: el BCIA puede estabilizar la hemodinámica, pero el resumen no documenta beneficio de supervivencia que justifique su uso rutinario. La síntesis se limita a ocho ensayos y es narrativa; además, las complicaciones relacionadas con dispositivos y los desenlaces funcionales a largo plazo fueron comunicados de forma inconsistente.",
+        "practical_implication": "Se refuerza la selección individualizada del soporte mecánico en infarto de alto riesgo o shock cardiogénico, sin asumir que el BCIA profiláctico mejore el pronóstico en pacientes estables. La elección de otros dispositivos debe basarse en el perfil clínico y anatómico, ya que sus posibles ventajas de supervivencia a corto plazo se describen solo en poblaciones seleccionadas.",
+        "source_title": "Effectiveness of Intra-Aortic Balloon Pump Therapy on Mortality Rate and Major Clinical Complications in Patients With Acute Myocardial Infarction: A Systematic Review.",
+        "journal": "Dimensions of critical care nursing : DCCN",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1097/DCC.0000000000000805",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2026-11-25"
+      },
+      {
+        "title": "La puntuación continua de riesgo identifica mayor urgencia de trasplante en amiloidosis cardíaca",
+        "what_happened": "Un análisis del registro estadounidense de candidatos a trasplante cardíaco incluyó 26.545 adultos listados entre 2019 y 2024, entre ellos 534 con amiloidosis cardíaca y 860 con miocardiopatía hipertrófica. La amiloidosis cardíaca presentó una mediana de puntuación US-Candidate Risk Score superior a la de la miocardiopatía hipertrófica y a la de otros diagnósticos, mientras que ambos grupos recurrieron con frecuencia a excepciones dentro del sistema estadounidense de seis estados.",
+        "why_relevant": "El estudio cuestiona si un sistema de priorización basado predominantemente en tratamientos y dispositivos refleja adecuadamente la gravedad de las miocardiopatías restrictivas, en las que dichas terapias pueden ser menos aplicables. Su tamaño y origen registral favorecen la relevancia para política de asignación, aunque el resumen no permite valorar en detalle los desenlaces clínicos ni el rendimiento predictivo del modelo en cada subgrupo.",
+        "practical_implication": "La evaluación de candidatos con amiloidosis cardíaca o miocardiopatía hipertrófica avanzada puede requerir una valoración explícita de riesgo continuo, además del estado administrativo de lista. El trabajo apoya debatir modelos de asignación menos dependientes de intervenciones de alta intensidad.",
+        "source_title": "Assessment of Medical Urgency for Heart Transplant in Patients With Cardiac Amyloidosis and Hypertrophic Cardiomyopathy Using a Continuous Risk Score.",
+        "journal": "Circulation. Heart failure",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/circheartfailure.126.014710",
+        "specialty": "Miocardiopatías y miocarditis",
+        "publication_date": "2026-11-25"
+      },
+      {
+        "title": "La bomba microaxial transvalvular podría ser coste-efectiva en shock cardiogénico relacionado con infarto en Alemania",
+        "what_happened": "Un modelo económico desde la perspectiva del seguro sanitario obligatorio alemán comparó una bomba microaxial transvalvular con la estrategia comparadora en shock cardiogénico relacionado con infarto. A partir de resultados de ensayo durante 180 días y de un modelo de estados a largo plazo, estimó 1,06 años de vida ajustados por calidad adicionales, un coste incremental de 38.121 euros y una razón coste-efectividad incremental de 36.083 euros por año de vida ajustado por calidad. A un umbral ilustrativo de 50.000 euros por año de vida ajustado por calidad, la probabilidad estimada de coste-efectividad fue del 86%.",
+        "why_relevant": "La decisión es clínicamente importante porque el dispositivo se asoció en la fuente con menor mortalidad a 180 días, pero también con más sangrado y más isquemia de extremidad. La estimación económica depende de supuestos de modelización, especialmente de que los pagos hospitalarios agudos fueran equivalentes entre grupos; los datos de facturación específicos por brazo no estaban disponibles.",
+        "practical_implication": "El uso de bomba microaxial puede considerarse una estrategia potencialmente eficiente en el contexto alemán, pero la decisión local debe incorporar los costes reales, la carga de complicaciones vasculares y hemorrágicas y la selección rigurosa de pacientes con shock cardiogénico por infarto.",
+        "source_title": "Cost-effectiveness of a transvalvular microaxial flow pump in infarct-related cardiogenic shock from the perspective of German statutory health insurance.",
+        "journal": "Expert review of pharmacoeconomics & outcomes research",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/14737167.2026.2767331",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-24"
+      },
+      {
+        "title": "Aficamten redujo NT-proBNP y troponina frente a metoprolol en miocardiopatía hipertrófica obstructiva",
+        "what_happened": "En un análisis del ensayo aleatorizado fase 3 MAPLE-HCM, 88 participantes recibieron aficamten y 87 metoprolol en monoterapia. A las 24 semanas, el NT-proBNP disminuyó un 73% con aficamten y aumentó un 42% con metoprolol, con un efecto de tratamiento de -81% (intervalo de confianza del 95%: -85% a -76%). Aficamten también produjo valores inferiores de troponina I cardíaca ultrasensible. La reducción de NT-proBNP se correlacionó con cambios favorables en capacidad de ejercicio, gradiente del tracto de salida del ventrículo izquierdo y estado de salud.",
+        "why_relevant": "La comparación aleatorizada frente a un betabloqueante aporta información mecanística congruente con el efecto clínico descrito para aficamten en MAPLE-HCM. Sin embargo, NT-proBNP y troponina son variables sustitutas: el resumen no aporta desenlaces de mortalidad, hospitalización o arritmias, por lo que no demuestran por sí mismos un beneficio pronóstico.",
+        "practical_implication": "Los biomarcadores pueden complementar la valoración de respuesta durante el tratamiento con aficamten, pero no deben sustituir la evaluación de síntomas, capacidad funcional, gradiente obstructivo, función ventricular y seguridad ecocardiográfica.",
+        "source_title": "Effect of Aficamten vs Metoprolol on Cardiac Biomarkers in Obstructive Hypertrophic Cardiomyopathy.",
+        "journal": "JACC. Heart failure",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.jchf.2026.103508",
+        "specialty": "Miocardiopatías y miocarditis",
+        "publication_date": "2026-11-24"
+      },
+      {
+        "title": "El cociente ApoC3/ApoA2 se asoció con riesgo residual tras intervencionismo coronario",
+        "what_happened": "En una cohorte de 649 pacientes tratados con estatinas y sometidos a intervención coronaria percutánea con stent farmacoactivo, 124 pacientes presentaron eventos cardiovasculares mayores durante el seguimiento. El grupo con ApoA2 baja y ApoC3 alta tuvo la mayor incidencia de eventos y se asoció independientemente con estos eventos frente al grupo con ApoA2 alta y ApoC3 baja (hazard ratio 1,52; intervalo de confianza del 95%: 1,02-2,28). Cada aumento de 0,1 en el cociente ApoC3/ApoA2 se asoció con un 23% más riesgo de eventos cardiovasculares mayores.",
+        "why_relevant": "El estudio aborda el riesgo residual en prevención secundaria pese a tratamiento hipolipemiante, usando desenlaces clínicos que incluyeron eventos cardiovasculares mayores, revascularización y rehospitalización por insuficiencia cardíaca. No obstante, es una cohorte observacional de un tamaño moderado; la asociación no demuestra que modificar el cociente reduzca eventos ni establece su utilidad incremental frente a la estratificación convencional.",
+        "practical_implication": "El cociente ApoC3/ApoA2 puede considerarse un marcador exploratorio de riesgo residual en pacientes postintervencionismo, pero el resumen no justifica todavía incorporarlo de forma rutinaria para decidir tratamiento lipídico.",
+        "source_title": "Utility of apolipoprotein C3/A2 ratio for cardiovascular risk assessment in statin-treated patients following percutaneous coronary intervention.",
+        "journal": "Heart and vessels",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1007/s00380-026-02776-y",
+        "specialty": "Dislipidemias",
+        "publication_date": "2026-11-22"
+      },
+      {
+        "title": "El tratamiento de la hipertensión crítica obstétrica antes de 30 minutos no mostró una diferencia estadísticamente significativa en morbilidad materna",
+        "what_happened": "Una cohorte retrospectiva unicéntrica analizó 271 gestantes con hipertensión crítica persistente. La morbilidad materna grave ocurrió en el 12,6% de quienes recibieron antihipertensivo antes de 30 minutos y en el 19,3% de quienes lo recibieron a los 30 minutos o más tarde; la odds ratio ajustada para el grupo tratado más tarde fue 1,77 (intervalo de confianza del 95%: 0,80-3,91). Tampoco se observaron diferencias estadísticamente significativas en los desenlaces neonatales graves u otros desenlaces secundarios.",
+        "why_relevant": "El trabajo evalúa una cuestión asistencial concreta con desenlaces clínicos maternos y neonatales, pero sus intervalos de confianza amplios no excluyen un beneficio clínicamente importante del tratamiento precoz. El carácter retrospectivo, el desequilibrio entre grupos y el origen en un único centro limitan la inferencia causal y no permiten interpretar la ausencia de significación como equivalencia.",
+        "practical_implication": "Se mantiene el tratamiento de la hipertensión grave de inicio agudo tan pronto como sea razonablemente posible. Estos datos no justifican relajar los objetivos temporales actuales y señalan la necesidad de estudios prospectivos adecuadamente dimensionados.",
+        "source_title": "Time to treatment of critical hypertension within 30 minutes and obstetrical outcomes.",
+        "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1080/14767058.2026.2765621",
+        "specialty": "Hipertensión arterial",
+        "publication_date": "2026-11-23"
+      },
+      {
+        "title": "La reparación endovascular total del arco aórtico ofrece una alternativa menos invasiva, con riesgo persistente de ictus y reintervención",
+        "what_happened": "Una revisión de tecnologías contemporáneas para reconstrucción endovascular total del arco aórtico evaluó dispositivos ramificados, fenestrados y alternativas técnicas. Comunicó tasas de éxito técnico de 90% a 100% y tasas de ictus de 3,7% a 11%; las endofugas y las reintervenciones siguieron siendo preocupaciones relevantes.",
+        "why_relevant": "La reparación endovascular del arco puede ampliar las opciones para pacientes de alto riesgo quirúrgico y obliga a ponderar el menor carácter invasivo frente a complicaciones neurológicas y necesidad de seguimiento. La revisión no fue sistemática ni metaanalítica, por lo que las tasas resumidas provienen probablemente de poblaciones y dispositivos heterogéneos y no permiten comparaciones causales con cirugía abierta.",
+        "practical_implication": "La indicación debe concentrarse en equipos con experiencia y sustentarse en planificación anatómica detallada, valoración del riesgo de ictus y un programa de vigilancia para endofugas y reintervenciones.",
+        "source_title": "Total Endovascular Aortic Arch Repair: A Review of Current Technologies and Clinical Decision Frameworks.",
+        "journal": "Heart failure clinics",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.hfc.2026.09.005",
+        "specialty": "Aorta y enfermedad vascular periférica",
+        "publication_date": "2027"
+      },
+      {
+        "title": "La prevención de obstrucción coronaria en TAVI exige estratificación anatómica, especialmente en valve-in-valve",
+        "what_happened": "Una revisión sobre riesgo coronario en implante valvular aórtico transcatéter señaló que la obstrucción coronaria es infrecuente, pero aumenta en los procedimientos valve-in-valve. Describió factores anatómicos evaluables por tomografía computarizada y estrategias de rescate o prevención, incluidas intervención coronaria percutánea de rescate, stent chimney y técnicas preventivas como BASILICA y ShortCut.",
+        "why_relevant": "La obstrucción coronaria tras TAVI puede ser catastrófica y la planificación preprocedimiento puede modificar la estrategia. El resumen informa mortalidad elevada con la intervención de rescate, pero no proporciona tasas cuantitativas, comparaciones directas ni calidad de la evidencia para las técnicas preventivas; por tanto, no permite establecer superioridad entre ellas.",
+        "practical_implication": "La tomografía previa a TAVI debe orientar la identificación de anatomías de riesgo y la preparación de una estrategia preventiva o de rescate. La elección entre técnicas debe individualizarse según anatomía, acceso coronario futuro y experiencia del centro.",
+        "source_title": "Coronary Risk in Transcatheter Aortic Valve Replacement, Overview of Data, Challenges, and Best Practices.",
+        "journal": "Interventional cardiology clinics",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.iccl.2026.08.007",
+        "specialty": "Valvulopatías",
+        "publication_date": "2027"
+      },
+      {
+        "title": "La actividad física en miocardiopatía hipertrófica debe individualizarse en lugar de restringirse universalmente",
+        "what_happened": "Una revisión de la evidencia y de guías contemporáneas cuestionó la restricción universal del ejercicio en miocardiopatía hipertrófica. Señaló que la mayoría de los pacientes puede realizar actividad física y que, en la mayor parte de los pacientes de bajo riesgo, la actividad vigorosa se ha asociado con mejor capacidad funcional sin incremento observado de eventos adversos.",
+        "why_relevant": "El cambio de un enfoque prohibitivo hacia decisiones compartidas puede mejorar la capacidad funcional y la calidad de vida de pacientes con miocardiopatía hipertrófica. Sin embargo, se trata de una revisión y el resumen no especifica los estudios, los tamaños muestrales, la duración del seguimiento ni las tasas de arritmias o muerte súbita; la seguridad no debe extrapolarse a pacientes de alto riesgo.",
+        "practical_implication": "La prescripción de ejercicio debe basarse en estratificación individual de riesgo, síntomas, obstrucción, arritmias y preferencias de la persona. La actividad vigorosa no debe considerarse automáticamente segura en todos los fenotipos ni sustituir la evaluación especializada.",
+        "source_title": "Strategy for Exercise Restriction in Hypertrophic Cardiomyopathy.",
+        "journal": "Cardiology clinics",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ccl.2026.08.007",
+        "specialty": "Cardiopatías congénitas del adulto y cardiología del deporte",
+        "publication_date": "2027"
+      },
+      {
+        "title": "El ruido ambiental se consolida como factor de riesgo cardiovascular modificable a nivel poblacional",
+        "what_happened": "Una revisión transatlántica sintetizó evidencia epidemiológica, mecanística y de exposición controlada sobre ruido ambiental. El ruido del tráfico rodado se asoció de manera consistente y dosis-dependiente con mayor riesgo de cardiopatía isquémica, ictus, insuficiencia cardíaca, diabetes, trastornos del sueño y problemas de salud mental. La evidencia para ruido ferroviario y aeronáutico fue menos consistente.",
+        "why_relevant": "El ruido podría representar una exposición cardiovascular relevante, particularmente en poblaciones urbanas y socioeconómicamente desfavorecidas, y suele coexistir con contaminación atmosférica, calor y factores ambientales adversos. La evidencia descrita es principalmente asociativa y la coexistencia de exposiciones limita la atribución causal; el resumen no aporta ensayos que demuestren que reducir ruido disminuya eventos cardiovasculares.",
+        "practical_implication": "La evaluación preventiva puede reconocer el ruido nocturno intenso como un posible contribuyente al riesgo y al deterioro del sueño, sin presentarlo como causa demostrada en un paciente individual. La reducción efectiva requiere principalmente medidas de salud pública, transporte y planificación urbana, además de estrategias individuales cuando sean factibles.",
+        "source_title": "Environmental noise and cardiometabolic health: a transatlantic perspective.",
+        "journal": "European heart journal",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1093/eurheartj/ehag885",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-21"
+      }
+    ],
+    "target_items": 10,
+    "selection_policy": "clinical-cardiology-v1",
+    "selection_mode": "ai"
+  },
+  {
     "date": "2026-11-25",
     "generated_at": "2026-11-25T19:36:00.640530+00:00",
     "items": [
