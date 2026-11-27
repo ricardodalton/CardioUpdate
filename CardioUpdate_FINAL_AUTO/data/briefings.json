@@ -1,5 +1,134 @@
 [
   {
+    "date": "2026-11-27",
+    "generated_at": "2026-11-27T04:18:38.043507+00:00",
+    "items": [
+      {
+        "title": "La insulina intravenosa se asoció con menor mortalidad que la subcutánea en shock cardiogénico, sin demostrar superioridad causal",
+        "what_happened": "En una cohorte retrospectiva de MIMIC-IV con 1.782 adultos con shock cardiogénico que recibieron insulina, la administración inicial intravenosa se asoció con menor mortalidad a 30, 90 y 360 días que la administración subcutánea. La mortalidad a 30 días fue del 35,1% con insulina intravenosa frente al 46,2% con insulina subcutánea; también se observó mayor riesgo de hipoglucemia con la vía intravenosa.",
+        "why_relevant": "El hallazgo aborda una decisión frecuente en un síndrome de muy alta mortalidad y evalúa desenlaces centrados en el paciente a largo plazo. El estudio aplicó ajuste multivariable, emparejamiento por propensión, ponderación y análisis de referencia a 24 horas. Sin embargo, la elección de la vía dependió del juicio clínico, no se dispuso de dosis ni objetivos glucémicos y persiste la posibilidad de confusión por indicación; por tanto, la asociación no establece que la vía intravenosa sea superior.",
+        "practical_implication": "El clínico puede considerar que los datos observacionales son coherentes con la preferencia actual por insulina intravenosa en pacientes inestables, pero no debería modificar por sí solo los protocolos ni asumir beneficio pronóstico causal. Debe extremarse la vigilancia de hipoglucemia.",
+        "source_title": "Subcutaneous versus intravenous insulin in managing patients with cardiogenic shock: a retrospective cohort study.",
+        "journal": "Journal of intensive care",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1186/s40560-026-00966-4",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-24"
+      },
+      {
+        "title": "La puntuación continua de urgencia identifica una mayor gravedad no reflejada por el estatus de trasplante en amiloidosis cardíaca",
+        "what_happened": "Un análisis del registro estadounidense de candidatos a trasplante cardíaco entre 2019 y 2024 evaluó 26.545 pacientes, incluidos 534 con amiloidosis cardíaca y 860 con miocardiopatía hipertrófica. Los candidatos con amiloidosis presentaron una mediana más alta de una puntuación continua validada de riesgo de 50 puntos que aquellos con miocardiopatía hipertrófica y otras etiologías, y ambos grupos recurrieron con frecuencia a excepciones para obtener prioridad de trasplante.",
+        "why_relevant": "El estudio puede tener consecuencias directas para la asignación de órganos en miocardiopatías restrictivas, en las que el sistema basado en tratamientos intensivos puede infravalorar la urgencia clínica. Su gran cohorte nacional y el uso de una puntuación validada fortalecen la señal. No obstante, se trata de una comparación observacional de métricas de riesgo y de estatus de lista, no de un ensayo que demuestre que cambiar el sistema de asignación mejore supervivencia postrasplante o equidad.",
+        "practical_implication": "Los equipos de insuficiencia cardíaca avanzada y trasplante pueden documentar de forma sistemática la gravedad clínica de pacientes con amiloidosis y miocardiopatía hipertrófica, especialmente cuando el estatus asignado no parece concordar con su riesgo. La reforma de asignación requeriría validación prospectiva y análisis de resultados.",
+        "source_title": "Assessment of Medical Urgency for Heart Transplant in Patients With Cardiac Amyloidosis and Hypertrophic Cardiomyopathy Using a Continuous Risk Score.",
+        "journal": "Circulation. Heart failure",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1161/circheartfailure.126.014710",
+        "specialty": "Miocardiopatías y miocarditis",
+        "publication_date": "2026-11-25"
+      },
+      {
+        "title": "Tras un síndrome coronario agudo, la intensificación con ezetimiba produjo la mayor reducción adicional de LDL-C en una cohorte real",
+        "what_happened": "Una cohorte longitudinal retrospectiva de 90 pacientes con síndrome coronario agudo sometidos a revascularización y rehabilitación cardíaca siguió los lípidos durante estatina de alta intensidad, cambio de estatina y posterior adición de ezetimiba. El LDL-C disminuyó significativamente a lo largo de las etapas terapéuticas, y la mayor reducción adicional se produjo tras añadir ezetimiba.",
+        "why_relevant": "La publicación ilustra una brecha práctica importante: la monoterapia secuencial con estatinas de alta intensidad fue insuficiente para alcanzar objetivos de LDL-C en esta cohorte de prevención secundaria. Es directamente aplicable a la revisión precoz y la intensificación terapéutica tras un evento coronario. Sus limitaciones son el carácter retrospectivo, un solo centro, 90 participantes y la ausencia en el resumen de cifras detalladas de consecución de objetivos; tampoco permite atribuir causalidad a las restricciones de formulario.",
+        "practical_implication": "El clínico debería reevaluar tempranamente el LDL-C después de un síndrome coronario agudo y valorar la intensificación conforme a las guías cuando persista por encima del objetivo, sin prolongar de forma innecesaria la monoterapia. El estudio no compara estrategias clínicas ni desenlaces cardiovasculares.",
+        "source_title": "Lipid-lowering treatment following acute coronary syndrome: real-world LDL-cholesterol target attainment and implications of restricted formulary access.",
+        "journal": "Acta cardiologica",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/00015385.2026.2767484",
+        "specialty": "Dislipidemias",
+        "publication_date": "2026-11-26"
+      },
+      {
+        "title": "La bomba microaxial transvalvular en shock cardiogénico relacionado con infarto podría ser coste-efectiva en Alemania bajo supuestos específicos",
+        "what_happened": "Un modelo económico de horizonte vital, desde la perspectiva del seguro sanitario público alemán, comparó una bomba de flujo microaxial transvalvular con la estrategia de referencia en shock cardiogénico relacionado con infarto. El modelo estimó 1,06 años de vida ajustados por calidad adicionales, 38.121 euros de coste incremental y una razón coste-efectividad incremental de 36.083 euros por año de vida ajustado por calidad. A un umbral ilustrativo de 50.000 euros, la probabilidad de coste-efectividad fue del 86%.",
+        "why_relevant": "El análisis traduce a eficiencia económica una intervención para un contexto de mortalidad extremadamente alta, incorporando tanto beneficio de supervivencia a 180 días procedente de un ensayo como eventos adversos relevantes. La interpretación está limitada por su carácter modelizado, por depender de supuestos de costes y por la falta de datos de facturación específicos por brazo. Además, el resumen recuerda un incremento de sangrado e isquemia de extremidad con la bomba.",
+        "practical_implication": "Los responsables asistenciales pueden considerar que la tecnología podría ser eficiente en un sistema sanitario comparable, pero la adopción no debería basarse únicamente en este modelo. Cada centro debe valorar selección de pacientes, capacidad para tratar complicaciones y costes locales.",
+        "source_title": "Cost-effectiveness of a transvalvular microaxial flow pump in infarct-related cardiogenic shock from the perspective of German statutory health insurance.",
+        "journal": "Expert review of pharmacoeconomics & outcomes research",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1080/14737167.2026.2767331",
+        "specialty": "Insuficiencia cardíaca",
+        "publication_date": "2026-11-24"
+      },
+      {
+        "title": "La revisión de la terapia antitrombótica tras bypass coronario cuestiona extrapolar de forma rutinaria la doble antiagregación de la angioplastia",
+        "what_happened": "Una revisión clínica sintetizó la evidencia contemporánea sobre tratamiento antitrombótico tras cirugía de revascularización coronaria. Mantiene que la aspirina de por vida es la base del tratamiento, mientras que la indicación, intensidad y duración de la doble antiagregación siguen siendo controvertidas. La revisión destaca que ensayos específicos de cirugía están cuestionando la aplicación rutinaria de esquemas derivados de la intervención coronaria percutánea.",
+        "why_relevant": "La prevención del fracaso de injertos venosos y de eventos isquémicos tras cirugía afecta a una población amplia y con riesgo hemorrágico heterogéneo. La principal aportación es un enfoque adaptado a la fisiopatología temporal del fallo de injerto y al riesgo individual de sangrado. Sin embargo, es una revisión y el resumen no aporta resultados cuantitativos ni permite valorar los ensayos incluidos; por ello, no demuestra una estrategia antitrombótica concreta superior.",
+        "practical_implication": "El clínico debería individualizar la doble antiagregación tras bypass según presentación clínica, riesgo isquémico, tipo de injerto y susceptibilidad hemorrágica, en lugar de extrapolar automáticamente pautas de angioplastia. La aspirina sigue siendo el pilar cuando no exista contraindicación.",
+        "source_title": "Antithrombotic Therapy After Coronary Artery Bypass Grafting.",
+        "journal": "JAMA cardiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1001/jamacardio.2026.5118",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2026-11-25"
+      },
+      {
+        "title": "La alternancia mensual de aspirina y clopidogrel redujo síntomas gastrointestinales, pero no demostró seguridad cardiovascular",
+        "what_happened": "Una cohorte retrospectiva no aleatorizada de 160 pacientes mayores con enfermedad coronaria estable comparó una pauta de alternancia mensual entre aspirina con recubrimiento entérico y clopidogrel con doble antiagregación continua durante seis meses. La pauta alternante se asoció con menos síntomas y eventos gastrointestinales y con mayor adherencia. Hubo tres eventos cardiovasculares mayores en cada grupo.",
+        "why_relevant": "El estudio aborda intolerancia gastrointestinal y abandono terapéutico, problemas clínicamente relevantes en pacientes mayores. Sin embargo, los grupos no fueron asignados aleatoriamente, el seguimiento fue corto y solo hubo seis eventos cardiovasculares mayores en total. El propio resumen reconoce que la potencia fue claramente insuficiente para inferir no inferioridad cardiovascular; por ello, la ausencia de diferencia en eventos no avala la seguridad de la alternancia.",
+        "practical_implication": "El clínico no debería adoptar la alternancia mensual como sustituto de una pauta antitrombótica indicada. Ante intolerancia gastrointestinal, debe investigar la causa, optimizar protección gastrointestinal cuando proceda y seleccionar el régimen antitrombótico conforme a la indicación isquémica y el riesgo hemorrágico.",
+        "source_title": "The effect of alternating use of enteric-coated aspirin and clopidogrel on gastrointestinal symptoms and patient compliance in elderly patients with coronary heart disease.",
+        "journal": "Pakistan journal of pharmaceutical sciences",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.36721/PJPS/2026.40.17106.1",
+        "specialty": "Enfermedad coronaria",
+        "publication_date": "2027"
+      },
+      {
+        "title": "Un desfibrilador de una sola sonda con dipolo auricular flotante logró captura auricular aguda en la mayoría de los pacientes",
+        "what_happened": "Un estudio prospectivo en dos centros italianos evaluó la estimulación auricular aguda mediante el dipolo auricular flotante de un desfibrilador implantable de una sola sonda en 25 pacientes. La captura auricular se consiguió en 22 pacientes, equivalente al 88%, con estimulación bipolar. Las configuraciones unipolares lograron captura en el 72% y el 68%, respectivamente, y la configuración bipolar presentó umbrales de estimulación más bajos.",
+        "why_relevant": "El resultado aporta una prueba de concepto para ampliar la funcionalidad de sistemas de desfibrilador de una sola sonda, potencialmente evitando una segunda sonda en escenarios seleccionados. No obstante, la muestra es muy pequeña, predominantemente masculina y el desenlace es agudo y técnico. El resumen no informa eficacia sostenida, seguridad crónica, necesidad de revisiones ni resultados clínicos como arritmias, hospitalizaciones o calidad de vida.",
+        "practical_implication": "El clínico puede interpretar la estimulación auricular mediante dipolo flotante como una posibilidad técnica prometedora, no como una alternativa ya validada a los sistemas bicamerales convencionales cuando existe indicación establecida de estimulación auricular. Se necesitan datos de seguimiento prolongado.",
+        "source_title": "Atrial Pacing Capability of a Single-Lead Implantable Cardioverter-Defibrillator Incorporating an Atrial Floating Dipole.",
+        "journal": "Journal of cardiovascular electrophysiology",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1111/jce.70571",
+        "specialty": "Arritmias y electrofisiología",
+        "publication_date": "2026-11-25"
+      },
+      {
+        "title": "La actividad física en miocardiopatía hipertrófica se orienta hacia recomendaciones individualizadas en lugar de restricción universal",
+        "what_happened": "Una revisión sobre ejercicio en miocardiopatía hipertrófica describe el cambio desde la restricción generalizada hacia recomendaciones individualizadas basadas en estratificación de riesgo y decisión compartida. El artículo sostiene que la mayoría de los pacientes puede realizar actividad física y que, en pacientes de bajo riesgo, la actividad vigorosa se ha asociado con mejor capacidad funcional sin incremento de eventos adversos en la evidencia revisada.",
+        "why_relevant": "El cambio de paradigma puede afectar síntomas, capacidad funcional y calidad de vida de personas con miocardiopatía hipertrófica, incluidos deportistas recreativos. Sin embargo, el resumen no proporciona diseños, tamaños muestrales, definiciones de actividad vigorosa, duración de seguimiento ni tasas de eventos de los estudios citados. Por ello, no permite determinar la seguridad de cada modalidad deportiva ni extrapolar a pacientes con alto riesgo arrítmico.",
+        "practical_implication": "El clínico debería evitar una prohibición indiscriminada del ejercicio y formular una prescripción individual tras valorar síntomas, obstrucción, antecedentes arrítmicos, marcadores de riesgo de muerte súbita y preferencias de la persona. La participación deportiva competitiva requiere valoración específica y decisión compartida.",
+        "source_title": "Strategy for Exercise Restriction in Hypertrophic Cardiomyopathy.",
+        "journal": "Cardiology clinics",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1016/j.ccl.2026.08.007",
+        "specialty": "Cardiopatías congénitas del adulto y cardiología del deporte",
+        "publication_date": "2027"
+      },
+      {
+        "title": "La resonancia de difusión cardíaca con b alto mejoró la precisión de medidas microestructurales, sin demostrar utilidad clínica",
+        "what_happened": "Un estudio comparó resonancia magnética cardíaca con tensor de difusión a valores b de 500 y 1.000 s/mm² en 20 voluntarios sanos y seis pacientes con amiloidosis cardíaca, usando un sistema de 3 T con gradientes de muy alto rendimiento. El valor b de 1.000 s/mm² redujo la varianza espacial y la incertidumbre de varias medidas microestructurales, pese a menor relación señal-ruido. En los pacientes con amiloidosis, la difusividad media fue mayor y la anisotropía fraccional y la magnitud de la transmuralidad del ángulo helicoidal fueron menores que en voluntarios.",
+        "why_relevant": "La mejora de precisión puede facilitar la investigación y futura caracterización no invasiva de alteraciones microestructurales miocárdicas, especialmente en enfermedades infiltrativas. Sin embargo, el estudio incluye únicamente seis pacientes con amiloidosis, no evalúa reproducibilidad entre centros ni asociación con síntomas, eventos, diagnóstico diferencial o decisiones terapéuticas. Las diferencias de biomarcadores de imagen no equivalen a beneficio clínico demostrado.",
+        "practical_implication": "El clínico no debería incorporar todavía este protocolo para estratificación pronóstica rutinaria de amiloidosis. Los centros con experiencia pueden considerarlo una técnica de investigación prometedora mientras se esperan estudios de validación clínica y multicéntrica.",
+        "source_title": "Improved Precision of High b-Value In Vivo Cardiac Diffusion Tensor Imaging on a Commercial Ultrahigh Performance Gradient MRI System.",
+        "journal": "NMR in biomedicine",
+        "source_database": "PubMed",
+        "url": "https://doi.org/10.1002/nbm.70443",
+        "specialty": "Miocardiopatías y miocarditis",
+        "publication_date": "2027"
+      },
+      {
+        "title": "La combinación de puntuaciones poligénicas y proteómicas mejoró modestamente la predicción de riesgo cardiometabólico",
+        "what_happened": "Un análisis genómico multivariante identificó una arquitectura compartida entre enfermedad coronaria, insuficiencia cardíaca, ictus, hipertensión, obesidad, diabetes tipo 2 y la relación triglicéridos/HDL-C. En 310.708 participantes del UK Biobank, el decil más alto frente al más bajo de una puntuación poligénica se asoció con un riesgo 2,82 veces mayor de enfermedad cardiometabólica. En un subconjunto proteómico, la puntuación proteómica alcanzó un AUC de 0,740 frente a 0,681 para la puntuación poligénica; el modelo combinado alcanzó un AUC de 0,741.",
+        "why_relevant": "El trabajo integra información heredada y proteómica y muestra que la proteómica añade capacidad predictiva frente a la puntuación poligénica aislada. Su gran tamaño muestral y la cuantificación de discriminación son fortalezas. No obstante, la ganancia del modelo combinado sobre la puntuación proteómica fue mínima, los análisis se realizaron en cohortes de ascendencia europea y el propio estudio solicita validación externa y un panel proteico más parsimonioso. No demuestra que usar estas puntuaciones mejore desenlaces clínicos.",
+        "practical_implication": "El clínico no debería utilizar estas puntuaciones para sustituir la evaluación convencional de riesgo ni para decidir tratamiento de forma aislada. La evidencia respalda su potencial para investigación y futura estratificación, pendiente de validación externa, evaluación de equidad y demostración de utilidad clínica.",
+        "source_title": "Multivariate genome-wide association study of cardiometabolic diseases reveals shared genetic architecture and enhances risk prediction through integrated polygenic and proteomic risk scores.",
+        "journal": "Metabolism: clinical and experimental",
+        "source_database": "Europe PMC",
+        "url": "https://doi.org/10.1016/j.metabol.2026.156854",
+        "specialty": "Prevención cardiovascular y aterosclerosis",
+        "publication_date": "2026-11-25"
+      }
+    ],
+    "target_items": 10,
+    "selection_policy": "clinical-cardiology-v1",
+    "selection_mode": "ai"
+  },
+  {
     "date": "2026-11-26",
     "generated_at": "2026-11-26T19:24:22.856047+00:00",
     "items": [
